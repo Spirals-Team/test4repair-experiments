@@ -1,0 +1,401 @@
+{
+    "date": "Fri Jan 20 01:15:41 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "24", 
+    "node": "graphene-10.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "return solve(f, min, yMin, max, yMax, initial, yInitial)", 
+            "generation": 334, 
+            "ingredients": null, 
+            "patch": "return solve(f, initial, max)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 138, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "32", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "6", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2140", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "699", 
+            "type": "ReplaceOp", 
+            "variant": 668
+        }, 
+        {
+            "buggyStatement": "double yMin = f.value(min)", 
+            "generation": 376, 
+            "ingredients": null, 
+            "patch": "verifyBracketing(min, max, f)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 113, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "32", 
+                "evaltcfailing": "9", 
+                "fvalresult": "true", 
+                "fvaltcall": "6", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2140", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "813", 
+            "type": "InsertBeforeOp", 
+            "variant": 752
+        }, 
+        {
+            "buggyStatement": "return solve(f, min, yMin, max, yMax, initial, yInitial)", 
+            "generation": 441, 
+            "ingredients": null, 
+            "patch": "return solve(f, min, max)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 138, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "32", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "6", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2140", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "996", 
+            "type": "ReplaceOp", 
+            "variant": 882
+        }, 
+        {
+            "buggyStatement": "return solve(f, min, yMin, max, yMax, initial, yInitial)", 
+            "generation": 816, 
+            "ingredients": null, 
+            "patch": "verifyBracketing(min, max, f)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 138, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "32", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "6", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2140", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "1601", 
+            "type": "InsertBeforeOp", 
+            "variant": 1632
+        }, 
+        {
+            "buggyStatement": "return solve(f, min, yMin, max, yMax, initial, yInitial)", 
+            "generation": 1082, 
+            "ingredients": null, 
+            "patch": "return solve(f, min, initial)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 138, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "32", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "6", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2140", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "1964", 
+            "type": "ReplaceOp", 
+            "variant": 2164
+        }, 
+        {
+            "buggyStatement": "if ((java.lang.Math.abs(yMax)) <= (functionValueAccuracy)) {\n\tsetResult(yMax, 0);\n\treturn result;\n} ", 
+            "generation": 1253, 
+            "ingredients": null, 
+            "patch": "verifyBracketing(min, max, f)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 126, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "32", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "6", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2140", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "2255", 
+            "type": "InsertAfterOp", 
+            "variant": 2506
+        }, 
+        {
+            "buggyStatement": "if ((yInitial * yMin) < 0) {\n\treturn solve(f, min, yMin, initial, yInitial, min, yMin);\n} ", 
+            "generation": 1276, 
+            "ingredients": null, 
+            "patch": "verifyBracketing(min, max, f)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 120, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "32", 
+                "evaltcfailing": "6", 
+                "fvalresult": "true", 
+                "fvaltcall": "6", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2140", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "2342", 
+            "type": "InsertAfterOp", 
+            "variant": 2552
+        }, 
+        {
+            "buggyStatement": "if ((java.lang.Math.abs(yMin)) <= (functionValueAccuracy)) {\n\tsetResult(yMin, 0);\n\treturn result;\n} ", 
+            "generation": 1402, 
+            "ingredients": null, 
+            "patch": "verifyBracketing(min, max, f)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 114, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "32", 
+                "evaltcfailing": "9", 
+                "fvalresult": "true", 
+                "fvaltcall": "6", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2140", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "2561", 
+            "type": "InsertBeforeOp", 
+            "variant": 2804
+        }, 
+        {
+            "buggyStatement": "double yMax = f.value(max)", 
+            "generation": 2349, 
+            "ingredients": null, 
+            "patch": "verifyBracketing(min, max, f)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 125, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "32", 
+                "evaltcfailing": "6", 
+                "fvalresult": "true", 
+                "fvaltcall": "6", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2140", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "3941", 
+            "type": "InsertBeforeOp", 
+            "variant": 4698
+        }, 
+        {
+            "buggyStatement": "double yMin = f.value(min)", 
+            "generation": 3110, 
+            "ingredients": null, 
+            "patch": "verifyBracketing(min, max, f)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 113, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "32", 
+                "evaltcfailing": "9", 
+                "fvalresult": "true", 
+                "fvaltcall": "6", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2140", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "4900", 
+            "type": "InsertAfterOp", 
+            "variant": 6220
+        }, 
+        {
+            "buggyStatement": "if ((java.lang.Math.abs(yMax)) <= (functionValueAccuracy)) {\n\tsetResult(yMax, 0);\n\treturn result;\n} ", 
+            "generation": 3174, 
+            "ingredients": null, 
+            "patch": "verifyBracketing(min, max, f)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 126, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "32", 
+                "evaltcfailing": "6", 
+                "fvalresult": "true", 
+                "fvaltcall": "6", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2140", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "5081", 
+            "type": "InsertBeforeOp", 
+            "variant": 6348
+        }, 
+        {
+            "buggyStatement": "double yMax = f.value(max)", 
+            "generation": 3209, 
+            "ingredients": null, 
+            "patch": "verifyBracketing(min, max, f)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 125, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "32", 
+                "evaltcfailing": "6", 
+                "fvalresult": "true", 
+                "fvaltcall": "6", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2140", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "5200", 
+            "type": "InsertAfterOp", 
+            "variant": 6418
+        }, 
+        {
+            "buggyStatement": "if ((java.lang.Math.abs(yMin)) <= (functionValueAccuracy)) {\n\tsetResult(yMin, 0);\n\treturn result;\n} ", 
+            "generation": 3596, 
+            "ingredients": null, 
+            "patch": "verifyBracketing(min, max, f)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 114, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "32", 
+                "evaltcfailing": "7", 
+                "fvalresult": "true", 
+                "fvaltcall": "6", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2140", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "5789", 
+            "type": "InsertAfterOp", 
+            "variant": 7192
+        }, 
+        {
+            "buggyStatement": "if ((yInitial * yMax) < 0) {\n\treturn solve(f, initial, yInitial, max, yMax, initial, yInitial);\n} ", 
+            "generation": 3636, 
+            "ingredients": null, 
+            "patch": "verifyBracketing(min, max, f)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 132, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "32", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "6", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2140", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "5903", 
+            "type": "InsertBeforeOp", 
+            "variant": 7272
+        }, 
+        {
+            "buggyStatement": "if ((java.lang.Math.abs(yInitial)) <= (functionValueAccuracy)) {\n\tsetResult(initial, 0);\n\treturn result;\n} ", 
+            "generation": 4380, 
+            "ingredients": null, 
+            "patch": "verifyBracketing(min, max, f)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 107, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "32", 
+                "evaltcfailing": "9", 
+                "fvalresult": "true", 
+                "fvaltcall": "6", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2140", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "6926", 
+            "type": "InsertAfterOp", 
+            "variant": 8760
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "668", 
+    "timeEvaluation": null, 
+    "timeTotal": "7288"
+}

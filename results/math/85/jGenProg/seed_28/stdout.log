@@ -1,0 +1,322 @@
+seed AstorRun 28 
+export PATH="/home/mmartinez/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/mmartinez/projects/math/math_85;defects4j compile;cp -r /home/mmartinez/projects/math/math_85 /tmp/math_85_Genprog_local_s1;cd /tmp/math_85_Genprog_local_s1;mkdir lib/;cp -r /home/mmartinez/defects4j/framework/projects/lib/* lib/;cp -r /home/mmartinez/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/28/package/85/Genprog/result
+cd /tmp/math_85_Genprog_local_s1;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";time /home/mmartinez/jdk1.8.0_45/bin//java -Xmx4096m -cp /home/mmartinez/defects4j-repair/src/python/core/../../..//libs/astor.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -id Math -dependencies lib/ -failing org.apache.commons.math.distribution.NormalDistributionTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -jvm4evosuitetestexecution /home/mmartinez/jdk1.8.0_45/bin/ -javacompliancelevel 5 -maxgen 1000000 -seed 28 -scope package -maxtime 120  -stopfirst false -population 1 -srcjavafolder src/java/ -srctestfolder src/test/ -binjavafolder target/classes/ -bintestfolder target/test-classes/ -flthreshold 0.1  -validation  fr.inria.astor.core.validation.validators.RegressionValidation  -ESParameters -Dassertion_timeout=1800:-Dminimization_timeout=1800:-Djunit_check_timeout=1800:-Dwrite_junit_timeout=300:-Dinitialization_timeout=300:-Dglobal_timeout=18000:-Dsearch_budget=100000:-Dstopping_condition=MaxStatements:-Dno_runtime_dependency=true:-Dsandbox=false:-Dp_reflection_on_private=0.0:-Dreflection_start_percent=1.0:-Dp_functional_mocking=0.0:-Dfunctional_mocking_percent=1.0:-mem=2000 -testbystep  -ignoredtestcases org.apache.commons.lang.LocaleUtilsTest  -excludeRegression  -maxgen 100000000 ;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+"; find /tmp/math_85_Genprog_local_s1/outputMutation -name "*.class" -type f -delete;echo "removed classes 
+"; find . -name bin  -type d -print0|xargs -0 rm -r --; zip -r -q out.zip /tmp/math_85_Genprog_local_s1/outputMutation; echo "zipped 
+";cp out.zip /home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/28/package/85/Genprog; echo "copied zip 
+";rm -rf /tmp/math_85_Genprog_local_s1;
+
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:136) - End Repair Loops: Found solution
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:137) - Solution stored at: /tmp/math_85_Genprog_local_s1/./outputMutation/AstorMain-Math//src/
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:142) - 
+Number solutions:16
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 180 (SOL) , #gens: 63, #ops: 1, parent:179]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 292 (SOL) , #gens: 63, #ops: 1, parent:291]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 554 (SOL) , #gens: 63, #ops: 1, parent:553]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 650 (SOL) , #gens: 64, #ops: 1, parent:649]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 1126 (SOL) , #gens: 64, #ops: 1, parent:1125]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 1388 (SOL) , #gens: 63, #ops: 1, parent:1387]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 1672 (SOL) , #gens: 63, #ops: 1, parent:1671]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 1678 (SOL) , #gens: 63, #ops: 1, parent:1677]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 1720 (SOL) , #gens: 63, #ops: 1, parent:1719]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 2050 (SOL) , #gens: 63, #ops: 1, parent:2049]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 2056 (SOL) , #gens: 63, #ops: 1, parent:2055]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 2168 (SOL) , #gens: 63, #ops: 1, parent:2167]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 2318 (SOL) , #gens: 63, #ops: 1, parent:2317]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 2514 (SOL) , #gens: 63, #ops: 1, parent:2513]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 2536 (SOL) , #gens: 63, #ops: 1, parent:2535]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 2604 (SOL) , #gens: 63, #ops: 1, parent:2603]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:146) - 
+All variants:
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:148) - f 1.0, [Variant id: 3005, #gens: 64, #ops: 0, parent:-]
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:152) - 
+Solution details
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:153) - 
+ --SOLUTIONS DESCRIPTION--
+
+ ----
+ProgramVariant 180
+ 
+time(sec)= 1197
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils
+line= 199
+lineSuspiciousness= 1
+original statement= throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb)
+fixed statement= 
+generation= 90
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|1983|[]|
+evo_regression: |false|3|25|[test17(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test11(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test00(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-]|
+ ----
+ProgramVariant 292
+ 
+time(sec)= 1331
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils
+line= 199
+lineSuspiciousness= 1
+original statement= throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb)
+fixed statement= 
+generation= 146
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|1983|[]|
+evo_regression: |false|3|25|[test17(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test11(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test00(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-]|
+ ----
+ProgramVariant 554
+ 
+time(sec)= 1676
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils
+line= 199
+lineSuspiciousness= 1
+original statement= throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb)
+fixed statement= 
+generation= 277
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|1983|[]|
+evo_regression: |false|3|25|[test17(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test11(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test00(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-]|
+ ----
+ProgramVariant 650
+ 
+time(sec)= 1835
+operation: ReplaceOp
+location= org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils
+line= 198
+lineSuspiciousness= 0.243
+original statement= if ((fa * fb) >= 0.0) {
+	throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb);
+} 
+fixed statement= if (maximumIterations <= 0) {
+	throw org.apache.commons.math.MathRuntimeException.createIllegalArgumentException("bad value for maximum iterations number: {0}", maximumIterations);
+} 
+generation= 325
+ingredientScope= LOCAL
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|1983|[]|
+evo_regression: |false|3|25|[test17(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test11(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test00(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-]|
+ ----
+ProgramVariant 1126
+ 
+time(sec)= 2776
+operation: ReplaceOp
+location= org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils
+line= 198
+lineSuspiciousness= 0.243
+original statement= if ((fa * fb) >= 0.0) {
+	throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb);
+} 
+fixed statement= if (((initial < lowerBound) || (initial > upperBound)) || (lowerBound >= upperBound)) {
+	throw org.apache.commons.math.MathRuntimeException.createIllegalArgumentException("invalid bracketing parameters:  lower bound={0},  initial={1}, upper bound={2}", lowerBound, initial, upperBound);
+} 
+generation= 563
+ingredientScope= LOCAL
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|1983|[]|
+evo_regression: |false|3|25|[test17(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test11(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test00(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-]|
+ ----
+ProgramVariant 1388
+ 
+time(sec)= 3449
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils
+line= 199
+lineSuspiciousness= 1
+original statement= throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb)
+fixed statement= 
+generation= 694
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|1983|[]|
+evo_regression: |false|3|25|[test17(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test11(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test00(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-]|
+ ----
+ProgramVariant 1672
+ 
+time(sec)= 3946
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils
+line= 199
+lineSuspiciousness= 1
+original statement= throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb)
+fixed statement= 
+generation= 836
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|1983|[]|
+evo_regression: |false|3|25|[test17(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test11(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test00(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-]|
+ ----
+ProgramVariant 1678
+ 
+time(sec)= 4055
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils
+line= 199
+lineSuspiciousness= 1
+original statement= throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb)
+fixed statement= 
+generation= 839
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|1983|[]|
+evo_regression: |false|3|25|[test17(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test11(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test00(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-]|
+ ----
+ProgramVariant 1720
+ 
+time(sec)= 4176
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils
+line= 199
+lineSuspiciousness= 1
+original statement= throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb)
+fixed statement= 
+generation= 860
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|1983|[]|
+evo_regression: |false|3|25|[test17(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test11(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test00(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-]|
+ ----
+ProgramVariant 2050
+ 
+time(sec)= 5121
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils
+line= 199
+lineSuspiciousness= 1
+original statement= throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb)
+fixed statement= 
+generation= 1025
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|1983|[]|
+evo_regression: |false|3|25|[test17(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test11(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test00(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-]|
+ ----
+ProgramVariant 2056
+ 
+time(sec)= 5231
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils
+line= 199
+lineSuspiciousness= 1
+original statement= throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb)
+fixed statement= 
+generation= 1028
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|1983|[]|
+evo_regression: |false|3|25|[test17(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test11(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test00(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-]|
+ ----
+ProgramVariant 2168
+ 
+time(sec)= 5501
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils
+line= 199
+lineSuspiciousness= 1
+original statement= throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb)
+fixed statement= 
+generation= 1084
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|1983|[]|
+evo_regression: |false|3|25|[test17(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test11(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test00(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-]|
+ ----
+ProgramVariant 2318
+ 
+time(sec)= 5647
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils
+line= 198
+lineSuspiciousness= 0.243
+original statement= if ((fa * fb) >= 0.0) {
+	throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb);
+} 
+fixed statement= 
+generation= 1159
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|1983|[]|
+evo_regression: |false|3|25|[test17(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test11(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test00(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-]|
+ ----
+ProgramVariant 2514
+ 
+time(sec)= 6079
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils
+line= 199
+lineSuspiciousness= 1
+original statement= throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb)
+fixed statement= 
+generation= 1257
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|1983|[]|
+evo_regression: |false|3|25|[test17(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test11(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test00(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-]|
+ ----
+ProgramVariant 2536
+ 
+time(sec)= 6192
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils
+line= 199
+lineSuspiciousness= 1
+original statement= throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb)
+fixed statement= 
+generation= 1268
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|1983|[]|
+evo_regression: |false|3|25|[test17(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test11(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test00(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-]|
+ ----
+ProgramVariant 2604
+ 
+time(sec)= 6572
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils
+line= 199
+lineSuspiciousness= 1
+original statement= throw new org.apache.commons.math.ConvergenceException(("number of iterations={0}, maximum iterations={1}, " + ("initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb)
+fixed statement= 
+generation= 1302
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|1983|[]|
+evo_regression: |false|3|25|[test17(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test11(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-, test00(org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils_ESTest): Expecting exception: Exception-]|
+[INFO ] fr.inria.main.evolution.AstorMain.run(AstorMain.java:397) - Time Total(s): 7313.253
+
+
+Node: grisou-16.nancy.grid5000.fr
+
+
+Date: Sat Jan 28 11:27:26 CET 2017
+
+removed classes 
+
+zipped 
+
+copied zip 
+
+

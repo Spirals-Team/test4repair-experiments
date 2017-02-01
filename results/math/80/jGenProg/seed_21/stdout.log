@@ -1,0 +1,188 @@
+seed AstorRun 21 
+export PATH="/home/mmartinez/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/mmartinez/projects/math/math_80;defects4j compile;cp -r /home/mmartinez/projects/math/math_80 /tmp/math_80_Genprog_local_s1;cd /tmp/math_80_Genprog_local_s1;mkdir lib/;cp -r /home/mmartinez/defects4j/framework/projects/lib/* lib/;cp -r /home/mmartinez/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/21/package/80/Genprog/result
+cd /tmp/math_80_Genprog_local_s1;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";time /home/mmartinez/jdk1.8.0_45/bin//java -Xmx4096m -cp /home/mmartinez/defects4j-repair/src/python/core/../../..//libs/astor.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -id Math -dependencies lib/ -failing org.apache.commons.math.linear.EigenDecompositionImplTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -jvm4evosuitetestexecution /home/mmartinez/jdk1.8.0_45/bin/ -javacompliancelevel 5 -maxgen 1000000 -seed 21 -scope package -maxtime 120  -stopfirst false -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/ -flthreshold 0.1  -validation  fr.inria.astor.core.validation.validators.RegressionValidation  -ESParameters -Dassertion_timeout=1800:-Dminimization_timeout=1800:-Djunit_check_timeout=1800:-Dwrite_junit_timeout=300:-Dinitialization_timeout=300:-Dglobal_timeout=18000:-Dsearch_budget=100000:-Dstopping_condition=MaxStatements:-Dno_runtime_dependency=true:-Dsandbox=false:-Dp_reflection_on_private=0.0:-Dreflection_start_percent=1.0:-Dp_functional_mocking=0.0:-Dfunctional_mocking_percent=1.0:-mem=2000 -ignoredtestcases org.apache.commons.lang.LocaleUtilsTest  -excludeRegression  -maxgen 100000000 ;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+"; find /tmp/math_80_Genprog_local_s1/outputMutation -name "*.class" -type f -delete;echo "removed classes 
+"; find . -name bin  -type d -print0|xargs -0 rm -r --; zip -r -q out.zip /tmp/math_80_Genprog_local_s1/outputMutation; echo "zipped 
+";cp out.zip /home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/21/package/80/Genprog; echo "copied zip 
+";rm -rf /tmp/math_80_Genprog_local_s1;
+
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:136) - End Repair Loops: Found solution
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:137) - Solution stored at: /tmp/math_80_Genprog_local_s1/./outputMutation/AstorMain-Math//src/
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:142) - 
+Number solutions:6
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 5.0, [Variant id: 732 (SOL) , #gens: 493, #ops: 1, parent:731]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 5.0, [Variant id: 804 (SOL) , #gens: 494, #ops: 1, parent:803]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 5.0, [Variant id: 982 (SOL) , #gens: 494, #ops: 1, parent:981]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 5.0, [Variant id: 1070 (SOL) , #gens: 493, #ops: 1, parent:1069]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 5.0, [Variant id: 1082 (SOL) , #gens: 493, #ops: 1, parent:1081]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 5.0, [Variant id: 1234 (SOL) , #gens: 494, #ops: 1, parent:1233]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:146) - 
+All variants:
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:148) - f 1.0, [Variant id: 1299, #gens: 494, #ops: 0, parent:-]
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:152) - 
+Solution details
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:153) - 
+ --SOLUTIONS DESCRIPTION--
+
+ ----
+ProgramVariant 732
+ 
+time(sec)= 4804
+operation: RemoveOp
+location= org.apache.commons.math.linear.EigenDecompositionImpl
+line= 1133
+lineSuspiciousness= 0.243
+original statement= if ((1.5 * (work[pingPong])) < (work[((4 * (n - 1)) + (pingPong))])) {
+	int j = (4 * n) - 1;
+	for (int i = 0 ; i < j ; i += 4) {
+		for (int k = 0 ; k < 4 ; k += step) {
+			final double tmp = work[(i + k)];
+			work[(i + k)] = work[(j - k)];
+			work[(j - k)] = tmp;
+		}
+		j -= 4;
+	}
+	return true;
+} 
+fixed statement= 
+generation= 366
+ingredientScope= -
+validation=
+failing: |true|0|18|[]|
+manual_regression: |true|0|2102|[]|
+evo_regression: |false|5|47|[test14(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): -, test18(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<-1.2451181049879178E13> but was:<-1.4025858868991166E8>-, test17(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<4.498581581587663E15> but was:<-1.7096445941804598E15>-, test19(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<-2.662089438254711E15> but was:<2.350359239550841E15>-, test21(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): -]|
+ ----
+ProgramVariant 804
+ 
+time(sec)= 5136
+operation: ReplaceOp
+location= org.apache.commons.math.linear.EigenDecompositionImpl
+line= 1139
+lineSuspiciousness= 1
+original statement= work[(i + k)] = work[(j - k)]
+fixed statement= dMin = dN1
+generation= 402
+ingredientScope= LOCAL
+validation=
+failing: |true|0|18|[]|
+manual_regression: |true|0|2102|[]|
+evo_regression: |false|5|47|[test14(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): -, test18(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<-1.2451181049879178E13> but was:<-9.68953910377612E12>-, test17(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<4.498581581587663E15> but was:<1.0069974164051292E19>-, test19(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<-2.662089438254711E15> but was:<7.8243093193484667E18>-, test21(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): -]|
+ ----
+ProgramVariant 982
+ 
+time(sec)= 5770
+operation: ReplaceOp
+location= org.apache.commons.math.linear.EigenDecompositionImpl
+line= 1136
+lineSuspiciousness= 1
+original statement= for (int i = 0 ; i < j ; i += 4) {
+	for (int k = 0 ; k < 4 ; k += step) {
+		final double tmp = work[(i + k)];
+		work[(i + k)] = work[(j - k)];
+		work[(j - k)] = tmp;
+	}
+	j -= 4;
+}
+fixed statement= for (int i = 0 ; i < (squaredSecondary.length) ; ++i) {
+	final double s = secondary[i];
+	squaredSecondary[i] = s * s;
+}
+generation= 491
+ingredientScope= LOCAL
+validation=
+failing: |true|0|18|[]|
+manual_regression: |true|0|2102|[]|
+evo_regression: |false|5|47|[test14(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): -, test18(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<-1.2451181049879178E13> but was:<-1.4025858868905997E8>-, test17(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<4.498581581587663E15> but was:<-1.7096445941804598E15>-, test19(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<-2.662089438254711E15> but was:<2.350359239550841E15>-, test21(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): -]|
+ ----
+ProgramVariant 1070
+ 
+time(sec)= 6423
+operation: RemoveOp
+location= org.apache.commons.math.linear.EigenDecompositionImpl
+line= 1136
+lineSuspiciousness= 1
+original statement= for (int i = 0 ; i < j ; i += 4) {
+	for (int k = 0 ; k < 4 ; k += step) {
+		final double tmp = work[(i + k)];
+		work[(i + k)] = work[(j - k)];
+		work[(j - k)] = tmp;
+	}
+	j -= 4;
+}
+fixed statement= 
+generation= 535
+ingredientScope= -
+validation=
+failing: |true|0|18|[]|
+manual_regression: |true|0|2102|[]|
+evo_regression: |false|5|47|[test14(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): -, test18(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<-1.2451181049879178E13> but was:<-1.4025858868905997E8>-, test17(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<4.498581581587663E15> but was:<-1.7096445941804598E15>-, test19(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<-2.662089438254711E15> but was:<2.350359239550841E15>-, test21(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): -]|
+ ----
+ProgramVariant 1082
+ 
+time(sec)= 6516
+operation: RemoveOp
+location= org.apache.commons.math.linear.EigenDecompositionImpl
+line= 1136
+lineSuspiciousness= 1
+original statement= for (int i = 0 ; i < j ; i += 4) {
+	for (int k = 0 ; k < 4 ; k += step) {
+		final double tmp = work[(i + k)];
+		work[(i + k)] = work[(j - k)];
+		work[(j - k)] = tmp;
+	}
+	j -= 4;
+}
+fixed statement= 
+generation= 541
+ingredientScope= -
+validation=
+failing: |true|0|18|[]|
+manual_regression: |true|0|2102|[]|
+evo_regression: |false|5|47|[test14(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): -, test18(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<-1.2451181049879178E13> but was:<-1.4025858868905997E8>-, test17(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<4.498581581587663E15> but was:<-1.7096445941804598E15>-, test19(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<-2.662089438254711E15> but was:<2.350359239550841E15>-, test21(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): -]|
+ ----
+ProgramVariant 1234
+ 
+time(sec)= 7085
+operation: ReplaceOp
+location= org.apache.commons.math.linear.EigenDecompositionImpl
+line= 1136
+lineSuspiciousness= 1
+original statement= for (int i = 0 ; i < j ; i += 4) {
+	for (int k = 0 ; k < 4 ; k += step) {
+		final double tmp = work[(i + k)];
+		work[(i + k)] = work[(j - k)];
+		work[(j - k)] = tmp;
+	}
+	j -= 4;
+}
+fixed statement= for (int i = 0 ; i < (realEigenvalues.length) ; ++i) {
+	if (((realEigenvalues[i]) == 0) && ((imagEigenvalues[i]) == 0)) {
+		return false;
+	} 
+}
+generation= 617
+ingredientScope= LOCAL
+validation=
+failing: |true|0|18|[]|
+manual_regression: |true|0|2102|[]|
+evo_regression: |false|5|47|[test14(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): -, test18(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<-1.2451181049879178E13> but was:<-1.4025858868991166E8>-, test17(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<4.498581581587663E15> but was:<-1.7096445941804598E15>-, test19(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<-2.662089438254711E15> but was:<2.350359239550841E15>-, test21(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): -]|
+[INFO ] fr.inria.main.evolution.AstorMain.run(AstorMain.java:397) - Time Total(s): 7414.238
+
+
+Node: grisou-13.nancy.grid5000.fr
+
+
+Date: Sat Jan 21 21:02:42 CET 2017
+
+removed classes 
+
+zipped 
+
+copied zip 
+
+

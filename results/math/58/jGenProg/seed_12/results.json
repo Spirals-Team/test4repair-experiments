@@ -1,0 +1,661 @@
+{
+    "date": "Sat Jan 14 15:26:11 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "399", 
+    "node": "grisou-10.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "work1[pj] = ((work3[pj]) * (diag[pj])) / dxNorm", 
+            "generation": 54, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+                "line": 595, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "15", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "9"
+            }, 
+            "scope": "-", 
+            "time": "1215", 
+            "type": "RemoveOp", 
+            "variant": 108
+        }, 
+        {
+            "buggyStatement": "if (((lmPar) == 0) || (ratio >= 0.75)) {\n\tdelta = 2 * lmNorm;\n\tlmPar *= 0.5;\n} ", 
+            "generation": 66, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+                "line": 391, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "15", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "6"
+            }, 
+            "scope": "-", 
+            "time": "1500", 
+            "type": "RemoveOp", 
+            "variant": 132
+        }, 
+        {
+            "buggyStatement": "if ((lmPar) == 0) {\n\tlmPar = gNorm / dxNorm;\n} ", 
+            "generation": 182, 
+            "ingredients": null, 
+            "patch": "if (fp > 0) {\n\tparl = org.apache.commons.math.util.FastMath.max(parl, lmPar);\n} else {\n\tif (fp < 0) {\n\t\tparu = org.apache.commons.math.util.FastMath.min(paru, lmPar);\n\t} \n}", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+                "line": 557, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "15", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "7"
+            }, 
+            "scope": "LOCAL", 
+            "time": "2135", 
+            "type": "ReplaceOp", 
+            "variant": 364
+        }, 
+        {
+            "buggyStatement": "if (paru == 0) {\n\tparu = 2.2251E-308 / (org.apache.commons.math.util.FastMath.min(delta, 0.1));\n} ", 
+            "generation": 217, 
+            "ingredients": null, 
+            "patch": "if (fp > 0) {\n\tparl = org.apache.commons.math.util.FastMath.max(parl, lmPar);\n} else {\n\tif (fp < 0) {\n\t\tparu = org.apache.commons.math.util.FastMath.min(paru, lmPar);\n\t} \n}", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+                "line": 549, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "15", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "7"
+            }, 
+            "scope": "LOCAL", 
+            "time": "2512", 
+            "type": "ReplaceOp", 
+            "variant": 434
+        }, 
+        {
+            "buggyStatement": "throw new org.apache.commons.math.exception.NotStrictlyPositiveException(param[2])", 
+            "generation": 255, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.function.Gaussian", 
+                "line": 183, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "16", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "2"
+            }, 
+            "scope": "-", 
+            "time": "2956", 
+            "type": "RemoveOp", 
+            "variant": 510
+        }, 
+        {
+            "buggyStatement": "for (int j = 0 ; j < (solvedCols) ; ++j) {\n\tint pj = permutation[j];\n\twork1[pj] = ((work3[pj]) * (diag[pj])) / dxNorm;\n}", 
+            "generation": 270, 
+            "ingredients": null, 
+            "patch": "for (int j = rank ; j < (cols) ; ++j) {\n\tlmDir[permutation[j]] = 0;\n}", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+                "line": 593, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "15", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "8"
+            }, 
+            "scope": "LOCAL", 
+            "time": "3049", 
+            "type": "ReplaceOp", 
+            "variant": 540
+        }, 
+        {
+            "buggyStatement": "double gamma = 0", 
+            "generation": 371, 
+            "ingredients": null, 
+            "patch": "lmPar = 0", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+                "line": 843, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "15", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "4"
+            }, 
+            "scope": "LOCAL", 
+            "time": "3779", 
+            "type": "InsertAfterOp", 
+            "variant": 742
+        }, 
+        {
+            "buggyStatement": "point[pj] = oldX[pj]", 
+            "generation": 414, 
+            "ingredients": null, 
+            "patch": "cost = org.apache.commons.math.util.FastMath.sqrt(cost)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+                "line": 420, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "15", 
+                "evaltcfailing": "7", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "15"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "4054", 
+            "type": "InsertBeforeOp", 
+            "variant": 828
+        }, 
+        {
+            "buggyStatement": "dxNorm = org.apache.commons.math.util.FastMath.sqrt(dxNorm)", 
+            "generation": 429, 
+            "ingredients": null, 
+            "patch": "cost = 0", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+                "line": 581, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "15", 
+                "evaltcfailing": "8", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "11"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "4155", 
+            "type": "ReplaceOp", 
+            "variant": 858
+        }, 
+        {
+            "buggyStatement": "double dirDer = -(coeff1 + coeff2)", 
+            "generation": 438, 
+            "ingredients": null, 
+            "patch": "coeff1 = coeff1 / pc2", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+                "line": 377, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "15", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "4"
+            }, 
+            "scope": "LOCAL", 
+            "time": "4244", 
+            "type": "InsertBeforeOp", 
+            "variant": 876
+        }, 
+        {
+            "buggyStatement": "validateParameters(param)", 
+            "generation": 510, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.function.Gaussian", 
+                "line": 128, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "16", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "4791", 
+            "type": "RemoveOp", 
+            "variant": 1020
+        }, 
+        {
+            "buggyStatement": "cost = previousCost", 
+            "generation": 519, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+                "line": 417, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "15", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "5"
+            }, 
+            "scope": "-", 
+            "time": "5014", 
+            "type": "RemoveOp", 
+            "variant": 1038
+        }, 
+        {
+            "buggyStatement": "work1[pj] /= work2[j]", 
+            "generation": 556, 
+            "ingredients": null, 
+            "patch": "work1[pj] *= (diag[pj]) / dxNorm", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+                "line": 599, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "15", 
+                "evaltcfailing": "5", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "9"
+            }, 
+            "scope": "LOCAL", 
+            "time": "5294", 
+            "type": "ReplaceOp", 
+            "variant": 1112
+        }, 
+        {
+            "buggyStatement": "for (int j = 0 ; j < (solvedCols) ; ++j) {\n\tint pj = permutation[j];\n\twork1[pj] = ((work3[pj]) * (diag[pj])) / dxNorm;\n}", 
+            "generation": 580, 
+            "ingredients": null, 
+            "patch": "for (int j = 0 ; j < (solvedCols) ; ++j) {\n\tdouble s = work1[permutation[j]];\n\tsum2 += s * s;\n}", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+                "line": 593, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "15", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "8"
+            }, 
+            "scope": "LOCAL", 
+            "time": "5411", 
+            "type": "ReplaceOp", 
+            "variant": 1160
+        }, 
+        {
+            "buggyStatement": "work1[pj] = ((work3[pj]) * (diag[pj])) / dxNorm", 
+            "generation": 605, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+                "line": 595, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "15", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "8"
+            }, 
+            "scope": "-", 
+            "time": "5548", 
+            "type": "RemoveOp", 
+            "variant": 1210
+        }, 
+        {
+            "buggyStatement": "for (int i = 0 ; i < (weightedResidualJacobian.length) ; ++i) {\n\tdouble akk = weightedResidualJacobian[i][k];\n\tnorm2 += akk * akk;\n}", 
+            "generation": 625, 
+            "ingredients": null, 
+            "patch": "lmPar = 0", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+                "line": 774, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "15", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "4"
+            }, 
+            "scope": "LOCAL", 
+            "time": "5650", 
+            "type": "InsertAfterOp", 
+            "variant": 1250
+        }, 
+        {
+            "buggyStatement": "for (int j = 0 ; j < (solvedCols) ; ++j) {\n\tint pj = permutation[j];\n\twork1[pj] = ((work3[pj]) * (diag[pj])) / dxNorm;\n}", 
+            "generation": 650, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+                "line": 593, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "15", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "8"
+            }, 
+            "scope": "-", 
+            "time": "5871", 
+            "type": "RemoveOp", 
+            "variant": 1300
+        }, 
+        {
+            "buggyStatement": "cost = previousCost", 
+            "generation": 672, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+                "line": 417, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "15", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "5"
+            }, 
+            "scope": "-", 
+            "time": "6242", 
+            "type": "RemoveOp", 
+            "variant": 1344
+        }, 
+        {
+            "buggyStatement": "lmPar = org.apache.commons.math.util.FastMath.max(parl, ((lmPar) + correction))", 
+            "generation": 709, 
+            "ingredients": null, 
+            "patch": "beta = new double[cols]", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+                "line": 620, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "15", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "9"
+            }, 
+            "scope": "LOCAL", 
+            "time": "6634", 
+            "type": "ReplaceOp", 
+            "variant": 1418
+        }, 
+        {
+            "buggyStatement": "cost = previousCost", 
+            "generation": 760, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+                "line": 417, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "15", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "5"
+            }, 
+            "scope": "-", 
+            "time": "6765", 
+            "type": "RemoveOp", 
+            "variant": 1520
+        }, 
+        {
+            "buggyStatement": "work1[permutation[i]] -= (weightedResidualJacobian[i][pj]) * tmp", 
+            "generation": 779, 
+            "ingredients": null, 
+            "patch": "work1[pj] *= (diag[pj]) / dxNorm", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+                "line": 602, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "15", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "8"
+            }, 
+            "scope": "LOCAL", 
+            "time": "6874", 
+            "type": "ReplaceOp", 
+            "variant": 1558
+        }, 
+        {
+            "buggyStatement": "throw new org.apache.commons.math.exception.NotStrictlyPositiveException(param[2])", 
+            "generation": 783, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.function.Gaussian", 
+                "line": 183, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "16", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "2"
+            }, 
+            "scope": "-", 
+            "time": "6969", 
+            "type": "RemoveOp", 
+            "variant": 1566
+        }, 
+        {
+            "buggyStatement": "if (maxCosine <= (orthoTolerance)) {\n\tupdateResidualsAndCost();\n\tcurrent = new org.apache.commons.math.optimization.VectorialPointValuePair(point , objective);\n\treturn current;\n} ", 
+            "generation": 807, 
+            "ingredients": null, 
+            "patch": "lmPar = 0", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+                "line": 303, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "15", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "4"
+            }, 
+            "scope": "LOCAL", 
+            "time": "7088", 
+            "type": "InsertBeforeOp", 
+            "variant": 1614
+        }, 
+        {
+            "buggyStatement": "xNorm = org.apache.commons.math.util.FastMath.sqrt(xNorm)", 
+            "generation": 820, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "15", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "7177", 
+            "type": "RemoveOp", 
+            "variant": 1640
+        }, 
+        {
+            "buggyStatement": "work1[pj] /= work2[j]", 
+            "generation": 826, 
+            "ingredients": null, 
+            "patch": "lmPar *= 0.5", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+                "line": 599, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "15", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "8", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2299", 
+                "mvaltcfailing": "5"
+            }, 
+            "scope": "LOCAL", 
+            "time": "7286", 
+            "type": "ReplaceOp", 
+            "variant": 1652
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "108", 
+    "timeEvaluation": null, 
+    "timeTotal": "7406"
+}

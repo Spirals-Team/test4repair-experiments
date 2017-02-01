@@ -1,0 +1,102 @@
+seed AstorRun 10 
+export PATH="/home/mmartinez/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/mmartinez/projects/chart/chart_15;defects4j compile;cp -r /home/mmartinez/projects/chart/chart_15 /tmp/chart_15_Genprog_local_s1;cd /tmp/chart_15_Genprog_local_s1;mkdir lib/;cp -r /home/mmartinez/defects4j/framework/projects/lib/* lib/;cp -r /home/mmartinez/defects4j/framework/projects/Chart/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Chart/seed/10/package/15/Genprog/result
+cd /tmp/chart_15_Genprog_local_s1;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";time /home/mmartinez/jdk1.8.0_45/bin//java -Xmx4096m -cp /home/mmartinez/defects4j-repair/src/python/core/../../..//libs/astor.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -id Chart -dependencies lib/ -failing org.jfree.chart.plot.junit.PiePlot3DTests: -package org.jfree -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -jvm4evosuitetestexecution /home/mmartinez/jdk1.8.0_45/bin/ -javacompliancelevel 4 -maxgen 1000000 -seed 10 -scope package -maxtime 120  -stopfirst false -population 1 -srcjavafolder source/ -srctestfolder tests/ -binjavafolder build/ -bintestfolder build-tests/ -flthreshold 0.1  -validation  fr.inria.astor.core.validation.validators.RegressionValidation  -ESParameters -Dassertion_timeout=1800:-Dminimization_timeout=1800:-Djunit_check_timeout=1800:-Dwrite_junit_timeout=300:-Dinitialization_timeout=300:-Dglobal_timeout=18000:-Dsearch_budget=100000:-Dstopping_condition=MaxStatements:-Dno_runtime_dependency=true:-Dsandbox=false:-Dp_reflection_on_private=0.0:-Dreflection_start_percent=1.0:-Dp_functional_mocking=0.0:-Dfunctional_mocking_percent=1.0:-mem=2000 -ignoredtestcases org.apache.commons.lang.LocaleUtilsTest  -excludeRegression  -maxgen 100000000 ;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+"; find /tmp/chart_15_Genprog_local_s1/outputMutation -name "*.class" -type f -delete;echo "removed classes 
+"; find . -name bin  -type d -print0|xargs -0 rm -r --; zip -r -q out.zip /tmp/chart_15_Genprog_local_s1/outputMutation; echo "zipped 
+";cp out.zip /home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Chart/seed/10/package/15/Genprog; echo "copied zip 
+";rm -rf /tmp/chart_15_Genprog_local_s1;
+
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:136) - End Repair Loops: Found solution
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:137) - Solution stored at: /tmp/chart_15_Genprog_local_s1/./outputMutation/AstorMain-Chart//src/
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:142) - 
+Number solutions:3
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 2806 (SOL) , #gens: 485, #ops: 1, parent:2805]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 3270 (SOL) , #gens: 485, #ops: 1, parent:3269]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 3550 (SOL) , #gens: 486, #ops: 1, parent:3549]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:146) - 
+All variants:
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:148) - f 1.0, [Variant id: 3623, #gens: 486, #ops: 0, parent:-]
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:152) - 
+Solution details
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:153) - 
+ --SOLUTIONS DESCRIPTION--
+
+ ----
+ProgramVariant 2806
+ 
+time(sec)= 5604
+operation: RemoveOp
+location= org.jfree.chart.JFreeChart
+line= 1219
+lineSuspiciousness= 0.125
+original statement= org.jfree.chart.JFreeChart.this.plot.draw(g2, plotArea, anchor, null, plotInfo)
+fixed statement= 
+generation= 1403
+ingredientScope= -
+validation=
+failing: |true|0|3|[]|
+manual_regression: |true|0|3579|[]|
+evo_regression: |false|3|122|[test032(org.jfree.chart.JFreeChart_ESTest): Expecting exception: IllegalArgumentException-, test023(org.jfree.chart.JFreeChart_ESTest): Expecting exception: NullPointerException-, test119(org.jfree.chart.JFreeChart_ESTest): Expecting exception: PRError-]|
+ ----
+ProgramVariant 3270
+ 
+time(sec)= 6478
+operation: RemoveOp
+location= org.jfree.chart.JFreeChart
+line= 1219
+lineSuspiciousness= 0.125
+original statement= org.jfree.chart.JFreeChart.this.plot.draw(g2, plotArea, anchor, null, plotInfo)
+fixed statement= 
+generation= 1635
+ingredientScope= -
+validation=
+failing: |true|0|3|[]|
+manual_regression: |true|0|3579|[]|
+evo_regression: |false|3|122|[test032(org.jfree.chart.JFreeChart_ESTest): Expecting exception: IllegalArgumentException-, test023(org.jfree.chart.JFreeChart_ESTest): Expecting exception: NullPointerException-, test119(org.jfree.chart.JFreeChart_ESTest): Expecting exception: PRError-]|
+ ----
+ProgramVariant 3550
+ 
+time(sec)= 7151
+operation: ReplaceOp
+location= org.jfree.chart.plot.PiePlot3D
+line= 272
+lineSuspiciousness= 0.707
+original statement= if (isCircular()) {
+	double min = (java.lang.Math.min(linkW, linkH)) / 2;
+	linkX = (((linkX + linkX) + linkW) / 2) - min;
+	linkY = (((linkY + linkY) + linkH) / 2) - min;
+	linkW = 2 * min;
+	linkH = 2 * min;
+} 
+fixed statement= if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {
+	drawNoDataMessage(g2, plotArea);
+	g2.setClip(savedClip);
+	drawOutline(g2, plotArea);
+	return ;
+} 
+generation= 1775
+ingredientScope= LOCAL
+validation=
+failing: |true|0|3|[]|
+manual_regression: |true|0|3579|[]|
+evo_regression: |false|1|24|[test01(org.jfree.chart.plot.PiePlot3D_ESTest): Expecting exception: IllegalArgumentException-]|
+[INFO ] fr.inria.main.evolution.AstorMain.run(AstorMain.java:397) - Time Total(s): 7770.622
+
+
+Node: grisou-13.nancy.grid5000.fr
+
+
+Date: Sun Jan 15 01:57:38 CET 2017
+
+removed classes 
+
+zipped 
+
+copied zip 
+
+

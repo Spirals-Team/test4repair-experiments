@@ -1,0 +1,214 @@
+seed AstorRun 27 
+export PATH="/home/mmartinez/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/mmartinez/projects/math/math_8;defects4j compile;cp -r /home/mmartinez/projects/math/math_8 /tmp/math_8_Genprog_local_s1;cd /tmp/math_8_Genprog_local_s1;mkdir lib/;cp -r /home/mmartinez/defects4j/framework/projects/lib/* lib/;cp -r /home/mmartinez/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/27/package/8/Genprog/result
+cd /tmp/math_8_Genprog_local_s1;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";time /home/mmartinez/jdk1.8.0_45/bin//java -Xmx4096m -cp /home/mmartinez/defects4j-repair/src/python/core/../../..//libs/astor.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -id Math -dependencies lib/ -failing org.apache.commons.math3.distribution.DiscreteRealDistributionTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -jvm4evosuitetestexecution /home/mmartinez/jdk1.8.0_45/bin/ -javacompliancelevel 5 -maxgen 1000000 -seed 27 -scope package -maxtime 120  -stopfirst false -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/ -flthreshold 0.1  -validation  fr.inria.astor.core.validation.validators.RegressionValidation  -ESParameters -Dassertion_timeout=1800:-Dminimization_timeout=1800:-Djunit_check_timeout=1800:-Dwrite_junit_timeout=300:-Dinitialization_timeout=300:-Dglobal_timeout=18000:-Dsearch_budget=100000:-Dstopping_condition=MaxStatements:-Dno_runtime_dependency=true:-Dsandbox=false:-Dp_reflection_on_private=0.0:-Dreflection_start_percent=1.0:-Dp_functional_mocking=0.0:-Dfunctional_mocking_percent=1.0:-mem=2000 -testbystep  -ignoredtestcases org.apache.commons.lang.LocaleUtilsTest  -excludeRegression  -maxgen 100000000 ;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+"; find /tmp/math_8_Genprog_local_s1/outputMutation -name "*.class" -type f -delete;echo "removed classes 
+"; find . -name bin  -type d -print0|xargs -0 rm -r --; zip -r -q out.zip /tmp/math_8_Genprog_local_s1/outputMutation; echo "zipped 
+";cp out.zip /home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/27/package/8/Genprog; echo "copied zip 
+";rm -rf /tmp/math_8_Genprog_local_s1;
+
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:136) - End Repair Loops: Found solution
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:137) - Solution stored at: /tmp/math_8_Genprog_local_s1/./outputMutation/AstorMain-Math//src/
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:142) - 
+Number solutions:10
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 8 (SOL) , #gens: 79, #ops: 1, parent:7]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 218 (SOL) , #gens: 79, #ops: 1, parent:217]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 246 (SOL) , #gens: 79, #ops: 1, parent:245]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 264 (SOL) , #gens: 79, #ops: 1, parent:263]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 490 (SOL) , #gens: 79, #ops: 1, parent:489]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 570 (SOL) , #gens: 79, #ops: 1, parent:569]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 600 (SOL) , #gens: 79, #ops: 1, parent:599]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 764 (SOL) , #gens: 79, #ops: 1, parent:763]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 1040 (SOL) , #gens: 79, #ops: 1, parent:1039]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 1200 (SOL) , #gens: 79, #ops: 1, parent:1199]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:146) - 
+All variants:
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:148) - f 1.0, [Variant id: 1215, #gens: 80, #ops: 0, parent:-]
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:152) - 
+Solution details
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:153) - 
+ --SOLUTIONS DESCRIPTION--
+
+ ----
+ProgramVariant 8
+ 
+time(sec)= 758
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 190
+lineSuspiciousness= 0.577
+original statement= out[i] = sample()
+fixed statement= 
+generation= 4
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4659|[]|
+evo_regression: |false|2|19|[test03(org.apache.commons.math3.distribution.DiscreteDistribution_ESTest): Expecting exception: NullPointerException-, test04(org.apache.commons.math3.distribution.DiscreteDistribution_ESTest): Expecting exception: ArrayStoreException-]|
+ ----
+ProgramVariant 218
+ 
+time(sec)= 1727
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 190
+lineSuspiciousness= 0.577
+original statement= out[i] = sample()
+fixed statement= 
+generation= 109
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4659|[]|
+evo_regression: |false|2|19|[test03(org.apache.commons.math3.distribution.DiscreteDistribution_ESTest): Expecting exception: NullPointerException-, test04(org.apache.commons.math3.distribution.DiscreteDistribution_ESTest): Expecting exception: ArrayStoreException-]|
+ ----
+ProgramVariant 246
+ 
+time(sec)= 2144
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 190
+lineSuspiciousness= 0.577
+original statement= out[i] = sample()
+fixed statement= 
+generation= 123
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4659|[]|
+evo_regression: |false|2|19|[test03(org.apache.commons.math3.distribution.DiscreteDistribution_ESTest): Expecting exception: NullPointerException-, test04(org.apache.commons.math3.distribution.DiscreteDistribution_ESTest): Expecting exception: ArrayStoreException-]|
+ ----
+ProgramVariant 264
+ 
+time(sec)= 2552
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 190
+lineSuspiciousness= 0.577
+original statement= out[i] = sample()
+fixed statement= 
+generation= 132
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4659|[]|
+evo_regression: |false|2|19|[test03(org.apache.commons.math3.distribution.DiscreteDistribution_ESTest): Expecting exception: NullPointerException-, test04(org.apache.commons.math3.distribution.DiscreteDistribution_ESTest): Expecting exception: ArrayStoreException-]|
+ ----
+ProgramVariant 490
+ 
+time(sec)= 3511
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 189
+lineSuspiciousness= 0.577
+original statement= for (int i = 0 ; i < sampleSize ; i++) {
+	out[i] = sample();
+}
+fixed statement= 
+generation= 245
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4659|[]|
+evo_regression: |false|2|19|[test03(org.apache.commons.math3.distribution.DiscreteDistribution_ESTest): Expecting exception: NullPointerException-, test04(org.apache.commons.math3.distribution.DiscreteDistribution_ESTest): Expecting exception: ArrayStoreException-]|
+ ----
+ProgramVariant 570
+ 
+time(sec)= 4034
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 190
+lineSuspiciousness= 0.577
+original statement= out[i] = sample()
+fixed statement= 
+generation= 285
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4659|[]|
+evo_regression: |false|2|19|[test03(org.apache.commons.math3.distribution.DiscreteDistribution_ESTest): Expecting exception: NullPointerException-, test04(org.apache.commons.math3.distribution.DiscreteDistribution_ESTest): Expecting exception: ArrayStoreException-]|
+ ----
+ProgramVariant 600
+ 
+time(sec)= 4357
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 190
+lineSuspiciousness= 0.577
+original statement= out[i] = sample()
+fixed statement= 
+generation= 300
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4659|[]|
+evo_regression: |false|2|19|[test03(org.apache.commons.math3.distribution.DiscreteDistribution_ESTest): Expecting exception: NullPointerException-, test04(org.apache.commons.math3.distribution.DiscreteDistribution_ESTest): Expecting exception: ArrayStoreException-]|
+ ----
+ProgramVariant 764
+ 
+time(sec)= 5337
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 190
+lineSuspiciousness= 0.577
+original statement= out[i] = sample()
+fixed statement= 
+generation= 382
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4659|[]|
+evo_regression: |false|2|19|[test03(org.apache.commons.math3.distribution.DiscreteDistribution_ESTest): Expecting exception: NullPointerException-, test04(org.apache.commons.math3.distribution.DiscreteDistribution_ESTest): Expecting exception: ArrayStoreException-]|
+ ----
+ProgramVariant 1040
+ 
+time(sec)= 6403
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 189
+lineSuspiciousness= 0.577
+original statement= for (int i = 0 ; i < sampleSize ; i++) {
+	out[i] = sample();
+}
+fixed statement= 
+generation= 520
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4659|[]|
+evo_regression: |false|2|19|[test03(org.apache.commons.math3.distribution.DiscreteDistribution_ESTest): Expecting exception: NullPointerException-, test04(org.apache.commons.math3.distribution.DiscreteDistribution_ESTest): Expecting exception: ArrayStoreException-]|
+ ----
+ProgramVariant 1200
+ 
+time(sec)= 7224
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 190
+lineSuspiciousness= 0.577
+original statement= out[i] = sample()
+fixed statement= 
+generation= 600
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4659|[]|
+evo_regression: |false|2|19|[test03(org.apache.commons.math3.distribution.DiscreteDistribution_ESTest): Expecting exception: NullPointerException-, test04(org.apache.commons.math3.distribution.DiscreteDistribution_ESTest): Expecting exception: ArrayStoreException-]|
+[INFO ] fr.inria.main.evolution.AstorMain.run(AstorMain.java:397) - Time Total(s): 8017.182
+
+
+Node: grisou-1.nancy.grid5000.fr
+
+
+Date: Sat Jan 28 19:55:06 CET 2017
+
+removed classes 
+
+zipped 
+
+copied zip 
+
+

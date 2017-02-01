@@ -1,0 +1,37 @@
+{
+    "date": "Thu Jan 12 03:51:48 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "14", 
+    "node": "graphene-108.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "return org.apache.commons.math3.util.FastMath.max(0, (((getSampleSize()) + (getNumberOfSuccesses())) - (getPopulationSize())))", 
+            "generation": 1120, 
+            "ingredients": null, 
+            "patch": "numericalVarianceIsCalculated = true", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.distribution.HypergeometricDistribution", 
+                "line": 308, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "35", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "16", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "5127", 
+                "mvaltcfailing": "1"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "5886", 
+            "type": "InsertBeforeOp", 
+            "variant": 2240
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "2240", 
+    "timeEvaluation": null, 
+    "timeTotal": "7631"
+}

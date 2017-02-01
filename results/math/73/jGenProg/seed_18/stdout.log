@@ -1,0 +1,333 @@
+seed AstorRun 18 
+export PATH="/home/mmartinez/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/mmartinez/projects/math/math_73;defects4j compile;cp -r /home/mmartinez/projects/math/math_73 /tmp/math_73_Genprog_local_s1;cd /tmp/math_73_Genprog_local_s1;mkdir lib/;cp -r /home/mmartinez/defects4j/framework/projects/lib/* lib/;cp -r /home/mmartinez/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/18/package/73/Genprog/result
+cd /tmp/math_73_Genprog_local_s1;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";time /home/mmartinez/jdk1.8.0_45/bin//java -Xmx4096m -cp /home/mmartinez/defects4j-repair/src/python/core/../../..//libs/astor.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -id Math -dependencies lib/ -failing org.apache.commons.math.analysis.solvers.BrentSolverTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -jvm4evosuitetestexecution /home/mmartinez/jdk1.8.0_45/bin/ -javacompliancelevel 5 -maxgen 1000000 -seed 18 -scope package -maxtime 120  -stopfirst false -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/ -flthreshold 0.1  -validation  fr.inria.astor.core.validation.validators.RegressionValidation  -ESParameters -Dassertion_timeout=1800:-Dminimization_timeout=1800:-Djunit_check_timeout=1800:-Dwrite_junit_timeout=300:-Dinitialization_timeout=300:-Dglobal_timeout=18000:-Dsearch_budget=100000:-Dstopping_condition=MaxStatements:-Dno_runtime_dependency=true:-Dsandbox=false:-Dp_reflection_on_private=0.0:-Dreflection_start_percent=1.0:-Dp_functional_mocking=0.0:-Dfunctional_mocking_percent=1.0:-mem=2000 -ignoredtestcases org.apache.commons.lang.LocaleUtilsTest  -excludeRegression  -maxgen 100000000 ;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+"; find /tmp/math_73_Genprog_local_s1/outputMutation -name "*.class" -type f -delete;echo "removed classes 
+"; find . -name bin  -type d -print0|xargs -0 rm -r --; zip -r -q out.zip /tmp/math_73_Genprog_local_s1/outputMutation; echo "zipped 
+";cp out.zip /home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/18/package/73/Genprog; echo "copied zip 
+";rm -rf /tmp/math_73_Genprog_local_s1;
+
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:136) - End Repair Loops: Found solution
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:137) - Solution stored at: /tmp/math_73_Genprog_local_s1/./outputMutation/AstorMain-Math//src/
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:142) - 
+Number solutions:16
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 4.0, [Variant id: 564 (SOL) , #gens: 24, #ops: 1, parent:563]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 4.0, [Variant id: 924 (SOL) , #gens: 24, #ops: 1, parent:923]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 1038 (SOL) , #gens: 25, #ops: 1, parent:1037]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 5.0, [Variant id: 1136 (SOL) , #gens: 25, #ops: 1, parent:1135]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 6.0, [Variant id: 1712 (SOL) , #gens: 25, #ops: 1, parent:1711]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 4.0, [Variant id: 1880 (SOL) , #gens: 24, #ops: 1, parent:1879]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 6.0, [Variant id: 2330 (SOL) , #gens: 25, #ops: 1, parent:2329]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 5.0, [Variant id: 3252 (SOL) , #gens: 25, #ops: 1, parent:3251]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 5.0, [Variant id: 4460 (SOL) , #gens: 25, #ops: 1, parent:4459]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 4962 (SOL) , #gens: 25, #ops: 1, parent:4961]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 6.0, [Variant id: 5488 (SOL) , #gens: 25, #ops: 1, parent:5487]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 5.0, [Variant id: 6004 (SOL) , #gens: 25, #ops: 1, parent:6003]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 6.0, [Variant id: 7048 (SOL) , #gens: 25, #ops: 1, parent:7047]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 5.0, [Variant id: 7914 (SOL) , #gens: 25, #ops: 1, parent:7913]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 8048 (SOL) , #gens: 25, #ops: 1, parent:8047]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 5.0, [Variant id: 9044 (SOL) , #gens: 25, #ops: 1, parent:9043]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:146) - 
+All variants:
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:148) - f 1.0, [Variant id: 9251, #gens: 24, #ops: 0, parent:-]
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:152) - 
+Solution details
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:153) - 
+ --SOLUTIONS DESCRIPTION--
+
+ ----
+ProgramVariant 564
+ 
+time(sec)= 648
+operation: ReplaceOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 138
+lineSuspiciousness= 1
+original statement= return solve(f, min, yMin, max, yMax, initial, yInitial)
+fixed statement= return solve(f, initial, max)
+generation= 282
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|6|[]|
+manual_regression: |true|0|2140|[]|
+evo_regression: |false|4|36|[test32(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test16(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test01(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: 0, 0, Values: 1, 1-, test04(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<1> but was:<0>-]|
+ ----
+ProgramVariant 924
+ 
+time(sec)= 977
+operation: ReplaceOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 138
+lineSuspiciousness= 1
+original statement= return solve(f, min, yMin, max, yMax, initial, yInitial)
+fixed statement= return solve(f, min, initial)
+generation= 462
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|6|[]|
+manual_regression: |true|0|2140|[]|
+evo_regression: |false|4|36|[test32(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test16(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test01(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -1, 840.859, 0, Values: 0.993, 1-, test04(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<1> but was:<0>-]|
+ ----
+ProgramVariant 1038
+ 
+time(sec)= 1130
+operation: InsertBeforeOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 138
+lineSuspiciousness= 1
+original statement= return solve(f, min, yMin, max, yMax, initial, yInitial)
+fixed statement= verifyBracketing(min, max, f)
+generation= 519
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|6|[]|
+manual_regression: |true|0|2140|[]|
+evo_regression: |false|3|36|[test32(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test16(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test01(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -1, 840.859, 0, Values: 0.993, 1-]|
+ ----
+ProgramVariant 1136
+ 
+time(sec)= 1262
+operation: InsertBeforeOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 126
+lineSuspiciousness= 0.707
+original statement= if ((java.lang.Math.abs(yMax)) <= (functionValueAccuracy)) {
+	setResult(yMax, 0);
+	return result;
+} 
+fixed statement= verifyBracketing(min, max, f)
+generation= 568
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|6|[]|
+manual_regression: |true|0|2140|[]|
+evo_regression: |false|5|36|[test32(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test31(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -353, 0, Values: -1, 0-, test16(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test07(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -2, 941.498, 0, Values: -1, 0-, test01(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -1, 840.859, 0, Values: 0.993, 1-]|
+ ----
+ProgramVariant 1712
+ 
+time(sec)= 1765
+operation: InsertBeforeOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 113
+lineSuspiciousness= 0.707
+original statement= double yMin = f.value(min)
+fixed statement= verifyBracketing(min, max, f)
+generation= 856
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|6|[]|
+manual_regression: |true|0|2140|[]|
+evo_regression: |false|6|36|[test32(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test31(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -353, 0, Values: -1, 0-, test33(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -378.192, 1.5, Values: 0, 4.482-, test16(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test07(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -2, 941.498, 0, Values: -1, 0-, test01(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -1, 840.859, 0, Values: 0.993, 1-]|
+ ----
+ProgramVariant 1880
+ 
+time(sec)= 1917
+operation: ReplaceOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 138
+lineSuspiciousness= 1
+original statement= return solve(f, min, yMin, max, yMax, initial, yInitial)
+fixed statement= return solve(f, min, max)
+generation= 940
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|6|[]|
+manual_regression: |true|0|2140|[]|
+evo_regression: |false|4|36|[test32(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test16(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test01(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -1, 840.859, 0, Values: 0.993, 1-, test04(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<1> but was:<5>-]|
+ ----
+ProgramVariant 2330
+ 
+time(sec)= 2225
+operation: InsertAfterOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 113
+lineSuspiciousness= 0.707
+original statement= double yMin = f.value(min)
+fixed statement= verifyBracketing(min, max, f)
+generation= 1165
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|6|[]|
+manual_regression: |true|0|2140|[]|
+evo_regression: |false|6|36|[test32(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test31(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -353, 0, Values: -1, 0-, test33(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -378.192, 1.5, Values: 0, 4.482-, test16(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test07(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -2, 941.498, 0, Values: -1, 0-, test01(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -1, 840.859, 0, Values: 0.993, 1-]|
+ ----
+ProgramVariant 3252
+ 
+time(sec)= 2929
+operation: InsertAfterOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 125
+lineSuspiciousness= 0.707
+original statement= double yMax = f.value(max)
+fixed statement= verifyBracketing(min, max, f)
+generation= 1626
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|6|[]|
+manual_regression: |true|0|2140|[]|
+evo_regression: |false|5|36|[test32(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test31(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -353, 0, Values: -1, 0-, test16(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test07(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -2, 941.498, 0, Values: -1, 0-, test01(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -1, 840.859, 0, Values: 0.993, 1-]|
+ ----
+ProgramVariant 4460
+ 
+time(sec)= 3760
+operation: InsertBeforeOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 125
+lineSuspiciousness= 0.707
+original statement= double yMax = f.value(max)
+fixed statement= verifyBracketing(min, max, f)
+generation= 2230
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|6|[]|
+manual_regression: |true|0|2140|[]|
+evo_regression: |false|5|36|[test32(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test31(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -353, 0, Values: -1, 0-, test16(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test07(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -2, 941.498, 0, Values: -1, 0-, test01(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -1, 840.859, 0, Values: 0.993, 1-]|
+ ----
+ProgramVariant 4962
+ 
+time(sec)= 4096
+operation: InsertAfterOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 132
+lineSuspiciousness= 0.707
+original statement= if ((yInitial * yMax) < 0) {
+	return solve(f, initial, yInitial, max, yMax, initial, yInitial);
+} 
+fixed statement= verifyBracketing(min, max, f)
+generation= 2481
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|6|[]|
+manual_regression: |true|0|2140|[]|
+evo_regression: |false|3|36|[test32(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test16(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test01(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -1, 840.859, 0, Values: 0.993, 1-]|
+ ----
+ProgramVariant 5488
+ 
+time(sec)= 4545
+operation: InsertAfterOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 107
+lineSuspiciousness= 0.707
+original statement= if ((java.lang.Math.abs(yInitial)) <= (functionValueAccuracy)) {
+	setResult(initial, 0);
+	return result;
+} 
+fixed statement= verifyBracketing(min, max, f)
+generation= 2744
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|6|[]|
+manual_regression: |true|0|2140|[]|
+evo_regression: |false|6|36|[test32(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test31(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -353, 0, Values: -1, 0-, test33(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -378.192, 1.5, Values: 0, 4.482-, test16(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test07(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -2, 941.498, 0, Values: -1, 0-, test01(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -1, 840.859, 0, Values: 0.993, 1-]|
+ ----
+ProgramVariant 6004
+ 
+time(sec)= 4990
+operation: InsertBeforeOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 120
+lineSuspiciousness= 0.707
+original statement= if ((yInitial * yMin) < 0) {
+	return solve(f, min, yMin, initial, yInitial, min, yMin);
+} 
+fixed statement= verifyBracketing(min, max, f)
+generation= 3002
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|6|[]|
+manual_regression: |true|0|2140|[]|
+evo_regression: |false|5|36|[test32(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test31(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -353, 0, Values: -1, 0-, test16(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test07(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -2, 941.498, 0, Values: -1, 0-, test01(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -1, 840.859, 0, Values: 0.993, 1-]|
+ ----
+ProgramVariant 7048
+ 
+time(sec)= 5703
+operation: InsertBeforeOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 114
+lineSuspiciousness= 0.707
+original statement= if ((java.lang.Math.abs(yMin)) <= (functionValueAccuracy)) {
+	setResult(yMin, 0);
+	return result;
+} 
+fixed statement= verifyBracketing(min, max, f)
+generation= 3524
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|6|[]|
+manual_regression: |true|0|2140|[]|
+evo_regression: |false|6|36|[test32(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test31(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -353, 0, Values: -1, 0-, test33(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -378.192, 1.5, Values: 0, 4.482-, test16(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test07(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -2, 941.498, 0, Values: -1, 0-, test01(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -1, 840.859, 0, Values: 0.993, 1-]|
+ ----
+ProgramVariant 7914
+ 
+time(sec)= 6350
+operation: InsertAfterOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 114
+lineSuspiciousness= 0.707
+original statement= if ((java.lang.Math.abs(yMin)) <= (functionValueAccuracy)) {
+	setResult(yMin, 0);
+	return result;
+} 
+fixed statement= verifyBracketing(min, max, f)
+generation= 3957
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|6|[]|
+manual_regression: |true|0|2140|[]|
+evo_regression: |false|5|36|[test32(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test31(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -353, 0, Values: -1, 0-, test16(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test07(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -2, 941.498, 0, Values: -1, 0-, test01(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -1, 840.859, 0, Values: 0.993, 1-]|
+ ----
+ProgramVariant 8048
+ 
+time(sec)= 6481
+operation: InsertAfterOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 126
+lineSuspiciousness= 0.707
+original statement= if ((java.lang.Math.abs(yMax)) <= (functionValueAccuracy)) {
+	setResult(yMax, 0);
+	return result;
+} 
+fixed statement= verifyBracketing(min, max, f)
+generation= 4024
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|6|[]|
+manual_regression: |true|0|2140|[]|
+evo_regression: |false|3|36|[test32(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test16(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test01(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -1, 840.859, 0, Values: 0.993, 1-]|
+ ----
+ProgramVariant 9044
+ 
+time(sec)= 7128
+operation: InsertAfterOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 120
+lineSuspiciousness= 0.707
+original statement= if ((yInitial * yMin) < 0) {
+	return solve(f, min, yMin, initial, yInitial, min, yMin);
+} 
+fixed statement= verifyBracketing(min, max, f)
+generation= 4522
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|6|[]|
+manual_regression: |true|0|2140|[]|
+evo_regression: |false|5|36|[test32(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test31(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -353, 0, Values: -1, 0-, test16(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Exception was not thrown in org.apache.commons.math.analysis.solvers.BrentSolver but in org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305): org.evosuite.runtime.mock.java.lang.MockThrowable-, test07(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -2, 941.498, 0, Values: -1, 0-, test01(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): function values at endpoints do not have different signs.  Endpoints: -1, 840.859, 0, Values: 0.993, 1-]|
+[INFO ] fr.inria.main.evolution.AstorMain.run(AstorMain.java:397) - Time Total(s): 7286.279
+
+
+Node: graphene-143.nancy.grid5000.fr
+
+
+Date: Wed Jan 18 23:21:44 CET 2017
+
+removed classes 
+
+zipped 
+
+copied zip 
+
+

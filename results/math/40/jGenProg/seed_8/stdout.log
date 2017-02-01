@@ -1,0 +1,187 @@
+seed AstorRun 8 
+export PATH="/home/mmartinez/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/mmartinez/projects/math/math_40;defects4j compile;cp -r /home/mmartinez/projects/math/math_40 /tmp/math_40_Genprog_local_s1;cd /tmp/math_40_Genprog_local_s1;mkdir lib/;cp -r /home/mmartinez/defects4j/framework/projects/lib/* lib/;cp -r /home/mmartinez/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/8/package/40/Genprog/result
+cd /tmp/math_40_Genprog_local_s1;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";time /home/mmartinez/jdk1.8.0_45/bin//java -Xmx4096m -cp /home/mmartinez/defects4j-repair/src/python/core/../../..//libs/astor.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -id Math -dependencies lib/ -failing org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolverTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -jvm4evosuitetestexecution /home/mmartinez/jdk1.8.0_45/bin/ -javacompliancelevel 5 -maxgen 1000000 -seed 8 -scope package -maxtime 120  -stopfirst false -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/ -flthreshold 0.1  -validation  fr.inria.astor.core.validation.validators.RegressionValidation  -ESParameters -Dassertion_timeout=1800:-Dminimization_timeout=1800:-Djunit_check_timeout=1800:-Dwrite_junit_timeout=300:-Dinitialization_timeout=300:-Dglobal_timeout=18000:-Dsearch_budget=100000:-Dstopping_condition=MaxStatements:-Dno_runtime_dependency=true:-Dsandbox=false:-Dp_reflection_on_private=0.0:-Dreflection_start_percent=1.0:-Dp_functional_mocking=0.0:-Dfunctional_mocking_percent=1.0:-mem=2000 -ignoredtestcases org.apache.commons.lang.LocaleUtilsTest  -excludeRegression  -maxgen 100000000 ;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+"; find /tmp/math_40_Genprog_local_s1/outputMutation -name "*.class" -type f -delete;echo "removed classes 
+"; find . -name bin  -type d -print0|xargs -0 rm -r --; zip -r -q out.zip /tmp/math_40_Genprog_local_s1/outputMutation; echo "zipped 
+";cp out.zip /home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/8/package/40/Genprog; echo "copied zip 
+";rm -rf /tmp/math_40_Genprog_local_s1;
+
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:136) - End Repair Loops: Found solution
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:137) - Solution stored at: /tmp/math_40_Genprog_local_s1/./outputMutation/AstorMain-Math//src/
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:142) - 
+Number solutions:8
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 4.0, [Variant id: 232 (SOL) , #gens: 84, #ops: 1, parent:231]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 334 (SOL) , #gens: 86, #ops: 1, parent:333]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 4.0, [Variant id: 460 (SOL) , #gens: 84, #ops: 1, parent:459]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 548 (SOL) , #gens: 84, #ops: 1, parent:547]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 558 (SOL) , #gens: 86, #ops: 1, parent:557]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 580 (SOL) , #gens: 86, #ops: 1, parent:579]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 4.0, [Variant id: 702 (SOL) , #gens: 84, #ops: 1, parent:701]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 768 (SOL) , #gens: 86, #ops: 1, parent:767]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:146) - 
+All variants:
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:148) - f 1.0, [Variant id: 817, #gens: 85, #ops: 0, parent:-]
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:152) - 
+Solution details
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:153) - 
+ --SOLUTIONS DESCRIPTION--
+
+ ----
+ProgramVariant 232
+ 
+time(sec)= 891
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver
+line= 296
+lineSuspiciousness= 0.408
+original statement= throw new org.apache.commons.math.exception.TooManyEvaluationsException(e.getMax())
+fixed statement= 
+generation= 116
+ingredientScope= -
+validation=
+failing: |true|0|15|[]|
+manual_regression: |false|2|3135|[testQuinticZero(org.apache.commons.math.analysis.solvers.BrentSolverTest): Expected TooManyEvaluationsException-, testEventsNoConvergence(org.apache.commons.math.ode.nonstiff.HighamHall54IntegratorTest): an exception should have been thrown-]|
+evo_regression: |false|2|23|[test12(org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver_ESTest): Expecting exception: IllegalStateException-, test13(org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver_ESTest): null-]|
+ ----
+ProgramVariant 334
+ 
+time(sec)= 1763
+operation: InsertBeforeOp
+location= org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver
+line= 202
+lineSuspiciousness= 0.141
+original statement= double xB = x[signChangeIndex]
+fixed statement= signChangeIndex = 2
+generation= 167
+ingredientScope= LOCAL
+validation=
+failing: |true|0|15|[]|
+manual_regression: |true|0|3135|[]|
+evo_regression: |false|2|27|[test13(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest): expected:<-2755.1767572055564> but was:<-2585.5307539068617>-, test01(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest): expected:<-536.252133218> but was:<-29.544266436>-]|
+ ----
+ProgramVariant 460
+ 
+time(sec)= 4195
+operation: RemoveOp
+location= org.apache.commons.math.util.Incrementor
+line= 151
+lineSuspiciousness= 0.167
+original statement= maxCountCallback.trigger(maximalCount)
+fixed statement= 
+generation= 230
+ingredientScope= -
+validation=
+failing: |true|0|15|[]|
+evo_regression: |false|4|15|[test05(org.apache.commons.math.util.Incrementor_ESTest): Expecting exception: IllegalStateException-, test12(org.apache.commons.math.util.Incrementor_ESTest): Expecting exception: IllegalStateException-, test06(org.apache.commons.math.util.Incrementor_ESTest): Expecting exception: NullPointerException-, test07(org.apache.commons.math.util.Incrementor_ESTest): Expecting exception: NullPointerException-]|
+ ----
+ProgramVariant 548
+ 
+time(sec)= 5472
+operation: RemoveOp
+location= org.apache.commons.math.util.Incrementor
+line= 65
+lineSuspiciousness= 0.171
+original statement= throw new org.apache.commons.math.exception.MaxCountExceededException(max)
+fixed statement= 
+generation= 274
+ingredientScope= -
+validation=
+failing: |true|0|15|[]|
+evo_regression: |false|2|15|[test05(org.apache.commons.math.util.Incrementor_ESTest): Expecting exception: IllegalStateException-, test12(org.apache.commons.math.util.Incrementor_ESTest): Expecting exception: IllegalStateException-]|
+ ----
+ProgramVariant 558
+ 
+time(sec)= 5601
+operation: InsertAfterOp
+location= org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver
+line= 329
+lineSuspiciousness= 0.162
+original statement= agingB = 0
+fixed statement= signChangeIndex++
+generation= 279
+ingredientScope= LOCAL
+validation=
+failing: |true|0|15|[]|
+manual_regression: |true|0|3135|[]|
+evo_regression: |false|1|27|[test13(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest): expected:<-2755.1767572055564> but was:<-2384.4688241387007>-]|
+ ----
+ProgramVariant 580
+ 
+time(sec)= 5749
+operation: InsertAfterOp
+location= org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver
+line= 323
+lineSuspiciousness= 0.162
+original statement= if ((nextY * yA) <= 0) {
+	xB = nextX;
+	yB = nextY;
+	absYB = org.apache.commons.math.util.FastMath.abs(yB);
+	++agingA;
+	agingB = 0;
+} else {
+	xA = nextX;
+	yA = nextY;
+	absYA = org.apache.commons.math.util.FastMath.abs(yA);
+	agingA = 0;
+	++agingB;
+	signChangeIndex++;
+}
+fixed statement= signChangeIndex = 2
+generation= 290
+ingredientScope= LOCAL
+validation=
+failing: |true|0|15|[]|
+manual_regression: |true|0|3135|[]|
+evo_regression: |false|2|27|[test13(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest): expected:<-2755.1767572055564> but was:<-2434.734306532367>-, test19(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest): expected:<-3.141592653589787> but was:<-21.991148575128552>-]|
+ ----
+ProgramVariant 702
+ 
+time(sec)= 6643
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver
+line= 296
+lineSuspiciousness= 0.408
+original statement= throw new org.apache.commons.math.exception.TooManyEvaluationsException(e.getMax())
+fixed statement= 
+generation= 351
+ingredientScope= -
+validation=
+failing: |true|0|15|[]|
+manual_regression: |false|2|3135|[testQuinticZero(org.apache.commons.math.analysis.solvers.BrentSolverTest): Expected TooManyEvaluationsException-, testEventsNoConvergence(org.apache.commons.math.ode.nonstiff.HighamHall54IntegratorTest): an exception should have been thrown-]|
+evo_regression: |false|2|23|[test12(org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver_ESTest): Expecting exception: IllegalStateException-, test13(org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver_ESTest): null-]|
+ ----
+ProgramVariant 768
+ 
+time(sec)= 7132
+operation: InsertAfterOp
+location= org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver
+line= 265
+lineSuspiciousness= 0.189
+original statement= --end
+fixed statement= end = signChangeIndex
+generation= 384
+ingredientScope= LOCAL
+validation=
+failing: |true|0|15|[]|
+manual_regression: |true|0|3135|[]|
+evo_regression: |false|1|27|[test13(org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest): expected:<-2755.1767572055564> but was:<-2667.2121628977357>-]|
+[INFO ] fr.inria.main.evolution.AstorMain.run(AstorMain.java:397) - Time Total(s): 7609.835
+
+
+Node: graphene-21.nancy.grid5000.fr
+
+
+Date: Thu Jan 12 22:24:22 CET 2017
+
+removed classes 
+
+zipped 
+
+copied zip 
+
+

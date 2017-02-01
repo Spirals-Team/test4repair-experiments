@@ -1,0 +1,245 @@
+{
+    "date": "2017-01-15T13:35:30.663808", 
+    "gens": "957", 
+    "node": "graphene-114.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "return false", 
+            "generation": 4, 
+            "ingredients": null, 
+            "patch": "return true", 
+            "patchLocation": {
+                "className": "org.jfree.data.general.DatasetUtilities", 
+                "line": 577, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "183", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "36", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3243", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "563", 
+            "type": "ReplaceOp", 
+            "variant": 8
+        }, 
+        {
+            "buggyStatement": "result = masd.getMean()", 
+            "generation": 55, 
+            "ingredients": null, 
+            "patch": "org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.minimumRangeValue = java.lang.Double.NaN", 
+            "patchLocation": {
+                "className": "org.jfree.data.statistics.DefaultStatisticalCategoryDataset", 
+                "line": 111, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "73", 
+                "evaltcfailing": "6", 
+                "fvalresult": "true", 
+                "fvaltcall": "36", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3243", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "1253", 
+            "type": "ReplaceOp", 
+            "variant": 110
+        }, 
+        {
+            "buggyStatement": "if (keyIndex >= 0) {\n\torg.jfree.data.KeyedObject ko = ((org.jfree.data.KeyedObject)(org.jfree.data.KeyedObjects.this.data.get(keyIndex)));\n\tko.setObject(object);\n} else {\n\torg.jfree.data.KeyedObject ko = new org.jfree.data.KeyedObject(key , object);\n\torg.jfree.data.KeyedObjects.this.data.add(ko);\n}", 
+            "generation": 113, 
+            "ingredients": null, 
+            "patch": "removeValue(getIndex(key))", 
+            "patchLocation": {
+                "className": "org.jfree.data.KeyedObjects", 
+                "line": 187, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "36", 
+                "evaltcfailing": "22", 
+                "fvalresult": "true", 
+                "fvaltcall": "36", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3243", 
+                "mvaltcfailing": "2"
+            }, 
+            "scope": "LOCAL", 
+            "time": "1877", 
+            "type": "InsertAfterOp", 
+            "variant": 226
+        }, 
+        {
+            "buggyStatement": "result = masd.getMean()", 
+            "generation": 160, 
+            "ingredients": null, 
+            "patch": "org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.data = new org.jfree.data.KeyedObjects2D()", 
+            "patchLocation": {
+                "className": "org.jfree.data.statistics.DefaultStatisticalCategoryDataset", 
+                "line": 111, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "73", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "36", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3243", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "2197", 
+            "type": "InsertBeforeOp", 
+            "variant": 320
+        }, 
+        {
+            "buggyStatement": "setObject(object, rowKey, columnKey)", 
+            "generation": 174, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.jfree.data.KeyedObjects2D", 
+                "line": 212, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "51", 
+                "evaltcfailing": "9", 
+                "fvalresult": "true", 
+                "fvaltcall": "36", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3243", 
+                "mvaltcfailing": "2"
+            }, 
+            "scope": "-", 
+            "time": "2431", 
+            "type": "RemoveOp", 
+            "variant": 348
+        }, 
+        {
+            "buggyStatement": "renderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass)", 
+            "generation": 265, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.jfree.chart.plot.CategoryPlot", 
+                "line": 2868, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "245", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "36", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3243", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "5133", 
+            "type": "RemoveOp", 
+            "variant": 530
+        }, 
+        {
+            "buggyStatement": "result.add(category)", 
+            "generation": 483, 
+            "ingredients": null, 
+            "patch": "org.jfree.chart.plot.CategoryPlot.this.renderers = new org.jfree.chart.util.ObjectList()", 
+            "patchLocation": {
+                "className": "org.jfree.chart.plot.CategoryPlot", 
+                "line": 3334, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "245", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "36", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3243", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "6563", 
+            "type": "InsertBeforeOp", 
+            "variant": 966
+        }, 
+        {
+            "buggyStatement": "if (kobj != null) {\n\tresult = kobj.getObject();\n} ", 
+            "generation": 574, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.jfree.data.KeyedObjects", 
+                "line": 91, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "36", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "36", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3243", 
+                "mvaltcfailing": "2"
+            }, 
+            "scope": "-", 
+            "time": "7168", 
+            "type": "RemoveOp", 
+            "variant": 1148
+        }, 
+        {
+            "buggyStatement": "return false", 
+            "generation": 581, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.jfree.data.general.DatasetUtilities", 
+                "line": 577, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "183", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "36", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3243", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "7266", 
+            "type": "RemoveOp", 
+            "variant": 1162
+        }
+    ], 
+    "ops": "1", 
+    "programVariant": "8", 
+    "timeEvaluation": "7264", 
+    "timeTotal": "9026"
+}

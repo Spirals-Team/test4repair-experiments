@@ -1,0 +1,167 @@
+{
+    "date": "Wed Jan 25 08:27:33 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "203", 
+    "node": "griffon-8.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "if (index < (-1)) {\n\tfx = ordinate[((-index) - 2)];\n} else {\n\tif (index >= 0) {\n\t\tfx = ordinate[index];\n\t} else {\n\t\tfx = ordinate[0];\n\t}\n}", 
+            "generation": 20, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.analysis.function.StepFunction", 
+                "line": 87, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "11", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "9", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3971", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "439", 
+            "type": "RemoveOp", 
+            "variant": 40
+        }, 
+        {
+            "buggyStatement": "return fx", 
+            "generation": 294, 
+            "ingredients": null, 
+            "patch": "return org.apache.commons.math3.util.FastMath.sinh(x)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.analysis.function.StepFunction", 
+                "line": 99, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "11", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "9", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3971", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "2961", 
+            "type": "ReplaceOp", 
+            "variant": 588
+        }, 
+        {
+            "buggyStatement": "r += f[i].value(x)", 
+            "generation": 342, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.analysis.FunctionUtils", 
+                "line": 146, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "23", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "9", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3971", 
+                "mvaltcfailing": "1"
+            }, 
+            "scope": "-", 
+            "time": "5732", 
+            "type": "RemoveOp", 
+            "variant": 684
+        }, 
+        {
+            "buggyStatement": "r += f[i].value(x)", 
+            "generation": 386, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.analysis.FunctionUtils", 
+                "line": 146, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "23", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "9", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3971", 
+                "mvaltcfailing": "1"
+            }, 
+            "scope": "-", 
+            "time": "6234", 
+            "type": "RemoveOp", 
+            "variant": 772
+        }, 
+        {
+            "buggyStatement": "for (int i = 1 ; i < (f.length) ; i++) {\n\tr += f[i].value(x);\n}", 
+            "generation": 467, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.analysis.FunctionUtils", 
+                "line": 145, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "23", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "9", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3971", 
+                "mvaltcfailing": "1"
+            }, 
+            "scope": "-", 
+            "time": "7106", 
+            "type": "RemoveOp", 
+            "variant": 934
+        }, 
+        {
+            "buggyStatement": "return fx", 
+            "generation": 469, 
+            "ingredients": null, 
+            "patch": "return org.apache.commons.math3.util.FastMath.atan(x)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.analysis.function.StepFunction", 
+                "line": 99, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "11", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "9", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3971", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "7305", 
+            "type": "ReplaceOp", 
+            "variant": 938
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "40", 
+    "timeEvaluation": null, 
+    "timeTotal": "8007"
+}

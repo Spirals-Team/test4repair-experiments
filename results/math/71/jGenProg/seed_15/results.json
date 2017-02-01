@@ -1,0 +1,115 @@
+{
+    "date": "Mon Jan 16 00:40:51 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "278", 
+    "node": "graphene-78.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "double tb = (t0) + (interpolator.isForward() ? convergence : -(convergence))", 
+            "generation": 62, 
+            "ingredients": null, 
+            "patch": "if ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {\n\treturn false;\n} ", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 179, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "19", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2169", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "1119", 
+            "type": "InsertBeforeOp", 
+            "variant": 124
+        }, 
+        {
+            "buggyStatement": "forward = interpolator.isForward()", 
+            "generation": 176, 
+            "ingredients": null, 
+            "patch": "pendingEvent = true", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 172, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "19", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2169", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "2492", 
+            "type": "InsertBeforeOp", 
+            "variant": 352
+        }, 
+        {
+            "buggyStatement": "if ((g0Positive) ^ (gb >= 0)) {\n\tif ((ga * gb) > 0) {\n\t\tfinal double epsilon = (forward ? 0.25 : -0.25) * (convergence);\n\t\tfor (int k = 0 ; (k < 4) && ((ga * gb) > 0) ; ++k) {\n\t\t\tta += epsilon;\n\t\t\tinterpolator.setInterpolatedTime(ta);\n\t\t\tga = handler.g(ta, interpolator.getInterpolatedState());\n\t\t}\n\t\tif ((ga * gb) > 0) {\n\t\t\tthrow org.apache.commons.math.MathRuntimeException.createInternalError(null);\n\t\t} \n\t} \n\tincreasing = gb >= ga;\n\tfinal org.apache.commons.math.analysis.UnivariateRealFunction f = new org.apache.commons.math.analysis.UnivariateRealFunction() {\n\t\tpublic double value(final double t) throws org.apache.commons.math.FunctionEvaluationException {\n\t\t\ttry {\n\t\t\t\tinterpolator.setInterpolatedTime(t);\n\t\t\t\treturn handler.g(t, interpolator.getInterpolatedState());\n\t\t\t} catch (org.apache.commons.math.ode.DerivativeException e) {\n\t\t\t\tthrow new org.apache.commons.math.FunctionEvaluationException(e , t);\n\t\t\t} catch (org.apache.commons.math.ode.events.EventException e) {\n\t\t\t\tthrow new org.apache.commons.math.FunctionEvaluationException(e , t);\n\t\t\t}\n\t\t}\n\t};\n\tfinal org.apache.commons.math.analysis.solvers.BrentSolver solver = new org.apache.commons.math.analysis.solvers.BrentSolver();\n\tsolver.setAbsoluteAccuracy(convergence);\n\tsolver.setMaximalIterationCount(maxIterationCount);\n\tfinal double root = ta <= tb ? solver.solve(f, ta, tb) : solver.solve(f, tb, ta);\n\tif (((java.lang.Math.abs((root - ta))) <= (convergence)) && ((java.lang.Math.abs((root - (previousEventTime)))) <= (convergence))) {\n\t\tta = tb;\n\t\tga = gb;\n\t} else {\n\t\tif ((java.lang.Double.isNaN(previousEventTime)) || ((java.lang.Math.abs(((previousEventTime) - root))) > (convergence))) {\n\t\t\tpendingEventTime = root;\n\t\t\tif ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {\n\t\t\t\treturn false;\n\t\t\t} \n\t\t\tpendingEvent = true;\n\t\t\treturn true;\n\t\t} \n\t}\n} else {\n\tta = tb;\n\tga = gb;\n}", 
+            "generation": 293, 
+            "ingredients": null, 
+            "patch": "tb += h", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 188, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "19", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2169", 
+                "mvaltcfailing": "2"
+            }, 
+            "scope": "LOCAL", 
+            "time": "4675", 
+            "type": "InsertBeforeOp", 
+            "variant": 586
+        }, 
+        {
+            "buggyStatement": "increasing = gb >= ga", 
+            "generation": 390, 
+            "ingredients": null, 
+            "patch": "tb += h", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 212, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "19", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2169", 
+                "mvaltcfailing": "1"
+            }, 
+            "scope": "LOCAL", 
+            "time": "5798", 
+            "type": "InsertBeforeOp", 
+            "variant": 780
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "124", 
+    "timeEvaluation": null, 
+    "timeTotal": "7431"
+}

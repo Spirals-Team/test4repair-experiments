@@ -1,0 +1,115 @@
+{
+    "date": "Mon Jan 16 02:39:24 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "75", 
+    "node": "grimoire-1.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "add(item, true)", 
+            "generation": 150, 
+            "ingredients": null, 
+            "patch": "updateBoundsForRemovedItem(item)", 
+            "patchLocation": {
+                "className": "org.jfree.data.time.TimeSeries", 
+                "line": 564, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "125", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "37", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "4390", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "639", 
+            "type": "InsertBeforeOp", 
+            "variant": 300
+        }, 
+        {
+            "buggyStatement": "long latest = getTimePeriod(((getItemCount()) - 1)).getSerialIndex()", 
+            "generation": 726, 
+            "ingredients": null, 
+            "patch": "findBoundsByIteration()", 
+            "patchLocation": {
+                "className": "org.jfree.data.time.TimeSeries", 
+                "line": 878, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "125", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "37", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "4390", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "2163", 
+            "type": "InsertBeforeOp", 
+            "variant": 1452
+        }, 
+        {
+            "buggyStatement": "add(item, true)", 
+            "generation": 1550, 
+            "ingredients": null, 
+            "patch": "findBoundsByIteration()", 
+            "patchLocation": {
+                "className": "org.jfree.data.time.TimeSeries", 
+                "line": 564, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "125", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "37", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "4390", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "4102", 
+            "type": "InsertAfterOp", 
+            "variant": 3100
+        }, 
+        {
+            "buggyStatement": "if ((org.jfree.data.time.TimeSeries.this.timePeriodClass) == null) {\n\torg.jfree.data.time.TimeSeries.this.timePeriodClass = c;\n} else {\n\tif (!(org.jfree.data.time.TimeSeries.this.timePeriodClass.equals(c))) {\n\t\tjava.lang.StringBuffer b = new java.lang.StringBuffer();\n\t\tb.append(\"You are trying to add data where the time period class \");\n\t\tb.append(\"is \");\n\t\tb.append(item.getPeriod().getClass().getName());\n\t\tb.append(\", but the TimeSeries is expecting an instance of \");\n\t\tb.append(org.jfree.data.time.TimeSeries.this.timePeriodClass.getName());\n\t\tb.append(\".\");\n\t\tthrow new org.jfree.data.general.SeriesException(b.toString());\n\t} \n}", 
+            "generation": 2814, 
+            "ingredients": null, 
+            "patch": "updateBoundsForRemovedItem(item)", 
+            "patchLocation": {
+                "className": "org.jfree.data.time.TimeSeries", 
+                "line": 581, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "125", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "37", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "4390", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "6839", 
+            "type": "InsertBeforeOp", 
+            "variant": 5628
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "300", 
+    "timeEvaluation": null, 
+    "timeTotal": "7316"
+}

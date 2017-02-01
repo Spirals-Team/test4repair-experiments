@@ -1,0 +1,89 @@
+{
+    "date": "Sun Jan 15 22:38:02 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "220", 
+    "node": "graphene-82.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "final double errSum2 = ((((((((org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.E2_01) * (yDotK[0][j])) + ((org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.E2_06) * (yDotK[5][j]))) + ((org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.E2_07) * (yDotK[6][j]))) + ((org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.E2_08) * (yDotK[7][j]))) + ((org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.E2_09) * (yDotK[8][j]))) + ((org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.E2_10) * (yDotK[9][j]))) + ((org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.E2_11) * (yDotK[10][j]))) + ((org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator.E2_12) * (yDotK[11][j]))", 
+            "generation": 155, 
+            "ingredients": null, 
+            "patch": "setStateInitialized(false)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator", 
+                "line": 263, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "8", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "2", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3057", 
+                "mvaltcfailing": "1"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "1170", 
+            "type": "InsertBeforeOp", 
+            "variant": 310
+        }, 
+        {
+            "buggyStatement": "isLastStep = currentEvent.stop()", 
+            "generation": 870, 
+            "ingredients": null, 
+            "patch": "statesInitialized = false", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.AbstractIntegrator", 
+                "line": 324, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "26", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "2", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3057", 
+                "mvaltcfailing": "10"
+            }, 
+            "scope": "LOCAL", 
+            "time": "6266", 
+            "type": "ReplaceOp", 
+            "variant": 1740
+        }, 
+        {
+            "buggyStatement": "final double ratio2 = errSum2 / tol", 
+            "generation": 905, 
+            "ingredients": null, 
+            "patch": "setStateInitialized(false)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator", 
+                "line": 274, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "8", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "2", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3057", 
+                "mvaltcfailing": "1"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "6536", 
+            "type": "InsertAfterOp", 
+            "variant": 1810
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "310", 
+    "timeEvaluation": null, 
+    "timeTotal": "7674"
+}

@@ -1,0 +1,116 @@
+seed AstorRun 11 
+export PATH="/home/mmartinez/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/mmartinez/projects/math/math_81;defects4j compile;cp -r /home/mmartinez/projects/math/math_81 /tmp/math_81_Genprog_local_s1;cd /tmp/math_81_Genprog_local_s1;mkdir lib/;cp -r /home/mmartinez/defects4j/framework/projects/lib/* lib/;cp -r /home/mmartinez/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/11/package/81/Genprog/result
+cd /tmp/math_81_Genprog_local_s1;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";time /home/mmartinez/jdk1.8.0_45/bin//java -Xmx4096m -cp /home/mmartinez/defects4j-repair/src/python/core/../../..//libs/astor.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -id Math -dependencies lib/ -failing org.apache.commons.math.linear.EigenDecompositionImplTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -jvm4evosuitetestexecution /home/mmartinez/jdk1.8.0_45/bin/ -javacompliancelevel 5 -maxgen 1000000 -seed 11 -scope package -maxtime 120  -stopfirst false -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/ -flthreshold 0.1  -validation  fr.inria.astor.core.validation.validators.RegressionValidation  -ESParameters -Dassertion_timeout=1800:-Dminimization_timeout=1800:-Djunit_check_timeout=1800:-Dwrite_junit_timeout=300:-Dinitialization_timeout=300:-Dglobal_timeout=18000:-Dsearch_budget=100000:-Dstopping_condition=MaxStatements:-Dno_runtime_dependency=true:-Dsandbox=false:-Dp_reflection_on_private=0.0:-Dreflection_start_percent=1.0:-Dp_functional_mocking=0.0:-Dfunctional_mocking_percent=1.0:-mem=2000 -ignoredtestcases org.apache.commons.lang.LocaleUtilsTest  -excludeRegression  -maxgen 100000000 ;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+"; find /tmp/math_81_Genprog_local_s1/outputMutation -name "*.class" -type f -delete;echo "removed classes 
+"; find . -name bin  -type d -print0|xargs -0 rm -r --; zip -r -q out.zip /tmp/math_81_Genprog_local_s1/outputMutation; echo "zipped 
+";cp out.zip /home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/11/package/81/Genprog; echo "copied zip 
+";rm -rf /tmp/math_81_Genprog_local_s1;
+
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:136) - End Repair Loops: Found solution
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:137) - Solution stored at: /tmp/math_81_Genprog_local_s1/./outputMutation/AstorMain-Math//src/
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:142) - 
+Number solutions:4
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 5.0, [Variant id: 62 (SOL) , #gens: 350, #ops: 1, parent:61]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 9.0, [Variant id: 220 (SOL) , #gens: 352, #ops: 1, parent:219]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 7.0, [Variant id: 290 (SOL) , #gens: 351, #ops: 1, parent:289]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 5.0, [Variant id: 460 (SOL) , #gens: 350, #ops: 1, parent:459]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:146) - 
+All variants:
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:148) - f 1.0, [Variant id: 527, #gens: 351, #ops: 0, parent:-]
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:152) - 
+Solution details
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:153) - 
+ --SOLUTIONS DESCRIPTION--
+
+ ----
+ProgramVariant 62
+ 
+time(sec)= 3133
+operation: RemoveOp
+location= org.apache.commons.math.linear.EigenDecompositionImpl
+line= 1544
+lineSuspiciousness= 0.577
+original statement= b2 = (work[(nn - 13)]) / (work[(nn - 15)])
+fixed statement= 
+generation= 31
+ingredientScope= -
+validation=
+failing: |true|0|17|[]|
+manual_regression: |true|0|2101|[]|
+evo_regression: |false|5|43|[test16(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<-2.5624191934991107E44> but was:<-2.562419193499113E44>-, test19(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<-1.5836616342096641E44> but was:<-1.5836549523045176E44>-, test25(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): Expecting exception: ArrayIndexOutOfBoundsException-, test21(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<6.1007916164024745E54> but was:<6.10079161640248E54>-, test20(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): Expecting exception: ArrayIndexOutOfBoundsException-]|
+ ----
+ProgramVariant 220
+ 
+time(sec)= 4258
+operation: InsertBeforeOp
+location= org.apache.commons.math.linear.EigenDecompositionImpl
+line= 1052
+lineSuspiciousness= 0.25
+original statement= if (((dMin) <= 0) || (deflatedEnd < end)) {
+	if (flipIfWarranted(deflatedEnd, 1)) {
+		dMin2 = java.lang.Math.min(dMin2, work[(l - 1)]);
+		work[(l - 1)] = java.lang.Math.min(work[(l - 1)], java.lang.Math.min(work[(3 + (pingPong))], work[(7 + (pingPong))]));
+		work[(l - (2 * (pingPong)))] = java.lang.Math.min(work[(l - (2 * (pingPong)))], java.lang.Math.min(work[(6 + (pingPong))], work[(6 + (pingPong))]));
+		qMax = java.lang.Math.max(qMax, java.lang.Math.max(work[(3 + (pingPong))], work[(7 + (pingPong))]));
+		dMin = -0.0;
+	} 
+} 
+fixed statement= work[(((4 * deflatedEnd) - 3) - (pingPong))] = 0.0
+generation= 110
+ingredientScope= LOCAL
+validation=
+failing: |true|0|17|[]|
+manual_regression: |true|0|2101|[]|
+evo_regression: |false|9|43|[test14(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<-1.5836628890574308E44> but was:<-1.5836624714383568E44>-, test13(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): test timed out after 4000 milliseconds-, test16(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<-2.5624191934991107E44> but was:<-8.489253532555059E45>-, test12(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<-3.822187250252886E53> but was:<1.0006616140348952E54>-, test11(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<2.790898201909244E55> but was:<8.62435003997494E54>-, test19(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<-1.5836616342096641E44> but was:<-1.5836649751622445E44>-, test25(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): Expecting exception: ArrayIndexOutOfBoundsException-, test21(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<6.1007916164024745E54> but was:<-1.5972079995039568E55>-, test20(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): Expecting exception: ArrayIndexOutOfBoundsException-]|
+ ----
+ProgramVariant 290
+ 
+time(sec)= 5266
+operation: ReplaceOp
+location= org.apache.commons.math.linear.EigenDecompositionImpl
+line= 1480
+lineSuspiciousness= 0.5
+original statement= a2 = 0.0
+fixed statement= dMin2 = dMin
+generation= 145
+ingredientScope= LOCAL
+validation=
+failing: |true|0|17|[]|
+manual_regression: |true|0|2101|[]|
+evo_regression: |false|7|43|[test13(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<-3.583813529298468E53> but was:<-1.5836549523045259E44>-, test16(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<-2.5624191934991107E44> but was:<-2.562419201799937E44>-, test12(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<-3.822187250252886E53> but was:<-3.8221872502527347E53>-, test11(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<2.790898201909244E55> but was:<2.7908982019092434E55>-, test19(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<-1.5836616342096641E44> but was:<-1.5836649751622392E44>-, test21(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<6.1007916164024745E54> but was:<6.186659995862802E54>-, test20(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): Expecting exception: ArrayIndexOutOfBoundsException-]|
+ ----
+ProgramVariant 460
+ 
+time(sec)= 6603
+operation: RemoveOp
+location= org.apache.commons.math.linear.EigenDecompositionImpl
+line= 1544
+lineSuspiciousness= 0.577
+original statement= b2 = (work[(nn - 13)]) / (work[(nn - 15)])
+fixed statement= 
+generation= 230
+ingredientScope= -
+validation=
+failing: |true|0|17|[]|
+manual_regression: |true|0|2101|[]|
+evo_regression: |false|5|43|[test16(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<-2.5624191934991107E44> but was:<-2.562419193499113E44>-, test19(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<-1.5836616342096641E44> but was:<-1.5836549523045176E44>-, test25(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): Expecting exception: ArrayIndexOutOfBoundsException-, test21(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): expected:<6.1007916164024745E54> but was:<6.10079161640248E54>-, test20(org.apache.commons.math.linear.EigenDecompositionImpl_ESTest): Expecting exception: ArrayIndexOutOfBoundsException-]|
+[INFO ] fr.inria.main.evolution.AstorMain.run(AstorMain.java:397) - Time Total(s): 7571.64
+
+
+Node: griffon-7.nancy.grid5000.fr
+
+
+Date: Sat Jan 14 22:23:29 CET 2017
+
+removed classes 
+
+zipped 
+
+copied zip 
+
+

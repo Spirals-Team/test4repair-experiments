@@ -1,0 +1,89 @@
+{
+    "date": "Mon Jan 16 03:03:57 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "952", 
+    "node": "graphene-97.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "nonTitleArea.setRect(chartArea)", 
+            "generation": 390, 
+            "ingredients": null, 
+            "patch": "org.jfree.chart.JFreeChart.this.renderingHints.put(java.awt.RenderingHints.KEY_ANTIALIASING, java.awt.RenderingHints.VALUE_ANTIALIAS_OFF)", 
+            "patchLocation": {
+                "className": "org.jfree.chart.JFreeChart", 
+                "line": 1181, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "119", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "129", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3191", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "2726", 
+            "type": "ReplaceOp", 
+            "variant": 780
+        }, 
+        {
+            "buggyStatement": "if ((plotState != null) && (hotspot != null)) {\n\torg.jfree.chart.ChartRenderingInfo owner = plotState.getOwner();\n\torg.jfree.chart.entity.EntityCollection entities = owner.getEntityCollection();\n\tif (entities != null) {\n\t\tentities.add(new org.jfree.chart.entity.AxisLabelEntity(org.jfree.chart.axis.Axis.this , hotspot , org.jfree.chart.axis.Axis.this.labelToolTip , org.jfree.chart.axis.Axis.this.labelURL));\n\t} \n} ", 
+            "generation": 474, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.jfree.chart.axis.Axis", 
+                "line": 1190, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "84", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "129", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3191", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "3756", 
+            "type": "RemoveOp", 
+            "variant": 948
+        }, 
+        {
+            "buggyStatement": "org.jfree.chart.JFreeChart.this.plot.draw(g2, plotArea, anchor, null, plotInfo)", 
+            "generation": 698, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.jfree.chart.JFreeChart", 
+                "line": 1213, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "119", 
+                "evaltcfailing": "6", 
+                "fvalresult": "true", 
+                "fvaltcall": "129", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3191", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "5003", 
+            "type": "RemoveOp", 
+            "variant": 1396
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "780", 
+    "timeEvaluation": null, 
+    "timeTotal": "8669"
+}

@@ -1,0 +1,713 @@
+{
+    "date": "Mon Jan 16 02:50:09 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "176", 
+    "node": "griffon-7.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "if ((org.jfree.chart.block.BorderArrangement.this.leftBlock) != null) {\n\torg.jfree.chart.util.Size2D size = org.jfree.chart.block.BorderArrangement.this.leftBlock.arrange(g2, c2);\n\tw[2] = size.width;\n\th[2] = size.height;\n} ", 
+            "generation": 31, 
+            "ingredients": null, 
+            "patch": "org.jfree.chart.block.BorderArrangement.this.leftBlock = null", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 295, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "455", 
+            "type": "InsertAfterOp", 
+            "variant": 62
+        }, 
+        {
+            "buggyStatement": "h[3] = size.height", 
+            "generation": 45, 
+            "ingredients": null, 
+            "patch": "org.jfree.chart.block.BorderArrangement.this.rightBlock = null", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 308, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "615", 
+            "type": "InsertAfterOp", 
+            "variant": 90
+        }, 
+        {
+            "buggyStatement": "if ((org.jfree.chart.block.BorderArrangement.this.rightBlock) != null) {\n\torg.jfree.chart.block.RectangleConstraint c4 = new org.jfree.chart.block.RectangleConstraint(0.0 , new org.jfree.data.Range(0.0 , ((constraint.getWidth()) - (w[2]))) , org.jfree.chart.block.LengthConstraintType.RANGE , h[2] , null , org.jfree.chart.block.LengthConstraintType.FIXED);\n\torg.jfree.chart.util.Size2D size = org.jfree.chart.block.BorderArrangement.this.rightBlock.arrange(g2, c4);\n\tw[3] = size.width;\n} ", 
+            "generation": 73, 
+            "ingredients": null, 
+            "patch": "if ((org.jfree.chart.block.BorderArrangement.this.leftBlock) != null) {\n\torg.jfree.chart.block.BorderArrangement.this.leftBlock.setBounds(new java.awt.geom.Rectangle2D.Double(0.0 , h[0] , w[2] , h[2]));\n} ", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 453, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "894", 
+            "type": "ReplaceOp", 
+            "variant": 146
+        }, 
+        {
+            "buggyStatement": "if ((org.jfree.chart.block.BorderArrangement.this.leftBlock) != null) {\n\torg.jfree.chart.block.RectangleConstraint c3 = new org.jfree.chart.block.RectangleConstraint(0.0 , new org.jfree.data.Range(0.0 , constraint.getWidth()) , org.jfree.chart.block.LengthConstraintType.RANGE , h[2] , null , org.jfree.chart.block.LengthConstraintType.FIXED);\n\torg.jfree.chart.util.Size2D size = org.jfree.chart.block.BorderArrangement.this.leftBlock.arrange(g2, c3);\n\tw[2] = size.width;\n} ", 
+            "generation": 83, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 444, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "1017", 
+            "type": "RemoveOp", 
+            "variant": 166
+        }, 
+        {
+            "buggyStatement": "if ((org.jfree.chart.block.BorderArrangement.this.rightBlock) != null) {\n\torg.jfree.chart.block.RectangleConstraint c4 = new org.jfree.chart.block.RectangleConstraint(0.0 , new org.jfree.data.Range(0.0 , ((constraint.getWidth()) - (w[2]))) , org.jfree.chart.block.LengthConstraintType.RANGE , h[2] , null , org.jfree.chart.block.LengthConstraintType.FIXED);\n\torg.jfree.chart.util.Size2D size = org.jfree.chart.block.BorderArrangement.this.rightBlock.arrange(g2, c4);\n\tw[3] = size.width;\n} ", 
+            "generation": 88, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 453, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "1133", 
+            "type": "RemoveOp", 
+            "variant": 176
+        }, 
+        {
+            "buggyStatement": "if ((org.jfree.chart.block.BorderArrangement.this.leftBlock) != null) {\n\torg.jfree.chart.block.RectangleConstraint c3 = new org.jfree.chart.block.RectangleConstraint(0.0 , new org.jfree.data.Range(0.0 , constraint.getWidth()) , org.jfree.chart.block.LengthConstraintType.RANGE , h[2] , null , org.jfree.chart.block.LengthConstraintType.FIXED);\n\torg.jfree.chart.util.Size2D size = org.jfree.chart.block.BorderArrangement.this.leftBlock.arrange(g2, c3);\n\tw[2] = size.width;\n} ", 
+            "generation": 144, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 444, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "1510", 
+            "type": "RemoveOp", 
+            "variant": 288
+        }, 
+        {
+            "buggyStatement": "if ((org.jfree.chart.block.BorderArrangement.this.rightBlock) != null) {\n\torg.jfree.chart.block.RectangleConstraint c4 = new org.jfree.chart.block.RectangleConstraint(0.0 , new org.jfree.data.Range(0.0 , ((constraint.getWidth()) - (w[2]))) , org.jfree.chart.block.LengthConstraintType.RANGE , h[2] , null , org.jfree.chart.block.LengthConstraintType.FIXED);\n\torg.jfree.chart.util.Size2D size = org.jfree.chart.block.BorderArrangement.this.rightBlock.arrange(g2, c4);\n\tw[3] = size.width;\n} ", 
+            "generation": 169, 
+            "ingredients": null, 
+            "patch": "if ((org.jfree.chart.block.BorderArrangement.this.centerBlock) != null) {\n\torg.jfree.chart.block.BorderArrangement.this.centerBlock.setBounds(new java.awt.geom.Rectangle2D.Double(w[2] , h[0] , w[4] , h[4]));\n} ", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 453, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "1792", 
+            "type": "ReplaceOp", 
+            "variant": 338
+        }, 
+        {
+            "buggyStatement": "if ((org.jfree.chart.block.BorderArrangement.this.leftBlock) != null) {\n\torg.jfree.chart.block.RectangleConstraint c3 = new org.jfree.chart.block.RectangleConstraint(0.0 , new org.jfree.data.Range(0.0 , constraint.getWidth()) , org.jfree.chart.block.LengthConstraintType.RANGE , h[2] , null , org.jfree.chart.block.LengthConstraintType.FIXED);\n\torg.jfree.chart.util.Size2D size = org.jfree.chart.block.BorderArrangement.this.leftBlock.arrange(g2, c3);\n\tw[2] = size.width;\n} ", 
+            "generation": 181, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 444, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "1933", 
+            "type": "RemoveOp", 
+            "variant": 362
+        }, 
+        {
+            "buggyStatement": "if ((org.jfree.chart.block.BorderArrangement.this.rightBlock) != null) {\n\torg.jfree.chart.block.RectangleConstraint c4 = new org.jfree.chart.block.RectangleConstraint(0.0 , new org.jfree.data.Range(0.0 , ((constraint.getWidth()) - (w[2]))) , org.jfree.chart.block.LengthConstraintType.RANGE , h[2] , null , org.jfree.chart.block.LengthConstraintType.FIXED);\n\torg.jfree.chart.util.Size2D size = org.jfree.chart.block.BorderArrangement.this.rightBlock.arrange(g2, c4);\n\tw[3] = size.width;\n} ", 
+            "generation": 215, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 453, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "2126", 
+            "type": "RemoveOp", 
+            "variant": 430
+        }, 
+        {
+            "buggyStatement": "org.jfree.chart.util.Size2D size = org.jfree.chart.block.BorderArrangement.this.leftBlock.arrange(g2, c2)", 
+            "generation": 221, 
+            "ingredients": null, 
+            "patch": "org.jfree.chart.block.BorderArrangement.this.leftBlock = null", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 296, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "2264", 
+            "type": "InsertAfterOp", 
+            "variant": 442
+        }, 
+        {
+            "buggyStatement": "w[2] = size.width", 
+            "generation": 331, 
+            "ingredients": null, 
+            "patch": "h[3] = h[2]", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 450, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "2773", 
+            "type": "ReplaceOp", 
+            "variant": 662
+        }, 
+        {
+            "buggyStatement": "if ((org.jfree.chart.block.BorderArrangement.this.bottomBlock) != null) {\n\torg.jfree.chart.block.RectangleConstraint c2 = new org.jfree.chart.block.RectangleConstraint(w[0] , null , org.jfree.chart.block.LengthConstraintType.FIXED , 0.0 , new org.jfree.data.Range(0.0 , ((constraint.getHeight()) - (h[0]))) , org.jfree.chart.block.LengthConstraintType.RANGE);\n\torg.jfree.chart.util.Size2D size = org.jfree.chart.block.BorderArrangement.this.bottomBlock.arrange(g2, c2);\n\th[1] = size.height;\n} ", 
+            "generation": 333, 
+            "ingredients": null, 
+            "patch": "org.jfree.chart.block.BorderArrangement.this.leftBlock = null", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 436, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "2880", 
+            "type": "InsertAfterOp", 
+            "variant": 666
+        }, 
+        {
+            "buggyStatement": "w[2] = size.width", 
+            "generation": 373, 
+            "ingredients": null, 
+            "patch": "org.jfree.chart.block.BorderArrangement.this.leftBlock = null", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 450, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "3121", 
+            "type": "ReplaceOp", 
+            "variant": 746
+        }, 
+        {
+            "buggyStatement": "if ((org.jfree.chart.block.BorderArrangement.this.leftBlock) != null) {\n\torg.jfree.chart.block.RectangleConstraint c3 = new org.jfree.chart.block.RectangleConstraint(0.0 , new org.jfree.data.Range(0.0 , constraint.getWidth()) , org.jfree.chart.block.LengthConstraintType.RANGE , h[2] , null , org.jfree.chart.block.LengthConstraintType.FIXED);\n\torg.jfree.chart.util.Size2D size = org.jfree.chart.block.BorderArrangement.this.leftBlock.arrange(g2, c3);\n\tw[2] = size.width;\n} ", 
+            "generation": 431, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 444, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "3381", 
+            "type": "RemoveOp", 
+            "variant": 862
+        }, 
+        {
+            "buggyStatement": "org.jfree.chart.util.Size2D size = org.jfree.chart.block.BorderArrangement.this.leftBlock.arrange(g2, c3)", 
+            "generation": 452, 
+            "ingredients": null, 
+            "patch": "org.jfree.chart.block.BorderArrangement.this.rightBlock = null", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 449, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "3547", 
+            "type": "InsertBeforeOp", 
+            "variant": 904
+        }, 
+        {
+            "buggyStatement": "if ((org.jfree.chart.block.BorderArrangement.this.rightBlock) != null) {\n\torg.jfree.chart.block.RectangleConstraint c4 = new org.jfree.chart.block.RectangleConstraint(0.0 , new org.jfree.data.Range(0.0 , ((constraint.getWidth()) - (w[2]))) , org.jfree.chart.block.LengthConstraintType.RANGE , h[2] , null , org.jfree.chart.block.LengthConstraintType.FIXED);\n\torg.jfree.chart.util.Size2D size = org.jfree.chart.block.BorderArrangement.this.rightBlock.arrange(g2, c4);\n\tw[3] = size.width;\n} ", 
+            "generation": 552, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 453, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "3972", 
+            "type": "RemoveOp", 
+            "variant": 1104
+        }, 
+        {
+            "buggyStatement": "if ((org.jfree.chart.block.BorderArrangement.this.rightBlock) != null) {\n\torg.jfree.chart.block.RectangleConstraint c4 = new org.jfree.chart.block.RectangleConstraint(0.0 , new org.jfree.data.Range(0.0 , ((constraint.getWidth()) - (w[2]))) , org.jfree.chart.block.LengthConstraintType.RANGE , h[2] , null , org.jfree.chart.block.LengthConstraintType.FIXED);\n\torg.jfree.chart.util.Size2D size = org.jfree.chart.block.BorderArrangement.this.rightBlock.arrange(g2, c4);\n\tw[3] = size.width;\n} ", 
+            "generation": 556, 
+            "ingredients": null, 
+            "patch": "if ((org.jfree.chart.block.BorderArrangement.this.topBlock) != null) {\n\torg.jfree.chart.block.BorderArrangement.this.topBlock.setBounds(new java.awt.geom.Rectangle2D.Double(0.0 , 0.0 , w[0] , h[0]));\n} ", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 453, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "4081", 
+            "type": "ReplaceOp", 
+            "variant": 1112
+        }, 
+        {
+            "buggyStatement": "w[2] = size.width", 
+            "generation": 655, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 450, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "4494", 
+            "type": "RemoveOp", 
+            "variant": 1310
+        }, 
+        {
+            "buggyStatement": "h[2] = ((constraint.getHeight()) - (h[1])) - (h[0])", 
+            "generation": 754, 
+            "ingredients": null, 
+            "patch": "org.jfree.chart.block.BorderArrangement.this.leftBlock = null", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 443, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "4958", 
+            "type": "ReplaceOp", 
+            "variant": 1508
+        }, 
+        {
+            "buggyStatement": "if ((org.jfree.chart.block.BorderArrangement.this.leftBlock) != null) {\n\torg.jfree.chart.block.RectangleConstraint c3 = new org.jfree.chart.block.RectangleConstraint(0.0 , new org.jfree.data.Range(0.0 , constraint.getWidth()) , org.jfree.chart.block.LengthConstraintType.RANGE , h[2] , null , org.jfree.chart.block.LengthConstraintType.FIXED);\n\torg.jfree.chart.util.Size2D size = org.jfree.chart.block.BorderArrangement.this.leftBlock.arrange(g2, c3);\n\tw[2] = size.width;\n} ", 
+            "generation": 788, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 444, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "5168", 
+            "type": "RemoveOp", 
+            "variant": 1576
+        }, 
+        {
+            "buggyStatement": "if ((org.jfree.chart.block.BorderArrangement.this.rightBlock) != null) {\n\torg.jfree.chart.block.RectangleConstraint c4 = new org.jfree.chart.block.RectangleConstraint(0.0 , new org.jfree.data.Range(0.0 , ((constraint.getWidth()) - (w[2]))) , org.jfree.chart.block.LengthConstraintType.RANGE , h[2] , null , org.jfree.chart.block.LengthConstraintType.FIXED);\n\torg.jfree.chart.util.Size2D size = org.jfree.chart.block.BorderArrangement.this.rightBlock.arrange(g2, c4);\n\tw[3] = size.width;\n} ", 
+            "generation": 926, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 453, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "5724", 
+            "type": "RemoveOp", 
+            "variant": 1852
+        }, 
+        {
+            "buggyStatement": "result = org.jfree.chart.block.AbstractBlock.this.frame.getInsets().extendHeight(result)", 
+            "generation": 929, 
+            "ingredients": null, 
+            "patch": "org.jfree.chart.block.AbstractBlock.this.width = 0.0", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.AbstractBlock", 
+                "line": 491, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "78", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "5995", 
+            "type": "ReplaceOp", 
+            "variant": 1858
+        }, 
+        {
+            "buggyStatement": "w[3] = size.width", 
+            "generation": 945, 
+            "ingredients": null, 
+            "patch": "org.jfree.chart.block.BorderArrangement.this.rightBlock = null", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 307, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "6135", 
+            "type": "InsertAfterOp", 
+            "variant": 1890
+        }, 
+        {
+            "buggyStatement": "if ((org.jfree.chart.block.BorderArrangement.this.rightBlock) != null) {\n\torg.jfree.chart.block.RectangleConstraint c4 = new org.jfree.chart.block.RectangleConstraint(0.0 , new org.jfree.data.Range(0.0 , ((constraint.getWidth()) - (w[2]))) , org.jfree.chart.block.LengthConstraintType.RANGE , h[2] , null , org.jfree.chart.block.LengthConstraintType.FIXED);\n\torg.jfree.chart.util.Size2D size = org.jfree.chart.block.BorderArrangement.this.rightBlock.arrange(g2, c4);\n\tw[3] = size.width;\n} ", 
+            "generation": 983, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 453, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "6346", 
+            "type": "RemoveOp", 
+            "variant": 1966
+        }, 
+        {
+            "buggyStatement": "w[2] = size.width", 
+            "generation": 993, 
+            "ingredients": null, 
+            "patch": "org.jfree.chart.block.BorderArrangement.this.topBlock = null", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 450, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "6570", 
+            "type": "ReplaceOp", 
+            "variant": 1986
+        }, 
+        {
+            "buggyStatement": "w[1] = w[0]", 
+            "generation": 1000, 
+            "ingredients": null, 
+            "patch": "org.jfree.chart.block.BorderArrangement.this.rightBlock = null", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 435, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "6673", 
+            "type": "ReplaceOp", 
+            "variant": 2000
+        }, 
+        {
+            "buggyStatement": "if ((org.jfree.chart.block.BorderArrangement.this.leftBlock) != null) {\n\torg.jfree.chart.block.RectangleConstraint c3 = new org.jfree.chart.block.RectangleConstraint(0.0 , new org.jfree.data.Range(0.0 , constraint.getWidth()) , org.jfree.chart.block.LengthConstraintType.RANGE , h[2] , null , org.jfree.chart.block.LengthConstraintType.FIXED);\n\torg.jfree.chart.util.Size2D size = org.jfree.chart.block.BorderArrangement.this.leftBlock.arrange(g2, c3);\n\tw[2] = size.width;\n} ", 
+            "generation": 1011, 
+            "ingredients": null, 
+            "patch": "if ((org.jfree.chart.block.BorderArrangement.this.topBlock) != null) {\n\torg.jfree.chart.block.BorderArrangement.this.topBlock.setBounds(new java.awt.geom.Rectangle2D.Double(0.0 , 0.0 , w[0] , h[0]));\n} ", 
+            "patchLocation": {
+                "className": "org.jfree.chart.block.BorderArrangement", 
+                "line": 444, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "24", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "5", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3597", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "6884", 
+            "type": "ReplaceOp", 
+            "variant": 2022
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "62", 
+    "timeEvaluation": null, 
+    "timeTotal": "7341"
+}

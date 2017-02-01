@@ -1,0 +1,125 @@
+seed AstorRun 14 
+export PATH="/home/mmartinez/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/mmartinez/projects/math/math_12;defects4j compile;cp -r /home/mmartinez/projects/math/math_12 /tmp/math_12_Genprog_local_s1;cd /tmp/math_12_Genprog_local_s1;mkdir lib/;cp -r /home/mmartinez/defects4j/framework/projects/lib/* lib/;cp -r /home/mmartinez/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/14/package/12/Genprog/result
+cd /tmp/math_12_Genprog_local_s1;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";time /home/mmartinez/jdk1.8.0_45/bin//java -Xmx4096m -cp /home/mmartinez/defects4j-repair/src/python/core/../../..//libs/astor.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -id Math -dependencies lib/ -failing org.apache.commons.math3.distribution.GammaDistributionTest:org.apache.commons.math3.distribution.LogNormalDistributionTest:org.apache.commons.math3.distribution.NormalDistributionTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -jvm4evosuitetestexecution /home/mmartinez/jdk1.8.0_45/bin/ -javacompliancelevel 5 -maxgen 1000000 -seed 14 -scope package -maxtime 120  -stopfirst false -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/ -flthreshold 0.1  -validation  fr.inria.astor.core.validation.validators.RegressionValidation  -ESParameters -Dassertion_timeout=1800:-Dminimization_timeout=1800:-Djunit_check_timeout=1800:-Dwrite_junit_timeout=300:-Dinitialization_timeout=300:-Dglobal_timeout=18000:-Dsearch_budget=100000:-Dstopping_condition=MaxStatements:-Dno_runtime_dependency=true:-Dsandbox=false:-Dp_reflection_on_private=0.0:-Dreflection_start_percent=1.0:-Dp_functional_mocking=0.0:-Dfunctional_mocking_percent=1.0:-mem=2000 -ignoredtestcases org.apache.commons.lang.LocaleUtilsTest  -excludeRegression  -maxgen 100000000 ;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+"; find /tmp/math_12_Genprog_local_s1/outputMutation -name "*.class" -type f -delete;echo "removed classes 
+"; find . -name bin  -type d -print0|xargs -0 rm -r --; zip -r -q out.zip /tmp/math_12_Genprog_local_s1/outputMutation; echo "zipped 
+";cp out.zip /home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/14/package/12/Genprog; echo "copied zip 
+";rm -rf /tmp/math_12_Genprog_local_s1;
+
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:136) - End Repair Loops: Found solution
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:137) - Solution stored at: /tmp/math_12_Genprog_local_s1/./outputMutation/AstorMain-Math//src/
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:142) - 
+Number solutions:5
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 6.0, [Variant id: 212 (SOL) , #gens: 63, #ops: 1, parent:211]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 6.0, [Variant id: 504 (SOL) , #gens: 63, #ops: 1, parent:503]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 6.0, [Variant id: 580 (SOL) , #gens: 64, #ops: 1, parent:579]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 6.0, [Variant id: 744 (SOL) , #gens: 63, #ops: 1, parent:743]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 6.0, [Variant id: 2750 (SOL) , #gens: 63, #ops: 1, parent:2749]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:146) - 
+All variants:
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:148) - f 3.0, [Variant id: 2751, #gens: 64, #ops: 0, parent:-]
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:152) - 
+Solution details
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:153) - 
+ --SOLUTIONS DESCRIPTION--
+
+ ----
+ProgramVariant 212
+ 
+time(sec)= 826
+operation: RemoveOp
+location= org.apache.commons.math3.random.BitsStreamGenerator
+line= 108
+lineSuspiciousness= 0.175
+original statement= nextGaussian = r * (org.apache.commons.math3.util.FastMath.sin(alpha))
+fixed statement= 
+generation= 106
+ingredientScope= -
+validation=
+failing: |true|0|60|[]|
+manual_regression: |false|5|4454|[testSampling(org.apache.commons.math3.distribution.MultivariateNormalMixtureModelDistributionTest): expected:<6.259990922080121> but was:<5.67028577848099>-, testParametersErrorMonteCarloObservations(org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizerTestValidation): expected:<2.8526657738980794> but was:<2.6554040543304582>-, testCircleFitting2(org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest): expected:<123.456> but was:<128.7984930856665>-, testParametersErrorMonteCarloObservations(org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizerTestValidation): expected:<2.8526657738980794> but was:<2.6554040543304582>-, testCircleFitting2(org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest): expected:<123.456> but was:<128.579278595889>-]|
+evo_regression: |false|1|32|[test25(org.apache.commons.math3.random.BitsStreamGenerator_ESTest): expected:<-0.40370532912261176> but was:<1.1884472864642752>-]|
+ ----
+ProgramVariant 504
+ 
+time(sec)= 1790
+operation: RemoveOp
+location= org.apache.commons.math3.random.BitsStreamGenerator
+line= 108
+lineSuspiciousness= 0.175
+original statement= nextGaussian = r * (org.apache.commons.math3.util.FastMath.sin(alpha))
+fixed statement= 
+generation= 252
+ingredientScope= -
+validation=
+failing: |true|0|60|[]|
+manual_regression: |false|5|4454|[testSampling(org.apache.commons.math3.distribution.MultivariateNormalMixtureModelDistributionTest): expected:<6.259990922080121> but was:<5.67028577848099>-, testParametersErrorMonteCarloObservations(org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizerTestValidation): expected:<2.8526657738980794> but was:<2.6554040543304582>-, testCircleFitting2(org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest): expected:<123.456> but was:<128.7984930856665>-, testParametersErrorMonteCarloObservations(org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizerTestValidation): expected:<2.8526657738980794> but was:<2.6554040543304582>-, testCircleFitting2(org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest): expected:<123.456> but was:<128.579278595889>-]|
+evo_regression: |false|1|32|[test25(org.apache.commons.math3.random.BitsStreamGenerator_ESTest): expected:<-0.40370532912261176> but was:<1.1884472864642752>-]|
+ ----
+ProgramVariant 580
+ 
+time(sec)= 2196
+operation: ReplaceOp
+location= org.apache.commons.math3.random.BitsStreamGenerator
+line= 108
+lineSuspiciousness= 0.175
+original statement= nextGaussian = r * (org.apache.commons.math3.util.FastMath.sin(alpha))
+fixed statement= nextGaussian = java.lang.Double.NaN
+generation= 290
+ingredientScope= LOCAL
+validation=
+failing: |true|0|60|[]|
+manual_regression: |false|5|4454|[testSampling(org.apache.commons.math3.distribution.MultivariateNormalMixtureModelDistributionTest): expected:<6.259990922080121> but was:<5.67028577848099>-, testParametersErrorMonteCarloObservations(org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizerTestValidation): expected:<2.8526657738980794> but was:<2.6554040543304582>-, testCircleFitting2(org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest): expected:<123.456> but was:<128.7984930856665>-, testParametersErrorMonteCarloObservations(org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizerTestValidation): expected:<2.8526657738980794> but was:<2.6554040543304582>-, testCircleFitting2(org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest): expected:<123.456> but was:<128.579278595889>-]|
+evo_regression: |false|1|32|[test25(org.apache.commons.math3.random.BitsStreamGenerator_ESTest): expected:<-0.40370532912261176> but was:<1.1884472864642752>-]|
+ ----
+ProgramVariant 744
+ 
+time(sec)= 2757
+operation: RemoveOp
+location= org.apache.commons.math3.random.BitsStreamGenerator
+line= 108
+lineSuspiciousness= 0.175
+original statement= nextGaussian = r * (org.apache.commons.math3.util.FastMath.sin(alpha))
+fixed statement= 
+generation= 372
+ingredientScope= -
+validation=
+failing: |true|0|60|[]|
+manual_regression: |false|5|4454|[testSampling(org.apache.commons.math3.distribution.MultivariateNormalMixtureModelDistributionTest): expected:<6.259990922080121> but was:<5.67028577848099>-, testParametersErrorMonteCarloObservations(org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizerTestValidation): expected:<2.8526657738980794> but was:<2.6554040543304582>-, testCircleFitting2(org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest): expected:<123.456> but was:<128.7984930856665>-, testParametersErrorMonteCarloObservations(org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizerTestValidation): expected:<2.8526657738980794> but was:<2.6554040543304582>-, testCircleFitting2(org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest): expected:<123.456> but was:<128.579278595889>-]|
+evo_regression: |false|1|32|[test25(org.apache.commons.math3.random.BitsStreamGenerator_ESTest): expected:<-0.40370532912261176> but was:<1.1884472864642752>-]|
+ ----
+ProgramVariant 2750
+ 
+time(sec)= 7431
+operation: RemoveOp
+location= org.apache.commons.math3.random.BitsStreamGenerator
+line= 108
+lineSuspiciousness= 0.175
+original statement= nextGaussian = r * (org.apache.commons.math3.util.FastMath.sin(alpha))
+fixed statement= 
+generation= 1375
+ingredientScope= -
+validation=
+failing: |true|0|60|[]|
+manual_regression: |false|5|4454|[testSampling(org.apache.commons.math3.distribution.MultivariateNormalMixtureModelDistributionTest): expected:<6.259990922080121> but was:<5.67028577848099>-, testParametersErrorMonteCarloObservations(org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizerTestValidation): expected:<2.8526657738980794> but was:<2.6554040543304582>-, testCircleFitting2(org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest): expected:<123.456> but was:<128.7984930856665>-, testParametersErrorMonteCarloObservations(org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizerTestValidation): expected:<2.8526657738980794> but was:<2.6554040543304582>-, testCircleFitting2(org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest): expected:<123.456> but was:<128.579278595889>-]|
+evo_regression: |false|1|32|[test25(org.apache.commons.math3.random.BitsStreamGenerator_ESTest): expected:<-0.40370532912261176> but was:<1.1884472864642752>-]|
+[INFO ] fr.inria.main.evolution.AstorMain.run(AstorMain.java:397) - Time Total(s): 8357.845
+
+
+Node: graphene-89.nancy.grid5000.fr
+
+
+Date: Sun Jan 15 17:30:50 CET 2017
+
+removed classes 
+
+zipped 
+
+copied zip 
+
+

@@ -1,0 +1,63 @@
+{
+    "date": "Wed Jan 18 03:43:26 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "9", 
+    "node": "graphene-114.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "return solve(min, max)", 
+            "generation": 75, 
+            "ingredients": null, 
+            "patch": "return solve(f, initial, max)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BisectionSolver", 
+                "line": 72, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "21", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "12", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2184", 
+                "mvaltcfailing": "2"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "279", 
+            "type": "ReplaceOp", 
+            "variant": 150
+        }, 
+        {
+            "buggyStatement": "return solve(min, max)", 
+            "generation": 99, 
+            "ingredients": null, 
+            "patch": "return solve(f, min, max)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BisectionSolver", 
+                "line": 72, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "21", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "12", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2184", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "383", 
+            "type": "ReplaceOp", 
+            "variant": 198
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "150", 
+    "timeEvaluation": null, 
+    "timeTotal": "7288"
+}

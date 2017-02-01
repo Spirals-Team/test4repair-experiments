@@ -1,0 +1,63 @@
+{
+    "date": "Fri Jan 27 23:32:56 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "278", 
+    "node": "grisou-17.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "if (dx <= 0.0) {\n\tx1 = x1 - (0.5 * tolerance);\n} ", 
+            "generation": 332, 
+            "ingredients": null, 
+            "patch": "if ((java.lang.Math.abs(oldDelta)) < (java.lang.Math.max(((relativeAccuracy) * (java.lang.Math.abs(x1))), absoluteAccuracy))) {\n\tsetResult(x1, i);\n\treturn result;\n} ", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 336, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "36", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "19", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2169", 
+                "mvaltcfailing": "5"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "4679", 
+            "type": "ReplaceOp", 
+            "variant": 664
+        }, 
+        {
+            "buggyStatement": "if ((ga * gb) > 0) {\n\tfinal double epsilon = (forward ? 0.25 : -0.25) * (convergence);\n\tfor (int k = 0 ; (k < 4) && ((ga * gb) > 0) ; ++k) {\n\t\tta += epsilon;\n\t\tinterpolator.setInterpolatedTime(ta);\n\t\tga = handler.g(ta, interpolator.getInterpolatedState());\n\t}\n\tif ((ga * gb) > 0) {\n\t\tthrow org.apache.commons.math.MathRuntimeException.createInternalError(null);\n\t} \n} ", 
+            "generation": 395, 
+            "ingredients": null, 
+            "patch": "if ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {\n\treturn false;\n} ", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 191, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "19", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2169", 
+                "mvaltcfailing": "5"
+            }, 
+            "scope": "LOCAL", 
+            "time": "5778", 
+            "type": "ReplaceOp", 
+            "variant": 790
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "664", 
+    "timeEvaluation": null, 
+    "timeTotal": "7309"
+}

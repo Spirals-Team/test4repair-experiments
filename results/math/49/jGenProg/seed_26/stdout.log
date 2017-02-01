@@ -1,0 +1,108 @@
+seed AstorRun 26 
+export PATH="/home/mmartinez/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/mmartinez/projects/math/math_49;defects4j compile;cp -r /home/mmartinez/projects/math/math_49 /tmp/math_49_Genprog_local_s1;cd /tmp/math_49_Genprog_local_s1;mkdir lib/;cp -r /home/mmartinez/defects4j/framework/projects/lib/* lib/;cp -r /home/mmartinez/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/26/package/49/Genprog/result
+cd /tmp/math_49_Genprog_local_s1;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";time /home/mmartinez/jdk1.8.0_45/bin//java -Xmx4096m -cp /home/mmartinez/defects4j-repair/src/python/core/../../..//libs/astor.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -id Math -dependencies lib/ -failing org.apache.commons.math.linear.SparseRealVectorTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -jvm4evosuitetestexecution /home/mmartinez/jdk1.8.0_45/bin/ -javacompliancelevel 5 -maxgen 1000000 -seed 26 -scope package -maxtime 120  -stopfirst false -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/ -flthreshold 0.1  -validation  fr.inria.astor.core.validation.validators.RegressionValidation  -ESParameters -Dassertion_timeout=1800:-Dminimization_timeout=1800:-Djunit_check_timeout=1800:-Dwrite_junit_timeout=300:-Dinitialization_timeout=300:-Dglobal_timeout=18000:-Dsearch_budget=100000:-Dstopping_condition=MaxStatements:-Dno_runtime_dependency=true:-Dsandbox=false:-Dp_reflection_on_private=0.0:-Dreflection_start_percent=1.0:-Dp_functional_mocking=0.0:-Dfunctional_mocking_percent=1.0:-mem=2000 -testbystep  -ignoredtestcases org.apache.commons.lang.LocaleUtilsTest  -excludeRegression  -maxgen 100000000 ;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+"; find /tmp/math_49_Genprog_local_s1/outputMutation -name "*.class" -type f -delete;echo "removed classes 
+"; find . -name bin  -type d -print0|xargs -0 rm -r --; zip -r -q out.zip /tmp/math_49_Genprog_local_s1/outputMutation; echo "zipped 
+";cp out.zip /home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/26/package/49/Genprog; echo "copied zip 
+";rm -rf /tmp/math_49_Genprog_local_s1;
+
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:136) - End Repair Loops: Found solution
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:137) - Solution stored at: /tmp/math_49_Genprog_local_s1/./outputMutation/AstorMain-Math//src/
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:142) - 
+Number solutions:4
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 15.0, [Variant id: 122 (SOL) , #gens: 55, #ops: 1, parent:121]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 522 (SOL) , #gens: 56, #ops: 1, parent:521]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 10.0, [Variant id: 572 (SOL) , #gens: 55, #ops: 1, parent:571]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 10.0, [Variant id: 680 (SOL) , #gens: 55, #ops: 1, parent:679]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:146) - 
+All variants:
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:148) - f 1.0, [Variant id: 1341, #gens: 55, #ops: 0, parent:-]
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:152) - 
+Solution details
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:153) - 
+ --SOLUTIONS DESCRIPTION--
+
+ ----
+ProgramVariant 122
+ 
+time(sec)= 1311
+operation: ReplaceOp
+location= org.apache.commons.math.linear.OpenMapRealVector
+line= 667
+lineSuspiciousness= 0.408
+original statement= entries.remove(index)
+fixed statement= entries.put(index, value)
+generation= 61
+ingredientScope= LOCAL
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2899|[]|
+evo_regression: |false|15|177|[test012(org.apache.commons.math.linear.OpenMapRealVector_ESTest): expected:<0.0> but was:<0.16666666666666666>-, test091(org.apache.commons.math.linear.OpenMapRealVector_ESTest): Expecting exception: ConcurrentModificationException-, test009(org.apache.commons.math.linear.OpenMapRealVector_ESTest): expected:<0.0> but was:<0.3333333333333333>-, test008(org.apache.commons.math.linear.OpenMapRealVector_ESTest): expected:<0.0> but was:<0.3333333333333333>-, test117(org.apache.commons.math.linear.OpenMapRealVector_ESTest): expected:<0.0> but was:<0.16666666666666666>-, test116(org.apache.commons.math.linear.OpenMapRealVector_ESTest): expected:<0.0> but was:<1.0>-, test152(org.apache.commons.math.linear.OpenMapRealVector_ESTest): expected:<0.0> but was:<0.16666666666666666>-, test147(org.apache.commons.math.linear.OpenMapRealVector_ESTest): expected:<0.0> but was:<0.16666666666666666>-, test149(org.apache.commons.math.linear.OpenMapRealVector_ESTest): expected:<0.0> but was:<0.16666666666666666>-, test020(org.apache.commons.math.linear.OpenMapRealVector_ESTest): expected:<0.0> but was:<1.0>-, test141(org.apache.commons.math.linear.OpenMapRealVector_ESTest): expected:<0.0> but was:<0.16666666666666666>-, ...and 5 failures more, test143(org.apache.commons.math.linear.OpenMapRealVector_ESTest): expected:<0.16666666666666666> but was:<1.0>-, ...and 5 failures more, test162(org.apache.commons.math.linear.OpenMapRealVector_ESTest): expected:<0.5> but was:<1.0>-, ...and 5 failures more, test166(org.apache.commons.math.linear.OpenMapRealVector_ESTest): expected:<0.0> but was:<0.16666666666666666>-, ...and 5 failures more, test165(org.apache.commons.math.linear.OpenMapRealVector_ESTest): expected:<0.8333333333333334> but was:<1.0>-, ...and 5 failures more]|
+ ----
+ProgramVariant 522
+ 
+time(sec)= 3548
+operation: InsertAfterOp
+location= org.apache.commons.math.util.OpenIntToDoubleHashMap
+line= 395
+lineSuspiciousness= 0.183
+original statement= states[index] = org.apache.commons.math.util.OpenIntToDoubleHashMap.REMOVED
+fixed statement= int count = 1
+generation= 261
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2899|[]|
+evo_regression: |false|2|43|[test19(org.apache.commons.math.util.OpenIntToDoubleHashMap_ESTest): Expecting exception: ConcurrentModificationException-, test21(org.apache.commons.math.util.OpenIntToDoubleHashMap_ESTest): iterator exhausted-]|
+ ----
+ProgramVariant 572
+ 
+time(sec)= 3932
+operation: ReplaceOp
+location= org.apache.commons.math.util.OpenIntToDoubleHashMap
+line= 399
+lineSuspiciousness= 0.183
+original statement= ++(count)
+fixed statement= --(size)
+generation= 286
+ingredientScope= LOCAL
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|4|2899|[testPutKeysWithCollision2(org.apache.commons.math.util.OpenIntToDoubleHashMapTest): expected:<1> but was:<0>-, testPutKeysWithCollisions(org.apache.commons.math.util.OpenIntToDoubleHashMapTest): expected:<2> but was:<1>-, testRemove2(org.apache.commons.math.util.OpenIntToDoubleHashMapTest): expected:<2011> but was:<2010>-, testRemove(org.apache.commons.math.util.OpenIntToDoubleHashMapTest): expected:<2011> but was:<2010>-]|
+evo_regression: |false|6|43|[test19(org.apache.commons.math.util.OpenIntToDoubleHashMap_ESTest): Expecting exception: ConcurrentModificationException-, test32(org.apache.commons.math.util.OpenIntToDoubleHashMap_ESTest): expected:<1> but was:<0>-, test30(org.apache.commons.math.util.OpenIntToDoubleHashMap_ESTest): expected:<2> but was:<1>-, test29(org.apache.commons.math.util.OpenIntToDoubleHashMap_ESTest): expected:<1> but was:<0>-, test21(org.apache.commons.math.util.OpenIntToDoubleHashMap_ESTest): iterator exhausted-, test27(org.apache.commons.math.util.OpenIntToDoubleHashMap_ESTest): expected:<1> but was:<0>-]|
+ ----
+ProgramVariant 680
+ 
+time(sec)= 4537
+operation: ReplaceOp
+location= org.apache.commons.math.util.OpenIntToDoubleHashMap
+line= 399
+lineSuspiciousness= 0.183
+original statement= ++(count)
+fixed statement= ++(size)
+generation= 340
+ingredientScope= LOCAL
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|4|2899|[testPutKeysWithCollision2(org.apache.commons.math.util.OpenIntToDoubleHashMapTest): expected:<1> but was:<2>-, testPutKeysWithCollisions(org.apache.commons.math.util.OpenIntToDoubleHashMapTest): expected:<2> but was:<3>-, testRemove2(org.apache.commons.math.util.OpenIntToDoubleHashMapTest): expected:<2011> but was:<2012>-, testRemove(org.apache.commons.math.util.OpenIntToDoubleHashMapTest): expected:<2011> but was:<2012>-]|
+evo_regression: |false|6|43|[test19(org.apache.commons.math.util.OpenIntToDoubleHashMap_ESTest): Expecting exception: ConcurrentModificationException-, test32(org.apache.commons.math.util.OpenIntToDoubleHashMap_ESTest): expected:<1> but was:<2>-, test30(org.apache.commons.math.util.OpenIntToDoubleHashMap_ESTest): expected:<2> but was:<3>-, test29(org.apache.commons.math.util.OpenIntToDoubleHashMap_ESTest): expected:<1> but was:<2>-, test21(org.apache.commons.math.util.OpenIntToDoubleHashMap_ESTest): iterator exhausted-, test27(org.apache.commons.math.util.OpenIntToDoubleHashMap_ESTest): expected:<1> but was:<2>-]|
+[INFO ] fr.inria.main.evolution.AstorMain.run(AstorMain.java:397) - Time Total(s): 7765.227
+
+
+Node: graphene-100.nancy.grid5000.fr
+
+
+Date: Fri Jan 27 23:42:05 CET 2017
+
+removed classes 
+
+zipped 
+
+copied zip 
+
+

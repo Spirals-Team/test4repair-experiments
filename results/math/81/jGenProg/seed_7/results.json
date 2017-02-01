@@ -1,0 +1,219 @@
+{
+    "date": "Thu Jan 12 22:22:20 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "351", 
+    "node": "graphene-119.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "if (a2 < cnst1) {\n\ts = (gam * (1 - (java.lang.Math.sqrt(a2)))) / (1 + a2);\n} ", 
+            "generation": 154, 
+            "ingredients": null, 
+            "patch": "if ((100 * b1) < b2) {\n\tbreak;\n} ", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1520, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "46", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "17", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2101", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "4439", 
+            "type": "ReplaceOp", 
+            "variant": 308
+        }, 
+        {
+            "buggyStatement": "if ((end - start) > 2) {\n\tb2 = (work[(nn - 13)]) / (work[(nn - 15)]);\n\ta2 = a2 + b2;\n\tfor (int i4 = nn - 17 ; i4 >= (((4 * start) + 2) + (pingPong)) ; i4 -= 4) {\n\t\tif (b2 == 0.0) {\n\t\t\tbreak;\n\t\t} \n\t\tb1 = b2;\n\t\tif ((work[i4]) > (work[(i4 - 2)])) {\n\t\t\treturn ;\n\t\t} \n\t\tb2 = b2 * ((work[i4]) / (work[(i4 - 2)]));\n\t\ta2 = a2 + b2;\n\t\tif (((100 * (java.lang.Math.max(b2, b1))) < a2) || (cnst1 < a2)) {\n\t\t\tbreak;\n\t\t} \n\t}\n\ta2 = cnst3 * a2;\n} ", 
+            "generation": 205, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1543, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "46", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "17", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2101", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "4829", 
+            "type": "RemoveOp", 
+            "variant": 410
+        }, 
+        {
+            "buggyStatement": "b2 = (work[(nn - 13)]) / (work[(nn - 15)])", 
+            "generation": 214, 
+            "ingredients": null, 
+            "patch": "dN1 = 0", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1544, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "46", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "17", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2101", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "4939", 
+            "type": "ReplaceOp", 
+            "variant": 428
+        }, 
+        {
+            "buggyStatement": "b2 = (work[(nn - 13)]) / (work[(nn - 15)])", 
+            "generation": 230, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1544, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "46", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "17", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2101", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "5095", 
+            "type": "RemoveOp", 
+            "variant": 460
+        }, 
+        {
+            "buggyStatement": "if ((end - start) > 2) {\n\tb2 = (work[(nn - 13)]) / (work[(nn - 15)]);\n\ta2 = a2 + b2;\n\tfor (int i4 = nn - 17 ; i4 >= (((4 * start) + 2) + (pingPong)) ; i4 -= 4) {\n\t\tif (b2 == 0.0) {\n\t\t\tbreak;\n\t\t} \n\t\tb1 = b2;\n\t\tif ((work[i4]) > (work[(i4 - 2)])) {\n\t\t\treturn ;\n\t\t} \n\t\tb2 = b2 * ((work[i4]) / (work[(i4 - 2)]));\n\t\ta2 = a2 + b2;\n\t\tif (((100 * (java.lang.Math.max(b2, b1))) < a2) || (cnst1 < a2)) {\n\t\t\tbreak;\n\t\t} \n\t}\n\ta2 = cnst3 * a2;\n} ", 
+            "generation": 342, 
+            "ingredients": null, 
+            "patch": "if (((work[(np - 8)]) > b2) || ((work[(np - 4)]) > b1)) {\n\treturn ;\n} ", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1543, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "46", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "17", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2101", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "5865", 
+            "type": "ReplaceOp", 
+            "variant": 684
+        }, 
+        {
+            "buggyStatement": "final int k = ((4 * deflatedEnd) + (pingPong)) - 1", 
+            "generation": 355, 
+            "ingredients": null, 
+            "patch": "dN2 = 0", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1003, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "46", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "17", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2101", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "6362", 
+            "type": "InsertAfterOp", 
+            "variant": 710
+        }, 
+        {
+            "buggyStatement": "a2 = 0.0", 
+            "generation": 358, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1480, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "46", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "17", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2101", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "6450", 
+            "type": "RemoveOp", 
+            "variant": 716
+        }, 
+        {
+            "buggyStatement": "b2 = (work[(nn - 5)]) / (work[(nn - 7)])", 
+            "generation": 430, 
+            "ingredients": null, 
+            "patch": "tau = java.lang.Math.max(s, (0.333 * (dMin)))", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1484, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "46", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "17", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2101", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "7258", 
+            "type": "ReplaceOp", 
+            "variant": 860
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "308", 
+    "timeEvaluation": null, 
+    "timeTotal": "7470"
+}

@@ -1,0 +1,89 @@
+{
+    "date": "Tue Jan 17 23:51:45 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "952", 
+    "node": "grisou-20.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "if (edge == (org.jfree.chart.util.RectangleEdge.TOP)) {\n\torg.jfree.chart.axis.AxisCollection.this.axesAtTop.add(axis);\n} else {\n\tif (edge == (org.jfree.chart.util.RectangleEdge.BOTTOM)) {\n\t\torg.jfree.chart.axis.AxisCollection.this.axesAtBottom.add(axis);\n\t} else {\n\t\tif (edge == (org.jfree.chart.util.RectangleEdge.LEFT)) {\n\t\t\torg.jfree.chart.axis.AxisCollection.this.axesAtLeft.add(axis);\n\t\t} else {\n\t\t\tif (edge == (org.jfree.chart.util.RectangleEdge.RIGHT)) {\n\t\t\t\torg.jfree.chart.axis.AxisCollection.this.axesAtRight.add(axis);\n\t\t\t} \n\t\t}\n\t}\n}", 
+            "generation": 329, 
+            "ingredients": null, 
+            "patch": "if (edge == (org.jfree.chart.util.RectangleEdge.RIGHT)) {\n\torg.jfree.chart.axis.AxisCollection.this.axesAtRight.add(axis);\n} ", 
+            "patchLocation": {
+                "className": "org.jfree.chart.axis.AxisCollection", 
+                "line": 132, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "10", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "129", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3191", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "1815", 
+            "type": "ReplaceOp", 
+            "variant": 658
+        }, 
+        {
+            "buggyStatement": "nonTitleArea.setRect(chartArea)", 
+            "generation": 426, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.jfree.chart.JFreeChart", 
+                "line": 1181, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "0", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "129", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3191", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "2572", 
+            "type": "RemoveOp", 
+            "variant": 852
+        }, 
+        {
+            "buggyStatement": "nonTitleArea.setRect(chartArea)", 
+            "generation": 1008, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.jfree.chart.JFreeChart", 
+                "line": 1181, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "0", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "129", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3191", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "5831", 
+            "type": "RemoveOp", 
+            "variant": 2016
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "658", 
+    "timeEvaluation": null, 
+    "timeTotal": "8445"
+}

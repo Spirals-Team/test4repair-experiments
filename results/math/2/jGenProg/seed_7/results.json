@@ -1,0 +1,63 @@
+{
+    "date": "Fri Jan 13 02:30:44 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "14", 
+    "node": "graphene-128.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "return org.apache.commons.math3.util.FastMath.max(0, (((getSampleSize()) + (getNumberOfSuccesses())) - (getPopulationSize())))", 
+            "generation": 740, 
+            "ingredients": null, 
+            "patch": "numericalVarianceIsCalculated = true", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.distribution.HypergeometricDistribution", 
+                "line": 308, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "35", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "16", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "5127", 
+                "mvaltcfailing": "1"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "3489", 
+            "type": "InsertBeforeOp", 
+            "variant": 1480
+        }, 
+        {
+            "buggyStatement": "return org.apache.commons.math3.util.FastMath.min(getNumberOfSuccesses(), getSampleSize())", 
+            "generation": 1430, 
+            "ingredients": null, 
+            "patch": "numericalVarianceIsCalculated = true", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.distribution.HypergeometricDistribution", 
+                "line": 321, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "35", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "16", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "5127", 
+                "mvaltcfailing": "1"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "6069", 
+            "type": "InsertBeforeOp", 
+            "variant": 2860
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "1480", 
+    "timeEvaluation": null, 
+    "timeTotal": "7627"
+}

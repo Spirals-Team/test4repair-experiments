@@ -1,0 +1,370 @@
+seed AstorRun 23 
+export PATH="/home/mmartinez/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/mmartinez/projects/math/math_24;defects4j compile;cp -r /home/mmartinez/projects/math/math_24 /tmp/math_24_Genprog_local_s1;cd /tmp/math_24_Genprog_local_s1;mkdir lib/;cp -r /home/mmartinez/defects4j/framework/projects/lib/* lib/;cp -r /home/mmartinez/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/23/package/24/Genprog/result
+cd /tmp/math_24_Genprog_local_s1;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";time /home/mmartinez/jdk1.8.0_45/bin//java -Xmx4096m -cp /home/mmartinez/defects4j-repair/src/python/core/../../..//libs/astor.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -id Math -dependencies lib/ -failing org.apache.commons.math3.optimization.univariate.BrentOptimizerTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -jvm4evosuitetestexecution /home/mmartinez/jdk1.8.0_45/bin/ -javacompliancelevel 5 -maxgen 1000000 -seed 23 -scope package -maxtime 120  -stopfirst false -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/ -flthreshold 0.1  -validation  fr.inria.astor.core.validation.validators.RegressionValidation  -ESParameters -Dassertion_timeout=1800:-Dminimization_timeout=1800:-Djunit_check_timeout=1800:-Dwrite_junit_timeout=300:-Dinitialization_timeout=300:-Dglobal_timeout=18000:-Dsearch_budget=100000:-Dstopping_condition=MaxStatements:-Dno_runtime_dependency=true:-Dsandbox=false:-Dp_reflection_on_private=0.0:-Dreflection_start_percent=1.0:-Dp_functional_mocking=0.0:-Dfunctional_mocking_percent=1.0:-mem=2000 -ignoredtestcases org.apache.commons.lang.LocaleUtilsTest  -excludeRegression  -maxgen 100000000 ;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+"; find /tmp/math_24_Genprog_local_s1/outputMutation -name "*.class" -type f -delete;echo "removed classes 
+"; find . -name bin  -type d -print0|xargs -0 rm -r --; zip -r -q out.zip /tmp/math_24_Genprog_local_s1/outputMutation; echo "zipped 
+";cp out.zip /home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/23/package/24/Genprog; echo "copied zip 
+";rm -rf /tmp/math_24_Genprog_local_s1;
+
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:136) - End Repair Loops: Found solution
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:137) - Solution stored at: /tmp/math_24_Genprog_local_s1/./outputMutation/AstorMain-Math//src/
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:142) - 
+Number solutions:18
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 6.0, [Variant id: 42 (SOL) , #gens: 119, #ops: 1, parent:41]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 102 (SOL) , #gens: 118, #ops: 1, parent:101]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 4.0, [Variant id: 144 (SOL) , #gens: 119, #ops: 1, parent:143]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 176 (SOL) , #gens: 118, #ops: 1, parent:175]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 256 (SOL) , #gens: 117, #ops: 1, parent:255]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 282 (SOL) , #gens: 117, #ops: 1, parent:281]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 8.0, [Variant id: 326 (SOL) , #gens: 118, #ops: 1, parent:325]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 908 (SOL) , #gens: 117, #ops: 1, parent:907]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 940 (SOL) , #gens: 117, #ops: 1, parent:939]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 6.0, [Variant id: 944 (SOL) , #gens: 119, #ops: 1, parent:943]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 1120 (SOL) , #gens: 117, #ops: 1, parent:1119]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 1202 (SOL) , #gens: 117, #ops: 1, parent:1201]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 1264 (SOL) , #gens: 117, #ops: 1, parent:1263]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 8.0, [Variant id: 1312 (SOL) , #gens: 118, #ops: 1, parent:1311]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 4.0, [Variant id: 1336 (SOL) , #gens: 119, #ops: 1, parent:1335]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 1424 (SOL) , #gens: 117, #ops: 1, parent:1423]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 7.0, [Variant id: 1440 (SOL) , #gens: 118, #ops: 1, parent:1439]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 1448 (SOL) , #gens: 117, #ops: 1, parent:1447]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:146) - 
+All variants:
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:148) - f 1.0, [Variant id: 1449, #gens: 118, #ops: 0, parent:-]
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:152) - 
+Solution details
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:153) - 
+ --SOLUTIONS DESCRIPTION--
+
+ ----
+ProgramVariant 42
+ 
+time(sec)= 269
+operation: InsertAfterOp
+location= org.apache.commons.math3.analysis.function.StepFunction
+line= 90
+lineSuspiciousness= 0.354
+original statement= if (index >= 0) {
+	fx = ordinate[index];
+} else {
+	fx = ordinate[0];
+}
+fixed statement= return org.apache.commons.math3.util.FastMath.tanh(x)
+generation= 21
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|3|4030|[testSomeValues(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<4.0> but was:<-1.0>-, testEndpointBehavior(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<0.0> but was:<1.0>-, testHeaviside(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<0.0> but was:<-1.0>-]|
+evo_regression: |false|3|11|[test01(org.apache.commons.math3.analysis.function.StepFunction_ESTest): expected:<-1.0> but was:<-0.7615941559557649>-, test04(org.apache.commons.math3.analysis.function.StepFunction_ESTest): expected:<1073.9> but was:<1.0>-, test02(org.apache.commons.math3.analysis.function.StepFunction_ESTest): expected:<0.0> but was:<-1.0>-]|
+ ----
+ProgramVariant 102
+ 
+time(sec)= 535
+operation: ReplaceOp
+location= org.apache.commons.math3.analysis.function.StepFunction
+line= 87
+lineSuspiciousness= 0.354
+original statement= if (index < (-1)) {
+	fx = ordinate[((-index) - 2)];
+} else {
+	if (index >= 0) {
+		fx = ordinate[index];
+	} else {
+		fx = ordinate[0];
+	}
+}
+fixed statement= if (index >= 0) {
+	fx = ordinate[index];
+} else {
+	fx = ordinate[0];
+}
+generation= 51
+ingredientScope= LOCAL
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|3|4030|[testSomeValues(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<-1.0> but was:<4.0>-, testEndpointBehavior(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<2.0> but was:<1.0>-, testHeaviside(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<1.0> but was:<0.0>-]|
+evo_regression: |true|0|11|[]|
+ ----
+ProgramVariant 144
+ 
+time(sec)= 777
+operation: InsertAfterOp
+location= org.apache.commons.math3.analysis.function.StepFunction
+line= 89
+lineSuspiciousness= 0.354
+original statement= fx = ordinate[((-index) - 2)]
+fixed statement= return org.apache.commons.math3.util.FastMath.tanh(x)
+generation= 72
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|3|4030|[testSomeValues(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<-1.0> but was:<-0.3799489622552249>-, testEndpointBehavior(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<1.0> but was:<0.0>-, testHeaviside(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<0.0> but was:<-4.9E-324>-]|
+evo_regression: |false|1|11|[test03(org.apache.commons.math3.analysis.function.StepFunction_ESTest): expected:<0.0> but was:<NaN>-]|
+ ----
+ProgramVariant 176
+ 
+time(sec)= 1010
+operation: ReplaceOp
+location= org.apache.commons.math3.analysis.function.StepFunction
+line= 89
+lineSuspiciousness= 0.354
+original statement= fx = ordinate[((-index) - 2)]
+fixed statement= fx = ordinate[0]
+generation= 88
+ingredientScope= LOCAL
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|3|4030|[testSomeValues(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<-1.0> but was:<4.0>-, testEndpointBehavior(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<2.0> but was:<1.0>-, testHeaviside(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<1.0> but was:<0.0>-]|
+evo_regression: |true|0|11|[]|
+ ----
+ProgramVariant 256
+ 
+time(sec)= 1373
+operation: RemoveOp
+location= org.apache.commons.math3.analysis.function.StepFunction
+line= 89
+lineSuspiciousness= 0.354
+original statement= fx = ordinate[((-index) - 2)]
+fixed statement= 
+generation= 128
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|3|4030|[testSomeValues(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<-1.0> but was:<0.0>-, testEndpointBehavior(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<1.0> but was:<0.0>-, testHeaviside(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<1.0> but was:<0.0>-]|
+evo_regression: |true|0|11|[]|
+ ----
+ProgramVariant 282
+ 
+time(sec)= 2468
+operation: RemoveOp
+location= org.apache.commons.math3.analysis.FunctionUtils
+line= 146
+lineSuspiciousness= 0.5
+original statement= r += f[i].value(x)
+fixed statement= 
+generation= 141
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|1|4030|[testAdd(org.apache.commons.math3.analysis.FunctionUtilsTest): expected:<4.5> but was:<0.5>-]|
+evo_regression: |true|0|23|[]|
+ ----
+ProgramVariant 326
+ 
+time(sec)= 2692
+operation: ReplaceOp
+location= org.apache.commons.math3.analysis.function.StepFunction
+line= 99
+lineSuspiciousness= 0.354
+original statement= return fx
+fixed statement= return org.apache.commons.math3.util.FastMath.cos(x)
+generation= 163
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|3|4030|[testSomeValues(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<4.0> but was:<NaN>-, testEndpointBehavior(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<1.0> but was:<0.8775825618903728>-, testHeaviside(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<0.0> but was:<NaN>-]|
+evo_regression: |false|5|11|[test01(org.apache.commons.math3.analysis.function.StepFunction_ESTest): expected:<-1.0> but was:<0.5403023058681398>-, test00(org.apache.commons.math3.analysis.function.StepFunction_ESTest): expected:<0.0> but was:<1.0>-, test04(org.apache.commons.math3.analysis.function.StepFunction_ESTest): expected:<1073.9> but was:<0.8654805145514909>-, test03(org.apache.commons.math3.analysis.function.StepFunction_ESTest): expected:<0.0> but was:<NaN>-, test02(org.apache.commons.math3.analysis.function.StepFunction_ESTest): expected:<0.0> but was:<0.7734684301527642>-]|
+ ----
+ProgramVariant 908
+ 
+time(sec)= 4514
+operation: RemoveOp
+location= org.apache.commons.math3.analysis.FunctionUtils
+line= 146
+lineSuspiciousness= 0.5
+original statement= r += f[i].value(x)
+fixed statement= 
+generation= 454
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|1|4030|[testAdd(org.apache.commons.math3.analysis.FunctionUtilsTest): expected:<4.5> but was:<0.5>-]|
+evo_regression: |true|0|23|[]|
+ ----
+ProgramVariant 940
+ 
+time(sec)= 4725
+operation: RemoveOp
+location= org.apache.commons.math3.analysis.function.StepFunction
+line= 89
+lineSuspiciousness= 0.354
+original statement= fx = ordinate[((-index) - 2)]
+fixed statement= 
+generation= 470
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|3|4030|[testSomeValues(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<-1.0> but was:<0.0>-, testEndpointBehavior(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<1.0> but was:<0.0>-, testHeaviside(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<1.0> but was:<0.0>-]|
+evo_regression: |true|0|11|[]|
+ ----
+ProgramVariant 944
+ 
+time(sec)= 4907
+operation: InsertAfterOp
+location= org.apache.commons.math3.analysis.function.StepFunction
+line= 90
+lineSuspiciousness= 0.354
+original statement= if (index >= 0) {
+	fx = ordinate[index];
+} else {
+	fx = ordinate[0];
+}
+fixed statement= return org.apache.commons.math3.util.FastMath.atan(x)
+generation= 472
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|3|4030|[testSomeValues(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<4.0> but was:<-1.5707963267948966>-, testEndpointBehavior(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<0.0> but was:<1.0>-, testHeaviside(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<0.0> but was:<-1.5707963267948966>-]|
+evo_regression: |false|3|11|[test01(org.apache.commons.math3.analysis.function.StepFunction_ESTest): expected:<-1.0> but was:<-0.7853981633974483>-, test04(org.apache.commons.math3.analysis.function.StepFunction_ESTest): expected:<1073.9> but was:<1.569865141665029>-, test02(org.apache.commons.math3.analysis.function.StepFunction_ESTest): expected:<0.0> but was:<-1.5696076346703034>-]|
+ ----
+ProgramVariant 1120
+ 
+time(sec)= 5457
+operation: RemoveOp
+location= org.apache.commons.math3.analysis.FunctionUtils
+line= 146
+lineSuspiciousness= 0.5
+original statement= r += f[i].value(x)
+fixed statement= 
+generation= 560
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|1|4030|[testAdd(org.apache.commons.math3.analysis.FunctionUtilsTest): expected:<4.5> but was:<0.5>-]|
+evo_regression: |true|0|23|[]|
+ ----
+ProgramVariant 1202
+ 
+time(sec)= 5892
+operation: RemoveOp
+location= org.apache.commons.math3.analysis.FunctionUtils
+line= 145
+lineSuspiciousness= 0.5
+original statement= for (int i = 1 ; i < (f.length) ; i++) {
+	r += f[i].value(x);
+}
+fixed statement= 
+generation= 601
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|1|4030|[testAdd(org.apache.commons.math3.analysis.FunctionUtilsTest): expected:<4.5> but was:<0.5>-]|
+evo_regression: |true|0|23|[]|
+ ----
+ProgramVariant 1264
+ 
+time(sec)= 6135
+operation: RemoveOp
+location= org.apache.commons.math3.analysis.FunctionUtils
+line= 146
+lineSuspiciousness= 0.5
+original statement= r += f[i].value(x)
+fixed statement= 
+generation= 632
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|1|4030|[testAdd(org.apache.commons.math3.analysis.FunctionUtilsTest): expected:<4.5> but was:<0.5>-]|
+evo_regression: |true|0|23|[]|
+ ----
+ProgramVariant 1312
+ 
+time(sec)= 6383
+operation: ReplaceOp
+location= org.apache.commons.math3.analysis.function.StepFunction
+line= 99
+lineSuspiciousness= 0.354
+original statement= return fx
+fixed statement= return org.apache.commons.math3.util.FastMath.log10(x)
+generation= 656
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|3|4030|[testSomeValues(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<4.0> but was:<NaN>-, testEndpointBehavior(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<1.0> but was:<-Infinity>-, testHeaviside(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<0.0> but was:<NaN>-]|
+evo_regression: |false|5|11|[test01(org.apache.commons.math3.analysis.function.StepFunction_ESTest): expected:<-1.0> but was:<NaN>-, test00(org.apache.commons.math3.analysis.function.StepFunction_ESTest): expected:<0.0> but was:<-Infinity>-, test04(org.apache.commons.math3.analysis.function.StepFunction_ESTest): expected:<1073.9> but was:<3.0309638423782754>-, test03(org.apache.commons.math3.analysis.function.StepFunction_ESTest): expected:<0.0> but was:<NaN>-, test02(org.apache.commons.math3.analysis.function.StepFunction_ESTest): expected:<0.0> but was:<NaN>-]|
+ ----
+ProgramVariant 1336
+ 
+time(sec)= 6585
+operation: InsertAfterOp
+location= org.apache.commons.math3.analysis.function.StepFunction
+line= 96
+lineSuspiciousness= 0.354
+original statement= fx = ordinate[0]
+fixed statement= return org.apache.commons.math3.util.FastMath.log(x)
+generation= 668
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|3|4030|[testSomeValues(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<4.0> but was:<NaN>-, testEndpointBehavior(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<NaN> but was:<1.0>-, testHeaviside(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<0.0> but was:<NaN>-]|
+evo_regression: |false|1|11|[test02(org.apache.commons.math3.analysis.function.StepFunction_ESTest): expected:<0.0> but was:<NaN>-]|
+ ----
+ProgramVariant 1424
+ 
+time(sec)= 6895
+operation: RemoveOp
+location= org.apache.commons.math3.analysis.function.StepFunction
+line= 89
+lineSuspiciousness= 0.354
+original statement= fx = ordinate[((-index) - 2)]
+fixed statement= 
+generation= 712
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|3|4030|[testSomeValues(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<-1.0> but was:<0.0>-, testEndpointBehavior(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<1.0> but was:<0.0>-, testHeaviside(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<1.0> but was:<0.0>-]|
+evo_regression: |true|0|11|[]|
+ ----
+ProgramVariant 1440
+ 
+time(sec)= 7084
+operation: ReplaceOp
+location= org.apache.commons.math3.analysis.function.StepFunction
+line= 99
+lineSuspiciousness= 0.354
+original statement= return fx
+fixed statement= return org.apache.commons.math3.util.FastMath.expm1(x)
+generation= 720
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|3|4030|[testSomeValues(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<4.0> but was:<-1.0>-, testEndpointBehavior(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<1.0> but was:<0.0>-, testHeaviside(org.apache.commons.math3.analysis.function.StepFunctionTest): expected:<0.0> but was:<-1.0>-]|
+evo_regression: |false|4|11|[test01(org.apache.commons.math3.analysis.function.StepFunction_ESTest): expected:<-1.0> but was:<-0.6321205588285577>-, test04(org.apache.commons.math3.analysis.function.StepFunction_ESTest): expected:<1073.9> but was:<Infinity>-, test03(org.apache.commons.math3.analysis.function.StepFunction_ESTest): expected:<0.0> but was:<NaN>-, test02(org.apache.commons.math3.analysis.function.StepFunction_ESTest): expected:<0.0> but was:<-1.0>-]|
+ ----
+ProgramVariant 1448
+ 
+time(sec)= 7271
+operation: RemoveOp
+location= org.apache.commons.math3.analysis.FunctionUtils
+line= 145
+lineSuspiciousness= 0.5
+original statement= for (int i = 1 ; i < (f.length) ; i++) {
+	r += f[i].value(x);
+}
+fixed statement= 
+generation= 724
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|1|4030|[testAdd(org.apache.commons.math3.analysis.FunctionUtilsTest): expected:<4.5> but was:<0.5>-]|
+evo_regression: |true|0|23|[]|
+[INFO ] fr.inria.main.evolution.AstorMain.run(AstorMain.java:397) - Time Total(s): 7883.323
+
+
+Node: graphene-105.nancy.grid5000.fr
+
+
+Date: Wed Jan 25 10:25:42 CET 2017
+
+removed classes 
+
+zipped 
+
+copied zip 
+
+

@@ -1,0 +1,89 @@
+{
+    "date": "Sun Jan 29 16:27:32 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "290", 
+    "node": "grimoire-8.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "occuringEvents.add(state)", 
+            "generation": 30, 
+            "ingredients": null, 
+            "patch": "statesInitialized = false", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.ode.AbstractIntegrator", 
+                "line": 325, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "29", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "12", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "4743", 
+                "mvaltcfailing": "4"
+            }, 
+            "scope": "LOCAL", 
+            "time": "1073", 
+            "type": "InsertBeforeOp", 
+            "variant": 60
+        }, 
+        {
+            "buggyStatement": "ga = gb", 
+            "generation": 594, 
+            "ingredients": null, 
+            "patch": "return false", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.ode.events.EventState", 
+                "line": 278, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "19", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "12", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "4743", 
+                "mvaltcfailing": "5"
+            }, 
+            "scope": "LOCAL", 
+            "time": "5391", 
+            "type": "InsertAfterOp", 
+            "variant": 1188
+        }, 
+        {
+            "buggyStatement": "for (final org.apache.commons.math3.ode.sampling.StepHandler handler : stepHandlers) {\n\thandler.handleStep(interpolator, isLastStep);\n}", 
+            "generation": 786, 
+            "ingredients": null, 
+            "patch": "setStateInitialized(false)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.ode.AbstractIntegrator", 
+                "line": 350, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "29", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "12", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "4743", 
+                "mvaltcfailing": "4"
+            }, 
+            "scope": "LOCAL", 
+            "time": "6714", 
+            "type": "InsertAfterOp", 
+            "variant": 1572
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "60", 
+    "timeEvaluation": null, 
+    "timeTotal": "8056"
+}

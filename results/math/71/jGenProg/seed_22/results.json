@@ -1,0 +1,63 @@
+{
+    "date": "Sat Jan 21 21:01:47 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "278", 
+    "node": "graphene-121.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "x1 = x1 - (0.5 * tolerance)", 
+            "generation": 28, 
+            "ingredients": null, 
+            "patch": "x1 = x1 + delta", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 337, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "19", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2169", 
+                "mvaltcfailing": "1"
+            }, 
+            "scope": "LOCAL", 
+            "time": "421", 
+            "type": "ReplaceOp", 
+            "variant": 56
+        }, 
+        {
+            "buggyStatement": "for (int i = 0 ; i < n ; ++i) {\n\ttb += h;\n\tinterpolator.setInterpolatedTime(tb);\n\tfinal double gb = handler.g(tb, interpolator.getInterpolatedState());\n\tif ((g0Positive) ^ (gb >= 0)) {\n\t\tif ((ga * gb) > 0) {\n\t\t\tfinal double epsilon = (forward ? 0.25 : -0.25) * (convergence);\n\t\t\tfor (int k = 0 ; (k < 4) && ((ga * gb) > 0) ; ++k) {\n\t\t\t\tta += epsilon;\n\t\t\t\tinterpolator.setInterpolatedTime(ta);\n\t\t\t\tga = handler.g(ta, interpolator.getInterpolatedState());\n\t\t\t}\n\t\t\tif ((ga * gb) > 0) {\n\t\t\t\tthrow org.apache.commons.math.MathRuntimeException.createInternalError(null);\n\t\t\t} \n\t\t} \n\t\tincreasing = gb >= ga;\n\t\tfinal org.apache.commons.math.analysis.UnivariateRealFunction f = new org.apache.commons.math.analysis.UnivariateRealFunction() {\n\t\t\tpublic double value(final double t) throws org.apache.commons.math.FunctionEvaluationException {\n\t\t\t\ttry {\n\t\t\t\t\tinterpolator.setInterpolatedTime(t);\n\t\t\t\t\treturn handler.g(t, interpolator.getInterpolatedState());\n\t\t\t\t} catch (org.apache.commons.math.ode.DerivativeException e) {\n\t\t\t\t\tthrow new org.apache.commons.math.FunctionEvaluationException(e , t);\n\t\t\t\t} catch (org.apache.commons.math.ode.events.EventException e) {\n\t\t\t\t\tthrow new org.apache.commons.math.FunctionEvaluationException(e , t);\n\t\t\t\t}\n\t\t\t}\n\t\t};\n\t\tfinal org.apache.commons.math.analysis.solvers.BrentSolver solver = new org.apache.commons.math.analysis.solvers.BrentSolver();\n\t\tsolver.setAbsoluteAccuracy(convergence);\n\t\tsolver.setMaximalIterationCount(maxIterationCount);\n\t\tfinal double root = ta <= tb ? solver.solve(f, ta, tb) : solver.solve(f, tb, ta);\n\t\tif (((java.lang.Math.abs((root - ta))) <= (convergence)) && ((java.lang.Math.abs((root - (previousEventTime)))) <= (convergence))) {\n\t\t\tta = tb;\n\t\t\tga = gb;\n\t\t} else {\n\t\t\tif ((java.lang.Double.isNaN(previousEventTime)) || ((java.lang.Math.abs(((previousEventTime) - root))) > (convergence))) {\n\t\t\t\tpendingEventTime = root;\n\t\t\t\tif ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {\n\t\t\t\t\treturn false;\n\t\t\t\t} \n\t\t\t\tpendingEvent = true;\n\t\t\t\treturn true;\n\t\t\t} \n\t\t}\n\t} else {\n\t\tta = tb;\n\t\tga = gb;\n\t}\n}", 
+            "generation": 347, 
+            "ingredients": null, 
+            "patch": "pendingEvent = true", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 180, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "19", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2169", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "4445", 
+            "type": "InsertBeforeOp", 
+            "variant": 694
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "56", 
+    "timeEvaluation": null, 
+    "timeTotal": "7353"
+}

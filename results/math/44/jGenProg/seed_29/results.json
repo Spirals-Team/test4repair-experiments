@@ -1,0 +1,89 @@
+{
+    "date": "Sun Jan 29 20:43:40 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "220", 
+    "node": "grimoire-8.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "resetOccurred = true", 
+            "generation": 224, 
+            "ingredients": null, 
+            "patch": "statesInitialized = false", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.AbstractIntegrator", 
+                "line": 342, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "0", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "2", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3057", 
+                "mvaltcfailing": "15"
+            }, 
+            "scope": "LOCAL", 
+            "time": "1716", 
+            "type": "ReplaceOp", 
+            "variant": 448
+        }, 
+        {
+            "buggyStatement": "return super.solve(maxEval, f, min, max)", 
+            "generation": 353, 
+            "ingredients": null, 
+            "patch": "return maximalOrder", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver", 
+                "line": 386, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "0", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "2", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3057", 
+                "mvaltcfailing": "14"
+            }, 
+            "scope": "LOCAL", 
+            "time": "3157", 
+            "type": "ReplaceOp", 
+            "variant": 706
+        }, 
+        {
+            "buggyStatement": "if (den <= 0.0) {\n\tden = 1.0;\n} ", 
+            "generation": 1068, 
+            "ingredients": null, 
+            "patch": "setStateInitialized(false)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator", 
+                "line": 279, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "0", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "2", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3057", 
+                "mvaltcfailing": "5"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "7374", 
+            "type": "InsertBeforeOp", 
+            "variant": 2136
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "448", 
+    "timeEvaluation": null, 
+    "timeTotal": "7724"
+}

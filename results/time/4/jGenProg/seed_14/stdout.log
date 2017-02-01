@@ -1,0 +1,367 @@
+seed AstorRun 14 
+export PATH="/home/mmartinez/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/mmartinez/projects/time/time_4;defects4j compile;cp -r /home/mmartinez/projects/time/time_4 /tmp/time_4_Genprog_local_s1;cd /tmp/time_4_Genprog_local_s1;mkdir lib/;cp -r /home/mmartinez/defects4j/framework/projects/lib/* lib/;cp -r /home/mmartinez/defects4j/framework/projects/Time/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Time/seed/14/package/4/Genprog/result
+cd /tmp/time_4_Genprog_local_s1;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";time /home/mmartinez/jdk1.8.0_45/bin//java -Xmx4096m -cp /home/mmartinez/defects4j-repair/src/python/core/../../..//libs/astor.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -id Time -dependencies lib/ -failing org.joda.time.TestPartial_Basics: -package org.joda -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -jvm4evosuitetestexecution /home/mmartinez/jdk1.8.0_45/bin/ -javacompliancelevel 5 -maxgen 1000000 -seed 14 -scope package -maxtime 120  -stopfirst false -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/ -flthreshold 0.1  -validation  fr.inria.astor.core.validation.validators.RegressionValidation  -ESParameters -Dassertion_timeout=1800:-Dminimization_timeout=1800:-Djunit_check_timeout=1800:-Dwrite_junit_timeout=300:-Dinitialization_timeout=300:-Dglobal_timeout=18000:-Dsearch_budget=100000:-Dstopping_condition=MaxStatements:-Dno_runtime_dependency=true:-Dsandbox=false:-Dp_reflection_on_private=0.0:-Dreflection_start_percent=1.0:-Dp_functional_mocking=0.0:-Dfunctional_mocking_percent=1.0:-mem=2000 -ignoredtestcases org.apache.commons.lang.LocaleUtilsTest  -excludeRegression  -maxgen 100000000 ;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+"; find /tmp/time_4_Genprog_local_s1/outputMutation -name "*.class" -type f -delete;echo "removed classes 
+"; find . -name bin  -type d -print0|xargs -0 rm -r --; zip -r -q out.zip /tmp/time_4_Genprog_local_s1/outputMutation; echo "zipped 
+";cp out.zip /home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Time/seed/14/package/4/Genprog; echo "copied zip 
+";rm -rf /tmp/time_4_Genprog_local_s1;
+
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:136) - End Repair Loops: Found solution
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:137) - Solution stored at: /tmp/time_4_Genprog_local_s1/./outputMutation/AstorMain-Time//src/
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:142) - 
+Number solutions:19
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 30.0, [Variant id: 6 (SOL) , #gens: 36, #ops: 1, parent:5]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 374 (SOL) , #gens: 36, #ops: 1, parent:373]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 452 (SOL) , #gens: 36, #ops: 1, parent:451]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 1348 (SOL) , #gens: 36, #ops: 1, parent:1347]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 1954 (SOL) , #gens: 36, #ops: 1, parent:1953]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 2062 (SOL) , #gens: 36, #ops: 1, parent:2061]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 2132 (SOL) , #gens: 36, #ops: 1, parent:2131]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 2142 (SOL) , #gens: 36, #ops: 1, parent:2141]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 2192 (SOL) , #gens: 36, #ops: 1, parent:2191]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 2710 (SOL) , #gens: 36, #ops: 1, parent:2709]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 2730 (SOL) , #gens: 36, #ops: 1, parent:2729]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 2860 (SOL) , #gens: 36, #ops: 1, parent:2859]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 30.0, [Variant id: 3552 (SOL) , #gens: 36, #ops: 1, parent:3551]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 32.0, [Variant id: 3558 (SOL) , #gens: 36, #ops: 1, parent:3557]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 32.0, [Variant id: 5448 (SOL) , #gens: 36, #ops: 1, parent:5447]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 32.0, [Variant id: 5668 (SOL) , #gens: 36, #ops: 1, parent:5667]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 32.0, [Variant id: 8102 (SOL) , #gens: 36, #ops: 1, parent:8101]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 55.0, [Variant id: 10540 (SOL) , #gens: 36, #ops: 1, parent:10539]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 6.0, [Variant id: 18572 (SOL) , #gens: 37, #ops: 1, parent:18571]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:146) - 
+All variants:
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:148) - f 1.0, [Variant id: 18971, #gens: 36, #ops: 0, parent:-]
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:152) - 
+Solution details
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:153) - 
+ --SOLUTIONS DESCRIPTION--
+
+ ----
+ProgramVariant 6
+ 
+time(sec)= 138
+operation: ReplaceOp
+location= org.joda.time.field.ZeroIsMaxDateTimeField
+line= 148
+lineSuspiciousness= 0.274
+original statement= return (getWrappedField().getMaximumValue()) + 1
+fixed statement= return 2
+generation= 3
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|69|[]|
+manual_regression: |false|27|12047|[testGet_DateTimeFieldType(org.joda.time.TestInstant_Basics): expected:<24> but was:<2>-, testGet_DateTimeField(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<2>-, testGet_DateTimeFieldType(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<2>-, testGet_DateTimeFieldType(org.joda.time.TestLocalDateTime_Basics): expected:<12> but was:<2>-, testGet_DateTimeFieldType(org.joda.time.TestLocalTime_Basics): expected:<12> but was:<2>-, testGet_DateTimeFieldType(org.joda.time.TestInstant_Basics): expected:<24> but was:<2>-, testGet_DateTimeField(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<2>-, testGet_DateTimeFieldType(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<2>-, testGet_DateTimeFieldType(org.joda.time.TestLocalDateTime_Basics): expected:<12> but was:<2>-, testGet_DateTimeFieldType(org.joda.time.TestLocalTime_Basics): expected:<12> but was:<2>-, testFormatParse_textHalfdayAM_UK(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 2-, ...and 18 failures more, testFormatParse_textHalfdayAM_France(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 2-, ...and 18 failures more, testFormat_clockhourOfHalfday(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<12> but was:<2>-, ...and 18 failures more, testFormat_clockhourOfDay(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<24> but was:<2>-, ...and 18 failures more, testGet_DateTimeField(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<2>-, ...and 18 failures more, testGet_DateTimeFieldType(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<2>-, ...and 18 failures more, testGet_DateTimeFieldType(org.joda.time.TestInstant_Basics): expected:<24> but was:<2>-, ...and 18 failures more, testGet_DateTimeFieldType(org.joda.time.TestLocalDateTime_Basics): expected:<12> but was:<2>-, ...and 18 failures more, testGet_DateTimeFieldType(org.joda.time.TestLocalTime_Basics): expected:<12> but was:<2>-, ...and 18 failures more, warning(junit.framework.TestSuite$1): Class org.joda.time.chrono.gj.MainTest has no public constructor TestCase(String name) or TestCase()-, ...and 18 failures more, testFormatParse_textHalfdayAM_UK(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 2-, ...and 18 failures more, testFormatParse_textHalfdayAM_France(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 2-, ...and 18 failures more, testFormat_clockhourOfHalfday(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<12> but was:<2>-, ...and 18 failures more, testFormat_clockhourOfDay(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<24> but was:<2>-, ...and 18 failures more, testFormatParse_textHalfdayAM_UK(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 2-, ...and 18 failures more, testFormatParse_textHalfdayAM_France(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 2-, ...and 18 failures more, testFormat_clockhourOfHalfday(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<12> but was:<2>-, ...and 18 failures more, testFormat_clockhourOfDay(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<24> but was:<2>-, ...and 18 failures more]|
+evo_regression: |false|3|55|[test29(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): Value 60 for dayOfWeek must be in the range 1, 2-, test27(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<60> but was:<2>-, test49(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<86400> but was:<2>-]|
+ ----
+ProgramVariant 374
+ 
+time(sec)= 330
+operation: ReplaceOp
+location= org.joda.time.field.ZeroIsMaxDateTimeField
+line= 178
+lineSuspiciousness= 0.866
+original statement= return (getWrappedField().getMaximumValue(instant, values)) + 1
+fixed statement= return 0
+generation= 187
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|69|[]|
+manual_regression: |true|0|12047|[warning(junit.framework.TestSuite$1): Class org.joda.time.chrono.gj.MainTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|1|55|[test28(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<12> but was:<0>-]|
+ ----
+ProgramVariant 452
+ 
+time(sec)= 439
+operation: ReplaceOp
+location= org.joda.time.field.ZeroIsMaxDateTimeField
+line= 138
+lineSuspiciousness= 0.866
+original statement= return 1
+fixed statement= return getMaximumValue(instant)
+generation= 226
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|69|[]|
+manual_regression: |true|0|12047|[warning(junit.framework.TestSuite$1): Class org.joda.time.chrono.gj.MainTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|1|55|[test39(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<1> but was:<86400000>-]|
+ ----
+ProgramVariant 1348
+ 
+time(sec)= 818
+operation: ReplaceOp
+location= org.joda.time.field.ZeroIsMaxDateTimeField
+line= 111
+lineSuspiciousness= 0.866
+original statement= return 1
+fixed statement= return getName().hashCode()
+generation= 674
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|69|[]|
+manual_regression: |true|0|12047|[warning(junit.framework.TestSuite$1): Class org.joda.time.chrono.gj.MainTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|1|55|[test47(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<1> but was:<100692>-]|
+ ----
+ProgramVariant 1954
+ 
+time(sec)= 1073
+operation: ReplaceOp
+location= org.joda.time.field.ZeroIsMaxDateTimeField
+line= 178
+lineSuspiciousness= 0.866
+original statement= return (getWrappedField().getMaximumValue(instant, values)) + 1
+fixed statement= return -1
+generation= 977
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|69|[]|
+manual_regression: |true|0|12047|[warning(junit.framework.TestSuite$1): Class org.joda.time.chrono.gj.MainTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|1|55|[test28(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<12> but was:<-1>-]|
+ ----
+ProgramVariant 2062
+ 
+time(sec)= 1179
+operation: ReplaceOp
+location= org.joda.time.field.ZeroIsMaxDateTimeField
+line= 111
+lineSuspiciousness= 0.866
+original statement= return 1
+fixed statement= return getMaximumValue()
+generation= 1031
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|69|[]|
+manual_regression: |true|0|12047|[warning(junit.framework.TestSuite$1): Class org.joda.time.chrono.gj.MainTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|1|55|[test47(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<1> but was:<86400000>-]|
+ ----
+ProgramVariant 2132
+ 
+time(sec)= 1273
+operation: ReplaceOp
+location= org.joda.time.field.ZeroIsMaxDateTimeField
+line= 178
+lineSuspiciousness= 0.866
+original statement= return (getWrappedField().getMaximumValue(instant, values)) + 1
+fixed statement= return getMinimumValue(instant)
+generation= 1066
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|69|[]|
+manual_regression: |true|0|12047|[warning(junit.framework.TestSuite$1): Class org.joda.time.chrono.gj.MainTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|1|55|[test28(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<12> but was:<1>-]|
+ ----
+ProgramVariant 2142
+ 
+time(sec)= 1349
+operation: ReplaceOp
+location= org.joda.time.field.ZeroIsMaxDateTimeField
+line= 178
+lineSuspiciousness= 0.866
+original statement= return (getWrappedField().getMaximumValue(instant, values)) + 1
+fixed statement= return getMinimumValue()
+generation= 1071
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|69|[]|
+manual_regression: |true|0|12047|[warning(junit.framework.TestSuite$1): Class org.joda.time.chrono.gj.MainTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|1|55|[test28(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<12> but was:<1>-]|
+ ----
+ProgramVariant 2192
+ 
+time(sec)= 1437
+operation: ReplaceOp
+location= org.joda.time.field.ZeroIsMaxDateTimeField
+line= 138
+lineSuspiciousness= 0.866
+original statement= return 1
+fixed statement= return (getWrappedField().getMaximumValue()) + 1
+generation= 1096
+ingredientScope= LOCAL
+validation=
+failing: |true|0|69|[]|
+manual_regression: |true|0|12047|[warning(junit.framework.TestSuite$1): Class org.joda.time.chrono.gj.MainTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|1|55|[test39(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<1> but was:<86400000>-]|
+ ----
+ProgramVariant 2710
+ 
+time(sec)= 1660
+operation: ReplaceOp
+location= org.joda.time.field.ZeroIsMaxDateTimeField
+line= 178
+lineSuspiciousness= 0.866
+original statement= return (getWrappedField().getMaximumValue(instant, values)) + 1
+fixed statement= return 2
+generation= 1355
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|69|[]|
+manual_regression: |true|0|12047|[warning(junit.framework.TestSuite$1): Class org.joda.time.chrono.gj.MainTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|1|55|[test28(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<12> but was:<2>-]|
+ ----
+ProgramVariant 2730
+ 
+time(sec)= 1744
+operation: ReplaceOp
+location= org.joda.time.field.ZeroIsMaxDateTimeField
+line= 178
+lineSuspiciousness= 0.866
+original statement= return (getWrappedField().getMaximumValue(instant, values)) + 1
+fixed statement= return 1
+generation= 1365
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|69|[]|
+manual_regression: |true|0|12047|[warning(junit.framework.TestSuite$1): Class org.joda.time.chrono.gj.MainTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|1|55|[test28(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<12> but was:<1>-]|
+ ----
+ProgramVariant 2860
+ 
+time(sec)= 1872
+operation: ReplaceOp
+location= org.joda.time.field.ZeroIsMaxDateTimeField
+line= 178
+lineSuspiciousness= 0.866
+original statement= return (getWrappedField().getMaximumValue(instant, values)) + 1
+fixed statement= return 3
+generation= 1430
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|69|[]|
+manual_regression: |true|0|12047|[warning(junit.framework.TestSuite$1): Class org.joda.time.chrono.gj.MainTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|1|55|[test28(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<12> but was:<3>-]|
+ ----
+ProgramVariant 3552
+ 
+time(sec)= 2194
+operation: ReplaceOp
+location= org.joda.time.field.ZeroIsMaxDateTimeField
+line= 148
+lineSuspiciousness= 0.274
+original statement= return (getWrappedField().getMaximumValue()) + 1
+fixed statement= return 3
+generation= 1776
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|69|[]|
+manual_regression: |false|27|12047|[testGet_DateTimeFieldType(org.joda.time.TestInstant_Basics): expected:<24> but was:<3>-, testGet_DateTimeField(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<3>-, testGet_DateTimeFieldType(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<3>-, testGet_DateTimeFieldType(org.joda.time.TestLocalDateTime_Basics): expected:<12> but was:<3>-, testGet_DateTimeFieldType(org.joda.time.TestLocalTime_Basics): expected:<12> but was:<3>-, testGet_DateTimeFieldType(org.joda.time.TestInstant_Basics): expected:<24> but was:<3>-, testGet_DateTimeField(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<3>-, testGet_DateTimeFieldType(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<3>-, testGet_DateTimeFieldType(org.joda.time.TestLocalDateTime_Basics): expected:<12> but was:<3>-, testGet_DateTimeFieldType(org.joda.time.TestLocalTime_Basics): expected:<12> but was:<3>-, testFormatParse_textHalfdayAM_UK(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 3-, ...and 18 failures more, testFormatParse_textHalfdayAM_France(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 3-, ...and 18 failures more, testFormat_clockhourOfHalfday(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<12> but was:<3>-, ...and 18 failures more, testFormat_clockhourOfDay(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<24> but was:<3>-, ...and 18 failures more, testGet_DateTimeField(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<3>-, ...and 18 failures more, testGet_DateTimeFieldType(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<3>-, ...and 18 failures more, testGet_DateTimeFieldType(org.joda.time.TestInstant_Basics): expected:<24> but was:<3>-, ...and 18 failures more, testGet_DateTimeFieldType(org.joda.time.TestLocalDateTime_Basics): expected:<12> but was:<3>-, ...and 18 failures more, testGet_DateTimeFieldType(org.joda.time.TestLocalTime_Basics): expected:<12> but was:<3>-, ...and 18 failures more, warning(junit.framework.TestSuite$1): Class org.joda.time.chrono.gj.MainTest has no public constructor TestCase(String name) or TestCase()-, ...and 18 failures more, testFormatParse_textHalfdayAM_UK(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 3-, ...and 18 failures more, testFormatParse_textHalfdayAM_France(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 3-, ...and 18 failures more, testFormat_clockhourOfHalfday(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<12> but was:<3>-, ...and 18 failures more, testFormat_clockhourOfDay(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<24> but was:<3>-, ...and 18 failures more, testFormatParse_textHalfdayAM_UK(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 3-, ...and 18 failures more, testFormatParse_textHalfdayAM_France(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 3-, ...and 18 failures more, testFormat_clockhourOfHalfday(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<12> but was:<3>-, ...and 18 failures more, testFormat_clockhourOfDay(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<24> but was:<3>-, ...and 18 failures more]|
+evo_regression: |false|3|55|[test29(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): Value 60 for dayOfWeek must be in the range 1, 3-, test27(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<60> but was:<3>-, test49(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<86400> but was:<3>-]|
+ ----
+ProgramVariant 3558
+ 
+time(sec)= 2270
+operation: ReplaceOp
+location= org.joda.time.field.ZeroIsMaxDateTimeField
+line= 148
+lineSuspiciousness= 0.274
+original statement= return (getWrappedField().getMaximumValue()) + 1
+fixed statement= return 0
+generation= 1779
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|69|[]|
+manual_regression: |false|27|12047|[testGet_DateTimeFieldType(org.joda.time.TestInstant_Basics): expected:<24> but was:<0>-, testGet_DateTimeField(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<0>-, testGet_DateTimeFieldType(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<0>-, testGet_DateTimeFieldType(org.joda.time.TestLocalDateTime_Basics): expected:<12> but was:<0>-, testGet_DateTimeFieldType(org.joda.time.TestLocalTime_Basics): expected:<12> but was:<0>-, testGet_DateTimeFieldType(org.joda.time.TestInstant_Basics): expected:<24> but was:<0>-, testGet_DateTimeField(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<0>-, testGet_DateTimeFieldType(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<0>-, testGet_DateTimeFieldType(org.joda.time.TestLocalDateTime_Basics): expected:<12> but was:<0>-, testGet_DateTimeFieldType(org.joda.time.TestLocalTime_Basics): expected:<12> but was:<0>-, testFormatParse_textHalfdayAM_UK(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 0-, ...and 18 failures more, testFormatParse_textHalfdayAM_France(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 0-, ...and 18 failures more, testFormat_clockhourOfHalfday(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<12> but was:<0>-, ...and 18 failures more, testFormat_clockhourOfDay(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<24> but was:<0>-, ...and 18 failures more, testGet_DateTimeField(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<0>-, ...and 18 failures more, testGet_DateTimeFieldType(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<0>-, ...and 18 failures more, testGet_DateTimeFieldType(org.joda.time.TestInstant_Basics): expected:<24> but was:<0>-, ...and 18 failures more, testGet_DateTimeFieldType(org.joda.time.TestLocalDateTime_Basics): expected:<12> but was:<0>-, ...and 18 failures more, testGet_DateTimeFieldType(org.joda.time.TestLocalTime_Basics): expected:<12> but was:<0>-, ...and 18 failures more, warning(junit.framework.TestSuite$1): Class org.joda.time.chrono.gj.MainTest has no public constructor TestCase(String name) or TestCase()-, ...and 18 failures more, testFormatParse_textHalfdayAM_UK(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 0-, ...and 18 failures more, testFormatParse_textHalfdayAM_France(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 0-, ...and 18 failures more, testFormat_clockhourOfHalfday(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<12> but was:<0>-, ...and 18 failures more, testFormat_clockhourOfDay(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<24> but was:<0>-, ...and 18 failures more, testFormatParse_textHalfdayAM_UK(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 0-, ...and 18 failures more, testFormatParse_textHalfdayAM_France(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 0-, ...and 18 failures more, testFormat_clockhourOfHalfday(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<12> but was:<0>-, ...and 18 failures more, testFormat_clockhourOfDay(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<24> but was:<0>-, ...and 18 failures more]|
+evo_regression: |false|5|55|[test29(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): Value 60 for dayOfWeek must be in the range 1, 0-, test27(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<60> but was:<0>-, test30(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): Value 1 for era must be in the range 1, 0-, test01(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): Value 1 for monthOfYear must be in the range 1, 0-, test49(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<86400> but was:<0>-]|
+ ----
+ProgramVariant 5448
+ 
+time(sec)= 2957
+operation: ReplaceOp
+location= org.joda.time.field.ZeroIsMaxDateTimeField
+line= 148
+lineSuspiciousness= 0.274
+original statement= return (getWrappedField().getMaximumValue()) + 1
+fixed statement= return -1
+generation= 2724
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|69|[]|
+manual_regression: |false|27|12047|[testGet_DateTimeFieldType(org.joda.time.TestInstant_Basics): expected:<24> but was:<-1>-, testGet_DateTimeField(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<-1>-, testGet_DateTimeFieldType(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<-1>-, testGet_DateTimeFieldType(org.joda.time.TestLocalDateTime_Basics): expected:<12> but was:<-1>-, testGet_DateTimeFieldType(org.joda.time.TestLocalTime_Basics): expected:<12> but was:<-1>-, testGet_DateTimeFieldType(org.joda.time.TestInstant_Basics): expected:<24> but was:<-1>-, testGet_DateTimeField(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<-1>-, testGet_DateTimeFieldType(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<-1>-, testGet_DateTimeFieldType(org.joda.time.TestLocalDateTime_Basics): expected:<12> but was:<-1>-, testGet_DateTimeFieldType(org.joda.time.TestLocalTime_Basics): expected:<12> but was:<-1>-, testFormatParse_textHalfdayAM_UK(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, -1-, ...and 18 failures more, testFormatParse_textHalfdayAM_France(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, -1-, ...and 18 failures more, testFormat_clockhourOfHalfday(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<12> but was:<-1>-, ...and 18 failures more, testFormat_clockhourOfDay(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<24> but was:<-1>-, ...and 18 failures more, testGet_DateTimeField(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<-1>-, ...and 18 failures more, testGet_DateTimeFieldType(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<-1>-, ...and 18 failures more, testGet_DateTimeFieldType(org.joda.time.TestInstant_Basics): expected:<24> but was:<-1>-, ...and 18 failures more, testGet_DateTimeFieldType(org.joda.time.TestLocalDateTime_Basics): expected:<12> but was:<-1>-, ...and 18 failures more, testGet_DateTimeFieldType(org.joda.time.TestLocalTime_Basics): expected:<12> but was:<-1>-, ...and 18 failures more, warning(junit.framework.TestSuite$1): Class org.joda.time.chrono.gj.MainTest has no public constructor TestCase(String name) or TestCase()-, ...and 18 failures more, testFormatParse_textHalfdayAM_UK(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, -1-, ...and 18 failures more, testFormatParse_textHalfdayAM_France(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, -1-, ...and 18 failures more, testFormat_clockhourOfHalfday(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<12> but was:<-1>-, ...and 18 failures more, testFormat_clockhourOfDay(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<24> but was:<-1>-, ...and 18 failures more, testFormatParse_textHalfdayAM_UK(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, -1-, ...and 18 failures more, testFormatParse_textHalfdayAM_France(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, -1-, ...and 18 failures more, testFormat_clockhourOfHalfday(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<12> but was:<-1>-, ...and 18 failures more, testFormat_clockhourOfDay(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<24> but was:<-1>-, ...and 18 failures more]|
+evo_regression: |false|5|55|[test29(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): Value 60 for dayOfWeek must be in the range 1, -1-, test27(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<60> but was:<-1>-, test30(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): Value 1 for era must be in the range 1, -1-, test01(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): Value 1 for monthOfYear must be in the range 1, -1-, test49(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<86400> but was:<-1>-]|
+ ----
+ProgramVariant 5668
+ 
+time(sec)= 3086
+operation: ReplaceOp
+location= org.joda.time.field.ZeroIsMaxDateTimeField
+line= 148
+lineSuspiciousness= 0.274
+original statement= return (getWrappedField().getMaximumValue()) + 1
+fixed statement= return 1
+generation= 2834
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|69|[]|
+manual_regression: |false|27|12047|[testGet_DateTimeFieldType(org.joda.time.TestInstant_Basics): expected:<24> but was:<1>-, testGet_DateTimeField(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<1>-, testGet_DateTimeFieldType(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<1>-, testGet_DateTimeFieldType(org.joda.time.TestLocalDateTime_Basics): expected:<12> but was:<1>-, testGet_DateTimeFieldType(org.joda.time.TestLocalTime_Basics): expected:<12> but was:<1>-, testGet_DateTimeFieldType(org.joda.time.TestInstant_Basics): expected:<24> but was:<1>-, testGet_DateTimeField(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<1>-, testGet_DateTimeFieldType(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<1>-, testGet_DateTimeFieldType(org.joda.time.TestLocalDateTime_Basics): expected:<12> but was:<1>-, testGet_DateTimeFieldType(org.joda.time.TestLocalTime_Basics): expected:<12> but was:<1>-, testFormatParse_textHalfdayAM_UK(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 1-, ...and 18 failures more, testFormatParse_textHalfdayAM_France(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 1-, ...and 18 failures more, testFormat_clockhourOfHalfday(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<12> but was:<1>-, ...and 18 failures more, testFormat_clockhourOfDay(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<24> but was:<1>-, ...and 18 failures more, testGet_DateTimeField(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<1>-, ...and 18 failures more, testGet_DateTimeFieldType(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<1>-, ...and 18 failures more, testGet_DateTimeFieldType(org.joda.time.TestInstant_Basics): expected:<24> but was:<1>-, ...and 18 failures more, testGet_DateTimeFieldType(org.joda.time.TestLocalDateTime_Basics): expected:<12> but was:<1>-, ...and 18 failures more, testGet_DateTimeFieldType(org.joda.time.TestLocalTime_Basics): expected:<12> but was:<1>-, ...and 18 failures more, warning(junit.framework.TestSuite$1): Class org.joda.time.chrono.gj.MainTest has no public constructor TestCase(String name) or TestCase()-, ...and 18 failures more, testFormatParse_textHalfdayAM_UK(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 1-, ...and 18 failures more, testFormatParse_textHalfdayAM_France(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 1-, ...and 18 failures more, testFormat_clockhourOfHalfday(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<12> but was:<1>-, ...and 18 failures more, testFormat_clockhourOfDay(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<24> but was:<1>-, ...and 18 failures more, testFormatParse_textHalfdayAM_UK(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 1-, ...and 18 failures more, testFormatParse_textHalfdayAM_France(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 1-, ...and 18 failures more, testFormat_clockhourOfHalfday(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<12> but was:<1>-, ...and 18 failures more, testFormat_clockhourOfDay(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<24> but was:<1>-, ...and 18 failures more]|
+evo_regression: |false|5|55|[test29(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): Value 60 for dayOfWeek must be in the range 1, 1-, test27(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<60> but was:<1>-, test30(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<3600001> but was:<1>-, test01(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<-86340000> but was:<-86400000>-, test49(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<86400> but was:<1>-]|
+ ----
+ProgramVariant 8102
+ 
+time(sec)= 3836
+operation: ReplaceOp
+location= org.joda.time.field.ZeroIsMaxDateTimeField
+line= 148
+lineSuspiciousness= 0.274
+original statement= return (getWrappedField().getMaximumValue()) + 1
+fixed statement= return getMinimumValue()
+generation= 4051
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|69|[]|
+manual_regression: |false|27|12047|[testGet_DateTimeFieldType(org.joda.time.TestInstant_Basics): expected:<24> but was:<1>-, testGet_DateTimeField(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<1>-, testGet_DateTimeFieldType(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<1>-, testGet_DateTimeFieldType(org.joda.time.TestLocalDateTime_Basics): expected:<12> but was:<1>-, testGet_DateTimeFieldType(org.joda.time.TestLocalTime_Basics): expected:<12> but was:<1>-, testGet_DateTimeFieldType(org.joda.time.TestInstant_Basics): expected:<24> but was:<1>-, testGet_DateTimeField(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<1>-, testGet_DateTimeFieldType(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<1>-, testGet_DateTimeFieldType(org.joda.time.TestLocalDateTime_Basics): expected:<12> but was:<1>-, testGet_DateTimeFieldType(org.joda.time.TestLocalTime_Basics): expected:<12> but was:<1>-, testFormatParse_textHalfdayAM_UK(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 1-, ...and 18 failures more, testFormatParse_textHalfdayAM_France(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 1-, ...and 18 failures more, testFormat_clockhourOfHalfday(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<12> but was:<1>-, ...and 18 failures more, testFormat_clockhourOfDay(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<24> but was:<1>-, ...and 18 failures more, testGet_DateTimeField(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<1>-, ...and 18 failures more, testGet_DateTimeFieldType(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<1>-, ...and 18 failures more, testGet_DateTimeFieldType(org.joda.time.TestInstant_Basics): expected:<24> but was:<1>-, ...and 18 failures more, testGet_DateTimeFieldType(org.joda.time.TestLocalDateTime_Basics): expected:<12> but was:<1>-, ...and 18 failures more, testGet_DateTimeFieldType(org.joda.time.TestLocalTime_Basics): expected:<12> but was:<1>-, ...and 18 failures more, warning(junit.framework.TestSuite$1): Class org.joda.time.chrono.gj.MainTest has no public constructor TestCase(String name) or TestCase()-, ...and 18 failures more, testFormatParse_textHalfdayAM_UK(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 1-, ...and 18 failures more, testFormatParse_textHalfdayAM_France(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 1-, ...and 18 failures more, testFormat_clockhourOfHalfday(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<12> but was:<1>-, ...and 18 failures more, testFormat_clockhourOfDay(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<24> but was:<1>-, ...and 18 failures more, testFormatParse_textHalfdayAM_UK(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 1-, ...and 18 failures more, testFormatParse_textHalfdayAM_France(org.joda.time.format.TestDateTimeFormat): Cannot parse "$06-PM-2007": Value 6 for clockhourOfHalfday must be in the range 1, 1-, ...and 18 failures more, testFormat_clockhourOfHalfday(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<12> but was:<1>-, ...and 18 failures more, testFormat_clockhourOfDay(org.joda.time.format.TestDateTimeFormat): 2004-06-09T00:00:00.000Z expected:<24> but was:<1>-, ...and 18 failures more]|
+evo_regression: |false|5|55|[test29(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): Value 60 for dayOfWeek must be in the range 1, 1-, test27(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<60> but was:<1>-, test30(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<3600001> but was:<1>-, test01(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<-86340000> but was:<-86400000>-, test49(org.joda.time.field.ZeroIsMaxDateTimeField_ESTest): expected:<86400> but was:<1>-]|
+ ----
+ProgramVariant 10540
+ 
+time(sec)= 4745
+operation: ReplaceOp
+location= org.joda.time.DateTimeFieldType
+line= 227
+lineSuspiciousness= 0.226
+original statement= return org.joda.time.DateTimeFieldType.CLOCKHOUR_OF_DAY_TYPE
+fixed statement= return org.joda.time.DateTimeFieldType.ERA_TYPE
+generation= 5270
+ingredientScope= LOCAL
+validation=
+failing: |true|0|69|[]|
+manual_regression: |false|54|12047|[test_clockhourOfDay(org.joda.time.TestDateTimeFieldType): expected:<clockhourOfDay> but was:<era>-, testGet_DateTimeFieldType(org.joda.time.TestInstant_Basics): expected:<24> but was:<1>-, testGet_DateTimeFieldType(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<1>-, testGet_DateTimeFieldType(org.joda.time.TestLocalDateTime_Basics): expected:<12> but was:<1>-, testProperty(org.joda.time.TestLocalTime_Basics): Field 'era' is not supported-, testIsSupported_DateTimeFieldType(org.joda.time.TestLocalTime_Basics): expected:<true> but was:<false>-, testGet_DateTimeFieldType(org.joda.time.TestLocalTime_Basics): Field 'era' is not supported-, testConstructorEx8_TypeArray_intArray(org.joda.time.TestPartial_Constructors): Types array must be in order largest-smallest: dayOfMonth < era: must not/duplicate expected:<true> but was:<false>-, testSerializedDateTimeFieldType(org.joda.time.TestSerialization): expected same:<era> was not:<clockhourOfDay>-, test_clockhourOfDay(org.joda.time.TestDateTimeFieldType): expected:<clockhourOfDay> but was:<era>-, testGet_DateTimeFieldType(org.joda.time.TestInstant_Basics): expected:<24> but was:<1>-, ...and 45 failures more, testGet_DateTimeFieldType(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<1>-, ...and 45 failures more, testGet_DateTimeFieldType(org.joda.time.TestLocalDateTime_Basics): expected:<12> but was:<1>-, ...and 45 failures more, testProperty(org.joda.time.TestLocalTime_Basics): Field 'era' is not supported-, ...and 45 failures more, testIsSupported_DateTimeFieldType(org.joda.time.TestLocalTime_Basics): expected:<true> but was:<false>-, ...and 45 failures more, testGet_DateTimeFieldType(org.joda.time.TestLocalTime_Basics): Field 'era' is not supported-, ...and 45 failures more, testConstructorEx8_TypeArray_intArray(org.joda.time.TestPartial_Constructors): Types array must be in order largest-smallest: dayOfMonth < era: must not/duplicate expected:<true> but was:<false>-, ...and 45 failures more, testSerializedDateTimeFieldType(org.joda.time.TestSerialization): expected same:<era> was not:<clockhourOfDay>-, ...and 45 failures more, testTimeFields(org.joda.time.chrono.TestBuddhistChronology): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, testTimeFields(org.joda.time.chrono.TestCopticChronology): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, testTimeFields(org.joda.time.chrono.TestEthiopicChronology): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, testTimeFields(org.joda.time.chrono.TestGJChronology): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, testTimeFields(org.joda.time.chrono.TestGregorianChronology): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, testTimeFields(org.joda.time.chrono.TestIslamicChronology): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, testTimeFields(org.joda.time.chrono.TestJulianChronology): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, testTimeFields(org.joda.time.chrono.TestISOChronology): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, testFormat_clockhourOfDay(org.joda.time.format.TestDateTimeFormat): 2004-06-09T10:20:30.040Z expected:<10> but was:<1>-, ...and 45 failures more, testGet_DateTimeFieldType(org.joda.time.TestDateMidnight_Basics): expected:<24> but was:<1>-, ...and 45 failures more, test_clockhourOfDay(org.joda.time.TestDateTimeFieldType): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, testGet_DateTimeFieldType(org.joda.time.TestInstant_Basics): expected:<24> but was:<1>-, ...and 45 failures more, testGet_DateTimeFieldType(org.joda.time.TestLocalDateTime_Basics): expected:<12> but was:<1>-, ...and 45 failures more, testProperty(org.joda.time.TestLocalTime_Basics): Field 'era' is not supported-, ...and 45 failures more, testIsSupported_DateTimeFieldType(org.joda.time.TestLocalTime_Basics): expected:<true> but was:<false>-, ...and 45 failures more, testGet_DateTimeFieldType(org.joda.time.TestLocalTime_Basics): Field 'era' is not supported-, ...and 45 failures more, testConstructorEx8_TypeArray_intArray(org.joda.time.TestPartial_Constructors): Types array must be in order largest-smallest: dayOfMonth < era: must not/duplicate expected:<true> but was:<false>-, ...and 45 failures more, testSerializedDateTimeFieldType(org.joda.time.TestSerialization): expected same:<era> was not:<clockhourOfDay>-, ...and 45 failures more, testTimeFields(org.joda.time.chrono.TestBuddhistChronology): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, testTimeFields(org.joda.time.chrono.TestCopticChronology): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, testTimeFields(org.joda.time.chrono.TestEthiopicChronology): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, testTimeFields(org.joda.time.chrono.TestGJChronology): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, testTimeFields(org.joda.time.chrono.TestGregorianChronology): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, testTimeFields(org.joda.time.chrono.TestIslamicChronology): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, testTimeFields(org.joda.time.chrono.TestJulianChronology): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, testTimeFields(org.joda.time.chrono.TestISOChronology): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, testTimeFields(org.joda.time.chrono.TestBuddhistChronology): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, testTimeFields(org.joda.time.chrono.TestCopticChronology): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, testTimeFields(org.joda.time.chrono.TestEthiopicChronology): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, testTimeFields(org.joda.time.chrono.TestGJChronology): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, testTimeFields(org.joda.time.chrono.TestGregorianChronology): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, testTimeFields(org.joda.time.chrono.TestISOChronology): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, testTimeFields(org.joda.time.chrono.TestIslamicChronology): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, testTimeFields(org.joda.time.chrono.TestJulianChronology): expected:<clockhourOfDay> but was:<era>-, ...and 45 failures more, warning(junit.framework.TestSuite$1): Class org.joda.time.chrono.gj.MainTest has no public constructor TestCase(String name) or TestCase()-, ...and 45 failures more, testFormat_clockhourOfDay(org.joda.time.format.TestDateTimeFormat): 2004-06-09T10:20:30.040Z expected:<10> but was:<1>-, ...and 45 failures more, testFormat_clockhourOfDay(org.joda.time.format.TestDateTimeFormat): 2004-06-09T10:20:30.040Z expected:<10> but was:<1>-, ...and 45 failures more]|
+evo_regression: |false|1|31|[test04(org.joda.time.DateTimeFieldType_ESTest): org.joda.time.chrono.GJEraDateTimeField cannot be cast to org.joda.time.field.ZeroIsMaxDateTimeField-]|
+ ----
+ProgramVariant 18572
+ 
+time(sec)= 7161
+operation: InsertAfterOp
+location= org.joda.time.Partial
+line= 449
+lineSuspiciousness= 0.354
+original statement= if ((rangeField.compareTo(loopRangeField)) > 0) {
+	break;
+} 
+fixed statement= if ((isSupported(fieldType)) == false) {
+	throw new java.lang.IllegalArgumentException((("Field '" + fieldType) + "' is not supported"));
+} 
+generation= 9286
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|69|[]|
+manual_regression: |false|6|12047|[testIsContiguous_RP(org.joda.time.TestDateTimeUtils): Field 'dayOfWeek' is not supported-, testIsContiguous_RP_GJChronology(org.joda.time.TestDateTimeUtils): Field 'dayOfWeek' is not supported-, testIsContiguous_RP(org.joda.time.TestDateTimeUtils): Field 'dayOfWeek' is not supported-, testIsContiguous_RP_GJChronology(org.joda.time.TestDateTimeUtils): Field 'dayOfWeek' is not supported-, testIsContiguous_RP(org.joda.time.TestDateTimeUtils): Field 'dayOfWeek' is not supported-, testIsContiguous_RP_GJChronology(org.joda.time.TestDateTimeUtils): Field 'dayOfWeek' is not supported-, warning(junit.framework.TestSuite$1): Class org.joda.time.chrono.gj.MainTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |true|0|93|[]|
+[INFO ] fr.inria.main.evolution.AstorMain.run(AstorMain.java:397) - Time Total(s): 7352.357
+
+
+Node: graphene-99.nancy.grid5000.fr
+
+
+Date: Sun Jan 15 15:09:48 CET 2017
+
+removed classes 
+
+zipped 
+
+copied zip 
+
+

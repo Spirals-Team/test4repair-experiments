@@ -1,0 +1,297 @@
+{
+    "date": "Sat Jan 28 01:53:27 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "494", 
+    "node": "grimoire-8.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "if ((1.5 * (work[pingPong])) < (work[((4 * (n - 1)) + (pingPong))])) {\n\tint j = (4 * n) - 1;\n\tfor (int i = 0 ; i < j ; i += 4) {\n\t\tfor (int k = 0 ; k < 4 ; k += step) {\n\t\t\tfinal double tmp = work[(i + k)];\n\t\t\twork[(i + k)] = work[(j - k)];\n\t\t\twork[(j - k)] = tmp;\n\t\t}\n\t\tj -= 4;\n\t}\n\treturn true;\n} ", 
+            "generation": 61, 
+            "ingredients": null, 
+            "patch": "if ((dMin1) > 0.0) {\n\ttau = ((tau) + (dMin)) * (1.0 - (2.0 * (org.apache.commons.math.util.MathUtils.EPSILON)));\n\ttType -= 11;\n} else {\n\ttau *= 0.25;\n\ttType -= 12;\n}", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1133, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "55", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "18", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2102", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "1938", 
+            "type": "ReplaceOp", 
+            "variant": 122
+        }, 
+        {
+            "buggyStatement": "for (int i = 0 ; i < j ; i += 4) {\n\tfor (int k = 0 ; k < 4 ; k += step) {\n\t\tfinal double tmp = work[(i + k)];\n\t\twork[(i + k)] = work[(j - k)];\n\t\twork[(j - k)] = tmp;\n\t}\n\tj -= 4;\n}", 
+            "generation": 187, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1136, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "55", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "18", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2102", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "3539", 
+            "type": "RemoveOp", 
+            "variant": 374
+        }, 
+        {
+            "buggyStatement": "work[fourI] = java.lang.Math.abs(di)", 
+            "generation": 293, 
+            "ingredients": null, 
+            "patch": "flipIfWarranted(n, 2)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1262, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "55", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "18", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2102", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "4718", 
+            "type": "InsertAfterOp", 
+            "variant": 586
+        }, 
+        {
+            "buggyStatement": "work[(i + k)] = work[(j - k)]", 
+            "generation": 309, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1139, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "55", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "18", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2102", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "4901", 
+            "type": "RemoveOp", 
+            "variant": 618
+        }, 
+        {
+            "buggyStatement": "for (int i = 0 ; i < j ; i += 4) {\n\tfor (int k = 0 ; k < 4 ; k += step) {\n\t\tfinal double tmp = work[(i + k)];\n\t\twork[(i + k)] = work[(j - k)];\n\t\twork[(j - k)] = tmp;\n\t}\n\tj -= 4;\n}", 
+            "generation": 372, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1136, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "55", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "18", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2102", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "5653", 
+            "type": "RemoveOp", 
+            "variant": 744
+        }, 
+        {
+            "buggyStatement": "for (int i = 0 ; i < j ; i += 4) {\n\tfor (int k = 0 ; k < 4 ; k += step) {\n\t\tfinal double tmp = work[(i + k)];\n\t\twork[(i + k)] = work[(j - k)];\n\t\twork[(j - k)] = tmp;\n\t}\n\tj -= 4;\n}", 
+            "generation": 373, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1136, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "55", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "18", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2102", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "5766", 
+            "type": "RemoveOp", 
+            "variant": 746
+        }, 
+        {
+            "buggyStatement": "for (int k = 0 ; k < 4 ; k += step) {\n\tfinal double tmp = work[(i + k)];\n\twork[(i + k)] = work[(j - k)];\n\twork[(j - k)] = tmp;\n}", 
+            "generation": 375, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1137, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "55", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "18", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2102", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "5879", 
+            "type": "RemoveOp", 
+            "variant": 750
+        }, 
+        {
+            "buggyStatement": "for (int i = 0 ; i < j ; i += 4) {\n\tfor (int k = 0 ; k < 4 ; k += step) {\n\t\tfinal double tmp = work[(i + k)];\n\t\twork[(i + k)] = work[(j - k)];\n\t\twork[(j - k)] = tmp;\n\t}\n\tj -= 4;\n}", 
+            "generation": 376, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1136, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "55", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "18", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2102", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "5992", 
+            "type": "RemoveOp", 
+            "variant": 752
+        }, 
+        {
+            "buggyStatement": "for (int i = 0 ; i < j ; i += 4) {\n\tfor (int k = 0 ; k < 4 ; k += step) {\n\t\tfinal double tmp = work[(i + k)];\n\t\twork[(i + k)] = work[(j - k)];\n\t\twork[(j - k)] = tmp;\n\t}\n\tj -= 4;\n}", 
+            "generation": 386, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1136, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "55", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "18", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2102", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "6140", 
+            "type": "RemoveOp", 
+            "variant": 772
+        }, 
+        {
+            "buggyStatement": "for (int i = 0 ; i < j ; i += 4) {\n\tfor (int k = 0 ; k < 4 ; k += step) {\n\t\tfinal double tmp = work[(i + k)];\n\t\twork[(i + k)] = work[(j - k)];\n\t\twork[(j - k)] = tmp;\n\t}\n\tj -= 4;\n}", 
+            "generation": 473, 
+            "ingredients": null, 
+            "patch": "for (int i = 0 ; i < (realEigenvalues.length) ; ++i) {\n\tif (((realEigenvalues[i]) == 0) && ((imagEigenvalues[i]) == 0)) {\n\t\treturn false;\n\t} \n}", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1136, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "55", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "18", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2102", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "7185", 
+            "type": "ReplaceOp", 
+            "variant": 946
+        }, 
+        {
+            "buggyStatement": "work[(i + k)] = work[(j - k)]", 
+            "generation": 484, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1139, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "55", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "18", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2102", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "7319", 
+            "type": "RemoveOp", 
+            "variant": 968
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "122", 
+    "timeEvaluation": null, 
+    "timeTotal": "7471"
+}

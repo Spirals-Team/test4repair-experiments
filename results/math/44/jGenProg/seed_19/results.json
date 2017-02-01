@@ -1,0 +1,141 @@
+{
+    "date": "Fri Jan 20 07:04:08 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "220", 
+    "node": "grisou-22.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "for (final org.apache.commons.math.ode.sampling.StepHandler handler : stepHandlers) {\n\thandler.handleStep(interpolator, isLastStep);\n}", 
+            "generation": 405, 
+            "ingredients": null, 
+            "patch": "statesInitialized = false", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.AbstractIntegrator", 
+                "line": 327, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "37", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "2", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3057", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "LOCAL", 
+            "time": "2835", 
+            "type": "InsertAfterOp", 
+            "variant": 810
+        }, 
+        {
+            "buggyStatement": "java.util.SortedSet<org.apache.commons.math.ode.events.EventState> occuringEvents = new java.util.TreeSet<org.apache.commons.math.ode.events.EventState>(new java.util.Comparator<org.apache.commons.math.ode.events.EventState>() {\n\tpublic int compare(org.apache.commons.math.ode.events.EventState es0, org.apache.commons.math.ode.events.EventState es1) {\n\t\treturn orderingSign * (java.lang.Double.compare(es0.getEventTime(), es1.getEventTime()));\n\t}\n})", 
+            "generation": 740, 
+            "ingredients": null, 
+            "patch": "for (org.apache.commons.math.ode.events.EventState state : eventsStates) {\n\tstate.reinitializeBegin(interpolator);\n}", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.AbstractIntegrator", 
+                "line": 292, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "37", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "2", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3057", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "LOCAL", 
+            "time": "4736", 
+            "type": "InsertAfterOp", 
+            "variant": 1480
+        }, 
+        {
+            "buggyStatement": "resetOccurred = true", 
+            "generation": 889, 
+            "ingredients": null, 
+            "patch": "statesInitialized = false", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.AbstractIntegrator", 
+                "line": 342, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "37", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "2", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3057", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "LOCAL", 
+            "time": "5461", 
+            "type": "ReplaceOp", 
+            "variant": 1778
+        }, 
+        {
+            "buggyStatement": "occuringEvents.add(state)", 
+            "generation": 962, 
+            "ingredients": null, 
+            "patch": "statesInitialized = false", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.AbstractIntegrator", 
+                "line": 304, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "37", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "2", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3057", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "LOCAL", 
+            "time": "5830", 
+            "type": "InsertBeforeOp", 
+            "variant": 1924
+        }, 
+        {
+            "buggyStatement": "final double ratio2 = errSum2 / tol", 
+            "generation": 1187, 
+            "ingredients": null, 
+            "patch": "setStateInitialized(false)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.nonstiff.DormandPrince853Integrator", 
+                "line": 274, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "6", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "2", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3057", 
+                "mvaltcfailing": "1"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "7255", 
+            "type": "InsertBeforeOp", 
+            "variant": 2374
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "810", 
+    "timeEvaluation": null, 
+    "timeTotal": "7611"
+}

@@ -1,0 +1,115 @@
+{
+    "date": "Thu Jan 19 02:07:56 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "494", 
+    "node": "graphene-17.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "for (int i = 0 ; i < j ; i += 4) {\n\tfor (int k = 0 ; k < 4 ; k += step) {\n\t\tfinal double tmp = work[(i + k)];\n\t\twork[(i + k)] = work[(j - k)];\n\t\twork[(j - k)] = tmp;\n\t}\n\tj -= 4;\n}", 
+            "generation": 55, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1136, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "49", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "18", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2102", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "1608", 
+            "type": "RemoveOp", 
+            "variant": 110
+        }, 
+        {
+            "buggyStatement": "flipIfWarranted(n, 2)", 
+            "generation": 147, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 840, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "49", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "18", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2102", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "2523", 
+            "type": "RemoveOp", 
+            "variant": 294
+        }, 
+        {
+            "buggyStatement": "work[(i + k)] = work[(j - k)]", 
+            "generation": 511, 
+            "ingredients": null, 
+            "patch": "cachedD = org.apache.commons.math.linear.MatrixUtils.createRealDiagonalMatrix(realEigenvalues)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1139, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "49", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "18", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2102", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "6202", 
+            "type": "ReplaceOp", 
+            "variant": 1022
+        }, 
+        {
+            "buggyStatement": "final double upper = dCurrent + eCurrent", 
+            "generation": 519, 
+            "ingredients": null, 
+            "patch": "findEigenvalues()", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 601, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "49", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "18", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2102", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "6330", 
+            "type": "InsertAfterOp", 
+            "variant": 1038
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "110", 
+    "timeEvaluation": null, 
+    "timeTotal": "7493"
+}

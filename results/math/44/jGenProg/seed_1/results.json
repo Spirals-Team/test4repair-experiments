@@ -1,0 +1,63 @@
+{
+    "date": "Tue Jan 17 01:17:20 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "220", 
+    "node": "grimoire-4.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "return super.solve(maxEval, f, min, max)", 
+            "generation": 52, 
+            "ingredients": null, 
+            "patch": "return maximalOrder", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver", 
+                "line": 386, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "29", 
+                "evaltcfailing": "9", 
+                "fvalresult": "true", 
+                "fvaltcall": "2", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3057", 
+                "mvaltcfailing": "14"
+            }, 
+            "scope": "LOCAL", 
+            "time": "1066", 
+            "type": "ReplaceOp", 
+            "variant": 104
+        }, 
+        {
+            "buggyStatement": "java.util.SortedSet<org.apache.commons.math.ode.events.EventState> occuringEvents = new java.util.TreeSet<org.apache.commons.math.ode.events.EventState>(new java.util.Comparator<org.apache.commons.math.ode.events.EventState>() {\n\tpublic int compare(org.apache.commons.math.ode.events.EventState es0, org.apache.commons.math.ode.events.EventState es1) {\n\t\treturn orderingSign * (java.lang.Double.compare(es0.getEventTime(), es1.getEventTime()));\n\t}\n})", 
+            "generation": 873, 
+            "ingredients": null, 
+            "patch": "statesInitialized = false", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.AbstractIntegrator", 
+                "line": 292, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "31", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "2", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3057", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "LOCAL", 
+            "time": "6408", 
+            "type": "InsertAfterOp", 
+            "variant": 1746
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "104", 
+    "timeEvaluation": null, 
+    "timeTotal": "7616"
+}

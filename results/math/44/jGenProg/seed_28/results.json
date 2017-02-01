@@ -1,0 +1,89 @@
+{
+    "date": "Sat Jan 28 13:34:46 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "220", 
+    "node": "grimoire-1.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "interpolator.setSoftCurrentTime(eventT)", 
+            "generation": 141, 
+            "ingredients": null, 
+            "patch": "statesInitialized = false", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.AbstractIntegrator", 
+                "line": 318, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "30", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "2", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3057", 
+                "mvaltcfailing": "15"
+            }, 
+            "scope": "LOCAL", 
+            "time": "1350", 
+            "type": "InsertAfterOp", 
+            "variant": 282
+        }, 
+        {
+            "buggyStatement": "java.util.SortedSet<org.apache.commons.math.ode.events.EventState> occuringEvents = new java.util.TreeSet<org.apache.commons.math.ode.events.EventState>(new java.util.Comparator<org.apache.commons.math.ode.events.EventState>() {\n\tpublic int compare(org.apache.commons.math.ode.events.EventState es0, org.apache.commons.math.ode.events.EventState es1) {\n\t\treturn orderingSign * (java.lang.Double.compare(es0.getEventTime(), es1.getEventTime()));\n\t}\n})", 
+            "generation": 446, 
+            "ingredients": null, 
+            "patch": "for (org.apache.commons.math.ode.events.EventState state : eventsStates) {\n\tstate.reinitializeBegin(interpolator);\n}", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.AbstractIntegrator", 
+                "line": 292, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "30", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "2", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3057", 
+                "mvaltcfailing": "15"
+            }, 
+            "scope": "LOCAL", 
+            "time": "3084", 
+            "type": "InsertBeforeOp", 
+            "variant": 892
+        }, 
+        {
+            "buggyStatement": "final java.util.Iterator<org.apache.commons.math.ode.events.EventState> iterator = occuringEvents.iterator()", 
+            "generation": 665, 
+            "ingredients": null, 
+            "patch": "statesInitialized = false", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.AbstractIntegrator", 
+                "line": 311, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "30", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "2", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3057", 
+                "mvaltcfailing": "15"
+            }, 
+            "scope": "LOCAL", 
+            "time": "4260", 
+            "type": "InsertAfterOp", 
+            "variant": 1330
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "282", 
+    "timeEvaluation": null, 
+    "timeTotal": "7610"
+}

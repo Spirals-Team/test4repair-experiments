@@ -1,0 +1,278 @@
+seed AstorRun 22 
+export PATH="/home/mmartinez/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/mmartinez/projects/math/math_95;defects4j compile;cp -r /home/mmartinez/projects/math/math_95 /tmp/math_95_Genprog_local_s1;cd /tmp/math_95_Genprog_local_s1;mkdir lib/;cp -r /home/mmartinez/defects4j/framework/projects/lib/* lib/;cp -r /home/mmartinez/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/22/package/95/Genprog/result
+cd /tmp/math_95_Genprog_local_s1;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";time /home/mmartinez/jdk1.8.0_45/bin//java -Xmx4096m -cp /home/mmartinez/defects4j-repair/src/python/core/../../..//libs/astor.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -id Math -dependencies lib/ -failing org.apache.commons.math.distribution.FDistributionTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -jvm4evosuitetestexecution /home/mmartinez/jdk1.8.0_45/bin/ -javacompliancelevel 6 -maxgen 1000000 -seed 22 -scope package -maxtime 120  -stopfirst false -population 1 -srcjavafolder src/java/ -srctestfolder src/test/ -binjavafolder target/classes/ -bintestfolder target/test-classes/ -flthreshold 0.1  -validation  fr.inria.astor.core.validation.validators.RegressionValidation  -ESParameters -Dassertion_timeout=1800:-Dminimization_timeout=1800:-Djunit_check_timeout=1800:-Dwrite_junit_timeout=300:-Dinitialization_timeout=300:-Dglobal_timeout=18000:-Dsearch_budget=100000:-Dstopping_condition=MaxStatements:-Dno_runtime_dependency=true:-Dsandbox=false:-Dp_reflection_on_private=0.0:-Dreflection_start_percent=1.0:-Dp_functional_mocking=0.0:-Dfunctional_mocking_percent=1.0:-mem=2000 -ignoredtestcases org.apache.commons.lang.LocaleUtilsTest  -excludeRegression  -maxgen 100000000 ;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+"; find /tmp/math_95_Genprog_local_s1/outputMutation -name "*.class" -type f -delete;echo "removed classes 
+"; find . -name bin  -type d -print0|xargs -0 rm -r --; zip -r -q out.zip /tmp/math_95_Genprog_local_s1/outputMutation; echo "zipped 
+";cp out.zip /home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/22/package/95/Genprog; echo "copied zip 
+";rm -rf /tmp/math_95_Genprog_local_s1;
+
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:136) - End Repair Loops: Found solution
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:137) - Solution stored at: /tmp/math_95_Genprog_local_s1/./outputMutation/AstorMain-Math//src/
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:142) - 
+Number solutions:14
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 90 (SOL) , #gens: 31, #ops: 1, parent:89]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 544 (SOL) , #gens: 30, #ops: 1, parent:543]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 624 (SOL) , #gens: 30, #ops: 1, parent:623]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 696 (SOL) , #gens: 30, #ops: 1, parent:695]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 728 (SOL) , #gens: 30, #ops: 1, parent:727]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 1116 (SOL) , #gens: 30, #ops: 1, parent:1115]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 1552 (SOL) , #gens: 31, #ops: 1, parent:1551]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 1656 (SOL) , #gens: 30, #ops: 1, parent:1655]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 1698 (SOL) , #gens: 30, #ops: 1, parent:1697]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 1774 (SOL) , #gens: 30, #ops: 1, parent:1773]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 1836 (SOL) , #gens: 30, #ops: 1, parent:1835]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 2188 (SOL) , #gens: 31, #ops: 1, parent:2187]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 4068 (SOL) , #gens: 31, #ops: 1, parent:4067]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 4412 (SOL) , #gens: 31, #ops: 1, parent:4411]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:146) - 
+All variants:
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:148) - f 1.0, [Variant id: 5337, #gens: 30, #ops: 0, parent:-]
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:152) - 
+Solution details
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:153) - 
+ --SOLUTIONS DESCRIPTION--
+
+ ----
+ProgramVariant 90
+ 
+time(sec)= 463
+operation: InsertAfterOp
+location= org.apache.commons.math.distribution.FDistributionImpl
+line= 147
+lineSuspiciousness= 0.258
+original statement= ret = d / (d - 2.0)
+fixed statement= ret = 0.5
+generation= 45
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|1298|[warning(junit.framework.TestSuite$1): Class org.apache.commons.math.ode.nonstiff.StepInterpolatorAbstractTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|3|20|[test01(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<NaN> but was:<1.5>-, test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<1.001817146044936> but was:<0.5>-, test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<-1.6997613906373606E-5> but was:<0.5>-]|
+ ----
+ProgramVariant 544
+ 
+time(sec)= 1774
+operation: ReplaceOp
+location= org.apache.commons.math.distribution.FDistributionImpl
+line= 147
+lineSuspiciousness= 0.258
+original statement= ret = d / (d - 2.0)
+fixed statement= ret = 0.5
+generation= 272
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|1298|[warning(junit.framework.TestSuite$1): Class org.apache.commons.math.ode.nonstiff.StepInterpolatorAbstractTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|3|20|[test01(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<NaN> but was:<1.5>-, test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<1.001817146044936> but was:<0.5>-, test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<-1.6997613906373606E-5> but was:<0.5>-]|
+ ----
+ProgramVariant 624
+ 
+time(sec)= 1979
+operation: ReplaceOp
+location= org.apache.commons.math.distribution.FDistributionImpl
+line= 148
+lineSuspiciousness= 0.258
+original statement= return ret
+fixed statement= return 0
+generation= 312
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|1298|[warning(junit.framework.TestSuite$1): Class org.apache.commons.math.ode.nonstiff.StepInterpolatorAbstractTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|2|20|[test01(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<NaN> but was:<1.0>-, test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<1.001817146044936> but was:<0.0>-]|
+ ----
+ProgramVariant 696
+ 
+time(sec)= 2065
+operation: ReplaceOp
+location= org.apache.commons.math.distribution.FDistributionImpl
+line= 148
+lineSuspiciousness= 0.258
+original statement= return ret
+fixed statement= return p
+generation= 348
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|1298|[warning(junit.framework.TestSuite$1): Class org.apache.commons.math.ode.nonstiff.StepInterpolatorAbstractTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|1|20|[test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<1.001817146044936> but was:<1102.627>-]|
+ ----
+ProgramVariant 728
+ 
+time(sec)= 2151
+operation: ReplaceOp
+location= org.apache.commons.math.distribution.FDistributionImpl
+line= 147
+lineSuspiciousness= 0.258
+original statement= ret = d / (d - 2.0)
+fixed statement= ret = 0.0
+generation= 364
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|1298|[warning(junit.framework.TestSuite$1): Class org.apache.commons.math.ode.nonstiff.StepInterpolatorAbstractTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|2|20|[test01(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<NaN> but was:<1.0>-, test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<1.001817146044936> but was:<0.0>-]|
+ ----
+ProgramVariant 1116
+ 
+time(sec)= 2563
+operation: ReplaceOp
+location= org.apache.commons.math.distribution.FDistributionImpl
+line= 148
+lineSuspiciousness= 0.258
+original statement= return ret
+fixed statement= return java.lang.Double.MIN_VALUE
+generation= 558
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|1298|[warning(junit.framework.TestSuite$1): Class org.apache.commons.math.ode.nonstiff.StepInterpolatorAbstractTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|2|20|[test01(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<NaN> but was:<1.0>-, test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<1.001817146044936> but was:<4.9E-324>-]|
+ ----
+ProgramVariant 1552
+ 
+time(sec)= 3384
+operation: InsertBeforeOp
+location= org.apache.commons.math.distribution.FDistributionImpl
+line= 148
+lineSuspiciousness= 0.258
+original statement= return ret
+fixed statement= ret = 0.0
+generation= 776
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|1298|[warning(junit.framework.TestSuite$1): Class org.apache.commons.math.ode.nonstiff.StepInterpolatorAbstractTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|2|20|[test01(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<NaN> but was:<1.0>-, test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<1.001817146044936> but was:<0.0>-]|
+ ----
+ProgramVariant 1656
+ 
+time(sec)= 3474
+operation: ReplaceOp
+location= org.apache.commons.math.distribution.FDistributionImpl
+line= 147
+lineSuspiciousness= 0.258
+original statement= ret = d / (d - 2.0)
+fixed statement= ret = 1.0
+generation= 828
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|1298|[warning(junit.framework.TestSuite$1): Class org.apache.commons.math.ode.nonstiff.StepInterpolatorAbstractTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|2|20|[test01(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<NaN> but was:<2.0>-, test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<-1.6997613906373606E-5> but was:<1.0>-]|
+ ----
+ProgramVariant 1698
+ 
+time(sec)= 3680
+operation: ReplaceOp
+location= org.apache.commons.math.distribution.FDistributionImpl
+line= 148
+lineSuspiciousness= 0.258
+original statement= return ret
+fixed statement= return denominatorDegreesOfFreedom
+generation= 849
+ingredientScope= LOCAL
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|1298|[warning(junit.framework.TestSuite$1): Class org.apache.commons.math.ode.nonstiff.StepInterpolatorAbstractTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|1|20|[test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<1.001817146044936> but was:<1102.627>-]|
+ ----
+ProgramVariant 1774
+ 
+time(sec)= 3894
+operation: ReplaceOp
+location= org.apache.commons.math.distribution.FDistributionImpl
+line= 148
+lineSuspiciousness= 0.258
+original statement= return ret
+fixed statement= return numeratorDegreesOfFreedom
+generation= 887
+ingredientScope= LOCAL
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|1298|[warning(junit.framework.TestSuite$1): Class org.apache.commons.math.ode.nonstiff.StepInterpolatorAbstractTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|1|20|[test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<1.001817146044936> but was:<1102.627>-]|
+ ----
+ProgramVariant 1836
+ 
+time(sec)= 3974
+operation: ReplaceOp
+location= org.apache.commons.math.distribution.FDistributionImpl
+line= 148
+lineSuspiciousness= 0.258
+original statement= return ret
+fixed statement= return 1
+generation= 918
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|1298|[warning(junit.framework.TestSuite$1): Class org.apache.commons.math.ode.nonstiff.StepInterpolatorAbstractTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|2|20|[test01(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<NaN> but was:<2.0>-, test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<-1.6997613906373606E-5> but was:<1.0>-]|
+ ----
+ProgramVariant 2188
+ 
+time(sec)= 4837
+operation: InsertAfterOp
+location= org.apache.commons.math.distribution.FDistributionImpl
+line= 147
+lineSuspiciousness= 0.258
+original statement= ret = d / (d - 2.0)
+fixed statement= ret = 0.0
+generation= 1094
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|1298|[warning(junit.framework.TestSuite$1): Class org.apache.commons.math.ode.nonstiff.StepInterpolatorAbstractTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|2|20|[test01(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<NaN> but was:<1.0>-, test03(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<1.001817146044936> but was:<0.0>-]|
+ ----
+ProgramVariant 4068
+ 
+time(sec)= 5801
+operation: InsertAfterOp
+location= org.apache.commons.math.distribution.FDistributionImpl
+line= 147
+lineSuspiciousness= 0.258
+original statement= ret = d / (d - 2.0)
+fixed statement= ret = 1.0
+generation= 2034
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|1298|[warning(junit.framework.TestSuite$1): Class org.apache.commons.math.ode.nonstiff.StepInterpolatorAbstractTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|2|20|[test01(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<NaN> but was:<2.0>-, test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<-1.6997613906373606E-5> but was:<1.0>-]|
+ ----
+ProgramVariant 4412
+ 
+time(sec)= 6314
+operation: InsertBeforeOp
+location= org.apache.commons.math.distribution.FDistributionImpl
+line= 148
+lineSuspiciousness= 0.258
+original statement= return ret
+fixed statement= ret = 1.0
+generation= 2206
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|1298|[warning(junit.framework.TestSuite$1): Class org.apache.commons.math.ode.nonstiff.StepInterpolatorAbstractTest has no public constructor TestCase(String name) or TestCase()-]|
+evo_regression: |false|2|20|[test01(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<NaN> but was:<2.0>-, test04(org.apache.commons.math.distribution.FDistributionImpl_ESTest): expected:<-1.6997613906373606E-5> but was:<1.0>-]|
+[INFO ] fr.inria.main.evolution.AstorMain.run(AstorMain.java:397) - Time Total(s): 7288.531
+
+
+Node: graphene-131.nancy.grid5000.fr
+
+
+Date: Sat Jan 21 21:00:33 CET 2017
+
+removed classes 
+
+zipped 
+
+copied zip 
+
+

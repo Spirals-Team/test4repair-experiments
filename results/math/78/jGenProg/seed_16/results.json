@@ -1,0 +1,1935 @@
+{
+    "date": "Sun Jan 15 22:31:02 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "63", 
+    "node": "graphene-97.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 27, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "4"
+            }, 
+            "scope": "-", 
+            "time": "302", 
+            "type": "RemoveOp", 
+            "variant": 54
+        }, 
+        {
+            "buggyStatement": "for (int i = 0 ; i < n ; ++i) {\n\ttb += h;\n\tinterpolator.setInterpolatedTime(tb);\n\tfinal double gb = handler.g(tb, interpolator.getInterpolatedState());\n\tif ((g0Positive) ^ (gb >= 0)) {\n\t\tincreasing = gb >= ga;\n\t\tfinal org.apache.commons.math.analysis.UnivariateRealFunction f = new org.apache.commons.math.analysis.UnivariateRealFunction() {\n\t\t\tpublic double value(final double t) throws org.apache.commons.math.FunctionEvaluationException {\n\t\t\t\ttry {\n\t\t\t\t\tinterpolator.setInterpolatedTime(t);\n\t\t\t\t\treturn handler.g(t, interpolator.getInterpolatedState());\n\t\t\t\t} catch (org.apache.commons.math.ode.DerivativeException e) {\n\t\t\t\t\tthrow new org.apache.commons.math.FunctionEvaluationException(e , t);\n\t\t\t\t} catch (org.apache.commons.math.ode.events.EventException e) {\n\t\t\t\t\tthrow new org.apache.commons.math.FunctionEvaluationException(e , t);\n\t\t\t\t}\n\t\t\t}\n\t\t};\n\t\tfinal org.apache.commons.math.analysis.solvers.BrentSolver solver = new org.apache.commons.math.analysis.solvers.BrentSolver();\n\t\tsolver.setAbsoluteAccuracy(convergence);\n\t\tsolver.setMaximalIterationCount(maxIterationCount);\n\t\tfinal double root = ta <= tb ? solver.solve(f, ta, tb) : solver.solve(f, tb, ta);\n\t\tif (((java.lang.Math.abs((root - ta))) <= (convergence)) && ((java.lang.Math.abs((root - (previousEventTime)))) <= (convergence))) {\n\t\t\tta = tb;\n\t\t\tga = gb;\n\t\t} else {\n\t\t\tif ((java.lang.Double.isNaN(previousEventTime)) || ((java.lang.Math.abs(((previousEventTime) - root))) > (convergence))) {\n\t\t\t\tpendingEventTime = root;\n\t\t\t\tif ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {\n\t\t\t\t\treturn false;\n\t\t\t\t} \n\t\t\t\tpendingEvent = true;\n\t\t\t\treturn true;\n\t\t\t} \n\t\t}\n\t} else {\n\t\tta = tb;\n\t\tga = gb;\n\t}\n}", 
+            "generation": 41, 
+            "ingredients": null, 
+            "patch": "ta = tb", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 180, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "414", 
+            "type": "InsertBeforeOp", 
+            "variant": 82
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 47, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "490", 
+            "type": "RemoveOp", 
+            "variant": 94
+        }, 
+        {
+            "buggyStatement": "solver.setAbsoluteAccuracy(convergence)", 
+            "generation": 145, 
+            "ingredients": null, 
+            "patch": "interpolator.setInterpolatedTime(t0)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 216, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "9"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "655", 
+            "type": "ReplaceOp", 
+            "variant": 290
+        }, 
+        {
+            "buggyStatement": "maximalIterationCount = count", 
+            "generation": 185, 
+            "ingredients": null, 
+            "patch": "org.apache.commons.math.ConvergingAlgorithmImpl.this.absoluteAccuracy = defaultAbsoluteAccuracy", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ConvergingAlgorithmImpl", 
+                "line": 93, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "16", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "10"
+            }, 
+            "scope": "LOCAL", 
+            "time": "821", 
+            "type": "InsertBeforeOp", 
+            "variant": 370
+        }, 
+        {
+            "buggyStatement": "solver.setAbsoluteAccuracy(convergence)", 
+            "generation": 202, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 216, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "9"
+            }, 
+            "scope": "-", 
+            "time": "912", 
+            "type": "RemoveOp", 
+            "variant": 404
+        }, 
+        {
+            "buggyStatement": "t0 = t", 
+            "generation": 213, 
+            "ingredients": null, 
+            "patch": "increasing = true", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 285, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "11"
+            }, 
+            "scope": "LOCAL", 
+            "time": "1011", 
+            "type": "ReplaceOp", 
+            "variant": 426
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 266, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "1125", 
+            "type": "RemoveOp", 
+            "variant": 532
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 271, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "1201", 
+            "type": "RemoveOp", 
+            "variant": 542
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 314, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "1303", 
+            "type": "RemoveOp", 
+            "variant": 628
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 317, 
+            "ingredients": null, 
+            "patch": "y1 = f.value(x1)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "LOCAL", 
+            "time": "1376", 
+            "type": "ReplaceOp", 
+            "variant": 634
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 340, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "1462", 
+            "type": "RemoveOp", 
+            "variant": 680
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 349, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "1542", 
+            "type": "RemoveOp", 
+            "variant": 698
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 361, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "1628", 
+            "type": "RemoveOp", 
+            "variant": 722
+        }, 
+        {
+            "buggyStatement": "absoluteAccuracy = accuracy", 
+            "generation": 362, 
+            "ingredients": null, 
+            "patch": "maximalIterationCount = defaultMaximalIterationCount", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ConvergingAlgorithmImpl", 
+                "line": 78, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "16", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "10"
+            }, 
+            "scope": "LOCAL", 
+            "time": "1703", 
+            "type": "ReplaceOp", 
+            "variant": 724
+        }, 
+        {
+            "buggyStatement": "t0 = t", 
+            "generation": 436, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 285, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "12"
+            }, 
+            "scope": "-", 
+            "time": "1856", 
+            "type": "RemoveOp", 
+            "variant": 872
+        }, 
+        {
+            "buggyStatement": "solver.setAbsoluteAccuracy(convergence)", 
+            "generation": 503, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 216, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "9"
+            }, 
+            "scope": "-", 
+            "time": "1978", 
+            "type": "RemoveOp", 
+            "variant": 1006
+        }, 
+        {
+            "buggyStatement": "solver.setAbsoluteAccuracy(convergence)", 
+            "generation": 541, 
+            "ingredients": null, 
+            "patch": "solver.setMaximalIterationCount(maxIterationCount)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 216, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "9"
+            }, 
+            "scope": "LOCAL", 
+            "time": "2097", 
+            "type": "ReplaceOp", 
+            "variant": 1082
+        }, 
+        {
+            "buggyStatement": "t0 = t", 
+            "generation": 555, 
+            "ingredients": null, 
+            "patch": "g0Positive = increasing", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 285, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "11"
+            }, 
+            "scope": "LOCAL", 
+            "time": "2174", 
+            "type": "ReplaceOp", 
+            "variant": 1110
+        }, 
+        {
+            "buggyStatement": "solver.setAbsoluteAccuracy(convergence)", 
+            "generation": 576, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 216, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "9"
+            }, 
+            "scope": "-", 
+            "time": "2265", 
+            "type": "RemoveOp", 
+            "variant": 1152
+        }, 
+        {
+            "buggyStatement": "absoluteAccuracy = accuracy", 
+            "generation": 579, 
+            "ingredients": null, 
+            "patch": "org.apache.commons.math.ConvergingAlgorithmImpl.this.relativeAccuracy = defaultRelativeAccuracy", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ConvergingAlgorithmImpl", 
+                "line": 78, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "16", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "10"
+            }, 
+            "scope": "LOCAL", 
+            "time": "2340", 
+            "type": "ReplaceOp", 
+            "variant": 1158
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 604, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "2436", 
+            "type": "RemoveOp", 
+            "variant": 1208
+        }, 
+        {
+            "buggyStatement": "solver.setAbsoluteAccuracy(convergence)", 
+            "generation": 615, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 216, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "9"
+            }, 
+            "scope": "-", 
+            "time": "2522", 
+            "type": "RemoveOp", 
+            "variant": 1230
+        }, 
+        {
+            "buggyStatement": "t0 = t", 
+            "generation": 640, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 285, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "11"
+            }, 
+            "scope": "-", 
+            "time": "2613", 
+            "type": "RemoveOp", 
+            "variant": 1280
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 677, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "2729", 
+            "type": "RemoveOp", 
+            "variant": 1354
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 694, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "2821", 
+            "type": "RemoveOp", 
+            "variant": 1388
+        }, 
+        {
+            "buggyStatement": "solver.setAbsoluteAccuracy(convergence)", 
+            "generation": 697, 
+            "ingredients": null, 
+            "patch": "interpolator.setInterpolatedTime(tb)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 216, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "9"
+            }, 
+            "scope": "LOCAL", 
+            "time": "2898", 
+            "type": "ReplaceOp", 
+            "variant": 1394
+        }, 
+        {
+            "buggyStatement": "solver.setAbsoluteAccuracy(convergence)", 
+            "generation": 702, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 216, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "9"
+            }, 
+            "scope": "-", 
+            "time": "2977", 
+            "type": "RemoveOp", 
+            "variant": 1404
+        }, 
+        {
+            "buggyStatement": "x1 = x1 + (0.5 * tolerance)", 
+            "generation": 715, 
+            "ingredients": null, 
+            "patch": "x0 = x1", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 296, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "5"
+            }, 
+            "scope": "LOCAL", 
+            "time": "3059", 
+            "type": "InsertAfterOp", 
+            "variant": 1430
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 742, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "3155", 
+            "type": "RemoveOp", 
+            "variant": 1484
+        }, 
+        {
+            "buggyStatement": "absoluteAccuracy = accuracy", 
+            "generation": 761, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ConvergingAlgorithmImpl", 
+                "line": 78, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "16", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "10"
+            }, 
+            "scope": "-", 
+            "time": "3240", 
+            "type": "RemoveOp", 
+            "variant": 1522
+        }, 
+        {
+            "buggyStatement": "oldDelta = delta", 
+            "generation": 767, 
+            "ingredients": null, 
+            "patch": "delta = x1 - x0", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 283, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "1"
+            }, 
+            "scope": "LOCAL", 
+            "time": "3315", 
+            "type": "ReplaceOp", 
+            "variant": 1534
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 826, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "3446", 
+            "type": "RemoveOp", 
+            "variant": 1652
+        }, 
+        {
+            "buggyStatement": "solver.setAbsoluteAccuracy(convergence)", 
+            "generation": 838, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 216, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "9"
+            }, 
+            "scope": "-", 
+            "time": "3530", 
+            "type": "RemoveOp", 
+            "variant": 1676
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 882, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "3637", 
+            "type": "RemoveOp", 
+            "variant": 1764
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 901, 
+            "ingredients": null, 
+            "patch": "resultComputed = true", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "4"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "3723", 
+            "type": "ReplaceOp", 
+            "variant": 1802
+        }, 
+        {
+            "buggyStatement": "maximalIterationCount = count", 
+            "generation": 948, 
+            "ingredients": null, 
+            "patch": "org.apache.commons.math.ConvergingAlgorithmImpl.this.absoluteAccuracy = defaultAbsoluteAccuracy", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ConvergingAlgorithmImpl", 
+                "line": 93, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "16", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "10"
+            }, 
+            "scope": "LOCAL", 
+            "time": "3841", 
+            "type": "InsertAfterOp", 
+            "variant": 1896
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 976, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "3924", 
+            "type": "RemoveOp", 
+            "variant": 1952
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 1055, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "4055", 
+            "type": "RemoveOp", 
+            "variant": 2110
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 1101, 
+            "ingredients": null, 
+            "patch": "delta = p / p1", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "2"
+            }, 
+            "scope": "LOCAL", 
+            "time": "4168", 
+            "type": "ReplaceOp", 
+            "variant": 2202
+        }, 
+        {
+            "buggyStatement": "t0 = t", 
+            "generation": 1116, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 285, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "11"
+            }, 
+            "scope": "-", 
+            "time": "4255", 
+            "type": "RemoveOp", 
+            "variant": 2232
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 1118, 
+            "ingredients": null, 
+            "patch": "x2 = x0", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "LOCAL", 
+            "time": "4328", 
+            "type": "ReplaceOp", 
+            "variant": 2236
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 1181, 
+            "ingredients": null, 
+            "patch": "p1 = -p1", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "LOCAL", 
+            "time": "4461", 
+            "type": "ReplaceOp", 
+            "variant": 2362
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 1191, 
+            "ingredients": null, 
+            "patch": "oldDelta = delta", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "LOCAL", 
+            "time": "4539", 
+            "type": "ReplaceOp", 
+            "variant": 2382
+        }, 
+        {
+            "buggyStatement": "maximalIterationCount = count", 
+            "generation": 1203, 
+            "ingredients": null, 
+            "patch": "org.apache.commons.math.ConvergingAlgorithmImpl.this.absoluteAccuracy = defaultAbsoluteAccuracy", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ConvergingAlgorithmImpl", 
+                "line": 93, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "16", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "15"
+            }, 
+            "scope": "LOCAL", 
+            "time": "4624", 
+            "type": "ReplaceOp", 
+            "variant": 2406
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 1209, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "4704", 
+            "type": "RemoveOp", 
+            "variant": 2418
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 1222, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "4794", 
+            "type": "RemoveOp", 
+            "variant": 2444
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 1251, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "4883", 
+            "type": "RemoveOp", 
+            "variant": 2502
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 1265, 
+            "ingredients": null, 
+            "patch": "x0 = x1", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "LOCAL", 
+            "time": "4965", 
+            "type": "ReplaceOp", 
+            "variant": 2530
+        }, 
+        {
+            "buggyStatement": "t0 = t", 
+            "generation": 1273, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 285, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "11"
+            }, 
+            "scope": "-", 
+            "time": "5041", 
+            "type": "RemoveOp", 
+            "variant": 2546
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 1323, 
+            "ingredients": null, 
+            "patch": "p = -p", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "LOCAL", 
+            "time": "5155", 
+            "type": "ReplaceOp", 
+            "variant": 2646
+        }, 
+        {
+            "buggyStatement": "solver.setAbsoluteAccuracy(convergence)", 
+            "generation": 1356, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 216, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "9"
+            }, 
+            "scope": "-", 
+            "time": "5262", 
+            "type": "RemoveOp", 
+            "variant": 2712
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 1366, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "5341", 
+            "type": "RemoveOp", 
+            "variant": 2732
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 1380, 
+            "ingredients": null, 
+            "patch": "oldDelta = x2 - x1", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "5424", 
+            "type": "ReplaceOp", 
+            "variant": 2760
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 1426, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "5527", 
+            "type": "RemoveOp", 
+            "variant": 2852
+        }, 
+        {
+            "buggyStatement": "t0 = t", 
+            "generation": 1440, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 285, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "11"
+            }, 
+            "scope": "-", 
+            "time": "5611", 
+            "type": "RemoveOp", 
+            "variant": 2880
+        }, 
+        {
+            "buggyStatement": "solver.setAbsoluteAccuracy(convergence)", 
+            "generation": 1457, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 216, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "9"
+            }, 
+            "scope": "-", 
+            "time": "5704", 
+            "type": "RemoveOp", 
+            "variant": 2914
+        }, 
+        {
+            "buggyStatement": "absoluteAccuracy = accuracy", 
+            "generation": 1496, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ConvergingAlgorithmImpl", 
+                "line": 78, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "16", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "10"
+            }, 
+            "scope": "-", 
+            "time": "5812", 
+            "type": "RemoveOp", 
+            "variant": 2992
+        }, 
+        {
+            "buggyStatement": "absoluteAccuracy = accuracy", 
+            "generation": 1509, 
+            "ingredients": null, 
+            "patch": "org.apache.commons.math.ConvergingAlgorithmImpl.this.absoluteAccuracy = defaultAbsoluteAccuracy", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ConvergingAlgorithmImpl", 
+                "line": 78, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "16", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "10"
+            }, 
+            "scope": "LOCAL", 
+            "time": "5893", 
+            "type": "InsertAfterOp", 
+            "variant": 3018
+        }, 
+        {
+            "buggyStatement": "t0 = t", 
+            "generation": 1515, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 285, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "11"
+            }, 
+            "scope": "-", 
+            "time": "5970", 
+            "type": "RemoveOp", 
+            "variant": 3030
+        }, 
+        {
+            "buggyStatement": "absoluteAccuracy = accuracy", 
+            "generation": 1535, 
+            "ingredients": null, 
+            "patch": "absoluteAccuracy = defaultAbsoluteAccuracy", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ConvergingAlgorithmImpl", 
+                "line": 78, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "16", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "10"
+            }, 
+            "scope": "LOCAL", 
+            "time": "6058", 
+            "type": "InsertAfterOp", 
+            "variant": 3070
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 1538, 
+            "ingredients": null, 
+            "patch": "delta = (x0 - x1) / (1 - (y0 / y1))", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "2"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "6132", 
+            "type": "ReplaceOp", 
+            "variant": 3076
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 1540, 
+            "ingredients": null, 
+            "patch": "delta = x1 - x0", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "2"
+            }, 
+            "scope": "LOCAL", 
+            "time": "6207", 
+            "type": "ReplaceOp", 
+            "variant": 3080
+        }, 
+        {
+            "buggyStatement": "solver.setAbsoluteAccuracy(convergence)", 
+            "generation": 1598, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 216, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "9"
+            }, 
+            "scope": "-", 
+            "time": "6332", 
+            "type": "RemoveOp", 
+            "variant": 3196
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 1603, 
+            "ingredients": null, 
+            "patch": "iterationCount = i", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "6410", 
+            "type": "ReplaceOp", 
+            "variant": 3206
+        }, 
+        {
+            "buggyStatement": "t0 = t", 
+            "generation": 1608, 
+            "ingredients": null, 
+            "patch": "g0 = handler.g(t, y)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 285, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "11"
+            }, 
+            "scope": "LOCAL", 
+            "time": "6486", 
+            "type": "ReplaceOp", 
+            "variant": 3216
+        }, 
+        {
+            "buggyStatement": "t0 = t", 
+            "generation": 1702, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ode.events.EventState", 
+                "line": 285, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "11"
+            }, 
+            "scope": "-", 
+            "time": "6629", 
+            "type": "RemoveOp", 
+            "variant": 3404
+        }, 
+        {
+            "buggyStatement": "x1 = x1 + (0.5 * tolerance)", 
+            "generation": 1706, 
+            "ingredients": null, 
+            "patch": "x1 = x1 + delta", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 296, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "2"
+            }, 
+            "scope": "LOCAL", 
+            "time": "6708", 
+            "type": "ReplaceOp", 
+            "variant": 3412
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 1715, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "6787", 
+            "type": "RemoveOp", 
+            "variant": 3430
+        }, 
+        {
+            "buggyStatement": "absoluteAccuracy = accuracy", 
+            "generation": 1724, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.ConvergingAlgorithmImpl", 
+                "line": 78, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "16", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "10"
+            }, 
+            "scope": "-", 
+            "time": "6875", 
+            "type": "RemoveOp", 
+            "variant": 3448
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 1759, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "4"
+            }, 
+            "scope": "-", 
+            "time": "6969", 
+            "type": "RemoveOp", 
+            "variant": 3518
+        }, 
+        {
+            "buggyStatement": "oldDelta = delta", 
+            "generation": 1794, 
+            "ingredients": null, 
+            "patch": "delta = (x0 - x1) / (1 - (y0 / y1))", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 283, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "2"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "7062", 
+            "type": "ReplaceOp", 
+            "variant": 3588
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 1828, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "7152", 
+            "type": "RemoveOp", 
+            "variant": 3656
+        }, 
+        {
+            "buggyStatement": "delta = 0.5 * dx", 
+            "generation": 1851, 
+            "ingredients": null, 
+            "patch": "p = dx * r3", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
+                "line": 282, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "34", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "1", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "2106", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "LOCAL", 
+            "time": "7247", 
+            "type": "ReplaceOp", 
+            "variant": 3702
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "54", 
+    "timeEvaluation": null, 
+    "timeTotal": "7291"
+}

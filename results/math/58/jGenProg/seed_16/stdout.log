@@ -1,0 +1,293 @@
+seed AstorRun 16 
+export PATH="/home/mmartinez/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/mmartinez/projects/math/math_58;defects4j compile;cp -r /home/mmartinez/projects/math/math_58 /tmp/math_58_Genprog_local_s1;cd /tmp/math_58_Genprog_local_s1;mkdir lib/;cp -r /home/mmartinez/defects4j/framework/projects/lib/* lib/;cp -r /home/mmartinez/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/16/package/58/Genprog/result
+cd /tmp/math_58_Genprog_local_s1;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";time /home/mmartinez/jdk1.8.0_45/bin//java -Xmx4096m -cp /home/mmartinez/defects4j-repair/src/python/core/../../..//libs/astor.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -id Math -dependencies lib/ -failing org.apache.commons.math.optimization.fitting.GaussianFitterTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -jvm4evosuitetestexecution /home/mmartinez/jdk1.8.0_45/bin/ -javacompliancelevel 5 -maxgen 1000000 -seed 16 -scope package -maxtime 120  -stopfirst false -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/ -flthreshold 0.1  -validation  fr.inria.astor.core.validation.validators.RegressionValidation  -ESParameters -Dassertion_timeout=1800:-Dminimization_timeout=1800:-Djunit_check_timeout=1800:-Dwrite_junit_timeout=300:-Dinitialization_timeout=300:-Dglobal_timeout=18000:-Dsearch_budget=100000:-Dstopping_condition=MaxStatements:-Dno_runtime_dependency=true:-Dsandbox=false:-Dp_reflection_on_private=0.0:-Dreflection_start_percent=1.0:-Dp_functional_mocking=0.0:-Dfunctional_mocking_percent=1.0:-mem=2000 -ignoredtestcases org.apache.commons.lang.LocaleUtilsTest  -excludeRegression  -maxgen 100000000 ;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+"; find /tmp/math_58_Genprog_local_s1/outputMutation -name "*.class" -type f -delete;echo "removed classes 
+"; find . -name bin  -type d -print0|xargs -0 rm -r --; zip -r -q out.zip /tmp/math_58_Genprog_local_s1/outputMutation; echo "zipped 
+";cp out.zip /home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/16/package/58/Genprog; echo "copied zip 
+";rm -rf /tmp/math_58_Genprog_local_s1;
+
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:136) - End Repair Loops: Found solution
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:137) - Solution stored at: /tmp/math_58_Genprog_local_s1/./outputMutation/AstorMain-Math//src/
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:142) - 
+Number solutions:14
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 9.0, [Variant id: 164 (SOL) , #gens: 398, #ops: 1, parent:163]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 5.0, [Variant id: 238 (SOL) , #gens: 398, #ops: 1, parent:237]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 7.0, [Variant id: 258 (SOL) , #gens: 398, #ops: 1, parent:257]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 4.0, [Variant id: 278 (SOL) , #gens: 398, #ops: 1, parent:277]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 4.0, [Variant id: 296 (SOL) , #gens: 399, #ops: 1, parent:295]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 4.0, [Variant id: 488 (SOL) , #gens: 398, #ops: 1, parent:487]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 12.0, [Variant id: 504 (SOL) , #gens: 400, #ops: 1, parent:503]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 9.0, [Variant id: 534 (SOL) , #gens: 399, #ops: 1, parent:533]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 8.0, [Variant id: 892 (SOL) , #gens: 399, #ops: 1, parent:891]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 9.0, [Variant id: 998 (SOL) , #gens: 399, #ops: 1, parent:997]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 9.0, [Variant id: 1332 (SOL) , #gens: 398, #ops: 1, parent:1331]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 7.0, [Variant id: 1368 (SOL) , #gens: 399, #ops: 1, parent:1367]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 4.0, [Variant id: 1500 (SOL) , #gens: 398, #ops: 1, parent:1499]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 7.0, [Variant id: 1508 (SOL) , #gens: 398, #ops: 1, parent:1507]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:146) - 
+All variants:
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:148) - f 1.0, [Variant id: 1735, #gens: 399, #ops: 0, parent:-]
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:152) - 
+Solution details
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:153) - 
+ --SOLUTIONS DESCRIPTION--
+
+ ----
+ProgramVariant 164
+ 
+time(sec)= 1618
+operation: RemoveOp
+location= org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer
+line= 593
+lineSuspiciousness= 0.162
+original statement= for (int j = 0 ; j < (solvedCols) ; ++j) {
+	int pj = permutation[j];
+	work1[pj] = ((work3[pj]) * (diag[pj])) / dxNorm;
+}
+fixed statement= 
+generation= 82
+ingredientScope= -
+validation=
+failing: |true|0|8|[]|
+manual_regression: |false|8|2299|[testNoError(org.apache.commons.math.optimization.fitting.PolynomialFitterTest): expected:<0.0> but was:<6.232879170171511>-, testMinpackLinearRank1(org.apache.commons.math.optimization.general.MinpackTest): expected:<3.48263016573496> but was:<3101.6003933453453>-, testMinpackBrownDennis(org.apache.commons.math.optimization.general.MinpackTest): expected:<292.954288244866> but was:<292.9542741568475>-, testMinpackMeyer(org.apache.commons.math.optimization.general.MinpackTest): null-, testMinpackWatson(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.0011831145921242> but was:<0.0368691147305295>-, testMinpackKowalikOsborne(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.191262653354071> but was:<0.19130393017578387>-, testMinpackChebyquad(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.199490672309881> but was:<0.23561910847106002>-, testMinpackBard(org.apache.commons.math.optimization.general.MinpackTest): expected:<4.17476870138539> but was:<4.183148836352632>-]|
+evo_regression: |false|1|14|[test07(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest): expected:<13> but was:<93>-]|
+ ----
+ProgramVariant 238
+ 
+time(sec)= 1898
+operation: RemoveOp
+location= org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer
+line= 601
+lineSuspiciousness= 0.162
+original statement= for (int i = j + 1 ; i < (solvedCols) ; ++i) {
+	work1[permutation[i]] -= (weightedResidualJacobian[i][pj]) * tmp;
+}
+fixed statement= 
+generation= 119
+ingredientScope= -
+validation=
+failing: |true|0|8|[]|
+manual_regression: |false|4|2299|[testMinpackBrownDennis(org.apache.commons.math.optimization.general.MinpackTest): expected:<292.954288244866> but was:<292.9542805022637>-, testMinpackMeyer(org.apache.commons.math.optimization.general.MinpackTest): null-, testMinpackKowalikOsborne(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.191262653354071> but was:<0.1913004733533609>-, testMinpackBard(org.apache.commons.math.optimization.general.MinpackTest): expected:<-1.58848033259565E8> but was:<-1.5971233476751667E8>-]|
+evo_regression: |false|1|14|[test07(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest): expected:<13> but was:<5>-]|
+ ----
+ProgramVariant 258
+ 
+time(sec)= 2002
+operation: RemoveOp
+location= org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer
+line= 605
+lineSuspiciousness= 0.162
+original statement= sum2 = 0
+fixed statement= 
+generation= 129
+ingredientScope= -
+validation=
+failing: |true|0|8|[]|
+manual_regression: |false|5|2299|[testMinpackBrownDennis(org.apache.commons.math.optimization.general.MinpackTest): expected:<292.954288244866> but was:<292.9542667414436>-, testMinpackMeyer(org.apache.commons.math.optimization.general.MinpackTest): null-, testMinpackOsborne2(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.904300082378518> but was:<0.9042746914617966>-, testMinpackKowalikOsborne(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.191262653354071> but was:<0.19130211549153875>-, testMinpackBard(org.apache.commons.math.optimization.general.MinpackTest): expected:<-1.58848033259565E8> but was:<-1.588502064778E8>-]|
+evo_regression: |false|2|14|[test11(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest): expected:<6> but was:<4>-, test08(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest): expected:<8> but was:<7>-]|
+ ----
+ProgramVariant 278
+ 
+time(sec)= 2273
+operation: RemoveOp
+location= org.apache.commons.math.analysis.function.Gaussian
+line= 128
+lineSuspiciousness= 0.224
+original statement= validateParameters(param)
+fixed statement= 
+generation= 139
+ingredientScope= -
+validation=
+failing: |true|0|8|[]|
+manual_regression: |false|3|2299|[testParametricUsage1(org.apache.commons.math.analysis.function.GaussianTest): Unexpected exception, expected<org.apache.commons.math.exception.NullArgumentException> but was<java.lang.NullPointerException>-, testParametricUsage2(org.apache.commons.math.analysis.function.GaussianTest): Unexpected exception, expected<org.apache.commons.math.exception.DimensionMismatchException> but was<java.lang.ArrayIndexOutOfBoundsException>-, testParametricUsage3(org.apache.commons.math.analysis.function.GaussianTest): Expected exception: org.apache.commons.math.exception.NotStrictlyPositiveException-]|
+evo_regression: |false|1|15|[test14(org.apache.commons.math.analysis.function.Gaussian_ESTest): Expecting exception: RuntimeException-]|
+ ----
+ProgramVariant 296
+ 
+time(sec)= 2406
+operation: ReplaceOp
+location= org.apache.commons.math.analysis.function.Gaussian
+line= 182
+lineSuspiciousness= 0.224
+original statement= if ((param[2]) <= 0) {
+	throw new org.apache.commons.math.exception.NotStrictlyPositiveException(param[2]);
+} 
+fixed statement= if (param == null) {
+	throw new org.apache.commons.math.exception.NullArgumentException();
+} 
+generation= 148
+ingredientScope= LOCAL
+validation=
+failing: |true|0|8|[]|
+manual_regression: |false|2|2299|[testParametricUsage3(org.apache.commons.math.analysis.function.GaussianTest): Expected exception: org.apache.commons.math.exception.NotStrictlyPositiveException-, testParametricUsage6(org.apache.commons.math.analysis.function.GaussianTest): Expected exception: org.apache.commons.math.exception.NotStrictlyPositiveException-]|
+evo_regression: |false|2|15|[test00(org.apache.commons.math.analysis.function.Gaussian_ESTest): Expecting exception: RuntimeException-, test14(org.apache.commons.math.analysis.function.Gaussian_ESTest): Expecting exception: RuntimeException-]|
+ ----
+ProgramVariant 488
+ 
+time(sec)= 2915
+operation: RemoveOp
+location= org.apache.commons.math.analysis.function.Gaussian
+line= 183
+lineSuspiciousness= 0.408
+original statement= throw new org.apache.commons.math.exception.NotStrictlyPositiveException(param[2])
+fixed statement= 
+generation= 244
+ingredientScope= -
+validation=
+failing: |true|0|8|[]|
+manual_regression: |false|2|2299|[testParametricUsage3(org.apache.commons.math.analysis.function.GaussianTest): Expected exception: org.apache.commons.math.exception.NotStrictlyPositiveException-, testParametricUsage6(org.apache.commons.math.analysis.function.GaussianTest): Expected exception: org.apache.commons.math.exception.NotStrictlyPositiveException-]|
+evo_regression: |false|2|15|[test00(org.apache.commons.math.analysis.function.Gaussian_ESTest): Expecting exception: RuntimeException-, test14(org.apache.commons.math.analysis.function.Gaussian_ESTest): Expecting exception: RuntimeException-]|
+ ----
+ProgramVariant 504
+ 
+time(sec)= 3018
+operation: InsertBeforeOp
+location= org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer
+line= 424
+lineSuspiciousness= 0.151
+original statement= oldRes = tmpVec
+fixed statement= qTy(qtf)
+generation= 252
+ingredientScope= LOCAL
+validation=
+failing: |true|0|8|[]|
+manual_regression: |false|9|2299|[testMinpackBrownDennis(org.apache.commons.math.optimization.general.MinpackTest): expected:<292.954288244866> but was:<292.9639321705117>-, testMinpackJennrichSampson(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.2578199266368004> but was:<0.2578380405507458>-, testMinpackMeyer(org.apache.commons.math.optimization.general.MinpackTest): null-, testMinpackFreudensteinRoth(org.apache.commons.math.optimization.general.MinpackTest): expected:<6.9988751744895> but was:<7.003763020067253>-, testMinpackOsborne1(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.00739249260904843> but was:<0.007590198208705202>-, testMinpackWatson(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.00118311459212513> but was:<1.5275547586438816>-, testMinpackKowalikOsborne(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.032052192917937> but was:<0.0331305776280076>-, testMinpackChebyquad(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.0593032355046727> but was:<0.05930369406167352>-, testMinpackBrownAlmostLinear(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.0> but was:<8.163234782749729E8>-]|
+evo_regression: |false|3|14|[test11(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest): expected:<6> but was:<7>-, test08(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest): expected:<8> but was:<3>-, test07(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest): expected:<13> but was:<8>-]|
+ ----
+ProgramVariant 534
+ 
+time(sec)= 3272
+operation: ReplaceOp
+location= org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer
+line= 595
+lineSuspiciousness= 0.162
+original statement= work1[pj] = ((work3[pj]) * (diag[pj])) / dxNorm
+fixed statement= beta = new double[cols]
+generation= 267
+ingredientScope= LOCAL
+validation=
+failing: |true|0|8|[]|
+manual_regression: |false|8|2299|[testNoError(org.apache.commons.math.optimization.fitting.PolynomialFitterTest): expected:<0.0> but was:<6.232879170171511>-, testMinpackLinearRank1(org.apache.commons.math.optimization.general.MinpackTest): expected:<3.48263016573496> but was:<3101.6003933453453>-, testMinpackBrownDennis(org.apache.commons.math.optimization.general.MinpackTest): expected:<292.954288244866> but was:<292.9542741568475>-, testMinpackMeyer(org.apache.commons.math.optimization.general.MinpackTest): null-, testMinpackWatson(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.0011831145921242> but was:<0.0368691147305295>-, testMinpackKowalikOsborne(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.191262653354071> but was:<0.19130393017578387>-, testMinpackChebyquad(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.199490672309881> but was:<0.23561910847106002>-, testMinpackBard(org.apache.commons.math.optimization.general.MinpackTest): expected:<4.17476870138539> but was:<4.183148836352632>-]|
+evo_regression: |false|1|14|[test07(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest): expected:<13> but was:<93>-]|
+ ----
+ProgramVariant 892
+ 
+time(sec)= 4896
+operation: ReplaceOp
+location= org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer
+line= 599
+lineSuspiciousness= 0.162
+original statement= work1[pj] /= work2[j]
+fixed statement= lmPar *= 0.5
+generation= 446
+ingredientScope= LOCAL
+validation=
+failing: |true|0|8|[]|
+manual_regression: |false|5|2299|[testMinpackBrownDennis(org.apache.commons.math.optimization.general.MinpackTest): expected:<292.954288244866> but was:<292.9542663894144>-, testMinpackWatson(org.apache.commons.math.optimization.general.MinpackTest): expected:<2.17310402535861E-5> but was:<6.512864156386905E-5>-, testMinpackKowalikOsborne(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.191262653354071> but was:<0.19130097561334233>-, testMinpackChebyquad(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.199490672309881> but was:<0.235619108471061>-, testMinpackBard(org.apache.commons.math.optimization.general.MinpackTest): expected:<4.17476870138539> but was:<4.183098691862271>-]|
+evo_regression: |false|3|14|[test11(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest): expected:<6> but was:<5>-, test08(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest): expected:<8> but was:<14>-, test07(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest): expected:<13> but was:<8>-]|
+ ----
+ProgramVariant 998
+ 
+time(sec)= 5198
+operation: ReplaceOp
+location= org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer
+line= 593
+lineSuspiciousness= 0.162
+original statement= for (int j = 0 ; j < (solvedCols) ; ++j) {
+	int pj = permutation[j];
+	work1[pj] = ((work3[pj]) * (diag[pj])) / dxNorm;
+}
+fixed statement= for (int j = 0 ; j < (solvedCols) ; ++j) {
+	double s = work1[permutation[j]];
+	sum2 += s * s;
+}
+generation= 499
+ingredientScope= LOCAL
+validation=
+failing: |true|0|8|[]|
+manual_regression: |false|8|2299|[testNoError(org.apache.commons.math.optimization.fitting.PolynomialFitterTest): expected:<0.0> but was:<6.232879170171511>-, testMinpackLinearRank1(org.apache.commons.math.optimization.general.MinpackTest): expected:<3.48263016573496> but was:<3101.6003933453453>-, testMinpackBrownDennis(org.apache.commons.math.optimization.general.MinpackTest): expected:<292.954288244866> but was:<292.9542741568475>-, testMinpackMeyer(org.apache.commons.math.optimization.general.MinpackTest): null-, testMinpackWatson(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.0011831145921242> but was:<0.0368691147305295>-, testMinpackKowalikOsborne(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.191262653354071> but was:<0.19130393017578387>-, testMinpackChebyquad(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.199490672309881> but was:<0.23561910847106002>-, testMinpackBard(org.apache.commons.math.optimization.general.MinpackTest): expected:<4.17476870138539> but was:<4.183148836352632>-]|
+evo_regression: |false|1|14|[test07(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest): expected:<13> but was:<93>-]|
+ ----
+ProgramVariant 1332
+ 
+time(sec)= 6075
+operation: RemoveOp
+location= org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer
+line= 595
+lineSuspiciousness= 0.162
+original statement= work1[pj] = ((work3[pj]) * (diag[pj])) / dxNorm
+fixed statement= 
+generation= 666
+ingredientScope= -
+validation=
+failing: |true|0|8|[]|
+manual_regression: |false|8|2299|[testNoError(org.apache.commons.math.optimization.fitting.PolynomialFitterTest): expected:<0.0> but was:<6.232879170171511>-, testMinpackLinearRank1(org.apache.commons.math.optimization.general.MinpackTest): expected:<3.48263016573496> but was:<3101.6003933453453>-, testMinpackBrownDennis(org.apache.commons.math.optimization.general.MinpackTest): expected:<292.954288244866> but was:<292.9542741568475>-, testMinpackMeyer(org.apache.commons.math.optimization.general.MinpackTest): null-, testMinpackWatson(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.0011831145921242> but was:<0.0368691147305295>-, testMinpackKowalikOsborne(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.191262653354071> but was:<0.19130393017578387>-, testMinpackChebyquad(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.199490672309881> but was:<0.23561910847106002>-, testMinpackBard(org.apache.commons.math.optimization.general.MinpackTest): expected:<4.17476870138539> but was:<4.183148836352632>-]|
+evo_regression: |false|1|14|[test07(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest): expected:<13> but was:<93>-]|
+ ----
+ProgramVariant 1368
+ 
+time(sec)= 6214
+operation: ReplaceOp
+location= org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer
+line= 417
+lineSuspiciousness= 0.151
+original statement= cost = previousCost
+fixed statement= cols = point.length
+generation= 684
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|8|[]|
+manual_regression: |false|5|2299|[testControlParameters(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest): null-, testMinpackBrownDennis(org.apache.commons.math.optimization.general.MinpackTest): expected:<292.954288244866> but was:<292.9542714768772>-, testMinpackFreudensteinRoth(org.apache.commons.math.optimization.general.MinpackTest): expected:<11.4124844654993> but was:<11.412714378707147>-, testMinpackKowalikOsborne(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.0175364017658228> but was:<0.042362000797352556>-, testMinpackChebyquad(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.166708783805937> but was:<0.3988782883224861>-]|
+evo_regression: |false|2|14|[test11(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest): expected:<6> but was:<19>-, test08(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest): expected:<8> but was:<14>-]|
+ ----
+ProgramVariant 1500
+ 
+time(sec)= 6765
+operation: RemoveOp
+location= org.apache.commons.math.analysis.function.Gaussian
+line= 183
+lineSuspiciousness= 0.408
+original statement= throw new org.apache.commons.math.exception.NotStrictlyPositiveException(param[2])
+fixed statement= 
+generation= 750
+ingredientScope= -
+validation=
+failing: |true|0|8|[]|
+manual_regression: |false|2|2299|[testParametricUsage3(org.apache.commons.math.analysis.function.GaussianTest): Expected exception: org.apache.commons.math.exception.NotStrictlyPositiveException-, testParametricUsage6(org.apache.commons.math.analysis.function.GaussianTest): Expected exception: org.apache.commons.math.exception.NotStrictlyPositiveException-]|
+evo_regression: |false|2|15|[test00(org.apache.commons.math.analysis.function.Gaussian_ESTest): Expecting exception: RuntimeException-, test14(org.apache.commons.math.analysis.function.Gaussian_ESTest): Expecting exception: RuntimeException-]|
+ ----
+ProgramVariant 1508
+ 
+time(sec)= 6864
+operation: RemoveOp
+location= org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer
+line= 417
+lineSuspiciousness= 0.151
+original statement= cost = previousCost
+fixed statement= 
+generation= 754
+ingredientScope= -
+validation=
+failing: |true|0|8|[]|
+manual_regression: |false|5|2299|[testControlParameters(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest): null-, testMinpackBrownDennis(org.apache.commons.math.optimization.general.MinpackTest): expected:<292.954288244866> but was:<292.9542714768772>-, testMinpackFreudensteinRoth(org.apache.commons.math.optimization.general.MinpackTest): expected:<11.4124844654993> but was:<11.412714378707147>-, testMinpackKowalikOsborne(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.0175364017658228> but was:<0.042362000797352556>-, testMinpackChebyquad(org.apache.commons.math.optimization.general.MinpackTest): expected:<0.166708783805937> but was:<0.3988782883224861>-]|
+evo_regression: |false|2|14|[test11(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest): expected:<6> but was:<19>-, test08(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer_ESTest): expected:<8> but was:<14>-]|
+[INFO ] fr.inria.main.evolution.AstorMain.run(AstorMain.java:397) - Time Total(s): 7407.416
+
+
+Node: graphene-87.nancy.grid5000.fr
+
+
+Date: Sun Jan 15 22:33:12 CET 2017
+
+removed classes 
+
+zipped 
+
+copied zip 
+
+

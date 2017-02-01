@@ -1,0 +1,159 @@
+seed AstorRun 17 
+export PATH="/home/mmartinez/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/mmartinez/projects/math/math_49;defects4j compile;cp -r /home/mmartinez/projects/math/math_49 /tmp/math_49_Genprog_local_s1;cd /tmp/math_49_Genprog_local_s1;mkdir lib/;cp -r /home/mmartinez/defects4j/framework/projects/lib/* lib/;cp -r /home/mmartinez/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/17/package/49/Genprog/result
+cd /tmp/math_49_Genprog_local_s1;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";time /home/mmartinez/jdk1.8.0_45/bin//java -Xmx4096m -cp /home/mmartinez/defects4j-repair/src/python/core/../../..//libs/astor.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -id Math -dependencies lib/ -failing org.apache.commons.math.linear.SparseRealVectorTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -jvm4evosuitetestexecution /home/mmartinez/jdk1.8.0_45/bin/ -javacompliancelevel 5 -maxgen 1000000 -seed 17 -scope package -maxtime 120  -stopfirst false -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/ -flthreshold 0.1  -validation  fr.inria.astor.core.validation.validators.RegressionValidation  -ESParameters -Dassertion_timeout=1800:-Dminimization_timeout=1800:-Djunit_check_timeout=1800:-Dwrite_junit_timeout=300:-Dinitialization_timeout=300:-Dglobal_timeout=18000:-Dsearch_budget=100000:-Dstopping_condition=MaxStatements:-Dno_runtime_dependency=true:-Dsandbox=false:-Dp_reflection_on_private=0.0:-Dreflection_start_percent=1.0:-Dp_functional_mocking=0.0:-Dfunctional_mocking_percent=1.0:-mem=2000 -ignoredtestcases org.apache.commons.lang.LocaleUtilsTest  -excludeRegression  -maxgen 100000000 ;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+"; find /tmp/math_49_Genprog_local_s1/outputMutation -name "*.class" -type f -delete;echo "removed classes 
+"; find . -name bin  -type d -print0|xargs -0 rm -r --; zip -r -q out.zip /tmp/math_49_Genprog_local_s1/outputMutation; echo "zipped 
+";cp out.zip /home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/17/package/49/Genprog; echo "copied zip 
+";rm -rf /tmp/math_49_Genprog_local_s1;
+
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:136) - End Repair Loops: Found solution
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:137) - Solution stored at: /tmp/math_49_Genprog_local_s1/./outputMutation/AstorMain-Math//src/
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:142) - 
+Number solutions:7
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 9.0, [Variant id: 276 (SOL) , #gens: 55, #ops: 1, parent:275]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 9.0, [Variant id: 452 (SOL) , #gens: 55, #ops: 1, parent:451]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 586 (SOL) , #gens: 54, #ops: 1, parent:585]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 9.0, [Variant id: 752 (SOL) , #gens: 55, #ops: 1, parent:751]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 1114 (SOL) , #gens: 54, #ops: 1, parent:1113]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 1152 (SOL) , #gens: 54, #ops: 1, parent:1151]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 1282 (SOL) , #gens: 56, #ops: 1, parent:1281]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:146) - 
+All variants:
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:148) - f 1.0, [Variant id: 1355, #gens: 55, #ops: 0, parent:-]
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:152) - 
+Solution details
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:153) - 
+ --SOLUTIONS DESCRIPTION--
+
+ ----
+ProgramVariant 276
+ 
+time(sec)= 1872
+operation: ReplaceOp
+location= org.apache.commons.math.util.OpenIntToDoubleHashMap
+line= 399
+lineSuspiciousness= 0.183
+original statement= ++(count)
+fixed statement= --(size)
+generation= 138
+ingredientScope= LOCAL
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|4|2899|[testPutKeysWithCollision2(org.apache.commons.math.util.OpenIntToDoubleHashMapTest): expected:<1> but was:<0>-, testPutKeysWithCollisions(org.apache.commons.math.util.OpenIntToDoubleHashMapTest): expected:<2> but was:<1>-, testRemove2(org.apache.commons.math.util.OpenIntToDoubleHashMapTest): expected:<2011> but was:<2010>-, testRemove(org.apache.commons.math.util.OpenIntToDoubleHashMapTest): expected:<2011> but was:<2010>-]|
+evo_regression: |false|5|44|[test30(org.apache.commons.math.util.OpenIntToDoubleHashMap_ESTest): expected:<1> but was:<0>-, test29(org.apache.commons.math.util.OpenIntToDoubleHashMap_ESTest): expected:<2> but was:<1>-, test06(org.apache.commons.math.util.OpenIntToDoubleHashMap_ESTest): expected:<0> but was:<-1>-, test43(org.apache.commons.math.util.OpenIntToDoubleHashMap_ESTest): expected:<1> but was:<0>-, test26(org.apache.commons.math.util.OpenIntToDoubleHashMap_ESTest): expected:<1> but was:<0>-]|
+ ----
+ProgramVariant 452
+ 
+time(sec)= 2820
+operation: ReplaceOp
+location= org.apache.commons.math.util.OpenIntToDoubleHashMap
+line= 399
+lineSuspiciousness= 0.183
+original statement= ++(count)
+fixed statement= ++(size)
+generation= 226
+ingredientScope= LOCAL
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|4|2899|[testPutKeysWithCollision2(org.apache.commons.math.util.OpenIntToDoubleHashMapTest): expected:<1> but was:<2>-, testPutKeysWithCollisions(org.apache.commons.math.util.OpenIntToDoubleHashMapTest): expected:<2> but was:<3>-, testRemove2(org.apache.commons.math.util.OpenIntToDoubleHashMapTest): expected:<2011> but was:<2012>-, testRemove(org.apache.commons.math.util.OpenIntToDoubleHashMapTest): expected:<2011> but was:<2012>-]|
+evo_regression: |false|5|44|[test30(org.apache.commons.math.util.OpenIntToDoubleHashMap_ESTest): expected:<1> but was:<2>-, test29(org.apache.commons.math.util.OpenIntToDoubleHashMap_ESTest): expected:<2> but was:<3>-, test06(org.apache.commons.math.util.OpenIntToDoubleHashMap_ESTest): expected:<0> but was:<1>-, test43(org.apache.commons.math.util.OpenIntToDoubleHashMap_ESTest): expected:<1> but was:<2>-, test26(org.apache.commons.math.util.OpenIntToDoubleHashMap_ESTest): expected:<1> but was:<2>-]|
+ ----
+ProgramVariant 586
+ 
+time(sec)= 3435
+operation: RemoveOp
+location= org.apache.commons.math.util.OpenIntToDoubleHashMap
+line= 399
+lineSuspiciousness= 0.183
+original statement= ++(count)
+fixed statement= 
+generation= 293
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2899|[]|
+evo_regression: |true|0|44|[]|
+ ----
+ProgramVariant 752
+ 
+time(sec)= 4473
+operation: ReplaceOp
+location= org.apache.commons.math.linear.OpenMapRealVector
+line= 667
+lineSuspiciousness= 0.408
+original statement= entries.remove(index)
+fixed statement= entries.put(index, value)
+generation= 376
+ingredientScope= LOCAL
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2899|[]|
+evo_regression: |false|9|157|[test105(org.apache.commons.math.linear.OpenMapRealVector_ESTest): expected:<0.0> but was:<0.16666666666666666>-, test100(org.apache.commons.math.linear.OpenMapRealVector_ESTest): expected:<0.0> but was:<0.14285714285714285>-, test098(org.apache.commons.math.linear.OpenMapRealVector_ESTest): expected:<0.0> but was:<1.0>-, test006(org.apache.commons.math.linear.OpenMapRealVector_ESTest): expected:<0.0> but was:<0.16666666666666666>-, test084(org.apache.commons.math.linear.OpenMapRealVector_ESTest): Expecting exception: ConcurrentModificationException-, test086(org.apache.commons.math.linear.OpenMapRealVector_ESTest): Expecting exception: ConcurrentModificationException-, test081(org.apache.commons.math.linear.OpenMapRealVector_ESTest): Expecting exception: ConcurrentModificationException-, test143(org.apache.commons.math.linear.OpenMapRealVector_ESTest): null-, test016(org.apache.commons.math.linear.OpenMapRealVector_ESTest): expected:<0.0> but was:<0.16666666666666666>-]|
+ ----
+ProgramVariant 1114
+ 
+time(sec)= 5930
+operation: RemoveOp
+location= org.apache.commons.math.util.OpenIntToDoubleHashMap
+line= 399
+lineSuspiciousness= 0.183
+original statement= ++(count)
+fixed statement= 
+generation= 557
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2899|[]|
+evo_regression: |true|0|44|[]|
+ ----
+ProgramVariant 1152
+ 
+time(sec)= 6197
+operation: RemoveOp
+location= org.apache.commons.math.util.OpenIntToDoubleHashMap
+line= 399
+lineSuspiciousness= 0.183
+original statement= ++(count)
+fixed statement= 
+generation= 576
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2899|[]|
+evo_regression: |true|0|44|[]|
+ ----
+ProgramVariant 1282
+ 
+time(sec)= 6941
+operation: InsertAfterOp
+location= org.apache.commons.math.util.OpenIntToDoubleHashMap
+line= 394
+lineSuspiciousness= 0.183
+original statement= keys[index] = 0
+fixed statement= int count = 1
+generation= 641
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2899|[]|
+evo_regression: |true|0|44|[]|
+[INFO ] fr.inria.main.evolution.AstorMain.run(AstorMain.java:397) - Time Total(s): 7739.984
+
+
+Node: graphene-140.nancy.grid5000.fr
+
+
+Date: Thu Jan 19 04:01:04 CET 2017
+
+removed classes 
+
+zipped 
+
+copied zip 
+
+

@@ -1,0 +1,115 @@
+{
+    "date": "Sat Jan 14 00:36:40 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "494", 
+    "node": "grisou-17.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "for (int k = 0 ; k < 4 ; k += step) {\n\tfinal double tmp = work[(i + k)];\n\twork[(i + k)] = work[(j - k)];\n\twork[(j - k)] = tmp;\n}", 
+            "generation": 86, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1137, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "45", 
+                "evaltcfailing": "5", 
+                "fvalresult": "true", 
+                "fvaltcall": "18", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2102", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "2731", 
+            "type": "RemoveOp", 
+            "variant": 172
+        }, 
+        {
+            "buggyStatement": "for (int i = 0 ; i < j ; i += 4) {\n\tfor (int k = 0 ; k < 4 ; k += step) {\n\t\tfinal double tmp = work[(i + k)];\n\t\twork[(i + k)] = work[(j - k)];\n\t\twork[(j - k)] = tmp;\n\t}\n\tj -= 4;\n}", 
+            "generation": 195, 
+            "ingredients": null, 
+            "patch": "for (int i = 0 ; i < (squaredSecondary.length) ; ++i) {\n\tfinal double s = secondary[i];\n\tsquaredSecondary[i] = s * s;\n}", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1136, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "45", 
+                "evaltcfailing": "5", 
+                "fvalresult": "true", 
+                "fvaltcall": "18", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2102", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "4118", 
+            "type": "ReplaceOp", 
+            "variant": 390
+        }, 
+        {
+            "buggyStatement": "for (int k = 0 ; k < 4 ; k += step) {\n\tfinal double tmp = work[(i + k)];\n\twork[(i + k)] = work[(j - k)];\n\twork[(j - k)] = tmp;\n}", 
+            "generation": 414, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1137, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "45", 
+                "evaltcfailing": "5", 
+                "fvalresult": "true", 
+                "fvaltcall": "18", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2102", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "6016", 
+            "type": "RemoveOp", 
+            "variant": 828
+        }, 
+        {
+            "buggyStatement": "work[(i + k)] = work[(j - k)]", 
+            "generation": 539, 
+            "ingredients": null, 
+            "patch": "qMax = java.lang.Math.max(qMax, java.lang.Math.max(work[(3 + (pingPong))], work[(7 + (pingPong))]))", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1139, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "45", 
+                "evaltcfailing": "5", 
+                "fvalresult": "true", 
+                "fvaltcall": "18", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2102", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "7142", 
+            "type": "ReplaceOp", 
+            "variant": 1078
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "172", 
+    "timeEvaluation": null, 
+    "timeTotal": "7418"
+}

@@ -1,0 +1,531 @@
+{
+    "date": "Wed Jan 25 08:27:20 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "218", 
+    "node": "grimoire-5.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "if ((org.apache.commons.math3.util.Precision.equals(entry, 1.0, maxUlps)) && (row.equals(tableau.getBasicRow(column)))) {\n\treturn row;\n} ", 
+            "generation": 184, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 123, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "8", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "735", 
+            "type": "RemoveOp", 
+            "variant": 368
+        }, 
+        {
+            "buggyStatement": "for (java.lang.Integer row : minRatioPositions) {\n\tfor (int i = 0 ; i < (tableau.getNumArtificialVariables()) ; i++) {\n\t\tint column = i + (tableau.getArtificialVariableOffset());\n\t\tfinal double entry = tableau.getEntry(row, column);\n\t\tif ((org.apache.commons.math3.util.Precision.equals(entry, 1.0, maxUlps)) && (row.equals(tableau.getBasicRow(column)))) {\n\t\t\treturn row;\n\t\t} \n\t}\n}", 
+            "generation": 275, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 119, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "8", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "1218", 
+            "type": "RemoveOp", 
+            "variant": 550
+        }, 
+        {
+            "buggyStatement": "minIndex = i", 
+            "generation": 341, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 145, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "8", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "1641", 
+            "type": "RemoveOp", 
+            "variant": 682
+        }, 
+        {
+            "buggyStatement": "minIndex = i", 
+            "generation": 356, 
+            "ingredients": null, 
+            "patch": "minRatioPositions = new java.util.ArrayList<java.lang.Integer>()", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 145, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "8", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "1826", 
+            "type": "ReplaceOp", 
+            "variant": 712
+        }, 
+        {
+            "buggyStatement": "return row", 
+            "generation": 399, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 124, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "8", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "2070", 
+            "type": "RemoveOp", 
+            "variant": 798
+        }, 
+        {
+            "buggyStatement": "minValue = entry", 
+            "generation": 416, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 77, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "8", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "2497", 
+            "type": "RemoveOp", 
+            "variant": 832
+        }, 
+        {
+            "buggyStatement": "minRatioPositions.add(i)", 
+            "generation": 419, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 104, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "8", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "2657", 
+            "type": "RemoveOp", 
+            "variant": 838
+        }, 
+        {
+            "buggyStatement": "minIndex = i", 
+            "generation": 462, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 145, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "8", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "2928", 
+            "type": "RemoveOp", 
+            "variant": 924
+        }, 
+        {
+            "buggyStatement": "minRatioPositions.add(i)", 
+            "generation": 597, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 104, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "8", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "3583", 
+            "type": "RemoveOp", 
+            "variant": 1194
+        }, 
+        {
+            "buggyStatement": "minValue = entry", 
+            "generation": 613, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 77, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "8", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "3798", 
+            "type": "RemoveOp", 
+            "variant": 1226
+        }, 
+        {
+            "buggyStatement": "return row", 
+            "generation": 623, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 124, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "8", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "4013", 
+            "type": "RemoveOp", 
+            "variant": 1246
+        }, 
+        {
+            "buggyStatement": "for (int i = 0 ; i < (tableau.getNumArtificialVariables()) ; i++) {\n\tint column = i + (tableau.getArtificialVariableOffset());\n\tfinal double entry = tableau.getEntry(row, column);\n\tif ((org.apache.commons.math3.util.Precision.equals(entry, 1.0, maxUlps)) && (row.equals(tableau.getBasicRow(column)))) {\n\t\treturn row;\n\t} \n}", 
+            "generation": 711, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 120, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "8", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "4466", 
+            "type": "RemoveOp", 
+            "variant": 1422
+        }, 
+        {
+            "buggyStatement": "minIndex = i", 
+            "generation": 725, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 145, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "8", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "4667", 
+            "type": "RemoveOp", 
+            "variant": 1450
+        }, 
+        {
+            "buggyStatement": "minIndex = i", 
+            "generation": 765, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 145, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "8", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "5039", 
+            "type": "RemoveOp", 
+            "variant": 1530
+        }, 
+        {
+            "buggyStatement": "return row", 
+            "generation": 777, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 124, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "8", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "5222", 
+            "type": "RemoveOp", 
+            "variant": 1554
+        }, 
+        {
+            "buggyStatement": "minIndex = i", 
+            "generation": 794, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 145, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "8", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "5411", 
+            "type": "RemoveOp", 
+            "variant": 1588
+        }, 
+        {
+            "buggyStatement": "return row", 
+            "generation": 896, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 124, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "8", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "5863", 
+            "type": "RemoveOp", 
+            "variant": 1792
+        }, 
+        {
+            "buggyStatement": "return row", 
+            "generation": 961, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 124, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "8", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "6281", 
+            "type": "RemoveOp", 
+            "variant": 1922
+        }, 
+        {
+            "buggyStatement": "return row", 
+            "generation": 1012, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 124, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "8", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "7171", 
+            "type": "RemoveOp", 
+            "variant": 2024
+        }, 
+        {
+            "buggyStatement": "return row", 
+            "generation": 1032, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 124, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "8", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "7361", 
+            "type": "RemoveOp", 
+            "variant": 2064
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "368", 
+    "timeEvaluation": null, 
+    "timeTotal": "8067"
+}

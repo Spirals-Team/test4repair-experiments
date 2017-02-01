@@ -1,0 +1,89 @@
+{
+    "date": "Sun Jan 15 01:57:38 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "486", 
+    "node": "grisou-13.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "org.jfree.chart.JFreeChart.this.plot.draw(g2, plotArea, anchor, null, plotInfo)", 
+            "generation": 1403, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.jfree.chart.JFreeChart", 
+                "line": 1219, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "122", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "3", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3579", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "5604", 
+            "type": "RemoveOp", 
+            "variant": 2806
+        }, 
+        {
+            "buggyStatement": "org.jfree.chart.JFreeChart.this.plot.draw(g2, plotArea, anchor, null, plotInfo)", 
+            "generation": 1635, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.jfree.chart.JFreeChart", 
+                "line": 1219, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "122", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "3", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3579", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "6478", 
+            "type": "RemoveOp", 
+            "variant": 3270
+        }, 
+        {
+            "buggyStatement": "if (isCircular()) {\n\tdouble min = (java.lang.Math.min(linkW, linkH)) / 2;\n\tlinkX = (((linkX + linkX) + linkW) / 2) - min;\n\tlinkY = (((linkY + linkY) + linkH) / 2) - min;\n\tlinkW = 2 * min;\n\tlinkH = 2 * min;\n} ", 
+            "generation": 1775, 
+            "ingredients": null, 
+            "patch": "if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {\n\tdrawNoDataMessage(g2, plotArea);\n\tg2.setClip(savedClip);\n\tdrawOutline(g2, plotArea);\n\treturn ;\n} ", 
+            "patchLocation": {
+                "className": "org.jfree.chart.plot.PiePlot3D", 
+                "line": 272, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "24", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "3", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3579", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "7151", 
+            "type": "ReplaceOp", 
+            "variant": 3550
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "2806", 
+    "timeEvaluation": null, 
+    "timeTotal": "7770"
+}

@@ -1,0 +1,351 @@
+seed AstorRun 11 
+export PATH="/home/mmartinez/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/mmartinez/projects/math/math_8;defects4j compile;cp -r /home/mmartinez/projects/math/math_8 /tmp/math_8_Genprog_local_s1;cd /tmp/math_8_Genprog_local_s1;mkdir lib/;cp -r /home/mmartinez/defects4j/framework/projects/lib/* lib/;cp -r /home/mmartinez/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/11/package/8/Genprog/result
+cd /tmp/math_8_Genprog_local_s1;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";time /home/mmartinez/jdk1.8.0_45/bin//java -Xmx4096m -cp /home/mmartinez/defects4j-repair/src/python/core/../../..//libs/astor.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -id Math -dependencies lib/ -failing org.apache.commons.math3.distribution.DiscreteRealDistributionTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -jvm4evosuitetestexecution /home/mmartinez/jdk1.8.0_45/bin/ -javacompliancelevel 5 -maxgen 1000000 -seed 11 -scope package -maxtime 120  -stopfirst false -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/ -flthreshold 0.1  -validation  fr.inria.astor.core.validation.validators.RegressionValidation  -ESParameters -Dassertion_timeout=1800:-Dminimization_timeout=1800:-Djunit_check_timeout=1800:-Dwrite_junit_timeout=300:-Dinitialization_timeout=300:-Dglobal_timeout=18000:-Dsearch_budget=100000:-Dstopping_condition=MaxStatements:-Dno_runtime_dependency=true:-Dsandbox=false:-Dp_reflection_on_private=0.0:-Dreflection_start_percent=1.0:-Dp_functional_mocking=0.0:-Dfunctional_mocking_percent=1.0:-mem=2000 -ignoredtestcases org.apache.commons.lang.LocaleUtilsTest  -excludeRegression  -maxgen 100000000 ;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+"; find /tmp/math_8_Genprog_local_s1/outputMutation -name "*.class" -type f -delete;echo "removed classes 
+"; find . -name bin  -type d -print0|xargs -0 rm -r --; zip -r -q out.zip /tmp/math_8_Genprog_local_s1/outputMutation; echo "zipped 
+";cp out.zip /home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/11/package/8/Genprog; echo "copied zip 
+";rm -rf /tmp/math_8_Genprog_local_s1;
+
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:136) - End Repair Loops: Found solution
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:137) - Solution stored at: /tmp/math_8_Genprog_local_s1/./outputMutation/AstorMain-Math//src/
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:142) - 
+Number solutions:17
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 6 (SOL) , #gens: 23, #ops: 1, parent:5]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 28 (SOL) , #gens: 23, #ops: 1, parent:27]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 62 (SOL) , #gens: 23, #ops: 1, parent:61]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 64 (SOL) , #gens: 23, #ops: 1, parent:63]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 102 (SOL) , #gens: 23, #ops: 1, parent:101]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 124 (SOL) , #gens: 23, #ops: 1, parent:123]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 148 (SOL) , #gens: 23, #ops: 1, parent:147]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 226 (SOL) , #gens: 23, #ops: 1, parent:225]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 246 (SOL) , #gens: 23, #ops: 1, parent:245]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 262 (SOL) , #gens: 23, #ops: 1, parent:261]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 374 (SOL) , #gens: 23, #ops: 1, parent:373]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 430 (SOL) , #gens: 23, #ops: 1, parent:429]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 450 (SOL) , #gens: 23, #ops: 1, parent:449]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 536 (SOL) , #gens: 23, #ops: 1, parent:535]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 550 (SOL) , #gens: 23, #ops: 1, parent:549]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 558 (SOL) , #gens: 23, #ops: 1, parent:557]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 560 (SOL) , #gens: 23, #ops: 1, parent:559]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:146) - 
+All variants:
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:148) - f 1.0, [Variant id: 561, #gens: 24, #ops: 0, parent:-]
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:152) - 
+Solution details
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:153) - 
+ --SOLUTIONS DESCRIPTION--
+
+ ----
+ProgramVariant 6
+ 
+time(sec)= 750
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 189
+lineSuspiciousness= 0.707
+original statement= for (int i = 0 ; i < sampleSize ; i++) {
+	out[i] = sample();
+}
+fixed statement= 
+generation= 3
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4782|[]|
+evo_regression: |true|0|19|[]|
+ ----
+ProgramVariant 28
+ 
+time(sec)= 1244
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 189
+lineSuspiciousness= 0.707
+original statement= for (int i = 0 ; i < sampleSize ; i++) {
+	out[i] = sample();
+}
+fixed statement= 
+generation= 14
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4782|[]|
+evo_regression: |true|0|19|[]|
+ ----
+ProgramVariant 62
+ 
+time(sec)= 1651
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 189
+lineSuspiciousness= 0.707
+original statement= for (int i = 0 ; i < sampleSize ; i++) {
+	out[i] = sample();
+}
+fixed statement= 
+generation= 31
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4782|[]|
+evo_regression: |true|0|19|[]|
+ ----
+ProgramVariant 64
+ 
+time(sec)= 1917
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 190
+lineSuspiciousness= 0.707
+original statement= out[i] = sample()
+fixed statement= 
+generation= 32
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4782|[]|
+evo_regression: |true|0|19|[]|
+ ----
+ProgramVariant 102
+ 
+time(sec)= 2336
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 189
+lineSuspiciousness= 0.707
+original statement= for (int i = 0 ; i < sampleSize ; i++) {
+	out[i] = sample();
+}
+fixed statement= 
+generation= 51
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4782|[]|
+evo_regression: |true|0|19|[]|
+ ----
+ProgramVariant 124
+ 
+time(sec)= 2669
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 190
+lineSuspiciousness= 0.707
+original statement= out[i] = sample()
+fixed statement= 
+generation= 62
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4782|[]|
+evo_regression: |true|0|19|[]|
+ ----
+ProgramVariant 148
+ 
+time(sec)= 2975
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 189
+lineSuspiciousness= 0.707
+original statement= for (int i = 0 ; i < sampleSize ; i++) {
+	out[i] = sample();
+}
+fixed statement= 
+generation= 74
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |false|1|4782|[testSampleWithZeroCovariance(org.apache.commons.math3.random.CorrelatedRandomVectorGeneratorTest): Array comparison failure]|
+evo_regression: |true|0|19|[]|
+ ----
+ProgramVariant 226
+ 
+time(sec)= 3660
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 189
+lineSuspiciousness= 0.707
+original statement= for (int i = 0 ; i < sampleSize ; i++) {
+	out[i] = sample();
+}
+fixed statement= 
+generation= 113
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4782|[]|
+evo_regression: |true|0|19|[]|
+ ----
+ProgramVariant 246
+ 
+time(sec)= 3987
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 190
+lineSuspiciousness= 0.707
+original statement= out[i] = sample()
+fixed statement= 
+generation= 123
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4782|[]|
+evo_regression: |true|0|19|[]|
+ ----
+ProgramVariant 262
+ 
+time(sec)= 4285
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 189
+lineSuspiciousness= 0.707
+original statement= for (int i = 0 ; i < sampleSize ; i++) {
+	out[i] = sample();
+}
+fixed statement= 
+generation= 131
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4782|[]|
+evo_regression: |true|0|19|[]|
+ ----
+ProgramVariant 374
+ 
+time(sec)= 5040
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 189
+lineSuspiciousness= 0.707
+original statement= for (int i = 0 ; i < sampleSize ; i++) {
+	out[i] = sample();
+}
+fixed statement= 
+generation= 187
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4782|[]|
+evo_regression: |true|0|19|[]|
+ ----
+ProgramVariant 430
+ 
+time(sec)= 5529
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 190
+lineSuspiciousness= 0.707
+original statement= out[i] = sample()
+fixed statement= 
+generation= 215
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4782|[]|
+evo_regression: |true|0|19|[]|
+ ----
+ProgramVariant 450
+ 
+time(sec)= 5848
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 190
+lineSuspiciousness= 0.707
+original statement= out[i] = sample()
+fixed statement= 
+generation= 225
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4782|[]|
+evo_regression: |true|0|19|[]|
+ ----
+ProgramVariant 536
+ 
+time(sec)= 6422
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 189
+lineSuspiciousness= 0.707
+original statement= for (int i = 0 ; i < sampleSize ; i++) {
+	out[i] = sample();
+}
+fixed statement= 
+generation= 268
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4782|[]|
+evo_regression: |true|0|19|[]|
+ ----
+ProgramVariant 550
+ 
+time(sec)= 6734
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 189
+lineSuspiciousness= 0.707
+original statement= for (int i = 0 ; i < sampleSize ; i++) {
+	out[i] = sample();
+}
+fixed statement= 
+generation= 275
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4782|[]|
+evo_regression: |true|0|19|[]|
+ ----
+ProgramVariant 558
+ 
+time(sec)= 7004
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 190
+lineSuspiciousness= 0.707
+original statement= out[i] = sample()
+fixed statement= 
+generation= 279
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4782|[]|
+evo_regression: |true|0|19|[]|
+ ----
+ProgramVariant 560
+ 
+time(sec)= 7265
+operation: RemoveOp
+location= org.apache.commons.math3.distribution.DiscreteDistribution
+line= 189
+lineSuspiciousness= 0.707
+original statement= for (int i = 0 ; i < sampleSize ; i++) {
+	out[i] = sample();
+}
+fixed statement= 
+generation= 280
+ingredientScope= -
+validation=
+failing: |true|0|13|[]|
+manual_regression: |true|0|4782|[]|
+evo_regression: |true|0|19|[]|
+[INFO ] fr.inria.main.evolution.AstorMain.run(AstorMain.java:397) - Time Total(s): 8176.731
+
+
+Node: graphene-9.nancy.grid5000.fr
+
+
+Date: Sun Jan 15 00:43:36 CET 2017
+
+removed classes 
+
+zipped 
+
+copied zip 
+
+

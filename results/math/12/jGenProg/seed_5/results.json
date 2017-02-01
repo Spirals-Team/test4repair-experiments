@@ -1,0 +1,167 @@
+{
+    "date": "Thu Jan 12 00:01:28 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "64", 
+    "node": "griffon-18.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "if (java.lang.Double.isNaN(nextGaussian)) {\n\tfinal double x = nextDouble();\n\tfinal double y = nextDouble();\n\tfinal double alpha = (2 * (org.apache.commons.math3.util.FastMath.PI)) * x;\n\tfinal double r = org.apache.commons.math3.util.FastMath.sqrt(((-2) * (org.apache.commons.math3.util.FastMath.log(y))));\n\trandom = r * (org.apache.commons.math3.util.FastMath.cos(alpha));\n\tnextGaussian = r * (org.apache.commons.math3.util.FastMath.sin(alpha));\n} else {\n\trandom = nextGaussian;\n\tnextGaussian = java.lang.Double.NaN;\n}", 
+            "generation": 104, 
+            "ingredients": null, 
+            "patch": "nextGaussian = java.lang.Double.NaN", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.random.BitsStreamGenerator", 
+                "line": 101, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "33", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "60", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "4454", 
+                "mvaltcfailing": "5"
+            }, 
+            "scope": "LOCAL", 
+            "time": "916", 
+            "type": "InsertBeforeOp", 
+            "variant": 208
+        }, 
+        {
+            "buggyStatement": "nextGaussian = r * (org.apache.commons.math3.util.FastMath.sin(alpha))", 
+            "generation": 293, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.random.BitsStreamGenerator", 
+                "line": 108, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "33", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "60", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "4454", 
+                "mvaltcfailing": "5"
+            }, 
+            "scope": "-", 
+            "time": "2349", 
+            "type": "RemoveOp", 
+            "variant": 586
+        }, 
+        {
+            "buggyStatement": "nextGaussian = r * (org.apache.commons.math3.util.FastMath.sin(alpha))", 
+            "generation": 374, 
+            "ingredients": null, 
+            "patch": "nextGaussian = java.lang.Double.NaN", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.random.BitsStreamGenerator", 
+                "line": 108, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "33", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "60", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "4454", 
+                "mvaltcfailing": "5"
+            }, 
+            "scope": "LOCAL", 
+            "time": "3261", 
+            "type": "ReplaceOp", 
+            "variant": 748
+        }, 
+        {
+            "buggyStatement": "nextGaussian = r * (org.apache.commons.math3.util.FastMath.sin(alpha))", 
+            "generation": 381, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.random.BitsStreamGenerator", 
+                "line": 108, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "33", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "60", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "4454", 
+                "mvaltcfailing": "5"
+            }, 
+            "scope": "-", 
+            "time": "3597", 
+            "type": "RemoveOp", 
+            "variant": 762
+        }, 
+        {
+            "buggyStatement": "nextGaussian = r * (org.apache.commons.math3.util.FastMath.sin(alpha))", 
+            "generation": 416, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.random.BitsStreamGenerator", 
+                "line": 108, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "33", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "60", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "4454", 
+                "mvaltcfailing": "5"
+            }, 
+            "scope": "-", 
+            "time": "4182", 
+            "type": "RemoveOp", 
+            "variant": 832
+        }, 
+        {
+            "buggyStatement": "nextGaussian = r * (org.apache.commons.math3.util.FastMath.sin(alpha))", 
+            "generation": 510, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.random.BitsStreamGenerator", 
+                "line": 108, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "33", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "60", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "4454", 
+                "mvaltcfailing": "5"
+            }, 
+            "scope": "-", 
+            "time": "5254", 
+            "type": "RemoveOp", 
+            "variant": 1020
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "208", 
+    "timeEvaluation": null, 
+    "timeTotal": "8324"
+}

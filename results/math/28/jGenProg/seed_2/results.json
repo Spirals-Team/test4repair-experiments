@@ -1,0 +1,349 @@
+{
+    "date": "Wed Jan 18 04:05:30 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "218", 
+    "node": "graphene-12.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "minValue = entry", 
+            "generation": 54, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 77, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "7", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "1100", 
+            "type": "RemoveOp", 
+            "variant": 108
+        }, 
+        {
+            "buggyStatement": "return row", 
+            "generation": 169, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 124, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "7", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "1701", 
+            "type": "RemoveOp", 
+            "variant": 338
+        }, 
+        {
+            "buggyStatement": "return row", 
+            "generation": 180, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 124, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "7", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "1922", 
+            "type": "RemoveOp", 
+            "variant": 360
+        }, 
+        {
+            "buggyStatement": "return minRow", 
+            "generation": 199, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 151, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "7", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "2160", 
+            "type": "RemoveOp", 
+            "variant": 398
+        }, 
+        {
+            "buggyStatement": "minIndex = i", 
+            "generation": 253, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 145, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "7", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "2595", 
+            "type": "RemoveOp", 
+            "variant": 506
+        }, 
+        {
+            "buggyStatement": "minIndex = i", 
+            "generation": 310, 
+            "ingredients": null, 
+            "patch": "minRatioPositions = new java.util.ArrayList<java.lang.Integer>()", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 145, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "7", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "2940", 
+            "type": "ReplaceOp", 
+            "variant": 620
+        }, 
+        {
+            "buggyStatement": "for (int i = 0 ; i < (tableau.getNumArtificialVariables()) ; i++) {\n\tint column = i + (tableau.getArtificialVariableOffset());\n\tfinal double entry = tableau.getEntry(row, column);\n\tif ((org.apache.commons.math3.util.Precision.equals(entry, 1.0, maxUlps)) && (row.equals(tableau.getBasicRow(column)))) {\n\t\treturn row;\n\t} \n}", 
+            "generation": 356, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 120, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "7", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "3351", 
+            "type": "RemoveOp", 
+            "variant": 712
+        }, 
+        {
+            "buggyStatement": "return minRow", 
+            "generation": 483, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 151, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "7", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "1"
+            }, 
+            "scope": "-", 
+            "time": "5293", 
+            "type": "RemoveOp", 
+            "variant": 966
+        }, 
+        {
+            "buggyStatement": "for (java.lang.Integer row : minRatioPositions) {\n\tfor (int i = 0 ; i < (tableau.getNumArtificialVariables()) ; i++) {\n\t\tint column = i + (tableau.getArtificialVariableOffset());\n\t\tfinal double entry = tableau.getEntry(row, column);\n\t\tif ((org.apache.commons.math3.util.Precision.equals(entry, 1.0, maxUlps)) && (row.equals(tableau.getBasicRow(column)))) {\n\t\t\treturn row;\n\t\t} \n\t}\n}", 
+            "generation": 545, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 119, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "7", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "5870", 
+            "type": "RemoveOp", 
+            "variant": 1090
+        }, 
+        {
+            "buggyStatement": "minValue = entry", 
+            "generation": 572, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 77, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "7", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "6122", 
+            "type": "RemoveOp", 
+            "variant": 1144
+        }, 
+        {
+            "buggyStatement": "return minRow", 
+            "generation": 579, 
+            "ingredients": null, 
+            "patch": "return minRatioPositions.get(0)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 151, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "7", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "6319", 
+            "type": "ReplaceOp", 
+            "variant": 1158
+        }, 
+        {
+            "buggyStatement": "return row", 
+            "generation": 582, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 124, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "7", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "6506", 
+            "type": "RemoveOp", 
+            "variant": 1164
+        }, 
+        {
+            "buggyStatement": "if ((minRatioPositions.size()) > 1) {\n\tfor (java.lang.Integer row : minRatioPositions) {\n\t\tfor (int i = 0 ; i < (tableau.getNumArtificialVariables()) ; i++) {\n\t\t\tint column = i + (tableau.getArtificialVariableOffset());\n\t\t\tfinal double entry = tableau.getEntry(row, column);\n\t\t\tif ((org.apache.commons.math3.util.Precision.equals(entry, 1.0, maxUlps)) && (row.equals(tableau.getBasicRow(column)))) {\n\t\t\t\treturn row;\n\t\t\t} \n\t\t}\n\t}\n\tjava.lang.Integer minRow = null;\n\tint minIndex = tableau.getWidth();\n\tfor (java.lang.Integer row : minRatioPositions) {\n\t\tint i = tableau.getNumObjectiveFunctions();\n\t\tfor ( ; (i < ((tableau.getWidth()) - 1)) && (minRow != row) ; i++) {\n\t\t\tif (row == (tableau.getBasicRow(i))) {\n\t\t\t\tif (i < minIndex) {\n\t\t\t\t\tminIndex = i;\n\t\t\t\t\tminRow = row;\n\t\t\t\t} \n\t\t\t} \n\t\t}\n\t}\n\treturn minRow;\n} ", 
+            "generation": 684, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.optimization.linear.SimplexSolver", 
+                "line": 115, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "7", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "26", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3917", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "7437", 
+            "type": "RemoveOp", 
+            "variant": 1368
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "108", 
+    "timeEvaluation": null, 
+    "timeTotal": "8428"
+}

@@ -1,0 +1,91 @@
+seed AstorRun 16 
+export PATH="/home/mmartinez/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/mmartinez/projects/chart/chart_26;defects4j compile;cp -r /home/mmartinez/projects/chart/chart_26 /tmp/chart_26_Genprog_local_s1;cd /tmp/chart_26_Genprog_local_s1;mkdir lib/;cp -r /home/mmartinez/defects4j/framework/projects/lib/* lib/;cp -r /home/mmartinez/defects4j/framework/projects/Chart/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Chart/seed/16/package/26/Genprog/result
+cd /tmp/chart_26_Genprog_local_s1;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";time /home/mmartinez/jdk1.8.0_45/bin//java -Xmx4096m -cp /home/mmartinez/defects4j-repair/src/python/core/../../..//libs/astor.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -id Chart -dependencies lib/ -failing org.jfree.chart.junit.AreaChartTests:org.jfree.chart.junit.BarChart3DTests:org.jfree.chart.junit.BarChartTests:org.jfree.chart.junit.GanttChartTests:org.jfree.chart.junit.GanttChartTests:org.jfree.chart.junit.LineChart3DTests:org.jfree.chart.junit.LineChartTests:org.jfree.chart.junit.StackedAreaChartTests:org.jfree.chart.junit.StackedBarChart3DTests:org.jfree.chart.junit.StackedBarChartTests:org.jfree.chart.junit.WaterfallChartTests:org.jfree.chart.plot.junit.CategoryPlotTests:org.jfree.chart.plot.junit.CategoryPlotTests:org.jfree.chart.plot.junit.CategoryPlotTests:org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests:org.jfree.chart.renderer.category.junit.GroupedStackedBarRendererTests:org.jfree.chart.renderer.category.junit.IntervalBarRendererTests:org.jfree.chart.renderer.category.junit.LayeredBarRendererTests:org.jfree.chart.renderer.category.junit.LevelRendererTests:org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests:org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests:org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests: -package org.jfree -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -jvm4evosuitetestexecution /home/mmartinez/jdk1.8.0_45/bin/ -javacompliancelevel 4 -maxgen 1000000 -seed 16 -scope package -maxtime 120  -stopfirst false -population 1 -srcjavafolder source/ -srctestfolder tests/ -binjavafolder build/ -bintestfolder build-tests/ -flthreshold 0.1  -validation  fr.inria.astor.core.validation.validators.RegressionValidation  -ESParameters -Dassertion_timeout=1800:-Dminimization_timeout=1800:-Djunit_check_timeout=1800:-Dwrite_junit_timeout=300:-Dinitialization_timeout=300:-Dglobal_timeout=18000:-Dsearch_budget=100000:-Dstopping_condition=MaxStatements:-Dno_runtime_dependency=true:-Dsandbox=false:-Dp_reflection_on_private=0.0:-Dreflection_start_percent=1.0:-Dp_functional_mocking=0.0:-Dfunctional_mocking_percent=1.0:-mem=2000 -ignoredtestcases org.apache.commons.lang.LocaleUtilsTest  -excludeRegression  -maxgen 100000000 ;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+"; find /tmp/chart_26_Genprog_local_s1/outputMutation -name "*.class" -type f -delete;echo "removed classes 
+"; find . -name bin  -type d -print0|xargs -0 rm -r --; zip -r -q out.zip /tmp/chart_26_Genprog_local_s1/outputMutation; echo "zipped 
+";cp out.zip /home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Chart/seed/16/package/26/Genprog; echo "copied zip 
+";rm -rf /tmp/chart_26_Genprog_local_s1;
+
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:136) - End Repair Loops: Found solution
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:137) - Solution stored at: /tmp/chart_26_Genprog_local_s1/./outputMutation/AstorMain-Chart//src/
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:142) - 
+Number solutions:3
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 352 (SOL) , #gens: 951, #ops: 1, parent:351]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 19.0, [Variant id: 1054 (SOL) , #gens: 952, #ops: 1, parent:1053]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 1398 (SOL) , #gens: 952, #ops: 1, parent:1397]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:146) - 
+All variants:
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:148) - f 30.0, [Variant id: 2081, #gens: 952, #ops: 0, parent:-]
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:152) - 
+Solution details
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:153) - 
+ --SOLUTIONS DESCRIPTION--
+
+ ----
+ProgramVariant 352
+ 
+time(sec)= 1361
+operation: RemoveOp
+location= org.jfree.chart.JFreeChart
+line= 1213
+lineSuspiciousness= 0.67
+original statement= org.jfree.chart.JFreeChart.this.plot.draw(g2, plotArea, anchor, null, plotInfo)
+fixed statement= 
+generation= 176
+ingredientScope= -
+validation=
+failing: |true|0|129|[]|
+manual_regression: |true|0|3191|[]|
+evo_regression: |false|0|0|[]|
+ ----
+ProgramVariant 1054
+ 
+time(sec)= 3598
+operation: ReplaceOp
+location= org.jfree.chart.util.RectangleInsets
+line= 422
+lineSuspiciousness= 0.663
+original statement= return result
+fixed statement= return super.hashCode()
+generation= 527
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|129|[]|
+manual_regression: |false|2|3191|[testDrawWithNullInfo(org.jfree.chart.plot.junit.FastScatterPlotTests): Java heap space-, testDrawWithNullInfo(org.jfree.chart.plot.junit.FastScatterPlotTests): Java heap space-]|
+evo_regression: |false|17|104|[test099(org.jfree.chart.util.RectangleInsets_ESTest): expected:<82.2080412829264> but was:<-1.5442217043959794E9>-, test007(org.jfree.chart.util.RectangleInsets_ESTest): expected:<1894.20914> but was:<2.7135142120914E8>-, test000(org.jfree.chart.util.RectangleInsets_ESTest): expected:<-2.0> but was:<2.055512647E9>-, test064(org.jfree.chart.util.RectangleInsets_ESTest): expected:<-0.0> but was:<1.08077566E9>-, test053(org.jfree.chart.util.RectangleInsets_ESTest): expected:<-21.5191> but was:<5.25095103E8>-, test052(org.jfree.chart.util.RectangleInsets_ESTest): expected:<1.0> but was:<1.235302717E9>-, test044(org.jfree.chart.util.RectangleInsets_ESTest): expected:<3786.41828> but was:<-9.2439382858172E8>-, test045(org.jfree.chart.util.RectangleInsets_ESTest): expected:<232.540917> but was:<6.8493203540917E7>-, test042(org.jfree.chart.util.RectangleInsets_ESTest): expected:<1506.8404541015625> but was:<6.989368293404541E8>-, test040(org.jfree.chart.util.RectangleInsets_ESTest): null-, test041(org.jfree.chart.util.RectangleInsets_ESTest): expected:<-895.4127623066615> but was:<4.79547228914918E7>-, ...and 7 failures more, test039(org.jfree.chart.util.RectangleInsets_ESTest): expected:<1097.065> but was:<3.200026565E8>-, ...and 7 failures more, test037(org.jfree.chart.util.RectangleInsets_ESTest): expected:<2655.8544701146693> but was:<7.045968933544701E8>-, ...and 7 failures more, test038(org.jfree.chart.util.RectangleInsets_ESTest): expected:<0.0> but was:<2.07953048E8>-, ...and 7 failures more, test036(org.jfree.chart.util.RectangleInsets_ESTest): expected:<1.0> but was:<1.681136002E9>-, ...and 7 failures more, test015(org.jfree.chart.util.RectangleInsets_ESTest): expected:<-2.0> but was:<-1.363509957E9>-, ...and 7 failures more, test014(org.jfree.chart.util.RectangleInsets_ESTest): expected:<0.0> but was:<-8.63072373E8>-, ...and 7 failures more]|
+ ----
+ProgramVariant 1398
+ 
+time(sec)= 5230
+operation: ReplaceOp
+location= org.jfree.chart.JFreeChart
+line= 1181
+lineSuspiciousness= 0.67
+original statement= nonTitleArea.setRect(chartArea)
+fixed statement= g2.setPaintMode()
+generation= 699
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|129|[]|
+manual_regression: |true|0|3191|[]|
+evo_regression: |false|0|0|[]|
+[INFO ] fr.inria.main.evolution.AstorMain.run(AstorMain.java:397) - Time Total(s): 8853.013
+
+
+Node: graphene-91.nancy.grid5000.fr
+
+
+Date: Mon Jan 16 01:15:40 CET 2017
+
+removed classes 
+
+zipped 
+
+copied zip 
+
+

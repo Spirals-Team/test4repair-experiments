@@ -1,0 +1,115 @@
+{
+    "date": "Sat Jan 28 04:44:20 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "357", 
+    "node": "graphene-107.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "if (index >= 0) {\n\tfx = ordinate[index];\n} else {\n\tfx = ordinate[0];\n}", 
+            "generation": 84, 
+            "ingredients": null, 
+            "patch": "return -x", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.analysis.function.StepFunction", 
+                "line": 90, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "11", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "9", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "4023", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "922", 
+            "type": "InsertAfterOp", 
+            "variant": 168
+        }, 
+        {
+            "buggyStatement": "r += f[i].value(x)", 
+            "generation": 319, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.analysis.FunctionUtils", 
+                "line": 146, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "22", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "9", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "4023", 
+                "mvaltcfailing": "1"
+            }, 
+            "scope": "-", 
+            "time": "6072", 
+            "type": "RemoveOp", 
+            "variant": 638
+        }, 
+        {
+            "buggyStatement": "fx = ordinate[((-index) - 2)]", 
+            "generation": 399, 
+            "ingredients": null, 
+            "patch": "return org.apache.commons.math3.util.FastMath.ulp(x)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.analysis.function.StepFunction", 
+                "line": 89, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "11", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "9", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "4023", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "PACKAGE", 
+            "time": "7018", 
+            "type": "InsertAfterOp", 
+            "variant": 798
+        }, 
+        {
+            "buggyStatement": "if (index < (-1)) {\n\tfx = ordinate[((-index) - 2)];\n} else {\n\tif (index >= 0) {\n\t\tfx = ordinate[index];\n\t} else {\n\t\tfx = ordinate[0];\n\t}\n}", 
+            "generation": 413, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.analysis.function.StepFunction", 
+                "line": 87, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "11", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "9", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "4023", 
+                "mvaltcfailing": "3"
+            }, 
+            "scope": "-", 
+            "time": "7484", 
+            "type": "RemoveOp", 
+            "variant": 826
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "168", 
+    "timeEvaluation": null, 
+    "timeTotal": "8586"
+}

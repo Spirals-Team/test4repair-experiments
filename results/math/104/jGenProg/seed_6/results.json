@@ -1,0 +1,89 @@
+{
+    "date": "Thu Jan 12 01:43:30 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "20", 
+    "node": "graphene-115.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "if (n >= maxIterations) {\n\tthrow new org.apache.commons.math.MaxIterationsExceededException(maxIterations);\n} else {\n\tret = (java.lang.Math.exp((((-x) + (a * (java.lang.Math.log(x)))) - (org.apache.commons.math.special.Gamma.logGamma(a))))) * sum;\n}", 
+            "generation": 343, 
+            "ingredients": null, 
+            "patch": "ret = 1.0 - (org.apache.commons.math.special.Gamma.regularizedGammaQ(a, x, epsilon, maxIterations))", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.special.Gamma", 
+                "line": 179, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "28", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "11", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "1001", 
+                "mvaltcfailing": "31"
+            }, 
+            "scope": "LOCAL", 
+            "time": "2524", 
+            "type": "InsertAfterOp", 
+            "variant": 686
+        }, 
+        {
+            "buggyStatement": "ret = (java.lang.Math.exp((((-x) + (a * (java.lang.Math.log(x)))) - (org.apache.commons.math.special.Gamma.logGamma(a))))) * sum", 
+            "generation": 583, 
+            "ingredients": null, 
+            "patch": "ret = 1.0 - (org.apache.commons.math.special.Gamma.regularizedGammaQ(a, x, epsilon, maxIterations))", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.special.Gamma", 
+                "line": 182, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "28", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "11", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "1001", 
+                "mvaltcfailing": "31"
+            }, 
+            "scope": "LOCAL", 
+            "time": "3596", 
+            "type": "ReplaceOp", 
+            "variant": 1166
+        }, 
+        {
+            "buggyStatement": "ret = (java.lang.Math.exp((((-x) + (a * (java.lang.Math.log(x)))) - (org.apache.commons.math.special.Gamma.logGamma(a))))) * sum", 
+            "generation": 1029, 
+            "ingredients": null, 
+            "patch": "ret = 1.0 - (org.apache.commons.math.special.Gamma.regularizedGammaQ(a, x, epsilon, maxIterations))", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.special.Gamma", 
+                "line": 182, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "28", 
+                "evaltcfailing": "3", 
+                "fvalresult": "true", 
+                "fvaltcall": "11", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "1001", 
+                "mvaltcfailing": "31"
+            }, 
+            "scope": "LOCAL", 
+            "time": "5052", 
+            "type": "InsertAfterOp", 
+            "variant": 2058
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "686", 
+    "timeEvaluation": null, 
+    "timeTotal": "7356"
+}

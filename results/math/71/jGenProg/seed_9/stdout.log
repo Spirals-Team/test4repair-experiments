@@ -1,0 +1,131 @@
+seed AstorRun 9 
+export PATH="/home/mmartinez/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/mmartinez/projects/math/math_71;defects4j compile;cp -r /home/mmartinez/projects/math/math_71 /tmp/math_71_Genprog_local_s1;cd /tmp/math_71_Genprog_local_s1;mkdir lib/;cp -r /home/mmartinez/defects4j/framework/projects/lib/* lib/;cp -r /home/mmartinez/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/9/package/71/Genprog/result
+cd /tmp/math_71_Genprog_local_s1;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";time /home/mmartinez/jdk1.8.0_45/bin//java -Xmx4096m -cp /home/mmartinez/defects4j-repair/src/python/core/../../..//libs/astor.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -id Math -dependencies lib/ -failing org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest:org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -jvm4evosuitetestexecution /home/mmartinez/jdk1.8.0_45/bin/ -javacompliancelevel 5 -maxgen 1000000 -seed 9 -scope package -maxtime 120  -stopfirst false -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/ -flthreshold 0.1  -validation  fr.inria.astor.core.validation.validators.RegressionValidation  -ESParameters -Dassertion_timeout=1800:-Dminimization_timeout=1800:-Djunit_check_timeout=1800:-Dwrite_junit_timeout=300:-Dinitialization_timeout=300:-Dglobal_timeout=18000:-Dsearch_budget=100000:-Dstopping_condition=MaxStatements:-Dno_runtime_dependency=true:-Dsandbox=false:-Dp_reflection_on_private=0.0:-Dreflection_start_percent=1.0:-Dp_functional_mocking=0.0:-Dfunctional_mocking_percent=1.0:-mem=2000 -ignoredtestcases org.apache.commons.lang.LocaleUtilsTest  -excludeRegression  -maxgen 100000000 ;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+"; find /tmp/math_71_Genprog_local_s1/outputMutation -name "*.class" -type f -delete;echo "removed classes 
+"; find . -name bin  -type d -print0|xargs -0 rm -r --; zip -r -q out.zip /tmp/math_71_Genprog_local_s1/outputMutation; echo "zipped 
+";cp out.zip /home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/9/package/71/Genprog; echo "copied zip 
+";rm -rf /tmp/math_71_Genprog_local_s1;
+
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:136) - End Repair Loops: Found solution
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:137) - Solution stored at: /tmp/math_71_Genprog_local_s1/./outputMutation/AstorMain-Math//src/
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:142) - 
+Number solutions:5
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 272 (SOL) , #gens: 279, #ops: 1, parent:271]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 5.0, [Variant id: 364 (SOL) , #gens: 278, #ops: 1, parent:363]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 652 (SOL) , #gens: 279, #ops: 1, parent:651]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 660 (SOL) , #gens: 279, #ops: 1, parent:659]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 688 (SOL) , #gens: 279, #ops: 1, parent:687]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:146) - 
+All variants:
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:148) - f 2.0, [Variant id: 715, #gens: 278, #ops: 0, parent:-]
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:152) - 
+Solution details
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:153) - 
+ --SOLUTIONS DESCRIPTION--
+
+ ----
+ProgramVariant 272
+ 
+time(sec)= 2548
+operation: InsertAfterOp
+location= org.apache.commons.math.ode.events.EventState
+line= 172
+lineSuspiciousness= 0.144
+original statement= forward = interpolator.isForward()
+fixed statement= pendingEvent = true
+generation= 136
+ingredientScope= LOCAL
+validation=
+failing: |true|0|19|[]|
+manual_regression: |true|0|2169|[]|
+evo_regression: |true|0|22|[]|
+ ----
+ProgramVariant 364
+ 
+time(sec)= 4542
+operation: ReplaceOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 336
+lineSuspiciousness= 0.148
+original statement= if (dx <= 0.0) {
+	x1 = x1 - (0.5 * tolerance);
+} 
+fixed statement= if ((java.lang.Math.abs((x1 - x0))) <= (absoluteAccuracy)) {
+	setResult(x1, i);
+	return x1;
+} 
+generation= 182
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|19|[]|
+evo_regression: |false|5|36|[test31(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<12> but was:<11>-, test34(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<1> but was:<0>-, test09(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<2> but was:<1>-, test20(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<40> but was:<35>-, test00(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<8> but was:<7>-]|
+ ----
+ProgramVariant 652
+ 
+time(sec)= 6769
+operation: InsertBeforeOp
+location= org.apache.commons.math.ode.events.EventState
+line= 174
+lineSuspiciousness= 0.144
+original statement= final int n = java.lang.Math.max(1, ((int)(java.lang.Math.ceil(((java.lang.Math.abs((t1 - (t0)))) / (maxCheckInterval))))))
+fixed statement= pendingEvent = true
+generation= 326
+ingredientScope= LOCAL
+validation=
+failing: |true|0|19|[]|
+manual_regression: |true|0|2169|[]|
+evo_regression: |true|0|22|[]|
+ ----
+ProgramVariant 660
+ 
+time(sec)= 6847
+operation: InsertBeforeOp
+location= org.apache.commons.math.ode.events.EventState
+line= 185
+lineSuspiciousness= 0.144
+original statement= final double gb = handler.g(tb, interpolator.getInterpolatedState())
+fixed statement= pendingEvent = true
+generation= 330
+ingredientScope= LOCAL
+validation=
+failing: |true|0|19|[]|
+manual_regression: |true|0|2169|[]|
+evo_regression: |true|0|22|[]|
+ ----
+ProgramVariant 688
+ 
+time(sec)= 7171
+operation: InsertBeforeOp
+location= org.apache.commons.math.ode.events.EventState
+line= 175
+lineSuspiciousness= 0.144
+original statement= final double h = (t1 - (t0)) / n
+fixed statement= if ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {
+	return false;
+} 
+generation= 344
+ingredientScope= LOCAL
+validation=
+failing: |true|0|19|[]|
+manual_regression: |true|0|2169|[]|
+evo_regression: |true|0|22|[]|
+[INFO ] fr.inria.main.evolution.AstorMain.run(AstorMain.java:397) - Time Total(s): 7348.834
+
+
+Node: grisou-2.nancy.grid5000.fr
+
+
+Date: Sat Jan 14 02:40:27 CET 2017
+
+removed classes 
+
+zipped 
+
+copied zip 
+
+

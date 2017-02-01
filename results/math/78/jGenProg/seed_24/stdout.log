@@ -1,0 +1,193 @@
+seed AstorRun 24 
+export PATH="/home/mmartinez/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/mmartinez/projects/math/math_78;defects4j compile;cp -r /home/mmartinez/projects/math/math_78 /tmp/math_78_Genprog_local_s1;cd /tmp/math_78_Genprog_local_s1;mkdir lib/;cp -r /home/mmartinez/defects4j/framework/projects/lib/* lib/;cp -r /home/mmartinez/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/24/package/78/Genprog/result
+cd /tmp/math_78_Genprog_local_s1;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";time /home/mmartinez/jdk1.8.0_45/bin//java -Xmx4096m -cp /home/mmartinez/defects4j-repair/src/python/core/../../..//libs/astor.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -id Math -dependencies lib/ -failing org.apache.commons.math.ode.events.EventStateTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -jvm4evosuitetestexecution /home/mmartinez/jdk1.8.0_45/bin/ -javacompliancelevel 5 -maxgen 1000000 -seed 24 -scope package -maxtime 120  -stopfirst false -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/ -flthreshold 0.1  -validation  fr.inria.astor.core.validation.validators.RegressionValidation  -ESParameters -Dassertion_timeout=1800:-Dminimization_timeout=1800:-Djunit_check_timeout=1800:-Dwrite_junit_timeout=300:-Dinitialization_timeout=300:-Dglobal_timeout=18000:-Dsearch_budget=100000:-Dstopping_condition=MaxStatements:-Dno_runtime_dependency=true:-Dsandbox=false:-Dp_reflection_on_private=0.0:-Dreflection_start_percent=1.0:-Dp_functional_mocking=0.0:-Dfunctional_mocking_percent=1.0:-mem=2000 -ignoredtestcases org.apache.commons.lang.LocaleUtilsTest  -excludeRegression  -maxgen 100000000 ;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+"; find /tmp/math_78_Genprog_local_s1/outputMutation -name "*.class" -type f -delete;echo "removed classes 
+"; find . -name bin  -type d -print0|xargs -0 rm -r --; zip -r -q out.zip /tmp/math_78_Genprog_local_s1/outputMutation; echo "zipped 
+";cp out.zip /home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/24/package/78/Genprog; echo "copied zip 
+";rm -rf /tmp/math_78_Genprog_local_s1;
+
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:136) - End Repair Loops: Found solution
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:137) - Solution stored at: /tmp/math_78_Genprog_local_s1/./outputMutation/AstorMain-Math//src/
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:142) - 
+Number solutions:9
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 7.0, [Variant id: 516 (SOL) , #gens: 204, #ops: 1, parent:515]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 7.0, [Variant id: 1516 (SOL) , #gens: 204, #ops: 1, parent:1515]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 7.0, [Variant id: 1568 (SOL) , #gens: 205, #ops: 1, parent:1567]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 7.0, [Variant id: 1930 (SOL) , #gens: 204, #ops: 1, parent:1929]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 6.0, [Variant id: 2000 (SOL) , #gens: 205, #ops: 1, parent:1999]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 9.0, [Variant id: 2020 (SOL) , #gens: 205, #ops: 1, parent:2019]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 7.0, [Variant id: 5226 (SOL) , #gens: 205, #ops: 1, parent:5225]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 7.0, [Variant id: 5798 (SOL) , #gens: 204, #ops: 1, parent:5797]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 11.0, [Variant id: 8812 (SOL) , #gens: 206, #ops: 1, parent:8811]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:146) - 
+All variants:
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:148) - f 1.0, [Variant id: 9527, #gens: 205, #ops: 0, parent:-]
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:152) - 
+Solution details
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:153) - 
+ --SOLUTIONS DESCRIPTION--
+
+ ----
+ProgramVariant 516
+ 
+time(sec)= 625
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 282
+lineSuspiciousness= 0.213
+original statement= delta = 0.5 * dx
+fixed statement= 
+generation= 258
+ingredientScope= -
+validation=
+failing: |true|0|1|[]|
+manual_regression: |false|3|2087|[testQuinticZero(org.apache.commons.math.analysis.solvers.BrentSolverTest): null-, testCumulative(org.apache.commons.math.distribution.BetaDistributionTest): Maximal number of iterations (100) exceeded-, testIllConditioned(org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest): -]|
+evo_regression: |false|4|33|[test19(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Maximal number of iterations (100) exceeded-, test29(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Maximal number of iterations (100) exceeded-, test23(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<43> but was:<31>-, test27(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<21> but was:<67>-]|
+ ----
+ProgramVariant 1516
+ 
+time(sec)= 1487
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 282
+lineSuspiciousness= 0.213
+original statement= delta = 0.5 * dx
+fixed statement= 
+generation= 758
+ingredientScope= -
+validation=
+failing: |true|0|1|[]|
+manual_regression: |false|3|2087|[testQuinticZero(org.apache.commons.math.analysis.solvers.BrentSolverTest): null-, testCumulative(org.apache.commons.math.distribution.BetaDistributionTest): Maximal number of iterations (100) exceeded-, testIllConditioned(org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest): -]|
+evo_regression: |false|4|33|[test19(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Maximal number of iterations (100) exceeded-, test29(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Maximal number of iterations (100) exceeded-, test23(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<43> but was:<31>-, test27(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<21> but was:<67>-]|
+ ----
+ProgramVariant 1568
+ 
+time(sec)= 1599
+operation: ReplaceOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 282
+lineSuspiciousness= 0.213
+original statement= delta = 0.5 * dx
+fixed statement= x2 = x0
+generation= 784
+ingredientScope= LOCAL
+validation=
+failing: |true|0|1|[]|
+manual_regression: |false|3|2087|[testQuinticZero(org.apache.commons.math.analysis.solvers.BrentSolverTest): null-, testCumulative(org.apache.commons.math.distribution.BetaDistributionTest): Maximal number of iterations (100) exceeded-, testIllConditioned(org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest): -]|
+evo_regression: |false|4|33|[test19(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Maximal number of iterations (100) exceeded-, test29(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<22> but was:<12>-, test23(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<43> but was:<24>-, test27(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<21> but was:<9>-]|
+ ----
+ProgramVariant 1930
+ 
+time(sec)= 1957
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 282
+lineSuspiciousness= 0.213
+original statement= delta = 0.5 * dx
+fixed statement= 
+generation= 965
+ingredientScope= -
+validation=
+failing: |true|0|1|[]|
+manual_regression: |false|3|2087|[testQuinticZero(org.apache.commons.math.analysis.solvers.BrentSolverTest): null-, testCumulative(org.apache.commons.math.distribution.BetaDistributionTest): Maximal number of iterations (100) exceeded-, testIllConditioned(org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest): -]|
+evo_regression: |false|4|33|[test19(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Maximal number of iterations (100) exceeded-, test29(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Maximal number of iterations (100) exceeded-, test23(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<43> but was:<31>-, test27(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<21> but was:<67>-]|
+ ----
+ProgramVariant 2000
+ 
+time(sec)= 2067
+operation: ReplaceOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 282
+lineSuspiciousness= 0.213
+original statement= delta = 0.5 * dx
+fixed statement= x1 = x1 - (0.5 * tolerance)
+generation= 1000
+ingredientScope= LOCAL
+validation=
+failing: |true|0|1|[]|
+manual_regression: |false|2|2087|[testQuinticZero(org.apache.commons.math.analysis.solvers.BrentSolverTest): null-, testCumulative(org.apache.commons.math.distribution.BetaDistributionTest): Maximal number of iterations (100) exceeded-]|
+evo_regression: |false|4|33|[test19(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Maximal number of iterations (100) exceeded-, test29(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Maximal number of iterations (100) exceeded-, test23(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<43> but was:<31>-, test27(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<21> but was:<66>-]|
+ ----
+ProgramVariant 2020
+ 
+time(sec)= 2156
+operation: ReplaceOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 282
+lineSuspiciousness= 0.213
+original statement= delta = 0.5 * dx
+fixed statement= y2 = y0
+generation= 1010
+ingredientScope= LOCAL
+validation=
+failing: |true|0|1|[]|
+manual_regression: |false|5|2087|[testQuinticZero(org.apache.commons.math.analysis.solvers.BrentSolverTest): Maximal number of iterations (100) exceeded-, testCumulative(org.apache.commons.math.distribution.BetaDistributionTest): expected:<0.1> but was:<0.0>-, testLargeDegreesOfFreedom(org.apache.commons.math.distribution.FDistributionTest): Maximal number of iterations (100) exceeded-, testCircleFitting(org.apache.commons.math.optimization.MultiStartDifferentiableMultivariateRealOptimizerTest): expected:<69.960161753> but was:<53.54677796547228>-, testIllConditioned(org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest): -]|
+evo_regression: |false|4|33|[test19(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Maximal number of iterations (100) exceeded-, test29(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<22> but was:<10>-, test23(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<43> but was:<25>-, test27(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<21> but was:<7>-]|
+ ----
+ProgramVariant 5226
+ 
+time(sec)= 4456
+operation: ReplaceOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 282
+lineSuspiciousness= 0.213
+original statement= delta = 0.5 * dx
+fixed statement= p = -p
+generation= 2613
+ingredientScope= LOCAL
+validation=
+failing: |true|0|1|[]|
+manual_regression: |false|3|2087|[testQuinticZero(org.apache.commons.math.analysis.solvers.BrentSolverTest): null-, testCumulative(org.apache.commons.math.distribution.BetaDistributionTest): Maximal number of iterations (100) exceeded-, testIllConditioned(org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest): -]|
+evo_regression: |false|4|33|[test19(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Maximal number of iterations (100) exceeded-, test29(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Maximal number of iterations (100) exceeded-, test23(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<43> but was:<31>-, test27(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<21> but was:<67>-]|
+ ----
+ProgramVariant 5798
+ 
+time(sec)= 4896
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 282
+lineSuspiciousness= 0.213
+original statement= delta = 0.5 * dx
+fixed statement= 
+generation= 2899
+ingredientScope= -
+validation=
+failing: |true|0|1|[]|
+manual_regression: |false|3|2087|[testQuinticZero(org.apache.commons.math.analysis.solvers.BrentSolverTest): null-, testCumulative(org.apache.commons.math.distribution.BetaDistributionTest): Maximal number of iterations (100) exceeded-, testIllConditioned(org.apache.commons.math.optimization.general.NonLinearConjugateGradientOptimizerTest): -]|
+evo_regression: |false|4|33|[test19(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Maximal number of iterations (100) exceeded-, test29(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): Maximal number of iterations (100) exceeded-, test23(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<43> but was:<31>-, test27(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<21> but was:<67>-]|
+ ----
+ProgramVariant 8812
+ 
+time(sec)= 6851
+operation: InsertAfterOp
+location= org.apache.commons.math.analysis.solvers.BrentSolver
+line= 296
+lineSuspiciousness= 0.115
+original statement= x1 = x1 + (0.5 * tolerance)
+fixed statement= return x1
+generation= 4406
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|1|[]|
+manual_regression: |false|6|2087|[testQuinticZero(org.apache.commons.math.analysis.solvers.BrentSolverTest): expected:<4.999218843736567E-7> but was:<0.0>-, testInverseCumulativeProbabilities(org.apache.commons.math.distribution.FDistributionTest): Incorrect inverse cumulative probability value returned for 0.999 expected:<20.80266> but was:<20.80266445944453>-, testEvents(org.apache.commons.math.ode.nonstiff.GraggBulirschStoerIntegratorTest): null-, testEvents(org.apache.commons.math.ode.nonstiff.HighamHall54IntegratorTest): null-, testCircleFitting(org.apache.commons.math.optimization.MultiStartDifferentiableMultivariateRealOptimizerTest): null-, testInference(org.apache.commons.math.stat.regression.SimpleRegressionTest): slope conf interval half-width expected:<2.97802204827> but was:<2.978022582767291>-]|
+evo_regression: |false|5|33|[test18(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<12> but was:<0>-, test29(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<22> but was:<0>-, test00(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<48> but was:<0>-, test27(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<21> but was:<0>-, test04(org.apache.commons.math.analysis.solvers.BrentSolver_ESTest): expected:<18> but was:<0>-]|
+[INFO ] fr.inria.main.evolution.AstorMain.run(AstorMain.java:397) - Time Total(s): 7311.01
+
+
+Node: grimoire-6.nancy.grid5000.fr
+
+
+Date: Wed Jan 25 04:05:02 CET 2017
+
+removed classes 
+
+zipped 
+
+copied zip 
+
+

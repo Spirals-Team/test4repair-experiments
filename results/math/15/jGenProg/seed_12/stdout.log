@@ -1,0 +1,108 @@
+seed AstorRun 12 
+export PATH="/home/mmartinez/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/mmartinez/projects/math/math_15;defects4j compile;cp -r /home/mmartinez/projects/math/math_15 /tmp/math_15_Genprog_local_s1;cd /tmp/math_15_Genprog_local_s1;mkdir lib/;cp -r /home/mmartinez/defects4j/framework/projects/lib/* lib/;cp -r /home/mmartinez/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/12/package/15/Genprog/result
+cd /tmp/math_15_Genprog_local_s1;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";time /home/mmartinez/jdk1.8.0_45/bin//java -Xmx4096m -cp /home/mmartinez/defects4j-repair/src/python/core/../../..//libs/astor.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -id Math -dependencies lib/ -failing org.apache.commons.math3.util.FastMathTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -jvm4evosuitetestexecution /home/mmartinez/jdk1.8.0_45/bin/ -javacompliancelevel 5 -maxgen 1000000 -seed 12 -scope package -maxtime 120  -stopfirst false -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/ -flthreshold 0.1  -validation  fr.inria.astor.core.validation.validators.RegressionValidation  -ESParameters -Dassertion_timeout=1800:-Dminimization_timeout=1800:-Djunit_check_timeout=1800:-Dwrite_junit_timeout=300:-Dinitialization_timeout=300:-Dglobal_timeout=18000:-Dsearch_budget=100000:-Dstopping_condition=MaxStatements:-Dno_runtime_dependency=true:-Dsandbox=false:-Dp_reflection_on_private=0.0:-Dreflection_start_percent=1.0:-Dp_functional_mocking=0.0:-Dfunctional_mocking_percent=1.0:-mem=2000 -ignoredtestcases org.apache.commons.lang.LocaleUtilsTest  -excludeRegression  -maxgen 100000000 ;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+"; find /tmp/math_15_Genprog_local_s1/outputMutation -name "*.class" -type f -delete;echo "removed classes 
+"; find . -name bin  -type d -print0|xargs -0 rm -r --; zip -r -q out.zip /tmp/math_15_Genprog_local_s1/outputMutation; echo "zipped 
+";cp out.zip /home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/12/package/15/Genprog; echo "copied zip 
+";rm -rf /tmp/math_15_Genprog_local_s1;
+
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:136) - End Repair Loops: Found solution
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:137) - Solution stored at: /tmp/math_15_Genprog_local_s1/./outputMutation/AstorMain-Math//src/
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:142) - 
+Number solutions:4
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 4.0, [Variant id: 380 (SOL) , #gens: 159, #ops: 1, parent:379]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 4.0, [Variant id: 540 (SOL) , #gens: 160, #ops: 1, parent:539]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 4.0, [Variant id: 882 (SOL) , #gens: 159, #ops: 1, parent:881]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 992 (SOL) , #gens: 159, #ops: 1, parent:991]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:146) - 
+All variants:
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:148) - f 1.0, [Variant id: 1169, #gens: 160, #ops: 0, parent:-]
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:152) - 
+Solution details
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:153) - 
+ --SOLUTIONS DESCRIPTION--
+
+ ----
+ProgramVariant 380
+ 
+time(sec)= 2722
+operation: RemoveOp
+location= org.apache.commons.math3.util.FastMath
+line= 1542
+lineSuspiciousness= 0.408
+original statement= return org.apache.commons.math3.util.FastMath.pow((-x), y)
+fixed statement= 
+generation= 190
+ingredientScope= -
+validation=
+failing: |true|0|47|[]|
+manual_regression: |false|1|4200|[test111(org.apache.commons.math3.util.FastMathStrictComparisonTest): double pow(-1.7976931348623157E308, -1.7976931348623157E308) expected 0.0 actual NaN entries 6, 6-]|
+evo_regression: |false|3|334|[test326(org.apache.commons.math3.util.FastMath_ESTest): test timed out after 4000 milliseconds-, test286(org.apache.commons.math3.util.FastMath_ESTest): expected:<0.0> but was:<NaN>-, test257(org.apache.commons.math3.util.FastMath_ESTest): expected:<Infinity> but was:<NaN>-]|
+ ----
+ProgramVariant 540
+ 
+time(sec)= 3778
+operation: ReplaceOp
+location= org.apache.commons.math3.util.FastMath
+line= 1542
+lineSuspiciousness= 0.408
+original statement= return org.apache.commons.math3.util.FastMath.pow((-x), y)
+fixed statement= return ((long)(org.apache.commons.math3.util.FastMath.floor((x + 0.5))))
+generation= 270
+ingredientScope= LOCAL
+validation=
+failing: |true|0|47|[]|
+manual_regression: |false|1|4200|[test111(org.apache.commons.math3.util.FastMathStrictComparisonTest): double pow(-1.7976931348623157E308, -1.7976931348623157E308) expected 0.0 actual -9.223372036854776E18 entries 6, 6-]|
+evo_regression: |false|3|334|[test326(org.apache.commons.math3.util.FastMath_ESTest): test timed out after 4000 milliseconds-, test286(org.apache.commons.math3.util.FastMath_ESTest): expected:<0.0> but was:<-4.503599627370496E15>-, test257(org.apache.commons.math3.util.FastMath_ESTest): expected:<Infinity> but was:<-126.0>-]|
+ ----
+ProgramVariant 882
+ 
+time(sec)= 5731
+operation: RemoveOp
+location= org.apache.commons.math3.util.FastMath
+line= 1542
+lineSuspiciousness= 0.408
+original statement= return org.apache.commons.math3.util.FastMath.pow((-x), y)
+fixed statement= 
+generation= 441
+ingredientScope= -
+validation=
+failing: |true|0|47|[]|
+manual_regression: |false|1|4200|[test111(org.apache.commons.math3.util.FastMathStrictComparisonTest): double pow(-1.7976931348623157E308, -1.7976931348623157E308) expected 0.0 actual NaN entries 6, 6-]|
+evo_regression: |false|3|334|[test326(org.apache.commons.math3.util.FastMath_ESTest): test timed out after 4000 milliseconds-, test286(org.apache.commons.math3.util.FastMath_ESTest): expected:<0.0> but was:<NaN>-, test257(org.apache.commons.math3.util.FastMath_ESTest): expected:<Infinity> but was:<NaN>-]|
+ ----
+ProgramVariant 992
+ 
+time(sec)= 6435
+operation: RemoveOp
+location= org.apache.commons.math3.util.FastMath
+line= 1542
+lineSuspiciousness= 0.408
+original statement= return org.apache.commons.math3.util.FastMath.pow((-x), y)
+fixed statement= 
+generation= 496
+ingredientScope= -
+validation=
+failing: |true|0|47|[]|
+manual_regression: |false|1|4200|[test111(org.apache.commons.math3.util.FastMathStrictComparisonTest): double pow(-1.7976931348623157E308, -1.7976931348623157E308) expected 0.0 actual NaN entries 6, 6-]|
+evo_regression: |false|0|0|[]|
+[INFO ] fr.inria.main.evolution.AstorMain.run(AstorMain.java:397) - Time Total(s): 7809.462
+
+
+Node: grisou-10.nancy.grid5000.fr
+
+
+Date: Sat Jan 14 19:44:39 CET 2017
+
+removed classes 
+
+zipped 
+
+copied zip 
+
+

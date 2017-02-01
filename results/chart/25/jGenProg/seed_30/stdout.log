@@ -1,0 +1,401 @@
+seed AstorRun 30 
+export PATH="/home/mmartinez/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/mmartinez/projects/chart/chart_25;defects4j compile;cp -r /home/mmartinez/projects/chart/chart_25 /tmp/chart_25_Genprog_local_s1;cd /tmp/chart_25_Genprog_local_s1;mkdir lib/;cp -r /home/mmartinez/defects4j/framework/projects/lib/* lib/;cp -r /home/mmartinez/defects4j/framework/projects/Chart/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Chart/seed/30/package/25/Genprog/result
+cd /tmp/chart_25_Genprog_local_s1;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";time /home/mmartinez/jdk1.8.0_45/bin//java -Xmx4096m -cp /home/mmartinez/defects4j-repair/src/python/core/../../..//libs/astor.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -id Chart -dependencies lib/ -failing org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests:org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests:org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests:org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests: -package org.jfree -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -jvm4evosuitetestexecution /home/mmartinez/jdk1.8.0_45/bin/ -javacompliancelevel 4 -maxgen 1000000 -seed 30 -scope package -maxtime 120  -stopfirst false -population 1 -srcjavafolder source/ -srctestfolder tests/ -binjavafolder build/ -bintestfolder build-tests/ -flthreshold 0.1  -validation  fr.inria.astor.core.validation.validators.RegressionValidation  -ESParameters -Dassertion_timeout=1800:-Dminimization_timeout=1800:-Djunit_check_timeout=1800:-Dwrite_junit_timeout=300:-Dinitialization_timeout=300:-Dglobal_timeout=18000:-Dsearch_budget=100000:-Dstopping_condition=MaxStatements:-Dno_runtime_dependency=true:-Dsandbox=false:-Dp_reflection_on_private=0.0:-Dreflection_start_percent=1.0:-Dp_functional_mocking=0.0:-Dfunctional_mocking_percent=1.0:-mem=2000 -testbystep  -ignoredtestcases org.apache.commons.lang.LocaleUtilsTest  -excludeRegression  -maxgen 100000000 ;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+"; find /tmp/chart_25_Genprog_local_s1/outputMutation -name "*.class" -type f -delete;echo "removed classes 
+"; find . -name bin  -type d -print0|xargs -0 rm -r --; zip -r -q out.zip /tmp/chart_25_Genprog_local_s1/outputMutation; echo "zipped 
+";cp out.zip /home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Chart/seed/30/package/25/Genprog; echo "copied zip 
+";rm -rf /tmp/chart_25_Genprog_local_s1;
+
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:136) - End Repair Loops: Found solution
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:137) - Solution stored at: /tmp/chart_25_Genprog_local_s1/./outputMutation/AstorMain-Chart//src/
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:142) - 
+Number solutions:14
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 4.0, [Variant id: 38 (SOL) , #gens: 955, #ops: 1, parent:37]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 6.0, [Variant id: 196 (SOL) , #gens: 955, #ops: 1, parent:195]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 27.0, [Variant id: 262 (SOL) , #gens: 957, #ops: 1, parent:261]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 6.0, [Variant id: 302 (SOL) , #gens: 956, #ops: 1, parent:301]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 320 (SOL) , #gens: 957, #ops: 1, parent:319]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 436 (SOL) , #gens: 956, #ops: 1, parent:435]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 13.0, [Variant id: 504 (SOL) , #gens: 955, #ops: 1, parent:503]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 1.0, [Variant id: 562 (SOL) , #gens: 957, #ops: 1, parent:561]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 756 (SOL) , #gens: 956, #ops: 1, parent:755]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 784 (SOL) , #gens: 955, #ops: 1, parent:783]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 32.0, [Variant id: 836 (SOL) , #gens: 956, #ops: 1, parent:835]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 904 (SOL) , #gens: 956, #ops: 1, parent:903]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 35.0, [Variant id: 974 (SOL) , #gens: 956, #ops: 1, parent:973]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 980 (SOL) , #gens: 955, #ops: 1, parent:979]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:146) - 
+All variants:
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:148) - f 16.0, [Variant id: 1091, #gens: 956, #ops: 0, parent:-]
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:152) - 
+Solution details
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:153) - 
+ --SOLUTIONS DESCRIPTION--
+
+ ----
+ProgramVariant 38
+ 
+time(sec)= 407
+operation: RemoveOp
+location= org.jfree.data.KeyedObjects2D
+line= 110
+lineSuspiciousness= 0.516
+original statement= if (rowData != null) {
+	java.lang.Comparable columnKey = ((java.lang.Comparable)(org.jfree.data.KeyedObjects2D.this.columnKeys.get(column)));
+	if (columnKey != null) {
+		result = rowData.getObject(columnKey);
+	} 
+} 
+fixed statement= 
+generation= 19
+ingredientScope= -
+validation=
+failing: |true|0|36|[]|
+manual_regression: |true|0|3243|[]|
+evo_regression: |false|4|52|[test32(org.jfree.data.KeyedObjects2D_ESTest): expected:<> but was:<null>-, test28(org.jfree.data.KeyedObjects2D_ESTest): Expecting exception: NullPointerException-, test40(org.jfree.data.KeyedObjects2D_ESTest): null-, test47(org.jfree.data.KeyedObjects2D_ESTest): null-]|
+ ----
+ProgramVariant 196
+ 
+time(sec)= 1189
+operation: RemoveOp
+location= org.jfree.data.KeyedObjects
+line= 92
+lineSuspiciousness= 0.471
+original statement= result = kobj.getObject()
+fixed statement= 
+generation= 98
+ingredientScope= -
+validation=
+failing: |true|0|36|[]|
+manual_regression: |false|2|3243|[testInsertAndRetrieve(org.jfree.data.junit.KeyedObjectsTests): expected:<null> but was:<1.0>-, testInsertAndRetrieve(org.jfree.data.junit.KeyedObjectsTests): expected:<null> but was:<1.0>-]|
+evo_regression: |false|4|36|[test19(org.jfree.data.KeyedObjects_ESTest): null-, test17(org.jfree.data.KeyedObjects_ESTest): expected same:<null> was not:<org.jfree.data.KeyedObject@4>-, test35(org.jfree.data.KeyedObjects_ESTest): expected same:<null> was not:<org.jfree.data.KeyedObject@e>-, test20(org.jfree.data.KeyedObjects_ESTest): null-]|
+ ----
+ProgramVariant 262
+ 
+time(sec)= 1732
+operation: InsertBeforeOp
+location= org.jfree.data.KeyedObjects2D
+line= 238
+lineSuspiciousness= 0.447
+original statement= if (columnIndex < 0) {
+	org.jfree.data.KeyedObjects2D.this.columnKeys.add(columnKey);
+} 
+fixed statement= removeRow(getRowIndex(rowKey))
+generation= 131
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|36|[]|
+manual_regression: |false|4|3243|[testGetLegendItem(org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests): Index: 0, Size: 0-, testGetLegendItem(org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests): Index: 0, Size: 0-]|
+evo_regression: |false|23|52|[test30(org.jfree.data.KeyedObjects2D_ESTest): expected:<1> but was:<0>-, test32(org.jfree.data.KeyedObjects2D_ESTest): Index: 0, Size: 0-, test31(org.jfree.data.KeyedObjects2D_ESTest): Index: 0, Size: 0-, test29(org.jfree.data.KeyedObjects2D_ESTest): Expecting exception: NullPointerException-, test28(org.jfree.data.KeyedObjects2D_ESTest): Expecting exception: NullPointerException-, test21(org.jfree.data.KeyedObjects2D_ESTest): Expecting exception: NullPointerException-, test20(org.jfree.data.KeyedObjects2D_ESTest): Expecting exception: NullPointerException-, test22(org.jfree.data.KeyedObjects2D_ESTest): Expecting exception: ArrayIndexOutOfBoundsException-, test10(org.jfree.data.KeyedObjects2D_ESTest): expected:<0> but was:<-1>-, test12(org.jfree.data.KeyedObjects2D_ESTest): expected:<1> but was:<0>-, test11(org.jfree.data.KeyedObjects2D_ESTest): expected:<1> but was:<-1>-, ...and 13 failures more, test13(org.jfree.data.KeyedObjects2D_ESTest): Index: 0, Size: 0-, ...and 13 failures more, test41(org.jfree.data.KeyedObjects2D_ESTest): -1-, ...and 13 failures more, test40(org.jfree.data.KeyedObjects2D_ESTest): null-, ...and 13 failures more, test07(org.jfree.data.KeyedObjects2D_ESTest): expected:<1> but was:<0>-, ...and 13 failures more, test06(org.jfree.data.KeyedObjects2D_ESTest): Index: 0, Size: 0-, ...and 13 failures more, test09(org.jfree.data.KeyedObjects2D_ESTest): Index: 0, Size: 0-, ...and 13 failures more, test01(org.jfree.data.KeyedObjects2D_ESTest): expected:<2> but was:<0>-, ...and 13 failures more, test45(org.jfree.data.KeyedObjects2D_ESTest): Expecting exception: NullPointerException-, ...and 13 failures more, test03(org.jfree.data.KeyedObjects2D_ESTest): Expecting exception: NullPointerException-, ...and 13 failures more, test47(org.jfree.data.KeyedObjects2D_ESTest): null-, ...and 13 failures more, test02(org.jfree.data.KeyedObjects2D_ESTest): Index: 0, Size: 0-, ...and 13 failures more, test46(org.jfree.data.KeyedObjects2D_ESTest): Expecting exception: NullPointerException-, ...and 13 failures more]|
+ ----
+ProgramVariant 302
+ 
+time(sec)= 2087
+operation: ReplaceOp
+location= org.jfree.data.statistics.DefaultStatisticalCategoryDataset
+line= 381
+lineSuspiciousness= 0.756
+original statement= result = new org.jfree.data.Range(org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.minimumRangeValueIncStdDev , org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.maximumRangeValueIncStdDev)
+fixed statement= org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.data = new org.jfree.data.KeyedObjects2D()
+generation= 151
+ingredientScope= LOCAL
+validation=
+failing: |true|0|36|[]|
+manual_regression: |false|4|3243|[testGetRangeBounds(org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests): expected:<Range3.5, 5.5> but was:<null>-, testGetRangeBounds(org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests): expected:<Range3.5, 5.5> but was:<null>-]|
+evo_regression: |false|2|68|[test19(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): null-, test48(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): Expecting exception: IllegalArgumentException-]|
+ ----
+ProgramVariant 320
+ 
+time(sec)= 2331
+operation: InsertAfterOp
+location= org.jfree.data.statistics.DefaultStatisticalCategoryDataset
+line= 111
+lineSuspiciousness= 0.816
+original statement= result = masd.getMean()
+fixed statement= return null
+generation= 160
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|36|[]|
+manual_regression: |true|0|3243|[]|
+evo_regression: |false|3|68|[test52(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): null-, test54(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): null-, test06(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): null-]|
+ ----
+ProgramVariant 436
+ 
+time(sec)= 4362
+operation: ReplaceOp
+location= org.jfree.chart.plot.CategoryPlot
+line= 2629
+lineSuspiciousness= 0.378
+original statement= if (order == (org.jfree.chart.plot.DatasetRenderingOrder.FORWARD)) {
+	int datasetCount = org.jfree.chart.plot.CategoryPlot.this.datasets.size();
+	for (int i = 0 ; i < datasetCount ; i++) {
+		org.jfree.chart.renderer.category.CategoryItemRenderer r = getRenderer(i);
+		if (r != null) {
+			org.jfree.chart.axis.CategoryAxis domainAxis = getDomainAxisForDataset(i);
+			org.jfree.chart.axis.ValueAxis rangeAxis = getRangeAxisForDataset(i);
+			r.drawAnnotations(g2, dataArea, domainAxis, rangeAxis, org.jfree.chart.util.Layer.BACKGROUND, state);
+		} 
+	}
+	for (int i = 0 ; i < datasetCount ; i++) {
+		foundData = (render(g2, dataArea, i, state)) || foundData;
+	}
+	for (int i = 0 ; i < datasetCount ; i++) {
+		org.jfree.chart.renderer.category.CategoryItemRenderer r = getRenderer(i);
+		if (r != null) {
+			org.jfree.chart.axis.CategoryAxis domainAxis = getDomainAxisForDataset(i);
+			org.jfree.chart.axis.ValueAxis rangeAxis = getRangeAxisForDataset(i);
+			r.drawAnnotations(g2, dataArea, domainAxis, rangeAxis, org.jfree.chart.util.Layer.FOREGROUND, state);
+		} 
+	}
+} else {
+	int datasetCount = org.jfree.chart.plot.CategoryPlot.this.datasets.size();
+	for (int i = datasetCount - 1 ; i >= 0 ; i--) {
+		org.jfree.chart.renderer.category.CategoryItemRenderer r = getRenderer(i);
+		if (r != null) {
+			org.jfree.chart.axis.CategoryAxis domainAxis = getDomainAxisForDataset(i);
+			org.jfree.chart.axis.ValueAxis rangeAxis = getRangeAxisForDataset(i);
+			r.drawAnnotations(g2, dataArea, domainAxis, rangeAxis, org.jfree.chart.util.Layer.BACKGROUND, state);
+		} 
+	}
+	for (int i = (org.jfree.chart.plot.CategoryPlot.this.datasets.size()) - 1 ; i >= 0 ; i--) {
+		foundData = (render(g2, dataArea, i, state)) || foundData;
+	}
+	for (int i = datasetCount - 1 ; i >= 0 ; i--) {
+		org.jfree.chart.renderer.category.CategoryItemRenderer r = getRenderer(i);
+		if (r != null) {
+			org.jfree.chart.axis.CategoryAxis domainAxis = getDomainAxisForDataset(i);
+			org.jfree.chart.axis.ValueAxis rangeAxis = getRangeAxisForDataset(i);
+			r.drawAnnotations(g2, dataArea, domainAxis, rangeAxis, org.jfree.chart.util.Layer.FOREGROUND, state);
+		} 
+	}
+}
+fixed statement= if ((anchor != null) && (!(dataArea.contains(anchor)))) {
+	anchor = null;
+} 
+generation= 218
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|36|[]|
+manual_regression: |true|0|3243|[]|
+evo_regression: |true|0|220|[]|
+ ----
+ProgramVariant 504
+ 
+time(sec)= 4682
+operation: RemoveOp
+location= org.jfree.data.KeyedObjects
+line= 131
+lineSuspiciousness= 0.436
+original statement= if (ko.getKey().equals(key)) {
+	result = i;
+} 
+fixed statement= 
+generation= 252
+ingredientScope= -
+validation=
+failing: |true|0|36|[]|
+manual_regression: |false|2|3243|[testInsertAndRetrieve(org.jfree.data.junit.KeyedObjectsTests): expected:<null> but was:<1.0>-, testInsertAndRetrieve(org.jfree.data.junit.KeyedObjectsTests): expected:<null> but was:<1.0>-]|
+evo_regression: |false|11|36|[test13(org.jfree.data.KeyedObjects_ESTest): Expecting exception: NullPointerException-, test35(org.jfree.data.KeyedObjects_ESTest): expected same:<null> was not:<org.jfree.data.KeyedObject@10>-, test14(org.jfree.data.KeyedObjects_ESTest): expected:<0> but was:<-1>-, test11(org.jfree.data.KeyedObjects_ESTest): Expecting exception: NullPointerException-, test10(org.jfree.data.KeyedObjects_ESTest): Expecting exception: NullPointerException-, test08(org.jfree.data.KeyedObjects_ESTest): -1-, test06(org.jfree.data.KeyedObjects_ESTest): expected:<1> but was:<-1>-, test07(org.jfree.data.KeyedObjects_ESTest): Expecting exception: NullPointerException-, test29(org.jfree.data.KeyedObjects_ESTest): expected:<2> but was:<3>-, test27(org.jfree.data.KeyedObjects_ESTest): expected:<1> but was:<2>-, test22(org.jfree.data.KeyedObjects_ESTest): -1-, ...and 1 failures more]|
+ ----
+ProgramVariant 562
+ 
+time(sec)= 4968
+operation: InsertAfterOp
+location= org.jfree.data.KeyedObjects2D
+line= 111
+lineSuspiciousness= 0.516
+original statement= java.lang.Comparable columnKey = ((java.lang.Comparable)(org.jfree.data.KeyedObjects2D.this.columnKeys.get(column)))
+fixed statement= org.jfree.data.KeyedObjects2D.this.rowKeys = new java.util.ArrayList()
+generation= 281
+ingredientScope= LOCAL
+validation=
+failing: |true|0|36|[]|
+manual_regression: |true|0|3243|[]|
+evo_regression: |false|1|52|[test01(org.jfree.data.KeyedObjects2D_ESTest): expected:<2> but was:<0>-]|
+ ----
+ProgramVariant 756
+ 
+time(sec)= 5610
+operation: ReplaceOp
+location= org.jfree.data.KeyedObjects
+line= 132
+lineSuspiciousness= 0.485
+original statement= result = i
+fixed statement= result = result + 1
+generation= 378
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|36|[]|
+manual_regression: |false|2|3243|[testInsertAndRetrieve(org.jfree.data.junit.KeyedObjectsTests): expected:<1.0> but was:<2.0>-, testInsertAndRetrieve(org.jfree.data.junit.KeyedObjectsTests): expected:<1.0> but was:<2.0>-]|
+evo_regression: |false|1|36|[test06(org.jfree.data.KeyedObjects_ESTest): expected:<1> but was:<0>-]|
+ ----
+ProgramVariant 784
+ 
+time(sec)= 5834
+operation: RemoveOp
+location= org.jfree.chart.plot.CategoryPlot
+line= 2855
+lineSuspiciousness= 0.378
+original statement= if (hasData && (renderer != null)) {
+	foundData = true;
+	org.jfree.chart.renderer.category.CategoryItemRendererState state = renderer.initialise(g2, dataArea, org.jfree.chart.plot.CategoryPlot.this, index, info);
+	int columnCount = currentDataset.getColumnCount();
+	int rowCount = currentDataset.getRowCount();
+	int passCount = renderer.getPassCount();
+	for (int pass = 0 ; pass < passCount ; pass++) {
+		if ((org.jfree.chart.plot.CategoryPlot.this.columnRenderingOrder) == (org.jfree.chart.util.SortOrder.ASCENDING)) {
+			for (int column = 0 ; column < columnCount ; column++) {
+				if ((org.jfree.chart.plot.CategoryPlot.this.rowRenderingOrder) == (org.jfree.chart.util.SortOrder.ASCENDING)) {
+					for (int row = 0 ; row < rowCount ; row++) {
+						renderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);
+					}
+				} else {
+					for (int row = rowCount - 1 ; row >= 0 ; row--) {
+						renderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);
+					}
+				}
+			}
+		} else {
+			for (int column = columnCount - 1 ; column >= 0 ; column--) {
+				if ((org.jfree.chart.plot.CategoryPlot.this.rowRenderingOrder) == (org.jfree.chart.util.SortOrder.ASCENDING)) {
+					for (int row = 0 ; row < rowCount ; row++) {
+						renderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);
+					}
+				} else {
+					for (int row = rowCount - 1 ; row >= 0 ; row--) {
+						renderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);
+					}
+				}
+			}
+		}
+	}
+} 
+fixed statement= 
+generation= 392
+ingredientScope= -
+validation=
+failing: |true|0|36|[]|
+manual_regression: |true|0|3243|[]|
+evo_regression: |true|0|220|[]|
+ ----
+ProgramVariant 836
+ 
+time(sec)= 6110
+operation: ReplaceOp
+location= org.jfree.data.statistics.DefaultStatisticalCategoryDataset
+line= 301
+lineSuspiciousness= 0.632
+original statement= org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.data.addObject(item, rowKey, columnKey)
+fixed statement= fireDatasetChanged()
+generation= 418
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|36|[]|
+manual_regression: |true|0|3243|[]|
+evo_regression: |false|32|68|[test52(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): Index: 0, Size: 0-, test10(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): Index: 0, Size: 0-, test54(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): Index: 0, Size: 0-, test53(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): Index: 0, Size: 0-, test12(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): expected:<0> but was:<-1>-, test11(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): Index: 0, Size: 0-, test55(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): Index: 0, Size: 0-, test14(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): expected:<1> but was:<0>-, test13(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): expected:<1> but was:<-1>-, test57(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): null-, test40(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): Expecting exception: NullPointerException-, ...and 22 failures more, test07(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): null-, ...and 22 failures more, test06(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): Index: 0, Size: 0-, ...and 22 failures more, test09(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): null-, ...and 22 failures more, test08(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): null-, ...and 22 failures more, test43(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): null-, ...and 22 failures more, test42(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): Index: 0, Size: 0-, ...and 22 failures more, test03(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): null-, ...and 22 failures more, test05(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): null-, ...and 22 failures more, test04(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): null-, ...and 22 failures more, test39(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): Expecting exception: NullPointerException-, ...and 22 failures more, test31(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): Expecting exception: NullPointerException-, ...and 22 failures more, test33(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): Index: 0, Size: 0-, ...and 22 failures more, test35(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): Expecting exception: NullPointerException-, ...and 22 failures more, test29(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): Expecting exception: NullPointerException-, ...and 22 failures more, test28(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): expected:<1> but was:<0>-, ...and 22 failures more, test23(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): null-, ...and 22 failures more, test22(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): null-, ...and 22 failures more, test25(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): Index: 0, Size: 0-, ...and 22 failures more, test24(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): Index: 0, Size: 0-, ...and 22 failures more, test27(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): expected:<1> but was:<-1>-, ...and 22 failures more, test26(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): expected:<0> but was:<-1>-, ...and 22 failures more]|
+ ----
+ProgramVariant 904
+ 
+time(sec)= 6448
+operation: ReplaceOp
+location= org.jfree.chart.plot.CategoryPlot
+line= 2855
+lineSuspiciousness= 0.378
+original statement= if (hasData && (renderer != null)) {
+	foundData = true;
+	org.jfree.chart.renderer.category.CategoryItemRendererState state = renderer.initialise(g2, dataArea, org.jfree.chart.plot.CategoryPlot.this, index, info);
+	int columnCount = currentDataset.getColumnCount();
+	int rowCount = currentDataset.getRowCount();
+	int passCount = renderer.getPassCount();
+	for (int pass = 0 ; pass < passCount ; pass++) {
+		if ((org.jfree.chart.plot.CategoryPlot.this.columnRenderingOrder) == (org.jfree.chart.util.SortOrder.ASCENDING)) {
+			for (int column = 0 ; column < columnCount ; column++) {
+				if ((org.jfree.chart.plot.CategoryPlot.this.rowRenderingOrder) == (org.jfree.chart.util.SortOrder.ASCENDING)) {
+					for (int row = 0 ; row < rowCount ; row++) {
+						renderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);
+					}
+				} else {
+					for (int row = rowCount - 1 ; row >= 0 ; row--) {
+						renderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);
+					}
+				}
+			}
+		} else {
+			for (int column = columnCount - 1 ; column >= 0 ; column--) {
+				if ((org.jfree.chart.plot.CategoryPlot.this.rowRenderingOrder) == (org.jfree.chart.util.SortOrder.ASCENDING)) {
+					for (int row = 0 ; row < rowCount ; row++) {
+						renderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);
+					}
+				} else {
+					for (int row = rowCount - 1 ; row >= 0 ; row--) {
+						renderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);
+					}
+				}
+			}
+		}
+	}
+} 
+fixed statement= if (info != null) {
+	info.setDataArea(dataArea);
+} 
+generation= 452
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|36|[]|
+manual_regression: |true|0|3243|[]|
+evo_regression: |true|0|220|[]|
+ ----
+ProgramVariant 974
+ 
+time(sec)= 6748
+operation: ReplaceOp
+location= org.jfree.data.KeyedObjects2D
+line= 239
+lineSuspiciousness= 0.447
+original statement= org.jfree.data.KeyedObjects2D.this.columnKeys.add(columnKey)
+fixed statement= removeColumn(columnKey)
+generation= 487
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|36|[]|
+manual_regression: |false|8|3243|[testSerialization(org.jfree.data.junit.KeyedObjects2DTests): -1-, testCloning(org.jfree.data.junit.KeyedObjects2DTests): -1-, testSerialization(org.jfree.data.junit.KeyedObjects2DTests): -1-, testCloning(org.jfree.data.junit.KeyedObjects2DTests): -1-, testCloning(org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests): -1-, testSerialization1(org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests): -1-, testCloning(org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests): -1-, testSerialization1(org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests): -1-]|
+evo_regression: |false|27|52|[test30(org.jfree.data.KeyedObjects2D_ESTest): -1-, test32(org.jfree.data.KeyedObjects2D_ESTest): Index: 0, Size: 0-, test31(org.jfree.data.KeyedObjects2D_ESTest): null-, test29(org.jfree.data.KeyedObjects2D_ESTest): null-, test28(org.jfree.data.KeyedObjects2D_ESTest): -1-, test21(org.jfree.data.KeyedObjects2D_ESTest): null-, test20(org.jfree.data.KeyedObjects2D_ESTest): null-, test18(org.jfree.data.KeyedObjects2D_ESTest): expected:<1> but was:<0>-, test17(org.jfree.data.KeyedObjects2D_ESTest): expected:<2> but was:<0>-, test11(org.jfree.data.KeyedObjects2D_ESTest): null-, test14(org.jfree.data.KeyedObjects2D_ESTest): null-, ...and 17 failures more, test13(org.jfree.data.KeyedObjects2D_ESTest): expected:<> but was:<null>-, ...and 17 failures more, test16(org.jfree.data.KeyedObjects2D_ESTest): expected:<0> but was:<-1>-, ...and 17 failures more, test15(org.jfree.data.KeyedObjects2D_ESTest): Index: 0, Size: 0-, ...and 17 failures more, test41(org.jfree.data.KeyedObjects2D_ESTest): expected:<1> but was:<0>-, ...and 17 failures more, test40(org.jfree.data.KeyedObjects2D_ESTest): expected:<1> but was:<0>-, ...and 17 failures more, test07(org.jfree.data.KeyedObjects2D_ESTest): Index: 0, Size: 0-, ...and 17 failures more, test06(org.jfree.data.KeyedObjects2D_ESTest): null-, ...and 17 failures more, test09(org.jfree.data.KeyedObjects2D_ESTest): null-, ...and 17 failures more, test42(org.jfree.data.KeyedObjects2D_ESTest): null-, ...and 17 failures more, test01(org.jfree.data.KeyedObjects2D_ESTest): -1-, ...and 17 failures more, test45(org.jfree.data.KeyedObjects2D_ESTest): null-, ...and 17 failures more, test03(org.jfree.data.KeyedObjects2D_ESTest): null-, ...and 17 failures more, test47(org.jfree.data.KeyedObjects2D_ESTest): expected:<1> but was:<0>-, ...and 17 failures more, test02(org.jfree.data.KeyedObjects2D_ESTest): -1-, ...and 17 failures more, test46(org.jfree.data.KeyedObjects2D_ESTest): null-, ...and 17 failures more, test04(org.jfree.data.KeyedObjects2D_ESTest): expected:<1> but was:<0>-, ...and 17 failures more]|
+ ----
+ProgramVariant 980
+ 
+time(sec)= 6904
+operation: RemoveOp
+location= org.jfree.data.statistics.DefaultStatisticalCategoryDataset
+line= 110
+lineSuspiciousness= 0.816
+original statement= if (masd != null) {
+	result = masd.getMean();
+} 
+fixed statement= 
+generation= 490
+ingredientScope= -
+validation=
+failing: |true|0|36|[]|
+manual_regression: |true|0|3243|[]|
+evo_regression: |false|3|68|[test52(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): null-, test54(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): null-, test06(org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest): null-]|
+[INFO ] fr.inria.main.evolution.AstorMain.run(AstorMain.java:397) - Time Total(s): 8768.193
+
+
+Node: grisou-12.nancy.grid5000.fr
+
+
+Date: Sun Jan 29 19:01:46 CET 2017
+
+removed classes 
+
+zipped 
+
+copied zip 
+
+

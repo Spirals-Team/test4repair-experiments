@@ -1,0 +1,63 @@
+{
+    "date": "Thu Jan 19 04:17:17 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "238", 
+    "node": "graphene-27.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "final org.apache.commons.math3.analysis.UnivariateFunction f = new org.apache.commons.math3.analysis.UnivariateFunction() {\n\tpublic double value(final double t) throws org.apache.commons.math3.ode.events.EventState.LocalMaxCountExceededException {\n\t\ttry {\n\t\t\tinterpolator.setInterpolatedTime(t);\n\t\t\treturn handler.g(t, interpolator.getInterpolatedState());\n\t\t} catch (org.apache.commons.math3.exception.MaxCountExceededException mcee) {\n\t\t\tthrow new org.apache.commons.math3.ode.events.EventState.LocalMaxCountExceededException(mcee);\n\t\t}\n\t}\n}", 
+            "generation": 101, 
+            "ingredients": null, 
+            "patch": "t0 = interpolator.getPreviousTime()", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.ode.events.EventState", 
+                "line": 206, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "19", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "12", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "4865", 
+                "mvaltcfailing": "1"
+            }, 
+            "scope": "LOCAL", 
+            "time": "1049", 
+            "type": "InsertAfterOp", 
+            "variant": 202
+        }, 
+        {
+            "buggyStatement": "ga = gb", 
+            "generation": 223, 
+            "ingredients": null, 
+            "patch": "return (nextAction) == (org.apache.commons.math3.ode.events.EventHandler.Action.STOP)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.ode.events.EventState", 
+                "line": 278, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "19", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "12", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "4865", 
+                "mvaltcfailing": "5"
+            }, 
+            "scope": "LOCAL", 
+            "time": "2535", 
+            "type": "InsertAfterOp", 
+            "variant": 446
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "202", 
+    "timeEvaluation": null, 
+    "timeTotal": "8153"
+}

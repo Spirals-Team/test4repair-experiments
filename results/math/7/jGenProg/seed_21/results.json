@@ -1,0 +1,63 @@
+{
+    "date": "Sun Jan 22 20:04:06 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "238", 
+    "node": "graphene-13.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "final double dt = t1 - (t0)", 
+            "generation": 18, 
+            "ingredients": null, 
+            "patch": "t0 = interpolator.getPreviousTime()", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.ode.events.EventState", 
+                "line": 198, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "19", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "12", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "4865", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "484", 
+            "type": "InsertBeforeOp", 
+            "variant": 36
+        }, 
+        {
+            "buggyStatement": "interpolator.setInterpolatedTime(eventT)", 
+            "generation": 205, 
+            "ingredients": null, 
+            "patch": "setStateInitialized(false)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.ode.AbstractIntegrator", 
+                "line": 342, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "31", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "12", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "false", 
+                "mvaltcall": "4865", 
+                "mvaltcfailing": "4"
+            }, 
+            "scope": "LOCAL", 
+            "time": "2888", 
+            "type": "InsertBeforeOp", 
+            "variant": 410
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "36", 
+    "timeEvaluation": null, 
+    "timeTotal": "8187"
+}

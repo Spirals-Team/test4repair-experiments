@@ -1,0 +1,141 @@
+{
+    "date": "Mon Jan 16 01:18:47 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "486", 
+    "node": "graphene-126.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "double gapVertical = ((plotArea.getHeight()) * gapPercent) * 2.0", 
+            "generation": 582, 
+            "ingredients": null, 
+            "patch": "if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {\n\tdrawNoDataMessage(g2, plotArea);\n\tg2.setClip(savedClip);\n\tdrawOutline(g2, plotArea);\n\treturn ;\n} ", 
+            "patchLocation": {
+                "className": "org.jfree.chart.plot.PiePlot3D", 
+                "line": 252, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "11", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "3", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3579", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "2785", 
+            "type": "InsertBeforeOp", 
+            "variant": 1164
+        }, 
+        {
+            "buggyStatement": "g2.clip(plotArea)", 
+            "generation": 679, 
+            "ingredients": null, 
+            "patch": "if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {\n\tdrawNoDataMessage(g2, plotArea);\n\tg2.setClip(savedClip);\n\tdrawOutline(g2, plotArea);\n\treturn ;\n} ", 
+            "patchLocation": {
+                "className": "org.jfree.chart.plot.PiePlot3D", 
+                "line": 242, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "11", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "3", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3579", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "3203", 
+            "type": "InsertAfterOp", 
+            "variant": 1358
+        }, 
+        {
+            "buggyStatement": "if ((getLabelGenerator()) != null) {\n\tlabelPercent = (getLabelGap()) + (getMaximumLabelWidth());\n} ", 
+            "generation": 1202, 
+            "ingredients": null, 
+            "patch": "if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {\n\tdrawNoDataMessage(g2, plotArea);\n\tg2.setClip(savedClip);\n\tdrawOutline(g2, plotArea);\n\treturn ;\n} ", 
+            "patchLocation": {
+                "className": "org.jfree.chart.plot.PiePlot3D", 
+                "line": 247, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "11", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "3", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3579", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "5690", 
+            "type": "ReplaceOp", 
+            "variant": 2404
+        }, 
+        {
+            "buggyStatement": "if ((getLabelGenerator()) != null) {\n\tlabelPercent = (getLabelGap()) + (getMaximumLabelWidth());\n} ", 
+            "generation": 1371, 
+            "ingredients": null, 
+            "patch": "if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {\n\tdrawNoDataMessage(g2, plotArea);\n\tg2.setClip(savedClip);\n\tdrawOutline(g2, plotArea);\n\treturn ;\n} ", 
+            "patchLocation": {
+                "className": "org.jfree.chart.plot.PiePlot3D", 
+                "line": 247, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "true", 
+                "evaltcall": "11", 
+                "evaltcfailing": "0", 
+                "fvalresult": "true", 
+                "fvaltcall": "3", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3579", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "6403", 
+            "type": "InsertBeforeOp", 
+            "variant": 2742
+        }, 
+        {
+            "buggyStatement": "org.jfree.chart.JFreeChart.this.plot.draw(g2, plotArea, anchor, null, plotInfo)", 
+            "generation": 1522, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.jfree.chart.JFreeChart", 
+                "line": 1219, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "125", 
+                "evaltcfailing": "6", 
+                "fvalresult": "true", 
+                "fvaltcall": "3", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "3579", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "7554", 
+            "type": "RemoveOp", 
+            "variant": 3044
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "1164", 
+    "timeEvaluation": null, 
+    "timeTotal": "8173"
+}

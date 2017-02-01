@@ -1,0 +1,427 @@
+{
+    "date": "Wed Jan 11 23:40:32 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "64", 
+    "node": "griffon-17.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "throw new org.apache.commons.math.ConvergenceException((\"number of iterations={0}, maximum iterations={1}, \" + (\"initial={2}, lower bound={3}, upper bound={4}, final a value={5}, \" + \"final b value={6}, f(a)={7}, f(b)={8}\")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb)", 
+            "generation": 71, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils", 
+                "line": 199, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "27", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "13", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "1983", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "1896", 
+            "type": "RemoveOp", 
+            "variant": 142
+        }, 
+        {
+            "buggyStatement": "if ((fa * fb) >= 0.0) {\n\tthrow new org.apache.commons.math.ConvergenceException((\"number of iterations={0}, maximum iterations={1}, \" + (\"initial={2}, lower bound={3}, upper bound={4}, final a value={5}, \" + \"final b value={6}, f(a)={7}, f(b)={8}\")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb);\n} ", 
+            "generation": 88, 
+            "ingredients": null, 
+            "patch": "if (((initial < lowerBound) || (initial > upperBound)) || (lowerBound >= upperBound)) {\n\tthrow org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(\"invalid bracketing parameters:  lower bound={0},  initial={1}, upper bound={2}\", lowerBound, initial, upperBound);\n} ", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils", 
+                "line": 198, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "27", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "13", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "1983", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "1981", 
+            "type": "ReplaceOp", 
+            "variant": 176
+        }, 
+        {
+            "buggyStatement": "throw new org.apache.commons.math.ConvergenceException((\"number of iterations={0}, maximum iterations={1}, \" + (\"initial={2}, lower bound={3}, upper bound={4}, final a value={5}, \" + \"final b value={6}, f(a)={7}, f(b)={8}\")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb)", 
+            "generation": 234, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils", 
+                "line": 199, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "27", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "13", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "1983", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "2497", 
+            "type": "RemoveOp", 
+            "variant": 468
+        }, 
+        {
+            "buggyStatement": "if ((fa * fb) >= 0.0) {\n\tthrow new org.apache.commons.math.ConvergenceException((\"number of iterations={0}, maximum iterations={1}, \" + (\"initial={2}, lower bound={3}, upper bound={4}, final a value={5}, \" + \"final b value={6}, f(a)={7}, f(b)={8}\")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb);\n} ", 
+            "generation": 263, 
+            "ingredients": null, 
+            "patch": "if (maximumIterations <= 0) {\n\tthrow org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(\"bad value for maximum iterations number: {0}\", maximumIterations);\n} ", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils", 
+                "line": 198, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "27", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "13", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "1983", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "2785", 
+            "type": "ReplaceOp", 
+            "variant": 526
+        }, 
+        {
+            "buggyStatement": "throw new org.apache.commons.math.ConvergenceException((\"number of iterations={0}, maximum iterations={1}, \" + (\"initial={2}, lower bound={3}, upper bound={4}, final a value={5}, \" + \"final b value={6}, f(a)={7}, f(b)={8}\")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb)", 
+            "generation": 517, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils", 
+                "line": 199, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "27", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "13", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "1983", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "4204", 
+            "type": "RemoveOp", 
+            "variant": 1034
+        }, 
+        {
+            "buggyStatement": "if ((fa * fb) >= 0.0) {\n\tthrow new org.apache.commons.math.ConvergenceException((\"number of iterations={0}, maximum iterations={1}, \" + (\"initial={2}, lower bound={3}, upper bound={4}, final a value={5}, \" + \"final b value={6}, f(a)={7}, f(b)={8}\")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb);\n} ", 
+            "generation": 599, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils", 
+                "line": 198, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "27", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "13", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "1983", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "4830", 
+            "type": "RemoveOp", 
+            "variant": 1198
+        }, 
+        {
+            "buggyStatement": "if ((fa * fb) >= 0.0) {\n\tthrow new org.apache.commons.math.ConvergenceException((\"number of iterations={0}, maximum iterations={1}, \" + (\"initial={2}, lower bound={3}, upper bound={4}, final a value={5}, \" + \"final b value={6}, f(a)={7}, f(b)={8}\")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb);\n} ", 
+            "generation": 773, 
+            "ingredients": null, 
+            "patch": "if (function == null) {\n\tthrow org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(\"function is null\");\n} ", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils", 
+                "line": 198, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "27", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "13", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "1983", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "5365", 
+            "type": "ReplaceOp", 
+            "variant": 1546
+        }, 
+        {
+            "buggyStatement": "throw new org.apache.commons.math.ConvergenceException((\"number of iterations={0}, maximum iterations={1}, \" + (\"initial={2}, lower bound={3}, upper bound={4}, final a value={5}, \" + \"final b value={6}, f(a)={7}, f(b)={8}\")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb)", 
+            "generation": 794, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils", 
+                "line": 199, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "27", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "13", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "1983", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "5568", 
+            "type": "RemoveOp", 
+            "variant": 1588
+        }, 
+        {
+            "buggyStatement": "throw new org.apache.commons.math.ConvergenceException((\"number of iterations={0}, maximum iterations={1}, \" + (\"initial={2}, lower bound={3}, upper bound={4}, final a value={5}, \" + \"final b value={6}, f(a)={7}, f(b)={8}\")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb)", 
+            "generation": 814, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils", 
+                "line": 199, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "27", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "13", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "1983", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "5673", 
+            "type": "RemoveOp", 
+            "variant": 1628
+        }, 
+        {
+            "buggyStatement": "throw new org.apache.commons.math.ConvergenceException((\"number of iterations={0}, maximum iterations={1}, \" + (\"initial={2}, lower bound={3}, upper bound={4}, final a value={5}, \" + \"final b value={6}, f(a)={7}, f(b)={8}\")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb)", 
+            "generation": 819, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils", 
+                "line": 199, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "27", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "13", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "1983", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "5746", 
+            "type": "RemoveOp", 
+            "variant": 1638
+        }, 
+        {
+            "buggyStatement": "if ((fa * fb) >= 0.0) {\n\tthrow new org.apache.commons.math.ConvergenceException((\"number of iterations={0}, maximum iterations={1}, \" + (\"initial={2}, lower bound={3}, upper bound={4}, final a value={5}, \" + \"final b value={6}, f(a)={7}, f(b)={8}\")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb);\n} ", 
+            "generation": 863, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils", 
+                "line": 198, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "27", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "13", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "1983", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "5883", 
+            "type": "RemoveOp", 
+            "variant": 1726
+        }, 
+        {
+            "buggyStatement": "if ((fa * fb) >= 0.0) {\n\tthrow new org.apache.commons.math.ConvergenceException((\"number of iterations={0}, maximum iterations={1}, \" + (\"initial={2}, lower bound={3}, upper bound={4}, final a value={5}, \" + \"final b value={6}, f(a)={7}, f(b)={8}\")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb);\n} ", 
+            "generation": 920, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils", 
+                "line": 198, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "27", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "13", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "1983", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "6154", 
+            "type": "RemoveOp", 
+            "variant": 1840
+        }, 
+        {
+            "buggyStatement": "throw new org.apache.commons.math.ConvergenceException((\"number of iterations={0}, maximum iterations={1}, \" + (\"initial={2}, lower bound={3}, upper bound={4}, final a value={5}, \" + \"final b value={6}, f(a)={7}, f(b)={8}\")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb)", 
+            "generation": 932, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils", 
+                "line": 199, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "27", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "13", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "1983", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "6236", 
+            "type": "RemoveOp", 
+            "variant": 1864
+        }, 
+        {
+            "buggyStatement": "throw new org.apache.commons.math.ConvergenceException((\"number of iterations={0}, maximum iterations={1}, \" + (\"initial={2}, lower bound={3}, upper bound={4}, final a value={5}, \" + \"final b value={6}, f(a)={7}, f(b)={8}\")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb)", 
+            "generation": 998, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils", 
+                "line": 199, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "27", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "13", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "1983", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "6750", 
+            "type": "RemoveOp", 
+            "variant": 1996
+        }, 
+        {
+            "buggyStatement": "throw new org.apache.commons.math.ConvergenceException((\"number of iterations={0}, maximum iterations={1}, \" + (\"initial={2}, lower bound={3}, upper bound={4}, final a value={5}, \" + \"final b value={6}, f(a)={7}, f(b)={8}\")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb)", 
+            "generation": 1096, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils", 
+                "line": 199, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "27", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "13", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "1983", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "7043", 
+            "type": "RemoveOp", 
+            "variant": 2192
+        }, 
+        {
+            "buggyStatement": "throw new org.apache.commons.math.ConvergenceException((\"number of iterations={0}, maximum iterations={1}, \" + (\"initial={2}, lower bound={3}, upper bound={4}, final a value={5}, \" + \"final b value={6}, f(a)={7}, f(b)={8}\")) , numIterations , maximumIterations , initial , lowerBound , upperBound , a , b , fa , fb)", 
+            "generation": 1125, 
+            "ingredients": null, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils", 
+                "line": 199, 
+                "lineSusp": "1"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "27", 
+                "evaltcfailing": "4", 
+                "fvalresult": "true", 
+                "fvaltcall": "13", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "1983", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "-", 
+            "time": "7268", 
+            "type": "RemoveOp", 
+            "variant": 2250
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "142", 
+    "timeEvaluation": null, 
+    "timeTotal": "7301"
+}
