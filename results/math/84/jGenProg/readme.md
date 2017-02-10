@@ -240,10 +240,31 @@ Nb of EvoSuite Tests: 5
 Nb of Failing EvoSuite Tests: 5
 
 
+
+## Patch 10 #  jGenProg+MinImpact With Seed 20
+
+org.apache.commons.math.optimization.direct.MultiDirectional : 90
+
+Patch type: InsertAfterOp
+
+```Java
+
+return 
+
+```
+
+
+Execution Time: 0:53 (hh:mm) 
+
+Nb of EvoSuite Tests: 5
+
+Nb of Failing EvoSuite Tests: 5
+
+
 --- 
 #Seed: 23
 
-## Patch 10 #  jGenProg+MinImpact With Seed 23
+## Patch 11 #  jGenProg+MinImpact With Seed 23
 
 org.apache.commons.math.optimization.direct.MultiDirectional : 90
 
@@ -266,7 +287,7 @@ Nb of Failing EvoSuite Tests: 7
 --- 
 #Seed: 24
 
-## Patch 11 #  jGenProg+MinImpact With Seed 24
+## Patch 12 #  jGenProg+MinImpact With Seed 24
 
 org.apache.commons.math.optimization.direct.MultiDirectional : 90
 
@@ -289,7 +310,7 @@ Nb of Failing EvoSuite Tests: 5
 --- 
 #Seed: 26
 
-## Patch 12 #  jGenProg+MinImpact With Seed 26
+## Patch 13 #  jGenProg+MinImpact With Seed 26
 
 org.apache.commons.math.optimization.direct.MultiDirectional : 90
 
@@ -312,7 +333,7 @@ Nb of Failing EvoSuite Tests: 5
 --- 
 #Seed: 27
 
-## Patch 13 #  jGenProg+MinImpact With Seed 27
+## Patch 14 #  jGenProg+MinImpact With Seed 27
 
 org.apache.commons.math.optimization.direct.MultiDirectional : 90
 
@@ -335,7 +356,7 @@ Nb of Failing EvoSuite Tests: 5
 --- 
 #Seed: 28
 
-## Patch 14 #  jGenProg+MinImpact With Seed 28
+## Patch 15 #  jGenProg+MinImpact With Seed 28
 
 org.apache.commons.math.optimization.direct.MultiDirectional : 90
 
@@ -358,7 +379,7 @@ Nb of Failing EvoSuite Tests: 7
 --- 
 #Seed: 29
 
-## Patch 15 #  jGenProg+MinImpact With Seed 29
+## Patch 16 #  jGenProg+MinImpact With Seed 29
 
 org.apache.commons.math.optimization.direct.MultiDirectional : 90
 
@@ -381,7 +402,7 @@ Nb of Failing EvoSuite Tests: 5
 --- 
 #Seed: 30
 
-## Patch 16 #  jGenProg+MinImpact With Seed 30
+## Patch 17 #  jGenProg+MinImpact With Seed 30
 
 org.apache.commons.math.optimization.direct.MultiDirectional : 90
 

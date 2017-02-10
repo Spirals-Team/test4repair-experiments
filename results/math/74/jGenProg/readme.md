@@ -488,11 +488,32 @@ Nb of EvoSuite Tests: 12
 Nb of Failing EvoSuite Tests: 12
 
 
+
+## Patch 21 #  jGenProg+MinImpact With Seed 30
+
+org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator : 251
+
+Patch type: InsertBeforeOp
+
+```Java
+
+setMaxGrowth(10.0)
+
+```
+
+
+Execution Time: 1:12 (hh:mm) 
+
+Nb of EvoSuite Tests: 12
+
+Nb of Failing EvoSuite Tests: 12
+
+
 ---
 ## Summary an Analysis
 
-Average Nb of EvoSuite Tests: 10.37
+Average Nb of EvoSuite Tests: 10.45
 
-Average Nb of Failing EvoSuite Tests: 0.63
+Average Nb of Failing EvoSuite Tests: 0.75
 
 ---

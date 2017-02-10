@@ -80,10 +80,31 @@ Nb of EvoSuite Tests: 22
 Nb of Failing EvoSuite Tests: 22
 
 
+
+## Patch 3 #  jGenProg+MinImpact With Seed 2
+
+org.apache.commons.math.ode.events.EventState : 172
+
+Patch type: InsertAfterOp
+
+```Java
+
+final double t0 = interpolator.getPreviousTime()
+
+```
+
+
+Execution Time: 1:45 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
 --- 
 #Seed: 3
 
-## Patch 3 #  jGenProg+MinImpact With Seed 3
+## Patch 4 #  jGenProg+MinImpact With Seed 3
 
 org.apache.commons.math.ode.events.EventState : 173
 
@@ -103,10 +124,31 @@ Nb of EvoSuite Tests: 22
 Nb of Failing EvoSuite Tests: 22
 
 
+
+## Patch 5 #  jGenProg+MinImpact With Seed 3
+
+org.apache.commons.math.ode.events.EventState : 174
+
+Patch type: InsertBeforeOp
+
+```Java
+
+final double t0 = interpolator.getPreviousTime()
+
+```
+
+
+Execution Time: 1:30 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
 --- 
 #Seed: 4
 
-## Patch 4 #  jGenProg+MinImpact With Seed 4
+## Patch 6 #  jGenProg+MinImpact With Seed 4
 
 org.apache.commons.math.ode.events.EventState : 173
 
@@ -126,10 +168,31 @@ Nb of EvoSuite Tests: 22
 Nb of Failing EvoSuite Tests: 22
 
 
+
+## Patch 7 #  jGenProg+MinImpact With Seed 4
+
+org.apache.commons.math.ode.events.EventState : 174
+
+Patch type: InsertAfterOp
+
+```Java
+
+final double t0 = interpolator.getPreviousTime()
+
+```
+
+
+Execution Time: 1:56 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
 --- 
 #Seed: 5
 
-## Patch 5 #  jGenProg+MinImpact With Seed 5
+## Patch 8 #  jGenProg+MinImpact With Seed 5
 
 org.apache.commons.math.ode.events.EventState : 177
 
@@ -149,10 +212,73 @@ Nb of EvoSuite Tests: 22
 Nb of Failing EvoSuite Tests: 22
 
 
+
+## Patch 9 #  jGenProg+MinImpact With Seed 5
+
+org.apache.commons.math.ode.events.EventState : 172
+
+Patch type: InsertBeforeOp
+
+```Java
+
+final double t0 = interpolator.getPreviousTime()
+
+```
+
+
+Execution Time: 1:03 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
+
+## Patch 10 #  jGenProg+MinImpact With Seed 5
+
+org.apache.commons.math.ode.events.EventState : 175
+
+Patch type: InsertBeforeOp
+
+```Java
+
+final double t0 = interpolator.getPreviousTime()
+
+```
+
+
+Execution Time: 1:11 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
+
+## Patch 11 #  jGenProg+MinImpact With Seed 5
+
+org.apache.commons.math.ode.events.EventState : 183
+
+Patch type: InsertBeforeOp
+
+```Java
+
+ta = tb
+
+```
+
+
+Execution Time: 1:24 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
 --- 
 #Seed: 7
 
-## Patch 6 #  jGenProg+MinImpact With Seed 7
+## Patch 12 #  jGenProg+MinImpact With Seed 7
 
 org.apache.commons.math.ode.events.EventState : 173
 
@@ -172,10 +298,31 @@ Nb of EvoSuite Tests: 22
 Nb of Failing EvoSuite Tests: 22
 
 
+
+## Patch 13 #  jGenProg+MinImpact With Seed 7
+
+org.apache.commons.math.ode.events.EventState : 172
+
+Patch type: InsertAfterOp
+
+```Java
+
+final double t0 = interpolator.getPreviousTime()
+
+```
+
+
+Execution Time: 1:31 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
 --- 
 #Seed: 8
 
-## Patch 7 #  jGenProg+MinImpact With Seed 8
+## Patch 14 #  jGenProg+MinImpact With Seed 8
 
 org.apache.commons.math.ode.events.EventState : 173
 
@@ -195,10 +342,31 @@ Nb of EvoSuite Tests: 22
 Nb of Failing EvoSuite Tests: 22
 
 
+
+## Patch 15 #  jGenProg+MinImpact With Seed 8
+
+org.apache.commons.math.ode.events.EventState : 172
+
+Patch type: InsertAfterOp
+
+```Java
+
+final double t0 = interpolator.getPreviousTime()
+
+```
+
+
+Execution Time: 1:43 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
 --- 
 #Seed: 9
 
-## Patch 8 #  jGenProg+MinImpact With Seed 9
+## Patch 16 #  jGenProg+MinImpact With Seed 9
 
 org.apache.commons.math.ode.events.EventState : 173
 
@@ -218,10 +386,31 @@ Nb of EvoSuite Tests: 22
 Nb of Failing EvoSuite Tests: 22
 
 
+
+## Patch 17 #  jGenProg+MinImpact With Seed 9
+
+org.apache.commons.math.ode.events.EventState : 174
+
+Patch type: InsertBeforeOp
+
+```Java
+
+final double t0 = interpolator.getPreviousTime()
+
+```
+
+
+Execution Time: 1:45 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
 --- 
 #Seed: 10
 
-## Patch 9 #  jGenProg+MinImpact With Seed 10
+## Patch 18 #  jGenProg+MinImpact With Seed 10
 
 org.apache.commons.math.ode.events.EventState : 173
 
@@ -241,10 +430,31 @@ Nb of EvoSuite Tests: 22
 Nb of Failing EvoSuite Tests: 22
 
 
+
+## Patch 19 #  jGenProg+MinImpact With Seed 10
+
+org.apache.commons.math.ode.events.EventState : 174
+
+Patch type: InsertAfterOp
+
+```Java
+
+final double t0 = interpolator.getPreviousTime()
+
+```
+
+
+Execution Time: 1:47 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
 --- 
 #Seed: 11
 
-## Patch 10 #  jGenProg+MinImpact With Seed 11
+## Patch 20 #  jGenProg+MinImpact With Seed 11
 
 org.apache.commons.math.ode.events.EventState : 172
 
@@ -267,7 +477,7 @@ Nb of Failing EvoSuite Tests: 22
 --- 
 #Seed: 12
 
-## Patch 11 #  jGenProg+MinImpact With Seed 12
+## Patch 21 #  jGenProg+MinImpact With Seed 12
 
 org.apache.commons.math.ode.events.EventState : 180
 
@@ -287,10 +497,52 @@ Nb of EvoSuite Tests: 22
 Nb of Failing EvoSuite Tests: 22
 
 
+
+## Patch 22 #  jGenProg+MinImpact With Seed 12
+
+org.apache.commons.math.ode.events.EventState : 175
+
+Patch type: InsertBeforeOp
+
+```Java
+
+final double t0 = interpolator.getPreviousTime()
+
+```
+
+
+Execution Time: 0:44 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
+
+## Patch 23 #  jGenProg+MinImpact With Seed 12
+
+org.apache.commons.math.ode.events.EventState : 172
+
+Patch type: InsertBeforeOp
+
+```Java
+
+final double t0 = interpolator.getPreviousTime()
+
+```
+
+
+Execution Time: 0:52 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
 --- 
 #Seed: 13
 
-## Patch 12 #  jGenProg+MinImpact With Seed 13
+## Patch 24 #  jGenProg+MinImpact With Seed 13
 
 org.apache.commons.math.ode.events.EventState : 175
 
@@ -313,7 +565,7 @@ Nb of Failing EvoSuite Tests: 22
 --- 
 #Seed: 14
 
-## Patch 13 #  jGenProg+MinImpact With Seed 14
+## Patch 25 #  jGenProg+MinImpact With Seed 14
 
 org.apache.commons.math.ode.events.EventState : 174
 
@@ -333,10 +585,52 @@ Nb of EvoSuite Tests: 22
 Nb of Failing EvoSuite Tests: 22
 
 
+
+## Patch 26 #  jGenProg+MinImpact With Seed 14
+
+org.apache.commons.math.ode.events.EventState : 177
+
+Patch type: InsertBeforeOp
+
+```Java
+
+final double t0 = interpolator.getPreviousTime()
+
+```
+
+
+Execution Time: 1:11 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
+
+## Patch 27 #  jGenProg+MinImpact With Seed 14
+
+org.apache.commons.math.ode.events.EventState : 174
+
+Patch type: InsertBeforeOp
+
+```Java
+
+final double t0 = interpolator.getPreviousTime()
+
+```
+
+
+Execution Time: 1:22 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
 --- 
 #Seed: 15
 
-## Patch 14 #  jGenProg+MinImpact With Seed 15
+## Patch 28 #  jGenProg+MinImpact With Seed 15
 
 org.apache.commons.math.ode.events.EventState : 172
 
@@ -356,10 +650,52 @@ Nb of EvoSuite Tests: 22
 Nb of Failing EvoSuite Tests: 22
 
 
+
+## Patch 29 #  jGenProg+MinImpact With Seed 15
+
+org.apache.commons.math.ode.events.EventState : 177
+
+Patch type: InsertBeforeOp
+
+```Java
+
+final double t0 = interpolator.getPreviousTime()
+
+```
+
+
+Execution Time: 0:39 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
+
+## Patch 30 #  jGenProg+MinImpact With Seed 15
+
+org.apache.commons.math.ode.events.EventState : 183
+
+Patch type: InsertBeforeOp
+
+```Java
+
+ta = tb
+
+```
+
+
+Execution Time: 0:47 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
 --- 
 #Seed: 16
 
-## Patch 15 #  jGenProg+MinImpact With Seed 16
+## Patch 31 #  jGenProg+MinImpact With Seed 16
 
 org.apache.commons.math.ode.events.EventState : 180
 
@@ -382,7 +718,7 @@ Nb of Failing EvoSuite Tests: 22
 --- 
 #Seed: 17
 
-## Patch 16 #  jGenProg+MinImpact With Seed 17
+## Patch 32 #  jGenProg+MinImpact With Seed 17
 
 org.apache.commons.math.ode.events.EventState : 175
 
@@ -405,7 +741,7 @@ Nb of Failing EvoSuite Tests: 22
 --- 
 #Seed: 18
 
-## Patch 17 #  jGenProg+MinImpact With Seed 18
+## Patch 33 #  jGenProg+MinImpact With Seed 18
 
 org.apache.commons.math.ode.events.EventState : 173
 
@@ -425,10 +761,52 @@ Nb of EvoSuite Tests: 22
 Nb of Failing EvoSuite Tests: 22
 
 
+
+## Patch 34 #  jGenProg+MinImpact With Seed 18
+
+org.apache.commons.math.ode.events.EventState : 180
+
+Patch type: InsertBeforeOp
+
+```Java
+
+ta = tb
+
+```
+
+
+Execution Time: 1:11 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
+
+## Patch 35 #  jGenProg+MinImpact With Seed 18
+
+org.apache.commons.math.ode.events.EventState : 175
+
+Patch type: InsertAfterOp
+
+```Java
+
+final double t0 = interpolator.getPreviousTime()
+
+```
+
+
+Execution Time: 1:37 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
 --- 
 #Seed: 20
 
-## Patch 18 #  jGenProg+MinImpact With Seed 20
+## Patch 36 #  jGenProg+MinImpact With Seed 20
 
 org.apache.commons.math.ode.events.EventState : 175
 
@@ -448,10 +826,52 @@ Nb of EvoSuite Tests: 22
 Nb of Failing EvoSuite Tests: 22
 
 
+
+## Patch 37 #  jGenProg+MinImpact With Seed 20
+
+org.apache.commons.math.ode.events.EventState : 173
+
+Patch type: InsertBeforeOp
+
+```Java
+
+final double t0 = interpolator.getPreviousTime()
+
+```
+
+
+Execution Time: 0:08 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
+
+## Patch 38 #  jGenProg+MinImpact With Seed 20
+
+org.apache.commons.math.ode.events.EventState : 174
+
+Patch type: InsertAfterOp
+
+```Java
+
+final double t0 = interpolator.getPreviousTime()
+
+```
+
+
+Execution Time: 1:43 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
 --- 
 #Seed: 22
 
-## Patch 19 #  jGenProg+MinImpact With Seed 22
+## Patch 39 #  jGenProg+MinImpact With Seed 22
 
 org.apache.commons.math.ode.events.EventState : 173
 
@@ -474,7 +894,7 @@ Nb of Failing EvoSuite Tests: 22
 --- 
 #Seed: 23
 
-## Patch 20 #  jGenProg+MinImpact With Seed 23
+## Patch 40 #  jGenProg+MinImpact With Seed 23
 
 org.apache.commons.math.ode.events.EventState : 173
 
@@ -494,10 +914,73 @@ Nb of EvoSuite Tests: 21
 Nb of Failing EvoSuite Tests: 21
 
 
+
+## Patch 41 #  jGenProg+MinImpact With Seed 23
+
+org.apache.commons.math.ode.events.EventState : 174
+
+Patch type: InsertAfterOp
+
+```Java
+
+final double t0 = interpolator.getPreviousTime()
+
+```
+
+
+Execution Time: 1:30 (hh:mm) 
+
+Nb of EvoSuite Tests: 21
+
+Nb of Failing EvoSuite Tests: 21
+
+
+
+## Patch 42 #  jGenProg+MinImpact With Seed 23
+
+org.apache.commons.math.ode.events.EventState : 177
+
+Patch type: InsertBeforeOp
+
+```Java
+
+final double t0 = interpolator.getPreviousTime()
+
+```
+
+
+Execution Time: 1:36 (hh:mm) 
+
+Nb of EvoSuite Tests: 21
+
+Nb of Failing EvoSuite Tests: 21
+
+
+
+## Patch 43 #  jGenProg+MinImpact With Seed 23
+
+org.apache.commons.math.ode.events.EventState : 172
+
+Patch type: InsertAfterOp
+
+```Java
+
+final double t0 = interpolator.getPreviousTime()
+
+```
+
+
+Execution Time: 1:38 (hh:mm) 
+
+Nb of EvoSuite Tests: 21
+
+Nb of Failing EvoSuite Tests: 21
+
+
 --- 
 #Seed: 25
 
-## Patch 21 #  jGenProg+MinImpact With Seed 25
+## Patch 44 #  jGenProg+MinImpact With Seed 25
 
 org.apache.commons.math.ode.events.EventState : 172
 
@@ -517,10 +1000,31 @@ Nb of EvoSuite Tests: 22
 Nb of Failing EvoSuite Tests: 22
 
 
+
+## Patch 45 #  jGenProg+MinImpact With Seed 25
+
+org.apache.commons.math.ode.events.EventState : 180
+
+Patch type: InsertBeforeOp
+
+```Java
+
+ta = tb
+
+```
+
+
+Execution Time: 1:05 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
 --- 
 #Seed: 26
 
-## Patch 22 #  jGenProg+MinImpact With Seed 26
+## Patch 46 #  jGenProg+MinImpact With Seed 26
 
 org.apache.commons.math.ode.events.EventState : 174
 
@@ -543,7 +1047,7 @@ Nb of Failing EvoSuite Tests: 22
 --- 
 #Seed: 27
 
-## Patch 23 #  jGenProg+MinImpact With Seed 27
+## Patch 47 #  jGenProg+MinImpact With Seed 27
 
 org.apache.commons.math.ode.events.EventState : 172
 
@@ -566,7 +1070,7 @@ Nb of Failing EvoSuite Tests: 21
 --- 
 #Seed: 28
 
-## Patch 24 #  jGenProg+MinImpact With Seed 28
+## Patch 48 #  jGenProg+MinImpact With Seed 28
 
 org.apache.commons.math.ode.events.EventState : 173
 
@@ -586,10 +1090,73 @@ Nb of EvoSuite Tests: 22
 Nb of Failing EvoSuite Tests: 22
 
 
+
+## Patch 49 #  jGenProg+MinImpact With Seed 28
+
+org.apache.commons.math.ode.events.EventState : 173
+
+Patch type: InsertAfterOp
+
+```Java
+
+final double t0 = interpolator.getPreviousTime()
+
+```
+
+
+Execution Time: 0:57 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
+
+## Patch 50 #  jGenProg+MinImpact With Seed 28
+
+org.apache.commons.math.ode.events.EventState : 177
+
+Patch type: InsertBeforeOp
+
+```Java
+
+final double t0 = interpolator.getPreviousTime()
+
+```
+
+
+Execution Time: 1:38 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
+
+## Patch 51 #  jGenProg+MinImpact With Seed 28
+
+org.apache.commons.math.ode.events.EventState : 180
+
+Patch type: InsertBeforeOp
+
+```Java
+
+ta = tb
+
+```
+
+
+Execution Time: 1:58 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
 --- 
 #Seed: 30
 
-## Patch 25 #  jGenProg+MinImpact With Seed 30
+## Patch 52 #  jGenProg+MinImpact With Seed 30
 
 org.apache.commons.math.ode.events.EventState : 174
 

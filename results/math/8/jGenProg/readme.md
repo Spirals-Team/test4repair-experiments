@@ -47,10 +47,31 @@ Nb of EvoSuite Tests: 19
 Nb of Failing EvoSuite Tests: 19
 
 
+
+## Patch 2 #  jGenProg+MinImpact With Seed 1
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 189
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:26 (hh:mm) 
+
+Nb of EvoSuite Tests: 19
+
+Nb of Failing EvoSuite Tests: 19
+
+
 --- 
 #Seed: 2
 
-## Patch 2 #  jGenProg+MinImpact With Seed 2
+## Patch 3 #  jGenProg+MinImpact With Seed 2
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 190
 
@@ -70,10 +91,31 @@ Nb of EvoSuite Tests: 19
 Nb of Failing EvoSuite Tests: 19
 
 
+
+## Patch 4 #  jGenProg+MinImpact With Seed 2
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 189
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:25 (hh:mm) 
+
+Nb of EvoSuite Tests: 19
+
+Nb of Failing EvoSuite Tests: 19
+
+
 --- 
 #Seed: 3
 
-## Patch 3 #  jGenProg+MinImpact With Seed 3
+## Patch 5 #  jGenProg+MinImpact With Seed 3
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 189
 
@@ -93,10 +135,31 @@ Nb of EvoSuite Tests: 19
 Nb of Failing EvoSuite Tests: 19
 
 
+
+## Patch 6 #  jGenProg+MinImpact With Seed 3
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 190
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:28 (hh:mm) 
+
+Nb of EvoSuite Tests: 19
+
+Nb of Failing EvoSuite Tests: 19
+
+
 --- 
 #Seed: 4
 
-## Patch 4 #  jGenProg+MinImpact With Seed 4
+## Patch 7 #  jGenProg+MinImpact With Seed 4
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 189
 
@@ -116,10 +179,31 @@ Nb of EvoSuite Tests: 21
 Nb of Failing EvoSuite Tests: 21
 
 
+
+## Patch 8 #  jGenProg+MinImpact With Seed 4
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 190
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:43 (hh:mm) 
+
+Nb of EvoSuite Tests: 21
+
+Nb of Failing EvoSuite Tests: 21
+
+
 --- 
 #Seed: 5
 
-## Patch 5 #  jGenProg+MinImpact With Seed 5
+## Patch 9 #  jGenProg+MinImpact With Seed 5
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 189
 
@@ -139,10 +223,31 @@ Nb of EvoSuite Tests: 19
 Nb of Failing EvoSuite Tests: 19
 
 
+
+## Patch 10 #  jGenProg+MinImpact With Seed 5
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 190
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:31 (hh:mm) 
+
+Nb of EvoSuite Tests: 19
+
+Nb of Failing EvoSuite Tests: 19
+
+
 --- 
 #Seed: 6
 
-## Patch 6 #  jGenProg+MinImpact With Seed 6
+## Patch 11 #  jGenProg+MinImpact With Seed 6
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 190
 
@@ -162,10 +267,31 @@ Nb of EvoSuite Tests: 20
 Nb of Failing EvoSuite Tests: 20
 
 
+
+## Patch 12 #  jGenProg+MinImpact With Seed 6
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 189
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:46 (hh:mm) 
+
+Nb of EvoSuite Tests: 20
+
+Nb of Failing EvoSuite Tests: 20
+
+
 --- 
 #Seed: 7
 
-## Patch 7 #  jGenProg+MinImpact With Seed 7
+## Patch 13 #  jGenProg+MinImpact With Seed 7
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 190
 
@@ -185,10 +311,31 @@ Nb of EvoSuite Tests: 21
 Nb of Failing EvoSuite Tests: 21
 
 
+
+## Patch 14 #  jGenProg+MinImpact With Seed 7
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 189
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:17 (hh:mm) 
+
+Nb of EvoSuite Tests: 21
+
+Nb of Failing EvoSuite Tests: 21
+
+
 --- 
 #Seed: 8
 
-## Patch 8 #  jGenProg+MinImpact With Seed 8
+## Patch 15 #  jGenProg+MinImpact With Seed 8
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 190
 
@@ -208,10 +355,31 @@ Nb of EvoSuite Tests: 21
 Nb of Failing EvoSuite Tests: 21
 
 
+
+## Patch 16 #  jGenProg+MinImpact With Seed 8
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 189
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:24 (hh:mm) 
+
+Nb of EvoSuite Tests: 21
+
+Nb of Failing EvoSuite Tests: 21
+
+
 --- 
 #Seed: 9
 
-## Patch 9 #  jGenProg+MinImpact With Seed 9
+## Patch 17 #  jGenProg+MinImpact With Seed 9
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 189
 
@@ -231,10 +399,31 @@ Nb of EvoSuite Tests: 20
 Nb of Failing EvoSuite Tests: 20
 
 
+
+## Patch 18 #  jGenProg+MinImpact With Seed 9
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 190
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:47 (hh:mm) 
+
+Nb of EvoSuite Tests: 20
+
+Nb of Failing EvoSuite Tests: 20
+
+
 --- 
 #Seed: 10
 
-## Patch 10 #  jGenProg+MinImpact With Seed 10
+## Patch 19 #  jGenProg+MinImpact With Seed 10
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 190
 
@@ -254,10 +443,31 @@ Nb of EvoSuite Tests: 21
 Nb of Failing EvoSuite Tests: 21
 
 
+
+## Patch 20 #  jGenProg+MinImpact With Seed 10
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 189
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:38 (hh:mm) 
+
+Nb of EvoSuite Tests: 21
+
+Nb of Failing EvoSuite Tests: 21
+
+
 --- 
 #Seed: 11
 
-## Patch 11 #  jGenProg+MinImpact With Seed 11
+## Patch 21 #  jGenProg+MinImpact With Seed 11
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 189
 
@@ -277,10 +487,31 @@ Nb of EvoSuite Tests: 19
 Nb of Failing EvoSuite Tests: 19
 
 
+
+## Patch 22 #  jGenProg+MinImpact With Seed 11
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 190
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:31 (hh:mm) 
+
+Nb of EvoSuite Tests: 19
+
+Nb of Failing EvoSuite Tests: 19
+
+
 --- 
 #Seed: 12
 
-## Patch 12 #  jGenProg+MinImpact With Seed 12
+## Patch 23 #  jGenProg+MinImpact With Seed 12
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 189
 
@@ -300,10 +531,31 @@ Nb of EvoSuite Tests: 21
 Nb of Failing EvoSuite Tests: 21
 
 
+
+## Patch 24 #  jGenProg+MinImpact With Seed 12
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 190
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:32 (hh:mm) 
+
+Nb of EvoSuite Tests: 21
+
+Nb of Failing EvoSuite Tests: 21
+
+
 --- 
 #Seed: 13
 
-## Patch 13 #  jGenProg+MinImpact With Seed 13
+## Patch 25 #  jGenProg+MinImpact With Seed 13
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 189
 
@@ -323,10 +575,31 @@ Nb of EvoSuite Tests: 20
 Nb of Failing EvoSuite Tests: 20
 
 
+
+## Patch 26 #  jGenProg+MinImpact With Seed 13
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 190
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:19 (hh:mm) 
+
+Nb of EvoSuite Tests: 20
+
+Nb of Failing EvoSuite Tests: 20
+
+
 --- 
 #Seed: 14
 
-## Patch 14 #  jGenProg+MinImpact With Seed 14
+## Patch 27 #  jGenProg+MinImpact With Seed 14
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 189
 
@@ -346,10 +619,31 @@ Nb of EvoSuite Tests: 21
 Nb of Failing EvoSuite Tests: 21
 
 
+
+## Patch 28 #  jGenProg+MinImpact With Seed 14
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 190
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:31 (hh:mm) 
+
+Nb of EvoSuite Tests: 21
+
+Nb of Failing EvoSuite Tests: 21
+
+
 --- 
 #Seed: 15
 
-## Patch 15 #  jGenProg+MinImpact With Seed 15
+## Patch 29 #  jGenProg+MinImpact With Seed 15
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 189
 
@@ -369,10 +663,31 @@ Nb of EvoSuite Tests: 17
 Nb of Failing EvoSuite Tests: 17
 
 
+
+## Patch 30 #  jGenProg+MinImpact With Seed 15
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 190
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:48 (hh:mm) 
+
+Nb of EvoSuite Tests: 17
+
+Nb of Failing EvoSuite Tests: 17
+
+
 --- 
 #Seed: 16
 
-## Patch 16 #  jGenProg+MinImpact With Seed 16
+## Patch 31 #  jGenProg+MinImpact With Seed 16
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 190
 
@@ -392,10 +707,31 @@ Nb of EvoSuite Tests: 20
 Nb of Failing EvoSuite Tests: 20
 
 
+
+## Patch 32 #  jGenProg+MinImpact With Seed 16
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 189
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:26 (hh:mm) 
+
+Nb of EvoSuite Tests: 20
+
+Nb of Failing EvoSuite Tests: 20
+
+
 --- 
 #Seed: 17
 
-## Patch 17 #  jGenProg+MinImpact With Seed 17
+## Patch 33 #  jGenProg+MinImpact With Seed 17
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 189
 
@@ -415,10 +751,31 @@ Nb of EvoSuite Tests: 18
 Nb of Failing EvoSuite Tests: 18
 
 
+
+## Patch 34 #  jGenProg+MinImpact With Seed 17
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 190
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:42 (hh:mm) 
+
+Nb of EvoSuite Tests: 18
+
+Nb of Failing EvoSuite Tests: 18
+
+
 --- 
 #Seed: 18
 
-## Patch 18 #  jGenProg+MinImpact With Seed 18
+## Patch 35 #  jGenProg+MinImpact With Seed 18
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 190
 
@@ -438,10 +795,31 @@ Nb of EvoSuite Tests: 18
 Nb of Failing EvoSuite Tests: 18
 
 
+
+## Patch 36 #  jGenProg+MinImpact With Seed 18
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 189
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:26 (hh:mm) 
+
+Nb of EvoSuite Tests: 18
+
+Nb of Failing EvoSuite Tests: 18
+
+
 --- 
 #Seed: 19
 
-## Patch 19 #  jGenProg+MinImpact With Seed 19
+## Patch 37 #  jGenProg+MinImpact With Seed 19
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 190
 
@@ -461,10 +839,31 @@ Nb of EvoSuite Tests: 19
 Nb of Failing EvoSuite Tests: 19
 
 
+
+## Patch 38 #  jGenProg+MinImpact With Seed 19
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 189
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:22 (hh:mm) 
+
+Nb of EvoSuite Tests: 19
+
+Nb of Failing EvoSuite Tests: 19
+
+
 --- 
 #Seed: 20
 
-## Patch 20 #  jGenProg+MinImpact With Seed 20
+## Patch 39 #  jGenProg+MinImpact With Seed 20
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 189
 
@@ -484,10 +883,31 @@ Nb of EvoSuite Tests: 20
 Nb of Failing EvoSuite Tests: 20
 
 
+
+## Patch 40 #  jGenProg+MinImpact With Seed 20
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 190
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:22 (hh:mm) 
+
+Nb of EvoSuite Tests: 20
+
+Nb of Failing EvoSuite Tests: 20
+
+
 --- 
 #Seed: 21
 
-## Patch 21 #  jGenProg+MinImpact With Seed 21
+## Patch 41 #  jGenProg+MinImpact With Seed 21
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 190
 
@@ -507,10 +927,31 @@ Nb of EvoSuite Tests: 21
 Nb of Failing EvoSuite Tests: 21
 
 
+
+## Patch 42 #  jGenProg+MinImpact With Seed 21
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 189
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:22 (hh:mm) 
+
+Nb of EvoSuite Tests: 21
+
+Nb of Failing EvoSuite Tests: 21
+
+
 --- 
 #Seed: 22
 
-## Patch 22 #  jGenProg+MinImpact With Seed 22
+## Patch 43 #  jGenProg+MinImpact With Seed 22
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 190
 
@@ -530,10 +971,31 @@ Nb of EvoSuite Tests: 20
 Nb of Failing EvoSuite Tests: 20
 
 
+
+## Patch 44 #  jGenProg+MinImpact With Seed 22
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 189
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:57 (hh:mm) 
+
+Nb of EvoSuite Tests: 20
+
+Nb of Failing EvoSuite Tests: 20
+
+
 --- 
 #Seed: 23
 
-## Patch 23 #  jGenProg+MinImpact With Seed 23
+## Patch 45 #  jGenProg+MinImpact With Seed 23
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 190
 
@@ -553,10 +1015,31 @@ Nb of EvoSuite Tests: 19
 Nb of Failing EvoSuite Tests: 19
 
 
+
+## Patch 46 #  jGenProg+MinImpact With Seed 23
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 189
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:33 (hh:mm) 
+
+Nb of EvoSuite Tests: 19
+
+Nb of Failing EvoSuite Tests: 19
+
+
 --- 
 #Seed: 24
 
-## Patch 24 #  jGenProg+MinImpact With Seed 24
+## Patch 47 #  jGenProg+MinImpact With Seed 24
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 190
 
@@ -576,10 +1059,31 @@ Nb of EvoSuite Tests: 18
 Nb of Failing EvoSuite Tests: 18
 
 
+
+## Patch 48 #  jGenProg+MinImpact With Seed 24
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 189
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:16 (hh:mm) 
+
+Nb of EvoSuite Tests: 18
+
+Nb of Failing EvoSuite Tests: 18
+
+
 --- 
 #Seed: 25
 
-## Patch 25 #  jGenProg+MinImpact With Seed 25
+## Patch 49 #  jGenProg+MinImpact With Seed 25
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 190
 
@@ -599,10 +1103,31 @@ Nb of EvoSuite Tests: 21
 Nb of Failing EvoSuite Tests: 21
 
 
+
+## Patch 50 #  jGenProg+MinImpact With Seed 25
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 189
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:39 (hh:mm) 
+
+Nb of EvoSuite Tests: 21
+
+Nb of Failing EvoSuite Tests: 21
+
+
 --- 
 #Seed: 26
 
-## Patch 26 #  jGenProg+MinImpact With Seed 26
+## Patch 51 #  jGenProg+MinImpact With Seed 26
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 190
 
@@ -622,10 +1147,31 @@ Nb of EvoSuite Tests: 21
 Nb of Failing EvoSuite Tests: 21
 
 
+
+## Patch 52 #  jGenProg+MinImpact With Seed 26
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 189
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:52 (hh:mm) 
+
+Nb of EvoSuite Tests: 21
+
+Nb of Failing EvoSuite Tests: 21
+
+
 --- 
 #Seed: 27
 
-## Patch 27 #  jGenProg+MinImpact With Seed 27
+## Patch 53 #  jGenProg+MinImpact With Seed 27
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 190
 
@@ -645,10 +1191,31 @@ Nb of EvoSuite Tests: 19
 Nb of Failing EvoSuite Tests: 19
 
 
+
+## Patch 54 #  jGenProg+MinImpact With Seed 27
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 189
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:58 (hh:mm) 
+
+Nb of EvoSuite Tests: 19
+
+Nb of Failing EvoSuite Tests: 19
+
+
 --- 
 #Seed: 28
 
-## Patch 28 #  jGenProg+MinImpact With Seed 28
+## Patch 55 #  jGenProg+MinImpact With Seed 28
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 190
 
@@ -668,10 +1235,31 @@ Nb of EvoSuite Tests: 22
 Nb of Failing EvoSuite Tests: 22
 
 
+
+## Patch 56 #  jGenProg+MinImpact With Seed 28
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 189
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:45 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
 --- 
 #Seed: 29
 
-## Patch 29 #  jGenProg+MinImpact With Seed 29
+## Patch 57 #  jGenProg+MinImpact With Seed 29
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 190
 
@@ -691,10 +1279,31 @@ Nb of EvoSuite Tests: 20
 Nb of Failing EvoSuite Tests: 20
 
 
+
+## Patch 58 #  jGenProg+MinImpact With Seed 29
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 189
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:31 (hh:mm) 
+
+Nb of EvoSuite Tests: 20
+
+Nb of Failing EvoSuite Tests: 20
+
+
 --- 
 #Seed: 30
 
-## Patch 30 #  jGenProg+MinImpact With Seed 30
+## Patch 59 #  jGenProg+MinImpact With Seed 30
 
 org.apache.commons.math3.distribution.DiscreteDistribution : 190
 
@@ -714,10 +1323,31 @@ Nb of EvoSuite Tests: 21
 Nb of Failing EvoSuite Tests: 21
 
 
+
+## Patch 60 #  jGenProg+MinImpact With Seed 30
+
+org.apache.commons.math3.distribution.DiscreteDistribution : 189
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:17 (hh:mm) 
+
+Nb of EvoSuite Tests: 21
+
+Nb of Failing EvoSuite Tests: 21
+
+
 ---
 ## Summary an Analysis
 
-Average Nb of EvoSuite Tests: 21.5
+Average Nb of EvoSuite Tests: 22
 
 Average Nb of Failing EvoSuite Tests: 2
 

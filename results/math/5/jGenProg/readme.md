@@ -459,7 +459,7 @@ Nb of Failing EvoSuite Tests: 163
 --- 
 #Seed: 29
 
-## Patch 21 #  jGenProg+MinImpact With Seed 29
+## Patch 20 #  jGenProg+MinImpact With Seed 29
 
 org.apache.commons.math3.complex.Complex : 305
 
@@ -482,7 +482,7 @@ Nb of Failing EvoSuite Tests: 173
 --- 
 #Seed: 30
 
-## Patch 22 #  jGenProg+MinImpact With Seed 30
+## Patch 21 #  jGenProg+MinImpact With Seed 30
 
 org.apache.commons.math3.complex.Complex : 305
 

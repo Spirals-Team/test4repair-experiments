@@ -62,7 +62,7 @@ Nb of Failing EvoSuite Tests: 12
 --- 
 #Seed: 3
 
-## Patch 3 #  jGenProg+MinImpact With Seed 3
+## Patch 2 #  jGenProg+MinImpact With Seed 3
 
 org.jfree.chart.JFreeChart : 1219
 
@@ -82,10 +82,57 @@ Nb of EvoSuite Tests: 116
 Nb of Failing EvoSuite Tests: 116
 
 
+
+## Patch 3 #  jGenProg+MinImpact With Seed 3
+
+org.jfree.chart.JFreeChart : 1219
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:08 (hh:mm) 
+
+Nb of EvoSuite Tests: 116
+
+Nb of Failing EvoSuite Tests: 116
+
+
+
+## Patch 4 #  jGenProg+MinImpact With Seed 3
+
+org.jfree.chart.plot.PiePlot3D : 247
+
+Patch type: ReplaceOp
+
+```Java
+
+if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {
+	drawNoDataMessage(g2, plotArea);
+	g2.setClip(savedClip);
+	drawOutline(g2, plotArea);
+	return ;
+} 
+
+```
+
+
+Execution Time: 2:03 (hh:mm) 
+
+Nb of EvoSuite Tests: 15
+
+Nb of Failing EvoSuite Tests: 15
+
+
 --- 
 #Seed: 4
 
-## Patch 4 #  jGenProg+MinImpact With Seed 4
+## Patch 5 #  jGenProg+MinImpact With Seed 4
 
 org.jfree.chart.plot.PiePlot3D : 266
 
@@ -113,7 +160,7 @@ Nb of Failing EvoSuite Tests: 15
 --- 
 #Seed: 5
 
-## Patch 5 #  jGenProg+MinImpact With Seed 5
+## Patch 6 #  jGenProg+MinImpact With Seed 5
 
 org.jfree.chart.plot.PiePlot3D : 252
 
@@ -141,7 +188,7 @@ Nb of Failing EvoSuite Tests: 11
 --- 
 #Seed: 6
 
-## Patch 6 #  jGenProg+MinImpact With Seed 6
+## Patch 7 #  jGenProg+MinImpact With Seed 6
 
 org.jfree.chart.plot.PiePlot3D : 252
 
@@ -166,10 +213,52 @@ Nb of EvoSuite Tests: 24
 Nb of Failing EvoSuite Tests: 24
 
 
+
+## Patch 8 #  jGenProg+MinImpact With Seed 6
+
+org.jfree.chart.JFreeChart : 1219
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:18 (hh:mm) 
+
+Nb of EvoSuite Tests: 117
+
+Nb of Failing EvoSuite Tests: 117
+
+
+
+## Patch 9 #  jGenProg+MinImpact With Seed 6
+
+org.jfree.chart.JFreeChart : 1219
+
+Patch type: ReplaceOp
+
+```Java
+
+g2.clip(chartArea)
+
+```
+
+
+Execution Time: 0:51 (hh:mm) 
+
+Nb of EvoSuite Tests: 117
+
+Nb of Failing EvoSuite Tests: 117
+
+
 --- 
 #Seed: 8
 
-## Patch 7 #  jGenProg+MinImpact With Seed 8
+## Patch 10 #  jGenProg+MinImpact With Seed 8
 
 org.jfree.chart.JFreeChart : 1219
 
@@ -192,7 +281,7 @@ Nb of Failing EvoSuite Tests: 121
 --- 
 #Seed: 9
 
-## Patch 8 #  jGenProg+MinImpact With Seed 9
+## Patch 11 #  jGenProg+MinImpact With Seed 9
 
 org.jfree.chart.JFreeChart : 1219
 
@@ -212,10 +301,31 @@ Nb of EvoSuite Tests: 126
 Nb of Failing EvoSuite Tests: 126
 
 
+
+## Patch 12 #  jGenProg+MinImpact With Seed 9
+
+org.jfree.chart.JFreeChart : 1219
+
+Patch type: ReplaceOp
+
+```Java
+
+g2.setPaintMode()
+
+```
+
+
+Execution Time: 0:26 (hh:mm) 
+
+Nb of EvoSuite Tests: 126
+
+Nb of Failing EvoSuite Tests: 126
+
+
 --- 
 #Seed: 10
 
-## Patch 9 #  jGenProg+MinImpact With Seed 10
+## Patch 13 #  jGenProg+MinImpact With Seed 10
 
 org.jfree.chart.plot.PiePlot3D : 272
 
@@ -240,10 +350,31 @@ Nb of EvoSuite Tests: 24
 Nb of Failing EvoSuite Tests: 24
 
 
+
+## Patch 14 #  jGenProg+MinImpact With Seed 10
+
+org.jfree.chart.JFreeChart : 1219
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:33 (hh:mm) 
+
+Nb of EvoSuite Tests: 122
+
+Nb of Failing EvoSuite Tests: 122
+
+
 --- 
 #Seed: 12
 
-## Patch 10 #  jGenProg+MinImpact With Seed 12
+## Patch 15 #  jGenProg+MinImpact With Seed 12
 
 org.jfree.chart.JFreeChart : 1219
 
@@ -263,10 +394,31 @@ Nb of EvoSuite Tests: 120
 Nb of Failing EvoSuite Tests: 120
 
 
+
+## Patch 16 #  jGenProg+MinImpact With Seed 12
+
+org.jfree.chart.JFreeChart : 1207
+
+Patch type: InsertAfterOp
+
+```Java
+
+return 
+
+```
+
+
+Execution Time: 1:08 (hh:mm) 
+
+Nb of EvoSuite Tests: 120
+
+Nb of Failing EvoSuite Tests: 120
+
+
 --- 
 #Seed: 13
 
-## Patch 11 #  jGenProg+MinImpact With Seed 13
+## Patch 17 #  jGenProg+MinImpact With Seed 13
 
 org.jfree.chart.JFreeChart : 1219
 
@@ -289,7 +441,7 @@ Nb of Failing EvoSuite Tests: 116
 --- 
 #Seed: 14
 
-## Patch 12 #  jGenProg+MinImpact With Seed 14
+## Patch 18 #  jGenProg+MinImpact With Seed 14
 
 org.jfree.chart.plot.PiePlot3D : 266
 
@@ -317,7 +469,7 @@ Nb of Failing EvoSuite Tests: 14
 --- 
 #Seed: 15
 
-## Patch 13 #  jGenProg+MinImpact With Seed 15
+## Patch 19 #  jGenProg+MinImpact With Seed 15
 
 org.jfree.chart.plot.PiePlot3D : 272
 
@@ -342,10 +494,36 @@ Nb of EvoSuite Tests: 14
 Nb of Failing EvoSuite Tests: 14
 
 
+
+## Patch 20 #  jGenProg+MinImpact With Seed 15
+
+org.jfree.chart.plot.PiePlot3D : 246
+
+Patch type: InsertBeforeOp
+
+```Java
+
+if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {
+	drawNoDataMessage(g2, plotArea);
+	g2.setClip(savedClip);
+	drawOutline(g2, plotArea);
+	return ;
+} 
+
+```
+
+
+Execution Time: 0:57 (hh:mm) 
+
+Nb of EvoSuite Tests: 14
+
+Nb of Failing EvoSuite Tests: 14
+
+
 --- 
 #Seed: 16
 
-## Patch 14 #  jGenProg+MinImpact With Seed 16
+## Patch 21 #  jGenProg+MinImpact With Seed 16
 
 org.jfree.chart.plot.PiePlot3D : 252
 
@@ -370,10 +548,109 @@ Nb of EvoSuite Tests: 11
 Nb of Failing EvoSuite Tests: 11
 
 
+
+## Patch 22 #  jGenProg+MinImpact With Seed 16
+
+org.jfree.chart.plot.PiePlot3D : 242
+
+Patch type: InsertAfterOp
+
+```Java
+
+if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {
+	drawNoDataMessage(g2, plotArea);
+	g2.setClip(savedClip);
+	drawOutline(g2, plotArea);
+	return ;
+} 
+
+```
+
+
+Execution Time: 0:53 (hh:mm) 
+
+Nb of EvoSuite Tests: 11
+
+Nb of Failing EvoSuite Tests: 11
+
+
+
+## Patch 23 #  jGenProg+MinImpact With Seed 16
+
+org.jfree.chart.plot.PiePlot3D : 247
+
+Patch type: ReplaceOp
+
+```Java
+
+if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {
+	drawNoDataMessage(g2, plotArea);
+	g2.setClip(savedClip);
+	drawOutline(g2, plotArea);
+	return ;
+} 
+
+```
+
+
+Execution Time: 1:34 (hh:mm) 
+
+Nb of EvoSuite Tests: 11
+
+Nb of Failing EvoSuite Tests: 11
+
+
+
+## Patch 24 #  jGenProg+MinImpact With Seed 16
+
+org.jfree.chart.plot.PiePlot3D : 247
+
+Patch type: InsertBeforeOp
+
+```Java
+
+if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {
+	drawNoDataMessage(g2, plotArea);
+	g2.setClip(savedClip);
+	drawOutline(g2, plotArea);
+	return ;
+} 
+
+```
+
+
+Execution Time: 1:46 (hh:mm) 
+
+Nb of EvoSuite Tests: 11
+
+Nb of Failing EvoSuite Tests: 11
+
+
+
+## Patch 25 #  jGenProg+MinImpact With Seed 16
+
+org.jfree.chart.JFreeChart : 1219
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 2:05 (hh:mm) 
+
+Nb of EvoSuite Tests: 125
+
+Nb of Failing EvoSuite Tests: 125
+
+
 --- 
 #Seed: 17
 
-## Patch 15 #  jGenProg+MinImpact With Seed 17
+## Patch 26 #  jGenProg+MinImpact With Seed 17
 
 org.jfree.chart.JFreeChart : 1219
 
@@ -396,7 +673,7 @@ Nb of Failing EvoSuite Tests: 120
 --- 
 #Seed: 19
 
-## Patch 16 #  jGenProg+MinImpact With Seed 19
+## Patch 27 #  jGenProg+MinImpact With Seed 19
 
 org.jfree.chart.plot.PiePlot3D : 252
 
@@ -424,7 +701,7 @@ Nb of Failing EvoSuite Tests: 18
 --- 
 #Seed: 20
 
-## Patch 17 #  jGenProg+MinImpact With Seed 20
+## Patch 28 #  jGenProg+MinImpact With Seed 20
 
 org.jfree.chart.plot.PiePlot3D : 247
 
@@ -454,7 +731,7 @@ Nb of Failing EvoSuite Tests: 17
 --- 
 #Seed: 22
 
-## Patch 19 #  jGenProg+MinImpact With Seed 22
+## Patch 29 #  jGenProg+MinImpact With Seed 22
 
 org.jfree.chart.plot.PiePlot3D : 247
 
@@ -479,10 +756,52 @@ Nb of EvoSuite Tests: 11
 Nb of Failing EvoSuite Tests: 11
 
 
+
+## Patch 30 #  jGenProg+MinImpact With Seed 22
+
+org.jfree.chart.JFreeChart : 1219
+
+Patch type: ReplaceOp
+
+```Java
+
+setTextAntiAlias(java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_OFF)
+
+```
+
+
+Execution Time: 0:12 (hh:mm) 
+
+Nb of EvoSuite Tests: 125
+
+Nb of Failing EvoSuite Tests: 125
+
+
+
+## Patch 31 #  jGenProg+MinImpact With Seed 22
+
+org.jfree.chart.JFreeChart : 1219
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:45 (hh:mm) 
+
+Nb of EvoSuite Tests: 125
+
+Nb of Failing EvoSuite Tests: 125
+
+
 --- 
 #Seed: 23
 
-## Patch 20 #  jGenProg+MinImpact With Seed 23
+## Patch 32 #  jGenProg+MinImpact With Seed 23
 
 org.jfree.chart.plot.PiePlot3D : 252
 
@@ -510,7 +829,7 @@ Nb of Failing EvoSuite Tests: 17
 --- 
 #Seed: 25
 
-## Patch 21 #  jGenProg+MinImpact With Seed 25
+## Patch 33 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.plot.PiePlot3D : 272
 
@@ -535,10 +854,36 @@ Nb of EvoSuite Tests: 12
 Nb of Failing EvoSuite Tests: 12
 
 
+
+## Patch 34 #  jGenProg+MinImpact With Seed 25
+
+org.jfree.chart.plot.PiePlot3D : 247
+
+Patch type: ReplaceOp
+
+```Java
+
+if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {
+	drawNoDataMessage(g2, plotArea);
+	g2.setClip(savedClip);
+	drawOutline(g2, plotArea);
+	return ;
+} 
+
+```
+
+
+Execution Time: 1:48 (hh:mm) 
+
+Nb of EvoSuite Tests: 12
+
+Nb of Failing EvoSuite Tests: 12
+
+
 --- 
 #Seed: 26
 
-## Patch 22 #  jGenProg+MinImpact With Seed 26
+## Patch 35 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.chart.JFreeChart : 1219
 
@@ -561,7 +906,7 @@ Nb of Failing EvoSuite Tests: 125
 --- 
 #Seed: 28
 
-## Patch 23 #  jGenProg+MinImpact With Seed 28
+## Patch 36 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.chart.plot.PiePlot3D : 268
 
@@ -586,13 +931,86 @@ Nb of EvoSuite Tests: 14
 Nb of Failing EvoSuite Tests: 14
 
 
+
+## Patch 37 #  jGenProg+MinImpact With Seed 28
+
+org.jfree.chart.JFreeChart : 1219
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:15 (hh:mm) 
+
+Nb of EvoSuite Tests: 116
+
+Nb of Failing EvoSuite Tests: 116
+
+
+
+## Patch 38 #  jGenProg+MinImpact With Seed 28
+
+org.jfree.chart.plot.PiePlot3D : 272
+
+Patch type: ReplaceOp
+
+```Java
+
+if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {
+	drawNoDataMessage(g2, plotArea);
+	g2.setClip(savedClip);
+	drawOutline(g2, plotArea);
+	return ;
+} 
+
+```
+
+
+Execution Time: 1:44 (hh:mm) 
+
+Nb of EvoSuite Tests: 14
+
+Nb of Failing EvoSuite Tests: 14
+
+
 --- 
 #Seed: 29
+
+## Patch 39 #  jGenProg+MinImpact With Seed 29
+
+org.jfree.chart.plot.PiePlot3D : 272
+
+Patch type: ReplaceOp
+
+```Java
+
+if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {
+	drawNoDataMessage(g2, plotArea);
+	g2.setClip(savedClip);
+	drawOutline(g2, plotArea);
+	return ;
+} 
+
+```
+
+
+Execution Time: 0:23 (hh:mm) 
+
+Nb of EvoSuite Tests: 12
+
+Nb of Failing EvoSuite Tests: 12
+
+
 ---
 ## Summary an Analysis
 
-Average Nb of EvoSuite Tests: 65.27
+Average Nb of EvoSuite Tests: 69
 
-Average Nb of Failing EvoSuite Tests: 2.27
+Average Nb of Failing EvoSuite Tests: 2.06
 
 ---

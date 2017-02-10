@@ -40,10 +40,52 @@ Nb of EvoSuite Tests: 42
 Nb of Failing EvoSuite Tests: 42
 
 
+
+## Patch 2 #  jGenProg+MinImpact With Seed 1
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: ReplaceOp
+
+```Java
+
+dMin = java.lang.Math.min(dMin, dN)
+
+```
+
+
+Execution Time: 0:48 (hh:mm) 
+
+Nb of EvoSuite Tests: 42
+
+Nb of Failing EvoSuite Tests: 42
+
+
+
+## Patch 3 #  jGenProg+MinImpact With Seed 1
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:55 (hh:mm) 
+
+Nb of EvoSuite Tests: 42
+
+Nb of Failing EvoSuite Tests: 42
+
+
 --- 
 #Seed: 2
 
-## Patch 2 #  jGenProg+MinImpact With Seed 2
+## Patch 4 #  jGenProg+MinImpact With Seed 2
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1136
 
@@ -67,10 +109,31 @@ Nb of EvoSuite Tests: 43
 Nb of Failing EvoSuite Tests: 43
 
 
+
+## Patch 5 #  jGenProg+MinImpact With Seed 2
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:33 (hh:mm) 
+
+Nb of EvoSuite Tests: 43
+
+Nb of Failing EvoSuite Tests: 43
+
+
 --- 
 #Seed: 3
 
-## Patch 3 #  jGenProg+MinImpact With Seed 3
+## Patch 6 #  jGenProg+MinImpact With Seed 3
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1217
 
@@ -90,10 +153,31 @@ Nb of EvoSuite Tests: 51
 Nb of Failing EvoSuite Tests: 51
 
 
+
+## Patch 7 #  jGenProg+MinImpact With Seed 3
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 840
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:07 (hh:mm) 
+
+Nb of EvoSuite Tests: 51
+
+Nb of Failing EvoSuite Tests: 51
+
+
 --- 
 #Seed: 4
 
-## Patch 4 #  jGenProg+MinImpact With Seed 4
+## Patch 8 #  jGenProg+MinImpact With Seed 4
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1137
 
@@ -113,10 +197,97 @@ Nb of EvoSuite Tests: 44
 Nb of Failing EvoSuite Tests: 44
 
 
+
+## Patch 9 #  jGenProg+MinImpact With Seed 4
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: ReplaceOp
+
+```Java
+
+for (int i = 0 ; i < (squaredSecondary.length) ; ++i) {
+	final double s = secondary[i];
+	squaredSecondary[i] = s * s;
+}
+
+```
+
+
+Execution Time: 0:47 (hh:mm) 
+
+Nb of EvoSuite Tests: 44
+
+Nb of Failing EvoSuite Tests: 44
+
+
+
+## Patch 10 #  jGenProg+MinImpact With Seed 4
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1133
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:03 (hh:mm) 
+
+Nb of EvoSuite Tests: 44
+
+Nb of Failing EvoSuite Tests: 44
+
+
+
+## Patch 11 #  jGenProg+MinImpact With Seed 4
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:14 (hh:mm) 
+
+Nb of EvoSuite Tests: 44
+
+Nb of Failing EvoSuite Tests: 44
+
+
+
+## Patch 12 #  jGenProg+MinImpact With Seed 4
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:16 (hh:mm) 
+
+Nb of EvoSuite Tests: 44
+
+Nb of Failing EvoSuite Tests: 44
+
+
 --- 
 #Seed: 5
 
-## Patch 5 #  jGenProg+MinImpact With Seed 5
+## Patch 13 #  jGenProg+MinImpact With Seed 5
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1139
 
@@ -136,10 +307,97 @@ Nb of EvoSuite Tests: 44
 Nb of Failing EvoSuite Tests: 44
 
 
+
+## Patch 14 #  jGenProg+MinImpact With Seed 5
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: ReplaceOp
+
+```Java
+
+for (int i = 0 ; i < (squaredSecondary.length) ; ++i) {
+	final double s = secondary[i];
+	squaredSecondary[i] = s * s;
+}
+
+```
+
+
+Execution Time: 1:13 (hh:mm) 
+
+Nb of EvoSuite Tests: 44
+
+Nb of Failing EvoSuite Tests: 44
+
+
+
+## Patch 15 #  jGenProg+MinImpact With Seed 5
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: ReplaceOp
+
+```Java
+
+squaredSecondary = new double[secondary.length]
+
+```
+
+
+Execution Time: 1:23 (hh:mm) 
+
+Nb of EvoSuite Tests: 44
+
+Nb of Failing EvoSuite Tests: 44
+
+
+
+## Patch 16 #  jGenProg+MinImpact With Seed 5
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: ReplaceOp
+
+```Java
+
+tType = -5
+
+```
+
+
+Execution Time: 1:34 (hh:mm) 
+
+Nb of EvoSuite Tests: 44
+
+Nb of Failing EvoSuite Tests: 44
+
+
+
+## Patch 17 #  jGenProg+MinImpact With Seed 5
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: ReplaceOp
+
+```Java
+
+g = 0.25
+
+```
+
+
+Execution Time: 1:42 (hh:mm) 
+
+Nb of EvoSuite Tests: 44
+
+Nb of Failing EvoSuite Tests: 44
+
+
 --- 
 #Seed: 6
 
-## Patch 6 #  jGenProg+MinImpact With Seed 6
+## Patch 18 #  jGenProg+MinImpact With Seed 6
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1139
 
@@ -162,7 +420,7 @@ Nb of Failing EvoSuite Tests: 44
 --- 
 #Seed: 7
 
-## Patch 7 #  jGenProg+MinImpact With Seed 7
+## Patch 19 #  jGenProg+MinImpact With Seed 7
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 599
 
@@ -182,10 +440,119 @@ Nb of EvoSuite Tests: 43
 Nb of Failing EvoSuite Tests: 43
 
 
+
+## Patch 20 #  jGenProg+MinImpact With Seed 7
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:28 (hh:mm) 
+
+Nb of EvoSuite Tests: 43
+
+Nb of Failing EvoSuite Tests: 43
+
+
+
+## Patch 21 #  jGenProg+MinImpact With Seed 7
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:32 (hh:mm) 
+
+Nb of EvoSuite Tests: 43
+
+Nb of Failing EvoSuite Tests: 43
+
+
+
+## Patch 22 #  jGenProg+MinImpact With Seed 7
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: ReplaceOp
+
+```Java
+
+tType = -9
+
+```
+
+
+Execution Time: 1:42 (hh:mm) 
+
+Nb of EvoSuite Tests: 43
+
+Nb of Failing EvoSuite Tests: 43
+
+
+
+## Patch 23 #  jGenProg+MinImpact With Seed 7
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1137
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:46 (hh:mm) 
+
+Nb of EvoSuite Tests: 43
+
+Nb of Failing EvoSuite Tests: 43
+
+
+
+## Patch 24 #  jGenProg+MinImpact With Seed 7
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1135
+
+Patch type: InsertAfterOp
+
+```Java
+
+for (int i = 0 ; i < (realEigenvalues.length) ; ++i) {
+	if (((realEigenvalues[i]) == 0) && ((imagEigenvalues[i]) == 0)) {
+		return false;
+	} 
+}
+
+```
+
+
+Execution Time: 1:53 (hh:mm) 
+
+Nb of EvoSuite Tests: 43
+
+Nb of Failing EvoSuite Tests: 43
+
+
 --- 
 #Seed: 8
 
-## Patch 8 #  jGenProg+MinImpact With Seed 8
+## Patch 25 #  jGenProg+MinImpact With Seed 8
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1133
 
@@ -205,10 +572,97 @@ Nb of EvoSuite Tests: 47
 Nb of Failing EvoSuite Tests: 47
 
 
+
+## Patch 26 #  jGenProg+MinImpact With Seed 8
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:45 (hh:mm) 
+
+Nb of EvoSuite Tests: 47
+
+Nb of Failing EvoSuite Tests: 47
+
+
+
+## Patch 27 #  jGenProg+MinImpact With Seed 8
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: ReplaceOp
+
+```Java
+
+for (int i = 0 ; i < (squaredSecondary.length) ; ++i) {
+	final double s = secondary[i];
+	squaredSecondary[i] = s * s;
+}
+
+```
+
+
+Execution Time: 1:20 (hh:mm) 
+
+Nb of EvoSuite Tests: 47
+
+Nb of Failing EvoSuite Tests: 47
+
+
+
+## Patch 28 #  jGenProg+MinImpact With Seed 8
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: ReplaceOp
+
+```Java
+
+dMin = dN1
+
+```
+
+
+Execution Time: 1:44 (hh:mm) 
+
+Nb of EvoSuite Tests: 47
+
+Nb of Failing EvoSuite Tests: 47
+
+
+
+## Patch 29 #  jGenProg+MinImpact With Seed 8
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:54 (hh:mm) 
+
+Nb of EvoSuite Tests: 47
+
+Nb of Failing EvoSuite Tests: 47
+
+
 --- 
 #Seed: 9
 
-## Patch 9 #  jGenProg+MinImpact With Seed 9
+## Patch 30 #  jGenProg+MinImpact With Seed 9
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1136
 
@@ -232,10 +686,52 @@ Nb of EvoSuite Tests: 48
 Nb of Failing EvoSuite Tests: 48
 
 
+
+## Patch 31 #  jGenProg+MinImpact With Seed 9
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:50 (hh:mm) 
+
+Nb of EvoSuite Tests: 48
+
+Nb of Failing EvoSuite Tests: 48
+
+
+
+## Patch 32 #  jGenProg+MinImpact With Seed 9
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1137
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:46 (hh:mm) 
+
+Nb of EvoSuite Tests: 48
+
+Nb of Failing EvoSuite Tests: 48
+
+
 --- 
 #Seed: 10
 
-## Patch 10 #  jGenProg+MinImpact With Seed 10
+## Patch 33 #  jGenProg+MinImpact With Seed 10
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1137
 
@@ -255,10 +751,55 @@ Nb of EvoSuite Tests: 45
 Nb of Failing EvoSuite Tests: 45
 
 
+
+## Patch 34 #  jGenProg+MinImpact With Seed 10
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: ReplaceOp
+
+```Java
+
+for (int i = 0 ; i < (squaredSecondary.length) ; ++i) {
+	final double s = secondary[i];
+	squaredSecondary[i] = s * s;
+}
+
+```
+
+
+Execution Time: 1:08 (hh:mm) 
+
+Nb of EvoSuite Tests: 45
+
+Nb of Failing EvoSuite Tests: 45
+
+
+
+## Patch 35 #  jGenProg+MinImpact With Seed 10
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: ReplaceOp
+
+```Java
+
+qMax = java.lang.Math.max(qMax, java.lang.Math.max(work[(3 + (pingPong))], work[(7 + (pingPong))]))
+
+```
+
+
+Execution Time: 1:59 (hh:mm) 
+
+Nb of EvoSuite Tests: 45
+
+Nb of Failing EvoSuite Tests: 45
+
+
 --- 
 #Seed: 11
 
-## Patch 11 #  jGenProg+MinImpact With Seed 11
+## Patch 36 #  jGenProg+MinImpact With Seed 11
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1139
 
@@ -278,10 +819,52 @@ Nb of EvoSuite Tests: 43
 Nb of Failing EvoSuite Tests: 43
 
 
+
+## Patch 37 #  jGenProg+MinImpact With Seed 11
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1137
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:29 (hh:mm) 
+
+Nb of EvoSuite Tests: 43
+
+Nb of Failing EvoSuite Tests: 43
+
+
+
+## Patch 38 #  jGenProg+MinImpact With Seed 11
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:44 (hh:mm) 
+
+Nb of EvoSuite Tests: 43
+
+Nb of Failing EvoSuite Tests: 43
+
+
 --- 
 #Seed: 12
 
-## Patch 12 #  jGenProg+MinImpact With Seed 12
+## Patch 39 #  jGenProg+MinImpact With Seed 12
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1136
 
@@ -301,10 +884,52 @@ Nb of EvoSuite Tests: 44
 Nb of Failing EvoSuite Tests: 44
 
 
+
+## Patch 40 #  jGenProg+MinImpact With Seed 12
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: ReplaceOp
+
+```Java
+
+cachedV = org.apache.commons.math.linear.MatrixUtils.createRealMatrix(n, n)
+
+```
+
+
+Execution Time: 0:22 (hh:mm) 
+
+Nb of EvoSuite Tests: 44
+
+Nb of Failing EvoSuite Tests: 44
+
+
+
+## Patch 41 #  jGenProg+MinImpact With Seed 12
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1137
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:40 (hh:mm) 
+
+Nb of EvoSuite Tests: 44
+
+Nb of Failing EvoSuite Tests: 44
+
+
 --- 
 #Seed: 13
 
-## Patch 13 #  jGenProg+MinImpact With Seed 13
+## Patch 42 #  jGenProg+MinImpact With Seed 13
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1139
 
@@ -324,10 +949,52 @@ Nb of EvoSuite Tests: 41
 Nb of Failing EvoSuite Tests: 41
 
 
+
+## Patch 43 #  jGenProg+MinImpact With Seed 13
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:18 (hh:mm) 
+
+Nb of EvoSuite Tests: 41
+
+Nb of Failing EvoSuite Tests: 41
+
+
+
+## Patch 44 #  jGenProg+MinImpact With Seed 13
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1137
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:53 (hh:mm) 
+
+Nb of EvoSuite Tests: 41
+
+Nb of Failing EvoSuite Tests: 41
+
+
 --- 
 #Seed: 14
 
-## Patch 14 #  jGenProg+MinImpact With Seed 14
+## Patch 45 #  jGenProg+MinImpact With Seed 14
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1139
 
@@ -347,10 +1014,119 @@ Nb of EvoSuite Tests: 46
 Nb of Failing EvoSuite Tests: 46
 
 
+
+## Patch 46 #  jGenProg+MinImpact With Seed 14
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: ReplaceOp
+
+```Java
+
+for (int i = 0 ; i < (realEigenvalues.length) ; ++i) {
+	if (((realEigenvalues[i]) == 0) && ((imagEigenvalues[i]) == 0)) {
+		return false;
+	} 
+}
+
+```
+
+
+Execution Time: 1:14 (hh:mm) 
+
+Nb of EvoSuite Tests: 46
+
+Nb of Failing EvoSuite Tests: 46
+
+
+
+## Patch 47 #  jGenProg+MinImpact With Seed 14
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:24 (hh:mm) 
+
+Nb of EvoSuite Tests: 46
+
+Nb of Failing EvoSuite Tests: 46
+
+
+
+## Patch 48 #  jGenProg+MinImpact With Seed 14
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1137
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:32 (hh:mm) 
+
+Nb of EvoSuite Tests: 46
+
+Nb of Failing EvoSuite Tests: 46
+
+
+
+## Patch 49 #  jGenProg+MinImpact With Seed 14
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 840
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:33 (hh:mm) 
+
+Nb of EvoSuite Tests: 46
+
+Nb of Failing EvoSuite Tests: 46
+
+
+
+## Patch 50 #  jGenProg+MinImpact With Seed 14
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:49 (hh:mm) 
+
+Nb of EvoSuite Tests: 46
+
+Nb of Failing EvoSuite Tests: 46
+
+
 --- 
 #Seed: 15
 
-## Patch 15 #  jGenProg+MinImpact With Seed 15
+## Patch 51 #  jGenProg+MinImpact With Seed 15
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 840
 
@@ -370,10 +1146,94 @@ Nb of EvoSuite Tests: 48
 Nb of Failing EvoSuite Tests: 48
 
 
+
+## Patch 52 #  jGenProg+MinImpact With Seed 15
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:28 (hh:mm) 
+
+Nb of EvoSuite Tests: 48
+
+Nb of Failing EvoSuite Tests: 48
+
+
+
+## Patch 53 #  jGenProg+MinImpact With Seed 15
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:15 (hh:mm) 
+
+Nb of EvoSuite Tests: 48
+
+Nb of Failing EvoSuite Tests: 48
+
+
+
+## Patch 54 #  jGenProg+MinImpact With Seed 15
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: ReplaceOp
+
+```Java
+
+tType = -7
+
+```
+
+
+Execution Time: 1:37 (hh:mm) 
+
+Nb of EvoSuite Tests: 48
+
+Nb of Failing EvoSuite Tests: 48
+
+
+
+## Patch 55 #  jGenProg+MinImpact With Seed 15
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1133
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:40 (hh:mm) 
+
+Nb of EvoSuite Tests: 48
+
+Nb of Failing EvoSuite Tests: 48
+
+
 --- 
 #Seed: 16
 
-## Patch 16 #  jGenProg+MinImpact With Seed 16
+## Patch 56 #  jGenProg+MinImpact With Seed 16
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 840
 
@@ -393,10 +1253,98 @@ Nb of EvoSuite Tests: 46
 Nb of Failing EvoSuite Tests: 46
 
 
+
+## Patch 57 #  jGenProg+MinImpact With Seed 16
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1137
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:59 (hh:mm) 
+
+Nb of EvoSuite Tests: 46
+
+Nb of Failing EvoSuite Tests: 46
+
+
+
+## Patch 58 #  jGenProg+MinImpact With Seed 16
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:04 (hh:mm) 
+
+Nb of EvoSuite Tests: 46
+
+Nb of Failing EvoSuite Tests: 46
+
+
+
+## Patch 59 #  jGenProg+MinImpact With Seed 16
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: ReplaceOp
+
+```Java
+
+org.apache.commons.math.linear.EigenDecompositionImpl.this.secondary = secondary.clone()
+
+```
+
+
+Execution Time: 1:07 (hh:mm) 
+
+Nb of EvoSuite Tests: 46
+
+Nb of Failing EvoSuite Tests: 46
+
+
+
+## Patch 60 #  jGenProg+MinImpact With Seed 16
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: ReplaceOp
+
+```Java
+
+for (int i = 0 ; i < (realEigenvalues.length) ; ++i) {
+	if (((realEigenvalues[i]) == 0) && ((imagEigenvalues[i]) == 0)) {
+		return false;
+	} 
+}
+
+```
+
+
+Execution Time: 1:46 (hh:mm) 
+
+Nb of EvoSuite Tests: 46
+
+Nb of Failing EvoSuite Tests: 46
+
+
 --- 
 #Seed: 17
 
-## Patch 17 #  jGenProg+MinImpact With Seed 17
+## Patch 61 #  jGenProg+MinImpact With Seed 17
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 840
 
@@ -416,10 +1364,73 @@ Nb of EvoSuite Tests: 49
 Nb of Failing EvoSuite Tests: 49
 
 
+
+## Patch 62 #  jGenProg+MinImpact With Seed 17
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:26 (hh:mm) 
+
+Nb of EvoSuite Tests: 49
+
+Nb of Failing EvoSuite Tests: 49
+
+
+
+## Patch 63 #  jGenProg+MinImpact With Seed 17
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: ReplaceOp
+
+```Java
+
+cachedD = org.apache.commons.math.linear.MatrixUtils.createRealDiagonalMatrix(realEigenvalues)
+
+```
+
+
+Execution Time: 1:43 (hh:mm) 
+
+Nb of EvoSuite Tests: 49
+
+Nb of Failing EvoSuite Tests: 49
+
+
+
+## Patch 64 #  jGenProg+MinImpact With Seed 17
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 601
+
+Patch type: InsertAfterOp
+
+```Java
+
+findEigenvalues()
+
+```
+
+
+Execution Time: 1:45 (hh:mm) 
+
+Nb of EvoSuite Tests: 49
+
+Nb of Failing EvoSuite Tests: 49
+
+
 --- 
 #Seed: 18
 
-## Patch 18 #  jGenProg+MinImpact With Seed 18
+## Patch 65 #  jGenProg+MinImpact With Seed 18
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1136
 
@@ -442,10 +1453,119 @@ Nb of EvoSuite Tests: 47
 Nb of Failing EvoSuite Tests: 47
 
 
+
+## Patch 66 #  jGenProg+MinImpact With Seed 18
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:58 (hh:mm) 
+
+Nb of EvoSuite Tests: 47
+
+Nb of Failing EvoSuite Tests: 47
+
+
+
+## Patch 67 #  jGenProg+MinImpact With Seed 18
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 840
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:12 (hh:mm) 
+
+Nb of EvoSuite Tests: 47
+
+Nb of Failing EvoSuite Tests: 47
+
+
+
+## Patch 68 #  jGenProg+MinImpact With Seed 18
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1137
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:26 (hh:mm) 
+
+Nb of EvoSuite Tests: 47
+
+Nb of Failing EvoSuite Tests: 47
+
+
+
+## Patch 69 #  jGenProg+MinImpact With Seed 18
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:55 (hh:mm) 
+
+Nb of EvoSuite Tests: 47
+
+Nb of Failing EvoSuite Tests: 47
+
+
+
+## Patch 70 #  jGenProg+MinImpact With Seed 18
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: ReplaceOp
+
+```Java
+
+for (int i = 0 ; i < (realEigenvalues.length) ; ++i) {
+	if (((realEigenvalues[i]) == 0) && ((imagEigenvalues[i]) == 0)) {
+		return false;
+	} 
+}
+
+```
+
+
+Execution Time: 2:00 (hh:mm) 
+
+Nb of EvoSuite Tests: 47
+
+Nb of Failing EvoSuite Tests: 47
+
+
 --- 
 #Seed: 19
 
-## Patch 19 #  jGenProg+MinImpact With Seed 19
+## Patch 71 #  jGenProg+MinImpact With Seed 19
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1136
 
@@ -468,10 +1588,31 @@ Nb of EvoSuite Tests: 46
 Nb of Failing EvoSuite Tests: 46
 
 
+
+## Patch 72 #  jGenProg+MinImpact With Seed 19
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 840
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:40 (hh:mm) 
+
+Nb of EvoSuite Tests: 46
+
+Nb of Failing EvoSuite Tests: 46
+
+
 --- 
 #Seed: 20
 
-## Patch 20 #  jGenProg+MinImpact With Seed 20
+## Patch 73 #  jGenProg+MinImpact With Seed 20
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1139
 
@@ -491,10 +1632,98 @@ Nb of EvoSuite Tests: 42
 Nb of Failing EvoSuite Tests: 42
 
 
+
+## Patch 74 #  jGenProg+MinImpact With Seed 20
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1137
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:43 (hh:mm) 
+
+Nb of EvoSuite Tests: 42
+
+Nb of Failing EvoSuite Tests: 42
+
+
+
+## Patch 75 #  jGenProg+MinImpact With Seed 20
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:50 (hh:mm) 
+
+Nb of EvoSuite Tests: 42
+
+Nb of Failing EvoSuite Tests: 42
+
+
+
+## Patch 76 #  jGenProg+MinImpact With Seed 20
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: ReplaceOp
+
+```Java
+
+dMin1 = dMin
+
+```
+
+
+Execution Time: 1:08 (hh:mm) 
+
+Nb of EvoSuite Tests: 42
+
+Nb of Failing EvoSuite Tests: 42
+
+
+
+## Patch 77 #  jGenProg+MinImpact With Seed 20
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: ReplaceOp
+
+```Java
+
+for (int i = 0 ; i < (realEigenvalues.length) ; ++i) {
+	if (((realEigenvalues[i]) == 0) && ((imagEigenvalues[i]) == 0)) {
+		return false;
+	} 
+}
+
+```
+
+
+Execution Time: 1:41 (hh:mm) 
+
+Nb of EvoSuite Tests: 42
+
+Nb of Failing EvoSuite Tests: 42
+
+
 --- 
 #Seed: 21
 
-## Patch 21 #  jGenProg+MinImpact With Seed 21
+## Patch 78 #  jGenProg+MinImpact With Seed 21
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1133
 
@@ -514,10 +1743,101 @@ Nb of EvoSuite Tests: 47
 Nb of Failing EvoSuite Tests: 47
 
 
+
+## Patch 79 #  jGenProg+MinImpact With Seed 21
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: ReplaceOp
+
+```Java
+
+dMin = dN1
+
+```
+
+
+Execution Time: 1:25 (hh:mm) 
+
+Nb of EvoSuite Tests: 47
+
+Nb of Failing EvoSuite Tests: 47
+
+
+
+## Patch 80 #  jGenProg+MinImpact With Seed 21
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: ReplaceOp
+
+```Java
+
+for (int i = 0 ; i < (squaredSecondary.length) ; ++i) {
+	final double s = secondary[i];
+	squaredSecondary[i] = s * s;
+}
+
+```
+
+
+Execution Time: 1:36 (hh:mm) 
+
+Nb of EvoSuite Tests: 47
+
+Nb of Failing EvoSuite Tests: 47
+
+
+
+## Patch 81 #  jGenProg+MinImpact With Seed 21
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:47 (hh:mm) 
+
+Nb of EvoSuite Tests: 47
+
+Nb of Failing EvoSuite Tests: 47
+
+
+
+## Patch 82 #  jGenProg+MinImpact With Seed 21
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: ReplaceOp
+
+```Java
+
+for (int i = 0 ; i < (realEigenvalues.length) ; ++i) {
+	if (((realEigenvalues[i]) == 0) && ((imagEigenvalues[i]) == 0)) {
+		return false;
+	} 
+}
+
+```
+
+
+Execution Time: 1:58 (hh:mm) 
+
+Nb of EvoSuite Tests: 47
+
+Nb of Failing EvoSuite Tests: 47
+
+
 --- 
 #Seed: 22
 
-## Patch 22 #  jGenProg+MinImpact With Seed 22
+## Patch 83 #  jGenProg+MinImpact With Seed 22
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1137
 
@@ -537,10 +1857,52 @@ Nb of EvoSuite Tests: 44
 Nb of Failing EvoSuite Tests: 44
 
 
+
+## Patch 84 #  jGenProg+MinImpact With Seed 22
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:49 (hh:mm) 
+
+Nb of EvoSuite Tests: 44
+
+Nb of Failing EvoSuite Tests: 44
+
+
+
+## Patch 85 #  jGenProg+MinImpact With Seed 22
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:51 (hh:mm) 
+
+Nb of EvoSuite Tests: 44
+
+Nb of Failing EvoSuite Tests: 44
+
+
 --- 
 #Seed: 23
 
-## Patch 23 #  jGenProg+MinImpact With Seed 23
+## Patch 86 #  jGenProg+MinImpact With Seed 23
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1136
 
@@ -563,10 +1925,56 @@ Nb of EvoSuite Tests: 43
 Nb of Failing EvoSuite Tests: 43
 
 
+
+## Patch 87 #  jGenProg+MinImpact With Seed 23
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: ReplaceOp
+
+```Java
+
+for (int i = 0 ; i < (realEigenvalues.length) ; ++i) {
+	if (((realEigenvalues[i]) == 0) && ((imagEigenvalues[i]) == 0)) {
+		return false;
+	} 
+}
+
+```
+
+
+Execution Time: 0:47 (hh:mm) 
+
+Nb of EvoSuite Tests: 43
+
+Nb of Failing EvoSuite Tests: 43
+
+
+
+## Patch 88 #  jGenProg+MinImpact With Seed 23
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1137
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:53 (hh:mm) 
+
+Nb of EvoSuite Tests: 43
+
+Nb of Failing EvoSuite Tests: 43
+
+
 --- 
 #Seed: 24
 
-## Patch 24 #  jGenProg+MinImpact With Seed 24
+## Patch 89 #  jGenProg+MinImpact With Seed 24
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1139
 
@@ -586,10 +1994,73 @@ Nb of EvoSuite Tests: 46
 Nb of Failing EvoSuite Tests: 46
 
 
+
+## Patch 90 #  jGenProg+MinImpact With Seed 24
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: ReplaceOp
+
+```Java
+
+tau = 0.0
+
+```
+
+
+Execution Time: 1:13 (hh:mm) 
+
+Nb of EvoSuite Tests: 46
+
+Nb of Failing EvoSuite Tests: 46
+
+
+
+## Patch 91 #  jGenProg+MinImpact With Seed 24
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1137
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:47 (hh:mm) 
+
+Nb of EvoSuite Tests: 46
+
+Nb of Failing EvoSuite Tests: 46
+
+
+
+## Patch 92 #  jGenProg+MinImpact With Seed 24
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:56 (hh:mm) 
+
+Nb of EvoSuite Tests: 46
+
+Nb of Failing EvoSuite Tests: 46
+
+
 --- 
 #Seed: 25
 
-## Patch 25 #  jGenProg+MinImpact With Seed 25
+## Patch 93 #  jGenProg+MinImpact With Seed 25
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1262
 
@@ -609,10 +2080,125 @@ Nb of EvoSuite Tests: 55
 Nb of Failing EvoSuite Tests: 55
 
 
+
+## Patch 94 #  jGenProg+MinImpact With Seed 25
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1133
+
+Patch type: ReplaceOp
+
+```Java
+
+if ((dMin1) > 0.0) {
+	tau = ((tau) + (dMin)) * (1.0 - (2.0 * (org.apache.commons.math.util.MathUtils.EPSILON)));
+	tType -= 11;
+} else {
+	tau *= 0.25;
+	tType -= 12;
+}
+
+```
+
+
+Execution Time: 0:32 (hh:mm) 
+
+Nb of EvoSuite Tests: 55
+
+Nb of Failing EvoSuite Tests: 55
+
+
+
+## Patch 95 #  jGenProg+MinImpact With Seed 25
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:58 (hh:mm) 
+
+Nb of EvoSuite Tests: 55
+
+Nb of Failing EvoSuite Tests: 55
+
+
+
+## Patch 96 #  jGenProg+MinImpact With Seed 25
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:21 (hh:mm) 
+
+Nb of EvoSuite Tests: 55
+
+Nb of Failing EvoSuite Tests: 55
+
+
+
+## Patch 97 #  jGenProg+MinImpact With Seed 25
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1137
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:37 (hh:mm) 
+
+Nb of EvoSuite Tests: 55
+
+Nb of Failing EvoSuite Tests: 55
+
+
+
+## Patch 98 #  jGenProg+MinImpact With Seed 25
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: ReplaceOp
+
+```Java
+
+for (int i = 0 ; i < (realEigenvalues.length) ; ++i) {
+	if (((realEigenvalues[i]) == 0) && ((imagEigenvalues[i]) == 0)) {
+		return false;
+	} 
+}
+
+```
+
+
+Execution Time: 1:59 (hh:mm) 
+
+Nb of EvoSuite Tests: 55
+
+Nb of Failing EvoSuite Tests: 55
+
+
 --- 
 #Seed: 26
 
-## Patch 26 #  jGenProg+MinImpact With Seed 26
+## Patch 99 #  jGenProg+MinImpact With Seed 26
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1137
 
@@ -632,10 +2218,97 @@ Nb of EvoSuite Tests: 49
 Nb of Failing EvoSuite Tests: 49
 
 
+
+## Patch 100 #  jGenProg+MinImpact With Seed 26
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:39 (hh:mm) 
+
+Nb of EvoSuite Tests: 49
+
+Nb of Failing EvoSuite Tests: 49
+
+
+
+## Patch 101 #  jGenProg+MinImpact With Seed 26
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: ReplaceOp
+
+```Java
+
+for (int i = 0 ; i < (squaredSecondary.length) ; ++i) {
+	final double s = secondary[i];
+	squaredSecondary[i] = s * s;
+}
+
+```
+
+
+Execution Time: 1:07 (hh:mm) 
+
+Nb of EvoSuite Tests: 49
+
+Nb of Failing EvoSuite Tests: 49
+
+
+
+## Patch 102 #  jGenProg+MinImpact With Seed 26
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:11 (hh:mm) 
+
+Nb of EvoSuite Tests: 49
+
+Nb of Failing EvoSuite Tests: 49
+
+
+
+## Patch 103 #  jGenProg+MinImpact With Seed 26
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: ReplaceOp
+
+```Java
+
+cachedV = org.apache.commons.math.linear.MatrixUtils.createRealMatrix(n, n)
+
+```
+
+
+Execution Time: 1:34 (hh:mm) 
+
+Nb of EvoSuite Tests: 49
+
+Nb of Failing EvoSuite Tests: 49
+
+
 --- 
 #Seed: 27
 
-## Patch 27 #  jGenProg+MinImpact With Seed 27
+## Patch 104 #  jGenProg+MinImpact With Seed 27
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1136
 
@@ -659,10 +2332,73 @@ Nb of EvoSuite Tests: 51
 Nb of Failing EvoSuite Tests: 51
 
 
+
+## Patch 105 #  jGenProg+MinImpact With Seed 27
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: ReplaceOp
+
+```Java
+
+tau = -(dMin)
+
+```
+
+
+Execution Time: 0:55 (hh:mm) 
+
+Nb of EvoSuite Tests: 51
+
+Nb of Failing EvoSuite Tests: 51
+
+
+
+## Patch 106 #  jGenProg+MinImpact With Seed 27
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:07 (hh:mm) 
+
+Nb of EvoSuite Tests: 51
+
+Nb of Failing EvoSuite Tests: 51
+
+
+
+## Patch 107 #  jGenProg+MinImpact With Seed 27
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1137
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:11 (hh:mm) 
+
+Nb of EvoSuite Tests: 51
+
+Nb of Failing EvoSuite Tests: 51
+
+
 --- 
 #Seed: 28
 
-## Patch 28 #  jGenProg+MinImpact With Seed 28
+## Patch 108 #  jGenProg+MinImpact With Seed 28
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1137
 
@@ -682,10 +2418,31 @@ Nb of EvoSuite Tests: 50
 Nb of Failing EvoSuite Tests: 50
 
 
+
+## Patch 109 #  jGenProg+MinImpact With Seed 28
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: ReplaceOp
+
+```Java
+
+tau = 0.25 * (dMin2)
+
+```
+
+
+Execution Time: 0:53 (hh:mm) 
+
+Nb of EvoSuite Tests: 50
+
+Nb of Failing EvoSuite Tests: 50
+
+
 --- 
 #Seed: 29
 
-## Patch 29 #  jGenProg+MinImpact With Seed 29
+## Patch 110 #  jGenProg+MinImpact With Seed 29
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1139
 
@@ -705,10 +2462,56 @@ Nb of EvoSuite Tests: 45
 Nb of Failing EvoSuite Tests: 45
 
 
+
+## Patch 111 #  jGenProg+MinImpact With Seed 29
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1133
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:22 (hh:mm) 
+
+Nb of EvoSuite Tests: 45
+
+Nb of Failing EvoSuite Tests: 45
+
+
+
+## Patch 112 #  jGenProg+MinImpact With Seed 29
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1133
+
+Patch type: ReplaceOp
+
+```Java
+
+if ((tType) == (-18)) {
+	g = 0.25 * 0.333;
+} else {
+	g = 0.25;
+}
+
+```
+
+
+Execution Time: 1:25 (hh:mm) 
+
+Nb of EvoSuite Tests: 45
+
+Nb of Failing EvoSuite Tests: 45
+
+
 --- 
 #Seed: 30
 
-## Patch 30 #  jGenProg+MinImpact With Seed 30
+## Patch 113 #  jGenProg+MinImpact With Seed 30
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1137
 
@@ -728,11 +2531,81 @@ Nb of EvoSuite Tests: 50
 Nb of Failing EvoSuite Tests: 50
 
 
+
+## Patch 114 #  jGenProg+MinImpact With Seed 30
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1139
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:21 (hh:mm) 
+
+Nb of EvoSuite Tests: 50
+
+Nb of Failing EvoSuite Tests: 50
+
+
+
+## Patch 115 #  jGenProg+MinImpact With Seed 30
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: ReplaceOp
+
+```Java
+
+for (int i = 0 ; i < (realEigenvalues.length) ; ++i) {
+	if (((realEigenvalues[i]) == 0) && ((imagEigenvalues[i]) == 0)) {
+		return false;
+	} 
+}
+
+```
+
+
+Execution Time: 1:37 (hh:mm) 
+
+Nb of EvoSuite Tests: 50
+
+Nb of Failing EvoSuite Tests: 50
+
+
+
+## Patch 116 #  jGenProg+MinImpact With Seed 30
+
+org.apache.commons.math.linear.EigenDecompositionImpl : 1136
+
+Patch type: ReplaceOp
+
+```Java
+
+for (int i = 0 ; i < (squaredSecondary.length) ; ++i) {
+	final double s = secondary[i];
+	squaredSecondary[i] = s * s;
+}
+
+```
+
+
+Execution Time: 1:51 (hh:mm) 
+
+Nb of EvoSuite Tests: 50
+
+Nb of Failing EvoSuite Tests: 50
+
+
 ---
 ## Summary an Analysis
 
-Average Nb of EvoSuite Tests: 46.5
+Average Nb of EvoSuite Tests: 47.56
 
-Average Nb of Failing EvoSuite Tests: 2.5
+Average Nb of Failing EvoSuite Tests: 2.97
 
 ---

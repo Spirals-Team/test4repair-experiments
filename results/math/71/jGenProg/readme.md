@@ -127,10 +127,75 @@ Nb of EvoSuite Tests: 22
 Nb of Failing EvoSuite Tests: 22
 
 
+
+## Patch 5 #  jGenProg+MinImpact With Seed 9
+
+org.apache.commons.math.ode.events.EventState : 174
+
+Patch type: InsertBeforeOp
+
+```Java
+
+pendingEvent = true
+
+```
+
+
+Execution Time: 1:52 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
+
+## Patch 6 #  jGenProg+MinImpact With Seed 9
+
+org.apache.commons.math.ode.events.EventState : 185
+
+Patch type: InsertBeforeOp
+
+```Java
+
+pendingEvent = true
+
+```
+
+
+Execution Time: 1:54 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
+
+## Patch 7 #  jGenProg+MinImpact With Seed 9
+
+org.apache.commons.math.ode.events.EventState : 175
+
+Patch type: InsertBeforeOp
+
+```Java
+
+if ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {
+	return false;
+} 
+
+```
+
+
+Execution Time: 1:59 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
 --- 
 #Seed: 10
 
-## Patch 5 #  jGenProg+MinImpact With Seed 10
+## Patch 8 #  jGenProg+MinImpact With Seed 10
 
 org.apache.commons.math.ode.events.EventState : 191
 
@@ -150,10 +215,66 @@ Nb of EvoSuite Tests: 22
 Nb of Failing EvoSuite Tests: 22
 
 
+
+## Patch 9 #  jGenProg+MinImpact With Seed 10
+
+org.apache.commons.math.ode.events.EventState : 184
+
+Patch type: InsertBeforeOp
+
+```Java
+
+if ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {
+	return false;
+} 
+
+```
+
+
+Execution Time: 0:48 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
+
+## Patch 10 #  jGenProg+MinImpact With Seed 10
+
+org.apache.commons.math.ode.events.EventState : 248
+
+Patch type: InsertBeforeOp
+
+```Java
+
+if (((java.lang.Math.abs((root - ta))) <= (convergence)) && ((java.lang.Math.abs((root - (previousEventTime)))) <= (convergence))) {
+	ta = tb;
+	ga = gb;
+} else {
+	if ((java.lang.Double.isNaN(previousEventTime)) || ((java.lang.Math.abs(((previousEventTime) - root))) > (convergence))) {
+		pendingEventTime = root;
+		if ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {
+			return false;
+		} 
+		pendingEvent = true;
+		return true;
+	} 
+}
+
+```
+
+
+Execution Time: 1:07 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
 --- 
 #Seed: 14
 
-## Patch 6 #  jGenProg+MinImpact With Seed 14
+## Patch 11 #  jGenProg+MinImpact With Seed 14
 
 org.apache.commons.math.ode.events.EventState : 175
 
@@ -176,7 +297,7 @@ Nb of Failing EvoSuite Tests: 22
 --- 
 #Seed: 15
 
-## Patch 7 #  jGenProg+MinImpact With Seed 15
+## Patch 12 #  jGenProg+MinImpact With Seed 15
 
 org.apache.commons.math.ode.events.EventState : 179
 
@@ -198,10 +319,31 @@ Nb of EvoSuite Tests: 22
 Nb of Failing EvoSuite Tests: 22
 
 
+
+## Patch 13 #  jGenProg+MinImpact With Seed 15
+
+org.apache.commons.math.ode.events.EventState : 172
+
+Patch type: InsertBeforeOp
+
+```Java
+
+pendingEvent = true
+
+```
+
+
+Execution Time: 0:41 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
 --- 
 #Seed: 19
 
-## Patch 8 #  jGenProg+MinImpact With Seed 19
+## Patch 14 #  jGenProg+MinImpact With Seed 19
 
 org.apache.commons.math.ode.events.EventState : 179
 
@@ -223,10 +365,33 @@ Nb of EvoSuite Tests: 22
 Nb of Failing EvoSuite Tests: 22
 
 
+
+## Patch 15 #  jGenProg+MinImpact With Seed 19
+
+org.apache.commons.math.ode.events.EventState : 229
+
+Patch type: InsertAfterOp
+
+```Java
+
+if ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {
+	return false;
+} 
+
+```
+
+
+Execution Time: 1:21 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
 --- 
 #Seed: 20
 
-## Patch 9 #  jGenProg+MinImpact With Seed 20
+## Patch 16 #  jGenProg+MinImpact With Seed 20
 
 org.apache.commons.math.ode.events.EventState : 229
 
@@ -249,7 +414,7 @@ Nb of Failing EvoSuite Tests: 22
 --- 
 #Seed: 22
 
-## Patch 10 #  jGenProg+MinImpact With Seed 22
+## Patch 17 #  jGenProg+MinImpact With Seed 22
 
 org.apache.commons.math.ode.events.EventState : 180
 
@@ -272,7 +437,7 @@ Nb of Failing EvoSuite Tests: 22
 --- 
 #Seed: 27
 
-## Patch 11 #  jGenProg+MinImpact With Seed 27
+## Patch 18 #  jGenProg+MinImpact With Seed 27
 
 org.apache.commons.math.ode.events.EventState : 227
 
@@ -294,10 +459,33 @@ Nb of EvoSuite Tests: 22
 Nb of Failing EvoSuite Tests: 22
 
 
+
+## Patch 19 #  jGenProg+MinImpact With Seed 27
+
+org.apache.commons.math.ode.events.EventState : 191
+
+Patch type: InsertAfterOp
+
+```Java
+
+if ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {
+	return false;
+} 
+
+```
+
+
+Execution Time: 1:44 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
 --- 
 #Seed: 29
 
-## Patch 12 #  jGenProg+MinImpact With Seed 29
+## Patch 20 #  jGenProg+MinImpact With Seed 29
 
 org.apache.commons.math.ode.events.EventState : 253
 
@@ -322,7 +510,7 @@ Nb of Failing EvoSuite Tests: 22
 --- 
 #Seed: 30
 
-## Patch 13 #  jGenProg+MinImpact With Seed 30
+## Patch 21 #  jGenProg+MinImpact With Seed 30
 
 org.apache.commons.math.ode.events.EventState : 180
 

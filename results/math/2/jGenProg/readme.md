@@ -40,10 +40,31 @@ Nb of EvoSuite Tests: 36
 Nb of Failing EvoSuite Tests: 36
 
 
+
+## Patch 2 #  jGenProg+MinImpact With Seed 8
+
+org.apache.commons.math3.distribution.HypergeometricDistribution : 308
+
+Patch type: InsertBeforeOp
+
+```Java
+
+numericalVarianceIsCalculated = true
+
+```
+
+
+Execution Time: 1:19 (hh:mm) 
+
+Nb of EvoSuite Tests: 36
+
+Nb of Failing EvoSuite Tests: 36
+
+
 --- 
 #Seed: 15
 
-## Patch 2 #  jGenProg+MinImpact With Seed 15
+## Patch 3 #  jGenProg+MinImpact With Seed 15
 
 org.apache.commons.math3.distribution.HypergeometricDistribution : 321
 
@@ -63,10 +84,31 @@ Nb of EvoSuite Tests: 37
 Nb of Failing EvoSuite Tests: 37
 
 
+
+## Patch 4 #  jGenProg+MinImpact With Seed 15
+
+org.apache.commons.math3.distribution.HypergeometricDistribution : 308
+
+Patch type: InsertBeforeOp
+
+```Java
+
+numericalVarianceIsCalculated = true
+
+```
+
+
+Execution Time: 1:06 (hh:mm) 
+
+Nb of EvoSuite Tests: 37
+
+Nb of Failing EvoSuite Tests: 37
+
+
 --- 
 #Seed: 23
 
-## Patch 3 #  jGenProg+MinImpact With Seed 23
+## Patch 5 #  jGenProg+MinImpact With Seed 23
 
 org.apache.commons.math3.distribution.HypergeometricDistribution : 321
 
@@ -89,7 +131,7 @@ Nb of Failing EvoSuite Tests: 36
 --- 
 #Seed: 24
 
-## Patch 4 #  jGenProg+MinImpact With Seed 24
+## Patch 6 #  jGenProg+MinImpact With Seed 24
 
 org.apache.commons.math3.distribution.HypergeometricDistribution : 321
 

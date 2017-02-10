@@ -248,10 +248,31 @@ Nb of EvoSuite Tests: 22
 Nb of Failing EvoSuite Tests: 22
 
 
+
+## Patch 11 #  jGenProg+MinImpact With Seed 11
+
+org.apache.commons.math3.optimization.direct.CMAESOptimizer : 911
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:52 (hh:mm) 
+
+Nb of EvoSuite Tests: 22
+
+Nb of Failing EvoSuite Tests: 22
+
+
 --- 
 #Seed: 12
 
-## Patch 11 #  jGenProg+MinImpact With Seed 12
+## Patch 12 #  jGenProg+MinImpact With Seed 12
 
 org.apache.commons.math3.optimization.direct.CMAESOptimizer : 995
 
@@ -274,7 +295,7 @@ Nb of Failing EvoSuite Tests: 27
 --- 
 #Seed: 13
 
-## Patch 12 #  jGenProg+MinImpact With Seed 13
+## Patch 13 #  jGenProg+MinImpact With Seed 13
 
 org.apache.commons.math3.optimization.direct.CMAESOptimizer : 911
 
@@ -297,7 +318,7 @@ Nb of Failing EvoSuite Tests: 23
 --- 
 #Seed: 14
 
-## Patch 13 #  jGenProg+MinImpact With Seed 14
+## Patch 14 #  jGenProg+MinImpact With Seed 14
 
 org.apache.commons.math3.optimization.direct.CMAESOptimizer : 913
 
@@ -320,7 +341,7 @@ Nb of Failing EvoSuite Tests: 23
 --- 
 #Seed: 16
 
-## Patch 14 #  jGenProg+MinImpact With Seed 16
+## Patch 15 #  jGenProg+MinImpact With Seed 16
 
 org.apache.commons.math3.optimization.direct.CMAESOptimizer : 995
 
@@ -340,10 +361,52 @@ Nb of EvoSuite Tests: 26
 Nb of Failing EvoSuite Tests: 26
 
 
+
+## Patch 16 #  jGenProg+MinImpact With Seed 16
+
+org.apache.commons.math3.optimization.direct.CMAESOptimizer : 995
+
+Patch type: ReplaceOp
+
+```Java
+
+org.apache.commons.math3.optimization.direct.CMAESOptimizer.FitnessFunction.this.valueRange = valueRange
+
+```
+
+
+Execution Time: 1:51 (hh:mm) 
+
+Nb of EvoSuite Tests: 26
+
+Nb of Failing EvoSuite Tests: 26
+
+
+
+## Patch 17 #  jGenProg+MinImpact With Seed 16
+
+org.apache.commons.math3.optimization.direct.CMAESOptimizer : 911
+
+Patch type: ReplaceOp
+
+```Java
+
+isRepairMode = true
+
+```
+
+
+Execution Time: 2:01 (hh:mm) 
+
+Nb of EvoSuite Tests: 26
+
+Nb of Failing EvoSuite Tests: 26
+
+
 --- 
 #Seed: 17
 
-## Patch 15 #  jGenProg+MinImpact With Seed 17
+## Patch 18 #  jGenProg+MinImpact With Seed 17
 
 org.apache.commons.math3.optimization.direct.CMAESOptimizer : 995
 
@@ -366,7 +429,7 @@ Nb of Failing EvoSuite Tests: 24
 --- 
 #Seed: 18
 
-## Patch 16 #  jGenProg+MinImpact With Seed 18
+## Patch 19 #  jGenProg+MinImpact With Seed 18
 
 org.apache.commons.math3.optimization.direct.CMAESOptimizer : 911
 
@@ -389,7 +452,7 @@ Nb of Failing EvoSuite Tests: 29
 --- 
 #Seed: 20
 
-## Patch 17 #  jGenProg+MinImpact With Seed 20
+## Patch 20 #  jGenProg+MinImpact With Seed 20
 
 org.apache.commons.math3.optimization.direct.CMAESOptimizer : 911
 
@@ -412,7 +475,7 @@ Nb of Failing EvoSuite Tests: 27
 --- 
 #Seed: 21
 
-## Patch 18 #  jGenProg+MinImpact With Seed 21
+## Patch 21 #  jGenProg+MinImpact With Seed 21
 
 org.apache.commons.math3.optimization.direct.CMAESOptimizer : 911
 
@@ -435,7 +498,7 @@ Nb of Failing EvoSuite Tests: 23
 --- 
 #Seed: 22
 
-## Patch 19 #  jGenProg+MinImpact With Seed 22
+## Patch 22 #  jGenProg+MinImpact With Seed 22
 
 org.apache.commons.math3.optimization.direct.CMAESOptimizer : 911
 
@@ -455,10 +518,31 @@ Nb of EvoSuite Tests: 20
 Nb of Failing EvoSuite Tests: 20
 
 
+
+## Patch 23 #  jGenProg+MinImpact With Seed 22
+
+org.apache.commons.math3.optimization.direct.CMAESOptimizer : 909
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 2:03 (hh:mm) 
+
+Nb of EvoSuite Tests: 20
+
+Nb of Failing EvoSuite Tests: 20
+
+
 --- 
 #Seed: 23
 
-## Patch 20 #  jGenProg+MinImpact With Seed 23
+## Patch 24 #  jGenProg+MinImpact With Seed 23
 
 org.apache.commons.math3.optimization.direct.CMAESOptimizer : 995
 
@@ -481,7 +565,7 @@ Nb of Failing EvoSuite Tests: 24
 --- 
 #Seed: 24
 
-## Patch 21 #  jGenProg+MinImpact With Seed 24
+## Patch 25 #  jGenProg+MinImpact With Seed 24
 
 org.apache.commons.math3.optimization.direct.CMAESOptimizer : 909
 
@@ -504,7 +588,7 @@ Nb of Failing EvoSuite Tests: 20
 --- 
 #Seed: 25
 
-## Patch 22 #  jGenProg+MinImpact With Seed 25
+## Patch 26 #  jGenProg+MinImpact With Seed 25
 
 org.apache.commons.math3.optimization.direct.CMAESOptimizer : 995
 
@@ -527,7 +611,7 @@ Nb of Failing EvoSuite Tests: 26
 --- 
 #Seed: 26
 
-## Patch 23 #  jGenProg+MinImpact With Seed 26
+## Patch 27 #  jGenProg+MinImpact With Seed 26
 
 org.apache.commons.math3.optimization.direct.CMAESOptimizer : 995
 
@@ -550,7 +634,7 @@ Nb of Failing EvoSuite Tests: 30
 --- 
 #Seed: 27
 
-## Patch 24 #  jGenProg+MinImpact With Seed 27
+## Patch 28 #  jGenProg+MinImpact With Seed 27
 
 org.apache.commons.math3.optimization.direct.CMAESOptimizer : 995
 
@@ -570,10 +654,31 @@ Nb of EvoSuite Tests: 23
 Nb of Failing EvoSuite Tests: 23
 
 
+
+## Patch 29 #  jGenProg+MinImpact With Seed 27
+
+org.apache.commons.math3.optimization.direct.CMAESOptimizer : 911
+
+Patch type: ReplaceOp
+
+```Java
+
+org.apache.commons.math3.optimization.direct.CMAESOptimizer.FitnessFunction.this.valueRange = valueRange
+
+```
+
+
+Execution Time: 2:01 (hh:mm) 
+
+Nb of EvoSuite Tests: 23
+
+Nb of Failing EvoSuite Tests: 23
+
+
 --- 
 #Seed: 28
 
-## Patch 25 #  jGenProg+MinImpact With Seed 28
+## Patch 30 #  jGenProg+MinImpact With Seed 28
 
 org.apache.commons.math3.optimization.direct.CMAESOptimizer : 995
 
@@ -596,7 +701,7 @@ Nb of Failing EvoSuite Tests: 20
 --- 
 #Seed: 29
 
-## Patch 26 #  jGenProg+MinImpact With Seed 29
+## Patch 31 #  jGenProg+MinImpact With Seed 29
 
 org.apache.commons.math3.optimization.direct.CMAESOptimizer : 909
 
@@ -619,7 +724,7 @@ Nb of Failing EvoSuite Tests: 23
 ---
 ## Summary an Analysis
 
-Average Nb of EvoSuite Tests: 25.7
+Average Nb of EvoSuite Tests: 26.3
 
 Average Nb of Failing EvoSuite Tests: 0
 
