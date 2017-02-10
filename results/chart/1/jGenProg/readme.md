@@ -22,6 +22,8 @@ Index: source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.jav
 
 ## Patch 1 #  jGenProg+MinImpact With Seed 1
 
+jGenProg+MinImpact returns this patch in the first place
+
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1798
 
 Patch type: RemoveOp
@@ -37,7 +39,7 @@ Execution Time: 0:33 (hh:mm)
 
 Nb of EvoSuite Tests: 104
 
-Nb of Failing EvoSuite Tests: 104
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -58,7 +60,7 @@ Execution Time: 1:03 (hh:mm)
 
 Nb of EvoSuite Tests: 104
 
-Nb of Failing EvoSuite Tests: 104
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -81,7 +83,7 @@ Execution Time: 1:30 (hh:mm)
 
 Nb of EvoSuite Tests: 104
 
-Nb of Failing EvoSuite Tests: 104
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -108,7 +110,7 @@ Execution Time: 1:41 (hh:mm)
 
 Nb of EvoSuite Tests: 104
 
-Nb of Failing EvoSuite Tests: 104
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -131,13 +133,15 @@ Execution Time: 1:47 (hh:mm)
 
 Nb of EvoSuite Tests: 104
 
-Nb of Failing EvoSuite Tests: 104
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 2
 
 ## Patch 6 #  jGenProg+MinImpact With Seed 2
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -154,7 +158,7 @@ Execution Time: 0:04 (hh:mm)
 
 Nb of EvoSuite Tests: 94
 
-Nb of Failing EvoSuite Tests: 94
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -181,7 +185,7 @@ Execution Time: 0:23 (hh:mm)
 
 Nb of EvoSuite Tests: 94
 
-Nb of Failing EvoSuite Tests: 94
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -202,7 +206,7 @@ Execution Time: 0:28 (hh:mm)
 
 Nb of EvoSuite Tests: 94
 
-Nb of Failing EvoSuite Tests: 94
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -225,7 +229,7 @@ Execution Time: 0:55 (hh:mm)
 
 Nb of EvoSuite Tests: 94
 
-Nb of Failing EvoSuite Tests: 94
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -248,7 +252,7 @@ Execution Time: 1:28 (hh:mm)
 
 Nb of EvoSuite Tests: 94
 
-Nb of Failing EvoSuite Tests: 94
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -271,13 +275,15 @@ Execution Time: 1:53 (hh:mm)
 
 Nb of EvoSuite Tests: 94
 
-Nb of Failing EvoSuite Tests: 94
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 3
 
 ## Patch 12 #  jGenProg+MinImpact With Seed 3
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1798
 
@@ -294,7 +300,7 @@ Execution Time: 0:11 (hh:mm)
 
 Nb of EvoSuite Tests: 107
 
-Nb of Failing EvoSuite Tests: 107
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -321,7 +327,7 @@ Execution Time: 1:12 (hh:mm)
 
 Nb of EvoSuite Tests: 107
 
-Nb of Failing EvoSuite Tests: 107
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -342,7 +348,7 @@ Execution Time: 1:14 (hh:mm)
 
 Nb of EvoSuite Tests: 107
 
-Nb of Failing EvoSuite Tests: 107
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -365,13 +371,15 @@ Execution Time: 1:46 (hh:mm)
 
 Nb of EvoSuite Tests: 107
 
-Nb of Failing EvoSuite Tests: 107
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 4
 
 ## Patch 16 #  jGenProg+MinImpact With Seed 4
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -388,7 +396,7 @@ Execution Time: 0:25 (hh:mm)
 
 Nb of EvoSuite Tests: 94
 
-Nb of Failing EvoSuite Tests: 94
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -415,7 +423,7 @@ Execution Time: 0:38 (hh:mm)
 
 Nb of EvoSuite Tests: 94
 
-Nb of Failing EvoSuite Tests: 94
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -438,13 +446,15 @@ Execution Time: 1:45 (hh:mm)
 
 Nb of EvoSuite Tests: 94
 
-Nb of Failing EvoSuite Tests: 94
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 5
 
 ## Patch 19 #  jGenProg+MinImpact With Seed 5
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -461,7 +471,7 @@ Execution Time: 0:29 (hh:mm)
 
 Nb of EvoSuite Tests: 99
 
-Nb of Failing EvoSuite Tests: 99
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -482,13 +492,15 @@ Execution Time: 0:35 (hh:mm)
 
 Nb of EvoSuite Tests: 99
 
-Nb of Failing EvoSuite Tests: 99
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 6
 
 ## Patch 21 #  jGenProg+MinImpact With Seed 6
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -505,7 +517,7 @@ Execution Time: 0:06 (hh:mm)
 
 Nb of EvoSuite Tests: 98
 
-Nb of Failing EvoSuite Tests: 98
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -528,7 +540,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 98
 
-Nb of Failing EvoSuite Tests: 98
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -549,13 +561,15 @@ Execution Time: 0:37 (hh:mm)
 
 Nb of EvoSuite Tests: 98
 
-Nb of Failing EvoSuite Tests: 98
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 7
 
 ## Patch 24 #  jGenProg+MinImpact With Seed 7
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -572,7 +586,7 @@ Execution Time: 0:22 (hh:mm)
 
 Nb of EvoSuite Tests: 97
 
-Nb of Failing EvoSuite Tests: 97
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -599,7 +613,7 @@ Execution Time: 0:27 (hh:mm)
 
 Nb of EvoSuite Tests: 97
 
-Nb of Failing EvoSuite Tests: 97
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -622,7 +636,7 @@ Execution Time: 1:07 (hh:mm)
 
 Nb of EvoSuite Tests: 97
 
-Nb of Failing EvoSuite Tests: 97
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -643,13 +657,15 @@ Execution Time: 1:22 (hh:mm)
 
 Nb of EvoSuite Tests: 97
 
-Nb of Failing EvoSuite Tests: 97
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 8
 
 ## Patch 28 #  jGenProg+MinImpact With Seed 8
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -666,7 +682,7 @@ Execution Time: 0:27 (hh:mm)
 
 Nb of EvoSuite Tests: 98
 
-Nb of Failing EvoSuite Tests: 98
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -693,7 +709,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 98
 
-Nb of Failing EvoSuite Tests: 98
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -714,7 +730,7 @@ Execution Time: 0:34 (hh:mm)
 
 Nb of EvoSuite Tests: 98
 
-Nb of Failing EvoSuite Tests: 98
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -737,13 +753,15 @@ Execution Time: 1:31 (hh:mm)
 
 Nb of EvoSuite Tests: 98
 
-Nb of Failing EvoSuite Tests: 98
+Nb of Failing EvoSuite Tests: 4
 
 
 --- 
 #Seed: 9
 
 ## Patch 32 #  jGenProg+MinImpact With Seed 9
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1798
 
@@ -760,7 +778,7 @@ Execution Time: 0:12 (hh:mm)
 
 Nb of EvoSuite Tests: 111
 
-Nb of Failing EvoSuite Tests: 111
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -787,7 +805,7 @@ Execution Time: 0:51 (hh:mm)
 
 Nb of EvoSuite Tests: 111
 
-Nb of Failing EvoSuite Tests: 111
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -808,7 +826,7 @@ Execution Time: 0:53 (hh:mm)
 
 Nb of EvoSuite Tests: 111
 
-Nb of Failing EvoSuite Tests: 111
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -831,13 +849,15 @@ Execution Time: 1:45 (hh:mm)
 
 Nb of EvoSuite Tests: 111
 
-Nb of Failing EvoSuite Tests: 111
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 10
 
 ## Patch 36 #  jGenProg+MinImpact With Seed 10
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -856,7 +876,7 @@ Execution Time: 0:10 (hh:mm)
 
 Nb of EvoSuite Tests: 95
 
-Nb of Failing EvoSuite Tests: 95
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -877,7 +897,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 95
 
-Nb of Failing EvoSuite Tests: 95
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -904,7 +924,7 @@ Execution Time: 0:54 (hh:mm)
 
 Nb of EvoSuite Tests: 95
 
-Nb of Failing EvoSuite Tests: 95
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -925,13 +945,15 @@ Execution Time: 1:02 (hh:mm)
 
 Nb of EvoSuite Tests: 95
 
-Nb of Failing EvoSuite Tests: 95
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 11
 
 ## Patch 40 #  jGenProg+MinImpact With Seed 11
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1798
 
@@ -948,7 +970,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 97
 
-Nb of Failing EvoSuite Tests: 97
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -969,7 +991,7 @@ Execution Time: 0:17 (hh:mm)
 
 Nb of EvoSuite Tests: 97
 
-Nb of Failing EvoSuite Tests: 97
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -996,7 +1018,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 97
 
-Nb of Failing EvoSuite Tests: 97
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1019,7 +1041,7 @@ Execution Time: 1:42 (hh:mm)
 
 Nb of EvoSuite Tests: 97
 
-Nb of Failing EvoSuite Tests: 97
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1042,13 +1064,15 @@ Execution Time: 1:51 (hh:mm)
 
 Nb of EvoSuite Tests: 97
 
-Nb of Failing EvoSuite Tests: 97
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 12
 
 ## Patch 45 #  jGenProg+MinImpact With Seed 12
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1798
 
@@ -1065,7 +1089,7 @@ Execution Time: 0:15 (hh:mm)
 
 Nb of EvoSuite Tests: 95
 
-Nb of Failing EvoSuite Tests: 95
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1086,7 +1110,7 @@ Execution Time: 0:17 (hh:mm)
 
 Nb of EvoSuite Tests: 95
 
-Nb of Failing EvoSuite Tests: 95
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1109,7 +1133,7 @@ Execution Time: 0:49 (hh:mm)
 
 Nb of EvoSuite Tests: 95
 
-Nb of Failing EvoSuite Tests: 95
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1132,7 +1156,7 @@ Execution Time: 0:55 (hh:mm)
 
 Nb of EvoSuite Tests: 95
 
-Nb of Failing EvoSuite Tests: 95
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1155,13 +1179,15 @@ Execution Time: 1:48 (hh:mm)
 
 Nb of EvoSuite Tests: 95
 
-Nb of Failing EvoSuite Tests: 95
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 13
 
 ## Patch 50 #  jGenProg+MinImpact With Seed 13
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -1178,7 +1204,7 @@ Execution Time: 0:23 (hh:mm)
 
 Nb of EvoSuite Tests: 96
 
-Nb of Failing EvoSuite Tests: 96
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1201,7 +1227,7 @@ Execution Time: 0:33 (hh:mm)
 
 Nb of EvoSuite Tests: 96
 
-Nb of Failing EvoSuite Tests: 96
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1224,7 +1250,7 @@ Execution Time: 0:42 (hh:mm)
 
 Nb of EvoSuite Tests: 96
 
-Nb of Failing EvoSuite Tests: 96
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1245,7 +1271,7 @@ Execution Time: 0:51 (hh:mm)
 
 Nb of EvoSuite Tests: 96
 
-Nb of Failing EvoSuite Tests: 96
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1268,7 +1294,7 @@ Execution Time: 0:55 (hh:mm)
 
 Nb of EvoSuite Tests: 96
 
-Nb of Failing EvoSuite Tests: 96
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1295,13 +1321,15 @@ Execution Time: 1:29 (hh:mm)
 
 Nb of EvoSuite Tests: 96
 
-Nb of Failing EvoSuite Tests: 96
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 14
 
 ## Patch 56 #  jGenProg+MinImpact With Seed 14
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1798
 
@@ -1318,7 +1346,7 @@ Execution Time: 0:11 (hh:mm)
 
 Nb of EvoSuite Tests: 97
 
-Nb of Failing EvoSuite Tests: 97
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1339,7 +1367,7 @@ Execution Time: 1:04 (hh:mm)
 
 Nb of EvoSuite Tests: 97
 
-Nb of Failing EvoSuite Tests: 97
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1362,7 +1390,7 @@ Execution Time: 1:21 (hh:mm)
 
 Nb of EvoSuite Tests: 97
 
-Nb of Failing EvoSuite Tests: 97
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1389,13 +1417,15 @@ Execution Time: 2:02 (hh:mm)
 
 Nb of EvoSuite Tests: 97
 
-Nb of Failing EvoSuite Tests: 97
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 15
 
 ## Patch 60 #  jGenProg+MinImpact With Seed 15
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -1412,7 +1442,7 @@ Execution Time: 0:12 (hh:mm)
 
 Nb of EvoSuite Tests: 94
 
-Nb of Failing EvoSuite Tests: 94
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1439,7 +1469,7 @@ Execution Time: 0:17 (hh:mm)
 
 Nb of EvoSuite Tests: 94
 
-Nb of Failing EvoSuite Tests: 94
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1460,7 +1490,7 @@ Execution Time: 0:24 (hh:mm)
 
 Nb of EvoSuite Tests: 94
 
-Nb of Failing EvoSuite Tests: 94
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1483,13 +1513,15 @@ Execution Time: 2:03 (hh:mm)
 
 Nb of EvoSuite Tests: 94
 
-Nb of Failing EvoSuite Tests: 94
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 16
 
 ## Patch 64 #  jGenProg+MinImpact With Seed 16
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -1506,7 +1538,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 95
 
-Nb of Failing EvoSuite Tests: 95
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1527,7 +1559,7 @@ Execution Time: 0:29 (hh:mm)
 
 Nb of EvoSuite Tests: 95
 
-Nb of Failing EvoSuite Tests: 95
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1554,13 +1586,15 @@ Execution Time: 0:36 (hh:mm)
 
 Nb of EvoSuite Tests: 95
 
-Nb of Failing EvoSuite Tests: 95
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 17
 
 ## Patch 67 #  jGenProg+MinImpact With Seed 17
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -1583,7 +1617,7 @@ Execution Time: 0:15 (hh:mm)
 
 Nb of EvoSuite Tests: 96
 
-Nb of Failing EvoSuite Tests: 96
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1604,7 +1638,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 96
 
-Nb of Failing EvoSuite Tests: 96
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1627,7 +1661,7 @@ Execution Time: 0:37 (hh:mm)
 
 Nb of EvoSuite Tests: 96
 
-Nb of Failing EvoSuite Tests: 96
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1648,7 +1682,7 @@ Execution Time: 0:49 (hh:mm)
 
 Nb of EvoSuite Tests: 96
 
-Nb of Failing EvoSuite Tests: 96
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1671,7 +1705,7 @@ Execution Time: 1:20 (hh:mm)
 
 Nb of EvoSuite Tests: 96
 
-Nb of Failing EvoSuite Tests: 96
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1694,13 +1728,15 @@ Execution Time: 1:28 (hh:mm)
 
 Nb of EvoSuite Tests: 96
 
-Nb of Failing EvoSuite Tests: 96
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 18
 
 ## Patch 73 #  jGenProg+MinImpact With Seed 18
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -1717,7 +1753,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 97
 
-Nb of Failing EvoSuite Tests: 97
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1738,7 +1774,7 @@ Execution Time: 0:22 (hh:mm)
 
 Nb of EvoSuite Tests: 97
 
-Nb of Failing EvoSuite Tests: 97
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1761,7 +1797,7 @@ Execution Time: 0:44 (hh:mm)
 
 Nb of EvoSuite Tests: 97
 
-Nb of Failing EvoSuite Tests: 97
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1788,7 +1824,7 @@ Execution Time: 0:57 (hh:mm)
 
 Nb of EvoSuite Tests: 97
 
-Nb of Failing EvoSuite Tests: 97
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1811,7 +1847,7 @@ Execution Time: 1:01 (hh:mm)
 
 Nb of EvoSuite Tests: 97
 
-Nb of Failing EvoSuite Tests: 97
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1834,13 +1870,15 @@ Execution Time: 1:07 (hh:mm)
 
 Nb of EvoSuite Tests: 97
 
-Nb of Failing EvoSuite Tests: 97
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 19
 
 ## Patch 79 #  jGenProg+MinImpact With Seed 19
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -1857,7 +1895,7 @@ Execution Time: 0:07 (hh:mm)
 
 Nb of EvoSuite Tests: 91
 
-Nb of Failing EvoSuite Tests: 91
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1884,7 +1922,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 91
 
-Nb of Failing EvoSuite Tests: 91
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1907,7 +1945,7 @@ Execution Time: 0:33 (hh:mm)
 
 Nb of EvoSuite Tests: 91
 
-Nb of Failing EvoSuite Tests: 91
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1928,7 +1966,7 @@ Execution Time: 0:38 (hh:mm)
 
 Nb of EvoSuite Tests: 91
 
-Nb of Failing EvoSuite Tests: 91
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1951,7 +1989,7 @@ Execution Time: 1:00 (hh:mm)
 
 Nb of EvoSuite Tests: 91
 
-Nb of Failing EvoSuite Tests: 91
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1974,13 +2012,15 @@ Execution Time: 1:32 (hh:mm)
 
 Nb of EvoSuite Tests: 91
 
-Nb of Failing EvoSuite Tests: 91
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 20
 
 ## Patch 85 #  jGenProg+MinImpact With Seed 20
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1798
 
@@ -1997,7 +2037,7 @@ Execution Time: 0:52 (hh:mm)
 
 Nb of EvoSuite Tests: 93
 
-Nb of Failing EvoSuite Tests: 93
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2024,7 +2064,7 @@ Execution Time: 1:03 (hh:mm)
 
 Nb of EvoSuite Tests: 93
 
-Nb of Failing EvoSuite Tests: 93
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2045,7 +2085,7 @@ Execution Time: 1:29 (hh:mm)
 
 Nb of EvoSuite Tests: 93
 
-Nb of Failing EvoSuite Tests: 93
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2068,7 +2108,7 @@ Execution Time: 1:55 (hh:mm)
 
 Nb of EvoSuite Tests: 93
 
-Nb of Failing EvoSuite Tests: 93
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2091,13 +2131,15 @@ Execution Time: 1:59 (hh:mm)
 
 Nb of EvoSuite Tests: 93
 
-Nb of Failing EvoSuite Tests: 93
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 21
 
 ## Patch 90 #  jGenProg+MinImpact With Seed 21
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1798
 
@@ -2114,7 +2156,7 @@ Execution Time: 0:10 (hh:mm)
 
 Nb of EvoSuite Tests: 105
 
-Nb of Failing EvoSuite Tests: 105
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2135,7 +2177,7 @@ Execution Time: 0:18 (hh:mm)
 
 Nb of EvoSuite Tests: 105
 
-Nb of Failing EvoSuite Tests: 105
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2158,7 +2200,7 @@ Execution Time: 0:32 (hh:mm)
 
 Nb of EvoSuite Tests: 105
 
-Nb of Failing EvoSuite Tests: 105
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2181,7 +2223,7 @@ Execution Time: 1:19 (hh:mm)
 
 Nb of EvoSuite Tests: 105
 
-Nb of Failing EvoSuite Tests: 105
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2204,13 +2246,15 @@ Execution Time: 1:56 (hh:mm)
 
 Nb of EvoSuite Tests: 105
 
-Nb of Failing EvoSuite Tests: 105
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 22
 
 ## Patch 95 #  jGenProg+MinImpact With Seed 22
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -2229,7 +2273,7 @@ Execution Time: 0:12 (hh:mm)
 
 Nb of EvoSuite Tests: 97
 
-Nb of Failing EvoSuite Tests: 97
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2250,13 +2294,15 @@ Execution Time: 1:41 (hh:mm)
 
 Nb of EvoSuite Tests: 97
 
-Nb of Failing EvoSuite Tests: 97
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 23
 
 ## Patch 97 #  jGenProg+MinImpact With Seed 23
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -2275,7 +2321,7 @@ Execution Time: 0:11 (hh:mm)
 
 Nb of EvoSuite Tests: 93
 
-Nb of Failing EvoSuite Tests: 93
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2296,7 +2342,7 @@ Execution Time: 0:36 (hh:mm)
 
 Nb of EvoSuite Tests: 93
 
-Nb of Failing EvoSuite Tests: 93
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2317,7 +2363,7 @@ Execution Time: 0:50 (hh:mm)
 
 Nb of EvoSuite Tests: 93
 
-Nb of Failing EvoSuite Tests: 93
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2340,7 +2386,7 @@ Execution Time: 1:09 (hh:mm)
 
 Nb of EvoSuite Tests: 93
 
-Nb of Failing EvoSuite Tests: 93
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2363,13 +2409,15 @@ Execution Time: 1:41 (hh:mm)
 
 Nb of EvoSuite Tests: 93
 
-Nb of Failing EvoSuite Tests: 93
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 25
 
 ## Patch 102 #  jGenProg+MinImpact With Seed 25
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1798
 
@@ -2386,7 +2434,7 @@ Execution Time: 0:09 (hh:mm)
 
 Nb of EvoSuite Tests: 98
 
-Nb of Failing EvoSuite Tests: 98
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2409,7 +2457,7 @@ Execution Time: 0:33 (hh:mm)
 
 Nb of EvoSuite Tests: 98
 
-Nb of Failing EvoSuite Tests: 98
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2432,7 +2480,7 @@ Execution Time: 0:46 (hh:mm)
 
 Nb of EvoSuite Tests: 98
 
-Nb of Failing EvoSuite Tests: 98
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2453,13 +2501,15 @@ Execution Time: 1:08 (hh:mm)
 
 Nb of EvoSuite Tests: 98
 
-Nb of Failing EvoSuite Tests: 98
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 26
 
 ## Patch 106 #  jGenProg+MinImpact With Seed 26
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1798
 
@@ -2476,7 +2526,7 @@ Execution Time: 0:08 (hh:mm)
 
 Nb of EvoSuite Tests: 99
 
-Nb of Failing EvoSuite Tests: 99
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2497,7 +2547,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 99
 
-Nb of Failing EvoSuite Tests: 99
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2520,7 +2570,7 @@ Execution Time: 0:31 (hh:mm)
 
 Nb of EvoSuite Tests: 99
 
-Nb of Failing EvoSuite Tests: 99
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2543,13 +2593,15 @@ Execution Time: 1:44 (hh:mm)
 
 Nb of EvoSuite Tests: 99
 
-Nb of Failing EvoSuite Tests: 99
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 27
 
 ## Patch 110 #  jGenProg+MinImpact With Seed 27
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -2568,7 +2620,7 @@ Execution Time: 0:08 (hh:mm)
 
 Nb of EvoSuite Tests: 103
 
-Nb of Failing EvoSuite Tests: 103
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2591,7 +2643,7 @@ Execution Time: 0:27 (hh:mm)
 
 Nb of EvoSuite Tests: 103
 
-Nb of Failing EvoSuite Tests: 103
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2612,7 +2664,7 @@ Execution Time: 0:33 (hh:mm)
 
 Nb of EvoSuite Tests: 103
 
-Nb of Failing EvoSuite Tests: 103
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2633,7 +2685,7 @@ Execution Time: 1:18 (hh:mm)
 
 Nb of EvoSuite Tests: 103
 
-Nb of Failing EvoSuite Tests: 103
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2660,13 +2712,15 @@ Execution Time: 1:47 (hh:mm)
 
 Nb of EvoSuite Tests: 103
 
-Nb of Failing EvoSuite Tests: 103
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 28
 
 ## Patch 115 #  jGenProg+MinImpact With Seed 28
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -2683,7 +2737,7 @@ Execution Time: 0:08 (hh:mm)
 
 Nb of EvoSuite Tests: 89
 
-Nb of Failing EvoSuite Tests: 89
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2704,7 +2758,7 @@ Execution Time: 1:06 (hh:mm)
 
 Nb of EvoSuite Tests: 89
 
-Nb of Failing EvoSuite Tests: 89
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2731,13 +2785,15 @@ Execution Time: 1:31 (hh:mm)
 
 Nb of EvoSuite Tests: 89
 
-Nb of Failing EvoSuite Tests: 89
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 29
 
 ## Patch 118 #  jGenProg+MinImpact With Seed 29
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -2760,7 +2816,7 @@ Execution Time: 0:10 (hh:mm)
 
 Nb of EvoSuite Tests: 98
 
-Nb of Failing EvoSuite Tests: 98
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2783,7 +2839,7 @@ Execution Time: 0:34 (hh:mm)
 
 Nb of EvoSuite Tests: 98
 
-Nb of Failing EvoSuite Tests: 98
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2804,7 +2860,7 @@ Execution Time: 0:45 (hh:mm)
 
 Nb of EvoSuite Tests: 98
 
-Nb of Failing EvoSuite Tests: 98
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2825,7 +2881,7 @@ Execution Time: 1:22 (hh:mm)
 
 Nb of EvoSuite Tests: 98
 
-Nb of Failing EvoSuite Tests: 98
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2848,13 +2904,15 @@ Execution Time: 1:48 (hh:mm)
 
 Nb of EvoSuite Tests: 98
 
-Nb of Failing EvoSuite Tests: 98
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 30
 
 ## Patch 123 #  jGenProg+MinImpact With Seed 30
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -2871,7 +2929,7 @@ Execution Time: 0:23 (hh:mm)
 
 Nb of EvoSuite Tests: 101
 
-Nb of Failing EvoSuite Tests: 101
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2894,7 +2952,7 @@ Execution Time: 1:33 (hh:mm)
 
 Nb of EvoSuite Tests: 101
 
-Nb of Failing EvoSuite Tests: 101
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2917,7 +2975,7 @@ Execution Time: 1:51 (hh:mm)
 
 Nb of EvoSuite Tests: 101
 
-Nb of Failing EvoSuite Tests: 101
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2938,14 +2996,16 @@ Execution Time: 2:03 (hh:mm)
 
 Nb of EvoSuite Tests: 101
 
-Nb of Failing EvoSuite Tests: 101
+Nb of Failing EvoSuite Tests: 0
 
 
 ---
 ## Summary an Analysis
 
-Average Nb of EvoSuite Tests: 109.33
+Average Nb of EvoSuite Tests: 97.56
 
-Average Nb of Failing EvoSuite Tests: 2
+Average Nb of Failing EvoSuite Tests: 0.1
+
+Average Nb of Test-adequate patches: 4.34
 
 ---

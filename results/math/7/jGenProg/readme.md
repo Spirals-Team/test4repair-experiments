@@ -55,6 +55,8 @@ index 6e0237f..f24f87c 100644
 
 ## Patch 1 #  jGenProg+MinImpact With Seed 21
 
+jGenProg+MinImpact returns this patch in the first place
+
 org.apache.commons.math3.ode.events.EventState : 198
 
 Patch type: InsertBeforeOp
@@ -70,7 +72,7 @@ Execution Time: 0:08 (hh:mm)
 
 Nb of EvoSuite Tests: 19
 
-Nb of Failing EvoSuite Tests: 19
+Nb of Failing EvoSuite Tests: 0
 
 
 ---
@@ -79,5 +81,7 @@ Nb of Failing EvoSuite Tests: 19
 Average Nb of EvoSuite Tests: 9.5
 
 Average Nb of Failing EvoSuite Tests: 0
+
+Average Nb of Test-adequate patches: 1
 
 ---

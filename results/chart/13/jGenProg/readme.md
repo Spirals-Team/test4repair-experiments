@@ -22,6 +22,8 @@ index b3ae54b..730aeb3 100644
 
 ## Patch 1 #  jGenProg+MinImpact With Seed 1
 
+jGenProg+MinImpact returns this patch in the first place
+
 org.jfree.chart.block.BorderArrangement : 450
 
 Patch type: RemoveOp
@@ -37,7 +39,7 @@ Execution Time: 0:04 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -60,7 +62,7 @@ Execution Time: 0:16 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -81,7 +83,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -104,7 +106,7 @@ Execution Time: 0:23 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -125,7 +127,7 @@ Execution Time: 0:24 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -146,7 +148,7 @@ Execution Time: 0:29 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -167,7 +169,7 @@ Execution Time: 0:35 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -188,7 +190,7 @@ Execution Time: 0:36 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -209,7 +211,7 @@ Execution Time: 0:45 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -230,7 +232,7 @@ Execution Time: 0:49 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -253,7 +255,7 @@ Execution Time: 0:50 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -274,7 +276,7 @@ Execution Time: 0:55 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -295,7 +297,7 @@ Execution Time: 0:59 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -316,7 +318,7 @@ Execution Time: 1:07 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -337,7 +339,7 @@ Execution Time: 1:09 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -358,7 +360,7 @@ Execution Time: 1:13 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -381,7 +383,7 @@ Execution Time: 1:20 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -404,7 +406,7 @@ Execution Time: 1:22 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -425,7 +427,7 @@ Execution Time: 1:25 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -446,7 +448,7 @@ Execution Time: 1:27 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -469,7 +471,7 @@ Execution Time: 1:35 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -492,7 +494,7 @@ Execution Time: 1:44 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -513,7 +515,7 @@ Execution Time: 1:45 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -534,13 +536,15 @@ Execution Time: 2:01 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 2
 
 ## Patch 25 #  jGenProg+MinImpact With Seed 2
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -557,7 +561,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -578,7 +582,7 @@ Execution Time: 0:25 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -599,7 +603,7 @@ Execution Time: 0:32 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -620,7 +624,7 @@ Execution Time: 0:44 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -641,7 +645,7 @@ Execution Time: 0:52 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -662,7 +666,7 @@ Execution Time: 0:54 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -683,7 +687,7 @@ Execution Time: 1:01 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -704,7 +708,7 @@ Execution Time: 1:03 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -725,7 +729,7 @@ Execution Time: 1:12 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -748,7 +752,7 @@ Execution Time: 1:13 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -769,7 +773,7 @@ Execution Time: 1:23 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -790,7 +794,7 @@ Execution Time: 1:30 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -811,7 +815,7 @@ Execution Time: 1:34 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -832,7 +836,7 @@ Execution Time: 1:35 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -853,7 +857,7 @@ Execution Time: 1:38 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -874,7 +878,7 @@ Execution Time: 1:40 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -895,7 +899,7 @@ Execution Time: 1:43 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -916,7 +920,7 @@ Execution Time: 1:46 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -937,7 +941,7 @@ Execution Time: 1:48 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -960,7 +964,7 @@ Execution Time: 1:52 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -981,7 +985,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 66
 
-Nb of Failing EvoSuite Tests: 66
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -1002,13 +1006,15 @@ Execution Time: 1:20 (hh:mm)
 
 Nb of EvoSuite Tests: 66
 
-Nb of Failing EvoSuite Tests: 66
+Nb of Failing EvoSuite Tests: 2
 
 
 --- 
 #Seed: 3
 
 ## Patch 47 #  jGenProg+MinImpact With Seed 3
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 453
 
@@ -1027,7 +1033,7 @@ Execution Time: 0:04 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1048,7 +1054,7 @@ Execution Time: 0:06 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1069,7 +1075,7 @@ Execution Time: 0:08 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1090,7 +1096,7 @@ Execution Time: 0:10 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1111,7 +1117,7 @@ Execution Time: 0:12 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1132,7 +1138,7 @@ Execution Time: 0:14 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1155,7 +1161,7 @@ Execution Time: 0:17 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1178,7 +1184,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1199,7 +1205,7 @@ Execution Time: 0:25 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1220,7 +1226,7 @@ Execution Time: 0:30 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1241,7 +1247,7 @@ Execution Time: 0:33 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1264,7 +1270,7 @@ Execution Time: 0:40 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1287,7 +1293,7 @@ Execution Time: 0:42 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1308,7 +1314,7 @@ Execution Time: 0:44 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1329,7 +1335,7 @@ Execution Time: 0:50 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1350,7 +1356,7 @@ Execution Time: 1:03 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1371,7 +1377,7 @@ Execution Time: 1:15 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1394,7 +1400,7 @@ Execution Time: 1:17 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1415,7 +1421,7 @@ Execution Time: 1:29 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1436,7 +1442,7 @@ Execution Time: 1:31 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1457,7 +1463,7 @@ Execution Time: 1:39 (hh:mm)
 
 Nb of EvoSuite Tests: 66
 
-Nb of Failing EvoSuite Tests: 66
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1478,7 +1484,7 @@ Execution Time: 1:42 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1501,7 +1507,7 @@ Execution Time: 1:47 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1522,7 +1528,7 @@ Execution Time: 1:53 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1543,7 +1549,7 @@ Execution Time: 1:55 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1564,7 +1570,7 @@ Execution Time: 1:59 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1585,13 +1591,15 @@ Execution Time: 2:01 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 4
 
 ## Patch 74 #  jGenProg+MinImpact With Seed 4
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 453
 
@@ -1610,7 +1618,7 @@ Execution Time: 0:03 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1631,7 +1639,7 @@ Execution Time: 0:05 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1652,7 +1660,7 @@ Execution Time: 0:11 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1673,7 +1681,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1694,7 +1702,7 @@ Execution Time: 0:15 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1717,7 +1725,7 @@ Execution Time: 0:26 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1740,7 +1748,7 @@ Execution Time: 0:37 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1763,7 +1771,7 @@ Execution Time: 0:41 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1784,7 +1792,7 @@ Execution Time: 0:49 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1805,7 +1813,7 @@ Execution Time: 0:52 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1826,7 +1834,7 @@ Execution Time: 0:54 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1847,7 +1855,7 @@ Execution Time: 0:57 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1870,7 +1878,7 @@ Execution Time: 1:14 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1891,7 +1899,7 @@ Execution Time: 1:21 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1914,7 +1922,7 @@ Execution Time: 1:25 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1935,7 +1943,7 @@ Execution Time: 1:27 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1956,7 +1964,7 @@ Execution Time: 1:29 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1977,7 +1985,7 @@ Execution Time: 1:33 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1998,7 +2006,7 @@ Execution Time: 1:34 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2019,7 +2027,7 @@ Execution Time: 1:38 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2040,7 +2048,7 @@ Execution Time: 1:45 (hh:mm)
 
 Nb of EvoSuite Tests: 71
 
-Nb of Failing EvoSuite Tests: 71
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2061,7 +2069,7 @@ Execution Time: 1:48 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2082,7 +2090,7 @@ Execution Time: 1:52 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2103,7 +2111,7 @@ Execution Time: 1:54 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2126,13 +2134,15 @@ Execution Time: 1:56 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 5
 
 ## Patch 99 #  jGenProg+MinImpact With Seed 5
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -2149,7 +2159,7 @@ Execution Time: 0:04 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2170,7 +2180,7 @@ Execution Time: 0:06 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2191,7 +2201,7 @@ Execution Time: 0:10 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2212,7 +2222,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2235,7 +2245,7 @@ Execution Time: 0:17 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2256,7 +2266,7 @@ Execution Time: 0:18 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2277,7 +2287,7 @@ Execution Time: 0:24 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2300,7 +2310,7 @@ Execution Time: 0:27 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2321,7 +2331,7 @@ Execution Time: 0:36 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2342,7 +2352,7 @@ Execution Time: 0:40 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2365,7 +2375,7 @@ Execution Time: 0:43 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2386,7 +2396,7 @@ Execution Time: 0:50 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2407,7 +2417,7 @@ Execution Time: 0:51 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2428,7 +2438,7 @@ Execution Time: 0:54 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2449,7 +2459,7 @@ Execution Time: 1:03 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2470,7 +2480,7 @@ Execution Time: 1:07 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2491,7 +2501,7 @@ Execution Time: 1:10 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2512,7 +2522,7 @@ Execution Time: 1:12 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2533,7 +2543,7 @@ Execution Time: 1:19 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2556,7 +2566,7 @@ Execution Time: 1:22 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2577,7 +2587,7 @@ Execution Time: 1:26 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2598,7 +2608,7 @@ Execution Time: 1:28 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2619,7 +2629,7 @@ Execution Time: 1:35 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2640,7 +2650,7 @@ Execution Time: 1:37 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2661,7 +2671,7 @@ Execution Time: 1:42 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2682,7 +2692,7 @@ Execution Time: 1:44 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2703,7 +2713,7 @@ Execution Time: 1:50 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2726,13 +2736,15 @@ Execution Time: 1:57 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 6
 
 ## Patch 127 #  jGenProg+MinImpact With Seed 6
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -2749,7 +2761,7 @@ Execution Time: 0:06 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2772,7 +2784,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2793,7 +2805,7 @@ Execution Time: 0:17 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2814,7 +2826,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2837,7 +2849,7 @@ Execution Time: 0:22 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2858,7 +2870,7 @@ Execution Time: 0:24 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2879,7 +2891,7 @@ Execution Time: 0:26 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2900,7 +2912,7 @@ Execution Time: 0:30 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2923,7 +2935,7 @@ Execution Time: 0:35 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2946,7 +2958,7 @@ Execution Time: 0:38 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2967,7 +2979,7 @@ Execution Time: 0:46 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2988,7 +3000,7 @@ Execution Time: 0:49 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3009,7 +3021,7 @@ Execution Time: 0:55 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3030,7 +3042,7 @@ Execution Time: 0:59 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3053,7 +3065,7 @@ Execution Time: 1:02 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3074,7 +3086,7 @@ Execution Time: 1:21 (hh:mm)
 
 Nb of EvoSuite Tests: 65
 
-Nb of Failing EvoSuite Tests: 65
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3095,7 +3107,7 @@ Execution Time: 1:24 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3118,7 +3130,7 @@ Execution Time: 1:28 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3139,7 +3151,7 @@ Execution Time: 1:32 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3160,7 +3172,7 @@ Execution Time: 1:42 (hh:mm)
 
 Nb of EvoSuite Tests: 65
 
-Nb of Failing EvoSuite Tests: 65
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3181,7 +3193,7 @@ Execution Time: 1:43 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3202,7 +3214,7 @@ Execution Time: 1:45 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3223,7 +3235,7 @@ Execution Time: 1:48 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3246,7 +3258,7 @@ Execution Time: 1:54 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3267,13 +3279,15 @@ Execution Time: 2:00 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 7
 
 ## Patch 152 #  jGenProg+MinImpact With Seed 7
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -3290,7 +3304,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3311,7 +3325,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3332,7 +3346,7 @@ Execution Time: 0:23 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3355,7 +3369,7 @@ Execution Time: 0:26 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3376,7 +3390,7 @@ Execution Time: 0:31 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3397,7 +3411,7 @@ Execution Time: 0:42 (hh:mm)
 
 Nb of EvoSuite Tests: 68
 
-Nb of Failing EvoSuite Tests: 68
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3418,7 +3432,7 @@ Execution Time: 0:46 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3439,7 +3453,7 @@ Execution Time: 0:48 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3462,7 +3476,7 @@ Execution Time: 0:55 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3485,7 +3499,7 @@ Execution Time: 0:59 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3506,7 +3520,7 @@ Execution Time: 1:05 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3527,7 +3541,7 @@ Execution Time: 1:09 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3548,7 +3562,7 @@ Execution Time: 1:19 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3569,7 +3583,7 @@ Execution Time: 1:26 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3590,7 +3604,7 @@ Execution Time: 1:38 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3613,7 +3627,7 @@ Execution Time: 1:44 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3634,7 +3648,7 @@ Execution Time: 1:46 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3655,7 +3669,7 @@ Execution Time: 1:48 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3678,7 +3692,7 @@ Execution Time: 1:51 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3701,13 +3715,15 @@ Execution Time: 1:55 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 8
 
 ## Patch 172 #  jGenProg+MinImpact With Seed 8
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 301
 
@@ -3724,7 +3740,7 @@ Execution Time: 0:05 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3745,7 +3761,7 @@ Execution Time: 0:09 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3768,7 +3784,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3791,7 +3807,7 @@ Execution Time: 0:22 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3812,7 +3828,7 @@ Execution Time: 0:25 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3833,7 +3849,7 @@ Execution Time: 0:29 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3854,7 +3870,7 @@ Execution Time: 0:31 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3877,7 +3893,7 @@ Execution Time: 0:33 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3898,7 +3914,7 @@ Execution Time: 0:36 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3919,7 +3935,7 @@ Execution Time: 0:39 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3940,7 +3956,7 @@ Execution Time: 0:41 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3961,7 +3977,7 @@ Execution Time: 0:43 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3982,7 +3998,7 @@ Execution Time: 0:47 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4003,7 +4019,7 @@ Execution Time: 0:52 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4024,7 +4040,7 @@ Execution Time: 0:57 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4047,7 +4063,7 @@ Execution Time: 1:01 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4070,7 +4086,7 @@ Execution Time: 1:03 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4091,7 +4107,7 @@ Execution Time: 1:04 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4114,7 +4130,7 @@ Execution Time: 1:11 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4137,7 +4153,7 @@ Execution Time: 1:13 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4160,7 +4176,7 @@ Execution Time: 1:14 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4181,7 +4197,7 @@ Execution Time: 1:44 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4202,7 +4218,7 @@ Execution Time: 1:49 (hh:mm)
 
 Nb of EvoSuite Tests: 70
 
-Nb of Failing EvoSuite Tests: 70
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4223,7 +4239,7 @@ Execution Time: 1:54 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4244,7 +4260,7 @@ Execution Time: 1:58 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4265,13 +4281,15 @@ Execution Time: 1:42 (hh:mm)
 
 Nb of EvoSuite Tests: 70
 
-Nb of Failing EvoSuite Tests: 70
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 9
 
 ## Patch 198 #  jGenProg+MinImpact With Seed 9
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -4288,7 +4306,7 @@ Execution Time: 0:05 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4309,7 +4327,7 @@ Execution Time: 0:07 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4330,7 +4348,7 @@ Execution Time: 0:12 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4351,7 +4369,7 @@ Execution Time: 0:28 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4372,7 +4390,7 @@ Execution Time: 0:29 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4393,7 +4411,7 @@ Execution Time: 0:37 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4414,7 +4432,7 @@ Execution Time: 0:38 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4435,7 +4453,7 @@ Execution Time: 0:46 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4458,7 +4476,7 @@ Execution Time: 0:53 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4481,7 +4499,7 @@ Execution Time: 0:54 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4502,7 +4520,7 @@ Execution Time: 0:59 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4523,7 +4541,7 @@ Execution Time: 1:01 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4544,7 +4562,7 @@ Execution Time: 1:10 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4565,7 +4583,7 @@ Execution Time: 1:13 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4586,7 +4604,7 @@ Execution Time: 1:16 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4609,7 +4627,7 @@ Execution Time: 1:20 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4632,7 +4650,7 @@ Execution Time: 1:25 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4653,7 +4671,7 @@ Execution Time: 1:33 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4674,7 +4692,7 @@ Execution Time: 1:35 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4695,7 +4713,7 @@ Execution Time: 1:36 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4718,7 +4736,7 @@ Execution Time: 1:42 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4739,7 +4757,7 @@ Execution Time: 1:43 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4760,7 +4778,7 @@ Execution Time: 1:51 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4781,7 +4799,7 @@ Execution Time: 1:53 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4802,13 +4820,15 @@ Execution Time: 1:57 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 10
 
 ## Patch 223 #  jGenProg+MinImpact With Seed 10
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -4825,7 +4845,7 @@ Execution Time: 0:04 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4846,7 +4866,7 @@ Execution Time: 0:06 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4869,7 +4889,7 @@ Execution Time: 0:09 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4890,7 +4910,7 @@ Execution Time: 0:11 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4911,7 +4931,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4932,7 +4952,7 @@ Execution Time: 0:27 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4953,7 +4973,7 @@ Execution Time: 0:29 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4974,7 +4994,7 @@ Execution Time: 0:31 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4995,7 +5015,7 @@ Execution Time: 0:37 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5018,7 +5038,7 @@ Execution Time: 0:40 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5039,7 +5059,7 @@ Execution Time: 0:43 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5062,7 +5082,7 @@ Execution Time: 0:47 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5085,7 +5105,7 @@ Execution Time: 0:53 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5106,7 +5126,7 @@ Execution Time: 0:54 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5127,7 +5147,7 @@ Execution Time: 0:58 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5148,7 +5168,7 @@ Execution Time: 0:59 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5171,7 +5191,7 @@ Execution Time: 1:05 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5192,7 +5212,7 @@ Execution Time: 1:09 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5213,7 +5233,7 @@ Execution Time: 1:13 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5234,7 +5254,7 @@ Execution Time: 1:18 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5255,7 +5275,7 @@ Execution Time: 1:26 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5276,7 +5296,7 @@ Execution Time: 1:28 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5299,7 +5319,7 @@ Execution Time: 1:38 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5322,7 +5342,7 @@ Execution Time: 1:42 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5343,7 +5363,7 @@ Execution Time: 1:44 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5364,7 +5384,7 @@ Execution Time: 1:53 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5385,7 +5405,7 @@ Execution Time: 1:55 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5406,7 +5426,7 @@ Execution Time: 1:56 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5429,13 +5449,15 @@ Execution Time: 2:00 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 11
 
 ## Patch 252 #  jGenProg+MinImpact With Seed 11
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 443
 
@@ -5452,7 +5474,7 @@ Execution Time: 0:03 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5473,7 +5495,7 @@ Execution Time: 0:10 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5494,7 +5516,7 @@ Execution Time: 0:18 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5517,7 +5539,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5540,7 +5562,7 @@ Execution Time: 0:24 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5561,7 +5583,7 @@ Execution Time: 0:27 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5582,7 +5604,7 @@ Execution Time: 0:30 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5605,7 +5627,7 @@ Execution Time: 0:34 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5626,7 +5648,7 @@ Execution Time: 0:40 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5647,7 +5669,7 @@ Execution Time: 0:41 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5668,7 +5690,7 @@ Execution Time: 0:46 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5689,7 +5711,7 @@ Execution Time: 0:55 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5710,7 +5732,7 @@ Execution Time: 0:57 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5731,7 +5753,7 @@ Execution Time: 1:02 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5752,7 +5774,7 @@ Execution Time: 1:16 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5775,7 +5797,7 @@ Execution Time: 1:27 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5796,7 +5818,7 @@ Execution Time: 1:33 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5817,7 +5839,7 @@ Execution Time: 1:36 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5838,7 +5860,7 @@ Execution Time: 1:38 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5859,7 +5881,7 @@ Execution Time: 1:41 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5880,7 +5902,7 @@ Execution Time: 1:43 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5901,7 +5923,7 @@ Execution Time: 1:50 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5924,7 +5946,7 @@ Execution Time: 1:55 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5945,13 +5967,15 @@ Execution Time: 2:01 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 12
 
 ## Patch 276 #  jGenProg+MinImpact With Seed 12
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 443
 
@@ -5968,7 +5992,7 @@ Execution Time: 0:03 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5989,7 +6013,7 @@ Execution Time: 0:05 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6010,7 +6034,7 @@ Execution Time: 0:12 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6031,7 +6055,7 @@ Execution Time: 0:15 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6052,7 +6076,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6073,7 +6097,7 @@ Execution Time: 0:24 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6094,7 +6118,7 @@ Execution Time: 0:26 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6117,7 +6141,7 @@ Execution Time: 0:32 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6138,7 +6162,7 @@ Execution Time: 0:36 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6159,7 +6183,7 @@ Execution Time: 0:38 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6180,7 +6204,7 @@ Execution Time: 0:42 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6203,7 +6227,7 @@ Execution Time: 0:45 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6224,7 +6248,7 @@ Execution Time: 0:47 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6245,7 +6269,7 @@ Execution Time: 0:53 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6266,7 +6290,7 @@ Execution Time: 1:04 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6287,7 +6311,7 @@ Execution Time: 1:06 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6310,7 +6334,7 @@ Execution Time: 1:17 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6331,7 +6355,7 @@ Execution Time: 1:19 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6354,7 +6378,7 @@ Execution Time: 1:23 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6377,7 +6401,7 @@ Execution Time: 1:34 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6398,7 +6422,7 @@ Execution Time: 1:43 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6419,7 +6443,7 @@ Execution Time: 1:50 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6440,7 +6464,7 @@ Execution Time: 1:57 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6461,13 +6485,15 @@ Execution Time: 1:58 (hh:mm)
 
 Nb of EvoSuite Tests: 20
 
-Nb of Failing EvoSuite Tests: 20
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 13
 
 ## Patch 300 #  jGenProg+MinImpact With Seed 13
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -6484,7 +6510,7 @@ Execution Time: 0:07 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6507,7 +6533,7 @@ Execution Time: 0:12 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6528,7 +6554,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6549,7 +6575,7 @@ Execution Time: 0:24 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6570,7 +6596,7 @@ Execution Time: 0:26 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6593,7 +6619,7 @@ Execution Time: 0:27 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6614,7 +6640,7 @@ Execution Time: 0:29 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6635,7 +6661,7 @@ Execution Time: 0:34 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6656,7 +6682,7 @@ Execution Time: 0:36 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6677,7 +6703,7 @@ Execution Time: 0:39 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6700,7 +6726,7 @@ Execution Time: 0:40 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6721,7 +6747,7 @@ Execution Time: 0:42 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6744,7 +6770,7 @@ Execution Time: 0:45 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6765,7 +6791,7 @@ Execution Time: 0:54 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6786,7 +6812,7 @@ Execution Time: 0:57 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6807,7 +6833,7 @@ Execution Time: 1:04 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6830,7 +6856,7 @@ Execution Time: 1:11 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6851,7 +6877,7 @@ Execution Time: 1:16 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6872,7 +6898,7 @@ Execution Time: 1:19 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6893,7 +6919,7 @@ Execution Time: 1:27 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6914,7 +6940,7 @@ Execution Time: 1:31 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6935,7 +6961,7 @@ Execution Time: 1:33 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6958,7 +6984,7 @@ Execution Time: 1:35 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -6979,7 +7005,7 @@ Execution Time: 1:37 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7000,7 +7026,7 @@ Execution Time: 1:41 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7023,7 +7049,7 @@ Execution Time: 1:43 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7044,7 +7070,7 @@ Execution Time: 1:46 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7065,7 +7091,7 @@ Execution Time: 2:01 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7086,13 +7112,15 @@ Execution Time: 1:15 (hh:mm)
 
 Nb of EvoSuite Tests: 62
 
-Nb of Failing EvoSuite Tests: 62
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 14
 
 ## Patch 329 #  jGenProg+MinImpact With Seed 14
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 453
 
@@ -7109,7 +7137,7 @@ Execution Time: 0:07 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7130,7 +7158,7 @@ Execution Time: 0:09 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7153,7 +7181,7 @@ Execution Time: 0:10 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7176,7 +7204,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7197,7 +7225,7 @@ Execution Time: 0:15 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7218,7 +7246,7 @@ Execution Time: 0:18 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7239,7 +7267,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7260,7 +7288,7 @@ Execution Time: 0:29 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7281,7 +7309,7 @@ Execution Time: 0:34 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7304,7 +7332,7 @@ Execution Time: 0:36 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7325,7 +7353,7 @@ Execution Time: 0:39 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7346,7 +7374,7 @@ Execution Time: 0:40 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7367,7 +7395,7 @@ Execution Time: 0:43 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7388,7 +7416,7 @@ Execution Time: 0:46 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7409,7 +7437,7 @@ Execution Time: 0:50 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7430,7 +7458,7 @@ Execution Time: 1:05 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7451,7 +7479,7 @@ Execution Time: 1:10 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7472,7 +7500,7 @@ Execution Time: 1:12 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7493,7 +7521,7 @@ Execution Time: 1:20 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7514,7 +7542,7 @@ Execution Time: 1:21 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7535,7 +7563,7 @@ Execution Time: 1:31 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7556,7 +7584,7 @@ Execution Time: 1:40 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7577,7 +7605,7 @@ Execution Time: 1:44 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7598,13 +7626,15 @@ Execution Time: 1:52 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 15
 
 ## Patch 353 #  jGenProg+MinImpact With Seed 15
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 295
 
@@ -7621,7 +7651,7 @@ Execution Time: 0:07 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7642,7 +7672,7 @@ Execution Time: 0:10 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7665,7 +7695,7 @@ Execution Time: 0:14 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7686,7 +7716,7 @@ Execution Time: 0:16 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7707,7 +7737,7 @@ Execution Time: 0:18 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7730,7 +7760,7 @@ Execution Time: 0:29 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7751,7 +7781,7 @@ Execution Time: 0:37 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7772,7 +7802,7 @@ Execution Time: 0:46 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7793,7 +7823,7 @@ Execution Time: 0:48 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7814,7 +7844,7 @@ Execution Time: 0:52 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7835,7 +7865,7 @@ Execution Time: 0:59 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7858,7 +7888,7 @@ Execution Time: 1:08 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7879,7 +7909,7 @@ Execution Time: 1:14 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7900,7 +7930,7 @@ Execution Time: 1:22 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7921,7 +7951,7 @@ Execution Time: 1:39 (hh:mm)
 
 Nb of EvoSuite Tests: 78
 
-Nb of Failing EvoSuite Tests: 78
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7942,7 +7972,7 @@ Execution Time: 1:42 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7963,7 +7993,7 @@ Execution Time: 1:49 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -7984,7 +8014,7 @@ Execution Time: 1:51 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8007,13 +8037,15 @@ Execution Time: 1:54 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 16
 
 ## Patch 372 #  jGenProg+MinImpact With Seed 16
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -8030,7 +8062,7 @@ Execution Time: 0:18 (hh:mm)
 
 Nb of EvoSuite Tests: 21
 
-Nb of Failing EvoSuite Tests: 21
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8051,7 +8083,7 @@ Execution Time: 0:30 (hh:mm)
 
 Nb of EvoSuite Tests: 21
 
-Nb of Failing EvoSuite Tests: 21
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8074,7 +8106,7 @@ Execution Time: 0:34 (hh:mm)
 
 Nb of EvoSuite Tests: 21
 
-Nb of Failing EvoSuite Tests: 21
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8095,7 +8127,7 @@ Execution Time: 0:38 (hh:mm)
 
 Nb of EvoSuite Tests: 21
 
-Nb of Failing EvoSuite Tests: 21
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8116,7 +8148,7 @@ Execution Time: 0:56 (hh:mm)
 
 Nb of EvoSuite Tests: 21
 
-Nb of Failing EvoSuite Tests: 21
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8137,7 +8169,7 @@ Execution Time: 1:01 (hh:mm)
 
 Nb of EvoSuite Tests: 21
 
-Nb of Failing EvoSuite Tests: 21
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8158,7 +8190,7 @@ Execution Time: 1:14 (hh:mm)
 
 Nb of EvoSuite Tests: 21
 
-Nb of Failing EvoSuite Tests: 21
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8179,7 +8211,7 @@ Execution Time: 1:18 (hh:mm)
 
 Nb of EvoSuite Tests: 21
 
-Nb of Failing EvoSuite Tests: 21
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8202,7 +8234,7 @@ Execution Time: 1:24 (hh:mm)
 
 Nb of EvoSuite Tests: 21
 
-Nb of Failing EvoSuite Tests: 21
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8223,7 +8255,7 @@ Execution Time: 1:28 (hh:mm)
 
 Nb of EvoSuite Tests: 21
 
-Nb of Failing EvoSuite Tests: 21
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8244,7 +8276,7 @@ Execution Time: 1:33 (hh:mm)
 
 Nb of EvoSuite Tests: 21
 
-Nb of Failing EvoSuite Tests: 21
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8267,7 +8299,7 @@ Execution Time: 1:36 (hh:mm)
 
 Nb of EvoSuite Tests: 21
 
-Nb of Failing EvoSuite Tests: 21
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8288,7 +8320,7 @@ Execution Time: 1:41 (hh:mm)
 
 Nb of EvoSuite Tests: 21
 
-Nb of Failing EvoSuite Tests: 21
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8309,7 +8341,7 @@ Execution Time: 1:44 (hh:mm)
 
 Nb of EvoSuite Tests: 21
 
-Nb of Failing EvoSuite Tests: 21
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8330,7 +8362,7 @@ Execution Time: 1:50 (hh:mm)
 
 Nb of EvoSuite Tests: 21
 
-Nb of Failing EvoSuite Tests: 21
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8351,7 +8383,7 @@ Execution Time: 2:00 (hh:mm)
 
 Nb of EvoSuite Tests: 21
 
-Nb of Failing EvoSuite Tests: 21
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8374,13 +8406,15 @@ Execution Time: 2:02 (hh:mm)
 
 Nb of EvoSuite Tests: 21
 
-Nb of Failing EvoSuite Tests: 21
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 17
 
 ## Patch 389 #  jGenProg+MinImpact With Seed 17
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -8397,7 +8431,7 @@ Execution Time: 0:03 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8418,7 +8452,7 @@ Execution Time: 0:05 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8441,7 +8475,7 @@ Execution Time: 0:10 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8462,7 +8496,7 @@ Execution Time: 0:12 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8483,7 +8517,7 @@ Execution Time: 0:15 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8504,7 +8538,7 @@ Execution Time: 0:17 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8525,7 +8559,7 @@ Execution Time: 0:33 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8546,7 +8580,7 @@ Execution Time: 0:39 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8567,7 +8601,7 @@ Execution Time: 0:40 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8588,7 +8622,7 @@ Execution Time: 0:54 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8611,7 +8645,7 @@ Execution Time: 1:02 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8632,7 +8666,7 @@ Execution Time: 1:04 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8653,7 +8687,7 @@ Execution Time: 1:07 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8674,7 +8708,7 @@ Execution Time: 1:10 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8695,7 +8729,7 @@ Execution Time: 1:23 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8716,7 +8750,7 @@ Execution Time: 1:33 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8739,7 +8773,7 @@ Execution Time: 1:38 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8760,7 +8794,7 @@ Execution Time: 1:46 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8781,7 +8815,7 @@ Execution Time: 1:48 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8802,7 +8836,7 @@ Execution Time: 1:53 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8823,13 +8857,15 @@ Execution Time: 0:46 (hh:mm)
 
 Nb of EvoSuite Tests: 72
 
-Nb of Failing EvoSuite Tests: 72
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 18
 
 ## Patch 410 #  jGenProg+MinImpact With Seed 18
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -8846,7 +8882,7 @@ Execution Time: 0:18 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8869,7 +8905,7 @@ Execution Time: 0:19 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8890,7 +8926,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8911,7 +8947,7 @@ Execution Time: 0:23 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8932,7 +8968,7 @@ Execution Time: 0:25 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8953,7 +8989,7 @@ Execution Time: 0:32 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8974,7 +9010,7 @@ Execution Time: 0:40 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -8997,7 +9033,7 @@ Execution Time: 0:45 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -9018,7 +9054,7 @@ Execution Time: 0:51 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -9039,7 +9075,7 @@ Execution Time: 0:53 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -9060,7 +9096,7 @@ Execution Time: 0:55 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -9081,7 +9117,7 @@ Execution Time: 0:58 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -9102,7 +9138,7 @@ Execution Time: 1:04 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -9123,7 +9159,7 @@ Execution Time: 1:07 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -9144,7 +9180,7 @@ Execution Time: 1:11 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -9165,7 +9201,7 @@ Execution Time: 1:17 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -9186,7 +9222,7 @@ Execution Time: 1:20 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -9207,7 +9243,7 @@ Execution Time: 1:29 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -9230,7 +9266,7 @@ Execution Time: 1:33 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -9251,7 +9287,7 @@ Execution Time: 1:47 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -9272,7 +9308,7 @@ Execution Time: 1:51 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -9293,7 +9329,7 @@ Execution Time: 1:56 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -9314,13 +9350,15 @@ Execution Time: 1:58 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 19
 
 ## Patch 433 #  jGenProg+MinImpact With Seed 19
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 322
 
@@ -9337,7 +9375,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -9358,7 +9396,7 @@ Execution Time: 0:23 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -9379,7 +9417,7 @@ Execution Time: 0:25 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -9400,7 +9438,7 @@ Execution Time: 0:30 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -9421,7 +9459,7 @@ Execution Time: 0:37 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -9444,7 +9482,7 @@ Execution Time: 0:41 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -9465,7 +9503,7 @@ Execution Time: 0:43 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -9488,7 +9526,7 @@ Execution Time: 0:46 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -9509,7 +9547,7 @@ Execution Time: 0:47 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -9532,7 +9570,7 @@ Execution Time: 0:49 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -9555,7 +9593,7 @@ Execution Time: 0:53 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -9576,7 +9614,7 @@ Execution Time: 0:57 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -9597,7 +9635,7 @@ Execution Time: 0:58 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -9620,7 +9658,7 @@ Execution Time: 1:00 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -9641,7 +9679,7 @@ Execution Time: 1:09 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -9664,7 +9702,7 @@ Execution Time: 1:12 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -9685,7 +9723,7 @@ Execution Time: 1:23 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -9708,7 +9746,7 @@ Execution Time: 1:29 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -9731,7 +9769,7 @@ Execution Time: 1:37 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -9752,7 +9790,7 @@ Execution Time: 1:39 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -9773,7 +9811,7 @@ Execution Time: 1:42 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -9794,7 +9832,7 @@ Execution Time: 1:54 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -9817,7 +9855,7 @@ Execution Time: 1:56 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -9838,7 +9876,7 @@ Execution Time: 1:58 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -9859,13 +9897,15 @@ Execution Time: 2:01 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 20
 
 ## Patch 458 #  jGenProg+MinImpact With Seed 20
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -9882,7 +9922,7 @@ Execution Time: 0:05 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -9903,7 +9943,7 @@ Execution Time: 0:09 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -9924,7 +9964,7 @@ Execution Time: 0:11 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -9945,7 +9985,7 @@ Execution Time: 0:12 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -9966,7 +10006,7 @@ Execution Time: 0:16 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -9989,7 +10029,7 @@ Execution Time: 0:18 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10010,7 +10050,7 @@ Execution Time: 0:30 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10033,7 +10073,7 @@ Execution Time: 0:42 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10054,7 +10094,7 @@ Execution Time: 0:46 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10075,7 +10115,7 @@ Execution Time: 0:48 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10096,7 +10136,7 @@ Execution Time: 0:50 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10117,7 +10157,7 @@ Execution Time: 0:53 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10138,7 +10178,7 @@ Execution Time: 0:55 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10161,7 +10201,7 @@ Execution Time: 0:57 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10184,7 +10224,7 @@ Execution Time: 1:00 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10207,7 +10247,7 @@ Execution Time: 1:07 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10228,7 +10268,7 @@ Execution Time: 1:09 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10249,7 +10289,7 @@ Execution Time: 1:12 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10270,7 +10310,7 @@ Execution Time: 1:19 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10293,7 +10333,7 @@ Execution Time: 1:23 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10314,7 +10354,7 @@ Execution Time: 1:33 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10337,7 +10377,7 @@ Execution Time: 1:53 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10360,7 +10400,7 @@ Execution Time: 1:55 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10381,7 +10421,7 @@ Execution Time: 1:58 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10402,13 +10442,15 @@ Execution Time: 2:00 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 21
 
 ## Patch 483 #  jGenProg+MinImpact With Seed 21
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -10425,7 +10467,7 @@ Execution Time: 0:11 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10448,7 +10490,7 @@ Execution Time: 0:16 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10469,7 +10511,7 @@ Execution Time: 0:18 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10490,7 +10532,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10511,7 +10553,7 @@ Execution Time: 0:28 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10532,7 +10574,7 @@ Execution Time: 0:32 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10553,7 +10595,7 @@ Execution Time: 0:34 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10574,7 +10616,7 @@ Execution Time: 0:41 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10595,7 +10637,7 @@ Execution Time: 0:49 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10616,7 +10658,7 @@ Execution Time: 0:56 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10639,7 +10681,7 @@ Execution Time: 1:01 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10660,7 +10702,7 @@ Execution Time: 1:13 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10683,7 +10725,7 @@ Execution Time: 1:20 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10704,7 +10746,7 @@ Execution Time: 1:30 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10725,7 +10767,7 @@ Execution Time: 1:32 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10748,7 +10790,7 @@ Execution Time: 1:35 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10769,7 +10811,7 @@ Execution Time: 1:45 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10792,7 +10834,7 @@ Execution Time: 1:48 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10813,7 +10855,7 @@ Execution Time: 1:52 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10834,7 +10876,7 @@ Execution Time: 1:58 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10857,13 +10899,15 @@ Execution Time: 2:00 (hh:mm)
 
 Nb of EvoSuite Tests: 23
 
-Nb of Failing EvoSuite Tests: 23
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 22
 
 ## Patch 504 #  jGenProg+MinImpact With Seed 22
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -10880,7 +10924,7 @@ Execution Time: 0:02 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10901,7 +10945,7 @@ Execution Time: 0:04 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10922,7 +10966,7 @@ Execution Time: 0:07 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10943,7 +10987,7 @@ Execution Time: 0:12 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10966,7 +11010,7 @@ Execution Time: 0:19 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -10987,7 +11031,7 @@ Execution Time: 0:22 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11008,7 +11052,7 @@ Execution Time: 0:24 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11029,7 +11073,7 @@ Execution Time: 0:26 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11050,7 +11094,7 @@ Execution Time: 0:29 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11073,7 +11117,7 @@ Execution Time: 0:37 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11094,7 +11138,7 @@ Execution Time: 0:39 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11115,7 +11159,7 @@ Execution Time: 0:40 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11136,7 +11180,7 @@ Execution Time: 0:42 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11159,7 +11203,7 @@ Execution Time: 0:49 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11180,7 +11224,7 @@ Execution Time: 0:55 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11203,7 +11247,7 @@ Execution Time: 0:58 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11226,7 +11270,7 @@ Execution Time: 1:00 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11247,7 +11291,7 @@ Execution Time: 1:02 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11268,7 +11312,7 @@ Execution Time: 1:04 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11291,7 +11335,7 @@ Execution Time: 1:08 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11312,7 +11356,7 @@ Execution Time: 1:10 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11333,7 +11377,7 @@ Execution Time: 1:18 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11354,7 +11398,7 @@ Execution Time: 1:23 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11375,7 +11419,7 @@ Execution Time: 1:26 (hh:mm)
 
 Nb of EvoSuite Tests: 64
 
-Nb of Failing EvoSuite Tests: 64
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11396,7 +11440,7 @@ Execution Time: 1:34 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11419,7 +11463,7 @@ Execution Time: 1:36 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11440,13 +11484,15 @@ Execution Time: 1:48 (hh:mm)
 
 Nb of EvoSuite Tests: 64
 
-Nb of Failing EvoSuite Tests: 64
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 23
 
 ## Patch 531 #  jGenProg+MinImpact With Seed 23
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -11463,7 +11509,7 @@ Execution Time: 0:05 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11484,7 +11530,7 @@ Execution Time: 0:08 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11505,7 +11551,7 @@ Execution Time: 0:10 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11526,7 +11572,7 @@ Execution Time: 0:11 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11547,7 +11593,7 @@ Execution Time: 0:16 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11568,7 +11614,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11589,7 +11635,7 @@ Execution Time: 0:28 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11610,7 +11656,7 @@ Execution Time: 0:30 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11631,7 +11677,7 @@ Execution Time: 0:34 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11652,7 +11698,7 @@ Execution Time: 0:36 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11675,7 +11721,7 @@ Execution Time: 0:40 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11698,7 +11744,7 @@ Execution Time: 1:01 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11719,7 +11765,7 @@ Execution Time: 1:13 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11740,7 +11786,7 @@ Execution Time: 1:22 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11761,7 +11807,7 @@ Execution Time: 1:26 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11782,7 +11828,7 @@ Execution Time: 1:31 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11803,7 +11849,7 @@ Execution Time: 1:36 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11826,7 +11872,7 @@ Execution Time: 1:38 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11847,7 +11893,7 @@ Execution Time: 1:46 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11870,7 +11916,7 @@ Execution Time: 1:49 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11891,7 +11937,7 @@ Execution Time: 1:51 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11912,13 +11958,15 @@ Execution Time: 1:53 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 25
 
 ## Patch 553 #  jGenProg+MinImpact With Seed 25
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -11935,7 +11983,7 @@ Execution Time: 0:09 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11956,7 +12004,7 @@ Execution Time: 0:16 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -11979,7 +12027,7 @@ Execution Time: 0:24 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12000,7 +12048,7 @@ Execution Time: 0:29 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12021,7 +12069,7 @@ Execution Time: 0:32 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12042,7 +12090,7 @@ Execution Time: 0:35 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12063,7 +12111,7 @@ Execution Time: 0:41 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12084,7 +12132,7 @@ Execution Time: 0:46 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12105,7 +12153,7 @@ Execution Time: 0:50 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12126,7 +12174,7 @@ Execution Time: 0:54 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12147,7 +12195,7 @@ Execution Time: 1:01 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12168,7 +12216,7 @@ Execution Time: 1:07 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12191,7 +12239,7 @@ Execution Time: 1:14 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12212,7 +12260,7 @@ Execution Time: 1:17 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12233,7 +12281,7 @@ Execution Time: 1:20 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12254,7 +12302,7 @@ Execution Time: 1:25 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12275,7 +12323,7 @@ Execution Time: 1:35 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12296,7 +12344,7 @@ Execution Time: 1:43 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12317,7 +12365,7 @@ Execution Time: 1:46 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12340,13 +12388,15 @@ Execution Time: 1:59 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 26
 
 ## Patch 573 #  jGenProg+MinImpact With Seed 26
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -12363,7 +12413,7 @@ Execution Time: 0:05 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12384,7 +12434,7 @@ Execution Time: 0:09 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12405,7 +12455,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12426,7 +12476,7 @@ Execution Time: 0:15 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12447,7 +12497,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12468,7 +12518,7 @@ Execution Time: 0:23 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12489,7 +12539,7 @@ Execution Time: 0:27 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12510,7 +12560,7 @@ Execution Time: 0:30 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12533,7 +12583,7 @@ Execution Time: 0:36 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12554,7 +12604,7 @@ Execution Time: 0:38 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12575,7 +12625,7 @@ Execution Time: 0:51 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12596,7 +12646,7 @@ Execution Time: 1:02 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12617,7 +12667,7 @@ Execution Time: 1:13 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12640,7 +12690,7 @@ Execution Time: 1:20 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12661,7 +12711,7 @@ Execution Time: 1:36 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12684,7 +12734,7 @@ Execution Time: 1:40 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12707,13 +12757,15 @@ Execution Time: 1:55 (hh:mm)
 
 Nb of EvoSuite Tests: 32
 
-Nb of Failing EvoSuite Tests: 32
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 27
 
 ## Patch 590 #  jGenProg+MinImpact With Seed 27
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -12730,7 +12782,7 @@ Execution Time: 0:11 (hh:mm)
 
 Nb of EvoSuite Tests: 34
 
-Nb of Failing EvoSuite Tests: 34
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12753,7 +12805,7 @@ Execution Time: 0:14 (hh:mm)
 
 Nb of EvoSuite Tests: 34
 
-Nb of Failing EvoSuite Tests: 34
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12774,7 +12826,7 @@ Execution Time: 0:17 (hh:mm)
 
 Nb of EvoSuite Tests: 34
 
-Nb of Failing EvoSuite Tests: 34
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12795,7 +12847,7 @@ Execution Time: 0:22 (hh:mm)
 
 Nb of EvoSuite Tests: 34
 
-Nb of Failing EvoSuite Tests: 34
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12816,7 +12868,7 @@ Execution Time: 0:26 (hh:mm)
 
 Nb of EvoSuite Tests: 34
 
-Nb of Failing EvoSuite Tests: 34
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12839,7 +12891,7 @@ Execution Time: 0:29 (hh:mm)
 
 Nb of EvoSuite Tests: 34
 
-Nb of Failing EvoSuite Tests: 34
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12862,7 +12914,7 @@ Execution Time: 0:32 (hh:mm)
 
 Nb of EvoSuite Tests: 34
 
-Nb of Failing EvoSuite Tests: 34
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12883,7 +12935,7 @@ Execution Time: 0:39 (hh:mm)
 
 Nb of EvoSuite Tests: 34
 
-Nb of Failing EvoSuite Tests: 34
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12906,7 +12958,7 @@ Execution Time: 0:46 (hh:mm)
 
 Nb of EvoSuite Tests: 34
 
-Nb of Failing EvoSuite Tests: 34
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12927,7 +12979,7 @@ Execution Time: 0:50 (hh:mm)
 
 Nb of EvoSuite Tests: 34
 
-Nb of Failing EvoSuite Tests: 34
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12948,7 +13000,7 @@ Execution Time: 0:58 (hh:mm)
 
 Nb of EvoSuite Tests: 34
 
-Nb of Failing EvoSuite Tests: 34
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12969,7 +13021,7 @@ Execution Time: 1:01 (hh:mm)
 
 Nb of EvoSuite Tests: 34
 
-Nb of Failing EvoSuite Tests: 34
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -12990,7 +13042,7 @@ Execution Time: 1:10 (hh:mm)
 
 Nb of EvoSuite Tests: 34
 
-Nb of Failing EvoSuite Tests: 34
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13011,7 +13063,7 @@ Execution Time: 1:15 (hh:mm)
 
 Nb of EvoSuite Tests: 34
 
-Nb of Failing EvoSuite Tests: 34
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13032,7 +13084,7 @@ Execution Time: 1:18 (hh:mm)
 
 Nb of EvoSuite Tests: 34
 
-Nb of Failing EvoSuite Tests: 34
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13053,7 +13105,7 @@ Execution Time: 1:26 (hh:mm)
 
 Nb of EvoSuite Tests: 34
 
-Nb of Failing EvoSuite Tests: 34
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13074,7 +13126,7 @@ Execution Time: 1:29 (hh:mm)
 
 Nb of EvoSuite Tests: 34
 
-Nb of Failing EvoSuite Tests: 34
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13095,7 +13147,7 @@ Execution Time: 1:33 (hh:mm)
 
 Nb of EvoSuite Tests: 34
 
-Nb of Failing EvoSuite Tests: 34
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13118,7 +13170,7 @@ Execution Time: 1:55 (hh:mm)
 
 Nb of EvoSuite Tests: 34
 
-Nb of Failing EvoSuite Tests: 34
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13141,7 +13193,7 @@ Execution Time: 2:01 (hh:mm)
 
 Nb of EvoSuite Tests: 34
 
-Nb of Failing EvoSuite Tests: 34
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13162,13 +13214,15 @@ Execution Time: 1:38 (hh:mm)
 
 Nb of EvoSuite Tests: 64
 
-Nb of Failing EvoSuite Tests: 64
+Nb of Failing EvoSuite Tests: 2
 
 
 --- 
 #Seed: 28
 
 ## Patch 611 #  jGenProg+MinImpact With Seed 28
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -13185,7 +13239,7 @@ Execution Time: 0:10 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13206,7 +13260,7 @@ Execution Time: 0:15 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13227,7 +13281,7 @@ Execution Time: 0:19 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13250,7 +13304,7 @@ Execution Time: 0:23 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13271,7 +13325,7 @@ Execution Time: 0:27 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13292,7 +13346,7 @@ Execution Time: 0:32 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13313,7 +13367,7 @@ Execution Time: 0:40 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13334,7 +13388,7 @@ Execution Time: 0:49 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13355,7 +13409,7 @@ Execution Time: 0:53 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13376,7 +13430,7 @@ Execution Time: 1:04 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13397,7 +13451,7 @@ Execution Time: 1:07 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13420,7 +13474,7 @@ Execution Time: 1:15 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13441,7 +13495,7 @@ Execution Time: 1:21 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13462,7 +13516,7 @@ Execution Time: 1:31 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13485,7 +13539,7 @@ Execution Time: 1:35 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13506,7 +13560,7 @@ Execution Time: 1:53 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13527,13 +13581,15 @@ Execution Time: 1:57 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 29
 
 ## Patch 628 #  jGenProg+MinImpact With Seed 29
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -13552,7 +13608,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13573,7 +13629,7 @@ Execution Time: 0:16 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13594,7 +13650,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13615,7 +13671,7 @@ Execution Time: 0:34 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13638,7 +13694,7 @@ Execution Time: 0:37 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13661,7 +13717,7 @@ Execution Time: 0:40 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13682,7 +13738,7 @@ Execution Time: 0:43 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13703,7 +13759,7 @@ Execution Time: 0:49 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13726,7 +13782,7 @@ Execution Time: 0:57 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13747,7 +13803,7 @@ Execution Time: 1:18 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13768,7 +13824,7 @@ Execution Time: 1:22 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13789,7 +13845,7 @@ Execution Time: 1:26 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13810,7 +13866,7 @@ Execution Time: 1:30 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13833,7 +13889,7 @@ Execution Time: 1:34 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13854,7 +13910,7 @@ Execution Time: 1:39 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13875,7 +13931,7 @@ Execution Time: 1:42 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13896,7 +13952,7 @@ Execution Time: 1:57 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13919,7 +13975,7 @@ Execution Time: 2:01 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13940,13 +13996,15 @@ Execution Time: 0:30 (hh:mm)
 
 Nb of EvoSuite Tests: 71
 
-Nb of Failing EvoSuite Tests: 71
+Nb of Failing EvoSuite Tests: 2
 
 
 --- 
 #Seed: 30
 
 ## Patch 647 #  jGenProg+MinImpact With Seed 30
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.block.BorderArrangement : 453
 
@@ -13965,7 +14023,7 @@ Execution Time: 0:07 (hh:mm)
 
 Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 31
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -13986,7 +14044,7 @@ Execution Time: 0:11 (hh:mm)
 
 Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 31
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -14007,7 +14065,7 @@ Execution Time: 0:15 (hh:mm)
 
 Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 31
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -14028,7 +14086,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 31
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -14049,7 +14107,7 @@ Execution Time: 0:27 (hh:mm)
 
 Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 31
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -14072,7 +14130,7 @@ Execution Time: 0:31 (hh:mm)
 
 Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 31
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -14093,7 +14151,7 @@ Execution Time: 0:35 (hh:mm)
 
 Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 31
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -14114,7 +14172,7 @@ Execution Time: 0:39 (hh:mm)
 
 Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 31
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -14135,7 +14193,7 @@ Execution Time: 0:47 (hh:mm)
 
 Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 31
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -14156,7 +14214,7 @@ Execution Time: 0:51 (hh:mm)
 
 Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 31
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -14177,7 +14235,7 @@ Execution Time: 0:58 (hh:mm)
 
 Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 31
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -14200,7 +14258,7 @@ Execution Time: 1:07 (hh:mm)
 
 Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 31
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -14221,7 +14279,7 @@ Execution Time: 1:11 (hh:mm)
 
 Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 31
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -14242,7 +14300,7 @@ Execution Time: 1:14 (hh:mm)
 
 Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 31
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -14263,7 +14321,7 @@ Execution Time: 1:18 (hh:mm)
 
 Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 31
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -14284,7 +14342,7 @@ Execution Time: 1:39 (hh:mm)
 
 Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 31
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -14305,7 +14363,7 @@ Execution Time: 1:48 (hh:mm)
 
 Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 31
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -14328,7 +14386,7 @@ Execution Time: 1:56 (hh:mm)
 
 Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 31
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -14351,14 +14409,16 @@ Execution Time: 2:00 (hh:mm)
 
 Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 31
+Nb of Failing EvoSuite Tests: 0
 
 
 ---
 ## Summary an Analysis
 
-Average Nb of EvoSuite Tests: 33.38
+Average Nb of EvoSuite Tests: 26.81
 
-Average Nb of Failing EvoSuite Tests: 0.3
+Average Nb of Failing EvoSuite Tests: 0.05
+
+Average Nb of Test-adequate patches: 22.93
 
 ---

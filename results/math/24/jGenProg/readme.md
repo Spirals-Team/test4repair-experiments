@@ -31,6 +31,8 @@ index cff5bfd..b6ce68e 100644
 
 ## Patch 1 #  jGenProg+MinImpact With Seed 3
 
+jGenProg+MinImpact returns this patch in the first place
+
 org.apache.commons.math3.optimization.univariate.BrentOptimizer : 244
 
 Patch type: InsertAfterOp
@@ -63,13 +65,15 @@ Execution Time: 0:44 (hh:mm)
 
 Nb of EvoSuite Tests: 13
 
-Nb of Failing EvoSuite Tests: 13
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 7
 
 ## Patch 2 #  jGenProg+MinImpact With Seed 7
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.univariate.BrentOptimizer : 244
 
@@ -103,13 +107,15 @@ Execution Time: 1:33 (hh:mm)
 
 Nb of EvoSuite Tests: 12
 
-Nb of Failing EvoSuite Tests: 12
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 8
 
 ## Patch 3 #  jGenProg+MinImpact With Seed 8
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.univariate.BrentOptimizer : 245
 
@@ -143,13 +149,15 @@ Execution Time: 1:01 (hh:mm)
 
 Nb of EvoSuite Tests: 12
 
-Nb of Failing EvoSuite Tests: 12
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 17
 
 ## Patch 4 #  jGenProg+MinImpact With Seed 17
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.univariate.BrentOptimizer : 245
 
@@ -183,14 +191,16 @@ Execution Time: 1:20 (hh:mm)
 
 Nb of EvoSuite Tests: 14
 
-Nb of Failing EvoSuite Tests: 14
+Nb of Failing EvoSuite Tests: 0
 
 
 ---
 ## Summary an Analysis
 
-Average Nb of EvoSuite Tests: 13
+Average Nb of EvoSuite Tests: 12.75
 
-Average Nb of Failing EvoSuite Tests: 0.33
+Average Nb of Failing EvoSuite Tests: 0.25
+
+Average Nb of Test-adequate patches: 1
 
 ---

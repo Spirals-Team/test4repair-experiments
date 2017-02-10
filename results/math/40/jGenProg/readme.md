@@ -32,6 +32,8 @@ index 59dc461..93dd3bb 100644
 
 ## Patch 1 #  jGenProg+MinImpact With Seed 1
 
+jGenProg+MinImpact returns this patch in the first place
+
 org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 204
 
 Patch type: InsertBeforeOp
@@ -47,7 +49,7 @@ Execution Time: 1:30 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -75,7 +77,7 @@ Execution Time: 0:25 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -96,7 +98,7 @@ Execution Time: 1:37 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -117,13 +119,15 @@ Execution Time: 1:39 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 2
 
 ## Patch 5 #  jGenProg+MinImpact With Seed 2
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 327
 
@@ -140,13 +144,15 @@ Execution Time: 1:20 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 6
 
 ## Patch 6 #  jGenProg+MinImpact With Seed 6
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 235
 
@@ -163,7 +169,7 @@ Execution Time: 1:17 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -184,13 +190,15 @@ Execution Time: 1:58 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 8
 
 ## Patch 8 #  jGenProg+MinImpact With Seed 8
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 329
 
@@ -207,7 +215,7 @@ Execution Time: 1:33 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -228,7 +236,7 @@ Execution Time: 1:58 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -249,7 +257,7 @@ Execution Time: 0:29 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -270,13 +278,15 @@ Execution Time: 1:35 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 2
 
 
 --- 
 #Seed: 9
 
 ## Patch 12 #  jGenProg+MinImpact With Seed 9
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 200
 
@@ -293,13 +303,15 @@ Execution Time: 2:00 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 11
 
 ## Patch 13 #  jGenProg+MinImpact With Seed 11
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 204
 
@@ -316,7 +328,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -337,13 +349,15 @@ Execution Time: 0:30 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 14
 
 ## Patch 15 #  jGenProg+MinImpact With Seed 14
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 328
 
@@ -360,7 +374,7 @@ Execution Time: 1:07 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -381,13 +395,15 @@ Execution Time: 1:24 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 15
 
 ## Patch 17 #  jGenProg+MinImpact With Seed 15
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 265
 
@@ -404,7 +420,7 @@ Execution Time: 0:49 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 5
 
 
 
@@ -425,13 +441,15 @@ Execution Time: 1:38 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 5
 
 
 --- 
 #Seed: 16
 
 ## Patch 19 #  jGenProg+MinImpact With Seed 16
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 269
 
@@ -448,7 +466,7 @@ Execution Time: 1:52 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -469,13 +487,15 @@ Execution Time: 0:24 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 17
 
 ## Patch 21 #  jGenProg+MinImpact With Seed 17
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 265
 
@@ -492,13 +512,15 @@ Execution Time: 1:33 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 18
 
 ## Patch 22 #  jGenProg+MinImpact With Seed 18
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 295
 
@@ -515,13 +537,15 @@ Execution Time: 1:43 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 19
 
 ## Patch 23 #  jGenProg+MinImpact With Seed 19
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 205
 
@@ -538,13 +562,15 @@ Execution Time: 1:11 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 20
 
 ## Patch 24 #  jGenProg+MinImpact With Seed 20
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 326
 
@@ -561,7 +587,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -582,13 +608,15 @@ Execution Time: 1:36 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 4
 
 
 --- 
 #Seed: 23
 
 ## Patch 26 #  jGenProg+MinImpact With Seed 23
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260
 
@@ -605,7 +633,7 @@ Execution Time: 0:57 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -626,7 +654,7 @@ Execution Time: 1:18 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -647,13 +675,15 @@ Execution Time: 1:06 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 2
 
 
 --- 
 #Seed: 24
 
 ## Patch 29 #  jGenProg+MinImpact With Seed 24
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 241
 
@@ -670,13 +700,15 @@ Execution Time: 1:40 (hh:mm)
 
 Nb of EvoSuite Tests: 29
 
-Nb of Failing EvoSuite Tests: 29
+Nb of Failing EvoSuite Tests: 2
 
 
 --- 
 #Seed: 26
 
 ## Patch 30 #  jGenProg+MinImpact With Seed 26
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 323
 
@@ -693,7 +725,7 @@ Execution Time: 0:44 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 6
 
 
 
@@ -714,13 +746,15 @@ Execution Time: 1:21 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 8
 
 
 --- 
 #Seed: 29
 
 ## Patch 32 #  jGenProg+MinImpact With Seed 29
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 265
 
@@ -737,13 +771,15 @@ Execution Time: 0:48 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 5
 
 
 --- 
 #Seed: 30
 
 ## Patch 33 #  jGenProg+MinImpact With Seed 30
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 299
 
@@ -760,7 +796,7 @@ Execution Time: 0:58 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -781,14 +817,16 @@ Execution Time: 1:50 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 6
 
 
 ---
 ## Summary an Analysis
 
-Average Nb of EvoSuite Tests: 27.68
+Average Nb of EvoSuite Tests: 27.65
 
-Average Nb of Failing EvoSuite Tests: 2.72
+Average Nb of Failing EvoSuite Tests: 2.74
+
+Average Nb of Test-adequate patches: 1.89
 
 ---

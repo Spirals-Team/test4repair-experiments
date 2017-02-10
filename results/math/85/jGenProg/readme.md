@@ -22,6 +22,8 @@ index e6398f6..bf3e4bf 100644
 
 ## Patch 1 #  jGenProg+MinImpact With Seed 1
 
+jGenProg+MinImpact returns this patch in the first place
+
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 199
 
 Patch type: RemoveOp
@@ -37,7 +39,7 @@ Execution Time: 0:26 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -60,7 +62,7 @@ Execution Time: 0:37 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -81,7 +83,7 @@ Execution Time: 0:57 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -104,7 +106,7 @@ Execution Time: 1:09 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -127,13 +129,15 @@ Execution Time: 1:11 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 4
 
 
 --- 
 #Seed: 2
 
 ## Patch 6 #  jGenProg+MinImpact With Seed 2
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 199
 
@@ -150,7 +154,7 @@ Execution Time: 0:28 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -173,7 +177,7 @@ Execution Time: 1:09 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -194,13 +198,15 @@ Execution Time: 2:00 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 3
 
 ## Patch 9 #  jGenProg+MinImpact With Seed 3
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 198
 
@@ -219,7 +225,7 @@ Execution Time: 0:25 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -240,7 +246,7 @@ Execution Time: 0:26 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -261,7 +267,7 @@ Execution Time: 0:32 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -284,7 +290,7 @@ Execution Time: 0:42 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -307,13 +313,15 @@ Execution Time: 1:35 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 4
 
 ## Patch 14 #  jGenProg+MinImpact With Seed 4
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 199
 
@@ -330,7 +338,7 @@ Execution Time: 0:26 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -353,7 +361,7 @@ Execution Time: 0:27 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -374,7 +382,7 @@ Execution Time: 0:34 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -397,7 +405,7 @@ Execution Time: 0:49 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -420,13 +428,15 @@ Execution Time: 0:51 (hh:mm)
 
 Nb of EvoSuite Tests: 28
 
-Nb of Failing EvoSuite Tests: 28
+Nb of Failing EvoSuite Tests: 4
 
 
 --- 
 #Seed: 5
 
 ## Patch 19 #  jGenProg+MinImpact With Seed 5
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 199
 
@@ -443,7 +453,7 @@ Execution Time: 0:31 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -466,7 +476,7 @@ Execution Time: 0:33 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -489,7 +499,7 @@ Execution Time: 0:46 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -510,7 +520,7 @@ Execution Time: 1:20 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -533,13 +543,15 @@ Execution Time: 1:29 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 4
 
 
 --- 
 #Seed: 6
 
 ## Patch 24 #  jGenProg+MinImpact With Seed 6
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 199
 
@@ -556,7 +568,7 @@ Execution Time: 0:25 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -579,7 +591,7 @@ Execution Time: 0:49 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -600,7 +612,7 @@ Execution Time: 0:50 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -623,7 +635,7 @@ Execution Time: 1:08 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -646,13 +658,15 @@ Execution Time: 1:29 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 4
 
 
 --- 
 #Seed: 7
 
 ## Patch 29 #  jGenProg+MinImpact With Seed 7
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 199
 
@@ -669,7 +683,7 @@ Execution Time: 0:36 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -692,7 +706,7 @@ Execution Time: 0:38 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -713,13 +727,15 @@ Execution Time: 1:55 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 8
 
 ## Patch 32 #  jGenProg+MinImpact With Seed 8
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 199
 
@@ -736,7 +752,7 @@ Execution Time: 0:23 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -759,7 +775,7 @@ Execution Time: 0:27 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -782,7 +798,7 @@ Execution Time: 0:46 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -803,13 +819,15 @@ Execution Time: 0:53 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 9
 
 ## Patch 36 #  jGenProg+MinImpact With Seed 9
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 198
 
@@ -828,7 +846,7 @@ Execution Time: 0:09 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -849,7 +867,7 @@ Execution Time: 0:26 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -870,7 +888,7 @@ Execution Time: 0:47 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -893,7 +911,7 @@ Execution Time: 0:55 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -916,13 +934,15 @@ Execution Time: 0:56 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 10
 
 ## Patch 41 #  jGenProg+MinImpact With Seed 10
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 199
 
@@ -939,7 +959,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -962,7 +982,7 @@ Execution Time: 0:26 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -985,7 +1005,7 @@ Execution Time: 0:33 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -1006,13 +1026,15 @@ Execution Time: 0:37 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 11
 
 ## Patch 45 #  jGenProg+MinImpact With Seed 11
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 199
 
@@ -1029,7 +1051,7 @@ Execution Time: 0:15 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -1050,7 +1072,7 @@ Execution Time: 0:17 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -1073,13 +1095,15 @@ Execution Time: 1:17 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 12
 
 ## Patch 48 #  jGenProg+MinImpact With Seed 12
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 199
 
@@ -1096,7 +1120,7 @@ Execution Time: 0:17 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -1119,7 +1143,7 @@ Execution Time: 0:29 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -1140,7 +1164,7 @@ Execution Time: 0:41 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -1163,13 +1187,15 @@ Execution Time: 0:53 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 4
 
 
 --- 
 #Seed: 13
 
 ## Patch 52 #  jGenProg+MinImpact With Seed 13
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 198
 
@@ -1188,7 +1214,7 @@ Execution Time: 0:28 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -1209,7 +1235,7 @@ Execution Time: 0:31 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -1230,7 +1256,7 @@ Execution Time: 1:03 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -1253,7 +1279,7 @@ Execution Time: 1:22 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -1276,13 +1302,15 @@ Execution Time: 1:54 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 14
 
 ## Patch 57 #  jGenProg+MinImpact With Seed 14
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 198
 
@@ -1299,7 +1327,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -1320,7 +1348,7 @@ Execution Time: 0:24 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -1343,7 +1371,7 @@ Execution Time: 0:38 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -1366,7 +1394,7 @@ Execution Time: 1:13 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -1389,13 +1417,15 @@ Execution Time: 1:27 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 15
 
 ## Patch 62 #  jGenProg+MinImpact With Seed 15
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 199
 
@@ -1412,7 +1442,7 @@ Execution Time: 0:14 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -1433,7 +1463,7 @@ Execution Time: 0:16 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -1456,7 +1486,7 @@ Execution Time: 0:30 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -1479,7 +1509,7 @@ Execution Time: 0:56 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -1502,13 +1532,15 @@ Execution Time: 1:23 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 4
 
 
 --- 
 #Seed: 16
 
 ## Patch 67 #  jGenProg+MinImpact With Seed 16
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 199
 
@@ -1525,7 +1557,7 @@ Execution Time: 0:36 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -1548,7 +1580,7 @@ Execution Time: 0:49 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -1569,7 +1601,7 @@ Execution Time: 0:51 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -1592,13 +1624,15 @@ Execution Time: 0:55 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 17
 
 ## Patch 71 #  jGenProg+MinImpact With Seed 17
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 199
 
@@ -1615,7 +1649,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -1638,7 +1672,7 @@ Execution Time: 0:19 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -1659,7 +1693,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -1682,13 +1716,15 @@ Execution Time: 0:22 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 18
 
 ## Patch 75 #  jGenProg+MinImpact With Seed 18
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 199
 
@@ -1705,7 +1741,7 @@ Execution Time: 0:28 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -1728,7 +1764,7 @@ Execution Time: 0:29 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -1751,13 +1787,15 @@ Execution Time: 0:44 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 19
 
 ## Patch 78 #  jGenProg+MinImpact With Seed 19
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 198
 
@@ -1776,7 +1814,7 @@ Execution Time: 0:26 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -1797,7 +1835,7 @@ Execution Time: 0:27 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -1820,7 +1858,7 @@ Execution Time: 1:01 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -1841,7 +1879,7 @@ Execution Time: 1:20 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -1864,13 +1902,15 @@ Execution Time: 1:41 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 4
 
 
 --- 
 #Seed: 20
 
 ## Patch 83 #  jGenProg+MinImpact With Seed 20
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 199
 
@@ -1887,7 +1927,7 @@ Execution Time: 0:27 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -1910,7 +1950,7 @@ Execution Time: 0:56 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -1933,7 +1973,7 @@ Execution Time: 1:08 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -1954,7 +1994,7 @@ Execution Time: 1:36 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -1977,13 +2017,15 @@ Execution Time: 1:40 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 2
 
 
 --- 
 #Seed: 21
 
 ## Patch 88 #  jGenProg+MinImpact With Seed 21
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 199
 
@@ -2000,7 +2042,7 @@ Execution Time: 0:27 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -2023,7 +2065,7 @@ Execution Time: 1:11 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -2044,7 +2086,7 @@ Execution Time: 1:29 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -2067,13 +2109,15 @@ Execution Time: 1:54 (hh:mm)
 
 Nb of EvoSuite Tests: 30
 
-Nb of Failing EvoSuite Tests: 30
+Nb of Failing EvoSuite Tests: 4
 
 
 --- 
 #Seed: 22
 
 ## Patch 92 #  jGenProg+MinImpact With Seed 22
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 199
 
@@ -2090,7 +2134,7 @@ Execution Time: 0:19 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2113,7 +2157,7 @@ Execution Time: 0:34 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2134,7 +2178,7 @@ Execution Time: 0:40 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2157,7 +2201,7 @@ Execution Time: 0:52 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2180,13 +2224,15 @@ Execution Time: 1:03 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 23
 
 ## Patch 97 #  jGenProg+MinImpact With Seed 23
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 199
 
@@ -2203,7 +2249,7 @@ Execution Time: 0:19 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2226,7 +2272,7 @@ Execution Time: 0:24 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2247,7 +2293,7 @@ Execution Time: 1:05 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2270,7 +2316,7 @@ Execution Time: 1:08 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2293,13 +2339,15 @@ Execution Time: 1:41 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 24
 
 ## Patch 102 #  jGenProg+MinImpact With Seed 24
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 199
 
@@ -2316,7 +2364,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2337,7 +2385,7 @@ Execution Time: 0:46 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2360,7 +2408,7 @@ Execution Time: 0:51 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2383,13 +2431,15 @@ Execution Time: 1:11 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 25
 
 ## Patch 106 #  jGenProg+MinImpact With Seed 25
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 198
 
@@ -2406,7 +2456,7 @@ Execution Time: 0:11 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2427,7 +2477,7 @@ Execution Time: 0:16 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2450,7 +2500,7 @@ Execution Time: 1:02 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2473,13 +2523,15 @@ Execution Time: 1:17 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 26
 
 ## Patch 110 #  jGenProg+MinImpact With Seed 26
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 198
 
@@ -2496,7 +2548,7 @@ Execution Time: 0:16 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2517,7 +2569,7 @@ Execution Time: 0:34 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2540,7 +2592,7 @@ Execution Time: 1:14 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2563,7 +2615,7 @@ Execution Time: 1:25 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2586,13 +2638,15 @@ Execution Time: 1:34 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 27
 
 ## Patch 115 #  jGenProg+MinImpact With Seed 27
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 199
 
@@ -2609,7 +2663,7 @@ Execution Time: 0:22 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2630,7 +2684,7 @@ Execution Time: 0:39 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2653,13 +2707,15 @@ Execution Time: 1:00 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 28
 
 ## Patch 118 #  jGenProg+MinImpact With Seed 28
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 199
 
@@ -2676,7 +2732,7 @@ Execution Time: 0:19 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2699,7 +2755,7 @@ Execution Time: 0:30 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2722,7 +2778,7 @@ Execution Time: 0:46 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2743,13 +2799,15 @@ Execution Time: 1:34 (hh:mm)
 
 Nb of EvoSuite Tests: 25
 
-Nb of Failing EvoSuite Tests: 25
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 29
 
 ## Patch 122 #  jGenProg+MinImpact With Seed 29
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 199
 
@@ -2766,7 +2824,7 @@ Execution Time: 0:10 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2787,7 +2845,7 @@ Execution Time: 0:11 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2810,7 +2868,7 @@ Execution Time: 0:50 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -2833,13 +2891,15 @@ Execution Time: 1:21 (hh:mm)
 
 Nb of EvoSuite Tests: 27
 
-Nb of Failing EvoSuite Tests: 27
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 30
 
 ## Patch 126 #  jGenProg+MinImpact With Seed 30
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 199
 
@@ -2856,7 +2916,7 @@ Execution Time: 0:16 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -2877,7 +2937,7 @@ Execution Time: 0:25 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -2900,7 +2960,7 @@ Execution Time: 0:37 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 4
 
 
 
@@ -2923,14 +2983,16 @@ Execution Time: 0:48 (hh:mm)
 
 Nb of EvoSuite Tests: 26
 
-Nb of Failing EvoSuite Tests: 26
+Nb of Failing EvoSuite Tests: 4
 
 
 ---
 ## Summary an Analysis
 
-Average Nb of EvoSuite Tests: 30
+Average Nb of EvoSuite Tests: 26.2
 
-Average Nb of Failing EvoSuite Tests: 4
+Average Nb of Failing EvoSuite Tests: 3.29
+
+Average Nb of Test-adequate patches: 4.3
 
 ---

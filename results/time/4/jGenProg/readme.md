@@ -22,6 +22,8 @@ index 8e8e603..0d4edf4 100644
 
 ## Patch 1 #  jGenProg+MinImpact With Seed 1
 
+jGenProg+MinImpact returns this patch in the first place
+
 org.joda.time.field.ZeroIsMaxDateTimeField : 111
 
 Patch type: ReplaceOp
@@ -37,7 +39,7 @@ Execution Time: 0:07 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -58,7 +60,7 @@ Execution Time: 0:08 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -79,7 +81,7 @@ Execution Time: 0:10 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -100,7 +102,7 @@ Execution Time: 0:19 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -121,7 +123,7 @@ Execution Time: 0:12 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -142,7 +144,7 @@ Execution Time: 0:23 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -163,7 +165,7 @@ Execution Time: 0:26 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -184,7 +186,7 @@ Execution Time: 0:29 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -205,7 +207,7 @@ Execution Time: 0:32 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -226,7 +228,7 @@ Execution Time: 0:34 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -247,13 +249,15 @@ Execution Time: 0:41 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 2
 
 
 --- 
 #Seed: 2
 
 ## Patch 12 #  jGenProg+MinImpact With Seed 2
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.joda.time.field.ZeroIsMaxDateTimeField : 138
 
@@ -270,7 +274,7 @@ Execution Time: 0:07 (hh:mm)
 
 Nb of EvoSuite Tests: 59
 
-Nb of Failing EvoSuite Tests: 59
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -291,7 +295,7 @@ Execution Time: 0:09 (hh:mm)
 
 Nb of EvoSuite Tests: 59
 
-Nb of Failing EvoSuite Tests: 59
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -312,7 +316,7 @@ Execution Time: 0:04 (hh:mm)
 
 Nb of EvoSuite Tests: 59
 
-Nb of Failing EvoSuite Tests: 59
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -333,7 +337,7 @@ Execution Time: 0:06 (hh:mm)
 
 Nb of EvoSuite Tests: 59
 
-Nb of Failing EvoSuite Tests: 59
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -354,7 +358,7 @@ Execution Time: 0:17 (hh:mm)
 
 Nb of EvoSuite Tests: 59
 
-Nb of Failing EvoSuite Tests: 59
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -375,7 +379,7 @@ Execution Time: 0:18 (hh:mm)
 
 Nb of EvoSuite Tests: 59
 
-Nb of Failing EvoSuite Tests: 59
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -396,7 +400,7 @@ Execution Time: 0:22 (hh:mm)
 
 Nb of EvoSuite Tests: 59
 
-Nb of Failing EvoSuite Tests: 59
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -417,7 +421,7 @@ Execution Time: 0:29 (hh:mm)
 
 Nb of EvoSuite Tests: 59
 
-Nb of Failing EvoSuite Tests: 59
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -438,7 +442,7 @@ Execution Time: 0:31 (hh:mm)
 
 Nb of EvoSuite Tests: 59
 
-Nb of Failing EvoSuite Tests: 59
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -459,13 +463,15 @@ Execution Time: 0:34 (hh:mm)
 
 Nb of EvoSuite Tests: 59
 
-Nb of Failing EvoSuite Tests: 59
+Nb of Failing EvoSuite Tests: 2
 
 
 --- 
 #Seed: 3
 
 ## Patch 22 #  jGenProg+MinImpact With Seed 3
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.joda.time.field.ZeroIsMaxDateTimeField : 111
 
@@ -482,7 +488,7 @@ Execution Time: 0:03 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -503,7 +509,7 @@ Execution Time: 0:05 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -524,7 +530,7 @@ Execution Time: 0:08 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -545,7 +551,7 @@ Execution Time: 0:10 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -566,7 +572,7 @@ Execution Time: 0:12 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -587,7 +593,7 @@ Execution Time: 0:17 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -608,7 +614,7 @@ Execution Time: 0:19 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -629,7 +635,7 @@ Execution Time: 0:22 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -650,7 +656,7 @@ Execution Time: 0:25 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -671,13 +677,15 @@ Execution Time: 0:29 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 4
 
 ## Patch 32 #  jGenProg+MinImpact With Seed 4
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.joda.time.field.ZeroIsMaxDateTimeField : 138
 
@@ -694,7 +702,7 @@ Execution Time: 0:10 (hh:mm)
 
 Nb of EvoSuite Tests: 60
 
-Nb of Failing EvoSuite Tests: 60
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -715,7 +723,7 @@ Execution Time: 0:15 (hh:mm)
 
 Nb of EvoSuite Tests: 60
 
-Nb of Failing EvoSuite Tests: 60
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -736,7 +744,7 @@ Execution Time: 0:04 (hh:mm)
 
 Nb of EvoSuite Tests: 60
 
-Nb of Failing EvoSuite Tests: 60
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -757,7 +765,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 60
 
-Nb of Failing EvoSuite Tests: 60
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -778,7 +786,7 @@ Execution Time: 0:16 (hh:mm)
 
 Nb of EvoSuite Tests: 60
 
-Nb of Failing EvoSuite Tests: 60
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -799,7 +807,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 60
 
-Nb of Failing EvoSuite Tests: 60
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -820,7 +828,7 @@ Execution Time: 0:25 (hh:mm)
 
 Nb of EvoSuite Tests: 60
 
-Nb of Failing EvoSuite Tests: 60
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -841,7 +849,7 @@ Execution Time: 0:38 (hh:mm)
 
 Nb of EvoSuite Tests: 60
 
-Nb of Failing EvoSuite Tests: 60
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -862,7 +870,7 @@ Execution Time: 0:40 (hh:mm)
 
 Nb of EvoSuite Tests: 60
 
-Nb of Failing EvoSuite Tests: 60
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -883,13 +891,15 @@ Execution Time: 0:41 (hh:mm)
 
 Nb of EvoSuite Tests: 60
 
-Nb of Failing EvoSuite Tests: 60
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 5
 
 ## Patch 42 #  jGenProg+MinImpact With Seed 5
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.joda.time.field.ZeroIsMaxDateTimeField : 178
 
@@ -906,7 +916,7 @@ Execution Time: 0:04 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -927,7 +937,7 @@ Execution Time: 0:16 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -948,7 +958,7 @@ Execution Time: 0:41 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -969,7 +979,7 @@ Execution Time: 0:03 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -990,7 +1000,7 @@ Execution Time: 0:07 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1011,7 +1021,7 @@ Execution Time: 0:09 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1032,7 +1042,7 @@ Execution Time: 0:12 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1053,7 +1063,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1074,7 +1084,7 @@ Execution Time: 0:19 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1095,7 +1105,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1116,7 +1126,7 @@ Execution Time: 0:28 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1137,13 +1147,15 @@ Execution Time: 0:31 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 6
 
 ## Patch 54 #  jGenProg+MinImpact With Seed 6
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.joda.time.field.ZeroIsMaxDateTimeField : 111
 
@@ -1160,7 +1172,7 @@ Execution Time: 0:02 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1181,7 +1193,7 @@ Execution Time: 0:07 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1202,7 +1214,7 @@ Execution Time: 0:16 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1223,7 +1235,7 @@ Execution Time: 0:17 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1244,7 +1256,7 @@ Execution Time: 0:19 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1265,7 +1277,7 @@ Execution Time: 0:24 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1286,7 +1298,7 @@ Execution Time: 0:29 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1307,7 +1319,7 @@ Execution Time: 0:35 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1328,7 +1340,7 @@ Execution Time: 0:38 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1349,7 +1361,7 @@ Execution Time: 1:15 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1370,13 +1382,15 @@ Execution Time: 1:26 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 7
 
 ## Patch 65 #  jGenProg+MinImpact With Seed 7
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.joda.time.field.ZeroIsMaxDateTimeField : 178
 
@@ -1393,7 +1407,7 @@ Execution Time: 0:18 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1414,7 +1428,7 @@ Execution Time: 0:03 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1435,7 +1449,7 @@ Execution Time: 0:06 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1456,7 +1470,7 @@ Execution Time: 0:11 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1477,7 +1491,7 @@ Execution Time: 0:10 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -1498,7 +1512,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -1519,7 +1533,7 @@ Execution Time: 0:16 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -1540,7 +1554,7 @@ Execution Time: 0:24 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -1561,13 +1575,15 @@ Execution Time: 0:27 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 2
 
 
 --- 
 #Seed: 8
 
 ## Patch 74 #  jGenProg+MinImpact With Seed 8
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.joda.time.field.ZeroIsMaxDateTimeField : 178
 
@@ -1584,7 +1600,7 @@ Execution Time: 0:06 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1605,7 +1621,7 @@ Execution Time: 0:09 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1626,7 +1642,7 @@ Execution Time: 0:11 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1647,7 +1663,7 @@ Execution Time: 0:12 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1668,7 +1684,7 @@ Execution Time: 0:14 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1689,7 +1705,7 @@ Execution Time: 0:18 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1710,7 +1726,7 @@ Execution Time: 0:19 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1731,7 +1747,7 @@ Execution Time: 0:22 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1752,7 +1768,7 @@ Execution Time: 0:25 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1773,13 +1789,15 @@ Execution Time: 0:34 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 9
 
 ## Patch 84 #  jGenProg+MinImpact With Seed 9
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.joda.time.field.ZeroIsMaxDateTimeField : 178
 
@@ -1796,7 +1814,7 @@ Execution Time: 0:02 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1817,7 +1835,7 @@ Execution Time: 0:04 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1838,7 +1856,7 @@ Execution Time: 0:09 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1859,7 +1877,7 @@ Execution Time: 0:11 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1880,7 +1898,7 @@ Execution Time: 0:14 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1901,7 +1919,7 @@ Execution Time: 0:31 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1922,7 +1940,7 @@ Execution Time: 0:33 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1943,7 +1961,7 @@ Execution Time: 0:38 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1964,7 +1982,7 @@ Execution Time: 0:40 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -1985,13 +2003,15 @@ Execution Time: 0:41 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 10
 
 ## Patch 94 #  jGenProg+MinImpact With Seed 10
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.joda.time.field.ZeroIsMaxDateTimeField : 111
 
@@ -2008,7 +2028,7 @@ Execution Time: 0:07 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2029,7 +2049,7 @@ Execution Time: 0:09 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2050,7 +2070,7 @@ Execution Time: 0:02 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2071,7 +2091,7 @@ Execution Time: 0:03 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2092,7 +2112,7 @@ Execution Time: 0:05 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2113,7 +2133,7 @@ Execution Time: 0:08 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2134,7 +2154,7 @@ Execution Time: 0:17 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2155,7 +2175,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2176,7 +2196,7 @@ Execution Time: 0:22 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2197,7 +2217,7 @@ Execution Time: 0:26 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2218,13 +2238,15 @@ Execution Time: 0:28 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 11
 
 ## Patch 105 #  jGenProg+MinImpact With Seed 11
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.joda.time.field.ZeroIsMaxDateTimeField : 178
 
@@ -2241,7 +2263,7 @@ Execution Time: 0:02 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2262,7 +2284,7 @@ Execution Time: 0:03 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2283,7 +2305,7 @@ Execution Time: 0:05 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2304,7 +2326,7 @@ Execution Time: 0:08 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2325,7 +2347,7 @@ Execution Time: 0:11 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2346,7 +2368,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2367,7 +2389,7 @@ Execution Time: 0:16 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2388,7 +2410,7 @@ Execution Time: 0:18 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2409,7 +2431,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2430,7 +2452,7 @@ Execution Time: 0:26 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2451,7 +2473,7 @@ Execution Time: 0:30 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2472,13 +2494,15 @@ Execution Time: 0:34 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 12
 
 ## Patch 117 #  jGenProg+MinImpact With Seed 12
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.joda.time.field.ZeroIsMaxDateTimeField : 138
 
@@ -2495,7 +2519,7 @@ Execution Time: 0:03 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2516,7 +2540,7 @@ Execution Time: 0:11 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2537,7 +2561,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2558,7 +2582,7 @@ Execution Time: 0:17 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2579,7 +2603,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2600,7 +2624,7 @@ Execution Time: 0:34 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2621,7 +2645,7 @@ Execution Time: 0:05 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2642,7 +2666,7 @@ Execution Time: 0:08 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2663,7 +2687,7 @@ Execution Time: 0:15 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2684,7 +2708,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2705,7 +2729,7 @@ Execution Time: 0:25 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2726,13 +2750,15 @@ Execution Time: 0:28 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 13
 
 ## Patch 129 #  jGenProg+MinImpact With Seed 13
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.joda.time.field.ZeroIsMaxDateTimeField : 138
 
@@ -2749,7 +2775,7 @@ Execution Time: 0:02 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2770,7 +2796,7 @@ Execution Time: 0:04 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2791,7 +2817,7 @@ Execution Time: 0:07 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2812,7 +2838,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2833,7 +2859,7 @@ Execution Time: 0:15 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2854,7 +2880,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2875,7 +2901,7 @@ Execution Time: 0:26 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2896,7 +2922,7 @@ Execution Time: 0:28 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2917,7 +2943,7 @@ Execution Time: 0:30 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2938,7 +2964,7 @@ Execution Time: 0:32 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -2959,13 +2985,15 @@ Execution Time: 0:38 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 14
 
 ## Patch 140 #  jGenProg+MinImpact With Seed 14
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.joda.time.field.ZeroIsMaxDateTimeField : 178
 
@@ -2982,7 +3010,7 @@ Execution Time: 0:05 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3003,7 +3031,7 @@ Execution Time: 0:07 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3024,7 +3052,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3045,7 +3073,7 @@ Execution Time: 0:17 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3066,7 +3094,7 @@ Execution Time: 0:19 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3087,7 +3115,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3108,7 +3136,7 @@ Execution Time: 0:22 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3129,7 +3157,7 @@ Execution Time: 0:23 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3150,7 +3178,7 @@ Execution Time: 0:27 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3171,7 +3199,7 @@ Execution Time: 0:29 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3192,13 +3220,15 @@ Execution Time: 0:31 (hh:mm)
 
 Nb of EvoSuite Tests: 55
 
-Nb of Failing EvoSuite Tests: 55
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 15
 
 ## Patch 151 #  jGenProg+MinImpact With Seed 15
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.joda.time.field.ZeroIsMaxDateTimeField : 138
 
@@ -3215,7 +3245,7 @@ Execution Time: 0:02 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3236,7 +3266,7 @@ Execution Time: 0:05 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3257,7 +3287,7 @@ Execution Time: 0:06 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3278,7 +3308,7 @@ Execution Time: 0:09 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3299,7 +3329,7 @@ Execution Time: 0:11 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3320,7 +3350,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3341,7 +3371,7 @@ Execution Time: 0:15 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3362,7 +3392,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3383,7 +3413,7 @@ Execution Time: 0:23 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3404,7 +3434,7 @@ Execution Time: 0:24 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3425,13 +3455,15 @@ Execution Time: 0:18 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 4
 
 
 --- 
 #Seed: 16
 
 ## Patch 162 #  jGenProg+MinImpact With Seed 16
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.joda.time.field.ZeroIsMaxDateTimeField : 178
 
@@ -3448,7 +3480,7 @@ Execution Time: 0:28 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3469,7 +3501,7 @@ Execution Time: 0:04 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3490,7 +3522,7 @@ Execution Time: 0:07 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3511,7 +3543,7 @@ Execution Time: 0:09 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3532,7 +3564,7 @@ Execution Time: 0:12 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3553,7 +3585,7 @@ Execution Time: 0:14 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3574,7 +3606,7 @@ Execution Time: 0:19 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3595,7 +3627,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3616,7 +3648,7 @@ Execution Time: 0:22 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3637,7 +3669,7 @@ Execution Time: 0:24 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3658,13 +3690,15 @@ Execution Time: 0:31 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 17
 
 ## Patch 173 #  jGenProg+MinImpact With Seed 17
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.joda.time.field.ZeroIsMaxDateTimeField : 138
 
@@ -3681,7 +3715,7 @@ Execution Time: 0:02 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3702,7 +3736,7 @@ Execution Time: 0:06 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3723,7 +3757,7 @@ Execution Time: 0:09 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3744,7 +3778,7 @@ Execution Time: 0:15 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3765,7 +3799,7 @@ Execution Time: 0:17 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3786,7 +3820,7 @@ Execution Time: 0:19 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3807,7 +3841,7 @@ Execution Time: 0:22 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3828,7 +3862,7 @@ Execution Time: 0:24 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3849,7 +3883,7 @@ Execution Time: 0:25 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3870,7 +3904,7 @@ Execution Time: 0:29 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3891,13 +3925,15 @@ Execution Time: 0:34 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 18
 
 ## Patch 184 #  jGenProg+MinImpact With Seed 18
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.joda.time.field.ZeroIsMaxDateTimeField : 178
 
@@ -3914,7 +3950,7 @@ Execution Time: 0:03 (hh:mm)
 
 Nb of EvoSuite Tests: 54
 
-Nb of Failing EvoSuite Tests: 54
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3935,7 +3971,7 @@ Execution Time: 0:04 (hh:mm)
 
 Nb of EvoSuite Tests: 54
 
-Nb of Failing EvoSuite Tests: 54
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3956,7 +3992,7 @@ Execution Time: 0:08 (hh:mm)
 
 Nb of EvoSuite Tests: 54
 
-Nb of Failing EvoSuite Tests: 54
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3977,7 +4013,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 54
 
-Nb of Failing EvoSuite Tests: 54
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -3998,7 +4034,7 @@ Execution Time: 0:14 (hh:mm)
 
 Nb of EvoSuite Tests: 54
 
-Nb of Failing EvoSuite Tests: 54
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4019,7 +4055,7 @@ Execution Time: 0:17 (hh:mm)
 
 Nb of EvoSuite Tests: 54
 
-Nb of Failing EvoSuite Tests: 54
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4040,7 +4076,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 54
 
-Nb of Failing EvoSuite Tests: 54
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4061,7 +4097,7 @@ Execution Time: 0:28 (hh:mm)
 
 Nb of EvoSuite Tests: 54
 
-Nb of Failing EvoSuite Tests: 54
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4082,7 +4118,7 @@ Execution Time: 0:30 (hh:mm)
 
 Nb of EvoSuite Tests: 54
 
-Nb of Failing EvoSuite Tests: 54
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4103,7 +4139,7 @@ Execution Time: 0:34 (hh:mm)
 
 Nb of EvoSuite Tests: 54
 
-Nb of Failing EvoSuite Tests: 54
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4124,13 +4160,15 @@ Execution Time: 0:44 (hh:mm)
 
 Nb of EvoSuite Tests: 54
 
-Nb of Failing EvoSuite Tests: 54
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 19
 
 ## Patch 195 #  jGenProg+MinImpact With Seed 19
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.joda.time.field.ZeroIsMaxDateTimeField : 138
 
@@ -4147,7 +4185,7 @@ Execution Time: 0:03 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4168,7 +4206,7 @@ Execution Time: 0:06 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4189,7 +4227,7 @@ Execution Time: 0:10 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4210,7 +4248,7 @@ Execution Time: 0:12 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4231,7 +4269,7 @@ Execution Time: 0:14 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4252,7 +4290,7 @@ Execution Time: 0:19 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4273,7 +4311,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4294,7 +4332,7 @@ Execution Time: 0:23 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4315,7 +4353,7 @@ Execution Time: 0:24 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4336,13 +4374,15 @@ Execution Time: 0:28 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 20
 
 ## Patch 205 #  jGenProg+MinImpact With Seed 20
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.joda.time.field.ZeroIsMaxDateTimeField : 178
 
@@ -4359,7 +4399,7 @@ Execution Time: 0:04 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4380,7 +4420,7 @@ Execution Time: 0:07 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4401,7 +4441,7 @@ Execution Time: 0:09 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4422,7 +4462,7 @@ Execution Time: 0:12 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4443,7 +4483,7 @@ Execution Time: 0:14 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4464,7 +4504,7 @@ Execution Time: 0:16 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4485,7 +4525,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4506,7 +4546,7 @@ Execution Time: 0:23 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4527,7 +4567,7 @@ Execution Time: 0:26 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4548,7 +4588,7 @@ Execution Time: 0:30 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4569,7 +4609,7 @@ Execution Time: 0:32 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4590,13 +4630,15 @@ Execution Time: 0:38 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 21
 
 ## Patch 217 #  jGenProg+MinImpact With Seed 21
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.joda.time.field.ZeroIsMaxDateTimeField : 178
 
@@ -4613,7 +4655,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4634,7 +4676,7 @@ Execution Time: 0:03 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4655,7 +4697,7 @@ Execution Time: 0:05 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4676,7 +4718,7 @@ Execution Time: 0:07 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4697,7 +4739,7 @@ Execution Time: 0:09 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4718,7 +4760,7 @@ Execution Time: 0:12 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4739,7 +4781,7 @@ Execution Time: 0:14 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4760,7 +4802,7 @@ Execution Time: 0:17 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4781,7 +4823,7 @@ Execution Time: 0:23 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4802,7 +4844,7 @@ Execution Time: 0:25 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4823,13 +4865,15 @@ Execution Time: 0:27 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 22
 
 ## Patch 228 #  jGenProg+MinImpact With Seed 22
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.joda.time.field.ZeroIsMaxDateTimeField : 138
 
@@ -4846,7 +4890,7 @@ Execution Time: 0:03 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4867,7 +4911,7 @@ Execution Time: 0:06 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4888,7 +4932,7 @@ Execution Time: 0:12 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4909,7 +4953,7 @@ Execution Time: 0:14 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4930,7 +4974,7 @@ Execution Time: 0:30 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4951,7 +4995,7 @@ Execution Time: 0:32 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4972,7 +5016,7 @@ Execution Time: 0:34 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -4993,7 +5037,7 @@ Execution Time: 0:38 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -5014,7 +5058,7 @@ Execution Time: 1:04 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -5035,13 +5079,15 @@ Execution Time: 1:06 (hh:mm)
 
 Nb of EvoSuite Tests: 57
 
-Nb of Failing EvoSuite Tests: 57
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 23
 
 ## Patch 238 #  jGenProg+MinImpact With Seed 23
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.joda.time.field.ZeroIsMaxDateTimeField : 138
 
@@ -5058,7 +5104,7 @@ Execution Time: 0:02 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -5079,7 +5125,7 @@ Execution Time: 0:05 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -5100,7 +5146,7 @@ Execution Time: 0:08 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -5121,7 +5167,7 @@ Execution Time: 0:09 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -5142,7 +5188,7 @@ Execution Time: 0:12 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -5163,7 +5209,7 @@ Execution Time: 0:15 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -5184,7 +5230,7 @@ Execution Time: 0:16 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -5205,7 +5251,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -5226,7 +5272,7 @@ Execution Time: 0:25 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -5247,7 +5293,7 @@ Execution Time: 0:27 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -5268,7 +5314,7 @@ Execution Time: 0:28 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -5289,13 +5335,15 @@ Execution Time: 0:32 (hh:mm)
 
 Nb of EvoSuite Tests: 56
 
-Nb of Failing EvoSuite Tests: 56
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 24
 
 ## Patch 250 #  jGenProg+MinImpact With Seed 24
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.joda.time.field.ZeroIsMaxDateTimeField : 111
 
@@ -5312,7 +5360,7 @@ Execution Time: 0:16 (hh:mm)
 
 Nb of EvoSuite Tests: 59
 
-Nb of Failing EvoSuite Tests: 59
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5333,7 +5381,7 @@ Execution Time: 0:04 (hh:mm)
 
 Nb of EvoSuite Tests: 59
 
-Nb of Failing EvoSuite Tests: 59
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -5354,7 +5402,7 @@ Execution Time: 0:05 (hh:mm)
 
 Nb of EvoSuite Tests: 59
 
-Nb of Failing EvoSuite Tests: 59
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -5375,7 +5423,7 @@ Execution Time: 0:07 (hh:mm)
 
 Nb of EvoSuite Tests: 59
 
-Nb of Failing EvoSuite Tests: 59
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -5396,7 +5444,7 @@ Execution Time: 0:14 (hh:mm)
 
 Nb of EvoSuite Tests: 59
 
-Nb of Failing EvoSuite Tests: 59
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -5417,7 +5465,7 @@ Execution Time: 0:18 (hh:mm)
 
 Nb of EvoSuite Tests: 59
 
-Nb of Failing EvoSuite Tests: 59
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -5438,7 +5486,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 59
 
-Nb of Failing EvoSuite Tests: 59
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -5459,7 +5507,7 @@ Execution Time: 0:25 (hh:mm)
 
 Nb of EvoSuite Tests: 59
 
-Nb of Failing EvoSuite Tests: 59
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -5480,7 +5528,7 @@ Execution Time: 0:28 (hh:mm)
 
 Nb of EvoSuite Tests: 59
 
-Nb of Failing EvoSuite Tests: 59
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -5501,7 +5549,7 @@ Execution Time: 0:33 (hh:mm)
 
 Nb of EvoSuite Tests: 59
 
-Nb of Failing EvoSuite Tests: 59
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -5522,7 +5570,7 @@ Execution Time: 0:36 (hh:mm)
 
 Nb of EvoSuite Tests: 59
 
-Nb of Failing EvoSuite Tests: 59
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -5543,14 +5591,16 @@ Execution Time: 0:42 (hh:mm)
 
 Nb of EvoSuite Tests: 59
 
-Nb of Failing EvoSuite Tests: 59
+Nb of Failing EvoSuite Tests: 1
 
 
 ---
 ## Summary an Analysis
 
-Average Nb of EvoSuite Tests: 59.53
+Average Nb of EvoSuite Tests: 56.4
 
-Average Nb of Failing EvoSuite Tests: 1.67
+Average Nb of Failing EvoSuite Tests: 1.02
+
+Average Nb of Test-adequate patches: 10.88
 
 ---

@@ -45,6 +45,8 @@ index dec310b..a84438d 100644
 
 ## Patch 1 #  jGenProg+MinImpact With Seed 1
 
+jGenProg+MinImpact returns this patch in the first place
+
 org.apache.commons.math3.optimization.linear.SimplexSolver : 124
 
 Patch type: RemoveOp
@@ -60,7 +62,7 @@ Execution Time: 0:14 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -81,7 +83,7 @@ Execution Time: 0:18 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -102,7 +104,7 @@ Execution Time: 0:23 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -123,7 +125,7 @@ Execution Time: 0:43 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -144,7 +146,7 @@ Execution Time: 1:01 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -165,7 +167,7 @@ Execution Time: 1:22 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -186,13 +188,15 @@ Execution Time: 1:56 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 2
 
 ## Patch 8 #  jGenProg+MinImpact With Seed 2
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 77
 
@@ -209,7 +213,7 @@ Execution Time: 0:18 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -230,7 +234,7 @@ Execution Time: 0:28 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -251,7 +255,7 @@ Execution Time: 0:36 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -272,7 +276,7 @@ Execution Time: 0:43 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -293,7 +297,7 @@ Execution Time: 0:49 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -314,7 +318,7 @@ Execution Time: 0:55 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -335,7 +339,7 @@ Execution Time: 1:37 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -356,7 +360,7 @@ Execution Time: 1:45 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -377,13 +381,15 @@ Execution Time: 2:03 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 3
 
 ## Patch 17 #  jGenProg+MinImpact With Seed 3
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 104
 
@@ -400,7 +406,7 @@ Execution Time: 0:26 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -421,7 +427,7 @@ Execution Time: 0:30 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -442,7 +448,7 @@ Execution Time: 0:40 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -463,7 +469,7 @@ Execution Time: 0:47 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -484,7 +490,7 @@ Execution Time: 0:56 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -505,7 +511,7 @@ Execution Time: 1:05 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -526,7 +532,7 @@ Execution Time: 1:09 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -547,7 +553,7 @@ Execution Time: 1:27 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -568,13 +574,15 @@ Execution Time: 1:48 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 4
 
 ## Patch 26 #  jGenProg+MinImpact With Seed 4
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 124
 
@@ -591,7 +599,7 @@ Execution Time: 0:03 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -612,7 +620,7 @@ Execution Time: 0:07 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -633,7 +641,7 @@ Execution Time: 0:15 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -654,7 +662,7 @@ Execution Time: 0:24 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -675,7 +683,7 @@ Execution Time: 0:27 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -696,7 +704,7 @@ Execution Time: 0:42 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -717,7 +725,7 @@ Execution Time: 0:53 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -738,7 +746,7 @@ Execution Time: 1:31 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -759,7 +767,7 @@ Execution Time: 1:50 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -780,13 +788,15 @@ Execution Time: 2:01 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 5
 
 ## Patch 36 #  jGenProg+MinImpact With Seed 5
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 145
 
@@ -803,7 +813,7 @@ Execution Time: 0:41 (hh:mm)
 
 Nb of EvoSuite Tests: 6
 
-Nb of Failing EvoSuite Tests: 6
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -824,7 +834,7 @@ Execution Time: 0:46 (hh:mm)
 
 Nb of EvoSuite Tests: 6
 
-Nb of Failing EvoSuite Tests: 6
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -845,7 +855,7 @@ Execution Time: 0:50 (hh:mm)
 
 Nb of EvoSuite Tests: 6
 
-Nb of Failing EvoSuite Tests: 6
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -866,7 +876,7 @@ Execution Time: 0:59 (hh:mm)
 
 Nb of EvoSuite Tests: 6
 
-Nb of Failing EvoSuite Tests: 6
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -887,7 +897,7 @@ Execution Time: 1:54 (hh:mm)
 
 Nb of EvoSuite Tests: 6
 
-Nb of Failing EvoSuite Tests: 6
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -908,13 +918,15 @@ Execution Time: 2:02 (hh:mm)
 
 Nb of EvoSuite Tests: 6
 
-Nb of Failing EvoSuite Tests: 6
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 6
 
 ## Patch 42 #  jGenProg+MinImpact With Seed 6
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 77
 
@@ -931,7 +943,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -952,7 +964,7 @@ Execution Time: 0:17 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -973,7 +985,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -994,7 +1006,7 @@ Execution Time: 0:31 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1015,7 +1027,7 @@ Execution Time: 0:34 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1036,7 +1048,7 @@ Execution Time: 0:50 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1057,7 +1069,7 @@ Execution Time: 0:55 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1078,7 +1090,7 @@ Execution Time: 0:59 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1099,13 +1111,15 @@ Execution Time: 2:00 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 7
 
 ## Patch 51 #  jGenProg+MinImpact With Seed 7
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 104
 
@@ -1122,7 +1136,7 @@ Execution Time: 0:06 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1143,7 +1157,7 @@ Execution Time: 0:38 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1164,7 +1178,7 @@ Execution Time: 0:58 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1185,7 +1199,7 @@ Execution Time: 1:03 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1206,7 +1220,7 @@ Execution Time: 1:06 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1227,7 +1241,7 @@ Execution Time: 1:12 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1248,7 +1262,7 @@ Execution Time: 1:42 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1269,13 +1283,15 @@ Execution Time: 1:59 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 8
 
 ## Patch 59 #  jGenProg+MinImpact With Seed 8
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 120
 
@@ -1292,7 +1308,7 @@ Execution Time: 0:06 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1313,7 +1329,7 @@ Execution Time: 0:10 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1334,7 +1350,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1355,7 +1371,7 @@ Execution Time: 0:27 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1376,7 +1392,7 @@ Execution Time: 0:50 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1397,7 +1413,7 @@ Execution Time: 0:57 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1418,7 +1434,7 @@ Execution Time: 1:34 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1439,13 +1455,15 @@ Execution Time: 1:41 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 9
 
 ## Patch 67 #  jGenProg+MinImpact With Seed 9
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 145
 
@@ -1462,7 +1480,7 @@ Execution Time: 0:04 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1483,7 +1501,7 @@ Execution Time: 0:07 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1504,7 +1522,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1525,7 +1543,7 @@ Execution Time: 0:33 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1546,7 +1564,7 @@ Execution Time: 0:50 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1567,7 +1585,7 @@ Execution Time: 1:10 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1588,7 +1606,7 @@ Execution Time: 1:26 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1609,13 +1627,15 @@ Execution Time: 1:30 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 10
 
 ## Patch 75 #  jGenProg+MinImpact With Seed 10
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 145
 
@@ -1632,7 +1652,7 @@ Execution Time: 0:04 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1653,7 +1673,7 @@ Execution Time: 0:07 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1674,7 +1694,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1695,7 +1715,7 @@ Execution Time: 0:36 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1716,7 +1736,7 @@ Execution Time: 0:40 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1737,7 +1757,7 @@ Execution Time: 0:48 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1758,7 +1778,7 @@ Execution Time: 0:54 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1779,13 +1799,15 @@ Execution Time: 0:57 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 11
 
 ## Patch 83 #  jGenProg+MinImpact With Seed 11
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 124
 
@@ -1802,7 +1824,7 @@ Execution Time: 0:07 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1823,7 +1845,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1844,7 +1866,7 @@ Execution Time: 0:37 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1865,7 +1887,7 @@ Execution Time: 0:43 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1886,7 +1908,7 @@ Execution Time: 0:51 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1907,7 +1929,7 @@ Execution Time: 1:14 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1928,7 +1950,7 @@ Execution Time: 1:33 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1949,13 +1971,15 @@ Execution Time: 1:49 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 12
 
 ## Patch 91 #  jGenProg+MinImpact With Seed 12
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 119
 
@@ -1972,7 +1996,7 @@ Execution Time: 0:15 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -1993,7 +2017,7 @@ Execution Time: 0:32 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2014,7 +2038,7 @@ Execution Time: 0:38 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2035,7 +2059,7 @@ Execution Time: 0:45 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2056,7 +2080,7 @@ Execution Time: 0:56 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2077,7 +2101,7 @@ Execution Time: 1:03 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2098,7 +2122,7 @@ Execution Time: 1:18 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2119,13 +2143,15 @@ Execution Time: 1:53 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 13
 
 ## Patch 99 #  jGenProg+MinImpact With Seed 13
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 145
 
@@ -2142,7 +2168,7 @@ Execution Time: 0:11 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2163,7 +2189,7 @@ Execution Time: 0:17 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2184,7 +2210,7 @@ Execution Time: 0:38 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2205,7 +2231,7 @@ Execution Time: 0:44 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2226,7 +2252,7 @@ Execution Time: 0:48 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2247,7 +2273,7 @@ Execution Time: 0:57 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2268,7 +2294,7 @@ Execution Time: 1:19 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2289,7 +2315,7 @@ Execution Time: 1:38 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2310,7 +2336,7 @@ Execution Time: 1:47 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2331,7 +2357,7 @@ Execution Time: 1:51 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2352,13 +2378,15 @@ Execution Time: 2:01 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 14
 
 ## Patch 110 #  jGenProg+MinImpact With Seed 14
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 123
 
@@ -2375,7 +2403,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2396,7 +2424,7 @@ Execution Time: 0:16 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2417,7 +2445,7 @@ Execution Time: 0:26 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2438,7 +2466,7 @@ Execution Time: 0:29 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2459,7 +2487,7 @@ Execution Time: 0:39 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2480,7 +2508,7 @@ Execution Time: 0:47 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2501,7 +2529,7 @@ Execution Time: 0:54 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2522,13 +2550,15 @@ Execution Time: 1:12 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 15
 
 ## Patch 118 #  jGenProg+MinImpact With Seed 15
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 123
 
@@ -2545,7 +2575,7 @@ Execution Time: 0:05 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2566,7 +2596,7 @@ Execution Time: 0:10 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2587,7 +2617,7 @@ Execution Time: 0:34 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2608,7 +2638,7 @@ Execution Time: 0:41 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2629,7 +2659,7 @@ Execution Time: 0:46 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2650,7 +2680,7 @@ Execution Time: 0:51 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2671,13 +2701,15 @@ Execution Time: 1:27 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 16
 
 ## Patch 125 #  jGenProg+MinImpact With Seed 16
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 123
 
@@ -2694,7 +2726,7 @@ Execution Time: 0:09 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2715,7 +2747,7 @@ Execution Time: 0:15 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2736,7 +2768,7 @@ Execution Time: 0:18 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2757,7 +2789,7 @@ Execution Time: 0:25 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2778,7 +2810,7 @@ Execution Time: 0:42 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2799,7 +2831,7 @@ Execution Time: 1:08 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2820,7 +2852,7 @@ Execution Time: 1:21 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2841,13 +2873,15 @@ Execution Time: 1:28 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 17
 
 ## Patch 133 #  jGenProg+MinImpact With Seed 17
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 120
 
@@ -2864,7 +2898,7 @@ Execution Time: 0:04 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2885,7 +2919,7 @@ Execution Time: 0:12 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2906,7 +2940,7 @@ Execution Time: 0:18 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2927,7 +2961,7 @@ Execution Time: 0:25 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2948,7 +2982,7 @@ Execution Time: 0:41 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2969,7 +3003,7 @@ Execution Time: 0:48 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -2990,7 +3024,7 @@ Execution Time: 0:52 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3011,7 +3045,7 @@ Execution Time: 1:16 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3032,7 +3066,7 @@ Execution Time: 1:26 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3053,13 +3087,15 @@ Execution Time: 1:44 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 18
 
 ## Patch 143 #  jGenProg+MinImpact With Seed 18
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 151
 
@@ -3076,7 +3112,7 @@ Execution Time: 0:27 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3097,7 +3133,7 @@ Execution Time: 0:37 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3118,7 +3154,7 @@ Execution Time: 0:56 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3139,7 +3175,7 @@ Execution Time: 1:09 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3160,7 +3196,7 @@ Execution Time: 1:23 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3181,13 +3217,15 @@ Execution Time: 1:54 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 19
 
 ## Patch 149 #  jGenProg+MinImpact With Seed 19
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 115
 
@@ -3204,7 +3242,7 @@ Execution Time: 0:07 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3225,7 +3263,7 @@ Execution Time: 0:25 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3246,7 +3284,7 @@ Execution Time: 0:28 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3267,7 +3305,7 @@ Execution Time: 0:40 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3288,7 +3326,7 @@ Execution Time: 0:50 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3309,7 +3347,7 @@ Execution Time: 0:53 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3330,7 +3368,7 @@ Execution Time: 1:21 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3351,7 +3389,7 @@ Execution Time: 1:29 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3372,7 +3410,7 @@ Execution Time: 1:44 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3393,13 +3431,15 @@ Execution Time: 1:53 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 20
 
 ## Patch 159 #  jGenProg+MinImpact With Seed 20
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 115
 
@@ -3416,7 +3456,7 @@ Execution Time: 0:06 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3437,7 +3477,7 @@ Execution Time: 0:56 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3458,7 +3498,7 @@ Execution Time: 1:00 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3479,7 +3519,7 @@ Execution Time: 1:05 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3500,7 +3540,7 @@ Execution Time: 1:29 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3521,7 +3561,7 @@ Execution Time: 1:32 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3542,7 +3582,7 @@ Execution Time: 1:42 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3563,13 +3603,15 @@ Execution Time: 1:47 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 21
 
 ## Patch 167 #  jGenProg+MinImpact With Seed 21
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 77
 
@@ -3586,7 +3628,7 @@ Execution Time: 0:06 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3607,7 +3649,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3628,7 +3670,7 @@ Execution Time: 0:22 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3649,7 +3691,7 @@ Execution Time: 0:46 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3670,7 +3712,7 @@ Execution Time: 0:52 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3691,7 +3733,7 @@ Execution Time: 0:55 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3712,7 +3754,7 @@ Execution Time: 1:02 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3733,7 +3775,7 @@ Execution Time: 1:09 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3754,13 +3796,15 @@ Execution Time: 1:34 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 22
 
 ## Patch 176 #  jGenProg+MinImpact With Seed 22
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 124
 
@@ -3777,7 +3821,7 @@ Execution Time: 0:04 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3798,7 +3842,7 @@ Execution Time: 0:12 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3819,7 +3863,7 @@ Execution Time: 0:17 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3840,7 +3884,7 @@ Execution Time: 0:26 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3861,7 +3905,7 @@ Execution Time: 1:06 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3882,7 +3926,7 @@ Execution Time: 1:16 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3903,13 +3947,15 @@ Execution Time: 1:48 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 23
 
 ## Patch 183 #  jGenProg+MinImpact With Seed 23
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 120
 
@@ -3926,7 +3972,7 @@ Execution Time: 0:05 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3947,7 +3993,7 @@ Execution Time: 0:11 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3968,7 +4014,7 @@ Execution Time: 0:15 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -3989,7 +4035,7 @@ Execution Time: 0:23 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4010,7 +4056,7 @@ Execution Time: 0:26 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4031,7 +4077,7 @@ Execution Time: 0:32 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4052,7 +4098,7 @@ Execution Time: 1:02 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4073,13 +4119,15 @@ Execution Time: 1:18 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 24
 
 ## Patch 191 #  jGenProg+MinImpact With Seed 24
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 123
 
@@ -4096,7 +4144,7 @@ Execution Time: 0:12 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4117,7 +4165,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4138,7 +4186,7 @@ Execution Time: 0:27 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4159,7 +4207,7 @@ Execution Time: 0:30 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4180,7 +4228,7 @@ Execution Time: 0:34 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4201,7 +4249,7 @@ Execution Time: 0:41 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4222,7 +4270,7 @@ Execution Time: 0:44 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4243,13 +4291,15 @@ Execution Time: 1:14 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 25
 
 ## Patch 199 #  jGenProg+MinImpact With Seed 25
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 104
 
@@ -4266,7 +4316,7 @@ Execution Time: 0:13 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4287,7 +4337,7 @@ Execution Time: 0:27 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4308,7 +4358,7 @@ Execution Time: 0:32 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4329,7 +4379,7 @@ Execution Time: 0:35 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4350,7 +4400,7 @@ Execution Time: 0:49 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4371,7 +4421,7 @@ Execution Time: 0:53 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4392,13 +4442,15 @@ Execution Time: 1:06 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 26
 
 ## Patch 206 #  jGenProg+MinImpact With Seed 26
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 145
 
@@ -4415,7 +4467,7 @@ Execution Time: 0:10 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4436,7 +4488,7 @@ Execution Time: 0:18 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4457,7 +4509,7 @@ Execution Time: 0:25 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4478,7 +4530,7 @@ Execution Time: 0:39 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4499,7 +4551,7 @@ Execution Time: 0:48 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4520,7 +4572,7 @@ Execution Time: 0:54 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4541,13 +4593,15 @@ Execution Time: 1:47 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 27
 
 ## Patch 213 #  jGenProg+MinImpact With Seed 27
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 151
 
@@ -4564,7 +4618,7 @@ Execution Time: 0:17 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4585,7 +4639,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4606,7 +4660,7 @@ Execution Time: 0:35 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4627,7 +4681,7 @@ Execution Time: 0:44 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4648,7 +4702,7 @@ Execution Time: 0:51 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4669,7 +4723,7 @@ Execution Time: 1:03 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4690,7 +4744,7 @@ Execution Time: 1:25 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4711,7 +4765,7 @@ Execution Time: 1:37 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4732,13 +4786,15 @@ Execution Time: 1:53 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 28
 
 ## Patch 222 #  jGenProg+MinImpact With Seed 28
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 151
 
@@ -4755,7 +4811,7 @@ Execution Time: 0:06 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4776,7 +4832,7 @@ Execution Time: 0:10 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4797,7 +4853,7 @@ Execution Time: 0:18 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4818,7 +4874,7 @@ Execution Time: 0:22 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4839,7 +4895,7 @@ Execution Time: 0:46 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4860,7 +4916,7 @@ Execution Time: 1:17 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4881,7 +4937,7 @@ Execution Time: 1:21 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4902,13 +4958,15 @@ Execution Time: 1:57 (hh:mm)
 
 Nb of EvoSuite Tests: 8
 
-Nb of Failing EvoSuite Tests: 8
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 29
 
 ## Patch 230 #  jGenProg+MinImpact With Seed 29
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 124
 
@@ -4925,7 +4983,7 @@ Execution Time: 0:04 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4946,7 +5004,7 @@ Execution Time: 0:11 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4967,7 +5025,7 @@ Execution Time: 0:30 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -4988,7 +5046,7 @@ Execution Time: 0:35 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5009,7 +5067,7 @@ Execution Time: 0:43 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5030,7 +5088,7 @@ Execution Time: 0:55 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5051,7 +5109,7 @@ Execution Time: 1:15 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5072,13 +5130,15 @@ Execution Time: 2:02 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 30
 
 ## Patch 238 #  jGenProg+MinImpact With Seed 30
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 77
 
@@ -5095,7 +5155,7 @@ Execution Time: 0:08 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5116,7 +5176,7 @@ Execution Time: 0:30 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5137,7 +5197,7 @@ Execution Time: 0:35 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5158,7 +5218,7 @@ Execution Time: 0:58 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5179,7 +5239,7 @@ Execution Time: 1:10 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5200,7 +5260,7 @@ Execution Time: 1:15 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5221,7 +5281,7 @@ Execution Time: 1:41 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -5242,14 +5302,16 @@ Execution Time: 1:52 (hh:mm)
 
 Nb of EvoSuite Tests: 7
 
-Nb of Failing EvoSuite Tests: 7
+Nb of Failing EvoSuite Tests: 0
 
 
 ---
 ## Summary an Analysis
 
-Average Nb of EvoSuite Tests: 7.86
+Average Nb of EvoSuite Tests: 7.29
 
 Average Nb of Failing EvoSuite Tests: 0
+
+Average Nb of Test-adequate patches: 8.17
 
 ---

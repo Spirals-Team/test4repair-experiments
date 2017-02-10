@@ -34,6 +34,8 @@ index 7c3cd04..f575e72 100644
 
 ## Patch 1 #  jGenProg+MinImpact With Seed 1
 
+jGenProg+MinImpact returns this patch in the first place
+
 org.jfree.chart.plot.PiePlot3D : 247
 
 Patch type: ReplaceOp
@@ -54,7 +56,7 @@ Execution Time: 0:54 (hh:mm)
 
 Nb of EvoSuite Tests: 12
 
-Nb of Failing EvoSuite Tests: 12
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
@@ -63,6 +65,8 @@ Nb of Failing EvoSuite Tests: 12
 #Seed: 3
 
 ## Patch 2 #  jGenProg+MinImpact With Seed 3
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.JFreeChart : 1219
 
@@ -79,7 +83,7 @@ Execution Time: 0:17 (hh:mm)
 
 Nb of EvoSuite Tests: 116
 
-Nb of Failing EvoSuite Tests: 116
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -100,7 +104,7 @@ Execution Time: 1:08 (hh:mm)
 
 Nb of EvoSuite Tests: 116
 
-Nb of Failing EvoSuite Tests: 116
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -126,13 +130,15 @@ Execution Time: 2:03 (hh:mm)
 
 Nb of EvoSuite Tests: 15
 
-Nb of Failing EvoSuite Tests: 15
+Nb of Failing EvoSuite Tests: 2
 
 
 --- 
 #Seed: 4
 
 ## Patch 5 #  jGenProg+MinImpact With Seed 4
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.plot.PiePlot3D : 266
 
@@ -154,13 +160,15 @@ Execution Time: 0:15 (hh:mm)
 
 Nb of EvoSuite Tests: 15
 
-Nb of Failing EvoSuite Tests: 15
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 5
 
 ## Patch 6 #  jGenProg+MinImpact With Seed 5
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.plot.PiePlot3D : 252
 
@@ -182,13 +190,15 @@ Execution Time: 1:06 (hh:mm)
 
 Nb of EvoSuite Tests: 11
 
-Nb of Failing EvoSuite Tests: 11
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 6
 
 ## Patch 7 #  jGenProg+MinImpact With Seed 6
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.plot.PiePlot3D : 252
 
@@ -210,7 +220,7 @@ Execution Time: 0:40 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -231,7 +241,7 @@ Execution Time: 0:18 (hh:mm)
 
 Nb of EvoSuite Tests: 117
 
-Nb of Failing EvoSuite Tests: 117
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -252,13 +262,15 @@ Execution Time: 0:51 (hh:mm)
 
 Nb of EvoSuite Tests: 117
 
-Nb of Failing EvoSuite Tests: 117
+Nb of Failing EvoSuite Tests: 2
 
 
 --- 
 #Seed: 8
 
 ## Patch 10 #  jGenProg+MinImpact With Seed 8
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.JFreeChart : 1219
 
@@ -275,13 +287,15 @@ Execution Time: 1:59 (hh:mm)
 
 Nb of EvoSuite Tests: 121
 
-Nb of Failing EvoSuite Tests: 121
+Nb of Failing EvoSuite Tests: 5
 
 
 --- 
 #Seed: 9
 
 ## Patch 11 #  jGenProg+MinImpact With Seed 9
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.JFreeChart : 1219
 
@@ -298,7 +312,7 @@ Execution Time: 0:20 (hh:mm)
 
 Nb of EvoSuite Tests: 126
 
-Nb of Failing EvoSuite Tests: 126
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -319,13 +333,15 @@ Execution Time: 0:26 (hh:mm)
 
 Nb of EvoSuite Tests: 126
 
-Nb of Failing EvoSuite Tests: 126
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 10
 
 ## Patch 13 #  jGenProg+MinImpact With Seed 10
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.plot.PiePlot3D : 272
 
@@ -347,7 +363,7 @@ Execution Time: 1:59 (hh:mm)
 
 Nb of EvoSuite Tests: 24
 
-Nb of Failing EvoSuite Tests: 24
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -368,13 +384,15 @@ Execution Time: 1:33 (hh:mm)
 
 Nb of EvoSuite Tests: 122
 
-Nb of Failing EvoSuite Tests: 122
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 12
 
 ## Patch 15 #  jGenProg+MinImpact With Seed 12
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.JFreeChart : 1219
 
@@ -391,7 +409,7 @@ Execution Time: 0:31 (hh:mm)
 
 Nb of EvoSuite Tests: 120
 
-Nb of Failing EvoSuite Tests: 120
+Nb of Failing EvoSuite Tests: 2
 
 
 
@@ -412,13 +430,15 @@ Execution Time: 1:08 (hh:mm)
 
 Nb of EvoSuite Tests: 120
 
-Nb of Failing EvoSuite Tests: 120
+Nb of Failing EvoSuite Tests: 2
 
 
 --- 
 #Seed: 13
 
 ## Patch 17 #  jGenProg+MinImpact With Seed 13
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.JFreeChart : 1219
 
@@ -435,13 +455,15 @@ Execution Time: 1:19 (hh:mm)
 
 Nb of EvoSuite Tests: 116
 
-Nb of Failing EvoSuite Tests: 116
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 14
 
 ## Patch 18 #  jGenProg+MinImpact With Seed 14
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.plot.PiePlot3D : 266
 
@@ -463,13 +485,15 @@ Execution Time: 1:37 (hh:mm)
 
 Nb of EvoSuite Tests: 14
 
-Nb of Failing EvoSuite Tests: 14
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 15
 
 ## Patch 19 #  jGenProg+MinImpact With Seed 15
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.plot.PiePlot3D : 272
 
@@ -491,7 +515,7 @@ Execution Time: 0:05 (hh:mm)
 
 Nb of EvoSuite Tests: 14
 
-Nb of Failing EvoSuite Tests: 14
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -517,13 +541,15 @@ Execution Time: 0:57 (hh:mm)
 
 Nb of EvoSuite Tests: 14
 
-Nb of Failing EvoSuite Tests: 14
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 16
 
 ## Patch 21 #  jGenProg+MinImpact With Seed 16
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.plot.PiePlot3D : 252
 
@@ -545,7 +571,7 @@ Execution Time: 0:46 (hh:mm)
 
 Nb of EvoSuite Tests: 11
 
-Nb of Failing EvoSuite Tests: 11
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -571,7 +597,7 @@ Execution Time: 0:53 (hh:mm)
 
 Nb of EvoSuite Tests: 11
 
-Nb of Failing EvoSuite Tests: 11
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -597,7 +623,7 @@ Execution Time: 1:34 (hh:mm)
 
 Nb of EvoSuite Tests: 11
 
-Nb of Failing EvoSuite Tests: 11
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -623,7 +649,7 @@ Execution Time: 1:46 (hh:mm)
 
 Nb of EvoSuite Tests: 11
 
-Nb of Failing EvoSuite Tests: 11
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -644,13 +670,15 @@ Execution Time: 2:05 (hh:mm)
 
 Nb of EvoSuite Tests: 125
 
-Nb of Failing EvoSuite Tests: 125
+Nb of Failing EvoSuite Tests: 6
 
 
 --- 
 #Seed: 17
 
 ## Patch 26 #  jGenProg+MinImpact With Seed 17
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.JFreeChart : 1219
 
@@ -667,13 +695,15 @@ Execution Time: 1:16 (hh:mm)
 
 Nb of EvoSuite Tests: 120
 
-Nb of Failing EvoSuite Tests: 120
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 19
 
 ## Patch 27 #  jGenProg+MinImpact With Seed 19
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.plot.PiePlot3D : 252
 
@@ -695,13 +725,15 @@ Execution Time: 1:49 (hh:mm)
 
 Nb of EvoSuite Tests: 18
 
-Nb of Failing EvoSuite Tests: 18
+Nb of Failing EvoSuite Tests: 2
 
 
 --- 
 #Seed: 20
 
 ## Patch 28 #  jGenProg+MinImpact With Seed 20
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.plot.PiePlot3D : 247
 
@@ -723,7 +755,7 @@ Execution Time: 1:36 (hh:mm)
 
 Nb of EvoSuite Tests: 17
 
-Nb of Failing EvoSuite Tests: 17
+Nb of Failing EvoSuite Tests: 2
 
 
 --- 
@@ -732,6 +764,8 @@ Nb of Failing EvoSuite Tests: 17
 #Seed: 22
 
 ## Patch 29 #  jGenProg+MinImpact With Seed 22
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.plot.PiePlot3D : 247
 
@@ -753,7 +787,7 @@ Execution Time: 2:01 (hh:mm)
 
 Nb of EvoSuite Tests: 11
 
-Nb of Failing EvoSuite Tests: 11
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -774,7 +808,7 @@ Execution Time: 0:12 (hh:mm)
 
 Nb of EvoSuite Tests: 125
 
-Nb of Failing EvoSuite Tests: 125
+Nb of Failing EvoSuite Tests: 3
 
 
 
@@ -795,13 +829,15 @@ Execution Time: 0:45 (hh:mm)
 
 Nb of EvoSuite Tests: 125
 
-Nb of Failing EvoSuite Tests: 125
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 23
 
 ## Patch 32 #  jGenProg+MinImpact With Seed 23
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.plot.PiePlot3D : 252
 
@@ -823,13 +859,15 @@ Execution Time: 0:32 (hh:mm)
 
 Nb of EvoSuite Tests: 17
 
-Nb of Failing EvoSuite Tests: 17
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 25
 
 ## Patch 33 #  jGenProg+MinImpact With Seed 25
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.plot.PiePlot3D : 272
 
@@ -851,7 +889,7 @@ Execution Time: 1:44 (hh:mm)
 
 Nb of EvoSuite Tests: 12
 
-Nb of Failing EvoSuite Tests: 12
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -877,13 +915,15 @@ Execution Time: 1:48 (hh:mm)
 
 Nb of EvoSuite Tests: 12
 
-Nb of Failing EvoSuite Tests: 12
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
 #Seed: 26
 
 ## Patch 35 #  jGenProg+MinImpact With Seed 26
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.JFreeChart : 1219
 
@@ -900,13 +940,15 @@ Execution Time: 1:05 (hh:mm)
 
 Nb of EvoSuite Tests: 125
 
-Nb of Failing EvoSuite Tests: 125
+Nb of Failing EvoSuite Tests: 3
 
 
 --- 
 #Seed: 28
 
 ## Patch 36 #  jGenProg+MinImpact With Seed 28
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.plot.PiePlot3D : 268
 
@@ -928,7 +970,7 @@ Execution Time: 0:52 (hh:mm)
 
 Nb of EvoSuite Tests: 14
 
-Nb of Failing EvoSuite Tests: 14
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -949,7 +991,7 @@ Execution Time: 1:15 (hh:mm)
 
 Nb of EvoSuite Tests: 116
 
-Nb of Failing EvoSuite Tests: 116
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -975,7 +1017,7 @@ Execution Time: 1:44 (hh:mm)
 
 Nb of EvoSuite Tests: 14
 
-Nb of Failing EvoSuite Tests: 14
+Nb of Failing EvoSuite Tests: 1
 
 
 --- 
@@ -1003,14 +1045,16 @@ Execution Time: 0:23 (hh:mm)
 
 Nb of EvoSuite Tests: 12
 
-Nb of Failing EvoSuite Tests: 12
+Nb of Failing EvoSuite Tests: 1
 
 
 ---
 ## Summary an Analysis
 
-Average Nb of EvoSuite Tests: 69
+Average Nb of EvoSuite Tests: 56.36
 
-Average Nb of Failing EvoSuite Tests: 2.06
+Average Nb of Failing EvoSuite Tests: 1.64
+
+Average Nb of Test-adequate patches: 1.75
 
 ---

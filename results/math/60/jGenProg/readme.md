@@ -35,6 +35,8 @@ index 0d7ce7d..0e124d8 100644
 
 ## Patch 1 #  jGenProg+MinImpact With Seed 1
 
+jGenProg+MinImpact returns this patch in the first place
+
 org.apache.commons.math.util.ContinuedFraction : 186
 
 Patch type: ReplaceOp
@@ -50,13 +52,15 @@ Execution Time: 5:18 (hh:mm)
 
 Nb of EvoSuite Tests: 1
 
-Nb of Failing EvoSuite Tests: 1
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 6
 
 ## Patch 2 #  jGenProg+MinImpact With Seed 6
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.util.ContinuedFraction : 186
 
@@ -73,13 +77,15 @@ Execution Time: 5:57 (hh:mm)
 
 Nb of EvoSuite Tests: 1
 
-Nb of Failing EvoSuite Tests: 1
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 7
 
 ## Patch 3 #  jGenProg+MinImpact With Seed 7
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.util.ContinuedFraction : 186
 
@@ -96,13 +102,15 @@ Execution Time: 5:18 (hh:mm)
 
 Nb of EvoSuite Tests: 1
 
-Nb of Failing EvoSuite Tests: 1
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 8
 
 ## Patch 4 #  jGenProg+MinImpact With Seed 8
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.util.ContinuedFraction : 186
 
@@ -119,13 +127,15 @@ Execution Time: 5:11 (hh:mm)
 
 Nb of EvoSuite Tests: 1
 
-Nb of Failing EvoSuite Tests: 1
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 9
 
 ## Patch 5 #  jGenProg+MinImpact With Seed 9
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.util.ContinuedFraction : 186
 
@@ -142,13 +152,15 @@ Execution Time: 5:33 (hh:mm)
 
 Nb of EvoSuite Tests: 1
 
-Nb of Failing EvoSuite Tests: 1
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 10
 
 ## Patch 6 #  jGenProg+MinImpact With Seed 10
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.util.ContinuedFraction : 186
 
@@ -165,13 +177,15 @@ Execution Time: 5:12 (hh:mm)
 
 Nb of EvoSuite Tests: 1
 
-Nb of Failing EvoSuite Tests: 1
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 11
 
 ## Patch 7 #  jGenProg+MinImpact With Seed 11
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.util.ContinuedFraction : 186
 
@@ -188,13 +202,15 @@ Execution Time: 5:09 (hh:mm)
 
 Nb of EvoSuite Tests: 1
 
-Nb of Failing EvoSuite Tests: 1
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 14
 
 ## Patch 8 #  jGenProg+MinImpact With Seed 14
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.util.ContinuedFraction : 186
 
@@ -211,13 +227,15 @@ Execution Time: 5:39 (hh:mm)
 
 Nb of EvoSuite Tests: 1
 
-Nb of Failing EvoSuite Tests: 1
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 15
 
 ## Patch 9 #  jGenProg+MinImpact With Seed 15
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.util.ContinuedFraction : 186
 
@@ -234,13 +252,15 @@ Execution Time: 5:25 (hh:mm)
 
 Nb of EvoSuite Tests: 1
 
-Nb of Failing EvoSuite Tests: 1
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 16
 
 ## Patch 10 #  jGenProg+MinImpact With Seed 16
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.util.ContinuedFraction : 186
 
@@ -257,13 +277,15 @@ Execution Time: 5:43 (hh:mm)
 
 Nb of EvoSuite Tests: 1
 
-Nb of Failing EvoSuite Tests: 1
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 18
 
 ## Patch 11 #  jGenProg+MinImpact With Seed 18
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.util.ContinuedFraction : 186
 
@@ -280,13 +302,15 @@ Execution Time: 5:13 (hh:mm)
 
 Nb of EvoSuite Tests: 1
 
-Nb of Failing EvoSuite Tests: 1
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 20
 
 ## Patch 12 #  jGenProg+MinImpact With Seed 20
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.util.ContinuedFraction : 164
 
@@ -303,13 +327,15 @@ Execution Time: 5:16 (hh:mm)
 
 Nb of EvoSuite Tests: 1
 
-Nb of Failing EvoSuite Tests: 1
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 21
 
 ## Patch 13 #  jGenProg+MinImpact With Seed 21
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.util.ContinuedFraction : 186
 
@@ -326,13 +352,15 @@ Execution Time: 5:38 (hh:mm)
 
 Nb of EvoSuite Tests: 1
 
-Nb of Failing EvoSuite Tests: 1
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 22
 
 ## Patch 14 #  jGenProg+MinImpact With Seed 22
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.util.ContinuedFraction : 186
 
@@ -349,13 +377,15 @@ Execution Time: 5:45 (hh:mm)
 
 Nb of EvoSuite Tests: 1
 
-Nb of Failing EvoSuite Tests: 1
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 24
 
 ## Patch 15 #  jGenProg+MinImpact With Seed 24
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.util.ContinuedFraction : 186
 
@@ -372,13 +402,15 @@ Execution Time: 5:05 (hh:mm)
 
 Nb of EvoSuite Tests: 1
 
-Nb of Failing EvoSuite Tests: 1
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 25
 
 ## Patch 16 #  jGenProg+MinImpact With Seed 25
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.util.ContinuedFraction : 186
 
@@ -395,13 +427,15 @@ Execution Time: 5:26 (hh:mm)
 
 Nb of EvoSuite Tests: 1
 
-Nb of Failing EvoSuite Tests: 1
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 26
 
 ## Patch 17 #  jGenProg+MinImpact With Seed 26
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.util.ContinuedFraction : 186
 
@@ -418,13 +452,15 @@ Execution Time: 5:50 (hh:mm)
 
 Nb of EvoSuite Tests: 1
 
-Nb of Failing EvoSuite Tests: 1
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 27
 
 ## Patch 18 #  jGenProg+MinImpact With Seed 27
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.util.ContinuedFraction : 186
 
@@ -441,13 +477,15 @@ Execution Time: 5:54 (hh:mm)
 
 Nb of EvoSuite Tests: 1
 
-Nb of Failing EvoSuite Tests: 1
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 28
 
 ## Patch 19 #  jGenProg+MinImpact With Seed 28
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.util.ContinuedFraction : 186
 
@@ -464,13 +502,15 @@ Execution Time: 5:42 (hh:mm)
 
 Nb of EvoSuite Tests: 1
 
-Nb of Failing EvoSuite Tests: 1
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 29
 
 ## Patch 20 #  jGenProg+MinImpact With Seed 29
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.util.ContinuedFraction : 186
 
@@ -487,7 +527,7 @@ Execution Time: 5:19 (hh:mm)
 
 Nb of EvoSuite Tests: 1
 
-Nb of Failing EvoSuite Tests: 1
+Nb of Failing EvoSuite Tests: 0
 
 
 ---
@@ -496,5 +536,7 @@ Nb of Failing EvoSuite Tests: 1
 Average Nb of EvoSuite Tests: 1
 
 Average Nb of Failing EvoSuite Tests: 0
+
+Average Nb of Test-adequate patches: 1
 
 ---

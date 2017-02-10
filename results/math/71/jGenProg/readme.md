@@ -38,6 +38,8 @@ index b61b0b1..255b1f4 100644
 
 ## Patch 1 #  jGenProg+MinImpact With Seed 1
 
+jGenProg+MinImpact returns this patch in the first place
+
 org.apache.commons.math.ode.events.EventState : 230
 
 Patch type: InsertBeforeOp
@@ -53,13 +55,15 @@ Execution Time: 1:08 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 3
 
 ## Patch 2 #  jGenProg+MinImpact With Seed 3
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.ode.events.EventState : 172
 
@@ -76,13 +80,15 @@ Execution Time: 1:19 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 8
 
 ## Patch 3 #  jGenProg+MinImpact With Seed 8
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.ode.events.EventState : 229
 
@@ -101,13 +107,15 @@ Execution Time: 0:01 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 9
 
 ## Patch 4 #  jGenProg+MinImpact With Seed 9
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.ode.events.EventState : 172
 
@@ -124,7 +132,7 @@ Execution Time: 0:42 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -145,7 +153,7 @@ Execution Time: 1:52 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -166,7 +174,7 @@ Execution Time: 1:54 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -189,13 +197,15 @@ Execution Time: 1:59 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 10
 
 ## Patch 8 #  jGenProg+MinImpact With Seed 10
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.ode.events.EventState : 191
 
@@ -212,7 +222,7 @@ Execution Time: 0:05 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -235,7 +245,7 @@ Execution Time: 0:48 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -268,13 +278,15 @@ Execution Time: 1:07 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 14
 
 ## Patch 11 #  jGenProg+MinImpact With Seed 14
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.ode.events.EventState : 175
 
@@ -291,13 +303,15 @@ Execution Time: 0:42 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 15
 
 ## Patch 12 #  jGenProg+MinImpact With Seed 15
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.ode.events.EventState : 179
 
@@ -316,7 +330,7 @@ Execution Time: 0:18 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -337,13 +351,15 @@ Execution Time: 0:41 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 19
 
 ## Patch 14 #  jGenProg+MinImpact With Seed 19
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.ode.events.EventState : 179
 
@@ -362,7 +378,7 @@ Execution Time: 0:01 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -385,13 +401,15 @@ Execution Time: 1:21 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 20
 
 ## Patch 16 #  jGenProg+MinImpact With Seed 20
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.ode.events.EventState : 229
 
@@ -408,13 +426,15 @@ Execution Time: 1:08 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 22
 
 ## Patch 17 #  jGenProg+MinImpact With Seed 22
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.ode.events.EventState : 180
 
@@ -431,13 +451,15 @@ Execution Time: 1:14 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 27
 
 ## Patch 18 #  jGenProg+MinImpact With Seed 27
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.ode.events.EventState : 227
 
@@ -456,7 +478,7 @@ Execution Time: 0:21 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 
@@ -479,13 +501,15 @@ Execution Time: 1:44 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 29
 
 ## Patch 20 #  jGenProg+MinImpact With Seed 29
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.ode.events.EventState : 253
 
@@ -504,13 +528,15 @@ Execution Time: 1:07 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 30
 
 ## Patch 21 #  jGenProg+MinImpact With Seed 30
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.apache.commons.math.ode.events.EventState : 180
 
@@ -529,7 +555,7 @@ Execution Time: 1:21 (hh:mm)
 
 Nb of EvoSuite Tests: 22
 
-Nb of Failing EvoSuite Tests: 22
+Nb of Failing EvoSuite Tests: 0
 
 
 ---
@@ -538,5 +564,7 @@ Nb of Failing EvoSuite Tests: 22
 Average Nb of EvoSuite Tests: 22
 
 Average Nb of Failing EvoSuite Tests: 0
+
+Average Nb of Test-adequate patches: 1.62
 
 ---
