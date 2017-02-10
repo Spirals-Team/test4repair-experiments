@@ -17,6 +17,21 @@ index b3ae54b..730aeb3 100644
              Size2D size = this.rightBlock.arrange(g2, c4);
 ```
 
+## Patch Original jGenProg 
+
+org.jfree.chart.block.BorderArrangement:330 (Suspicious rank: ample 37, jaccard 37, ochiai 21, naish1 21855, gp13 37, naish2 37, tarantula 37, )
+
+Patch type: INSERT_BEFORE 
+ 
+```Java
+this.leftBlock = null
+```
+
+Execution time: 0:01:20.483000
+
+Grid5000 node: graphene-76.nancy.grid5000.fr
+
+
 --- 
 #Seed: 1
 

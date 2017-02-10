@@ -1,0 +1,89 @@
+{
+    "date": "Wed Jan 11 23:45:47 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
+    "gens": "3", 
+    "node": "griffon-26.nancy.grid5000.fr", 
+    "operations": [
+        {
+            "buggyStatement": "org.apache.commons.math.util.MathUtils.checkNotNull(rhs)", 
+            "generation": 144, 
+            "ingredients": null, 
+            "patch": "if ((isNaN) || (rhs.isNaN)) {\n\treturn org.apache.commons.math.complex.Complex.NaN;\n} ", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.complex.Complex", 
+                "line": 152, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "125", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "98", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2470", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "1198", 
+            "type": "InsertAfterOp", 
+            "variant": 288
+        }, 
+        {
+            "buggyStatement": "return createComplex(((real) + (rhs.getReal())), ((imaginary) + (rhs.getImaginary())))", 
+            "generation": 543, 
+            "ingredients": null, 
+            "patch": "if ((isNaN) || (rhs.isNaN)) {\n\treturn org.apache.commons.math.complex.Complex.NaN;\n} ", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.complex.Complex", 
+                "line": 153, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "125", 
+                "evaltcfailing": "1", 
+                "fvalresult": "true", 
+                "fvaltcall": "98", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2470", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "1488", 
+            "type": "InsertBeforeOp", 
+            "variant": 1086
+        }, 
+        {
+            "buggyStatement": "org.apache.commons.math.util.MathUtils.checkNotNull(rhs)", 
+            "generation": 661, 
+            "ingredients": null, 
+            "patch": "if ((isNaN) || (rhs.isNaN)) {\n\treturn org.apache.commons.math.complex.Complex.NaN;\n} ", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.complex.Complex", 
+                "line": 152, 
+                "lineSusp": "0"
+            }, 
+            "patchvalidation": {
+                "evalresult": "false", 
+                "evaltcall": "125", 
+                "evaltcfailing": "2", 
+                "fvalresult": "true", 
+                "fvaltcall": "98", 
+                "fvaltcfailing": "0", 
+                "mvalresult": "true", 
+                "mvaltcall": "2470", 
+                "mvaltcfailing": "0"
+            }, 
+            "scope": "LOCAL", 
+            "time": "1632", 
+            "type": "InsertBeforeOp", 
+            "variant": 1322
+        }
+    ], 
+    "ops": "0", 
+    "programVariant": "288", 
+    "timeEvaluation": null, 
+    "timeTotal": "7418"
+}

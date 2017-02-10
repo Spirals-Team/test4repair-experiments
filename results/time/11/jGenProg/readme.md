@@ -24,6 +24,22 @@ index 64da5ea..6efe071 100644
       * Gets a flag indicating that verbose logging is required.
 ```
 
+
+## Patch Original jGenProg 
+
+[org.joda.time.tz.DateTimeZoneBuilder:1460](https://github.com/JodaOrg/joda-time/blob/6d5104753470c130336e319a64009c0553b29c96/src/main/java//org/joda/time/tz/DateTimeZoneBuilder.java#L1460)
+
+Patch type: DELETE 
+ 
+```Java
+remove
+```
+
+Execution time: 0:01:17.251000
+
+Grid5000 node: graphene-7.nancy.grid5000.fr
+
+
 --- 
 #Seed: 1
 

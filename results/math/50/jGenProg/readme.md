@@ -19,6 +19,21 @@ index c781a90..e47d982 100644
                      // Should never happen.
 ```
 
+
+## Patch Original jGenProg 
+
+[org.apache.commons.math.analysis.solvers.BaseSecantSolver:191](https://github.com/apache/commons-math/blob/565b6b527fd62a97fb9f8ded6c75b97f595cb33f/src/main/java//org/apache/commons/math/analysis/solvers/BaseSecantSolver.java#L191) (Suspicious rank: ample 4, jaccard 4, ochiai 2, naish1 23311, gp13 4, naish2 4, tarantula 4, )
+
+Patch type: DELETE 
+ 
+```Java
+remove
+```
+
+Execution time: 0:05:12.210000
+
+Grid5000 node: graphene-78.nancy.grid5000.fr
+
 --- 
 #Seed: 1
 

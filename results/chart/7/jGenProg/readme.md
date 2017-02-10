@@ -20,6 +20,21 @@ Index: source/org/jfree/data/time/TimePeriodValues.java
              if (middle > maxMiddle) {
 ```
 
+
+## Patch Original jGenProg 
+
+org.jfree.data.xy.XYSeries:562 (Suspicious rank: ample 1, jaccard 1, ochiai 1, naish1 24209, gp13 1, naish2 1, tarantula 1, )
+
+Patch type: REPLACE 
+ 
+```Java
+this.data.add(new org.jfree.data.xy.XYDataItem(x , y))
+```
+
+Execution time: 0:02:24.405000
+
+Grid5000 node: graphene-68.nancy.grid5000.fr
+
 --- 
 #Seed: 1
 

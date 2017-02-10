@@ -17,6 +17,22 @@ index e6398f6..bf3e4bf 100644
                        "initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " +
 ```
 
+
+## Patch Original jGenProg 
+
+[org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:199](https://github.com/apache/commons-math/blob/26281773d85fa96594c16aee56e36805f3254064/src/java//org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java#L199) (Suspicious rank: ample 4, jaccard 4, ochiai 1, naish1 15706, gp13 4, naish2 4, tarantula 4, )
+
+Patch type: DELETE 
+ 
+```Java
+remove
+```
+
+Execution time: 0:05:17.263000
+
+Grid5000 node: graphene-70.nancy.grid5000.fr
+
+
 --- 
 #Seed: 1
 

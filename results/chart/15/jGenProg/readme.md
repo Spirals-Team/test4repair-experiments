@@ -29,6 +29,18 @@ index 7c3cd04..f575e72 100644
          
 ```
 
+
+## Patch Original jGenProg 
+
+org.jfree.chart.JFreeChart:1219 (Suspicious rank: ample 457, jaccard 457, ochiai 333, naish1 21756, gp13 457, naish2 457, tarantula 457, )
+
+Patch type: REPLACE 
+ 
+```Java
+fireChartChanged()
+```
+
+
 --- 
 #Seed: 1
 

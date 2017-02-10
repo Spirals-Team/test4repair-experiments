@@ -33,6 +33,23 @@ index b61b0b1..255b1f4 100644
                  // reject the step to match exactly the next switch time
 ```
 
+
+## Patch Original jGenProg 
+
+[org.apache.commons.math.ode.events.EventState:188](https://github.com/apache/commons-math/blob/7d81702ace2819d326bbe49c8249cae60850cc0c/src/main/java//org/apache/commons/math/ode/events/EventState.java#L188) (Suspicious rank: ample 68, jaccard 165, ochiai 91, naish1 16066, gp13 68, naish2 68, tarantula 165, )
+
+Patch type: INSERT_BEFORE 
+ 
+```Java
+if ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {
+	return false;
+} 
+```
+
+Execution time: 0:20:32.376000
+
+Grid5000 node: griffon-23.nancy.grid5000.fr
+
 --- 
 #Seed: 1
 

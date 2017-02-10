@@ -17,6 +17,17 @@ index ac8185b..22b23f2 100644
          if (isInfinite) {
 ```
 
+## Patch Original jGenProg 
+
+[org.apache.commons.math3.complex.Complex:305](https://github.com/apache/commons-math/blob/8c2199df0f613c63bd362303c953cee66712d56c/src/main/java//org/apache/commons/math3/complex/Complex.java#L305) (Suspicious rank: ample 1, jaccard 1, ochiai 1, naish1 33968, gp13 1, naish2 1, tarantula 1, )
+
+Patch type: REPLACE 
+ 
+```Java
+return org.apache.commons.math3.complex.Complex.INF
+```
+
+
 --- 
 #Seed: 1
 

@@ -66,6 +66,19 @@ index 6ff5e36..ab65ba3 100644
                  column);
 ```
 
+
+## Patch Original jGenProg 
+
+org.jfree.data.statistics.DefaultStatisticalCategoryDataset:301 (Suspicious rank: ample 65, jaccard 144, ochiai 102, naish1 19848, gp13 65, naish2 65, tarantula 160, )
+
+Patch type: DELETE 
+ 
+```Java
+remove
+```
+
+
+
 --- 
 #Seed: 1
 

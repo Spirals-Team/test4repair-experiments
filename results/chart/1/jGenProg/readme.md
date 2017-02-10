@@ -17,6 +17,18 @@ Index: source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.jav
          int seriesCount = dataset.getRowCount();
 ```
 
+## Patch  Original jGenProg 
+
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer:1797 (Suspicious rank: ample 28, jaccard 28, ochiai 32, naish1 25667, gp13 28, naish2 28, tarantula 28, )
+
+Patch type: DELETE 
+ 
+```Java
+remove
+```
+
+Execution time: 0:09:27.133000
+
 --- 
 #Seed: 1
 

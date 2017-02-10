@@ -17,6 +17,21 @@ index 180caef..3f66927 100644
      /** {@inheritDoc} */
 ```
 
+
+## Patch Original jGenProg 
+
+[org.apache.commons.math.analysis.solvers.BisectionSolver:72](https://github.com/apache/commons-math/blob/58f8b21d3587e1419f0a421731280f84a8c0afe4/src/main/java//org/apache/commons/math/analysis/solvers/BisectionSolver.java#L72) (Suspicious rank: ample 1, jaccard 1, ochiai 1, naish1 16589, gp13 1, naish2 1, tarantula 1, )
+
+Patch type: REPLACE 
+ 
+```Java
+return solve(f, min, max)
+```
+
+Execution time: 0:01:38.100000
+
+Grid5000 node: graphene-42.nancy.grid5000.fr
+
 --- 
 #Seed: 1
 

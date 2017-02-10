@@ -40,6 +40,18 @@ index dec310b..a84438d 100644
      }
 ```
 
+
+
+## Patch Original jGenProg 
+
+[org.apache.commons.math3.optimization.linear.SimplexSolver:124](https://github.com/apache/commons-math/blob/107d7f3ea8db440cb2f0a9d626c87a34ad061bae/src/main/java//org/apache/commons/math3/optimization/linear/SimplexSolver.java#L124) (Suspicious rank: ample 33, jaccard 33, ochiai 33, naish1 26751, gp13 33, naish2 33, tarantula 33, )
+
+Patch type: DELETE 
+ 
+```Java
+remove
+```
+
 --- 
 #Seed: 1
 

@@ -19,6 +19,16 @@ index e0cb427..8142b5e 100644
          return solve(f, min, yMin, max, yMax, initial, yInitial);
 ```
 
+## Patch #54 jGenProg 
+
+[org.apache.commons.math.analysis.solvers.BrentSolver:132](https://github.com/apache/commons-math/blob/05361c5a3409a9ca8e4e3438eb87d1cd55b713a8/src/main/java//org/apache/commons/math/analysis/solvers/BrentSolver.java#L132) (Suspicious rank: ample 1, jaccard 1, ochiai 1, naish1 15933, gp13 1, naish2 1, tarantula 1, )
+
+Patch type: REPLACE 
+ 
+```Java
+return solve(f, min, max)
+```
+
 --- 
 #Seed: 1
 

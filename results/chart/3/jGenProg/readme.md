@@ -17,6 +17,22 @@ index 72bb2ea..795d791 100644
              for (int index = start; index <= end; index++) {
 ```
 
+
+## Patch  Original jGenProg 
+
+org.jfree.data.time.TimeSeries:579 (Suspicious rank: ample 59, jaccard 59, ochiai 53, naish1 25132, gp13 59, naish2 59, tarantula 59, )
+
+Patch type: INSERT_BEFORE 
+ 
+```Java
+findBoundsByIteration()
+```
+
+Execution time: 0:01:47.511000
+
+Grid5000 node: graphene-75.nancy.grid5000.fr
+
+
 --- 
 #Seed: 1
 

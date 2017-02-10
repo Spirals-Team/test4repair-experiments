@@ -17,6 +17,17 @@ index 81e180c..2769127 100644
      /**
 ```
 
+## Patch Original jGenProg 
+
+[org.apache.commons.math3.distribution.AbstractIntegerDistribution:138](https://github.com/apache/commons-math/blob/6d66a863b5c0049926330ef217accba4e022a1db/src/main/java//org/apache/commons/math3/distribution/AbstractIntegerDistribution.java#L138) (Suspicious rank: ample 17, jaccard 17, ochiai 22, naish1 35438, gp13 17, naish2 17, tarantula 17, )
+
+Patch type: REPLACE 
+ 
+```Java
+tmp = mu + (k * sigma)
+```
+
+
 --- 
 #Seed: 8
 

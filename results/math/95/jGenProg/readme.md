@@ -22,6 +22,20 @@ index 59aeb07..e19e97a 100644
      
 ```
 
+## Patch Original jGenProg 
+
+[org.apache.commons.math.distribution.FDistributionImpl:144](https://github.com/apache/commons-math/blob/e1e21f2f6895333304f6efe8272549d32ede20be/src/java//org/apache/commons/math/distribution/FDistributionImpl.java#L144) (Suspicious rank: ample 1393, jaccard 105, ochiai 105, naish1 8365, gp13 105, naish2 105, tarantula 83, )
+
+Patch type: REPLACE 
+ 
+```Java
+return numeratorDegreesOfFreedom
+```
+
+Execution time: 0:00:40.294000
+
+Grid5000 node: graphene-65.nancy.grid5000.fr
+
 --- 
 #Seed: 1
 
