@@ -24,17 +24,14 @@ Index: source/org/jfree/data/time/TimePeriodValues.java
 
 ## Patch Original jGenProg 
 
-org.jfree.data.xy.XYSeries:562 (Suspicious rank: ample 1, jaccard 1, ochiai 1, naish1 24209, gp13 1, naish2 1, tarantula 1, )
+org.jfree.data.time.TimePeriodValues:552 (Suspicious rank: ample 1, jaccard 1, ochiai 1, naish1 22060, gp13 1, naish2 1, tarantula 1, )
 
-Patch type: REPLACE 
- 
-```Java
-this.data.add(new org.jfree.data.xy.XYDataItem(x , y))
-```
+Patch type: REPLACE
 
-Execution time: 0:02:24.405000
+return this.maxEndIndex
+Execution time: 0:01:50.659000
 
-Grid5000 node: graphene-68.nancy.grid5000.fr
+Grid5000 node: graphene-75.nancy.grid5000.fr
 
 
 --- 
