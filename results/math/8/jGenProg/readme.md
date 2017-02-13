@@ -10,15 +10,15 @@ index 879eb2a..5cb0e43 100644
       * @throws NotStrictlyPositiveException if {@code sampleSize} is not
       * positive.
       */
--    public Object[] sample(int sampleSize) throws NotStrictlyPositiveException {
-+    public T[] sample(int sampleSize) throws NotStrictlyPositiveException {
++    public Object[] sample(int sampleSize) throws NotStrictlyPositiveException {
+-    public T[] sample(int sampleSize) throws NotStrictlyPositiveException {
          if (sampleSize <= 0) {
              throw new NotStrictlyPositiveException(LocalizedFormats.NUMBER_OF_SAMPLES,
                      sampleSize);
          }
  
--        final Object[] out = new Object[sampleSize];
-+        final T[]out = (T[]) java.lang.reflect.Array.newInstance(singletons.get(0).getClass(), sampleSize);
++        final Object[] out = new Object[sampleSize];
+-        final T[]out = (T[]) java.lang.reflect.Array.newInstance(singletons.get(0).getClass(), sampleSize);
  
          for (int i = 0; i < sampleSize; i++) {
              out[i] = sample();

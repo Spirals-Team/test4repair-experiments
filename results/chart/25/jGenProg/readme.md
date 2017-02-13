@@ -10,9 +10,9 @@ index 6ff5e36..ab65ba3 100644
  
          // BAR X
          Number meanValue = dataset.getMeanValue(row, column);
--        if (meanValue == null) {
--            return;
--        }
++        if (meanValue == null) {
++            return;
++        }
  
          double value = meanValue.doubleValue();
          double base = 0.0;
@@ -20,10 +20,10 @@ index 6ff5e36..ab65ba3 100644
          }
  
          // standard deviation lines
--        Number n = dataset.getStdDevValue(row, column);
--        if (n != null) {
--            double valueDelta = n.doubleValue();
-+            double valueDelta = dataset.getStdDevValue(row, column).doubleValue();
++        Number n = dataset.getStdDevValue(row, column);
++        if (n != null) {
++            double valueDelta = n.doubleValue();
+-            double valueDelta = dataset.getStdDevValue(row, column).doubleValue();
              double highVal = rangeAxis.valueToJava2D(meanValue.doubleValue() 
                      + valueDelta, dataArea, yAxisLocation);
              double lowVal = rangeAxis.valueToJava2D(meanValue.doubleValue() 
@@ -31,7 +31,7 @@ index 6ff5e36..ab65ba3 100644
              line = new Line2D.Double(lowVal, rectY + rectHeight * 0.25, 
                                       lowVal, rectY + rectHeight * 0.75);
              g2.draw(line);
--        }
++        }
          
          CategoryItemLabelGenerator generator = getItemLabelGenerator(row, 
                  column);
@@ -39,9 +39,9 @@ index 6ff5e36..ab65ba3 100644
  
          // BAR Y
          Number meanValue = dataset.getMeanValue(row, column);
--        if (meanValue == null) {
--            return;
--        }
++        if (meanValue == null) {
++            return;
++        }
  
          double value = meanValue.doubleValue();
          double base = 0.0;
@@ -49,10 +49,10 @@ index 6ff5e36..ab65ba3 100644
          }
  
          // standard deviation lines
--        Number n = dataset.getStdDevValue(row, column);
--        if (n != null) {
--            double valueDelta = n.doubleValue();
-+            double valueDelta = dataset.getStdDevValue(row, column).doubleValue();
++        Number n = dataset.getStdDevValue(row, column);
++        if (n != null) {
++            double valueDelta = n.doubleValue();
+-            double valueDelta = dataset.getStdDevValue(row, column).doubleValue();
              double highVal = rangeAxis.valueToJava2D(meanValue.doubleValue() 
                      + valueDelta, dataArea, yAxisLocation);
              double lowVal = rangeAxis.valueToJava2D(meanValue.doubleValue() 
@@ -60,7 +60,7 @@ index 6ff5e36..ab65ba3 100644
              line = new Line2D.Double(rectX + rectWidth / 2.0d - 5.0d, lowVal,
                                       rectX + rectWidth / 2.0d + 5.0d, lowVal);
              g2.draw(line);
--        }
++        }
          
          CategoryItemLabelGenerator generator = getItemLabelGenerator(row, 
                  column);

@@ -10,7 +10,7 @@ index 929560c..42a4d9d 100644
      protected void iterateSimplex(final Comparator<RealPointValuePair> comparator)
          throws FunctionEvaluationException, OptimizationException, IllegalArgumentException {
  
--        final RealConvergenceChecker checker = getConvergenceChecker();
++        final RealConvergenceChecker checker = getConvergenceChecker();
          while (true) {
  
              incrementIterationsCounter();
@@ -18,16 +18,16 @@ index 929560c..42a4d9d 100644
              final RealPointValuePair contracted = evaluateNewSimplex(original, gamma, comparator);
              if (comparator.compare(contracted, best) < 0) {
                  // accept the contracted simplex
--                return;
--            }
++                return;
++            }
  
              // check convergence
--            final int iter = getIterations();
--            boolean converged = true;
--            for (int i = 0; i < simplex.length; ++i) {
--                converged &= checker.converged(iter, original[i], simplex[i]);
--            }
--            if (converged) {
++            final int iter = getIterations();
++            boolean converged = true;
++            for (int i = 0; i < simplex.length; ++i) {
++                converged &= checker.converged(iter, original[i], simplex[i]);
++            }
++            if (converged) {
                  return;
              }
  

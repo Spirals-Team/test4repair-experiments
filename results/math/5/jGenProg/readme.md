@@ -10,8 +10,8 @@ index ac8185b..22b23f2 100644
          }
  
          if (real == 0.0 && imaginary == 0.0) {
--            return INF;
-+            return NaN;
++            return INF;
+-            return NaN;
          }
  
          if (isInfinite) {

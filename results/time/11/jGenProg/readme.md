@@ -10,15 +10,15 @@ index 64da5ea..6efe071 100644
  
      static Chronology cLenientISO;
  
--    static ThreadLocal<Boolean> cVerbose = new ThreadLocal<Boolean>() {
--        protected Boolean initialValue() {
--            return Boolean.FALSE;
--        }
--    };
-+    static ThreadLocal<Boolean> cVerbose = new ThreadLocal<Boolean>();
-+    static {
-+        cVerbose.set(Boolean.FALSE);
-+    }
++    static ThreadLocal<Boolean> cVerbose = new ThreadLocal<Boolean>() {
++        protected Boolean initialValue() {
++            return Boolean.FALSE;
++        }
++    };
+-    static ThreadLocal<Boolean> cVerbose = new ThreadLocal<Boolean>();
+-    static {
+-        cVerbose.set(Boolean.FALSE);
+-    }
  
      /**
       * Gets a flag indicating that verbose logging is required.

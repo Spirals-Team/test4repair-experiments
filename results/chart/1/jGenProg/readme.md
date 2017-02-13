@@ -10,8 +10,8 @@ Index: source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.jav
          }
          int index = this.plot.getIndexOf(this);
          CategoryDataset dataset = this.plot.getDataset(index);
--        if (dataset == null) {
-+        if (dataset != null) {
++        if (dataset == null) {
+-        if (dataset != null) {
              return result;
          }
          int seriesCount = dataset.getRowCount();

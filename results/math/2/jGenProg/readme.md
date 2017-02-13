@@ -10,8 +10,8 @@ index 81e180c..2769127 100644
       * size {@code n}, the mean is {@code n * m / N}.
       */
      public double getNumericalMean() {
--        return getSampleSize() * (getNumberOfSuccesses() / (double) getPopulationSize());
-+        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
++        return getSampleSize() * (getNumberOfSuccesses() / (double) getPopulationSize());
+-        return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
      }
  
      /**

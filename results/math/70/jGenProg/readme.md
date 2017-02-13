@@ -10,8 +10,8 @@ index 180caef..3f66927 100644
      /** {@inheritDoc} */
      public double solve(final UnivariateRealFunction f, double min, double max, double initial)
          throws MaxIterationsExceededException, FunctionEvaluationException {
--        return solve(f, min, max);
-+        return solve(min, max);
++        return solve(f, min, max);
+-        return solve(min, max);
      }
  
      /** {@inheritDoc} */

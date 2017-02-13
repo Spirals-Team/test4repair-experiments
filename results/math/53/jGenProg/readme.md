@@ -10,9 +10,9 @@ index ab58c78..e0a8e97 100644
      public Complex add(Complex rhs)
          throws NullArgumentException {
          MathUtils.checkNotNull(rhs);
--        if (isNaN || rhs.isNaN) {
--            return NaN;
--        }
++        if (isNaN || rhs.isNaN) {
++            return NaN;
++        }
          return createComplex(real + rhs.getReal(),
              imaginary + rhs.getImaginary());
      }

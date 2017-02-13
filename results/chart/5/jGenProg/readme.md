@@ -10,16 +10,16 @@ index b26e11e..0b37e6e 100644
          if (x == null) {
              throw new IllegalArgumentException("Null 'x' argument.");
          }
--        if (this.allowDuplicateXValues) {
--            add(x, y);
--            return null;
--        }
++        if (this.allowDuplicateXValues) {
++            add(x, y);
++            return null;
++        }
  
          // if we get to here, we know that duplicate X values are not permitted
          XYDataItem overwritten = null;
          int index = indexOf(x);
--        if (index >= 0) {
-+        if (index >= 0 && !this.allowDuplicateXValues) {
++        if (index >= 0) {
+-        if (index >= 0 && !this.allowDuplicateXValues) {
              XYDataItem existing = (XYDataItem) this.data.get(index);
              try {
                  overwritten = (XYDataItem) existing.clone();

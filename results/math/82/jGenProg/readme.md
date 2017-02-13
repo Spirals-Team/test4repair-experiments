@@ -10,8 +10,8 @@ index 60a1b3a..8309d7b 100644
          for (int i = tableau.getNumObjectiveFunctions(); i < tableau.getHeight(); i++) {
              final double rhs = tableau.getEntry(i, tableau.getWidth() - 1);
              final double entry = tableau.getEntry(i, col);
--            if (MathUtils.compareTo(entry, 0, epsilon) > 0) {
-+            if (MathUtils.compareTo(entry, 0, epsilon) >= 0) {
++            if (MathUtils.compareTo(entry, 0, epsilon) > 0) {
+-            if (MathUtils.compareTo(entry, 0, epsilon) >= 0) {
                  final double ratio = rhs / entry;
                  if (ratio < minRatio) {
                      minRatio = ratio;

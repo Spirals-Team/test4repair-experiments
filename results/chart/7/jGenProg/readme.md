@@ -10,11 +10,11 @@ Index: source/org/jfree/data/time/TimePeriodValues.java
          }
          
          if (this.maxMiddleIndex >= 0) {
--            long s = getDataItem(this.maxMiddleIndex).getPeriod().getStart()
-+            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            long s = getDataItem(this.maxMiddleIndex).getPeriod().getStart()
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
                  .getTime();
--            long e = getDataItem(this.maxMiddleIndex).getPeriod().getEnd()
-+            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            long e = getDataItem(this.maxMiddleIndex).getPeriod().getEnd()
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
                  .getTime();
              long maxMiddle = s + (e - s) / 2;
              if (middle > maxMiddle) {

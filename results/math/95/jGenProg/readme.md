@@ -10,13 +10,13 @@ index 59aeb07..e19e97a 100644
       * @return initial domain value
       */
      protected double getInitialDomain(double p) {
--        double ret = 1.0;
-+        double ret;
++        double ret = 1.0;
+-        double ret;
          double d = getDenominatorDegreesOfFreedom();
--        if (d > 2.0) {
++        if (d > 2.0) {
              // use mean
              ret = d / (d - 2.0);
--        }
++        }
          return ret;
      }
      

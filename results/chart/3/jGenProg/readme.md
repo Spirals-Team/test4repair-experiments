@@ -10,8 +10,8 @@ index 72bb2ea..795d791 100644
              throw new IllegalArgumentException("Requires start <= end.");
          }
          TimeSeries copy = (TimeSeries) super.clone();
--        copy.minY = Double.NaN;
--        copy.maxY = Double.NaN;
++        copy.minY = Double.NaN;
++        copy.maxY = Double.NaN;
          copy.data = new java.util.ArrayList();
          if (this.data.size() > 0) {
              for (int index = start; index <= end; index++) {

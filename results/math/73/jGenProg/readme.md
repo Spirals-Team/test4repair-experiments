@@ -10,10 +10,10 @@ index e0cb427..8142b5e 100644
              return solve(f, initial, yInitial, max, yMax, initial, yInitial);
          }
  
--        if (yMin * yMax > 0) {
--            throw MathRuntimeException.createIllegalArgumentException(
--                  NON_BRACKETING_MESSAGE, min, max, yMin, yMax);
--        }
++        if (yMin * yMax > 0) {
++            throw MathRuntimeException.createIllegalArgumentException(
++                  NON_BRACKETING_MESSAGE, min, max, yMin, yMax);
++        }
  
          // full Brent algorithm starting with provided initial guess
          return solve(f, min, yMin, max, yMax, initial, yInitial);
