@@ -1,4 +1,4 @@
-#Bug /Users/matias/develop/results/test4Repair/test4repair-experiments/results//chart/ project chart
+
 ##Original Patch 
 
 ```Java
@@ -16,6 +16,7 @@ index b3ae54b..730aeb3 100644
                      LengthConstraintType.FIXED);
              Size2D size = this.rightBlock.arrange(g2, c4);
 ```
+
 
 ## Patch Original jGenProg 
 
@@ -11520,11 +11521,11 @@ org.jfree.chart.block.BorderArrangement.this.rightBlock = null
 ```
 
 
-Execution Time: 0:05 (hh:mm) 
+Execution Time: 0:08 (hh:mm) 
 
-Nb of EvoSuite Tests: 26
+Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 0
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -11541,11 +11542,11 @@ org.jfree.chart.block.BorderArrangement.this.leftBlock = null
 ```
 
 
-Execution Time: 0:08 (hh:mm) 
+Execution Time: 0:14 (hh:mm) 
 
-Nb of EvoSuite Tests: 26
+Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 0
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -11562,11 +11563,11 @@ org.jfree.chart.block.BorderArrangement.this.rightBlock = null
 ```
 
 
-Execution Time: 0:10 (hh:mm) 
+Execution Time: 0:18 (hh:mm) 
 
-Nb of EvoSuite Tests: 26
+Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 0
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -11583,11 +11584,11 @@ remove
 ```
 
 
-Execution Time: 0:11 (hh:mm) 
+Execution Time: 0:21 (hh:mm) 
 
-Nb of EvoSuite Tests: 26
+Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 0
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -11604,11 +11605,11 @@ org.jfree.chart.block.BorderArrangement.this.leftBlock = null
 ```
 
 
-Execution Time: 0:16 (hh:mm) 
+Execution Time: 0:29 (hh:mm) 
 
-Nb of EvoSuite Tests: 26
+Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 0
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -11625,11 +11626,11 @@ remove
 ```
 
 
-Execution Time: 0:21 (hh:mm) 
+Execution Time: 0:39 (hh:mm) 
 
-Nb of EvoSuite Tests: 26
+Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 0
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -11646,11 +11647,11 @@ org.jfree.chart.block.BorderArrangement.this.centerBlock = null
 ```
 
 
-Execution Time: 0:28 (hh:mm) 
+Execution Time: 0:50 (hh:mm) 
 
-Nb of EvoSuite Tests: 26
+Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 0
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -11667,11 +11668,11 @@ org.jfree.chart.block.BorderArrangement.this.leftBlock = null
 ```
 
 
-Execution Time: 0:30 (hh:mm) 
+Execution Time: 0:55 (hh:mm) 
 
-Nb of EvoSuite Tests: 26
+Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 0
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -11688,11 +11689,11 @@ remove
 ```
 
 
-Execution Time: 0:34 (hh:mm) 
+Execution Time: 1:03 (hh:mm) 
 
-Nb of EvoSuite Tests: 26
+Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 0
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -11709,11 +11710,11 @@ h[4] = h[2]
 ```
 
 
-Execution Time: 0:36 (hh:mm) 
+Execution Time: 1:07 (hh:mm) 
 
-Nb of EvoSuite Tests: 26
+Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 0
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -11732,11 +11733,11 @@ if ((org.jfree.chart.block.BorderArrangement.this.bottomBlock) != null) {
 ```
 
 
-Execution Time: 0:40 (hh:mm) 
+Execution Time: 1:14 (hh:mm) 
 
-Nb of EvoSuite Tests: 26
+Nb of EvoSuite Tests: 31
 
-Nb of Failing EvoSuite Tests: 0
+Nb of Failing EvoSuite Tests: 1
 
 
 
@@ -11755,19 +11756,65 @@ if ((org.jfree.chart.block.BorderArrangement.this.rightBlock) != null) {
 ```
 
 
-Execution Time: 1:01 (hh:mm) 
+Execution Time: 1:52 (hh:mm) 
 
-Nb of EvoSuite Tests: 26
+Nb of EvoSuite Tests: 31
+
+Nb of Failing EvoSuite Tests: 1
+
+
+--- 
+#Seed: 24
+
+## Patch 543 #  jGenProg+MinImpact With Seed 24
+
+jGenProg+MinImpact returns this patch in the first place
+
+org.jfree.chart.block.BorderArrangement : 450
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:08 (hh:mm) 
+
+Nb of EvoSuite Tests: 14
 
 Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 543 #  jGenProg+MinImpact With Seed 23
+## Patch 544 #  jGenProg+MinImpact With Seed 24
 
-org.jfree.chart.block.BorderArrangement : 307
+org.jfree.chart.block.BorderArrangement : 453
 
-Patch type: InsertBeforeOp
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:14 (hh:mm) 
+
+Nb of EvoSuite Tests: 14
+
+Nb of Failing EvoSuite Tests: 0
+
+
+
+## Patch 545 #  jGenProg+MinImpact With Seed 24
+
+org.jfree.chart.block.BorderArrangement : 435
+
+Patch type: ReplaceOp
 
 ```Java
 
@@ -11776,143 +11823,15 @@ org.jfree.chart.block.BorderArrangement.this.leftBlock = null
 ```
 
 
-Execution Time: 1:13 (hh:mm) 
+Execution Time: 0:20 (hh:mm) 
 
-Nb of EvoSuite Tests: 26
-
-Nb of Failing EvoSuite Tests: 0
-
-
-
-## Patch 544 #  jGenProg+MinImpact With Seed 23
-
-org.jfree.chart.block.BorderArrangement : 307
-
-Patch type: ReplaceOp
-
-```Java
-
-org.jfree.chart.block.BorderArrangement.this.rightBlock = null
-
-```
-
-
-Execution Time: 1:22 (hh:mm) 
-
-Nb of EvoSuite Tests: 26
+Nb of EvoSuite Tests: 14
 
 Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 545 #  jGenProg+MinImpact With Seed 23
-
-org.jfree.chart.block.BorderArrangement : 450
-
-Patch type: ReplaceOp
-
-```Java
-
-h[2] = java.lang.Math.max(h[2], h[3])
-
-```
-
-
-Execution Time: 1:26 (hh:mm) 
-
-Nb of EvoSuite Tests: 26
-
-Nb of Failing EvoSuite Tests: 0
-
-
-
-## Patch 546 #  jGenProg+MinImpact With Seed 23
-
-org.jfree.chart.block.BorderArrangement : 312
-
-Patch type: InsertAfterOp
-
-```Java
-
-org.jfree.chart.block.BorderArrangement.this.rightBlock = null
-
-```
-
-
-Execution Time: 1:31 (hh:mm) 
-
-Nb of EvoSuite Tests: 26
-
-Nb of Failing EvoSuite Tests: 0
-
-
-
-## Patch 547 #  jGenProg+MinImpact With Seed 23
-
-org.jfree.chart.block.BorderArrangement : 301
-
-Patch type: InsertAfterOp
-
-```Java
-
-org.jfree.chart.block.BorderArrangement.this.leftBlock = null
-
-```
-
-
-Execution Time: 1:36 (hh:mm) 
-
-Nb of EvoSuite Tests: 26
-
-Nb of Failing EvoSuite Tests: 0
-
-
-
-## Patch 548 #  jGenProg+MinImpact With Seed 23
-
-org.jfree.chart.block.BorderArrangement : 444
-
-Patch type: ReplaceOp
-
-```Java
-
-if ((org.jfree.chart.block.BorderArrangement.this.rightBlock) != null) {
-	org.jfree.chart.block.BorderArrangement.this.rightBlock.setBounds(new java.awt.geom.Rectangle2D.Double(((w[2]) + (w[4])) , h[0] , w[3] , h[3]));
-} 
-
-```
-
-
-Execution Time: 1:38 (hh:mm) 
-
-Nb of EvoSuite Tests: 26
-
-Nb of Failing EvoSuite Tests: 0
-
-
-
-## Patch 549 #  jGenProg+MinImpact With Seed 23
-
-org.jfree.chart.block.BorderArrangement : 450
-
-Patch type: ReplaceOp
-
-```Java
-
-w[1] = w[0]
-
-```
-
-
-Execution Time: 1:46 (hh:mm) 
-
-Nb of EvoSuite Tests: 26
-
-Nb of Failing EvoSuite Tests: 0
-
-
-
-## Patch 550 #  jGenProg+MinImpact With Seed 23
+## Patch 546 #  jGenProg+MinImpact With Seed 24
 
 org.jfree.chart.block.BorderArrangement : 453
 
@@ -11927,15 +11846,80 @@ if ((org.jfree.chart.block.BorderArrangement.this.topBlock) != null) {
 ```
 
 
-Execution Time: 1:49 (hh:mm) 
+Execution Time: 0:24 (hh:mm) 
 
-Nb of EvoSuite Tests: 26
+Nb of EvoSuite Tests: 14
 
 Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 551 #  jGenProg+MinImpact With Seed 23
+## Patch 547 #  jGenProg+MinImpact With Seed 24
+
+org.jfree.chart.block.BorderArrangement : 453
+
+Patch type: ReplaceOp
+
+```Java
+
+if ((org.jfree.chart.block.BorderArrangement.this.bottomBlock) != null) {
+	org.jfree.chart.block.BorderArrangement.this.bottomBlock.setBounds(new java.awt.geom.Rectangle2D.Double(0.0 , ((h[0]) + (h[2])) , w[1] , h[1]));
+} 
+
+```
+
+
+Execution Time: 0:27 (hh:mm) 
+
+Nb of EvoSuite Tests: 14
+
+Nb of Failing EvoSuite Tests: 0
+
+
+
+## Patch 548 #  jGenProg+MinImpact With Seed 24
+
+org.jfree.chart.block.BorderArrangement : 312
+
+Patch type: ReplaceOp
+
+```Java
+
+org.jfree.chart.block.BorderArrangement.this.leftBlock = null
+
+```
+
+
+Execution Time: 0:32 (hh:mm) 
+
+Nb of EvoSuite Tests: 14
+
+Nb of Failing EvoSuite Tests: 0
+
+
+
+## Patch 549 #  jGenProg+MinImpact With Seed 24
+
+org.jfree.chart.block.BorderArrangement : 307
+
+Patch type: InsertBeforeOp
+
+```Java
+
+org.jfree.chart.block.BorderArrangement.this.leftBlock = null
+
+```
+
+
+Execution Time: 0:36 (hh:mm) 
+
+Nb of EvoSuite Tests: 14
+
+Nb of Failing EvoSuite Tests: 0
+
+
+
+## Patch 550 #  jGenProg+MinImpact With Seed 24
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -11943,20 +11927,150 @@ Patch type: ReplaceOp
 
 ```Java
 
-h[3] = h[2]
+org.jfree.chart.block.BorderArrangement.this.leftBlock = null
 
 ```
 
 
-Execution Time: 1:51 (hh:mm) 
+Execution Time: 0:42 (hh:mm) 
 
-Nb of EvoSuite Tests: 26
+Nb of EvoSuite Tests: 14
 
 Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 552 #  jGenProg+MinImpact With Seed 23
+## Patch 551 #  jGenProg+MinImpact With Seed 24
+
+org.jfree.chart.block.BorderArrangement : 436
+
+Patch type: InsertAfterOp
+
+```Java
+
+org.jfree.chart.block.BorderArrangement.this.rightBlock = null
+
+```
+
+
+Execution Time: 0:45 (hh:mm) 
+
+Nb of EvoSuite Tests: 14
+
+Nb of Failing EvoSuite Tests: 0
+
+
+
+## Patch 552 #  jGenProg+MinImpact With Seed 24
+
+org.jfree.chart.block.BorderArrangement : 444
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:49 (hh:mm) 
+
+Nb of EvoSuite Tests: 14
+
+Nb of Failing EvoSuite Tests: 0
+
+
+
+## Patch 553 #  jGenProg+MinImpact With Seed 24
+
+org.jfree.chart.block.BorderArrangement : 453
+
+Patch type: ReplaceOp
+
+```Java
+
+if ((org.jfree.chart.block.BorderArrangement.this.rightBlock) != null) {
+	org.jfree.chart.block.BorderArrangement.this.rightBlock.setBounds(new java.awt.geom.Rectangle2D.Double(((w[2]) + (w[4])) , h[0] , w[3] , h[3]));
+} 
+
+```
+
+
+Execution Time: 1:05 (hh:mm) 
+
+Nb of EvoSuite Tests: 14
+
+Nb of Failing EvoSuite Tests: 0
+
+
+
+## Patch 554 #  jGenProg+MinImpact With Seed 24
+
+org.jfree.chart.block.BorderArrangement : 453
+
+Patch type: ReplaceOp
+
+```Java
+
+if ((org.jfree.chart.block.BorderArrangement.this.centerBlock) != null) {
+	org.jfree.chart.block.BorderArrangement.this.centerBlock.setBounds(new java.awt.geom.Rectangle2D.Double(w[2] , h[0] , w[4] , h[4]));
+} 
+
+```
+
+
+Execution Time: 1:12 (hh:mm) 
+
+Nb of EvoSuite Tests: 14
+
+Nb of Failing EvoSuite Tests: 0
+
+
+
+## Patch 555 #  jGenProg+MinImpact With Seed 24
+
+org.jfree.chart.block.BorderArrangement : 424
+
+Patch type: InsertAfterOp
+
+```Java
+
+org.jfree.chart.block.BorderArrangement.this.rightBlock = null
+
+```
+
+
+Execution Time: 1:19 (hh:mm) 
+
+Nb of EvoSuite Tests: 14
+
+Nb of Failing EvoSuite Tests: 0
+
+
+
+## Patch 556 #  jGenProg+MinImpact With Seed 24
+
+org.jfree.chart.block.BorderArrangement : 312
+
+Patch type: InsertBeforeOp
+
+```Java
+
+org.jfree.chart.block.BorderArrangement.this.leftBlock = null
+
+```
+
+
+Execution Time: 1:25 (hh:mm) 
+
+Nb of EvoSuite Tests: 14
+
+Nb of Failing EvoSuite Tests: 0
+
+
+
+## Patch 557 #  jGenProg+MinImpact With Seed 24
 
 org.jfree.chart.block.BorderArrangement : 452
 
@@ -11969,9 +12083,72 @@ org.jfree.chart.block.BorderArrangement.this.rightBlock = null
 ```
 
 
-Execution Time: 1:53 (hh:mm) 
+Execution Time: 1:43 (hh:mm) 
 
-Nb of EvoSuite Tests: 26
+Nb of EvoSuite Tests: 14
+
+Nb of Failing EvoSuite Tests: 0
+
+
+
+## Patch 558 #  jGenProg+MinImpact With Seed 24
+
+org.jfree.chart.block.BorderArrangement : 307
+
+Patch type: InsertAfterOp
+
+```Java
+
+org.jfree.chart.block.BorderArrangement.this.leftBlock = null
+
+```
+
+
+Execution Time: 1:47 (hh:mm) 
+
+Nb of EvoSuite Tests: 14
+
+Nb of Failing EvoSuite Tests: 0
+
+
+
+## Patch 559 #  jGenProg+MinImpact With Seed 24
+
+org.jfree.chart.block.BorderArrangement : 426
+
+Patch type: ReplaceOp
+
+```Java
+
+org.jfree.chart.block.BorderArrangement.this.rightBlock = null
+
+```
+
+
+Execution Time: 1:59 (hh:mm) 
+
+Nb of EvoSuite Tests: 14
+
+Nb of Failing EvoSuite Tests: 0
+
+
+
+## Patch 560 #  jGenProg+MinImpact With Seed 24
+
+org.jfree.chart.block.BorderArrangement : 426
+
+Patch type: ReplaceOp
+
+```Java
+
+org.jfree.chart.block.BorderArrangement.this.leftBlock = null
+
+```
+
+
+Execution Time: 2:03 (hh:mm) 
+
+Nb of EvoSuite Tests: 14
 
 Nb of Failing EvoSuite Tests: 0
 
@@ -11979,7 +12156,7 @@ Nb of Failing EvoSuite Tests: 0
 --- 
 #Seed: 25
 
-## Patch 553 #  jGenProg+MinImpact With Seed 25
+## Patch 561 #  jGenProg+MinImpact With Seed 25
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -12002,7 +12179,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 554 #  jGenProg+MinImpact With Seed 25
+## Patch 562 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -12023,7 +12200,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 555 #  jGenProg+MinImpact With Seed 25
+## Patch 563 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.block.BorderArrangement : 453
 
@@ -12046,7 +12223,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 556 #  jGenProg+MinImpact With Seed 25
+## Patch 564 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -12067,7 +12244,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 557 #  jGenProg+MinImpact With Seed 25
+## Patch 565 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.block.BorderArrangement : 453
 
@@ -12088,7 +12265,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 558 #  jGenProg+MinImpact With Seed 25
+## Patch 566 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.block.BorderArrangement : 426
 
@@ -12109,7 +12286,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 559 #  jGenProg+MinImpact With Seed 25
+## Patch 567 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -12130,7 +12307,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 560 #  jGenProg+MinImpact With Seed 25
+## Patch 568 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.block.BorderArrangement : 426
 
@@ -12151,7 +12328,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 561 #  jGenProg+MinImpact With Seed 25
+## Patch 569 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -12172,7 +12349,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 562 #  jGenProg+MinImpact With Seed 25
+## Patch 570 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -12193,7 +12370,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 563 #  jGenProg+MinImpact With Seed 25
+## Patch 571 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -12214,7 +12391,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 564 #  jGenProg+MinImpact With Seed 25
+## Patch 572 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -12235,7 +12412,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 565 #  jGenProg+MinImpact With Seed 25
+## Patch 573 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -12258,7 +12435,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 566 #  jGenProg+MinImpact With Seed 25
+## Patch 574 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.block.BorderArrangement : 311
 
@@ -12279,7 +12456,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 567 #  jGenProg+MinImpact With Seed 25
+## Patch 575 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.block.BorderArrangement : 452
 
@@ -12300,7 +12477,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 568 #  jGenProg+MinImpact With Seed 25
+## Patch 576 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.block.BorderArrangement : 435
 
@@ -12321,7 +12498,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 569 #  jGenProg+MinImpact With Seed 25
+## Patch 577 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.block.BorderArrangement : 307
 
@@ -12342,7 +12519,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 570 #  jGenProg+MinImpact With Seed 25
+## Patch 578 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.block.BorderArrangement : 311
 
@@ -12363,7 +12540,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 571 #  jGenProg+MinImpact With Seed 25
+## Patch 579 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.block.BorderArrangement : 443
 
@@ -12384,7 +12561,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 572 #  jGenProg+MinImpact With Seed 25
+## Patch 580 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -12409,7 +12586,7 @@ Nb of Failing EvoSuite Tests: 0
 --- 
 #Seed: 26
 
-## Patch 573 #  jGenProg+MinImpact With Seed 26
+## Patch 581 #  jGenProg+MinImpact With Seed 26
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -12432,7 +12609,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 574 #  jGenProg+MinImpact With Seed 26
+## Patch 582 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -12453,7 +12630,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 575 #  jGenProg+MinImpact With Seed 26
+## Patch 583 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.chart.block.BorderArrangement : 443
 
@@ -12474,7 +12651,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 576 #  jGenProg+MinImpact With Seed 26
+## Patch 584 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.chart.block.BorderArrangement : 308
 
@@ -12495,7 +12672,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 577 #  jGenProg+MinImpact With Seed 26
+## Patch 585 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.chart.block.BorderArrangement : 443
 
@@ -12516,7 +12693,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 578 #  jGenProg+MinImpact With Seed 26
+## Patch 586 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.chart.block.BorderArrangement : 453
 
@@ -12537,7 +12714,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 579 #  jGenProg+MinImpact With Seed 26
+## Patch 587 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -12558,7 +12735,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 580 #  jGenProg+MinImpact With Seed 26
+## Patch 588 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.chart.block.BorderArrangement : 322
 
@@ -12579,7 +12756,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 581 #  jGenProg+MinImpact With Seed 26
+## Patch 589 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.chart.block.BorderArrangement : 453
 
@@ -12602,7 +12779,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 582 #  jGenProg+MinImpact With Seed 26
+## Patch 590 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -12623,7 +12800,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 583 #  jGenProg+MinImpact With Seed 26
+## Patch 591 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -12644,7 +12821,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 584 #  jGenProg+MinImpact With Seed 26
+## Patch 592 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.chart.block.BorderArrangement : 307
 
@@ -12665,7 +12842,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 585 #  jGenProg+MinImpact With Seed 26
+## Patch 593 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.chart.block.BorderArrangement : 435
 
@@ -12686,7 +12863,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 586 #  jGenProg+MinImpact With Seed 26
+## Patch 594 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -12709,7 +12886,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 587 #  jGenProg+MinImpact With Seed 26
+## Patch 595 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.chart.block.BorderArrangement : 312
 
@@ -12730,7 +12907,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 588 #  jGenProg+MinImpact With Seed 26
+## Patch 596 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -12753,7 +12930,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 589 #  jGenProg+MinImpact With Seed 26
+## Patch 597 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -12778,7 +12955,7 @@ Nb of Failing EvoSuite Tests: 0
 --- 
 #Seed: 27
 
-## Patch 590 #  jGenProg+MinImpact With Seed 27
+## Patch 598 #  jGenProg+MinImpact With Seed 27
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -12801,7 +12978,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 591 #  jGenProg+MinImpact With Seed 27
+## Patch 599 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.block.BorderArrangement : 453
 
@@ -12824,7 +13001,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 592 #  jGenProg+MinImpact With Seed 27
+## Patch 600 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.block.BorderArrangement : 443
 
@@ -12845,7 +13022,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 593 #  jGenProg+MinImpact With Seed 27
+## Patch 601 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.block.BorderArrangement : 453
 
@@ -12866,7 +13043,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 594 #  jGenProg+MinImpact With Seed 27
+## Patch 602 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -12887,7 +13064,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 595 #  jGenProg+MinImpact With Seed 27
+## Patch 603 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -12910,7 +13087,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 596 #  jGenProg+MinImpact With Seed 27
+## Patch 604 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -12933,7 +13110,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 597 #  jGenProg+MinImpact With Seed 27
+## Patch 605 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -12954,7 +13131,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 598 #  jGenProg+MinImpact With Seed 27
+## Patch 606 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -12977,7 +13154,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 599 #  jGenProg+MinImpact With Seed 27
+## Patch 607 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.block.BorderArrangement : 312
 
@@ -12998,7 +13175,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 600 #  jGenProg+MinImpact With Seed 27
+## Patch 608 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.block.BorderArrangement : 302
 
@@ -13019,7 +13196,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 601 #  jGenProg+MinImpact With Seed 27
+## Patch 609 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -13040,7 +13217,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 602 #  jGenProg+MinImpact With Seed 27
+## Patch 610 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.block.BorderArrangement : 300
 
@@ -13061,7 +13238,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 603 #  jGenProg+MinImpact With Seed 27
+## Patch 611 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.block.BorderArrangement : 426
 
@@ -13082,7 +13259,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 604 #  jGenProg+MinImpact With Seed 27
+## Patch 612 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.block.BorderArrangement : 426
 
@@ -13103,7 +13280,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 605 #  jGenProg+MinImpact With Seed 27
+## Patch 613 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.block.BorderArrangement : 297
 
@@ -13124,7 +13301,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 606 #  jGenProg+MinImpact With Seed 27
+## Patch 614 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.block.BorderArrangement : 435
 
@@ -13145,7 +13322,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 607 #  jGenProg+MinImpact With Seed 27
+## Patch 615 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.block.BorderArrangement : 307
 
@@ -13166,7 +13343,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 608 #  jGenProg+MinImpact With Seed 27
+## Patch 616 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.block.BorderArrangement : 453
 
@@ -13189,7 +13366,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 609 #  jGenProg+MinImpact With Seed 27
+## Patch 617 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.block.BorderArrangement : 453
 
@@ -13212,7 +13389,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 610 #  jGenProg+MinImpact With Seed 27
+## Patch 618 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.block.AbstractBlock : 477
 
@@ -13235,7 +13412,7 @@ Nb of Failing EvoSuite Tests: 2
 --- 
 #Seed: 28
 
-## Patch 611 #  jGenProg+MinImpact With Seed 28
+## Patch 619 #  jGenProg+MinImpact With Seed 28
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -13258,7 +13435,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 612 #  jGenProg+MinImpact With Seed 28
+## Patch 620 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -13279,7 +13456,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 613 #  jGenProg+MinImpact With Seed 28
+## Patch 621 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.chart.block.BorderArrangement : 312
 
@@ -13300,7 +13477,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 614 #  jGenProg+MinImpact With Seed 28
+## Patch 622 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.chart.block.BorderArrangement : 453
 
@@ -13323,7 +13500,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 615 #  jGenProg+MinImpact With Seed 28
+## Patch 623 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.chart.block.BorderArrangement : 445
 
@@ -13344,7 +13521,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 616 #  jGenProg+MinImpact With Seed 28
+## Patch 624 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -13365,7 +13542,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 617 #  jGenProg+MinImpact With Seed 28
+## Patch 625 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.chart.block.BorderArrangement : 297
 
@@ -13386,7 +13563,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 618 #  jGenProg+MinImpact With Seed 28
+## Patch 626 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.chart.block.BorderArrangement : 453
 
@@ -13407,7 +13584,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 619 #  jGenProg+MinImpact With Seed 28
+## Patch 627 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.chart.block.BorderArrangement : 435
 
@@ -13428,7 +13605,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 620 #  jGenProg+MinImpact With Seed 28
+## Patch 628 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.chart.block.BorderArrangement : 435
 
@@ -13449,7 +13626,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 621 #  jGenProg+MinImpact With Seed 28
+## Patch 629 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -13470,7 +13647,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 622 #  jGenProg+MinImpact With Seed 28
+## Patch 630 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.chart.block.BorderArrangement : 453
 
@@ -13493,7 +13670,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 623 #  jGenProg+MinImpact With Seed 28
+## Patch 631 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.chart.block.BorderArrangement : 311
 
@@ -13514,7 +13691,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 624 #  jGenProg+MinImpact With Seed 28
+## Patch 632 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.chart.block.BorderArrangement : 312
 
@@ -13535,7 +13712,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 625 #  jGenProg+MinImpact With Seed 28
+## Patch 633 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -13558,7 +13735,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 626 #  jGenProg+MinImpact With Seed 28
+## Patch 634 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.chart.block.BorderArrangement : 426
 
@@ -13579,7 +13756,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 627 #  jGenProg+MinImpact With Seed 28
+## Patch 635 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.chart.block.BorderArrangement : 435
 
@@ -13602,7 +13779,7 @@ Nb of Failing EvoSuite Tests: 0
 --- 
 #Seed: 29
 
-## Patch 628 #  jGenProg+MinImpact With Seed 29
+## Patch 636 #  jGenProg+MinImpact With Seed 29
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -13627,7 +13804,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 629 #  jGenProg+MinImpact With Seed 29
+## Patch 637 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.chart.block.BorderArrangement : 307
 
@@ -13648,7 +13825,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 630 #  jGenProg+MinImpact With Seed 29
+## Patch 638 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.chart.block.BorderArrangement : 435
 
@@ -13669,7 +13846,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 631 #  jGenProg+MinImpact With Seed 29
+## Patch 639 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -13690,7 +13867,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 632 #  jGenProg+MinImpact With Seed 29
+## Patch 640 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -13713,7 +13890,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 633 #  jGenProg+MinImpact With Seed 29
+## Patch 641 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.chart.block.BorderArrangement : 453
 
@@ -13736,7 +13913,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 634 #  jGenProg+MinImpact With Seed 29
+## Patch 642 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -13757,7 +13934,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 635 #  jGenProg+MinImpact With Seed 29
+## Patch 643 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.chart.block.BorderArrangement : 308
 
@@ -13778,7 +13955,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 636 #  jGenProg+MinImpact With Seed 29
+## Patch 644 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.chart.block.BorderArrangement : 453
 
@@ -13801,7 +13978,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 637 #  jGenProg+MinImpact With Seed 29
+## Patch 645 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.chart.block.BorderArrangement : 424
 
@@ -13822,7 +13999,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 638 #  jGenProg+MinImpact With Seed 29
+## Patch 646 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.chart.block.BorderArrangement : 152
 
@@ -13843,7 +14020,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 639 #  jGenProg+MinImpact With Seed 29
+## Patch 647 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -13864,7 +14041,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 640 #  jGenProg+MinImpact With Seed 29
+## Patch 648 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.chart.block.BorderArrangement : 300
 
@@ -13885,7 +14062,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 641 #  jGenProg+MinImpact With Seed 29
+## Patch 649 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -13908,7 +14085,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 642 #  jGenProg+MinImpact With Seed 29
+## Patch 650 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -13929,7 +14106,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 643 #  jGenProg+MinImpact With Seed 29
+## Patch 651 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.chart.block.BorderArrangement : 452
 
@@ -13950,7 +14127,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 644 #  jGenProg+MinImpact With Seed 29
+## Patch 652 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -13971,7 +14148,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 645 #  jGenProg+MinImpact With Seed 29
+## Patch 653 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -13994,7 +14171,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 646 #  jGenProg+MinImpact With Seed 29
+## Patch 654 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.chart.block.AbstractBlock : 476
 
@@ -14017,7 +14194,7 @@ Nb of Failing EvoSuite Tests: 2
 --- 
 #Seed: 30
 
-## Patch 647 #  jGenProg+MinImpact With Seed 30
+## Patch 655 #  jGenProg+MinImpact With Seed 30
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -14042,7 +14219,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 648 #  jGenProg+MinImpact With Seed 30
+## Patch 656 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.chart.block.BorderArrangement : 436
 
@@ -14063,7 +14240,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 649 #  jGenProg+MinImpact With Seed 30
+## Patch 657 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.chart.block.BorderArrangement : 452
 
@@ -14084,7 +14261,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 650 #  jGenProg+MinImpact With Seed 30
+## Patch 658 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -14105,7 +14282,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 651 #  jGenProg+MinImpact With Seed 30
+## Patch 659 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -14126,7 +14303,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 652 #  jGenProg+MinImpact With Seed 30
+## Patch 660 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -14149,7 +14326,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 653 #  jGenProg+MinImpact With Seed 30
+## Patch 661 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -14170,7 +14347,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 654 #  jGenProg+MinImpact With Seed 30
+## Patch 662 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -14191,7 +14368,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 655 #  jGenProg+MinImpact With Seed 30
+## Patch 663 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -14212,7 +14389,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 656 #  jGenProg+MinImpact With Seed 30
+## Patch 664 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.chart.block.BorderArrangement : 426
 
@@ -14233,7 +14410,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 657 #  jGenProg+MinImpact With Seed 30
+## Patch 665 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.chart.block.BorderArrangement : 453
 
@@ -14254,7 +14431,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 658 #  jGenProg+MinImpact With Seed 30
+## Patch 666 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -14277,7 +14454,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 659 #  jGenProg+MinImpact With Seed 30
+## Patch 667 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -14298,7 +14475,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 660 #  jGenProg+MinImpact With Seed 30
+## Patch 668 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.chart.block.BorderArrangement : 314
 
@@ -14319,7 +14496,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 661 #  jGenProg+MinImpact With Seed 30
+## Patch 669 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.chart.block.BorderArrangement : 435
 
@@ -14340,7 +14517,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 662 #  jGenProg+MinImpact With Seed 30
+## Patch 670 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.chart.block.BorderArrangement : 298
 
@@ -14361,7 +14538,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 663 #  jGenProg+MinImpact With Seed 30
+## Patch 671 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.chart.block.BorderArrangement : 307
 
@@ -14382,7 +14559,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 664 #  jGenProg+MinImpact With Seed 30
+## Patch 672 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.chart.block.BorderArrangement : 444
 
@@ -14405,7 +14582,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 665 #  jGenProg+MinImpact With Seed 30
+## Patch 673 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.chart.block.BorderArrangement : 453
 
@@ -14430,10 +14607,10 @@ Nb of Failing EvoSuite Tests: 0
 ---
 ## Summary an Analysis
 
-Average Nb of EvoSuite Tests: 26.81
+Average Nb of EvoSuite Tests: 26.57
 
-Average Nb of Failing EvoSuite Tests: 0.05
+Average Nb of Failing EvoSuite Tests: 0.07
 
-Average Nb of Test-adequate patches: 22.93
+Average Nb of Test-adequate patches: 22.43
 
 ---

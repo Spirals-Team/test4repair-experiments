@@ -1,4 +1,4 @@
-#Bug /Users/matias/develop/results/test4Repair/test4repair-experiments/results//chart/ project chart
+
 ##Original Patch 
 
 ```Java
@@ -31,6 +31,7 @@ findBoundsByIteration()
 Execution time: 0:01:47.511000
 
 Grid5000 node: graphene-75.nancy.grid5000.fr
+
 
 
 --- 
@@ -2197,7 +2198,49 @@ updateBoundsForRemovedItem(item)
 ```
 
 
-Execution Time: 1:07 (hh:mm) 
+Execution Time: 0:46 (hh:mm) 
+
+Nb of EvoSuite Tests: 131
+
+Nb of Failing EvoSuite Tests: 0
+
+
+
+## Patch 100 #  jGenProg+MinImpact With Seed 23
+
+org.jfree.data.time.TimeSeries : 627
+
+Patch type: InsertAfterOp
+
+```Java
+
+updateBoundsForRemovedItem(item)
+
+```
+
+
+Execution Time: 1:26 (hh:mm) 
+
+Nb of EvoSuite Tests: 131
+
+Nb of Failing EvoSuite Tests: 0
+
+
+
+## Patch 101 #  jGenProg+MinImpact With Seed 23
+
+org.jfree.data.time.TimeSeries : 596
+
+Patch type: InsertBeforeOp
+
+```Java
+
+updateBoundsForRemovedItem(item)
+
+```
+
+
+Execution Time: 1:56 (hh:mm) 
 
 Nb of EvoSuite Tests: 131
 
@@ -2205,9 +2248,34 @@ Nb of Failing EvoSuite Tests: 0
 
 
 --- 
+#Seed: 24
+
+## Patch 102 #  jGenProg+MinImpact With Seed 24
+
+jGenProg+MinImpact returns this patch in the first place
+
+org.jfree.data.time.TimeSeries : 627
+
+Patch type: ReplaceOp
+
+```Java
+
+findBoundsByIteration()
+
+```
+
+
+Execution Time: 0:06 (hh:mm) 
+
+Nb of EvoSuite Tests: 118
+
+Nb of Failing EvoSuite Tests: 0
+
+
+--- 
 #Seed: 25
 
-## Patch 100 #  jGenProg+MinImpact With Seed 25
+## Patch 103 #  jGenProg+MinImpact With Seed 25
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -2230,7 +2298,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 101 #  jGenProg+MinImpact With Seed 25
+## Patch 104 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.data.time.TimeSeries : 576
 
@@ -2253,7 +2321,7 @@ Nb of Failing EvoSuite Tests: 0
 --- 
 #Seed: 26
 
-## Patch 102 #  jGenProg+MinImpact With Seed 26
+## Patch 105 #  jGenProg+MinImpact With Seed 26
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -2276,7 +2344,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 103 #  jGenProg+MinImpact With Seed 26
+## Patch 106 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.data.time.TimeSeries : 638
 
@@ -2297,7 +2365,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 104 #  jGenProg+MinImpact With Seed 26
+## Patch 107 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.data.time.TimeSeries : 254
 
@@ -2318,7 +2386,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 105 #  jGenProg+MinImpact With Seed 26
+## Patch 108 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.data.time.TimeSeries : 877
 
@@ -2339,7 +2407,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 106 #  jGenProg+MinImpact With Seed 26
+## Patch 109 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.data.time.TimeSeries : 627
 
@@ -2360,7 +2428,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 107 #  jGenProg+MinImpact With Seed 26
+## Patch 110 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.data.time.TimeSeries : 564
 
@@ -2383,7 +2451,7 @@ Nb of Failing EvoSuite Tests: 1
 --- 
 #Seed: 27
 
-## Patch 108 #  jGenProg+MinImpact With Seed 27
+## Patch 111 #  jGenProg+MinImpact With Seed 27
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -2406,7 +2474,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 109 #  jGenProg+MinImpact With Seed 27
+## Patch 112 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.data.time.TimeSeries : 638
 
@@ -2429,7 +2497,7 @@ Nb of Failing EvoSuite Tests: 0
 --- 
 #Seed: 28
 
-## Patch 110 #  jGenProg+MinImpact With Seed 28
+## Patch 113 #  jGenProg+MinImpact With Seed 28
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -2452,7 +2520,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 111 #  jGenProg+MinImpact With Seed 28
+## Patch 114 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.data.time.TimeSeries : 634
 
@@ -2473,7 +2541,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 112 #  jGenProg+MinImpact With Seed 28
+## Patch 115 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.data.time.TimeSeries : 629
 
@@ -2494,7 +2562,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 113 #  jGenProg+MinImpact With Seed 28
+## Patch 116 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.data.time.TimeSeries : 638
 
@@ -2517,7 +2585,7 @@ Nb of Failing EvoSuite Tests: 0
 --- 
 #Seed: 29
 
-## Patch 114 #  jGenProg+MinImpact With Seed 29
+## Patch 117 #  jGenProg+MinImpact With Seed 29
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -2540,7 +2608,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 115 #  jGenProg+MinImpact With Seed 29
+## Patch 118 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.data.time.TimeSeries : 878
 
@@ -2561,7 +2629,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 116 #  jGenProg+MinImpact With Seed 29
+## Patch 119 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.data.time.TimeSeries : 627
 
@@ -2582,7 +2650,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 117 #  jGenProg+MinImpact With Seed 29
+## Patch 120 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.data.time.TimeSeries : 584
 
@@ -2603,7 +2671,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 118 #  jGenProg+MinImpact With Seed 29
+## Patch 121 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.data.time.TimeSeries : 254
 
@@ -2624,7 +2692,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 119 #  jGenProg+MinImpact With Seed 29
+## Patch 122 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.data.time.TimeSeries : 606
 
@@ -2647,7 +2715,7 @@ Nb of Failing EvoSuite Tests: 0
 --- 
 #Seed: 30
 
-## Patch 120 #  jGenProg+MinImpact With Seed 30
+## Patch 123 #  jGenProg+MinImpact With Seed 30
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -2670,7 +2738,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 121 #  jGenProg+MinImpact With Seed 30
+## Patch 124 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.data.time.TimeSeries : 638
 
@@ -2691,7 +2759,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 122 #  jGenProg+MinImpact With Seed 30
+## Patch 125 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.data.time.TimeSeries : 600
 
@@ -2712,7 +2780,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 123 #  jGenProg+MinImpact With Seed 30
+## Patch 126 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.data.time.TimeSeries : 638
 
@@ -2735,10 +2803,10 @@ Nb of Failing EvoSuite Tests: 0
 ---
 ## Summary an Analysis
 
-Average Nb of EvoSuite Tests: 129.33
+Average Nb of EvoSuite Tests: 129.26
 
 Average Nb of Failing EvoSuite Tests: 0.07
 
-Average Nb of Test-adequate patches: 4.24
+Average Nb of Test-adequate patches: 4.2
 
 ---

@@ -1,4 +1,4 @@
-#Bug /Users/matias/develop/results/test4Repair/test4repair-experiments/results//chart/ project chart
+
 ##Original Patch 
 
 ```Java
@@ -921,56 +921,14 @@ Nb of Failing EvoSuite Tests: 2
 
 --- 
 #Seed: 23
-
-## Patch 39 #  jGenProg+MinImpact With Seed 23
-
-jGenProg+MinImpact returns this patch in the first place
-
-org.jfree.data.xy.XYSeries : 564
-
-Patch type: ReplaceOp
-
-```Java
-
-org.jfree.data.xy.XYSeries.this.data.add(new org.jfree.data.xy.XYDataItem(x , y))
-
-```
-
-
-Execution Time: 0:25 (hh:mm) 
-
-Nb of EvoSuite Tests: 99
-
-Nb of Failing EvoSuite Tests: 3
-
-
-
-## Patch 40 #  jGenProg+MinImpact With Seed 23
-
-org.jfree.data.xy.XYSeries : 564
-
-Patch type: ReplaceOp
-
-```Java
-
-add(x, y, true)
-
-```
-
-
-Execution Time: 0:27 (hh:mm) 
-
-Nb of EvoSuite Tests: 99
-
-Nb of Failing EvoSuite Tests: 3
-
-
+--- 
+#Seed: 24
 --- 
 #Seed: 25
 --- 
 #Seed: 26
 
-## Patch 41 #  jGenProg+MinImpact With Seed 26
+## Patch 39 #  jGenProg+MinImpact With Seed 26
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -993,7 +951,7 @@ Nb of Failing EvoSuite Tests: 2
 
 
 
-## Patch 42 #  jGenProg+MinImpact With Seed 26
+## Patch 40 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.data.xy.XYSeries : 564
 
@@ -1016,7 +974,7 @@ Nb of Failing EvoSuite Tests: 3
 --- 
 #Seed: 28
 
-## Patch 43 #  jGenProg+MinImpact With Seed 28
+## Patch 41 #  jGenProg+MinImpact With Seed 28
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -1039,7 +997,7 @@ Nb of Failing EvoSuite Tests: 3
 
 
 
-## Patch 44 #  jGenProg+MinImpact With Seed 28
+## Patch 42 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.data.xy.XYSeries : 564
 
@@ -1062,7 +1020,7 @@ Nb of Failing EvoSuite Tests: 3
 --- 
 #Seed: 29
 
-## Patch 45 #  jGenProg+MinImpact With Seed 29
+## Patch 43 #  jGenProg+MinImpact With Seed 29
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -1085,7 +1043,7 @@ Nb of Failing EvoSuite Tests: 2
 
 
 
-## Patch 46 #  jGenProg+MinImpact With Seed 29
+## Patch 44 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.data.xy.XYSeries : 564
 
@@ -1108,7 +1066,7 @@ Nb of Failing EvoSuite Tests: 2
 --- 
 #Seed: 30
 
-## Patch 47 #  jGenProg+MinImpact With Seed 30
+## Patch 45 #  jGenProg+MinImpact With Seed 30
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -1131,7 +1089,7 @@ Nb of Failing EvoSuite Tests: 2
 
 
 
-## Patch 48 #  jGenProg+MinImpact With Seed 30
+## Patch 46 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.data.xy.XYSeries : 564
 
@@ -1154,9 +1112,9 @@ Nb of Failing EvoSuite Tests: 2
 ---
 ## Summary an Analysis
 
-Average Nb of EvoSuite Tests: 83.96
+Average Nb of EvoSuite Tests: 77.66
 
-Average Nb of Failing EvoSuite Tests: 1.75
+Average Nb of Failing EvoSuite Tests: 1.59
 
 Average Nb of Test-adequate patches: 2
 

@@ -1,4 +1,4 @@
-#Bug /Users/matias/develop/results/test4Repair/test4repair-experiments/results//chart/ project chart
+
 ##Original Patch 
 
 ```Java
@@ -29,7 +29,6 @@ index 7c3cd04..f575e72 100644
          
 ```
 
-
 ## Patch Original jGenProg 
 
 org.jfree.chart.JFreeChart:1219 (Suspicious rank: ample 457, jaccard 457, ochiai 333, naish1 21756, gp13 457, naish2 457, tarantula 457, )
@@ -39,6 +38,7 @@ Patch type: REPLACE
 ```Java
 fireChartChanged()
 ```
+
 
 
 --- 
@@ -869,15 +869,40 @@ if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {
 
 Execution Time: 0:32 (hh:mm) 
 
-Nb of EvoSuite Tests: 17
+Nb of EvoSuite Tests: 14
 
-Nb of Failing EvoSuite Tests: 1
+Nb of Failing EvoSuite Tests: 2
+
+
+--- 
+#Seed: 24
+
+## Patch 33 #  jGenProg+MinImpact With Seed 24
+
+jGenProg+MinImpact returns this patch in the first place
+
+org.jfree.chart.JFreeChart : 1219
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:54 (hh:mm) 
+
+Nb of EvoSuite Tests: 123
+
+Nb of Failing EvoSuite Tests: 0
 
 
 --- 
 #Seed: 25
 
-## Patch 33 #  jGenProg+MinImpact With Seed 25
+## Patch 34 #  jGenProg+MinImpact With Seed 25
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -905,7 +930,7 @@ Nb of Failing EvoSuite Tests: 1
 
 
 
-## Patch 34 #  jGenProg+MinImpact With Seed 25
+## Patch 35 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.plot.PiePlot3D : 247
 
@@ -933,7 +958,7 @@ Nb of Failing EvoSuite Tests: 1
 --- 
 #Seed: 26
 
-## Patch 35 #  jGenProg+MinImpact With Seed 26
+## Patch 36 #  jGenProg+MinImpact With Seed 26
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -958,7 +983,7 @@ Nb of Failing EvoSuite Tests: 3
 --- 
 #Seed: 28
 
-## Patch 36 #  jGenProg+MinImpact With Seed 28
+## Patch 37 #  jGenProg+MinImpact With Seed 28
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -986,7 +1011,7 @@ Nb of Failing EvoSuite Tests: 1
 
 
 
-## Patch 37 #  jGenProg+MinImpact With Seed 28
+## Patch 38 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.chart.JFreeChart : 1219
 
@@ -1007,7 +1032,7 @@ Nb of Failing EvoSuite Tests: 1
 
 
 
-## Patch 38 #  jGenProg+MinImpact With Seed 28
+## Patch 39 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.chart.plot.PiePlot3D : 272
 
@@ -1035,7 +1060,7 @@ Nb of Failing EvoSuite Tests: 1
 --- 
 #Seed: 29
 
-## Patch 39 #  jGenProg+MinImpact With Seed 29
+## Patch 40 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.chart.plot.PiePlot3D : 272
 
@@ -1063,10 +1088,10 @@ Nb of Failing EvoSuite Tests: 1
 ---
 ## Summary an Analysis
 
-Average Nb of EvoSuite Tests: 56.36
+Average Nb of EvoSuite Tests: 57.84
 
-Average Nb of Failing EvoSuite Tests: 1.64
+Average Nb of Failing EvoSuite Tests: 1.63
 
-Average Nb of Test-adequate patches: 1.75
+Average Nb of Test-adequate patches: 1.72
 
 ---

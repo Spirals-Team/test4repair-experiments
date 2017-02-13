@@ -1,4 +1,4 @@
-#Bug /Users/matias/develop/results/test4Repair/test4repair-experiments/results//chart/ project chart
+
 ##Original Patch 
 
 ```Java
@@ -17,6 +17,7 @@ Index: source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.jav
          int seriesCount = dataset.getRowCount();
 ```
 
+
 ## Patch  Original jGenProg 
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer:1797 (Suspicious rank: ample 28, jaccard 28, ochiai 32, naish1 25667, gp13 28, naish2 28, tarantula 28, )
@@ -28,6 +29,8 @@ remove
 ```
 
 Execution time: 0:09:27.133000
+
+
 
 --- 
 #Seed: 1
@@ -2329,9 +2332,9 @@ if ((org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.this.plot) =
 ```
 
 
-Execution Time: 0:11 (hh:mm) 
+Execution Time: 0:15 (hh:mm) 
 
-Nb of EvoSuite Tests: 93
+Nb of EvoSuite Tests: 94
 
 Nb of Failing EvoSuite Tests: 0
 
@@ -2350,9 +2353,9 @@ remove
 ```
 
 
-Execution Time: 0:36 (hh:mm) 
+Execution Time: 0:47 (hh:mm) 
 
-Nb of EvoSuite Tests: 93
+Nb of EvoSuite Tests: 94
 
 Nb of Failing EvoSuite Tests: 0
 
@@ -2371,9 +2374,9 @@ remove
 ```
 
 
-Execution Time: 0:50 (hh:mm) 
+Execution Time: 1:05 (hh:mm) 
 
-Nb of EvoSuite Tests: 93
+Nb of EvoSuite Tests: 94
 
 Nb of Failing EvoSuite Tests: 0
 
@@ -2394,15 +2397,19 @@ if (plot == null) {
 ```
 
 
-Execution Time: 1:09 (hh:mm) 
+Execution Time: 1:32 (hh:mm) 
 
-Nb of EvoSuite Tests: 93
+Nb of EvoSuite Tests: 94
 
 Nb of Failing EvoSuite Tests: 0
 
 
+--- 
+#Seed: 24
 
-## Patch 101 #  jGenProg+MinImpact With Seed 23
+## Patch 101 #  jGenProg+MinImpact With Seed 24
+
+jGenProg+MinImpact returns this patch in the first place
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -2410,16 +2417,81 @@ Patch type: ReplaceOp
 
 ```Java
 
-if (dataset == null) {
-	return null;
+if (plot == null) {
+	throw new java.lang.IllegalArgumentException("Null 'plot' argument.");
 } 
 
 ```
 
 
-Execution Time: 1:41 (hh:mm) 
+Execution Time: 0:10 (hh:mm) 
 
-Nb of EvoSuite Tests: 93
+Nb of EvoSuite Tests: 97
+
+Nb of Failing EvoSuite Tests: 0
+
+
+
+## Patch 102 #  jGenProg+MinImpact With Seed 24
+
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:15 (hh:mm) 
+
+Nb of EvoSuite Tests: 97
+
+Nb of Failing EvoSuite Tests: 0
+
+
+
+## Patch 103 #  jGenProg+MinImpact With Seed 24
+
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
+
+Patch type: ReplaceOp
+
+```Java
+
+if ((org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.this.plot) == null) {
+	return result;
+} 
+
+```
+
+
+Execution Time: 0:27 (hh:mm) 
+
+Nb of EvoSuite Tests: 97
+
+Nb of Failing EvoSuite Tests: 0
+
+
+
+## Patch 104 #  jGenProg+MinImpact With Seed 24
+
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1798
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:57 (hh:mm) 
+
+Nb of EvoSuite Tests: 97
 
 Nb of Failing EvoSuite Tests: 0
 
@@ -2427,7 +2499,7 @@ Nb of Failing EvoSuite Tests: 0
 --- 
 #Seed: 25
 
-## Patch 102 #  jGenProg+MinImpact With Seed 25
+## Patch 105 #  jGenProg+MinImpact With Seed 25
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -2450,7 +2522,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 103 #  jGenProg+MinImpact With Seed 25
+## Patch 106 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -2473,7 +2545,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 104 #  jGenProg+MinImpact With Seed 25
+## Patch 107 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -2496,7 +2568,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 105 #  jGenProg+MinImpact With Seed 25
+## Patch 108 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -2519,7 +2591,7 @@ Nb of Failing EvoSuite Tests: 0
 --- 
 #Seed: 26
 
-## Patch 106 #  jGenProg+MinImpact With Seed 26
+## Patch 109 #  jGenProg+MinImpact With Seed 26
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -2542,7 +2614,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 107 #  jGenProg+MinImpact With Seed 26
+## Patch 110 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -2563,7 +2635,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 108 #  jGenProg+MinImpact With Seed 26
+## Patch 111 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -2586,7 +2658,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 109 #  jGenProg+MinImpact With Seed 26
+## Patch 112 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -2611,7 +2683,7 @@ Nb of Failing EvoSuite Tests: 0
 --- 
 #Seed: 27
 
-## Patch 110 #  jGenProg+MinImpact With Seed 27
+## Patch 113 #  jGenProg+MinImpact With Seed 27
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -2636,7 +2708,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 111 #  jGenProg+MinImpact With Seed 27
+## Patch 114 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -2659,7 +2731,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 112 #  jGenProg+MinImpact With Seed 27
+## Patch 115 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -2680,7 +2752,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 113 #  jGenProg+MinImpact With Seed 27
+## Patch 116 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1798
 
@@ -2701,7 +2773,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 114 #  jGenProg+MinImpact With Seed 27
+## Patch 117 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -2730,7 +2802,7 @@ Nb of Failing EvoSuite Tests: 0
 --- 
 #Seed: 28
 
-## Patch 115 #  jGenProg+MinImpact With Seed 28
+## Patch 118 #  jGenProg+MinImpact With Seed 28
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -2753,7 +2825,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 116 #  jGenProg+MinImpact With Seed 28
+## Patch 119 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1798
 
@@ -2774,7 +2846,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 117 #  jGenProg+MinImpact With Seed 28
+## Patch 120 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -2803,7 +2875,7 @@ Nb of Failing EvoSuite Tests: 0
 --- 
 #Seed: 29
 
-## Patch 118 #  jGenProg+MinImpact With Seed 29
+## Patch 121 #  jGenProg+MinImpact With Seed 29
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -2832,7 +2904,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 119 #  jGenProg+MinImpact With Seed 29
+## Patch 122 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -2855,7 +2927,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 120 #  jGenProg+MinImpact With Seed 29
+## Patch 123 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1798
 
@@ -2876,7 +2948,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 121 #  jGenProg+MinImpact With Seed 29
+## Patch 124 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -2897,7 +2969,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 122 #  jGenProg+MinImpact With Seed 29
+## Patch 125 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -2922,7 +2994,7 @@ Nb of Failing EvoSuite Tests: 0
 --- 
 #Seed: 30
 
-## Patch 123 #  jGenProg+MinImpact With Seed 30
+## Patch 126 #  jGenProg+MinImpact With Seed 30
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -2945,7 +3017,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 124 #  jGenProg+MinImpact With Seed 30
+## Patch 127 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -2968,7 +3040,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 125 #  jGenProg+MinImpact With Seed 30
+## Patch 128 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1797
 
@@ -2991,7 +3063,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 126 #  jGenProg+MinImpact With Seed 30
+## Patch 129 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1798
 
@@ -3014,10 +3086,10 @@ Nb of Failing EvoSuite Tests: 0
 ---
 ## Summary an Analysis
 
-Average Nb of EvoSuite Tests: 97.56
+Average Nb of EvoSuite Tests: 97.6
 
-Average Nb of Failing EvoSuite Tests: 0.1
+Average Nb of Failing EvoSuite Tests: 0.09
 
-Average Nb of Test-adequate patches: 4.34
+Average Nb of Test-adequate patches: 4.3
 
 ---

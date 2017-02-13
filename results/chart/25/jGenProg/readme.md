@@ -1,4 +1,4 @@
-#Bug /Users/matias/develop/results/test4Repair/test4repair-experiments/results//chart/ project chart
+
 ##Original Patch 
 
 ```Java
@@ -65,6 +65,7 @@ index 6ff5e36..ab65ba3 100644
          CategoryItemLabelGenerator generator = getItemLabelGenerator(row, 
                  column);
 ```
+
 
 
 ## Patch Original jGenProg 
@@ -3593,9 +3594,271 @@ Nb of Failing EvoSuite Tests: 32
 
 
 --- 
+#Seed: 23
+
+## Patch 161 #  jGenProg+MinImpact With Seed 23
+
+jGenProg+MinImpact returns this patch in the first place
+
+org.jfree.chart.renderer.category.StatisticalBarRenderer : 207
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:21 (hh:mm) 
+
+Nb of EvoSuite Tests: 14
+
+Nb of Failing EvoSuite Tests: 0
+
+
+
+## Patch 162 #  jGenProg+MinImpact With Seed 23
+
+org.jfree.chart.plot.CategoryPlot : 2867
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:19 (hh:mm) 
+
+Nb of EvoSuite Tests: 232
+
+Nb of Failing EvoSuite Tests: 0
+
+
+
+## Patch 163 #  jGenProg+MinImpact With Seed 23
+
+org.jfree.chart.plot.CategoryPlot : 2863
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:35 (hh:mm) 
+
+Nb of EvoSuite Tests: 232
+
+Nb of Failing EvoSuite Tests: 0
+
+
+
+## Patch 164 #  jGenProg+MinImpact With Seed 23
+
+org.jfree.data.statistics.DefaultStatisticalCategoryDataset : 110
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:26 (hh:mm) 
+
+Nb of EvoSuite Tests: 70
+
+Nb of Failing EvoSuite Tests: 2
+
+
+
+## Patch 165 #  jGenProg+MinImpact With Seed 23
+
+org.jfree.data.statistics.DefaultStatisticalCategoryDataset : 301
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:09 (hh:mm) 
+
+Nb of EvoSuite Tests: 70
+
+Nb of Failing EvoSuite Tests: 34
+
+
+
+## Patch 166 #  jGenProg+MinImpact With Seed 23
+
+org.jfree.data.statistics.DefaultStatisticalCategoryDataset : 325
+
+Patch type: InsertBeforeOp
+
+```Java
+
+org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.data = new org.jfree.data.KeyedObjects2D()
+
+```
+
+
+Execution Time: 0:24 (hh:mm) 
+
+Nb of EvoSuite Tests: 70
+
+Nb of Failing EvoSuite Tests: 34
+
+
+--- 
+#Seed: 24
+
+## Patch 167 #  jGenProg+MinImpact With Seed 24
+
+jGenProg+MinImpact returns this patch in the first place
+
+org.jfree.chart.plot.CategoryPlot : 2855
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:23 (hh:mm) 
+
+Nb of EvoSuite Tests: 232
+
+Nb of Failing EvoSuite Tests: 0
+
+
+
+## Patch 168 #  jGenProg+MinImpact With Seed 24
+
+org.jfree.chart.plot.CategoryPlot : 2672
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:31 (hh:mm) 
+
+Nb of EvoSuite Tests: 232
+
+Nb of Failing EvoSuite Tests: 0
+
+
+
+## Patch 169 #  jGenProg+MinImpact With Seed 24
+
+org.jfree.data.general.DatasetUtilities : 577
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:03 (hh:mm) 
+
+Nb of EvoSuite Tests: 192
+
+Nb of Failing EvoSuite Tests: 1
+
+
+
+## Patch 170 #  jGenProg+MinImpact With Seed 24
+
+org.jfree.chart.JFreeChart : 1393
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 1:53 (hh:mm) 
+
+Nb of EvoSuite Tests: 117
+
+Nb of Failing EvoSuite Tests: 2
+
+
+
+## Patch 171 #  jGenProg+MinImpact With Seed 24
+
+org.jfree.data.KeyedObjects2D : 112
+
+Patch type: ReplaceOp
+
+```Java
+
+if (columnKey == null) {
+	throw new java.lang.IllegalArgumentException("Null 'columnKey' argument.");
+} 
+
+```
+
+
+Execution Time: 0:46 (hh:mm) 
+
+Nb of EvoSuite Tests: 56
+
+Nb of Failing EvoSuite Tests: 6
+
+
+
+## Patch 172 #  jGenProg+MinImpact With Seed 24
+
+org.jfree.data.KeyedObjects2D : 239
+
+Patch type: RemoveOp
+
+```Java
+
+remove
+
+```
+
+
+Execution Time: 0:23 (hh:mm) 
+
+Nb of EvoSuite Tests: 56
+
+Nb of Failing EvoSuite Tests: 16
+
+
+--- 
 #Seed: 25
 
-## Patch 161 #  jGenProg+MinImpact With Seed 25
+## Patch 173 #  jGenProg+MinImpact With Seed 25
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -3618,7 +3881,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 162 #  jGenProg+MinImpact With Seed 25
+## Patch 174 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.plot.CategoryPlot : 2863
 
@@ -3644,7 +3907,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 163 #  jGenProg+MinImpact With Seed 25
+## Patch 175 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.data.general.DatasetUtilities : 576
 
@@ -3665,7 +3928,7 @@ Nb of Failing EvoSuite Tests: 1
 
 
 
-## Patch 164 #  jGenProg+MinImpact With Seed 25
+## Patch 176 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.chart.renderer.category.StatisticalBarRenderer : 207
 
@@ -3688,7 +3951,7 @@ Nb of Failing EvoSuite Tests: 1
 
 
 
-## Patch 165 #  jGenProg+MinImpact With Seed 25
+## Patch 177 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.data.KeyedObjects2D : 86
 
@@ -3709,7 +3972,7 @@ Nb of Failing EvoSuite Tests: 7
 
 
 
-## Patch 166 #  jGenProg+MinImpact With Seed 25
+## Patch 178 #  jGenProg+MinImpact With Seed 25
 
 org.jfree.data.KeyedObjects2D : 238
 
@@ -3732,7 +3995,7 @@ Nb of Failing EvoSuite Tests: 15
 --- 
 #Seed: 26
 
-## Patch 167 #  jGenProg+MinImpact With Seed 26
+## Patch 179 #  jGenProg+MinImpact With Seed 26
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -3755,7 +4018,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 168 #  jGenProg+MinImpact With Seed 26
+## Patch 180 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.chart.plot.CategoryPlot : 2673
 
@@ -3776,7 +4039,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 169 #  jGenProg+MinImpact With Seed 26
+## Patch 181 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.chart.plot.CategoryPlot : 2868
 
@@ -3797,7 +4060,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 170 #  jGenProg+MinImpact With Seed 26
+## Patch 182 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.data.general.DatasetUtilities : 574
 
@@ -3818,7 +4081,7 @@ Nb of Failing EvoSuite Tests: 1
 
 
 
-## Patch 171 #  jGenProg+MinImpact With Seed 26
+## Patch 183 #  jGenProg+MinImpact With Seed 26
 
 org.jfree.data.statistics.DefaultStatisticalCategoryDataset : 301
 
@@ -3841,7 +4104,7 @@ Nb of Failing EvoSuite Tests: 38
 --- 
 #Seed: 27
 
-## Patch 172 #  jGenProg+MinImpact With Seed 27
+## Patch 184 #  jGenProg+MinImpact With Seed 27
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -3864,7 +4127,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 173 #  jGenProg+MinImpact With Seed 27
+## Patch 185 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.plot.CategoryPlot : 2470
 
@@ -3885,7 +4148,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 174 #  jGenProg+MinImpact With Seed 27
+## Patch 186 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.plot.CategoryPlot : 2866
 
@@ -3908,7 +4171,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 175 #  jGenProg+MinImpact With Seed 27
+## Patch 187 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.plot.CategoryPlot : 2867
 
@@ -3929,7 +4192,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 176 #  jGenProg+MinImpact With Seed 27
+## Patch 188 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.chart.plot.CategoryPlot : 2960
 
@@ -3950,7 +4213,7 @@ Nb of Failing EvoSuite Tests: 1
 
 
 
-## Patch 177 #  jGenProg+MinImpact With Seed 27
+## Patch 189 #  jGenProg+MinImpact With Seed 27
 
 org.jfree.data.statistics.DefaultStatisticalCategoryDataset : 301
 
@@ -3973,7 +4236,7 @@ Nb of Failing EvoSuite Tests: 37
 --- 
 #Seed: 28
 
-## Patch 178 #  jGenProg+MinImpact With Seed 28
+## Patch 190 #  jGenProg+MinImpact With Seed 28
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -4002,7 +4265,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 179 #  jGenProg+MinImpact With Seed 28
+## Patch 191 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.chart.plot.CategoryPlot : 2867
 
@@ -4023,7 +4286,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 180 #  jGenProg+MinImpact With Seed 28
+## Patch 192 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.chart.plot.CategoryPlot : 2629
 
@@ -4044,7 +4307,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 181 #  jGenProg+MinImpact With Seed 28
+## Patch 193 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.data.general.DatasetUtilities : 576
 
@@ -4067,7 +4330,7 @@ Nb of Failing EvoSuite Tests: 1
 
 
 
-## Patch 182 #  jGenProg+MinImpact With Seed 28
+## Patch 194 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.data.statistics.DefaultStatisticalCategoryDataset : 110
 
@@ -4088,7 +4351,7 @@ Nb of Failing EvoSuite Tests: 4
 
 
 
-## Patch 183 #  jGenProg+MinImpact With Seed 28
+## Patch 195 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.data.statistics.DefaultStatisticalCategoryDataset : 126
 
@@ -4109,7 +4372,7 @@ Nb of Failing EvoSuite Tests: 5
 
 
 
-## Patch 184 #  jGenProg+MinImpact With Seed 28
+## Patch 196 #  jGenProg+MinImpact With Seed 28
 
 org.jfree.data.statistics.DefaultStatisticalCategoryDataset : 318
 
@@ -4132,7 +4395,7 @@ Nb of Failing EvoSuite Tests: 34
 --- 
 #Seed: 29
 
-## Patch 185 #  jGenProg+MinImpact With Seed 29
+## Patch 197 #  jGenProg+MinImpact With Seed 29
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -4157,7 +4420,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 186 #  jGenProg+MinImpact With Seed 29
+## Patch 198 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.data.general.DatasetUtilities : 576
 
@@ -4178,7 +4441,7 @@ Nb of Failing EvoSuite Tests: 1
 
 
 
-## Patch 187 #  jGenProg+MinImpact With Seed 29
+## Patch 199 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.data.general.DatasetUtilities : 574
 
@@ -4199,7 +4462,7 @@ Nb of Failing EvoSuite Tests: 1
 
 
 
-## Patch 188 #  jGenProg+MinImpact With Seed 29
+## Patch 200 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.data.KeyedObjects2D : 95
 
@@ -4220,7 +4483,7 @@ Nb of Failing EvoSuite Tests: 3
 
 
 
-## Patch 189 #  jGenProg+MinImpact With Seed 29
+## Patch 201 #  jGenProg+MinImpact With Seed 29
 
 org.jfree.chart.JFreeChart : 1393
 
@@ -4243,7 +4506,7 @@ Nb of Failing EvoSuite Tests: 6
 --- 
 #Seed: 30
 
-## Patch 190 #  jGenProg+MinImpact With Seed 30
+## Patch 202 #  jGenProg+MinImpact With Seed 30
 
 jGenProg+MinImpact returns this patch in the first place
 
@@ -4268,7 +4531,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 191 #  jGenProg+MinImpact With Seed 30
+## Patch 203 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.chart.plot.CategoryPlot : 2855
 
@@ -4289,7 +4552,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 192 #  jGenProg+MinImpact With Seed 30
+## Patch 204 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.chart.plot.CategoryPlot : 2855
 
@@ -4312,7 +4575,7 @@ Nb of Failing EvoSuite Tests: 0
 
 
 
-## Patch 193 #  jGenProg+MinImpact With Seed 30
+## Patch 205 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.data.KeyedObjects2D : 111
 
@@ -4333,7 +4596,7 @@ Nb of Failing EvoSuite Tests: 1
 
 
 
-## Patch 194 #  jGenProg+MinImpact With Seed 30
+## Patch 206 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.data.statistics.DefaultStatisticalCategoryDataset : 111
 
@@ -4354,7 +4617,7 @@ Nb of Failing EvoSuite Tests: 3
 
 
 
-## Patch 195 #  jGenProg+MinImpact With Seed 30
+## Patch 207 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.data.statistics.DefaultStatisticalCategoryDataset : 110
 
@@ -4375,7 +4638,7 @@ Nb of Failing EvoSuite Tests: 3
 
 
 
-## Patch 196 #  jGenProg+MinImpact With Seed 30
+## Patch 208 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.data.KeyedObjects2D : 110
 
@@ -4396,7 +4659,7 @@ Nb of Failing EvoSuite Tests: 4
 
 
 
-## Patch 197 #  jGenProg+MinImpact With Seed 30
+## Patch 209 #  jGenProg+MinImpact With Seed 30
 
 org.jfree.data.statistics.DefaultStatisticalCategoryDataset : 301
 
@@ -4419,10 +4682,10 @@ Nb of Failing EvoSuite Tests: 32
 ---
 ## Summary an Analysis
 
-Average Nb of EvoSuite Tests: 145.39
+Average Nb of EvoSuite Tests: 144.56
 
-Average Nb of Failing EvoSuite Tests: 4.5
+Average Nb of Failing EvoSuite Tests: 4.69
 
-Average Nb of Test-adequate patches: 7.04
+Average Nb of Test-adequate patches: 6.97
 
 ---
