@@ -1,0 +1,2 @@
+#!/bin/bash
+for i in $(oarstat -u | grep `whoami` | cut -f 1 -d ' '); do echo $i; oardel $i; done

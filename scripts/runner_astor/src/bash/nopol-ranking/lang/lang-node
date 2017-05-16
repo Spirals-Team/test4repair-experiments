@@ -1,0 +1,33 @@
+#!/bin/bash
+
+export PATH="~/defects4j/framework/bin:$PATH"
+
+cp -r ~/projects/lang/lang_${1}/ /tmp/
+cd /tmp/lang_${1}/
+defects4j compile
+
+cp ~/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar .
+
+if [[ $1 -lt 21 ]]; then
+  time java -cp nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --source src/main/java/ --classpath target/classes/:target/tests/:nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar
+elif [[ $1 -lt 36 ]]; then
+  time java -cp nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --source src/main/java/ --classpath target/classes/:target/test-classes/:nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar
+elif [[ $1 -lt 42 ]]; then
+  time java -cp nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --source src/java/ --classpath target/classes/:target/test-classes/:nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar
+else
+  time java -cp nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --source src/java/ --classpath target/classes/:target/tests/:nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar
+fi
+
+cd /tmp/
+rm -rf lang_${1}/
+
+cd ~/defects4j-repair/logs/nopol-ranking/lang/
+
+#Cut log
+line=`grep -m 1 -n "^\/\*" stdout/lang_${1}.stdout | cut -f 1 -d :`
+tail -n +$line stdout/lang_${1}.stdout > lang_${1}_tmp.stdout
+mv lang_${1}_tmp.stdout stdout/lang_${1}.stdout
+
+#Add time at the log end
+cat stderr/lang_${1}.stderr | tail -4 >> stdout/lang_${1}.stdout
+echo "" >> stdout/lang_${1}.stdout
