@@ -1,89 +1,49 @@
 {
-    "date": "Fri Jan 20 05:47:16 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
-    "gens": "323", 
-    "node": "grisou-21.nancy.grid5000.fr", 
-    "operations": [
+    "date": "Fri Jan 20 05:47:16 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n\n",
+    "node": "grisou-21.nancy.grid5000.fr",
+    "patches": [
         {
-            "buggyStatement": "double tb = (t0) + (interpolator.isForward() ? convergence : -(convergence))", 
-            "generation": 1, 
-            "ingredients": null, 
-            "patch": "if ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {\n\treturn false;\n} ", 
+            "buggyStatement": "double tb = (t0) + (interpolator.isForward() ? convergence : -(convergence))",
+            "generation": 1,
+            "ingredients": null,
+            "patch": "if ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {\n\treturn false;\n} ",
             "patchLocation": {
-                "className": "org.apache.commons.math.ode.events.EventState", 
-                "line": 179, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.ode.events.EventState",
+                "line": 179
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "22", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "19", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2152", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "94", 
-            "type": "InsertAfterOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "22",
+                "numberAllTestRegression": "2152",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "94",
+            "type": "InsertAfterOp",
             "variant": 2
-        }, 
+        },
         {
-            "buggyStatement": "if ((ga * gb) > 0) {\n\tfinal double epsilon = (forward ? 0.25 : -0.25) * (convergence);\n\tfor (int k = 0 ; (k < 4) && ((ga * gb) > 0) ; ++k) {\n\t\tta += epsilon;\n\t\tinterpolator.setInterpolatedTime(ta);\n\t\tga = handler.g(ta, interpolator.getInterpolatedState());\n\t}\n\tif ((ga * gb) > 0) {\n\t\tthrow org.apache.commons.math.MathRuntimeException.createInternalError(null);\n\t} \n} ", 
-            "generation": 445, 
-            "ingredients": null, 
-            "patch": "if ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {\n\treturn false;\n} ", 
+            "buggyStatement": "final double root = ta <= tb ? solver.solve(f, ta, tb) : solver.solve(f, tb, ta)",
+            "generation": 563,
+            "ingredients": null,
+            "patch": "if ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {\n\treturn false;\n} ",
             "patchLocation": {
-                "className": "org.apache.commons.math.ode.events.EventState", 
-                "line": 191, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.ode.events.EventState",
+                "line": 229
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "22", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "19", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "false", 
-                "mvaltcall": "2152", 
-                "mvaltcfailing": "1"
-            }, 
-            "scope": "LOCAL", 
-            "time": "3873", 
-            "type": "ReplaceOp", 
-            "variant": 890
-        }, 
-        {
-            "buggyStatement": "final double root = ta <= tb ? solver.solve(f, ta, tb) : solver.solve(f, tb, ta)", 
-            "generation": 563, 
-            "ingredients": null, 
-            "patch": "if ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {\n\treturn false;\n} ", 
-            "patchLocation": {
-                "className": "org.apache.commons.math.ode.events.EventState", 
-                "line": 229, 
-                "lineSusp": "0"
-            }, 
-            "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "22", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "19", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2152", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "4870", 
-            "type": "InsertAfterOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "22",
+                "numberAllTestRegression": "2152",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "4870",
+            "type": "InsertAfterOp",
             "variant": 1126
         }
-    ], 
-    "ops": "0", 
-    "programVariant": "2", 
-    "timeEvaluation": null, 
+    ],
     "timeTotal": "7400"
 }

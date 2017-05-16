@@ -1,89 +1,90 @@
 {
-    "date": "Sat Jan 14 02:40:43 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
-    "gens": "55", 
-    "node": "graphene-111.nancy.grid5000.fr", 
-    "operations": [
+    "date": "Sat Jan 14 02:40:43 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n\n",
+    "node": "graphene-111.nancy.grid5000.fr",
+    "patches": [
         {
-            "buggyStatement": "++(count)", 
-            "generation": 62, 
-            "ingredients": null, 
-            "patch": "remove", 
+            "buggyStatement": "++(count)",
+            "generation": 62,
+            "ingredients": null,
+            "patch": "remove",
             "patchLocation": {
-                "className": "org.apache.commons.math.util.OpenIntToDoubleHashMap", 
-                "line": 399, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.util.OpenIntToDoubleHashMap",
+                "line": 399
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "42", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "9", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2899", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "-", 
-            "time": "1090", 
-            "type": "RemoveOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "42",
+                "numberAllTestRegression": "2899",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "1090",
+            "type": "RemoveOp",
             "variant": 124
-        }, 
+        },
         {
-            "buggyStatement": "entries.remove(index)", 
-            "generation": 338, 
-            "ingredients": null, 
-            "patch": "entries.put(index, value)", 
+            "buggyStatement": "entries.remove(index)",
+            "generation": 338,
+            "ingredients": null,
+            "patch": "entries.put(index, value)",
             "patchLocation": {
-                "className": "org.apache.commons.math.linear.OpenMapRealVector", 
-                "line": 667, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.linear.OpenMapRealVector",
+                "line": 667
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "179", 
-                "evaltcfailing": "13", 
-                "fvalresult": "true", 
-                "fvaltcall": "9", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2899", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "3951", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.OpenMapRealVector_ESTest",
+                        "failingTestName": "090"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.OpenMapRealVector_ESTest",
+                        "failingTestName": "092"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.OpenMapRealVector_ESTest",
+                        "failingTestName": "083"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.OpenMapRealVector_ESTest",
+                        "failingTestName": "086"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.OpenMapRealVector_ESTest",
+                        "failingTestName": "115"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.OpenMapRealVector_ESTest",
+                        "failingTestName": "147"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.OpenMapRealVector_ESTest",
+                        "failingTestName": "141"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.OpenMapRealVector_ESTest",
+                        "failingTestName": "138"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.OpenMapRealVector_ESTest",
+                        "failingTestName": "160"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.OpenMapRealVector_ESTest",
+                        "failingTestName": "162"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "179",
+                "numberAllTestRegression": "2899",
+                "numberEvosuiteFailing": "13",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "3951",
+            "type": "ReplaceOp",
             "variant": 676
-        }, 
-        {
-            "buggyStatement": "++(count)", 
-            "generation": 413, 
-            "ingredients": null, 
-            "patch": "--(size)", 
-            "patchLocation": {
-                "className": "org.apache.commons.math.util.OpenIntToDoubleHashMap", 
-                "line": 399, 
-                "lineSusp": "0"
-            }, 
-            "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "42", 
-                "evaltcfailing": "3", 
-                "fvalresult": "true", 
-                "fvaltcall": "9", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "false", 
-                "mvaltcall": "2899", 
-                "mvaltcfailing": "4"
-            }, 
-            "scope": "LOCAL", 
-            "time": "4573", 
-            "type": "ReplaceOp", 
-            "variant": 826
         }
-    ], 
-    "ops": "0", 
-    "programVariant": "124", 
-    "timeEvaluation": null, 
+    ],
     "timeTotal": "7750"
 }

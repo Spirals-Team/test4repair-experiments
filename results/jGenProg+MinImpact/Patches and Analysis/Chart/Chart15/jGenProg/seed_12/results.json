@@ -1,63 +1,69 @@
 {
-    "date": "2017-01-15T13:16:37.679682", 
-    "gens": "486", 
-    "node": "graphene-78.nancy.grid5000.fr", 
-    "operations": [
+    "date": "2017-05-16T11:10:48.426637",
+    "gens": "486",
+    "node": "graphene-78.nancy.grid5000.fr",
+    "ops": "1",
+    "patches": [
         {
-            "buggyStatement": "org.jfree.chart.JFreeChart.this.plot.draw(g2, plotArea, anchor, null, plotInfo)", 
-            "generation": 320, 
-            "ingredients": null, 
-            "patch": "org.jfree.chart.JFreeChart.this.subtitles.clear()", 
+            "buggyStatement": "org.jfree.chart.JFreeChart.this.plot.draw(g2, plotArea, anchor, null, plotInfo)",
+            "generation": 320,
+            "ingredients": null,
+            "patch": "org.jfree.chart.JFreeChart.this.subtitles.clear()",
             "patchLocation": {
-                "className": "org.jfree.chart.JFreeChart", 
-                "line": 1219, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.chart.JFreeChart",
+                "line": 1219
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "120", 
-                "evaltcfailing": "2", 
-                "fvalresult": "true", 
-                "fvaltcall": "3", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "3579", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "1867", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.jfree.chart.JFreeChart_ESTest",
+                        "failingTestName": "033"
+                    },
+                    {
+                        "failingClassName": "org.jfree.chart.JFreeChart_ESTest",
+                        "failingTestName": "031"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "120",
+                "numberAllTestRegression": "3579",
+                "numberEvosuiteFailing": "2",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "1867",
+            "type": "ReplaceOp",
             "variant": 640
-        }, 
+        },
         {
-            "buggyStatement": "if (e != null) {\n\tentities.addAll(e);\n} ", 
-            "generation": 851, 
-            "ingredients": null, 
-            "patch": "return ", 
+            "buggyStatement": "if (e != null) {\n\tentities.addAll(e);\n} ",
+            "generation": 851,
+            "ingredients": null,
+            "patch": "return ",
             "patchLocation": {
-                "className": "org.jfree.chart.JFreeChart", 
-                "line": 1207, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.chart.JFreeChart",
+                "line": 1207
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "120", 
-                "evaltcfailing": "2", 
-                "fvalresult": "true", 
-                "fvaltcall": "3", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "3579", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "PACKAGE", 
-            "time": "4107", 
-            "type": "InsertAfterOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.jfree.chart.JFreeChart_ESTest",
+                        "failingTestName": "033"
+                    },
+                    {
+                        "failingClassName": "org.jfree.chart.JFreeChart_ESTest",
+                        "failingTestName": "031"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "120",
+                "numberAllTestRegression": "3579",
+                "numberEvosuiteFailing": "2",
+                "numberInitialFailing": "0"
+            },
+            "scope": "PACKAGE",
+            "time": "4107",
+            "type": "InsertAfterOp",
             "variant": 1702
         }
-    ], 
-    "ops": "1", 
-    "programVariant": "640", 
-    "timeEvaluation": "7261", 
+    ],
     "timeTotal": "7876"
 }

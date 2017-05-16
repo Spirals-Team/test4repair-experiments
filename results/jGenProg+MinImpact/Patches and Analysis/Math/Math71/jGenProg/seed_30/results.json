@@ -1,63 +1,28 @@
 {
-    "date": "Sun Jan 29 12:11:02 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
-    "gens": "278", 
-    "node": "graphene-103.nancy.grid5000.fr", 
-    "operations": [
+    "date": "Sun Jan 29 12:11:02 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n\n",
+    "node": "graphene-103.nancy.grid5000.fr",
+    "patches": [
         {
-            "buggyStatement": "final org.apache.commons.math.analysis.UnivariateRealFunction f = new org.apache.commons.math.analysis.UnivariateRealFunction() {\n\tpublic double value(final double t) throws org.apache.commons.math.FunctionEvaluationException {\n\t\ttry {\n\t\t\tinterpolator.setInterpolatedTime(t);\n\t\t\treturn handler.g(t, interpolator.getInterpolatedState());\n\t\t} catch (org.apache.commons.math.ode.DerivativeException e) {\n\t\t\tthrow new org.apache.commons.math.FunctionEvaluationException(e , t);\n\t\t} catch (org.apache.commons.math.ode.events.EventException e) {\n\t\t\tthrow new org.apache.commons.math.FunctionEvaluationException(e , t);\n\t\t}\n\t}\n}", 
-            "generation": 104, 
-            "ingredients": null, 
-            "patch": "tb += h", 
+            "buggyStatement": "for (int i = 0 ; i < n ; ++i) {\n\ttb += h;\n\tinterpolator.setInterpolatedTime(tb);\n\tfinal double gb = handler.g(tb, interpolator.getInterpolatedState());\n\tif ((g0Positive) ^ (gb >= 0)) {\n\t\tif ((ga * gb) > 0) {\n\t\t\tfinal double epsilon = (forward ? 0.25 : -0.25) * (convergence);\n\t\t\tfor (int k = 0 ; (k < 4) && ((ga * gb) > 0) ; ++k) {\n\t\t\t\tta += epsilon;\n\t\t\t\tinterpolator.setInterpolatedTime(ta);\n\t\t\t\tga = handler.g(ta, interpolator.getInterpolatedState());\n\t\t\t}\n\t\t\tif ((ga * gb) > 0) {\n\t\t\t\tthrow org.apache.commons.math.MathRuntimeException.createInternalError(null);\n\t\t\t} \n\t\t} \n\t\tincreasing = gb >= ga;\n\t\tfinal org.apache.commons.math.analysis.UnivariateRealFunction f = new org.apache.commons.math.analysis.UnivariateRealFunction() {\n\t\t\tpublic double value(final double t) throws org.apache.commons.math.FunctionEvaluationException {\n\t\t\t\ttry {\n\t\t\t\t\tinterpolator.setInterpolatedTime(t);\n\t\t\t\t\treturn handler.g(t, interpolator.getInterpolatedState());\n\t\t\t\t} catch (org.apache.commons.math.ode.DerivativeException e) {\n\t\t\t\t\tthrow new org.apache.commons.math.FunctionEvaluationException(e , t);\n\t\t\t\t} catch (org.apache.commons.math.ode.events.EventException e) {\n\t\t\t\t\tthrow new org.apache.commons.math.FunctionEvaluationException(e , t);\n\t\t\t\t}\n\t\t\t}\n\t\t};\n\t\tfinal org.apache.commons.math.analysis.solvers.BrentSolver solver = new org.apache.commons.math.analysis.solvers.BrentSolver();\n\t\tsolver.setAbsoluteAccuracy(convergence);\n\t\tsolver.setMaximalIterationCount(maxIterationCount);\n\t\tfinal double root = ta <= tb ? solver.solve(f, ta, tb) : solver.solve(f, tb, ta);\n\t\tif (((java.lang.Math.abs((root - ta))) <= (convergence)) && ((java.lang.Math.abs((root - (previousEventTime)))) <= (convergence))) {\n\t\t\tta = tb;\n\t\t\tga = gb;\n\t\t} else {\n\t\t\tif ((java.lang.Double.isNaN(previousEventTime)) || ((java.lang.Math.abs(((previousEventTime) - root))) > (convergence))) {\n\t\t\t\tpendingEventTime = root;\n\t\t\t\tif ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {\n\t\t\t\t\treturn false;\n\t\t\t\t} \n\t\t\t\tpendingEvent = true;\n\t\t\t\treturn true;\n\t\t\t} \n\t\t}\n\t} else {\n\t\tta = tb;\n\t\tga = gb;\n\t}\n}",
+            "generation": 322,
+            "ingredients": null,
+            "patch": "if ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {\n\treturn false;\n} ",
             "patchLocation": {
-                "className": "org.apache.commons.math.ode.events.EventState", 
-                "line": 214, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.ode.events.EventState",
+                "line": 180
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "22", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "19", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "false", 
-                "mvaltcall": "2169", 
-                "mvaltcfailing": "6"
-            }, 
-            "scope": "LOCAL", 
-            "time": "1186", 
-            "type": "InsertBeforeOp", 
-            "variant": 208
-        }, 
-        {
-            "buggyStatement": "for (int i = 0 ; i < n ; ++i) {\n\ttb += h;\n\tinterpolator.setInterpolatedTime(tb);\n\tfinal double gb = handler.g(tb, interpolator.getInterpolatedState());\n\tif ((g0Positive) ^ (gb >= 0)) {\n\t\tif ((ga * gb) > 0) {\n\t\t\tfinal double epsilon = (forward ? 0.25 : -0.25) * (convergence);\n\t\t\tfor (int k = 0 ; (k < 4) && ((ga * gb) > 0) ; ++k) {\n\t\t\t\tta += epsilon;\n\t\t\t\tinterpolator.setInterpolatedTime(ta);\n\t\t\t\tga = handler.g(ta, interpolator.getInterpolatedState());\n\t\t\t}\n\t\t\tif ((ga * gb) > 0) {\n\t\t\t\tthrow org.apache.commons.math.MathRuntimeException.createInternalError(null);\n\t\t\t} \n\t\t} \n\t\tincreasing = gb >= ga;\n\t\tfinal org.apache.commons.math.analysis.UnivariateRealFunction f = new org.apache.commons.math.analysis.UnivariateRealFunction() {\n\t\t\tpublic double value(final double t) throws org.apache.commons.math.FunctionEvaluationException {\n\t\t\t\ttry {\n\t\t\t\t\tinterpolator.setInterpolatedTime(t);\n\t\t\t\t\treturn handler.g(t, interpolator.getInterpolatedState());\n\t\t\t\t} catch (org.apache.commons.math.ode.DerivativeException e) {\n\t\t\t\t\tthrow new org.apache.commons.math.FunctionEvaluationException(e , t);\n\t\t\t\t} catch (org.apache.commons.math.ode.events.EventException e) {\n\t\t\t\t\tthrow new org.apache.commons.math.FunctionEvaluationException(e , t);\n\t\t\t\t}\n\t\t\t}\n\t\t};\n\t\tfinal org.apache.commons.math.analysis.solvers.BrentSolver solver = new org.apache.commons.math.analysis.solvers.BrentSolver();\n\t\tsolver.setAbsoluteAccuracy(convergence);\n\t\tsolver.setMaximalIterationCount(maxIterationCount);\n\t\tfinal double root = ta <= tb ? solver.solve(f, ta, tb) : solver.solve(f, tb, ta);\n\t\tif (((java.lang.Math.abs((root - ta))) <= (convergence)) && ((java.lang.Math.abs((root - (previousEventTime)))) <= (convergence))) {\n\t\t\tta = tb;\n\t\t\tga = gb;\n\t\t} else {\n\t\t\tif ((java.lang.Double.isNaN(previousEventTime)) || ((java.lang.Math.abs(((previousEventTime) - root))) > (convergence))) {\n\t\t\t\tpendingEventTime = root;\n\t\t\t\tif ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {\n\t\t\t\t\treturn false;\n\t\t\t\t} \n\t\t\t\tpendingEvent = true;\n\t\t\t\treturn true;\n\t\t\t} \n\t\t}\n\t} else {\n\t\tta = tb;\n\t\tga = gb;\n\t}\n}", 
-            "generation": 322, 
-            "ingredients": null, 
-            "patch": "if ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {\n\treturn false;\n} ", 
-            "patchLocation": {
-                "className": "org.apache.commons.math.ode.events.EventState", 
-                "line": 180, 
-                "lineSusp": "0"
-            }, 
-            "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "22", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "19", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2169", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "4919", 
-            "type": "InsertBeforeOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "22",
+                "numberAllTestRegression": "2169",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "4919",
+            "type": "InsertBeforeOp",
             "variant": 644
         }
-    ], 
-    "ops": "0", 
-    "programVariant": "208", 
-    "timeEvaluation": null, 
+    ],
     "timeTotal": "7321"
 }

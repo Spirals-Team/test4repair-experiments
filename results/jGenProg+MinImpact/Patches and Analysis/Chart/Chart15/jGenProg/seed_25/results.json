@@ -1,63 +1,59 @@
 {
-    "date": "Sat Jan 28 04:03:44 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
-    "gens": "486", 
-    "node": "grimoire-8.nancy.grid5000.fr", 
-    "operations": [
+    "date": "Sat Jan 28 04:03:44 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n\n",
+    "node": "grimoire-8.nancy.grid5000.fr",
+    "patches": [
         {
-            "buggyStatement": "if (isCircular()) {\n\tdouble min = (java.lang.Math.min(linkW, linkH)) / 2;\n\tlinkX = (((linkX + linkX) + linkW) / 2) - min;\n\tlinkY = (((linkY + linkY) + linkH) / 2) - min;\n\tlinkW = 2 * min;\n\tlinkH = 2 * min;\n} ", 
-            "generation": 1621, 
-            "ingredients": null, 
-            "patch": "if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {\n\tdrawNoDataMessage(g2, plotArea);\n\tg2.setClip(savedClip);\n\tdrawOutline(g2, plotArea);\n\treturn ;\n} ", 
+            "buggyStatement": "if (isCircular()) {\n\tdouble min = (java.lang.Math.min(linkW, linkH)) / 2;\n\tlinkX = (((linkX + linkX) + linkW) / 2) - min;\n\tlinkY = (((linkY + linkY) + linkH) / 2) - min;\n\tlinkW = 2 * min;\n\tlinkH = 2 * min;\n} ",
+            "generation": 1621,
+            "ingredients": null,
+            "patch": "if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {\n\tdrawNoDataMessage(g2, plotArea);\n\tg2.setClip(savedClip);\n\tdrawOutline(g2, plotArea);\n\treturn ;\n} ",
             "patchLocation": {
-                "className": "org.jfree.chart.plot.PiePlot3D", 
-                "line": 272, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.chart.plot.PiePlot3D",
+                "line": 272
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "12", 
-                "evaltcfailing": "1", 
-                "fvalresult": "true", 
-                "fvaltcall": "3", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "3579", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "6273", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.jfree.chart.plot.PiePlot3D_ESTest",
+                        "failingTestName": "06"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "12",
+                "numberAllTestRegression": "3579",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "6273",
+            "type": "ReplaceOp",
             "variant": 3242
-        }, 
+        },
         {
-            "buggyStatement": "if ((getLabelGenerator()) != null) {\n\tlabelPercent = (getLabelGap()) + (getMaximumLabelWidth());\n} ", 
-            "generation": 1641, 
-            "ingredients": null, 
-            "patch": "if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {\n\tdrawNoDataMessage(g2, plotArea);\n\tg2.setClip(savedClip);\n\tdrawOutline(g2, plotArea);\n\treturn ;\n} ", 
+            "buggyStatement": "if ((getLabelGenerator()) != null) {\n\tlabelPercent = (getLabelGap()) + (getMaximumLabelWidth());\n} ",
+            "generation": 1641,
+            "ingredients": null,
+            "patch": "if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {\n\tdrawNoDataMessage(g2, plotArea);\n\tg2.setClip(savedClip);\n\tdrawOutline(g2, plotArea);\n\treturn ;\n} ",
             "patchLocation": {
-                "className": "org.jfree.chart.plot.PiePlot3D", 
-                "line": 247, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.chart.plot.PiePlot3D",
+                "line": 247
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "12", 
-                "evaltcfailing": "1", 
-                "fvalresult": "true", 
-                "fvaltcall": "3", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "3579", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "6523", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.jfree.chart.plot.PiePlot3D_ESTest",
+                        "failingTestName": "06"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "12",
+                "numberAllTestRegression": "3579",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "6523",
+            "type": "ReplaceOp",
             "variant": 3282
         }
-    ], 
-    "ops": "0", 
-    "programVariant": "3242", 
-    "timeEvaluation": null, 
+    ],
     "timeTotal": "7787"
 }

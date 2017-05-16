@@ -1,245 +1,201 @@
 {
-    "date": "Mon Jan 16 01:21:52 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
-    "gens": "956", 
-    "node": "graphene-119.nancy.grid5000.fr", 
-    "operations": [
+    "date": "Mon Jan 16 01:21:52 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n\n",
+    "node": "graphene-119.nancy.grid5000.fr",
+    "patches": [
         {
-            "buggyStatement": "if (hasData && (renderer != null)) {\n\tfoundData = true;\n\torg.jfree.chart.renderer.category.CategoryItemRendererState state = renderer.initialise(g2, dataArea, org.jfree.chart.plot.CategoryPlot.this, index, info);\n\tint columnCount = currentDataset.getColumnCount();\n\tint rowCount = currentDataset.getRowCount();\n\tint passCount = renderer.getPassCount();\n\tfor (int pass = 0 ; pass < passCount ; pass++) {\n\t\tif ((org.jfree.chart.plot.CategoryPlot.this.columnRenderingOrder) == (org.jfree.chart.util.SortOrder.ASCENDING)) {\n\t\t\tfor (int column = 0 ; column < columnCount ; column++) {\n\t\t\t\tif ((org.jfree.chart.plot.CategoryPlot.this.rowRenderingOrder) == (org.jfree.chart.util.SortOrder.ASCENDING)) {\n\t\t\t\t\tfor (int row = 0 ; row < rowCount ; row++) {\n\t\t\t\t\t\trenderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);\n\t\t\t\t\t}\n\t\t\t\t} else {\n\t\t\t\t\tfor (int row = rowCount - 1 ; row >= 0 ; row--) {\n\t\t\t\t\t\trenderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t} else {\n\t\t\tfor (int column = columnCount - 1 ; column >= 0 ; column--) {\n\t\t\t\tif ((org.jfree.chart.plot.CategoryPlot.this.rowRenderingOrder) == (org.jfree.chart.util.SortOrder.ASCENDING)) {\n\t\t\t\t\tfor (int row = 0 ; row < rowCount ; row++) {\n\t\t\t\t\t\trenderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);\n\t\t\t\t\t}\n\t\t\t\t} else {\n\t\t\t\t\tfor (int row = rowCount - 1 ; row >= 0 ; row--) {\n\t\t\t\t\t\trenderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n} ", 
-            "generation": 62, 
-            "ingredients": null, 
-            "patch": "remove", 
+            "buggyStatement": "if (hasData && (renderer != null)) {\n\tfoundData = true;\n\torg.jfree.chart.renderer.category.CategoryItemRendererState state = renderer.initialise(g2, dataArea, org.jfree.chart.plot.CategoryPlot.this, index, info);\n\tint columnCount = currentDataset.getColumnCount();\n\tint rowCount = currentDataset.getRowCount();\n\tint passCount = renderer.getPassCount();\n\tfor (int pass = 0 ; pass < passCount ; pass++) {\n\t\tif ((org.jfree.chart.plot.CategoryPlot.this.columnRenderingOrder) == (org.jfree.chart.util.SortOrder.ASCENDING)) {\n\t\t\tfor (int column = 0 ; column < columnCount ; column++) {\n\t\t\t\tif ((org.jfree.chart.plot.CategoryPlot.this.rowRenderingOrder) == (org.jfree.chart.util.SortOrder.ASCENDING)) {\n\t\t\t\t\tfor (int row = 0 ; row < rowCount ; row++) {\n\t\t\t\t\t\trenderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);\n\t\t\t\t\t}\n\t\t\t\t} else {\n\t\t\t\t\tfor (int row = rowCount - 1 ; row >= 0 ; row--) {\n\t\t\t\t\t\trenderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t} else {\n\t\t\tfor (int column = columnCount - 1 ; column >= 0 ; column--) {\n\t\t\t\tif ((org.jfree.chart.plot.CategoryPlot.this.rowRenderingOrder) == (org.jfree.chart.util.SortOrder.ASCENDING)) {\n\t\t\t\t\tfor (int row = 0 ; row < rowCount ; row++) {\n\t\t\t\t\t\trenderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);\n\t\t\t\t\t}\n\t\t\t\t} else {\n\t\t\t\t\tfor (int row = rowCount - 1 ; row >= 0 ; row--) {\n\t\t\t\t\t\trenderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n} ",
+            "generation": 62,
+            "ingredients": null,
+            "patch": "remove",
             "patchLocation": {
-                "className": "org.jfree.chart.plot.CategoryPlot", 
-                "line": 2855, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.chart.plot.CategoryPlot",
+                "line": 2855
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "247", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "36", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "3243", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "-", 
-            "time": "1694", 
-            "type": "RemoveOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "247",
+                "numberAllTestRegression": "3243",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "1694",
+            "type": "RemoveOp",
             "variant": 124
-        }, 
+        },
         {
-            "buggyStatement": "if (order == (org.jfree.chart.plot.DatasetRenderingOrder.FORWARD)) {\n\tint datasetCount = org.jfree.chart.plot.CategoryPlot.this.datasets.size();\n\tfor (int i = 0 ; i < datasetCount ; i++) {\n\t\torg.jfree.chart.renderer.category.CategoryItemRenderer r = getRenderer(i);\n\t\tif (r != null) {\n\t\t\torg.jfree.chart.axis.CategoryAxis domainAxis = getDomainAxisForDataset(i);\n\t\t\torg.jfree.chart.axis.ValueAxis rangeAxis = getRangeAxisForDataset(i);\n\t\t\tr.drawAnnotations(g2, dataArea, domainAxis, rangeAxis, org.jfree.chart.util.Layer.BACKGROUND, state);\n\t\t} \n\t}\n\tfor (int i = 0 ; i < datasetCount ; i++) {\n\t\tfoundData = (render(g2, dataArea, i, state)) || foundData;\n\t}\n\tfor (int i = 0 ; i < datasetCount ; i++) {\n\t\torg.jfree.chart.renderer.category.CategoryItemRenderer r = getRenderer(i);\n\t\tif (r != null) {\n\t\t\torg.jfree.chart.axis.CategoryAxis domainAxis = getDomainAxisForDataset(i);\n\t\t\torg.jfree.chart.axis.ValueAxis rangeAxis = getRangeAxisForDataset(i);\n\t\t\tr.drawAnnotations(g2, dataArea, domainAxis, rangeAxis, org.jfree.chart.util.Layer.FOREGROUND, state);\n\t\t} \n\t}\n} else {\n\tint datasetCount = org.jfree.chart.plot.CategoryPlot.this.datasets.size();\n\tfor (int i = datasetCount - 1 ; i >= 0 ; i--) {\n\t\torg.jfree.chart.renderer.category.CategoryItemRenderer r = getRenderer(i);\n\t\tif (r != null) {\n\t\t\torg.jfree.chart.axis.CategoryAxis domainAxis = getDomainAxisForDataset(i);\n\t\t\torg.jfree.chart.axis.ValueAxis rangeAxis = getRangeAxisForDataset(i);\n\t\t\tr.drawAnnotations(g2, dataArea, domainAxis, rangeAxis, org.jfree.chart.util.Layer.BACKGROUND, state);\n\t\t} \n\t}\n\tfor (int i = (org.jfree.chart.plot.CategoryPlot.this.datasets.size()) - 1 ; i >= 0 ; i--) {\n\t\tfoundData = (render(g2, dataArea, i, state)) || foundData;\n\t}\n\tfor (int i = datasetCount - 1 ; i >= 0 ; i--) {\n\t\torg.jfree.chart.renderer.category.CategoryItemRenderer r = getRenderer(i);\n\t\tif (r != null) {\n\t\t\torg.jfree.chart.axis.CategoryAxis domainAxis = getDomainAxisForDataset(i);\n\t\t\torg.jfree.chart.axis.ValueAxis rangeAxis = getRangeAxisForDataset(i);\n\t\t\tr.drawAnnotations(g2, dataArea, domainAxis, rangeAxis, org.jfree.chart.util.Layer.FOREGROUND, state);\n\t\t} \n\t}\n}", 
-            "generation": 101, 
-            "ingredients": null, 
-            "patch": "remove", 
+            "buggyStatement": "if (order == (org.jfree.chart.plot.DatasetRenderingOrder.FORWARD)) {\n\tint datasetCount = org.jfree.chart.plot.CategoryPlot.this.datasets.size();\n\tfor (int i = 0 ; i < datasetCount ; i++) {\n\t\torg.jfree.chart.renderer.category.CategoryItemRenderer r = getRenderer(i);\n\t\tif (r != null) {\n\t\t\torg.jfree.chart.axis.CategoryAxis domainAxis = getDomainAxisForDataset(i);\n\t\t\torg.jfree.chart.axis.ValueAxis rangeAxis = getRangeAxisForDataset(i);\n\t\t\tr.drawAnnotations(g2, dataArea, domainAxis, rangeAxis, org.jfree.chart.util.Layer.BACKGROUND, state);\n\t\t} \n\t}\n\tfor (int i = 0 ; i < datasetCount ; i++) {\n\t\tfoundData = (render(g2, dataArea, i, state)) || foundData;\n\t}\n\tfor (int i = 0 ; i < datasetCount ; i++) {\n\t\torg.jfree.chart.renderer.category.CategoryItemRenderer r = getRenderer(i);\n\t\tif (r != null) {\n\t\t\torg.jfree.chart.axis.CategoryAxis domainAxis = getDomainAxisForDataset(i);\n\t\t\torg.jfree.chart.axis.ValueAxis rangeAxis = getRangeAxisForDataset(i);\n\t\t\tr.drawAnnotations(g2, dataArea, domainAxis, rangeAxis, org.jfree.chart.util.Layer.FOREGROUND, state);\n\t\t} \n\t}\n} else {\n\tint datasetCount = org.jfree.chart.plot.CategoryPlot.this.datasets.size();\n\tfor (int i = datasetCount - 1 ; i >= 0 ; i--) {\n\t\torg.jfree.chart.renderer.category.CategoryItemRenderer r = getRenderer(i);\n\t\tif (r != null) {\n\t\t\torg.jfree.chart.axis.CategoryAxis domainAxis = getDomainAxisForDataset(i);\n\t\t\torg.jfree.chart.axis.ValueAxis rangeAxis = getRangeAxisForDataset(i);\n\t\t\tr.drawAnnotations(g2, dataArea, domainAxis, rangeAxis, org.jfree.chart.util.Layer.BACKGROUND, state);\n\t\t} \n\t}\n\tfor (int i = (org.jfree.chart.plot.CategoryPlot.this.datasets.size()) - 1 ; i >= 0 ; i--) {\n\t\tfoundData = (render(g2, dataArea, i, state)) || foundData;\n\t}\n\tfor (int i = datasetCount - 1 ; i >= 0 ; i--) {\n\t\torg.jfree.chart.renderer.category.CategoryItemRenderer r = getRenderer(i);\n\t\tif (r != null) {\n\t\t\torg.jfree.chart.axis.CategoryAxis domainAxis = getDomainAxisForDataset(i);\n\t\t\torg.jfree.chart.axis.ValueAxis rangeAxis = getRangeAxisForDataset(i);\n\t\t\tr.drawAnnotations(g2, dataArea, domainAxis, rangeAxis, org.jfree.chart.util.Layer.FOREGROUND, state);\n\t\t} \n\t}\n}",
+            "generation": 101,
+            "ingredients": null,
+            "patch": "remove",
             "patchLocation": {
-                "className": "org.jfree.chart.plot.CategoryPlot", 
-                "line": 2629, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.chart.plot.CategoryPlot",
+                "line": 2629
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "247", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "36", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "3243", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "-", 
-            "time": "2016", 
-            "type": "RemoveOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "247",
+                "numberAllTestRegression": "3243",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "2016",
+            "type": "RemoveOp",
             "variant": 202
-        }, 
+        },
         {
-            "buggyStatement": "for (int pass = 0 ; pass < passCount ; pass++) {\n\tif ((org.jfree.chart.plot.CategoryPlot.this.columnRenderingOrder) == (org.jfree.chart.util.SortOrder.ASCENDING)) {\n\t\tfor (int column = 0 ; column < columnCount ; column++) {\n\t\t\tif ((org.jfree.chart.plot.CategoryPlot.this.rowRenderingOrder) == (org.jfree.chart.util.SortOrder.ASCENDING)) {\n\t\t\t\tfor (int row = 0 ; row < rowCount ; row++) {\n\t\t\t\t\trenderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);\n\t\t\t\t}\n\t\t\t} else {\n\t\t\t\tfor (int row = rowCount - 1 ; row >= 0 ; row--) {\n\t\t\t\t\trenderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t} else {\n\t\tfor (int column = columnCount - 1 ; column >= 0 ; column--) {\n\t\t\tif ((org.jfree.chart.plot.CategoryPlot.this.rowRenderingOrder) == (org.jfree.chart.util.SortOrder.ASCENDING)) {\n\t\t\t\tfor (int row = 0 ; row < rowCount ; row++) {\n\t\t\t\t\trenderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);\n\t\t\t\t}\n\t\t\t} else {\n\t\t\t\tfor (int row = rowCount - 1 ; row >= 0 ; row--) {\n\t\t\t\t\trenderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n}", 
-            "generation": 235, 
-            "ingredients": null, 
-            "patch": "remove", 
+            "buggyStatement": "for (int pass = 0 ; pass < passCount ; pass++) {\n\tif ((org.jfree.chart.plot.CategoryPlot.this.columnRenderingOrder) == (org.jfree.chart.util.SortOrder.ASCENDING)) {\n\t\tfor (int column = 0 ; column < columnCount ; column++) {\n\t\t\tif ((org.jfree.chart.plot.CategoryPlot.this.rowRenderingOrder) == (org.jfree.chart.util.SortOrder.ASCENDING)) {\n\t\t\t\tfor (int row = 0 ; row < rowCount ; row++) {\n\t\t\t\t\trenderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);\n\t\t\t\t}\n\t\t\t} else {\n\t\t\t\tfor (int row = rowCount - 1 ; row >= 0 ; row--) {\n\t\t\t\t\trenderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t} else {\n\t\tfor (int column = columnCount - 1 ; column >= 0 ; column--) {\n\t\t\tif ((org.jfree.chart.plot.CategoryPlot.this.rowRenderingOrder) == (org.jfree.chart.util.SortOrder.ASCENDING)) {\n\t\t\t\tfor (int row = 0 ; row < rowCount ; row++) {\n\t\t\t\t\trenderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);\n\t\t\t\t}\n\t\t\t} else {\n\t\t\t\tfor (int row = rowCount - 1 ; row >= 0 ; row--) {\n\t\t\t\t\trenderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n}",
+            "generation": 235,
+            "ingredients": null,
+            "patch": "remove",
             "patchLocation": {
-                "className": "org.jfree.chart.plot.CategoryPlot", 
-                "line": 2863, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.chart.plot.CategoryPlot",
+                "line": 2863
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "247", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "36", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "3243", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "-", 
-            "time": "3283", 
-            "type": "RemoveOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "247",
+                "numberAllTestRegression": "3243",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "3283",
+            "type": "RemoveOp",
             "variant": 470
-        }, 
+        },
         {
-            "buggyStatement": "foundData = (render(g2, dataArea, i, state)) || foundData", 
-            "generation": 362, 
-            "ingredients": null, 
-            "patch": "foundData = true", 
+            "buggyStatement": "foundData = (render(g2, dataArea, i, state)) || foundData",
+            "generation": 362,
+            "ingredients": null,
+            "patch": "foundData = true",
             "patchLocation": {
-                "className": "org.jfree.chart.plot.CategoryPlot", 
-                "line": 2673, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.chart.plot.CategoryPlot",
+                "line": 2673
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "247", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "36", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "3243", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "4208", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "247",
+                "numberAllTestRegression": "3243",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "4208",
+            "type": "ReplaceOp",
             "variant": 724
-        }, 
+        },
         {
-            "buggyStatement": "for (int row = 0 ; row < rowCount ; row++) {\n\trenderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);\n}", 
-            "generation": 373, 
-            "ingredients": null, 
-            "patch": "remove", 
+            "buggyStatement": "for (int row = 0 ; row < rowCount ; row++) {\n\trenderer.drawItem(g2, state, dataArea, org.jfree.chart.plot.CategoryPlot.this, domainAxis, rangeAxis, currentDataset, row, column, pass);\n}",
+            "generation": 373,
+            "ingredients": null,
+            "patch": "remove",
             "patchLocation": {
-                "className": "org.jfree.chart.plot.CategoryPlot", 
-                "line": 2867, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.chart.plot.CategoryPlot",
+                "line": 2867
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "247", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "36", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "3243", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "-", 
-            "time": "4366", 
-            "type": "RemoveOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "247",
+                "numberAllTestRegression": "3243",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "4366",
+            "type": "RemoveOp",
             "variant": 746
-        }, 
+        },
         {
-            "buggyStatement": "if (orientation == (org.jfree.chart.plot.PlotOrientation.HORIZONTAL)) {\n\tdrawHorizontalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, statData, row, column);\n} else {\n\tif (orientation == (org.jfree.chart.plot.PlotOrientation.VERTICAL)) {\n\t\tdrawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, statData, row, column);\n\t} \n}", 
-            "generation": 432, 
-            "ingredients": null, 
-            "patch": "remove", 
+            "buggyStatement": "if (orientation == (org.jfree.chart.plot.PlotOrientation.HORIZONTAL)) {\n\tdrawHorizontalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, statData, row, column);\n} else {\n\tif (orientation == (org.jfree.chart.plot.PlotOrientation.VERTICAL)) {\n\t\tdrawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, statData, row, column);\n\t} \n}",
+            "generation": 432,
+            "ingredients": null,
+            "patch": "remove",
             "patchLocation": {
-                "className": "org.jfree.chart.renderer.category.StatisticalBarRenderer", 
-                "line": 207, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.chart.renderer.category.StatisticalBarRenderer",
+                "line": 207
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "14", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "36", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "3243", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "-", 
-            "time": "5014", 
-            "type": "RemoveOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "14",
+                "numberAllTestRegression": "3243",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "5014",
+            "type": "RemoveOp",
             "variant": 864
-        }, 
+        },
         {
-            "buggyStatement": "return getMeanValue(row, column)", 
-            "generation": 478, 
-            "ingredients": null, 
-            "patch": "return null", 
+            "buggyStatement": "return getMeanValue(row, column)",
+            "generation": 478,
+            "ingredients": null,
+            "patch": "return null",
             "patchLocation": {
-                "className": "org.jfree.data.statistics.DefaultStatisticalCategoryDataset", 
-                "line": 126, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.data.statistics.DefaultStatisticalCategoryDataset",
+                "line": 126
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "71", 
-                "evaltcfailing": "3", 
-                "fvalresult": "true", 
-                "fvaltcall": "36", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "3243", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "PACKAGE", 
-            "time": "5487", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest",
+                        "failingTestName": "05"
+                    },
+                    {
+                        "failingClassName": "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest",
+                        "failingTestName": "29"
+                    },
+                    {
+                        "failingClassName": "org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest",
+                        "failingTestName": "65"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "71",
+                "numberAllTestRegression": "3243",
+                "numberEvosuiteFailing": "3",
+                "numberInitialFailing": "0"
+            },
+            "scope": "PACKAGE",
+            "time": "5487",
+            "type": "ReplaceOp",
             "variant": 956
-        }, 
+        },
         {
-            "buggyStatement": "org.jfree.data.KeyedObjects2D.this.rowKeys.add(rowKey)", 
-            "generation": 540, 
-            "ingredients": null, 
-            "patch": "remove", 
+            "buggyStatement": "result = rowData.getObject(columnKey)",
+            "generation": 582,
+            "ingredients": null,
+            "patch": "org.jfree.data.KeyedObjects2D.this.rowKeys = new java.util.ArrayList()",
             "patchLocation": {
-                "className": "org.jfree.data.KeyedObjects2D", 
-                "line": 232, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.data.KeyedObjects2D",
+                "line": 113
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "49", 
-                "evaltcfailing": "16", 
-                "fvalresult": "true", 
-                "fvaltcall": "36", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "false", 
-                "mvaltcall": "3243", 
-                "mvaltcfailing": "2"
-            }, 
-            "scope": "-", 
-            "time": "6095", 
-            "type": "RemoveOp", 
-            "variant": 1080
-        }, 
-        {
-            "buggyStatement": "result = rowData.getObject(columnKey)", 
-            "generation": 582, 
-            "ingredients": null, 
-            "patch": "org.jfree.data.KeyedObjects2D.this.rowKeys = new java.util.ArrayList()", 
-            "patchLocation": {
-                "className": "org.jfree.data.KeyedObjects2D", 
-                "line": 113, 
-                "lineSusp": "0"
-            }, 
-            "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "49", 
-                "evaltcfailing": "3", 
-                "fvalresult": "true", 
-                "fvaltcall": "36", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "3243", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "6384", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.jfree.data.KeyedObjects2D_ESTest",
+                        "failingTestName": "29"
+                    },
+                    {
+                        "failingClassName": "org.jfree.data.KeyedObjects2D_ESTest",
+                        "failingTestName": "27"
+                    },
+                    {
+                        "failingClassName": "org.jfree.data.KeyedObjects2D_ESTest",
+                        "failingTestName": "01"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "49",
+                "numberAllTestRegression": "3243",
+                "numberEvosuiteFailing": "3",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "6384",
+            "type": "ReplaceOp",
             "variant": 1164
         }
-    ], 
-    "ops": "0", 
-    "programVariant": "124", 
-    "timeEvaluation": null, 
+    ],
     "timeTotal": "9062"
 }

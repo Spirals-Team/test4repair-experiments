@@ -1,89 +1,70 @@
 {
-    "date": "Sat Jan 14 00:38:38 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
-    "gens": "278", 
-    "node": "grisou-21.nancy.grid5000.fr", 
-    "operations": [
+    "date": "Sat Jan 14 00:38:38 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n\n",
+    "node": "grisou-21.nancy.grid5000.fr",
+    "patches": [
         {
-            "buggyStatement": "if ((ga * gb) > 0) {\n\tfinal double epsilon = (forward ? 0.25 : -0.25) * (convergence);\n\tfor (int k = 0 ; (k < 4) && ((ga * gb) > 0) ; ++k) {\n\t\tta += epsilon;\n\t\tinterpolator.setInterpolatedTime(ta);\n\t\tga = handler.g(ta, interpolator.getInterpolatedState());\n\t}\n\tif ((ga * gb) > 0) {\n\t\tthrow org.apache.commons.math.MathRuntimeException.createInternalError(null);\n\t} \n} ", 
-            "generation": 7, 
-            "ingredients": null, 
-            "patch": "pendingEvent = true", 
+            "buggyStatement": "if ((ga * gb) > 0) {\n\tfinal double epsilon = (forward ? 0.25 : -0.25) * (convergence);\n\tfor (int k = 0 ; (k < 4) && ((ga * gb) > 0) ; ++k) {\n\t\tta += epsilon;\n\t\tinterpolator.setInterpolatedTime(ta);\n\t\tga = handler.g(ta, interpolator.getInterpolatedState());\n\t}\n\tif ((ga * gb) > 0) {\n\t\tthrow org.apache.commons.math.MathRuntimeException.createInternalError(null);\n\t} \n} ",
+            "generation": 7,
+            "ingredients": null,
+            "patch": "pendingEvent = true",
             "patchLocation": {
-                "className": "org.apache.commons.math.ode.events.EventState", 
-                "line": 191, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.ode.events.EventState",
+                "line": 191
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "22", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "19", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2169", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "338", 
-            "type": "InsertBeforeOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "22",
+                "numberAllTestRegression": "2169",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "338",
+            "type": "InsertBeforeOp",
             "variant": 14
-        }, 
+        },
         {
-            "buggyStatement": "interpolator.setInterpolatedTime(tb)", 
-            "generation": 158, 
-            "ingredients": null, 
-            "patch": "if ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {\n\treturn false;\n} ", 
+            "buggyStatement": "interpolator.setInterpolatedTime(tb)",
+            "generation": 158,
+            "ingredients": null,
+            "patch": "if ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {\n\treturn false;\n} ",
             "patchLocation": {
-                "className": "org.apache.commons.math.ode.events.EventState", 
-                "line": 184, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.ode.events.EventState",
+                "line": 184
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "22", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "19", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2169", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "2905", 
-            "type": "InsertBeforeOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "22",
+                "numberAllTestRegression": "2169",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "2905",
+            "type": "InsertBeforeOp",
             "variant": 316
-        }, 
+        },
         {
-            "buggyStatement": "return true", 
-            "generation": 233, 
-            "ingredients": null, 
-            "patch": "if (((java.lang.Math.abs((root - ta))) <= (convergence)) && ((java.lang.Math.abs((root - (previousEventTime)))) <= (convergence))) {\n\tta = tb;\n\tga = gb;\n} else {\n\tif ((java.lang.Double.isNaN(previousEventTime)) || ((java.lang.Math.abs(((previousEventTime) - root))) > (convergence))) {\n\t\tpendingEventTime = root;\n\t\tif ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {\n\t\t\treturn false;\n\t\t} \n\t\tpendingEvent = true;\n\t\treturn true;\n\t} \n}", 
+            "buggyStatement": "return true",
+            "generation": 233,
+            "ingredients": null,
+            "patch": "if (((java.lang.Math.abs((root - ta))) <= (convergence)) && ((java.lang.Math.abs((root - (previousEventTime)))) <= (convergence))) {\n\tta = tb;\n\tga = gb;\n} else {\n\tif ((java.lang.Double.isNaN(previousEventTime)) || ((java.lang.Math.abs(((previousEventTime) - root))) > (convergence))) {\n\t\tpendingEventTime = root;\n\t\tif ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {\n\t\t\treturn false;\n\t\t} \n\t\tpendingEvent = true;\n\t\treturn true;\n\t} \n}",
             "patchLocation": {
-                "className": "org.apache.commons.math.ode.events.EventState", 
-                "line": 248, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.ode.events.EventState",
+                "line": 248
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "22", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "19", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2169", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "4055", 
-            "type": "InsertBeforeOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "22",
+                "numberAllTestRegression": "2169",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "4055",
+            "type": "InsertBeforeOp",
             "variant": 466
         }
-    ], 
-    "ops": "0", 
-    "programVariant": "14", 
-    "timeEvaluation": null, 
+    ],
     "timeTotal": "7398"
 }

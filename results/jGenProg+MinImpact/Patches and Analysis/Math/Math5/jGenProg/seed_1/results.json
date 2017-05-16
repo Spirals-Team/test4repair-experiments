@@ -1,37 +1,37 @@
 {
-    "date": "Tue Jan 17 02:05:40 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
-    "gens": "8", 
-    "node": "griffon-26.nancy.grid5000.fr", 
-    "operations": [
+    "date": "Tue Jan 17 02:05:40 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n\n",
+    "node": "griffon-26.nancy.grid5000.fr",
+    "patches": [
         {
-            "buggyStatement": "return org.apache.commons.math3.complex.Complex.NaN", 
-            "generation": 315, 
-            "ingredients": null, 
-            "patch": "return org.apache.commons.math3.complex.Complex.INF", 
+            "buggyStatement": "return org.apache.commons.math3.complex.Complex.NaN",
+            "generation": 315,
+            "ingredients": null,
+            "patch": "return org.apache.commons.math3.complex.Complex.INF",
             "patchLocation": {
-                "className": "org.apache.commons.math3.complex.Complex", 
-                "line": 305, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math3.complex.Complex",
+                "line": 305
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "167", 
-                "evaltcfailing": "2", 
-                "fvalresult": "true", 
-                "fvaltcall": "123", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "4881", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "1918", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math3.complex.Complex_ESTest",
+                        "failingTestName": "111"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math3.complex.Complex_ESTest",
+                        "failingTestName": "085"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "167",
+                "numberAllTestRegression": "4881",
+                "numberEvosuiteFailing": "2",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "1918",
+            "type": "ReplaceOp",
             "variant": 630
         }
-    ], 
-    "ops": "0", 
-    "programVariant": "630", 
-    "timeEvaluation": null, 
+    ],
     "timeTotal": "8109"
 }

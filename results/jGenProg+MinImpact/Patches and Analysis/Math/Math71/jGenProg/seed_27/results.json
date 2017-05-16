@@ -1,63 +1,49 @@
 {
-    "date": "Sat Jan 28 15:48:53 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
-    "gens": "323", 
-    "node": "grisou-2.nancy.grid5000.fr", 
-    "operations": [
+    "date": "Sat Jan 28 15:48:53 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n\n",
+    "node": "grisou-2.nancy.grid5000.fr",
+    "patches": [
         {
-            "buggyStatement": "solver.setAbsoluteAccuracy(convergence)", 
-            "generation": 101, 
-            "ingredients": null, 
-            "patch": "if ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {\n\treturn false;\n} ", 
+            "buggyStatement": "solver.setAbsoluteAccuracy(convergence)",
+            "generation": 101,
+            "ingredients": null,
+            "patch": "if ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {\n\treturn false;\n} ",
             "patchLocation": {
-                "className": "org.apache.commons.math.ode.events.EventState", 
-                "line": 227, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.ode.events.EventState",
+                "line": 227
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "22", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "19", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2151", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "1287", 
-            "type": "InsertAfterOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "22",
+                "numberAllTestRegression": "2151",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "1287",
+            "type": "InsertAfterOp",
             "variant": 202
-        }, 
+        },
         {
-            "buggyStatement": "if ((ga * gb) > 0) {\n\tfinal double epsilon = (forward ? 0.25 : -0.25) * (convergence);\n\tfor (int k = 0 ; (k < 4) && ((ga * gb) > 0) ; ++k) {\n\t\tta += epsilon;\n\t\tinterpolator.setInterpolatedTime(ta);\n\t\tga = handler.g(ta, interpolator.getInterpolatedState());\n\t}\n\tif ((ga * gb) > 0) {\n\t\tthrow org.apache.commons.math.MathRuntimeException.createInternalError(null);\n\t} \n} ", 
-            "generation": 803, 
-            "ingredients": null, 
-            "patch": "if ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {\n\treturn false;\n} ", 
+            "buggyStatement": "if ((ga * gb) > 0) {\n\tfinal double epsilon = (forward ? 0.25 : -0.25) * (convergence);\n\tfor (int k = 0 ; (k < 4) && ((ga * gb) > 0) ; ++k) {\n\t\tta += epsilon;\n\t\tinterpolator.setInterpolatedTime(ta);\n\t\tga = handler.g(ta, interpolator.getInterpolatedState());\n\t}\n\tif ((ga * gb) > 0) {\n\t\tthrow org.apache.commons.math.MathRuntimeException.createInternalError(null);\n\t} \n} ",
+            "generation": 803,
+            "ingredients": null,
+            "patch": "if ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {\n\treturn false;\n} ",
             "patchLocation": {
-                "className": "org.apache.commons.math.ode.events.EventState", 
-                "line": 191, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.ode.events.EventState",
+                "line": 191
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "22", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "19", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2151", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "6242", 
-            "type": "InsertAfterOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "22",
+                "numberAllTestRegression": "2151",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "6242",
+            "type": "InsertAfterOp",
             "variant": 1606
         }
-    ], 
-    "ops": "0", 
-    "programVariant": "202", 
-    "timeEvaluation": null, 
+    ],
     "timeTotal": "7474"
 }

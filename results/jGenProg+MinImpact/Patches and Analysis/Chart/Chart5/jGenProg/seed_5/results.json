@@ -1,63 +1,67 @@
 {
-    "date": "Thu Jan 12 00:07:33 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
-    "gens": "19", 
-    "node": "graphene-80.nancy.grid5000.fr", 
-    "operations": [
+    "date": "Thu Jan 12 00:07:33 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n\n",
+    "node": "graphene-80.nancy.grid5000.fr",
+    "patches": [
         {
-            "buggyStatement": "org.jfree.data.xy.XYSeries.this.data.add(((-index) - 1), new org.jfree.data.xy.XYDataItem(x , y))", 
-            "generation": 228, 
-            "ingredients": null, 
-            "patch": "add(x, y, true)", 
+            "buggyStatement": "org.jfree.data.xy.XYSeries.this.data.add(((-index) - 1), new org.jfree.data.xy.XYDataItem(x , y))",
+            "generation": 228,
+            "ingredients": null,
+            "patch": "add(x, y, true)",
             "patchLocation": {
-                "className": "org.jfree.data.xy.XYSeries", 
-                "line": 564, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.data.xy.XYSeries",
+                "line": 564
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "103", 
-                "evaltcfailing": "2", 
-                "fvalresult": "true", 
-                "fvaltcall": "21", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "4081", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "560", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.jfree.data.xy.XYSeries_ESTest",
+                        "failingTestName": "004"
+                    },
+                    {
+                        "failingClassName": "org.jfree.data.xy.XYSeries_ESTest",
+                        "failingTestName": "095"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "103",
+                "numberAllTestRegression": "4081",
+                "numberEvosuiteFailing": "2",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "560",
+            "type": "ReplaceOp",
             "variant": 456
-        }, 
+        },
         {
-            "buggyStatement": "org.jfree.data.xy.XYSeries.this.data.add(((-index) - 1), new org.jfree.data.xy.XYDataItem(x , y))", 
-            "generation": 387, 
-            "ingredients": null, 
-            "patch": "org.jfree.data.xy.XYSeries.this.data.add(new org.jfree.data.xy.XYDataItem(x , y))", 
+            "buggyStatement": "org.jfree.data.xy.XYSeries.this.data.add(((-index) - 1), new org.jfree.data.xy.XYDataItem(x , y))",
+            "generation": 387,
+            "ingredients": null,
+            "patch": "org.jfree.data.xy.XYSeries.this.data.add(new org.jfree.data.xy.XYDataItem(x , y))",
             "patchLocation": {
-                "className": "org.jfree.data.xy.XYSeries", 
-                "line": 564, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.data.xy.XYSeries",
+                "line": 564
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "103", 
-                "evaltcfailing": "2", 
-                "fvalresult": "true", 
-                "fvaltcall": "21", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "4081", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "824", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.jfree.data.xy.XYSeries_ESTest",
+                        "failingTestName": "004"
+                    },
+                    {
+                        "failingClassName": "org.jfree.data.xy.XYSeries_ESTest",
+                        "failingTestName": "095"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "103",
+                "numberAllTestRegression": "4081",
+                "numberEvosuiteFailing": "2",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "824",
+            "type": "ReplaceOp",
             "variant": 774
         }
-    ], 
-    "ops": "0", 
-    "programVariant": "456", 
-    "timeEvaluation": null, 
+    ],
     "timeTotal": "7306"
 }

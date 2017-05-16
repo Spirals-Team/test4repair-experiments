@@ -1,37 +1,37 @@
 {
-    "date": "Sun Feb 12 20:05:52 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
-    "gens": "486", 
-    "node": "graphite-1.nancy.grid5000.fr", 
-    "operations": [
+    "date": "Sun Feb 12 20:05:52 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n\n",
+    "node": "graphite-1.nancy.grid5000.fr",
+    "patches": [
         {
-            "buggyStatement": "double gapVertical = ((plotArea.getHeight()) * gapPercent) * 2.0", 
-            "generation": 303, 
-            "ingredients": null, 
-            "patch": "if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {\n\tdrawNoDataMessage(g2, plotArea);\n\tg2.setClip(savedClip);\n\tdrawOutline(g2, plotArea);\n\treturn ;\n} ", 
+            "buggyStatement": "double gapVertical = ((plotArea.getHeight()) * gapPercent) * 2.0",
+            "generation": 303,
+            "ingredients": null,
+            "patch": "if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {\n\tdrawNoDataMessage(g2, plotArea);\n\tg2.setClip(savedClip);\n\tdrawOutline(g2, plotArea);\n\treturn ;\n} ",
             "patchLocation": {
-                "className": "org.jfree.chart.plot.PiePlot3D", 
-                "line": 252, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.chart.plot.PiePlot3D",
+                "line": 252
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "14", 
-                "evaltcfailing": "2", 
-                "fvalresult": "true", 
-                "fvaltcall": "3", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "3579", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "1955", 
-            "type": "InsertAfterOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.jfree.chart.plot.PiePlot3D_ESTest",
+                        "failingTestName": "02"
+                    },
+                    {
+                        "failingClassName": "org.jfree.chart.plot.PiePlot3D_ESTest",
+                        "failingTestName": "07"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "14",
+                "numberAllTestRegression": "3579",
+                "numberEvosuiteFailing": "2",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "1955",
+            "type": "InsertAfterOp",
             "variant": 606
         }
-    ], 
-    "ops": "0", 
-    "programVariant": "606", 
-    "timeEvaluation": null, 
+    ],
     "timeTotal": "7920"
 }

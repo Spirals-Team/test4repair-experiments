@@ -1,167 +1,138 @@
 {
-    "date": "Sat Jan 28 02:41:18 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
-    "gens": "75", 
-    "node": "graphene-104.nancy.grid5000.fr", 
-    "operations": [
+    "date": "Sat Jan 28 02:41:18 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n\n",
+    "node": "graphene-104.nancy.grid5000.fr",
+    "patches": [
         {
-            "buggyStatement": "item = ((org.jfree.data.time.TimeSeriesDataItem)(item.clone()))", 
-            "generation": 314, 
-            "ingredients": null, 
-            "patch": "updateBoundsForRemovedItem(item)", 
+            "buggyStatement": "item = ((org.jfree.data.time.TimeSeriesDataItem)(item.clone()))",
+            "generation": 314,
+            "ingredients": null,
+            "patch": "updateBoundsForRemovedItem(item)",
             "patchLocation": {
-                "className": "org.jfree.data.time.TimeSeries", 
-                "line": 579, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.data.time.TimeSeries",
+                "line": 579
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "148", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "37", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "4390", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "1251", 
-            "type": "InsertAfterOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "148",
+                "numberAllTestRegression": "4390",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "1251",
+            "type": "InsertAfterOp",
             "variant": 628
-        }, 
+        },
         {
-            "buggyStatement": "fireSeriesChanged()", 
-            "generation": 361, 
-            "ingredients": null, 
-            "patch": "findBoundsByIteration()", 
+            "buggyStatement": "fireSeriesChanged()",
+            "generation": 361,
+            "ingredients": null,
+            "patch": "findBoundsByIteration()",
             "patchLocation": {
-                "className": "org.jfree.data.time.TimeSeries", 
-                "line": 638, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.data.time.TimeSeries",
+                "line": 638
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "148", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "37", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "4390", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "1583", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "148",
+                "numberAllTestRegression": "4390",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "1583",
+            "type": "ReplaceOp",
             "variant": 722
-        }, 
+        },
         {
-            "buggyStatement": "return org.jfree.data.time.TimeSeries.this.data.size()", 
-            "generation": 714, 
-            "ingredients": null, 
-            "patch": "findBoundsByIteration()", 
+            "buggyStatement": "return org.jfree.data.time.TimeSeries.this.data.size()",
+            "generation": 714,
+            "ingredients": null,
+            "patch": "findBoundsByIteration()",
             "patchLocation": {
-                "className": "org.jfree.data.time.TimeSeries", 
-                "line": 254, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.data.time.TimeSeries",
+                "line": 254
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "148", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "37", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "4390", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "2833", 
-            "type": "InsertBeforeOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "148",
+                "numberAllTestRegression": "4390",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "2833",
+            "type": "InsertBeforeOp",
             "variant": 1428
-        }, 
+        },
         {
-            "buggyStatement": "if ((getItemCount()) > 1) {\n\tlong latest = getTimePeriod(((getItemCount()) - 1)).getSerialIndex();\n\tboolean removed = false;\n\twhile ((latest - (getTimePeriod(0).getSerialIndex())) > (org.jfree.data.time.TimeSeries.this.maximumItemAge)) {\n\t\torg.jfree.data.time.TimeSeries.this.data.remove(0);\n\t\tremoved = true;\n\t}\n\tif (removed) {\n\t\tfindBoundsByIteration();\n\t\tif (notify) {\n\t\t\tfireSeriesChanged();\n\t\t} \n\t} \n} ", 
-            "generation": 2000, 
-            "ingredients": null, 
-            "patch": "findBoundsByIteration()", 
+            "buggyStatement": "if ((getItemCount()) > 1) {\n\tlong latest = getTimePeriod(((getItemCount()) - 1)).getSerialIndex();\n\tboolean removed = false;\n\twhile ((latest - (getTimePeriod(0).getSerialIndex())) > (org.jfree.data.time.TimeSeries.this.maximumItemAge)) {\n\t\torg.jfree.data.time.TimeSeries.this.data.remove(0);\n\t\tremoved = true;\n\t}\n\tif (removed) {\n\t\tfindBoundsByIteration();\n\t\tif (notify) {\n\t\t\tfireSeriesChanged();\n\t\t} \n\t} \n} ",
+            "generation": 2000,
+            "ingredients": null,
+            "patch": "findBoundsByIteration()",
             "patchLocation": {
-                "className": "org.jfree.data.time.TimeSeries", 
-                "line": 877, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.data.time.TimeSeries",
+                "line": 877
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "148", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "37", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "4390", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "6053", 
-            "type": "InsertBeforeOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "148",
+                "numberAllTestRegression": "4390",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "6053",
+            "type": "InsertBeforeOp",
             "variant": 4000
-        }, 
+        },
         {
-            "buggyStatement": "updateBoundsForAddedItem(item)", 
-            "generation": 2010, 
-            "ingredients": null, 
-            "patch": "findBoundsByIteration()", 
+            "buggyStatement": "updateBoundsForAddedItem(item)",
+            "generation": 2010,
+            "ingredients": null,
+            "patch": "findBoundsByIteration()",
             "patchLocation": {
-                "className": "org.jfree.data.time.TimeSeries", 
-                "line": 627, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.data.time.TimeSeries",
+                "line": 627
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "148", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "37", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "4390", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "6281", 
-            "type": "InsertAfterOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "148",
+                "numberAllTestRegression": "4390",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "6281",
+            "type": "InsertAfterOp",
             "variant": 4020
-        }, 
+        },
         {
-            "buggyStatement": "add(item, true)", 
-            "generation": 2309, 
-            "ingredients": null, 
-            "patch": "updateBoundsForRemovedItem(item)", 
+            "buggyStatement": "add(item, true)",
+            "generation": 2309,
+            "ingredients": null,
+            "patch": "updateBoundsForRemovedItem(item)",
             "patchLocation": {
-                "className": "org.jfree.data.time.TimeSeries", 
-                "line": 564, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.data.time.TimeSeries",
+                "line": 564
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "148", 
-                "evaltcfailing": "1", 
-                "fvalresult": "true", 
-                "fvaltcall": "37", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "4390", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "7246", 
-            "type": "InsertBeforeOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.jfree.data.time.TimeSeries_ESTest",
+                        "failingTestName": "057"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "148",
+                "numberAllTestRegression": "4390",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "7246",
+            "type": "InsertBeforeOp",
             "variant": 4618
         }
-    ], 
-    "ops": "0", 
-    "programVariant": "628", 
-    "timeEvaluation": null, 
+    ],
     "timeTotal": "7334"
 }
