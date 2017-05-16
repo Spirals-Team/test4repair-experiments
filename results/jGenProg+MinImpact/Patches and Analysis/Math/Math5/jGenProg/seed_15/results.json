@@ -1,37 +1,33 @@
 {
-    "date": "Mon Jan 16 04:53:14 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
-    "gens": "8", 
-    "node": "graphene-92.nancy.grid5000.fr", 
-    "operations": [
+    "date": "Mon Jan 16 04:53:14 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n\n",
+    "node": "graphene-92.nancy.grid5000.fr",
+    "patches": [
         {
-            "buggyStatement": "return org.apache.commons.math3.complex.Complex.NaN", 
-            "generation": 53, 
-            "ingredients": null, 
-            "patch": "return org.apache.commons.math3.complex.Complex.INF", 
+            "buggyStatement": "return org.apache.commons.math3.complex.Complex.NaN",
+            "generation": 53,
+            "ingredients": null,
+            "patch": "return org.apache.commons.math3.complex.Complex.INF",
             "patchLocation": {
-                "className": "org.apache.commons.math3.complex.Complex", 
-                "line": 305, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math3.complex.Complex",
+                "line": 305
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "167", 
-                "evaltcfailing": "1", 
-                "fvalresult": "true", 
-                "fvaltcall": "123", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "4881", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "1065", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math3.complex.Complex_ESTest",
+                        "failingTestName": "140"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "167",
+                "numberAllTestRegression": "4881",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "1065",
+            "type": "ReplaceOp",
             "variant": 106
         }
-    ], 
-    "ops": "0", 
-    "programVariant": "106", 
-    "timeEvaluation": null, 
+    ],
     "timeTotal": "8093"
 }

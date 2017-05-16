@@ -1,63 +1,54 @@
 {
-    "date": "Sat Jan 14 22:18:51 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
-    "gens": "9", 
-    "node": "graphene-95.nancy.grid5000.fr", 
-    "operations": [
+    "date": "Sat Jan 14 22:18:51 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n\n",
+    "node": "graphene-95.nancy.grid5000.fr",
+    "patches": [
         {
-            "buggyStatement": "return solve(min, max)", 
-            "generation": 225, 
-            "ingredients": null, 
-            "patch": "return solve(f, initial, max)", 
+            "buggyStatement": "return solve(min, max)",
+            "generation": 225,
+            "ingredients": null,
+            "patch": "return solve(f, initial, max)",
             "patchLocation": {
-                "className": "org.apache.commons.math.analysis.solvers.BisectionSolver", 
-                "line": 72, 
-                "lineSusp": "1"
-            }, 
+                "className": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+                "line": 72
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "21", 
-                "evaltcfailing": "1", 
-                "fvalresult": "true", 
-                "fvaltcall": "12", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2184", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "PACKAGE", 
-            "time": "584", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest",
+                        "failingTestName": "19"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "21",
+                "numberAllTestRegression": "2184",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "PACKAGE",
+            "time": "584",
+            "type": "ReplaceOp",
             "variant": 450
-        }, 
+        },
         {
-            "buggyStatement": "return solve(min, max)", 
-            "generation": 279, 
-            "ingredients": null, 
-            "patch": "return solve(f, min, max)", 
+            "buggyStatement": "return solve(min, max)",
+            "generation": 279,
+            "ingredients": null,
+            "patch": "return solve(f, min, max)",
             "patchLocation": {
-                "className": "org.apache.commons.math.analysis.solvers.BisectionSolver", 
-                "line": 72, 
-                "lineSusp": "1"
-            }, 
+                "className": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+                "line": 72
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "21", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "12", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2184", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "726", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "21",
+                "numberAllTestRegression": "2184",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "726",
+            "type": "ReplaceOp",
             "variant": 558
         }
-    ], 
-    "ops": "0", 
-    "programVariant": "450", 
-    "timeEvaluation": null, 
+    ],
     "timeTotal": "7290"
 }

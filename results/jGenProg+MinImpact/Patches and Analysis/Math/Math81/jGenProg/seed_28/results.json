@@ -1,245 +1,356 @@
 {
-    "date": "Sat Jan 28 11:30:18 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
-    "gens": "351", 
-    "node": "grisou-1.nancy.grid5000.fr", 
-    "operations": [
+    "date": "Sat Jan 28 11:30:18 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n\n",
+    "node": "grisou-1.nancy.grid5000.fr",
+    "patches": [
         {
-            "buggyStatement": "a2 = 0.0", 
-            "generation": 55, 
-            "ingredients": null, 
-            "patch": "upperSpectra = java.lang.Double.NEGATIVE_INFINITY", 
+            "buggyStatement": "a2 = 0.0",
+            "generation": 55,
+            "ingredients": null,
+            "patch": "upperSpectra = java.lang.Double.NEGATIVE_INFINITY",
             "patchLocation": {
-                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
-                "line": 1480, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl",
+                "line": 1480
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "50", 
-                "evaltcfailing": "4", 
-                "fvalresult": "true", 
-                "fvaltcall": "17", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2101", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "2798", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "14"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "17"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "31"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "27"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "50",
+                "numberAllTestRegression": "2101",
+                "numberEvosuiteFailing": "4",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "2798",
+            "type": "ReplaceOp",
             "variant": 110
-        }, 
+        },
         {
-            "buggyStatement": "b2 = (work[(nn - 13)]) / (work[(nn - 15)])", 
-            "generation": 59, 
-            "ingredients": null, 
-            "patch": "b2 = java.lang.Math.sqrt((cnst3 * b2))", 
+            "buggyStatement": "b2 = (work[(nn - 13)]) / (work[(nn - 15)])",
+            "generation": 59,
+            "ingredients": null,
+            "patch": "b2 = java.lang.Math.sqrt((cnst3 * b2))",
             "patchLocation": {
-                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
-                "line": 1544, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl",
+                "line": 1544
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "50", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "17", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2101", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "2921", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "50",
+                "numberAllTestRegression": "2101",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "2921",
+            "type": "ReplaceOp",
             "variant": 118
-        }, 
+        },
         {
-            "buggyStatement": "if (a2 < cnst1) {\n\ts = (gam * (1 - (java.lang.Math.sqrt(a2)))) / (1 + a2);\n} ", 
-            "generation": 104, 
-            "ingredients": null, 
-            "patch": "remove", 
+            "buggyStatement": "if (a2 < cnst1) {\n\ts = (gam * (1 - (java.lang.Math.sqrt(a2)))) / (1 + a2);\n} ",
+            "generation": 104,
+            "ingredients": null,
+            "patch": "remove",
             "patchLocation": {
-                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
-                "line": 1520, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl",
+                "line": 1520
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "50", 
-                "evaltcfailing": "6", 
-                "fvalresult": "true", 
-                "fvaltcall": "17", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2101", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "-", 
-            "time": "3433", 
-            "type": "RemoveOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "14"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "18"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "17"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "31"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "30"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "27"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "50",
+                "numberAllTestRegression": "2101",
+                "numberEvosuiteFailing": "6",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "3433",
+            "type": "RemoveOp",
             "variant": 208
-        }, 
+        },
         {
-            "buggyStatement": "a2 = 0.0", 
-            "generation": 108, 
-            "ingredients": null, 
-            "patch": "remove", 
+            "buggyStatement": "a2 = 0.0",
+            "generation": 108,
+            "ingredients": null,
+            "patch": "remove",
             "patchLocation": {
-                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
-                "line": 1480, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl",
+                "line": 1480
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "50", 
-                "evaltcfailing": "4", 
-                "fvalresult": "true", 
-                "fvaltcall": "17", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2101", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "-", 
-            "time": "3561", 
-            "type": "RemoveOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "14"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "17"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "31"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "27"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "50",
+                "numberAllTestRegression": "2101",
+                "numberEvosuiteFailing": "4",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "3561",
+            "type": "RemoveOp",
             "variant": 216
-        }, 
+        },
         {
-            "buggyStatement": "if (a2 < cnst1) {\n\ts = (gam * (1 - (java.lang.Math.sqrt(a2)))) / (1 + a2);\n} ", 
-            "generation": 131, 
-            "ingredients": null, 
-            "patch": "remove", 
+            "buggyStatement": "if (a2 < cnst1) {\n\ts = (gam * (1 - (java.lang.Math.sqrt(a2)))) / (1 + a2);\n} ",
+            "generation": 131,
+            "ingredients": null,
+            "patch": "remove",
             "patchLocation": {
-                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
-                "line": 1520, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl",
+                "line": 1520
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "50", 
-                "evaltcfailing": "6", 
-                "fvalresult": "true", 
-                "fvaltcall": "17", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2101", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "-", 
-            "time": "4010", 
-            "type": "RemoveOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "14"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "18"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "17"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "31"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "30"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "27"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "50",
+                "numberAllTestRegression": "2101",
+                "numberEvosuiteFailing": "6",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "4010",
+            "type": "RemoveOp",
             "variant": 262
-        }, 
+        },
         {
-            "buggyStatement": "a2 = 0.0", 
-            "generation": 150, 
-            "ingredients": null, 
-            "patch": "remove", 
+            "buggyStatement": "a2 = 0.0",
+            "generation": 150,
+            "ingredients": null,
+            "patch": "remove",
             "patchLocation": {
-                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
-                "line": 1480, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl",
+                "line": 1480
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "50", 
-                "evaltcfailing": "4", 
-                "fvalresult": "true", 
-                "fvaltcall": "17", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2101", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "-", 
-            "time": "4489", 
-            "type": "RemoveOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "14"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "17"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "31"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "27"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "50",
+                "numberAllTestRegression": "2101",
+                "numberEvosuiteFailing": "4",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "4489",
+            "type": "RemoveOp",
             "variant": 300
-        }, 
+        },
         {
-            "buggyStatement": "a2 = 0.0", 
-            "generation": 238, 
-            "ingredients": null, 
-            "patch": "cachedD = org.apache.commons.math.linear.MatrixUtils.createRealDiagonalMatrix(realEigenvalues)", 
+            "buggyStatement": "a2 = 0.0",
+            "generation": 238,
+            "ingredients": null,
+            "patch": "cachedD = org.apache.commons.math.linear.MatrixUtils.createRealDiagonalMatrix(realEigenvalues)",
             "patchLocation": {
-                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
-                "line": 1480, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl",
+                "line": 1480
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "50", 
-                "evaltcfailing": "4", 
-                "fvalresult": "true", 
-                "fvaltcall": "17", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2101", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "5528", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "14"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "17"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "31"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "27"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "50",
+                "numberAllTestRegression": "2101",
+                "numberEvosuiteFailing": "4",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "5528",
+            "type": "ReplaceOp",
             "variant": 476
-        }, 
+        },
         {
-            "buggyStatement": "b2 = (work[(nn - 5)]) / (work[(nn - 7)])", 
-            "generation": 296, 
-            "ingredients": null, 
-            "patch": "np = nn - 13", 
+            "buggyStatement": "b2 = (work[(nn - 5)]) / (work[(nn - 7)])",
+            "generation": 296,
+            "ingredients": null,
+            "patch": "np = nn - 13",
             "patchLocation": {
-                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
-                "line": 1484, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl",
+                "line": 1484
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "50", 
-                "evaltcfailing": "5", 
-                "fvalresult": "true", 
-                "fvaltcall": "17", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2101", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "6273", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "14"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "18"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "17"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "31"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "27"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "50",
+                "numberAllTestRegression": "2101",
+                "numberEvosuiteFailing": "5",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "6273",
+            "type": "ReplaceOp",
             "variant": 592
-        }, 
+        },
         {
-            "buggyStatement": "s = (gam * (1 - (java.lang.Math.sqrt(a2)))) / (1 + a2)", 
-            "generation": 317, 
-            "ingredients": null, 
-            "patch": "if (a2 > (b1 + b2)) {\n\ts = java.lang.Math.min(s, (a2 - (b1 + b2)));\n} ", 
+            "buggyStatement": "s = (gam * (1 - (java.lang.Math.sqrt(a2)))) / (1 + a2)",
+            "generation": 317,
+            "ingredients": null,
+            "patch": "if (a2 > (b1 + b2)) {\n\ts = java.lang.Math.min(s, (a2 - (b1 + b2)));\n} ",
             "patchLocation": {
-                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
-                "line": 1521, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl",
+                "line": 1521
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "50", 
-                "evaltcfailing": "5", 
-                "fvalresult": "true", 
-                "fvaltcall": "17", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2101", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "6699", 
-            "type": "InsertAfterOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "14"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "18"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "17"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "31"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.linear.EigenDecompositionImpl_ESTest",
+                        "failingTestName": "27"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "50",
+                "numberAllTestRegression": "2101",
+                "numberEvosuiteFailing": "5",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "6699",
+            "type": "InsertAfterOp",
             "variant": 634
         }
-    ], 
-    "ops": "0", 
-    "programVariant": "110", 
-    "timeEvaluation": null, 
+    ],
     "timeTotal": "7486"
 }

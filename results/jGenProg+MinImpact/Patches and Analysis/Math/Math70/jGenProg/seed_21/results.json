@@ -1,63 +1,83 @@
 {
-    "date": "Sun Jan 22 19:48:31 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
-    "gens": "9", 
-    "node": "griffon-7.nancy.grid5000.fr", 
-    "operations": [
+    "date": "Sun Jan 22 19:48:31 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n\n",
+    "node": "griffon-7.nancy.grid5000.fr",
+    "patches": [
         {
-            "buggyStatement": "return solve(min, max)", 
-            "generation": 205, 
-            "ingredients": null, 
-            "patch": "return solve(f, min, max)", 
+            "buggyStatement": "return solve(min, max)",
+            "generation": 205,
+            "ingredients": null,
+            "patch": "return solve(f, min, max)",
             "patchLocation": {
-                "className": "org.apache.commons.math.analysis.solvers.BisectionSolver", 
-                "line": 72, 
-                "lineSusp": "1"
-            }, 
+                "className": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+                "line": 72
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "22", 
-                "evaltcfailing": "2", 
-                "fvalresult": "true", 
-                "fvaltcall": "12", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2184", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "713", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest",
+                        "failingTestName": "02"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest",
+                        "failingTestName": "07"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "22",
+                "numberAllTestRegression": "2184",
+                "numberEvosuiteFailing": "2",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "713",
+            "type": "ReplaceOp",
             "variant": 410
-        }, 
+        },
         {
-            "buggyStatement": "return solve(min, max)", 
-            "generation": 283, 
-            "ingredients": null, 
-            "patch": "return solve(f, initial, max)", 
+            "buggyStatement": "return solve(min, max)",
+            "generation": 283,
+            "ingredients": null,
+            "patch": "return solve(f, initial, max)",
             "patchLocation": {
-                "className": "org.apache.commons.math.analysis.solvers.BisectionSolver", 
-                "line": 72, 
-                "lineSusp": "1"
-            }, 
+                "className": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+                "line": 72
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "22", 
-                "evaltcfailing": "6", 
-                "fvalresult": "true", 
-                "fvaltcall": "12", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2184", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "PACKAGE", 
-            "time": "1074", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest",
+                        "failingTestName": "02"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest",
+                        "failingTestName": "01"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest",
+                        "failingTestName": "19"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest",
+                        "failingTestName": "07"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest",
+                        "failingTestName": "18"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest",
+                        "failingTestName": "06"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "22",
+                "numberAllTestRegression": "2184",
+                "numberEvosuiteFailing": "6",
+                "numberInitialFailing": "0"
+            },
+            "scope": "PACKAGE",
+            "time": "1074",
+            "type": "ReplaceOp",
             "variant": 566
         }
-    ], 
-    "ops": "0", 
-    "programVariant": "410", 
-    "timeEvaluation": null, 
+    ],
     "timeTotal": "7300"
 }

@@ -1,271 +1,375 @@
 {
-    "date": "Sat Jan 14 22:19:28 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
-    "gens": "24", 
-    "node": "griffon-16.nancy.grid5000.fr", 
-    "operations": [
+    "date": "Sat Jan 14 22:19:28 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n\n",
+    "node": "griffon-16.nancy.grid5000.fr",
+    "patches": [
         {
-            "buggyStatement": "return solve(f, min, yMin, max, yMax, initial, yInitial)", 
-            "generation": 42, 
-            "ingredients": null, 
-            "patch": "return solve(f, initial, max)", 
+            "buggyStatement": "return solve(f, min, yMin, max, yMax, initial, yInitial)",
+            "generation": 42,
+            "ingredients": null,
+            "patch": "return solve(f, initial, max)",
             "patchLocation": {
-                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
-                "line": 138, 
-                "lineSusp": "1"
-            }, 
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver",
+                "line": 138
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "34", 
-                "evaltcfailing": "3", 
-                "fvalresult": "true", 
-                "fvaltcall": "6", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2140", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "PACKAGE", 
-            "time": "375", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "13"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "08"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "01"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "34",
+                "numberAllTestRegression": "2140",
+                "numberEvosuiteFailing": "3",
+                "numberInitialFailing": "0"
+            },
+            "scope": "PACKAGE",
+            "time": "375",
+            "type": "ReplaceOp",
             "variant": 84
-        }, 
+        },
         {
-            "buggyStatement": "return solve(f, min, yMin, max, yMax, initial, yInitial)", 
-            "generation": 97, 
-            "ingredients": null, 
-            "patch": "return solve(f, min, initial)", 
+            "buggyStatement": "return solve(f, min, yMin, max, yMax, initial, yInitial)",
+            "generation": 97,
+            "ingredients": null,
+            "patch": "return solve(f, min, initial)",
             "patchLocation": {
-                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
-                "line": 138, 
-                "lineSusp": "1"
-            }, 
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver",
+                "line": 138
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "34", 
-                "evaltcfailing": "3", 
-                "fvalresult": "true", 
-                "fvaltcall": "6", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2140", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "PACKAGE", 
-            "time": "536", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "13"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "08"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "01"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "34",
+                "numberAllTestRegression": "2140",
+                "numberEvosuiteFailing": "3",
+                "numberInitialFailing": "0"
+            },
+            "scope": "PACKAGE",
+            "time": "536",
+            "type": "ReplaceOp",
             "variant": 194
-        }, 
+        },
         {
-            "buggyStatement": "if ((java.lang.Math.abs(yInitial)) <= (functionValueAccuracy)) {\n\tsetResult(initial, 0);\n\treturn result;\n} ", 
-            "generation": 210, 
-            "ingredients": null, 
-            "patch": "verifyBracketing(min, max, f)", 
+            "buggyStatement": "if ((java.lang.Math.abs(yInitial)) <= (functionValueAccuracy)) {\n\tsetResult(initial, 0);\n\treturn result;\n} ",
+            "generation": 210,
+            "ingredients": null,
+            "patch": "verifyBracketing(min, max, f)",
             "patchLocation": {
-                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
-                "line": 107, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver",
+                "line": 107
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "34", 
-                "evaltcfailing": "5", 
-                "fvalresult": "true", 
-                "fvaltcall": "6", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2140", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "PACKAGE", 
-            "time": "842", 
-            "type": "InsertAfterOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "31"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "13"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "07"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "08"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "01"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "34",
+                "numberAllTestRegression": "2140",
+                "numberEvosuiteFailing": "5",
+                "numberInitialFailing": "0"
+            },
+            "scope": "PACKAGE",
+            "time": "842",
+            "type": "InsertAfterOp",
             "variant": 420
-        }, 
+        },
         {
-            "buggyStatement": "return solve(f, min, yMin, max, yMax, initial, yInitial)", 
-            "generation": 523, 
-            "ingredients": null, 
-            "patch": "return solve(f, min, max)", 
+            "buggyStatement": "return solve(f, min, yMin, max, yMax, initial, yInitial)",
+            "generation": 523,
+            "ingredients": null,
+            "patch": "return solve(f, min, max)",
             "patchLocation": {
-                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
-                "line": 138, 
-                "lineSusp": "1"
-            }, 
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver",
+                "line": 138
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "34", 
-                "evaltcfailing": "4", 
-                "fvalresult": "true", 
-                "fvaltcall": "6", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2140", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "PACKAGE", 
-            "time": "1635", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "13"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "08"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "01"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "04"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "34",
+                "numberAllTestRegression": "2140",
+                "numberEvosuiteFailing": "4",
+                "numberInitialFailing": "0"
+            },
+            "scope": "PACKAGE",
+            "time": "1635",
+            "type": "ReplaceOp",
             "variant": 1046
-        }, 
+        },
         {
-            "buggyStatement": "if ((yInitial * yMin) < 0) {\n\treturn solve(f, min, yMin, initial, yInitial, min, yMin);\n} ", 
-            "generation": 802, 
-            "ingredients": null, 
-            "patch": "verifyBracketing(min, max, f)", 
+            "buggyStatement": "if ((yInitial * yMin) < 0) {\n\treturn solve(f, min, yMin, initial, yInitial, min, yMin);\n} ",
+            "generation": 802,
+            "ingredients": null,
+            "patch": "verifyBracketing(min, max, f)",
             "patchLocation": {
-                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
-                "line": 120, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver",
+                "line": 120
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "34", 
-                "evaltcfailing": "3", 
-                "fvalresult": "true", 
-                "fvaltcall": "6", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2140", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "PACKAGE", 
-            "time": "2334", 
-            "type": "InsertAfterOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "13"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "08"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "01"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "34",
+                "numberAllTestRegression": "2140",
+                "numberEvosuiteFailing": "3",
+                "numberInitialFailing": "0"
+            },
+            "scope": "PACKAGE",
+            "time": "2334",
+            "type": "InsertAfterOp",
             "variant": 1604
-        }, 
+        },
         {
-            "buggyStatement": "double yMin = f.value(min)", 
-            "generation": 1495, 
-            "ingredients": null, 
-            "patch": "verifyBracketing(min, max, f)", 
+            "buggyStatement": "double yMin = f.value(min)",
+            "generation": 1495,
+            "ingredients": null,
+            "patch": "verifyBracketing(min, max, f)",
             "patchLocation": {
-                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
-                "line": 113, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver",
+                "line": 113
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "34", 
-                "evaltcfailing": "5", 
-                "fvalresult": "true", 
-                "fvaltcall": "6", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2140", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "PACKAGE", 
-            "time": "3635", 
-            "type": "InsertAfterOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "31"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "13"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "07"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "08"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "01"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "34",
+                "numberAllTestRegression": "2140",
+                "numberEvosuiteFailing": "5",
+                "numberInitialFailing": "0"
+            },
+            "scope": "PACKAGE",
+            "time": "3635",
+            "type": "InsertAfterOp",
             "variant": 2990
-        }, 
+        },
         {
-            "buggyStatement": "if ((yInitial * yMax) < 0) {\n\treturn solve(f, initial, yInitial, max, yMax, initial, yInitial);\n} ", 
-            "generation": 1578, 
-            "ingredients": null, 
-            "patch": "verifyBracketing(min, max, f)", 
+            "buggyStatement": "if ((yInitial * yMax) < 0) {\n\treturn solve(f, initial, yInitial, max, yMax, initial, yInitial);\n} ",
+            "generation": 1578,
+            "ingredients": null,
+            "patch": "verifyBracketing(min, max, f)",
             "patchLocation": {
-                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
-                "line": 132, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver",
+                "line": 132
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "34", 
-                "evaltcfailing": "3", 
-                "fvalresult": "true", 
-                "fvaltcall": "6", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2140", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "PACKAGE", 
-            "time": "3840", 
-            "type": "InsertBeforeOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "13"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "08"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "01"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "34",
+                "numberAllTestRegression": "2140",
+                "numberEvosuiteFailing": "3",
+                "numberInitialFailing": "0"
+            },
+            "scope": "PACKAGE",
+            "time": "3840",
+            "type": "InsertBeforeOp",
             "variant": 3156
-        }, 
+        },
         {
-            "buggyStatement": "double yMin = f.value(min)", 
-            "generation": 1806, 
-            "ingredients": null, 
-            "patch": "verifyBracketing(min, max, f)", 
+            "buggyStatement": "double yMin = f.value(min)",
+            "generation": 1806,
+            "ingredients": null,
+            "patch": "verifyBracketing(min, max, f)",
             "patchLocation": {
-                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
-                "line": 113, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver",
+                "line": 113
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "34", 
-                "evaltcfailing": "5", 
-                "fvalresult": "true", 
-                "fvaltcall": "6", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2140", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "PACKAGE", 
-            "time": "4330", 
-            "type": "InsertBeforeOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "31"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "13"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "07"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "08"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "01"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "34",
+                "numberAllTestRegression": "2140",
+                "numberEvosuiteFailing": "5",
+                "numberInitialFailing": "0"
+            },
+            "scope": "PACKAGE",
+            "time": "4330",
+            "type": "InsertBeforeOp",
             "variant": 3612
-        }, 
+        },
         {
-            "buggyStatement": "if ((java.lang.Math.abs(yMax)) <= (functionValueAccuracy)) {\n\tsetResult(yMax, 0);\n\treturn result;\n} ", 
-            "generation": 2128, 
-            "ingredients": null, 
-            "patch": "verifyBracketing(min, max, f)", 
+            "buggyStatement": "if ((java.lang.Math.abs(yMax)) <= (functionValueAccuracy)) {\n\tsetResult(yMax, 0);\n\treturn result;\n} ",
+            "generation": 2128,
+            "ingredients": null,
+            "patch": "verifyBracketing(min, max, f)",
             "patchLocation": {
-                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
-                "line": 126, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver",
+                "line": 126
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "34", 
-                "evaltcfailing": "3", 
-                "fvalresult": "true", 
-                "fvaltcall": "6", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2140", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "PACKAGE", 
-            "time": "4967", 
-            "type": "InsertAfterOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "13"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "08"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "01"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "34",
+                "numberAllTestRegression": "2140",
+                "numberEvosuiteFailing": "3",
+                "numberInitialFailing": "0"
+            },
+            "scope": "PACKAGE",
+            "time": "4967",
+            "type": "InsertAfterOp",
             "variant": 4256
-        }, 
+        },
         {
-            "buggyStatement": "if ((java.lang.Math.abs(yMax)) <= (functionValueAccuracy)) {\n\tsetResult(yMax, 0);\n\treturn result;\n} ", 
-            "generation": 3243, 
-            "ingredients": null, 
-            "patch": "verifyBracketing(min, max, f)", 
+            "buggyStatement": "if ((java.lang.Math.abs(yMax)) <= (functionValueAccuracy)) {\n\tsetResult(yMax, 0);\n\treturn result;\n} ",
+            "generation": 3243,
+            "ingredients": null,
+            "patch": "verifyBracketing(min, max, f)",
             "patchLocation": {
-                "className": "org.apache.commons.math.analysis.solvers.BrentSolver", 
-                "line": 126, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.analysis.solvers.BrentSolver",
+                "line": 126
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "34", 
-                "evaltcfailing": "3", 
-                "fvalresult": "true", 
-                "fvaltcall": "6", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2140", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "PACKAGE", 
-            "time": "7297", 
-            "type": "InsertBeforeOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "13"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "08"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BrentSolver_ESTest",
+                        "failingTestName": "01"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "34",
+                "numberAllTestRegression": "2140",
+                "numberEvosuiteFailing": "3",
+                "numberInitialFailing": "0"
+            },
+            "scope": "PACKAGE",
+            "time": "7297",
+            "type": "InsertBeforeOp",
             "variant": 6486
         }
-    ], 
-    "ops": "0", 
-    "programVariant": "84", 
-    "timeEvaluation": null, 
+    ],
     "timeTotal": "7327"
 }

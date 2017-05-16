@@ -1,167 +1,133 @@
 {
-    "date": "Mon Jan 30 01:22:39 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
-    "gens": "75", 
-    "node": "graphene-102.nancy.grid5000.fr", 
-    "operations": [
+    "date": "Mon Jan 30 01:22:39 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n\n",
+    "node": "graphene-102.nancy.grid5000.fr",
+    "patches": [
         {
-            "buggyStatement": "if ((getItemCount()) > (org.jfree.data.time.TimeSeries.this.maximumItemCount)) {\n\torg.jfree.data.time.TimeSeriesDataItem d = ((org.jfree.data.time.TimeSeriesDataItem)(org.jfree.data.time.TimeSeries.this.data.remove(0)));\n\tupdateBoundsForRemovedItem(d);\n} ", 
-            "generation": 508, 
-            "ingredients": null, 
-            "patch": "findBoundsByIteration()", 
+            "buggyStatement": "if ((getItemCount()) > (org.jfree.data.time.TimeSeries.this.maximumItemCount)) {\n\torg.jfree.data.time.TimeSeriesDataItem d = ((org.jfree.data.time.TimeSeriesDataItem)(org.jfree.data.time.TimeSeries.this.data.remove(0)));\n\tupdateBoundsForRemovedItem(d);\n} ",
+            "generation": 508,
+            "ingredients": null,
+            "patch": "findBoundsByIteration()",
             "patchLocation": {
-                "className": "org.jfree.data.time.TimeSeries", 
-                "line": 629, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.data.time.TimeSeries",
+                "line": 629
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "139", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "37", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "4390", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "1613", 
-            "type": "InsertAfterOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "139",
+                "numberAllTestRegression": "4390",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "1613",
+            "type": "InsertAfterOp",
             "variant": 1016
-        }, 
+        },
         {
-            "buggyStatement": "long latest = getTimePeriod(((getItemCount()) - 1)).getSerialIndex()", 
-            "generation": 742, 
-            "ingredients": null, 
-            "patch": "findBoundsByIteration()", 
+            "buggyStatement": "long latest = getTimePeriod(((getItemCount()) - 1)).getSerialIndex()",
+            "generation": 742,
+            "ingredients": null,
+            "patch": "findBoundsByIteration()",
             "patchLocation": {
-                "className": "org.jfree.data.time.TimeSeries", 
-                "line": 878, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.data.time.TimeSeries",
+                "line": 878
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "139", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "37", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "4390", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "2394", 
-            "type": "InsertBeforeOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "139",
+                "numberAllTestRegression": "4390",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "2394",
+            "type": "InsertBeforeOp",
             "variant": 1484
-        }, 
+        },
         {
-            "buggyStatement": "updateBoundsForAddedItem(item)", 
-            "generation": 780, 
-            "ingredients": null, 
-            "patch": "findBoundsByIteration()", 
+            "buggyStatement": "updateBoundsForAddedItem(item)",
+            "generation": 780,
+            "ingredients": null,
+            "patch": "findBoundsByIteration()",
             "patchLocation": {
-                "className": "org.jfree.data.time.TimeSeries", 
-                "line": 627, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.data.time.TimeSeries",
+                "line": 627
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "139", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "37", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "4390", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "2656", 
-            "type": "InsertAfterOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "139",
+                "numberAllTestRegression": "4390",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "2656",
+            "type": "InsertAfterOp",
             "variant": 1560
-        }, 
+        },
         {
-            "buggyStatement": "if (!(org.jfree.data.time.TimeSeries.this.timePeriodClass.equals(c))) {\n\tjava.lang.StringBuffer b = new java.lang.StringBuffer();\n\tb.append(\"You are trying to add data where the time period class \");\n\tb.append(\"is \");\n\tb.append(item.getPeriod().getClass().getName());\n\tb.append(\", but the TimeSeries is expecting an instance of \");\n\tb.append(org.jfree.data.time.TimeSeries.this.timePeriodClass.getName());\n\tb.append(\".\");\n\tthrow new org.jfree.data.general.SeriesException(b.toString());\n} ", 
-            "generation": 956, 
-            "ingredients": null, 
-            "patch": "findBoundsByIteration()", 
+            "buggyStatement": "if (!(org.jfree.data.time.TimeSeries.this.timePeriodClass.equals(c))) {\n\tjava.lang.StringBuffer b = new java.lang.StringBuffer();\n\tb.append(\"You are trying to add data where the time period class \");\n\tb.append(\"is \");\n\tb.append(item.getPeriod().getClass().getName());\n\tb.append(\", but the TimeSeries is expecting an instance of \");\n\tb.append(org.jfree.data.time.TimeSeries.this.timePeriodClass.getName());\n\tb.append(\".\");\n\tthrow new org.jfree.data.general.SeriesException(b.toString());\n} ",
+            "generation": 956,
+            "ingredients": null,
+            "patch": "findBoundsByIteration()",
             "patchLocation": {
-                "className": "org.jfree.data.time.TimeSeries", 
-                "line": 584, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.data.time.TimeSeries",
+                "line": 584
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "139", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "37", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "4390", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "3320", 
-            "type": "InsertBeforeOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "139",
+                "numberAllTestRegression": "4390",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "3320",
+            "type": "InsertBeforeOp",
             "variant": 1912
-        }, 
+        },
         {
-            "buggyStatement": "return org.jfree.data.time.TimeSeries.this.data.size()", 
-            "generation": 1659, 
-            "ingredients": null, 
-            "patch": "findBoundsByIteration()", 
+            "buggyStatement": "return org.jfree.data.time.TimeSeries.this.data.size()",
+            "generation": 1659,
+            "ingredients": null,
+            "patch": "findBoundsByIteration()",
             "patchLocation": {
-                "className": "org.jfree.data.time.TimeSeries", 
-                "line": 254, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.data.time.TimeSeries",
+                "line": 254
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "139", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "37", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "4390", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "5068", 
-            "type": "InsertBeforeOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "139",
+                "numberAllTestRegression": "4390",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "5068",
+            "type": "InsertBeforeOp",
             "variant": 3318
-        }, 
+        },
         {
-            "buggyStatement": "added = true", 
-            "generation": 2116, 
-            "ingredients": null, 
-            "patch": "findBoundsByIteration()", 
+            "buggyStatement": "added = true",
+            "generation": 2116,
+            "ingredients": null,
+            "patch": "findBoundsByIteration()",
             "patchLocation": {
-                "className": "org.jfree.data.time.TimeSeries", 
-                "line": 606, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.data.time.TimeSeries",
+                "line": 606
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "139", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "37", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "4390", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "6381", 
-            "type": "InsertBeforeOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "139",
+                "numberAllTestRegression": "4390",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "6381",
+            "type": "InsertBeforeOp",
             "variant": 4232
         }
-    ], 
-    "ops": "0", 
-    "programVariant": "1016", 
-    "timeEvaluation": null, 
+    ],
     "timeTotal": "7349"
 }

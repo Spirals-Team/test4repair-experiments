@@ -1,63 +1,63 @@
 {
-    "date": "Fri Jan 20 01:19:50 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
-    "gens": "9", 
-    "node": "graphene-100.nancy.grid5000.fr", 
-    "operations": [
+    "date": "Fri Jan 20 01:19:50 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n\n",
+    "node": "graphene-100.nancy.grid5000.fr",
+    "patches": [
         {
-            "buggyStatement": "return solve(min, max)", 
-            "generation": 112, 
-            "ingredients": null, 
-            "patch": "return solve(f, initial, max)", 
+            "buggyStatement": "return solve(min, max)",
+            "generation": 112,
+            "ingredients": null,
+            "patch": "return solve(f, initial, max)",
             "patchLocation": {
-                "className": "org.apache.commons.math.analysis.solvers.BisectionSolver", 
-                "line": 72, 
-                "lineSusp": "1"
-            }, 
+                "className": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+                "line": 72
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "21", 
-                "evaltcfailing": "2", 
-                "fvalresult": "true", 
-                "fvaltcall": "12", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2184", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "PACKAGE", 
-            "time": "370", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest",
+                        "failingTestName": "08"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest",
+                        "failingTestName": "18"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "21",
+                "numberAllTestRegression": "2184",
+                "numberEvosuiteFailing": "2",
+                "numberInitialFailing": "0"
+            },
+            "scope": "PACKAGE",
+            "time": "370",
+            "type": "ReplaceOp",
             "variant": 224
-        }, 
+        },
         {
-            "buggyStatement": "return solve(min, max)", 
-            "generation": 196, 
-            "ingredients": null, 
-            "patch": "return solve(f, min, max)", 
+            "buggyStatement": "return solve(min, max)",
+            "generation": 196,
+            "ingredients": null,
+            "patch": "return solve(f, min, max)",
             "patchLocation": {
-                "className": "org.apache.commons.math.analysis.solvers.BisectionSolver", 
-                "line": 72, 
-                "lineSusp": "1"
-            }, 
+                "className": "org.apache.commons.math.analysis.solvers.BisectionSolver",
+                "line": 72
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "21", 
-                "evaltcfailing": "1", 
-                "fvalresult": "true", 
-                "fvaltcall": "12", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2184", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "560", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BisectionSolver_ESTest",
+                        "failingTestName": "08"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "21",
+                "numberAllTestRegression": "2184",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "560",
+            "type": "ReplaceOp",
             "variant": 392
         }
-    ], 
-    "ops": "0", 
-    "programVariant": "224", 
-    "timeEvaluation": null, 
+    ],
     "timeTotal": "7289"
 }

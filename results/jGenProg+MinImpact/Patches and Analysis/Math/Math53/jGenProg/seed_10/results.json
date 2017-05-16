@@ -1,89 +1,75 @@
 {
-    "date": "Sat Jan 14 02:34:09 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
-    "gens": "3", 
-    "node": "grisou-22.nancy.grid5000.fr", 
-    "operations": [
+    "date": "Sat Jan 14 02:34:09 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n\n",
+    "node": "grisou-22.nancy.grid5000.fr",
+    "patches": [
         {
-            "buggyStatement": "return createComplex(((real) + (rhs.getReal())), ((imaginary) + (rhs.getImaginary())))", 
-            "generation": 2, 
-            "ingredients": null, 
-            "patch": "if ((isNaN) || (rhs.isNaN)) {\n\treturn org.apache.commons.math.complex.Complex.NaN;\n} ", 
+            "buggyStatement": "return createComplex(((real) + (rhs.getReal())), ((imaginary) + (rhs.getImaginary())))",
+            "generation": 2,
+            "ingredients": null,
+            "patch": "if ((isNaN) || (rhs.isNaN)) {\n\treturn org.apache.commons.math.complex.Complex.NaN;\n} ",
             "patchLocation": {
-                "className": "org.apache.commons.math.complex.Complex", 
-                "line": 153, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.complex.Complex",
+                "line": 153
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "129", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "98", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2470", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "1003", 
-            "type": "InsertBeforeOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "129",
+                "numberAllTestRegression": "2470",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "1003",
+            "type": "InsertBeforeOp",
             "variant": 4
-        }, 
+        },
         {
-            "buggyStatement": "org.apache.commons.math.util.MathUtils.checkNotNull(rhs)", 
-            "generation": 246, 
-            "ingredients": null, 
-            "patch": "if ((isNaN) || (rhs.isNaN)) {\n\treturn org.apache.commons.math.complex.Complex.NaN;\n} ", 
+            "buggyStatement": "org.apache.commons.math.util.MathUtils.checkNotNull(rhs)",
+            "generation": 246,
+            "ingredients": null,
+            "patch": "if ((isNaN) || (rhs.isNaN)) {\n\treturn org.apache.commons.math.complex.Complex.NaN;\n} ",
             "patchLocation": {
-                "className": "org.apache.commons.math.complex.Complex", 
-                "line": 152, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.complex.Complex",
+                "line": 152
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "129", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "98", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2470", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "1147", 
-            "type": "InsertAfterOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "129",
+                "numberAllTestRegression": "2470",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "1147",
+            "type": "InsertAfterOp",
             "variant": 492
-        }, 
+        },
         {
-            "buggyStatement": "org.apache.commons.math.util.MathUtils.checkNotNull(rhs)", 
-            "generation": 472, 
-            "ingredients": null, 
-            "patch": "if ((isNaN) || (rhs.isNaN)) {\n\treturn org.apache.commons.math.complex.Complex.NaN;\n} ", 
+            "buggyStatement": "org.apache.commons.math.util.MathUtils.checkNotNull(rhs)",
+            "generation": 472,
+            "ingredients": null,
+            "patch": "if ((isNaN) || (rhs.isNaN)) {\n\treturn org.apache.commons.math.complex.Complex.NaN;\n} ",
             "patchLocation": {
-                "className": "org.apache.commons.math.complex.Complex", 
-                "line": 152, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.complex.Complex",
+                "line": 152
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "129", 
-                "evaltcfailing": "1", 
-                "fvalresult": "true", 
-                "fvaltcall": "98", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "2470", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "1295", 
-            "type": "InsertBeforeOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.complex.Complex_ESTest",
+                        "failingTestName": "061"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "129",
+                "numberAllTestRegression": "2470",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "1295",
+            "type": "InsertBeforeOp",
             "variant": 944
         }
-    ], 
-    "ops": "0", 
-    "programVariant": "4", 
-    "timeEvaluation": null, 
+    ],
     "timeTotal": "7383"
 }

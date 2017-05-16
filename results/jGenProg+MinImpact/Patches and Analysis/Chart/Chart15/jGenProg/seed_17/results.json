@@ -1,37 +1,41 @@
 {
-    "date": "Wed Jan 18 23:28:05 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
-    "gens": "486", 
-    "node": "grimoire-2.nancy.grid5000.fr", 
-    "operations": [
+    "date": "Wed Jan 18 23:28:05 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n\n",
+    "node": "grimoire-2.nancy.grid5000.fr",
+    "patches": [
         {
-            "buggyStatement": "org.jfree.chart.JFreeChart.this.plot.draw(g2, plotArea, anchor, null, plotInfo)", 
-            "generation": 1074, 
-            "ingredients": null, 
-            "patch": "g2.setXORMode(java.awt.Color.orange)", 
+            "buggyStatement": "org.jfree.chart.JFreeChart.this.plot.draw(g2, plotArea, anchor, null, plotInfo)",
+            "generation": 1074,
+            "ingredients": null,
+            "patch": "g2.setXORMode(java.awt.Color.orange)",
             "patchLocation": {
-                "className": "org.jfree.chart.JFreeChart", 
-                "line": 1219, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.chart.JFreeChart",
+                "line": 1219
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "120", 
-                "evaltcfailing": "3", 
-                "fvalresult": "true", 
-                "fvaltcall": "3", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "3579", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "PACKAGE", 
-            "time": "4569", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.jfree.chart.JFreeChart_ESTest",
+                        "failingTestName": "030"
+                    },
+                    {
+                        "failingClassName": "org.jfree.chart.JFreeChart_ESTest",
+                        "failingTestName": "071"
+                    },
+                    {
+                        "failingClassName": "org.jfree.chart.JFreeChart_ESTest",
+                        "failingTestName": "072"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "120",
+                "numberAllTestRegression": "3579",
+                "numberEvosuiteFailing": "3",
+                "numberInitialFailing": "0"
+            },
+            "scope": "PACKAGE",
+            "time": "4569",
+            "type": "ReplaceOp",
             "variant": 2148
         }
-    ], 
-    "ops": "0", 
-    "programVariant": "2148", 
-    "timeEvaluation": null, 
+    ],
     "timeTotal": "7778"
 }

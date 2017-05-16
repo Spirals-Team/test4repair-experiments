@@ -1,89 +1,96 @@
 {
-    "date": "Sat Jan 21 21:09:22 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
-    "gens": "486", 
-    "node": "grimoire-8.nancy.grid5000.fr", 
-    "operations": [
+    "date": "Sat Jan 21 21:09:22 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n\n",
+    "node": "grimoire-8.nancy.grid5000.fr",
+    "patches": [
         {
-            "buggyStatement": "org.jfree.chart.JFreeChart.this.plot.draw(g2, plotArea, anchor, null, plotInfo)", 
-            "generation": 100, 
-            "ingredients": null, 
-            "patch": "setTextAntiAlias(java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_OFF)", 
+            "buggyStatement": "org.jfree.chart.JFreeChart.this.plot.draw(g2, plotArea, anchor, null, plotInfo)",
+            "generation": 100,
+            "ingredients": null,
+            "patch": "setTextAntiAlias(java.awt.RenderingHints.VALUE_TEXT_ANTIALIAS_OFF)",
             "patchLocation": {
-                "className": "org.jfree.chart.JFreeChart", 
-                "line": 1219, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.chart.JFreeChart",
+                "line": 1219
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "125", 
-                "evaltcfailing": "3", 
-                "fvalresult": "true", 
-                "fvaltcall": "3", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "3579", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "748", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.jfree.chart.JFreeChart_ESTest",
+                        "failingTestName": "030"
+                    },
+                    {
+                        "failingClassName": "org.jfree.chart.JFreeChart_ESTest",
+                        "failingTestName": "037"
+                    },
+                    {
+                        "failingClassName": "org.jfree.chart.JFreeChart_ESTest",
+                        "failingTestName": "035"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "125",
+                "numberAllTestRegression": "3579",
+                "numberEvosuiteFailing": "3",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "748",
+            "type": "ReplaceOp",
             "variant": 200
-        }, 
+        },
         {
-            "buggyStatement": "org.jfree.chart.JFreeChart.this.plot.draw(g2, plotArea, anchor, null, plotInfo)", 
-            "generation": 540, 
-            "ingredients": null, 
-            "patch": "remove", 
+            "buggyStatement": "org.jfree.chart.JFreeChart.this.plot.draw(g2, plotArea, anchor, null, plotInfo)",
+            "generation": 540,
+            "ingredients": null,
+            "patch": "remove",
             "patchLocation": {
-                "className": "org.jfree.chart.JFreeChart", 
-                "line": 1219, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.chart.JFreeChart",
+                "line": 1219
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "125", 
-                "evaltcfailing": "3", 
-                "fvalresult": "true", 
-                "fvaltcall": "3", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "3579", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "-", 
-            "time": "2704", 
-            "type": "RemoveOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.jfree.chart.JFreeChart_ESTest",
+                        "failingTestName": "030"
+                    },
+                    {
+                        "failingClassName": "org.jfree.chart.JFreeChart_ESTest",
+                        "failingTestName": "037"
+                    },
+                    {
+                        "failingClassName": "org.jfree.chart.JFreeChart_ESTest",
+                        "failingTestName": "035"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "125",
+                "numberAllTestRegression": "3579",
+                "numberEvosuiteFailing": "3",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "2704",
+            "type": "RemoveOp",
             "variant": 1080
-        }, 
+        },
         {
-            "buggyStatement": "if ((getLabelGenerator()) != null) {\n\tlabelPercent = (getLabelGap()) + (getMaximumLabelWidth());\n} ", 
-            "generation": 1660, 
-            "ingredients": null, 
-            "patch": "if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {\n\tdrawNoDataMessage(g2, plotArea);\n\tg2.setClip(savedClip);\n\tdrawOutline(g2, plotArea);\n\treturn ;\n} ", 
+            "buggyStatement": "if ((getLabelGenerator()) != null) {\n\tlabelPercent = (getLabelGap()) + (getMaximumLabelWidth());\n} ",
+            "generation": 1660,
+            "ingredients": null,
+            "patch": "if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {\n\tdrawNoDataMessage(g2, plotArea);\n\tg2.setClip(savedClip);\n\tdrawOutline(g2, plotArea);\n\treturn ;\n} ",
             "patchLocation": {
-                "className": "org.jfree.chart.plot.PiePlot3D", 
-                "line": 247, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.jfree.chart.plot.PiePlot3D",
+                "line": 247
+            },
             "patchvalidation": {
-                "evalresult": "true", 
-                "evaltcall": "11", 
-                "evaltcfailing": "0", 
-                "fvalresult": "true", 
-                "fvaltcall": "3", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "3579", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "7293", 
-            "type": "ReplaceOp", 
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "11",
+                "numberAllTestRegression": "3579",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "7293",
+            "type": "ReplaceOp",
             "variant": 3320
         }
-    ], 
-    "ops": "0", 
-    "programVariant": "200", 
-    "timeEvaluation": null, 
+    ],
     "timeTotal": "7795"
 }

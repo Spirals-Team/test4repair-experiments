@@ -1,115 +1,79 @@
 {
-    "date": "Sun Jan 29 14:17:05 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n", 
-    "gens": "85", 
-    "node": "grimoire-2.nancy.grid5000.fr", 
-    "operations": [
+    "date": "Sun Jan 29 14:17:05 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n\n",
+    "node": "grimoire-2.nancy.grid5000.fr",
+    "patches": [
         {
-            "buggyStatement": "maxCountCallback.trigger(maximalCount)", 
-            "generation": 186, 
-            "ingredients": null, 
-            "patch": "remove", 
+            "buggyStatement": "if (nbPoints == (x.length)) {\n\tnbPoints--;\n\tif (signChangeIndex >= (((x.length) + 1) / 2)) {\n\t\tjava.lang.System.arraycopy(x, 1, x, 0, nbPoints);\n\t\tjava.lang.System.arraycopy(y, 1, y, 0, nbPoints);\n\t\t--signChangeIndex;\n\t} \n} ",
+            "generation": 225,
+            "ingredients": null,
+            "patch": "signChangeIndex = 2",
             "patchLocation": {
-                "className": "org.apache.commons.math.util.Incrementor", 
-                "line": 151, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver",
+                "line": 299
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "13", 
-                "evaltcfailing": "4", 
-                "fvalresult": "true", 
-                "fvaltcall": "15", 
-                "fvaltcfailing": "0", 
-                "mvalresult": null, 
-                "mvaltcall": null, 
-                "mvaltcfailing": null
-            }, 
-            "scope": "-", 
-            "time": "2752", 
-            "type": "RemoveOp", 
-            "variant": 372
-        }, 
-        {
-            "buggyStatement": "if (nbPoints == (x.length)) {\n\tnbPoints--;\n\tif (signChangeIndex >= (((x.length) + 1) / 2)) {\n\t\tjava.lang.System.arraycopy(x, 1, x, 0, nbPoints);\n\t\tjava.lang.System.arraycopy(y, 1, y, 0, nbPoints);\n\t\t--signChangeIndex;\n\t} \n} ", 
-            "generation": 225, 
-            "ingredients": null, 
-            "patch": "signChangeIndex = 2", 
-            "patchLocation": {
-                "className": "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver", 
-                "line": 299, 
-                "lineSusp": "0"
-            }, 
-            "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "27", 
-                "evaltcfailing": "1", 
-                "fvalresult": "true", 
-                "fvaltcall": "15", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "3135", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "3511", 
-            "type": "InsertAfterOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest",
+                        "failingTestName": "14"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "27",
+                "numberAllTestRegression": "3135",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "3511",
+            "type": "InsertAfterOp",
             "variant": 450
-        }, 
+        },
         {
-            "buggyStatement": "throw new org.apache.commons.math.exception.MaxCountExceededException(max)", 
-            "generation": 443, 
-            "ingredients": null, 
-            "patch": "remove", 
+            "buggyStatement": "int start = 0",
+            "generation": 506,
+            "ingredients": null,
+            "patch": "signChangeIndex = 2",
             "patchLocation": {
-                "className": "org.apache.commons.math.util.Incrementor", 
-                "line": 65, 
-                "lineSusp": "0"
-            }, 
+                "className": "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver",
+                "line": 246
+            },
             "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "13", 
-                "evaltcfailing": "2", 
-                "fvalresult": "true", 
-                "fvaltcall": "15", 
-                "fvaltcfailing": "0", 
-                "mvalresult": null, 
-                "mvaltcall": null, 
-                "mvaltcfailing": null
-            }, 
-            "scope": "-", 
-            "time": "6123", 
-            "type": "RemoveOp", 
-            "variant": 886
-        }, 
-        {
-            "buggyStatement": "int start = 0", 
-            "generation": 506, 
-            "ingredients": null, 
-            "patch": "signChangeIndex = 2", 
-            "patchLocation": {
-                "className": "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver", 
-                "line": 246, 
-                "lineSusp": "0"
-            }, 
-            "patchvalidation": {
-                "evalresult": "false", 
-                "evaltcall": "27", 
-                "evaltcfailing": "6", 
-                "fvalresult": "true", 
-                "fvaltcall": "15", 
-                "fvaltcfailing": "0", 
-                "mvalresult": "true", 
-                "mvaltcall": "3135", 
-                "mvaltcfailing": "0"
-            }, 
-            "scope": "LOCAL", 
-            "time": "6622", 
-            "type": "InsertBeforeOp", 
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest",
+                        "failingTestName": "14"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest",
+                        "failingTestName": "15"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest",
+                        "failingTestName": "10"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest",
+                        "failingTestName": "12"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest",
+                        "failingTestName": "20"
+                    },
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver_ESTest",
+                        "failingTestName": "00"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "27",
+                "numberAllTestRegression": "3135",
+                "numberEvosuiteFailing": "6",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "6622",
+            "type": "InsertBeforeOp",
             "variant": 1012
         }
-    ], 
-    "ops": "0", 
-    "programVariant": "372", 
-    "timeEvaluation": null, 
+    ],
     "timeTotal": "7628"
 }
