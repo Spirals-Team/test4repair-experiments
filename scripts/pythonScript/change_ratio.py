@@ -12,11 +12,11 @@ def extract_results(path, project, bug, seed):
 	global count
 	result_path = os.path.join(path, "results.json")
 	if not os.path.isfile(result_path):
-		return
+		return None
 	with open(result_path) as file:
 		results = json.load(file)
 		if "patches" not in results or len(results["patches"]) == 0:
-			return
+			return None
 		isMin = True
 		first_eval = int(results["patches"][0]["patchvalidation"]["numberEvosuiteFailing"])
 		for i in range(1, len(results["patches"])):
@@ -37,7 +37,6 @@ for project in sorted(os.listdir(experiment_path)):
 	if os.path.isfile(project_path):
 		continue
 	for bug in sorted(os.listdir(project_path), key=natural_key):
-
 		changed = []
 
 		bug_path = os.path.join(project_path, bug)
@@ -50,7 +49,9 @@ for project in sorted(os.listdir(experiment_path)):
 				seed_path = os.path.join(tool_path, seed)
 				if os.path.isfile(seed_path):
 					continue
-				allseed += [int(seed[5:])]
-				if not extract_results(seed_path, project, bug, seed):
+				result = extract_results(seed_path, project, bug, seed)
+				if result is not None:
+					allseed += [int(seed[5:])]
+				if result == False:
 					changed += [int(seed[5:])]
 		print bug, "%d/%d seeds with changes due to MinImpact:" % (len(changed),len(allseed)) , sorted(changed)
