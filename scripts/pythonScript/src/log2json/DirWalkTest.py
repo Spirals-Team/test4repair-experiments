@@ -1,5 +1,6 @@
 import unittest
-from DirWalk import *
+
+from src.log2json.DirWalk import *
 
 pathToTest4Repair = "/Users/matias/develop/results/test4Repair/jsontest4repair/test4repair-experiments/"
 
