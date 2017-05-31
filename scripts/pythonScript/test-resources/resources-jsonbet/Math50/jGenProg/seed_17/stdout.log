@@ -1,0 +1,959 @@
+seed AstorRun 17 
+export PATH="/home/mmartinez/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/mmartinez/projects/math/math_50;defects4j compile;cp -r /home/mmartinez/projects/math/math_50 /tmp/math_50_Genprog_local_s1;cd /tmp/math_50_Genprog_local_s1;mkdir lib/;cp -r /home/mmartinez/defects4j/framework/projects/lib/* lib/;cp -r /home/mmartinez/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/17/package/50/Genprog/result
+cd /tmp/math_50_Genprog_local_s1;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";time /home/mmartinez/jdk1.8.0_45/bin//java -Xmx4096m -cp /home/mmartinez/defects4j-repair/src/python/core/../../..//libs/astor.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -id Math -dependencies lib/ -failing org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -jvm4evosuitetestexecution /home/mmartinez/jdk1.8.0_45/bin/ -javacompliancelevel 5 -maxgen 1000000 -seed 17 -scope package -maxtime 120  -stopfirst false -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/ -flthreshold 0.1  -validation  fr.inria.astor.core.validation.validators.RegressionValidation  -ESParameters -Dassertion_timeout=1800:-Dminimization_timeout=1800:-Djunit_check_timeout=1800:-Dwrite_junit_timeout=300:-Dinitialization_timeout=300:-Dglobal_timeout=18000:-Dsearch_budget=100000:-Dstopping_condition=MaxStatements:-Dno_runtime_dependency=true:-Dsandbox=false:-Dp_reflection_on_private=0.0:-Dreflection_start_percent=1.0:-Dp_functional_mocking=0.0:-Dfunctional_mocking_percent=1.0:-mem=2000 -ignoredtestcases org.apache.commons.lang.LocaleUtilsTest  -excludeRegression  -maxgen 100000000 ;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+"; find /tmp/math_50_Genprog_local_s1/outputMutation -name "*.class" -type f -delete;echo "removed classes 
+"; find . -name bin  -type d -print0|xargs -0 rm -r --; zip -r -q out.zip /tmp/math_50_Genprog_local_s1/outputMutation; echo "zipped 
+";cp out.zip /home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Math/seed/17/package/50/Genprog; echo "copied zip 
+";rm -rf /tmp/math_50_Genprog_local_s1;
+
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:136) - End Repair Loops: Found solution
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:137) - Solution stored at: /tmp/math_50_Genprog_local_s1/./outputMutation/AstorMain-Math//src/
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:142) - 
+Number solutions:47
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 66 (SOL) , #gens: 36, #ops: 1, parent:65]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 7.0, [Variant id: 134 (SOL) , #gens: 36, #ops: 1, parent:133]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 186 (SOL) , #gens: 36, #ops: 1, parent:185]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 190 (SOL) , #gens: 36, #ops: 1, parent:189]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 200 (SOL) , #gens: 37, #ops: 1, parent:199]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 258 (SOL) , #gens: 36, #ops: 1, parent:257]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 7.0, [Variant id: 260 (SOL) , #gens: 36, #ops: 1, parent:259]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 270 (SOL) , #gens: 36, #ops: 1, parent:269]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 282 (SOL) , #gens: 36, #ops: 1, parent:281]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 304 (SOL) , #gens: 38, #ops: 1, parent:303]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 320 (SOL) , #gens: 36, #ops: 1, parent:319]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 326 (SOL) , #gens: 37, #ops: 1, parent:325]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 7.0, [Variant id: 338 (SOL) , #gens: 36, #ops: 1, parent:337]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 340 (SOL) , #gens: 36, #ops: 1, parent:339]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 360 (SOL) , #gens: 36, #ops: 1, parent:359]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 3.0, [Variant id: 378 (SOL) , #gens: 37, #ops: 1, parent:377]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 402 (SOL) , #gens: 36, #ops: 1, parent:401]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 7.0, [Variant id: 416 (SOL) , #gens: 36, #ops: 1, parent:415]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 442 (SOL) , #gens: 36, #ops: 1, parent:441]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 7.0, [Variant id: 456 (SOL) , #gens: 36, #ops: 1, parent:455]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 478 (SOL) , #gens: 36, #ops: 1, parent:477]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 482 (SOL) , #gens: 37, #ops: 1, parent:481]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 512 (SOL) , #gens: 36, #ops: 1, parent:511]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 560 (SOL) , #gens: 36, #ops: 1, parent:559]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 630 (SOL) , #gens: 36, #ops: 1, parent:629]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 634 (SOL) , #gens: 36, #ops: 1, parent:633]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 644 (SOL) , #gens: 36, #ops: 1, parent:643]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 7.0, [Variant id: 672 (SOL) , #gens: 36, #ops: 1, parent:671]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 706 (SOL) , #gens: 37, #ops: 1, parent:705]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 718 (SOL) , #gens: 37, #ops: 1, parent:717]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 720 (SOL) , #gens: 36, #ops: 1, parent:719]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 7.0, [Variant id: 760 (SOL) , #gens: 36, #ops: 1, parent:759]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 764 (SOL) , #gens: 36, #ops: 1, parent:763]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 810 (SOL) , #gens: 37, #ops: 1, parent:809]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 876 (SOL) , #gens: 36, #ops: 1, parent:875]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 918 (SOL) , #gens: 36, #ops: 1, parent:917]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 932 (SOL) , #gens: 36, #ops: 1, parent:931]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 966 (SOL) , #gens: 36, #ops: 1, parent:965]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 7.0, [Variant id: 1054 (SOL) , #gens: 36, #ops: 1, parent:1053]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 1060 (SOL) , #gens: 36, #ops: 1, parent:1059]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 1098 (SOL) , #gens: 36, #ops: 1, parent:1097]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 1122 (SOL) , #gens: 36, #ops: 1, parent:1121]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 0.0, [Variant id: 1148 (SOL) , #gens: 38, #ops: 1, parent:1147]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 1166 (SOL) , #gens: 36, #ops: 1, parent:1165]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 1224 (SOL) , #gens: 36, #ops: 1, parent:1223]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 1232 (SOL) , #gens: 36, #ops: 1, parent:1231]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 1240 (SOL) , #gens: 36, #ops: 1, parent:1239]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:146) - 
+All variants:
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:148) - f 1.0, [Variant id: 1251, #gens: 37, #ops: 0, parent:-]
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:152) - 
+Solution details
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:153) - 
+ --SOLUTIONS DESCRIPTION--
+
+ ----
+ProgramVariant 66
+ 
+time(sec)= 419
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 33
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 134
+ 
+time(sec)= 637
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 178
+lineSuspiciousness= 0.151
+original statement= switch (method) {
+	case ILLINOIS :
+		f0 *= 0.5;
+		break;
+	case PEGASUS :
+		f0 *= f1 / (f1 + fx);
+		break;
+	case REGULA_FALSI :
+		if (x == x1) {
+			x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)));
+			f0 = computeObjectiveValue(x0);
+		} 
+		break;
+	default :
+		throw new org.apache.commons.math.exception.MathInternalError();
+}
+fixed statement= 
+generation= 67
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|3|2897|[testQuinticZero(org.apache.commons.math.analysis.solvers.IllinoisSolverTest): null-, testQuinticZero(org.apache.commons.math.analysis.solvers.PegasusSolverTest): null-, testOverlappingEvents1(org.apache.commons.math.ode.events.OverlappingEventsTest): illegal state: maximal count (999) exceeded: evaluations-]|
+evo_regression: |false|4|37|[test30(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (258) exceeded: evaluations-, test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test29(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (876) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 186
+ 
+time(sec)= 864
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 93
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 190
+ 
+time(sec)= 970
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 95
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 200
+ 
+time(sec)= 1076
+operation: ReplaceOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= f1 = fx
+generation= 100
+ingredientScope= LOCAL
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 258
+ 
+time(sec)= 1259
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 129
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 260
+ 
+time(sec)= 1356
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 178
+lineSuspiciousness= 0.151
+original statement= switch (method) {
+	case ILLINOIS :
+		f0 *= 0.5;
+		break;
+	case PEGASUS :
+		f0 *= f1 / (f1 + fx);
+		break;
+	case REGULA_FALSI :
+		if (x == x1) {
+			x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)));
+			f0 = computeObjectiveValue(x0);
+		} 
+		break;
+	default :
+		throw new org.apache.commons.math.exception.MathInternalError();
+}
+fixed statement= 
+generation= 130
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|3|2897|[testQuinticZero(org.apache.commons.math.analysis.solvers.IllinoisSolverTest): null-, testQuinticZero(org.apache.commons.math.analysis.solvers.PegasusSolverTest): null-, testOverlappingEvents1(org.apache.commons.math.ode.events.OverlappingEventsTest): illegal state: maximal count (999) exceeded: evaluations-]|
+evo_regression: |false|4|37|[test30(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (258) exceeded: evaluations-, test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test29(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (876) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 270
+ 
+time(sec)= 1463
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 135
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 282
+ 
+time(sec)= 1569
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 141
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 304
+ 
+time(sec)= 1682
+operation: InsertAfterOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 189
+lineSuspiciousness= 0.707
+original statement= f0 = computeObjectiveValue(x0)
+fixed statement= f0 = f1
+generation= 152
+ingredientScope= LOCAL
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 320
+ 
+time(sec)= 1847
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 160
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 326
+ 
+time(sec)= 1970
+operation: ReplaceOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= f0 = computeObjectiveValue(x0)
+generation= 163
+ingredientScope= LOCAL
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 338
+ 
+time(sec)= 2087
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 178
+lineSuspiciousness= 0.151
+original statement= switch (method) {
+	case ILLINOIS :
+		f0 *= 0.5;
+		break;
+	case PEGASUS :
+		f0 *= f1 / (f1 + fx);
+		break;
+	case REGULA_FALSI :
+		if (x == x1) {
+			x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)));
+			f0 = computeObjectiveValue(x0);
+		} 
+		break;
+	default :
+		throw new org.apache.commons.math.exception.MathInternalError();
+}
+fixed statement= 
+generation= 169
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|3|2897|[testQuinticZero(org.apache.commons.math.analysis.solvers.IllinoisSolverTest): null-, testQuinticZero(org.apache.commons.math.analysis.solvers.PegasusSolverTest): null-, testOverlappingEvents1(org.apache.commons.math.ode.events.OverlappingEventsTest): illegal state: maximal count (999) exceeded: evaluations-]|
+evo_regression: |false|4|37|[test30(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (258) exceeded: evaluations-, test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test29(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (876) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 340
+ 
+time(sec)= 2185
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 170
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 360
+ 
+time(sec)= 2338
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 180
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 378
+ 
+time(sec)= 2471
+operation: ReplaceOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= org.apache.commons.math.analysis.solvers.BaseSecantSolver.this.allowed = org.apache.commons.math.analysis.solvers.AllowedSolution.ANY_SIDE
+generation= 189
+ingredientScope= LOCAL
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|3|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): expected:<2.7863694426442738> but was:<0.5000000000043201>-, test31(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): Expecting exception: IllegalStateException-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 402
+ 
+time(sec)= 2600
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 201
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 416
+ 
+time(sec)= 2730
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 178
+lineSuspiciousness= 0.151
+original statement= switch (method) {
+	case ILLINOIS :
+		f0 *= 0.5;
+		break;
+	case PEGASUS :
+		f0 *= f1 / (f1 + fx);
+		break;
+	case REGULA_FALSI :
+		if (x == x1) {
+			x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)));
+			f0 = computeObjectiveValue(x0);
+		} 
+		break;
+	default :
+		throw new org.apache.commons.math.exception.MathInternalError();
+}
+fixed statement= 
+generation= 208
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|3|2897|[testQuinticZero(org.apache.commons.math.analysis.solvers.IllinoisSolverTest): null-, testQuinticZero(org.apache.commons.math.analysis.solvers.PegasusSolverTest): null-, testOverlappingEvents1(org.apache.commons.math.ode.events.OverlappingEventsTest): illegal state: maximal count (999) exceeded: evaluations-]|
+evo_regression: |false|4|37|[test30(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (258) exceeded: evaluations-, test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test29(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (876) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 442
+ 
+time(sec)= 2867
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 221
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 456
+ 
+time(sec)= 3016
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 178
+lineSuspiciousness= 0.151
+original statement= switch (method) {
+	case ILLINOIS :
+		f0 *= 0.5;
+		break;
+	case PEGASUS :
+		f0 *= f1 / (f1 + fx);
+		break;
+	case REGULA_FALSI :
+		if (x == x1) {
+			x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)));
+			f0 = computeObjectiveValue(x0);
+		} 
+		break;
+	default :
+		throw new org.apache.commons.math.exception.MathInternalError();
+}
+fixed statement= 
+generation= 228
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|3|2897|[testQuinticZero(org.apache.commons.math.analysis.solvers.IllinoisSolverTest): null-, testQuinticZero(org.apache.commons.math.analysis.solvers.PegasusSolverTest): null-, testOverlappingEvents1(org.apache.commons.math.ode.events.OverlappingEventsTest): illegal state: maximal count (999) exceeded: evaluations-]|
+evo_regression: |false|4|37|[test30(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (258) exceeded: evaluations-, test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test29(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (876) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 478
+ 
+time(sec)= 3150
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 239
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 482
+ 
+time(sec)= 3272
+operation: ReplaceOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= x1 = x
+generation= 241
+ingredientScope= LOCAL
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 512
+ 
+time(sec)= 3433
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 256
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 560
+ 
+time(sec)= 3636
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 280
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 630
+ 
+time(sec)= 3935
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 315
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 634
+ 
+time(sec)= 4032
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 317
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 644
+ 
+time(sec)= 4168
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 322
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 672
+ 
+time(sec)= 4303
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 178
+lineSuspiciousness= 0.151
+original statement= switch (method) {
+	case ILLINOIS :
+		f0 *= 0.5;
+		break;
+	case PEGASUS :
+		f0 *= f1 / (f1 + fx);
+		break;
+	case REGULA_FALSI :
+		if (x == x1) {
+			x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)));
+			f0 = computeObjectiveValue(x0);
+		} 
+		break;
+	default :
+		throw new org.apache.commons.math.exception.MathInternalError();
+}
+fixed statement= 
+generation= 336
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|3|2897|[testQuinticZero(org.apache.commons.math.analysis.solvers.IllinoisSolverTest): null-, testQuinticZero(org.apache.commons.math.analysis.solvers.PegasusSolverTest): null-, testOverlappingEvents1(org.apache.commons.math.ode.events.OverlappingEventsTest): illegal state: maximal count (999) exceeded: evaluations-]|
+evo_regression: |false|4|37|[test30(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (258) exceeded: evaluations-, test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test29(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (876) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 706
+ 
+time(sec)= 4463
+operation: ReplaceOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= f0 = f1
+generation= 353
+ingredientScope= LOCAL
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 718
+ 
+time(sec)= 4568
+operation: ReplaceOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= inverted = !inverted
+generation= 359
+ingredientScope= LOCAL
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 720
+ 
+time(sec)= 4666
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 360
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 760
+ 
+time(sec)= 4851
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 178
+lineSuspiciousness= 0.151
+original statement= switch (method) {
+	case ILLINOIS :
+		f0 *= 0.5;
+		break;
+	case PEGASUS :
+		f0 *= f1 / (f1 + fx);
+		break;
+	case REGULA_FALSI :
+		if (x == x1) {
+			x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)));
+			f0 = computeObjectiveValue(x0);
+		} 
+		break;
+	default :
+		throw new org.apache.commons.math.exception.MathInternalError();
+}
+fixed statement= 
+generation= 380
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|3|2897|[testQuinticZero(org.apache.commons.math.analysis.solvers.IllinoisSolverTest): null-, testQuinticZero(org.apache.commons.math.analysis.solvers.PegasusSolverTest): null-, testOverlappingEvents1(org.apache.commons.math.ode.events.OverlappingEventsTest): illegal state: maximal count (999) exceeded: evaluations-]|
+evo_regression: |false|4|37|[test30(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (258) exceeded: evaluations-, test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test29(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (876) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 764
+ 
+time(sec)= 4952
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 382
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 810
+ 
+time(sec)= 5202
+operation: ReplaceOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 189
+lineSuspiciousness= 0.707
+original statement= f0 = computeObjectiveValue(x0)
+fixed statement= f0 = f1
+generation= 405
+ingredientScope= LOCAL
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 876
+ 
+time(sec)= 5403
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 438
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 918
+ 
+time(sec)= 5587
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 459
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 932
+ 
+time(sec)= 5709
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 466
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 966
+ 
+time(sec)= 5879
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 483
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 1054
+ 
+time(sec)= 6095
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 178
+lineSuspiciousness= 0.151
+original statement= switch (method) {
+	case ILLINOIS :
+		f0 *= 0.5;
+		break;
+	case PEGASUS :
+		f0 *= f1 / (f1 + fx);
+		break;
+	case REGULA_FALSI :
+		if (x == x1) {
+			x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)));
+			f0 = computeObjectiveValue(x0);
+		} 
+		break;
+	default :
+		throw new org.apache.commons.math.exception.MathInternalError();
+}
+fixed statement= 
+generation= 527
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |false|3|2897|[testQuinticZero(org.apache.commons.math.analysis.solvers.IllinoisSolverTest): null-, testQuinticZero(org.apache.commons.math.analysis.solvers.PegasusSolverTest): null-, testOverlappingEvents1(org.apache.commons.math.ode.events.OverlappingEventsTest): illegal state: maximal count (999) exceeded: evaluations-]|
+evo_regression: |false|4|37|[test30(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (258) exceeded: evaluations-, test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test29(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (876) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 1060
+ 
+time(sec)= 6196
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 530
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 1098
+ 
+time(sec)= 6344
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 549
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 1122
+ 
+time(sec)= 6500
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 561
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 1148
+ 
+time(sec)= 6617
+operation: InsertAfterOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= double y1 = computeObjectiveValue(x1)
+generation= 574
+ingredientScope= PACKAGE
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |true|0|37|[]|
+ ----
+ProgramVariant 1166
+ 
+time(sec)= 6755
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 583
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 1224
+ 
+time(sec)= 6981
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 612
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 1232
+ 
+time(sec)= 7090
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 616
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+ ----
+ProgramVariant 1240
+ 
+time(sec)= 7215
+operation: RemoveOp
+location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
+line= 188
+lineSuspiciousness= 0.707
+original statement= x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))
+fixed statement= 
+generation= 620
+ingredientScope= -
+validation=
+failing: |true|0|9|[]|
+manual_regression: |true|0|2897|[]|
+evo_regression: |false|2|37|[test18(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (458) exceeded: evaluations-, test21(org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest): illegal state: maximal count (59) exceeded: evaluations-]|
+[INFO ] fr.inria.main.evolution.AstorMain.run(AstorMain.java:397) - Time Total(s): 7455.041
+
+
+Node: grisou-1.nancy.grid5000.fr
+
+
+Date: Thu Jan 19 03:55:43 CET 2017
+
+removed classes 
+
+zipped 
+
+copied zip 
+
+

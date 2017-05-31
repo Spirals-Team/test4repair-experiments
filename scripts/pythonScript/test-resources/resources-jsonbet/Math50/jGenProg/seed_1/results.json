@@ -1,0 +1,757 @@
+{
+    "date": "Tue Jan 17 01:14:56 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n\n",
+    "node": "grimoire-8.nancy.grid5000.fr",
+    "patches": [
+        {
+            "buggyStatement": "f0 = computeObjectiveValue(x0)",
+            "generation": 6,
+            "ingredients": null,
+            "patch": "f0 = f1",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 189
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest",
+                        "failingTestName": "29"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "460",
+            "type": "ReplaceOp",
+            "variant": 12
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 27,
+            "ingredients": null,
+            "patch": "remove",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest",
+                        "failingTestName": "29"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "682",
+            "type": "RemoveOp",
+            "variant": 54
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 72,
+            "ingredients": null,
+            "patch": "x1 = x",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest",
+                        "failingTestName": "29"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "1035",
+            "type": "ReplaceOp",
+            "variant": 144
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 88,
+            "ingredients": null,
+            "patch": "incrementEvaluationCount()",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "PACKAGE",
+            "time": "1218",
+            "type": "InsertAfterOp",
+            "variant": 176
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 104,
+            "ingredients": null,
+            "patch": "f1 = fx",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest",
+                        "failingTestName": "29"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "1478",
+            "type": "ReplaceOp",
+            "variant": 208
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 152,
+            "ingredients": null,
+            "patch": "remove",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest",
+                        "failingTestName": "29"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "1759",
+            "type": "RemoveOp",
+            "variant": 304
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 157,
+            "ingredients": null,
+            "patch": "f0 = computeObjectiveValue(x0)",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest",
+                        "failingTestName": "29"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "1965",
+            "type": "ReplaceOp",
+            "variant": 314
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 204,
+            "ingredients": null,
+            "patch": "inverted = !inverted",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest",
+                        "failingTestName": "29"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "2354",
+            "type": "ReplaceOp",
+            "variant": 408
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 216,
+            "ingredients": null,
+            "patch": "remove",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest",
+                        "failingTestName": "29"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "2476",
+            "type": "RemoveOp",
+            "variant": 432
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 241,
+            "ingredients": null,
+            "patch": "org.apache.commons.math.analysis.solvers.BaseSecantSolver.this.allowed = org.apache.commons.math.analysis.solvers.AllowedSolution.ANY_SIDE",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "2701",
+            "type": "ReplaceOp",
+            "variant": 482
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 244,
+            "ingredients": null,
+            "patch": "remove",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest",
+                        "failingTestName": "29"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "2810",
+            "type": "RemoveOp",
+            "variant": 488
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 288,
+            "ingredients": null,
+            "patch": "f0 = f1",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest",
+                        "failingTestName": "29"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "3034",
+            "type": "ReplaceOp",
+            "variant": 576
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 291,
+            "ingredients": null,
+            "patch": "remove",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest",
+                        "failingTestName": "29"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "3138",
+            "type": "RemoveOp",
+            "variant": 582
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 308,
+            "ingredients": null,
+            "patch": "remove",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest",
+                        "failingTestName": "29"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "3312",
+            "type": "RemoveOp",
+            "variant": 616
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 341,
+            "ingredients": null,
+            "patch": "remove",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest",
+                        "failingTestName": "29"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "3617",
+            "type": "RemoveOp",
+            "variant": 682
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 352,
+            "ingredients": null,
+            "patch": "remove",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest",
+                        "failingTestName": "29"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "3749",
+            "type": "RemoveOp",
+            "variant": 704
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 426,
+            "ingredients": null,
+            "patch": "remove",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest",
+                        "failingTestName": "29"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "4349",
+            "type": "RemoveOp",
+            "variant": 852
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 431,
+            "ingredients": null,
+            "patch": "remove",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest",
+                        "failingTestName": "29"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "4457",
+            "type": "RemoveOp",
+            "variant": 862
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 461,
+            "ingredients": null,
+            "patch": "double y1 = computeObjectiveValue(x1)",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "PACKAGE",
+            "time": "4684",
+            "type": "InsertBeforeOp",
+            "variant": 922
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 488,
+            "ingredients": null,
+            "patch": "remove",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest",
+                        "failingTestName": "29"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "4969",
+            "type": "RemoveOp",
+            "variant": 976
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 492,
+            "ingredients": null,
+            "patch": "remove",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest",
+                        "failingTestName": "29"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "5069",
+            "type": "RemoveOp",
+            "variant": 984
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 543,
+            "ingredients": null,
+            "patch": "remove",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest",
+                        "failingTestName": "29"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "5324",
+            "type": "RemoveOp",
+            "variant": 1086
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 545,
+            "ingredients": null,
+            "patch": "remove",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest",
+                        "failingTestName": "29"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "5422",
+            "type": "RemoveOp",
+            "variant": 1090
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 610,
+            "ingredients": null,
+            "patch": "f0 = computeObjectiveValue(x0)",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "5769",
+            "type": "InsertAfterOp",
+            "variant": 1220
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 617,
+            "ingredients": null,
+            "patch": "remove",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest",
+                        "failingTestName": "29"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "5874",
+            "type": "RemoveOp",
+            "variant": 1234
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 628,
+            "ingredients": null,
+            "patch": "double y0 = computeObjectiveValue(x0)",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "PACKAGE",
+            "time": "5994",
+            "type": "InsertBeforeOp",
+            "variant": 1256
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 731,
+            "ingredients": null,
+            "patch": "remove",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest",
+                        "failingTestName": "29"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "6468",
+            "type": "RemoveOp",
+            "variant": 1462
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 735,
+            "ingredients": null,
+            "patch": "remove",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest",
+                        "failingTestName": "29"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "-",
+            "time": "6574",
+            "type": "RemoveOp",
+            "variant": 1470
+        },
+        {
+            "buggyStatement": "x0 = 0.5 * ((x0 + x1) - (org.apache.commons.math.util.FastMath.max((rtol * (org.apache.commons.math.util.FastMath.abs(x1))), atol)))",
+            "generation": 894,
+            "ingredients": null,
+            "patch": "double y0 = computeObjectiveValue(x0)",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 188
+            },
+            "patchvalidation": {
+                "evoFailingTest": [],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "0",
+                "numberInitialFailing": "0"
+            },
+            "scope": "PACKAGE",
+            "time": "7185",
+            "type": "InsertAfterOp",
+            "variant": 1788
+        },
+        {
+            "buggyStatement": "f0 = computeObjectiveValue(x0)",
+            "generation": 904,
+            "ingredients": null,
+            "patch": "return doSolve()",
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver",
+                "line": 189
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.apache.commons.math.analysis.solvers.BaseSecantSolver_ESTest",
+                        "failingTestName": "29"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "37",
+                "numberAllTestRegression": "2897",
+                "numberEvosuiteFailing": "1",
+                "numberInitialFailing": "0"
+            },
+            "scope": "PACKAGE",
+            "time": "7315",
+            "type": "InsertAfterOp",
+            "variant": 1808
+        }
+    ],
+    "timeTotal": "7475"
+}
