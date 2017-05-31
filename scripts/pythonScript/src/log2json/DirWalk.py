@@ -1,7 +1,7 @@
 import json
 import os
 
-import parser
+from src.log2json import parser
 
 logfilename = 'stdout.log'
 

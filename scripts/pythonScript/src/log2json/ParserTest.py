@@ -1,12 +1,14 @@
 import unittest
-from parser import *
+
+from src.log2json.parser import *
+
 
 class JSONParserTest(unittest.TestCase):
 
 
     def test_parserS1M40(self):
-        content = getLogContent(root="./data/", filename="stdout_seed1M40.log")
-        json = parseLog(root="./data/", log=content)
+        content = getLogContent(root="../../test-resources/resources-parser/", filename="stdout_seed1M40.log")
+        json = parseLog(root="../../test-resources/resources-parser/", log=content)
         patches = json["patches"]
         self.assertEqual(4, len(patches)) ##3 patches discard
 
@@ -37,8 +39,8 @@ class JSONParserTest(unittest.TestCase):
         self.assertEqual(int(patch0Results["evoFailingTest"][1]["failingTestName"]), 2)
 
     def test_parserS1C25(self):
-        content = getLogContent(root="./data/", filename="stdout_seed1_c25.log")
-        json = parseLog(root="./data/", log=content)
+        content = getLogContent(root="../../test-resources/resources-parser/", filename="stdout_seed1_c25.log")
+        json = parseLog(root="../../test-resources/resources-parser/", log=content)
         patches = json["patches"]
         self.assertEqual(7, len(patches))  ##3 patches discard
 
@@ -56,7 +58,7 @@ class JSONParserTest(unittest.TestCase):
                          'org.jfree.data.statistics.DefaultStatisticalCategoryDataset_ESTest')
         self.assertEqual(int(patch0Results["evoFailingTest"][1]["failingTestName"]), 54)
         self.assertEqual(int(patch0Results["evoFailingTest"][2]["failingTestName"]), 5)
-        self.assertEqual(int(patch0Results["evoFailingTest"][2]["failingTestName"]), 4)
+        self.assertEqual(int(patch0Results["evoFailingTest"][3]["failingTestName"]), 4)
 
         patch0Results = patches[1]["patchvalidation"]
         self.assertEqual(patches[1]["variant"], 300)
