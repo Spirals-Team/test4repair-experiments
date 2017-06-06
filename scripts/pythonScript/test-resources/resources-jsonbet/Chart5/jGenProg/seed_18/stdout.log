@@ -1,0 +1,74 @@
+seed AstorRun 18 
+export PATH="/home/mmartinez/defects4j/framework/bin:$PATH";export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;export PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";cd /home/mmartinez/projects/chart/chart_5;defects4j compile;cp -r /home/mmartinez/projects/chart/chart_5 /tmp/chart_5_Genprog_local_s1;cd /tmp/chart_5_Genprog_local_s1;mkdir lib/;cp -r /home/mmartinez/defects4j/framework/projects/lib/* lib/;cp -r /home/mmartinez/defects4j/framework/projects/Chart/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Chart/seed/18/package/5/Genprog/result
+cd /tmp/chart_5_Genprog_local_s1;export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8;TZ="America/New_York"; export TZexport PATH="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/:$PATH";time /home/mmartinez/jdk1.8.0_45/bin//java -Xmx4096m -cp /home/mmartinez/defects4j-repair/src/python/core/../../..//libs/astor.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -id Chart -dependencies lib/ -failing org.jfree.data.xy.junit.XYSeriesTests: -package org.jfree -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -jvm4evosuitetestexecution /home/mmartinez/jdk1.8.0_45/bin/ -javacompliancelevel 4 -maxgen 1000000 -seed 18 -scope package -maxtime 120  -stopfirst false -population 1 -srcjavafolder source/ -srctestfolder tests/ -binjavafolder build/ -bintestfolder build-tests/ -flthreshold 0.1  -validation  fr.inria.astor.core.validation.validators.RegressionValidation  -ESParameters -Dassertion_timeout=1800:-Dminimization_timeout=1800:-Djunit_check_timeout=1800:-Dwrite_junit_timeout=300:-Dinitialization_timeout=300:-Dglobal_timeout=18000:-Dsearch_budget=100000:-Dstopping_condition=MaxStatements:-Dno_runtime_dependency=true:-Dsandbox=false:-Dp_reflection_on_private=0.0:-Dreflection_start_percent=1.0:-Dp_functional_mocking=0.0:-Dfunctional_mocking_percent=1.0:-mem=2000 -ignoredtestcases org.apache.commons.lang.LocaleUtilsTest  -excludeRegression  -maxgen 100000000 ;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+"; find /tmp/chart_5_Genprog_local_s1/outputMutation -name "*.class" -type f -delete;echo "removed classes 
+"; find . -name bin  -type d -print0|xargs -0 rm -r --; zip -r -q out.zip /tmp/chart_5_Genprog_local_s1/outputMutation; echo "zipped 
+";cp out.zip /home/mmartinez/defects4j-repair/src/python/core/../../../results/2016-june/Chart/seed/18/package/5/Genprog; echo "copied zip 
+";rm -rf /tmp/chart_5_Genprog_local_s1;
+
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:136) - End Repair Loops: Found solution
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:137) - Solution stored at: /tmp/chart_5_Genprog_local_s1/./outputMutation/AstorMain-Chart//src/
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:142) - 
+Number solutions:2
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 1162 (SOL) , #gens: 19, #ops: 1, parent:1161]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:144) - f (sol): 2.0, [Variant id: 1506 (SOL) , #gens: 19, #ops: 1, parent:1505]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:146) - 
+All variants:
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:148) - f 1.0, [Variant id: 15117, #gens: 19, #ops: 0, parent:-]
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:152) - 
+Solution details
+[INFO ] fr.inria.astor.core.loop.AstorCoreEngine.showResults(AstorCoreEngine.java:153) - 
+ --SOLUTIONS DESCRIPTION--
+
+ ----
+ProgramVariant 1162
+ 
+time(sec)= 1033
+operation: ReplaceOp
+location= org.jfree.data.xy.XYSeries
+line= 564
+lineSuspiciousness= 0.707
+original statement= org.jfree.data.xy.XYSeries.this.data.add(((-index) - 1), new org.jfree.data.xy.XYDataItem(x , y))
+fixed statement= add(x, y, true)
+generation= 581
+ingredientScope= LOCAL
+validation=
+failing: |true|0|21|[]|
+manual_regression: |true|0|4081|[]|
+evo_regression: |false|2|93|[test90(org.jfree.data.xy.XYSeries_ESTest): Expecting exception: IndexOutOfBoundsException-, test02(org.jfree.data.xy.XYSeries_ESTest): Expecting exception: IndexOutOfBoundsException-]|
+ ----
+ProgramVariant 1506
+ 
+time(sec)= 1364
+operation: ReplaceOp
+location= org.jfree.data.xy.XYSeries
+line= 564
+lineSuspiciousness= 0.707
+original statement= org.jfree.data.xy.XYSeries.this.data.add(((-index) - 1), new org.jfree.data.xy.XYDataItem(x , y))
+fixed statement= org.jfree.data.xy.XYSeries.this.data.add(new org.jfree.data.xy.XYDataItem(x , y))
+generation= 753
+ingredientScope= LOCAL
+validation=
+failing: |true|0|21|[]|
+manual_regression: |true|0|4081|[]|
+evo_regression: |false|2|93|[test90(org.jfree.data.xy.XYSeries_ESTest): Expecting exception: IndexOutOfBoundsException-, test02(org.jfree.data.xy.XYSeries_ESTest): Expecting exception: IndexOutOfBoundsException-]|
+[INFO ] fr.inria.main.evolution.AstorMain.run(AstorMain.java:397) - Time Total(s): 7305.629
+
+
+Node: graphene-14.nancy.grid5000.fr
+
+
+Date: Wed Jan 18 23:20:18 CET 2017
+
+removed classes 
+
+zipped 
+
+copied zip 
+
+

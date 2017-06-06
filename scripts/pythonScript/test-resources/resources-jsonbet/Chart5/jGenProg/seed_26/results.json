@@ -1,0 +1,71 @@
+{
+    "date": "Sat Jan 28 02:09:15 CET 2017\n\nremoved classes \n\nzipped \n\ncopied zip \n\n\n",
+    "node": "grisou-19.nancy.grid5000.fr",
+    "patches": [
+        {
+            "buggyStatement": "org.jfree.data.xy.XYSeries.this.data.add(((-index) - 1), new org.jfree.data.xy.XYDataItem(x , y))",
+            "generation": 519,
+            "ingredients": null,
+            "patch": "add(x, y, true)",
+            "patchLocation": {
+                "className": "org.jfree.data.xy.XYSeries",
+                "line": 564
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.jfree.data.xy.XYSeries_ESTest",
+                        "failingTestName": "79"
+                    },
+                    {
+                        "failingClassName": "org.jfree.data.xy.XYSeries_ESTest",
+                        "failingTestName": "03"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "100",
+                "numberAllTestRegression": "4081",
+                "numberEvosuiteFailing": "2",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "980",
+            "type": "ReplaceOp",
+            "variant": 1038
+        },
+        {
+            "buggyStatement": "org.jfree.data.xy.XYSeries.this.data.add(((-index) - 1), new org.jfree.data.xy.XYDataItem(x , y))",
+            "generation": 733,
+            "ingredients": null,
+            "patch": "org.jfree.data.xy.XYSeries.this.data.add(new org.jfree.data.xy.XYDataItem(x , y))",
+            "patchLocation": {
+                "className": "org.jfree.data.xy.XYSeries",
+                "line": 564
+            },
+            "patchvalidation": {
+                "evoFailingTest": [
+                    {
+                        "failingClassName": "org.jfree.data.xy.XYSeries_ESTest",
+                        "failingTestName": "79"
+                    },
+                    {
+                        "failingClassName": "org.jfree.data.xy.XYSeries_ESTest",
+                        "failingTestName": "62"
+                    },
+                    {
+                        "failingClassName": "org.jfree.data.xy.XYSeries_ESTest",
+                        "failingTestName": "03"
+                    }
+                ],
+                "numberAllEvosuiteTestGenerated": "100",
+                "numberAllTestRegression": "4081",
+                "numberEvosuiteFailing": "3",
+                "numberInitialFailing": "0"
+            },
+            "scope": "LOCAL",
+            "time": "1354",
+            "type": "ReplaceOp",
+            "variant": 1466
+        }
+    ],
+    "timeTotal": "7293"
+}
