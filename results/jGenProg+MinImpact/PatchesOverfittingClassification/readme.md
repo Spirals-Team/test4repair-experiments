@@ -1,4 +1,5 @@
-|bug id|A-Overfitting patches|B-Overfitting patches|Both Overfitting
+|bug id|A-Overfitting patches|B-Overfitting patches|Both Overfitting|
+|-|-|-|-|
 |Math2|0|1|0|
 |Math28|0|0|0|
 |Math40|14|9|8|
