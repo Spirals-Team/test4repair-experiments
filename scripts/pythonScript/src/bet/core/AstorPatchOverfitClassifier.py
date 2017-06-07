@@ -74,17 +74,20 @@ def countOverfittingOverSeeds(result_overfitting):
     result = []
     uniquePatches = set()
     for seedresult in result_overfitting:
-        uniquePatches.update(seedresult)
+        for patch in seedresult:
+            uniquePatches.add(patch[0])
     ##for each patch, count in how many seeds it appears as Overfitted
     for patch in uniquePatches:
-        overfit = 0
+        testsFromSeed = []
         for seedresult in result_overfitting:
-            overfit += 1 if patch in seedresult else 0
-
-
-        result.append({"patch":patch, "count_overfit":overfit})
+              for patchseed in seedresult:
+                 #patchesfromseed.append(p[0])
+                 if patch == patchseed[0]:
+                     testsFromSeed.append(patchseed[1])
+        result.append({"patch":patch, "count_overfit":len(testsFromSeed), "seeds":testsFromSeed})
 
     return result
+
 
 """"
 repairAttempt : path with the location of the attempt (seed)
@@ -95,9 +98,11 @@ onlyMinImpact: if true it only keeps the patch with min impact from a trial, if 
 
 """
 def classifyPatchesFromTrial(repairAttempt, bugid, jsonBetData, onlyMinImpactPatch = False):
+
+    seedid = repairAttempt.split("_")[1]
     ##The method classifies the patches of one TRIAL i.e., repair attempt (bug id-seed)
     global errorNoSeed
-    ## list with a-overfit patches
+    ## list with a-overfit patches. Each element is a tuple-2: first element a patch, second list of overfitted test cases
     aoverseed = []
     ##list with b-overfiting
     boverseed = []
@@ -119,12 +124,10 @@ def classifyPatchesFromTrial(repairAttempt, bugid, jsonBetData, onlyMinImpactPat
         ##Here are the cases that evosuite fails : Chart15/jGenProg/seed_21 Chart5/jGenProg/seed_19, Chart5/jGenProg/seed_20,Chart5/jGenProg/seed_24
         ##print("Error: no data about the trial in the json bet file for {}".format(repairAttempt))
         #As infomation about the bug is not present in JSON BET, we return empty
-        return [],[]
+        return [],[] 
 
     #For each patch in the trial
     if patches is not None and len(patches) > 0:
-
-        #
         if onlyMinImpactPatch:
             minImpactPatches = getMinImpactPatch(patches)
             patches = [minImpactPatches[0]]
@@ -132,7 +135,6 @@ def classifyPatchesFromTrial(repairAttempt, bugid, jsonBetData, onlyMinImpactPat
         for patch in patches:
             ##Get the patch key and check if it was analyzed, to avoid duplicates
             patchkey = getPatchKey(patch)
-            #if patchkey in patchAnalyzed:
             if any(patchkey in patch for patch in patchAnalyzed):
                 continue
             else:
@@ -142,34 +144,46 @@ def classifyPatchesFromTrial(repairAttempt, bugid, jsonBetData, onlyMinImpactPat
             pvalidation = patch["patchvalidation"]
             nrEvoFailing = int(pvalidation["numberEvosuiteFailing"])
 
-              ##Now, from the JSON BET, we retrieve the test information
-             ##The values are not a json list. Transforming them
+
+            ##Now, from the JSON BET, we retrieve the test information
+            ##The values are not a json list. Transforming them
             #corresponds to the bug-exposing tests
             bet = toIntList(testbet["bugExposingTest"])
-            #corresponds to the failing tests on the buggy version.
-            failingEvoTest = toIntList(testbet["failingTest"])
+
 
             ##A-Overfit
             ##If we have bet
             if len(bet) > 0:
+                test4patches = []
                 ##for each failing test in patched version, we find one that is BET
                 for failingtest in patch["patchvalidation"]["evoFailingTest"]:
                     #we retrieve the name of the failing test (which is a number after creating the JSON BET files and Astor files)
                     nameFailing = int(failingtest["failingTestName"])
-                    if nameFailing in bet and not any(patchkey in s for s in aoverseed):
-                        aoverseed.append(patchkey)
+                    if nameFailing in bet:
+                        test4patches.append(getTestCaseInformation(failingtest, seedid, bugid))
+                if len(test4patches) > 0:
+                    aoverseed.append((patchkey, {"seed":seedid, "testOver":test4patches}))
 
             ##B-Overfit
             if (nrEvoFailing > 0):
-                 ##for each failing test in patched version,
+                 test4patches = []  ##for each failing test in patched version,
                  for failingtest in patch["patchvalidation"]["evoFailingTest"]:
                     nameFailing = int(failingtest["failingTestName"])
-                    # and not in BET: TODO: Check if we exclude test in bet
                     if nameFailing not in bet:
-                        boverseed.append(patchkey)
-
+                        test4patches.append(getTestCaseInformation(failingtest, seedid, bugid))
+                 if len(test4patches) > 0:
+                    boverseed.append((patchkey, {"seed": seedid, "testOver": test4patches}))
 
     return aoverseed,boverseed
+
+
+def getTestCaseInformation(failingtest, seed, bugid):
+    #math/Math2/seed15
+    projectId = ''.join([i.lower() for i in bugid if not i.isdigit()])
+    link = "https://github.com/Spirals-Team/test4repair-experiments/tree/master/results/astor-test-and-classification/{}/{}/seed{}/generatedTests/".format(projectId,bugid,seed)
+    keyTestCase =  failingtest["failingClassName"] + ".test" + failingtest["failingTestName"]
+    link+= "/"+failingtest["failingClassName"].replace(".","/")+".java"
+    return {"name":keyTestCase,"link":link}
 
 def toIntList(listInString):
     '''from integer to list'''
