@@ -1,19 +1,53 @@
-
 import os.path
+import unittest
+from src.bet.core.OverfittingJSON2Table import *
+from src.bet.Parameters import *
 
-from src.bet.OverfittingJSON2Table import *
+class OverfittingClassification2Table(unittest.TestCase):
 
-pathToTest4Repair = "/Users/matias/develop/results/test4Repair/jsontest4repair/test4repair-experiments/"
-JSONASTORFolder = "/results/jGenProg+MinImpact/Patches and Analysis/"
-JSONBETFolder = "/results/astor-test-and-classification/"
-
-class ClassificationTest(unittest.TestCase):
-
-    def testParseBetJSON(self):
-        ##Here, I use the classification of MinImpact patches, but we can classify All patches..
-        path_to_classification_result = pathToTest4Repair+ "/results/jGenProg+MinImpact/patch_classification/"+"patchOverfittingClassificationAllPatchesMinImpact.json"
+    def testCreateTableByBug(self):
+        path_to_classification_result = pathToTest4RepairRoot \
+                                        + patchClassificationFolder \
+                                        + "patchOverfittingClassificationAllPatchesMinImpact.json"
         if os.path.isfile(path_to_classification_result):
-            overfittingJSON2Table(path_to_classification_result)
+            content = overfittingJSON2Table(path_to_classification_result)
+            file = open(pathToTest4RepairRoot
+                        + patchClassificationFolder+ "/readme.md", "w")
+            file.write(content)
+            file.close()
+
         else:
             print("Error: The summary file with the overfitting classificationn result does not exist at {}".format(path_to_classification_result))
 
+    def testCreateTableByPatchMinImpact(self):
+        path_to_classification_result = pathToTest4RepairRoot \
+                                        + patchClassificationFolder \
+                                        + "patchOverfittingClassificationAllPatchesMinImpact.json"
+        if os.path.isfile(path_to_classification_result):
+            content = overfittingJSON2TableByPatch(path_to_classification_result)
+            file = open(pathToTest4RepairRoot
+                       + patchClassificationFolder+ "/readmeMinImpact.md", "w")
+            file.write("# Overfitting Classification of MinImpact Patches \n")
+            file.write(content)
+            file.close()
+
+        else:
+            print("Error: The summary file with the overfitting classificationn result does not exist at {}".format(
+                path_to_classification_result))
+
+
+    def testCreateTableByPatchAllPatches(self):
+        path_to_classification_result = pathToTest4RepairRoot \
+                                        + patchClassificationFolder \
+                                        + "patchOverfittingClassificationAllPatches.json"
+        if os.path.isfile(path_to_classification_result):
+            content = overfittingJSON2TableByPatch(path_to_classification_result)
+            file = open(pathToTest4RepairRoot
+                       + patchClassificationFolder+ "/readmeAllPatches.md", "w")
+            file.write("# Overfitting Classification of All Patches\n")
+            file.write(content)
+            file.close()
+
+        else:
+            print("Error: The summary file with the overfitting classificationn result does not exist at {}".format(
+                path_to_classification_result))
