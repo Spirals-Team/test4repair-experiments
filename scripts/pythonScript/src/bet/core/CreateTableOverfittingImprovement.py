@@ -86,10 +86,12 @@ def analyzeSeed(t4rpath, bugid, betjsonData):
                                                                                    , aOverJGP, bOverJGP \
                                                                                    , formatPatchString(patchMI, 75), \
                                                                                    aOverMI, bOverMI \
-                                                                                   , "Changed" if changePatch else ""\
-                                                                                   , "Improved_AO" if (aOverJGP>aOverMI) else ("Worse AO" if (aOverJGP < aOverMI) else "")\
-                                                                                   , "Improved_BO" if  (bOverJGP > bOverMI)  else ("Worse BO" if (bOverJGP < bOverMI) else "")\
-                                                                                   ))
+                                                                                   ,"Changed" if changePatch else "" \
+                                                                                    ,"Improved_AO ({})".format(aOverJGP - aOverMI) if (aOverJGP > aOverMI) else (
+                                                                                    "Worse AO ({})".format(aOverJGP - aOverMI) if (aOverJGP < aOverMI) else "") \
+                                                                                    , "Improved_BO ({})".format(bOverJGP - bOverMI) if (bOverJGP > bOverMI)  else (
+                                                                                    "Worse BO ({})".format(bOverJGP - bOverMI) if (bOverJGP < bOverMI) else "") \
+                                                                                    ))
 
 
     return content
