@@ -24,7 +24,7 @@ class OverfittingClassificationTest(unittest.TestCase):
 
         bugfolder = "../../../test-resources/resources-jsonbet/Math50/jGenProg/seed_1"
         bugidentified = "Math50"
-        aoverseed, boverseed = classifyPatchesFromTrial(bugfolder, bugid= bugidentified, jsonBetData=jsonbet)
+        aoverseed, boverseed,otherp = classifyPatchesFromTrial(bugfolder, bugid= bugidentified, jsonBetData=jsonbet)
         print("Patches a-over: ")
         print(*aoverseed,sep="\n")
         self.assertTrue(len(aoverseed)>0)
@@ -46,7 +46,7 @@ class OverfittingClassificationTest(unittest.TestCase):
 
             bugidentified = "Math50"
 
-            aoverseed, boverseed = classifyPatchesFromTrial(bugfolder, bugid=bugidentified, jsonBetData=jsonbet)
+            aoverseed, boverseed,otherp = classifyPatchesFromTrial(bugfolder, bugid=bugidentified, jsonBetData=jsonbet)
             print("Patches a-over: ")
             print(*aoverseed, sep="\n")
 
@@ -84,7 +84,7 @@ class OverfittingClassificationTest(unittest.TestCase):
             seedWithPatchOverfitted = [11,15,17,18,20,23,28,29,3,32]
             for seed in range(1, 13):
                 bugfolder = "../../../test-resources/resources-jsonbet/Math50/jGenProg/seed_" + str(seed)
-                a_over_seed, b_over_seed = classifyPatchesFromTrial(bugfolder, bugid=bugidentified, jsonBetData=jsonbet)
+                a_over_seed, b_over_seed,otherp = classifyPatchesFromTrial(bugfolder, bugid=bugidentified, jsonBetData=jsonbet)
                 isOverfit = any((patchTest in s for s in a_over_seed))
                 if seed in seedWithPatchOverfitted:
                     self.assertTrue(isOverfit)
@@ -114,7 +114,7 @@ class OverfittingClassificationTest(unittest.TestCase):
             seedWithPatchOverfitted = [2,6,10,17]
             for seed in range(1,13):
                 bugfolder = "../../../test-resources/resources-jsonbet/Math50/jGenProg/seed_"+str(seed)
-                aoverseed,boverseed = classifyPatchesFromTrial(bugfolder, bugid=bugidentified, jsonBetData=jsonbet)
+                aoverseed,boverseed,otherp = classifyPatchesFromTrial(bugfolder, bugid=bugidentified, jsonBetData=jsonbet)
                 isOverfit = any((patchTest in s for s in boverseed))
                 if seed in seedWithPatchOverfitted:
                     self.assertTrue(isOverfit)
@@ -164,7 +164,7 @@ class OverfittingClassificationTest(unittest.TestCase):
     def testOverfiting_MultipleBugsAllSeedMinImpact(self):
 
         jsonbet = parseTBetJSONFile("../../../test-resources/resources-jsonbet/")
-        result = classifyAstorPatchesFromProject("../../../test-resources/resources-jsonbet/",jsonbet, onlyMinImpactPatch=True)
+        result = classifyAstorPatchesFromProject("../../../test-resources/resources-jsonbet/",jsonbet, typePatch=MIN_IMPACT_PATCH)
         print("Results: ")
         print(result)
 
@@ -192,7 +192,7 @@ class OverfittingClassificationTest(unittest.TestCase):
 
             bugidentified = "Math50"
 
-            aoverseed, boverseed = classifyPatchesFromTrial(attemptfolder, bugid=bugidentified, jsonBetData=jsonbet, onlyMinImpactPatch=False)
+            aoverseed, boverseed,otherp = classifyPatchesFromTrial(attemptfolder, bugid=bugidentified, jsonBetData=jsonbet, approach=ALL_PATCH)
             print("Patches a-over: ")
             print(*aoverseed, sep="\n")
 
@@ -201,8 +201,8 @@ class OverfittingClassificationTest(unittest.TestCase):
 
             self.assertTrue(len(aoverseed) > 0)
 
-            aoverseedmin, boverseedmin = classifyPatchesFromTrial(attemptfolder, bugid=bugidentified, jsonBetData=jsonbet,
-                                                            onlyMinImpactPatch=True)
+            aoverseedmin, boverseedmin,otherp= classifyPatchesFromTrial(attemptfolder, bugid=bugidentified, jsonBetData=jsonbet,
+                                                            approach=MIN_IMPACT_PATCH)
             ##The patch that is in first in minImpact ranking does not overfit.
             self.assertTrue(len(aoverseedmin) == 0)
             self.assertTrue(len(boverseedmin) == 0)
