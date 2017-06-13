@@ -29,6 +29,7 @@ def patchContent(patchesA, patchesB, noOverPatches):
     return formatPatch(noOverPatches[0]) if len(noOverPatches)> 0 else ""
 
 def formatPatch(patch):
+    patch = patch.replace("|", "&#124;")
     s = patch.split("_")
     className  = s[0]
     lastDot = className.rindex(".")
