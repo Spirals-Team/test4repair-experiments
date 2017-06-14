@@ -1,6 +1,6 @@
 import json
 import os
-
+from src.bet.Parameters import  *
 errorNoSeed = 0
 
 """
@@ -10,7 +10,7 @@ betjsondata parsed jsom data from bet json
 returns: for each bug in the project two list, one with all a-overfitting patches with the number of seed that it does occurs , the other the same for B-overfitting patches
 
 """
-def classifyAstorPatchesFromProject(t4rpath, betjsonData, onlyMinImpactPatch = False):
+def classifyAstorPatchesFromProject(t4rpath, betjsonData, typePatch = ALL_PATCH):
     global errorNoSeed
 
     results = []
@@ -22,7 +22,7 @@ def classifyAstorPatchesFromProject(t4rpath, betjsonData, onlyMinImpactPatch = F
 
         if not os.path.isfile(fbug):
 
-            a_overfit, b_overfit = classifyAstorPatchesFromBugId(patchesFolder,bugid,betjsonData,onlyMinImpactPatch)
+            a_overfit, b_overfit= classifyAstorPatchesFromBugId(patchesFolder,bugid,betjsonData,typePatch)
 
             results.append({"bugid":bugid,"a_overfit":a_overfit, "b_overfit":b_overfit})
 
@@ -36,7 +36,7 @@ t4rpath folder corresponding to a bug (e.g. Math1)
 
 returns two list, one with all a-overfitting patches with the number of seed that it does occurs , the other the same for B-overfitting patches
 '''
-def classifyAstorPatchesFromBugId(t4rpath, bugid, betjsonData, onlyMinImpactPatch = False):
+def classifyAstorPatchesFromBugId(t4rpath, bugid, betjsonData, approach = ALL_PATCH):
     global errorNoSeed
 
     ## <Local path>/ test4repair - experiments / results / jGenProg + MinImpact / Patches and Analysis / Chart / Chart1 / jGenProg / seed_1
@@ -51,7 +51,7 @@ def classifyAstorPatchesFromBugId(t4rpath, bugid, betjsonData, onlyMinImpactPatc
                     continue
 
                 pathToTrial = os.path.join(bugIdResultsFolder,seed)
-                aoverfitseed, boverfitseed = classifyPatchesFromTrial(pathToTrial, bugid, betjsonData,onlyMinImpactPatch)
+                aoverfitseed, boverfitseed, noOverFitPatches = classifyPatchesFromTrial(pathToTrial, bugid, betjsonData, approach)
                 result_a_over.append(aoverfitseed)
                 result_b_over.append(boverfitseed)
 
@@ -61,6 +61,7 @@ def classifyAstorPatchesFromBugId(t4rpath, bugid, betjsonData, onlyMinImpactPatc
     summarization_b_over = countOverfittingOverSeeds(result_b_over)
 
     return summarization_a_over, summarization_b_over
+
 
 ''''
 Input:
@@ -97,7 +98,7 @@ onlyMinImpact: if true it only keeps the patch with min impact from a trial, if 
 :return two lists, one with the a-overfitting patches, the other with the b-overfitting
 
 """
-def classifyPatchesFromTrial(repairAttempt, bugid, jsonBetData, onlyMinImpactPatch = False):
+def classifyPatchesFromTrial(repairAttempt, bugid, jsonBetData, approach = ALL_PATCH):
 
     seedid = repairAttempt.split("_")[1]
     ##The method classifies the patches of one TRIAL i.e., repair attempt (bug id-seed)
@@ -108,13 +109,13 @@ def classifyPatchesFromTrial(repairAttempt, bugid, jsonBetData, onlyMinImpactPat
     boverseed = []
     ##list with analyzed patched (to avoid analyzing twice)
     patchAnalyzed = []
+    noOverfittedPatches = []
 
     #reading the astor json file with the patches of a trial (bug-seed)
     resultTrial = os.path.join(repairAttempt, "results.json")
     json_data = open(resultTrial).read()
     data = json.loads(json_data)
     patches = data.get("patches")
-
 
     #Finding data of the trial in the JSON BET file.
     seed = os.path.basename(repairAttempt)
@@ -124,15 +125,19 @@ def classifyPatchesFromTrial(repairAttempt, bugid, jsonBetData, onlyMinImpactPat
         ##Here are the cases that evosuite fails : Chart15/jGenProg/seed_21 Chart5/jGenProg/seed_19, Chart5/jGenProg/seed_20,Chart5/jGenProg/seed_24
         ##print("Error: no data about the trial in the json bet file for {}".format(repairAttempt))
         #As infomation about the bug is not present in JSON BET, we return empty
-        return [],[] 
+        return [],[] ,[]
 
     #For each patch in the trial
     if patches is not None and len(patches) > 0:
-        if onlyMinImpactPatch:
+        if approach == MIN_IMPACT_PATCH:
             minImpactPatches = getMinImpactPatch(patches)
             patches = [minImpactPatches[0]]
+        elif approach == FIRST_JGP:
+            jgenProgFirstPatch = getJGenProgFirstPatch(patches)
+            patches = [jgenProgFirstPatch[0]]
 
         for patch in patches:
+
             ##Get the patch key and check if it was analyzed, to avoid duplicates
             patchkey = getPatchKey(patch)
             if any(patchkey in patch for patch in patchAnalyzed):
@@ -164,6 +169,7 @@ def classifyPatchesFromTrial(repairAttempt, bugid, jsonBetData, onlyMinImpactPat
                 if len(test4patches) > 0:
                     aoverseed.append((patchkey, {"seed":seedid, "testOver":test4patches}))
 
+
             ##B-Overfit
             if (nrEvoFailing > 0):
                  test4patches = []  ##for each failing test in patched version,
@@ -174,7 +180,11 @@ def classifyPatchesFromTrial(repairAttempt, bugid, jsonBetData, onlyMinImpactPat
                  if len(test4patches) > 0:
                     boverseed.append((patchkey, {"seed": seedid, "testOver": test4patches}))
 
-    return aoverseed,boverseed
+
+            if(len(aoverseed) == 0 and len(boverseed) == 0  ):
+                noOverfittedPatches.append(patchkey)
+
+    return aoverseed,boverseed, noOverfittedPatches
 
 
 def getTestCaseInformation(failingtest, seed, bugid):
@@ -207,12 +217,16 @@ def getMinImpactPatch(patches):
                                                  int(k["time"])))
     return sorted_list
 
-def runExperiment(path,jsonbet, fileoutput = "../../output/patchOverfittingClassification.json",onlyMinImpactPatch = False):
+def getJGenProgFirstPatch(patches):
+    sorted_list = sorted(patches, key=lambda k: (int(k["time"])))
+    return sorted_list
+
+def runExperiment(path,jsonbet, fileoutput = "../../output/patchOverfittingClassification.json", typePatch = ALL_PATCH):
     '''given a test4repair project, classifies the patches'''
     allProjectResults = []
     for project in ["Math", "Chart", "Time"]:
         projPath = os.path.join(path,project)
-        result =  classifyAstorPatchesFromProject(projPath,jsonbet,onlyMinImpactPatch)
+        result =  classifyAstorPatchesFromProject(projPath,jsonbet,typePatch)
         allProjectResults.append({"project":project,"result":result})
 
 

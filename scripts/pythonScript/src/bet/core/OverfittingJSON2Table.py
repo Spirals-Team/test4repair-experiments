@@ -125,6 +125,8 @@ def overfittingJSON2TableByPatch(path_json_result):
 
 
 def formatPatchString(patchID, strlim):
+    if(len(patchID) is 0):
+        return ""
     patchstr = (patchID[:strlim] + '..') if len(patchID) > strlim else patchID
     return "```"+patchstr.replace("\n"," ")+"```"
 
