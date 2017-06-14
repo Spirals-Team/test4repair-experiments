@@ -148,7 +148,7 @@ def classifyPatchesFromTrial(repairAttempt, bugid, jsonBetData, onlyMinImpactPat
             ##Now, from the JSON BET, we retrieve the test information
             ##The values are not a json list. Transforming them
             #corresponds to the bug-exposing tests
-            bet = toIntList(testbet["bugExposingTest"])
+            bet = toIntList(testbet["BugExposingTest"])
 
 
             ##A-Overfit
@@ -218,4 +218,4 @@ def runExperiment(path,jsonbet, fileoutput = "../../output/patchOverfittingClass
 
 
     with open(fileoutput, 'w') as outfile:
-        json.dump(allProjectResults, outfile)
+        json.dump(allProjectResults, outfile, indent=2, sort_keys=True)
