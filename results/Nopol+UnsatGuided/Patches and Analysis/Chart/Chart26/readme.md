@@ -53,8 +53,6 @@ Execution Time: 12:17 (hh:mm)
 
 Nb of EvoSuite Tests:254
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:0
 
 
@@ -73,8 +71,6 @@ Seed: 12
 Execution Time: 14:14 (hh:mm)
 
 Nb of EvoSuite Tests:236
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:0
 
@@ -95,8 +91,6 @@ Execution Time: 12:52 (hh:mm)
 
 Nb of EvoSuite Tests:235
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:0
 
 
@@ -115,8 +109,6 @@ Seed: 26
 Execution Time: 11:11 (hh:mm)
 
 Nb of EvoSuite Tests:242
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:0
 
@@ -137,8 +129,6 @@ Execution Time: 09:36 (hh:mm)
 
 Nb of EvoSuite Tests:249
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:0
 
 
@@ -157,8 +147,6 @@ Seed: 35
 Execution Time: 15:46 (hh:mm)
 
 Nb of EvoSuite Tests:244
-
-Nb of Contradiction Tests:1
 
 Nb of Removed Tests:1
 
@@ -179,8 +167,6 @@ Execution Time: 16:50 (hh:mm)
 
 Nb of EvoSuite Tests:239
 
-Nb of Contradiction Tests:1
-
 Nb of Removed Tests:2
 
 
@@ -199,8 +185,6 @@ Seed: 54
 Execution Time: 11:26 (hh:mm)
 
 Nb of EvoSuite Tests:243
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:0
 
@@ -221,8 +205,6 @@ Execution Time: 16:07 (hh:mm)
 
 Nb of EvoSuite Tests:240
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:0
 
 
@@ -242,8 +224,6 @@ Execution Time: 15:42 (hh:mm)
 
 Nb of EvoSuite Tests:250
 
-Nb of Contradiction Tests:2
-
 Nb of Removed Tests:3
 
 
@@ -253,8 +233,6 @@ Average Execution Time of Running Nopol+UnsatGuided: 13:36 (hh:mm)
 
 Average Nb of EvoSuite Tests:243.2
 
- Average Nb of Contradiction Tests:0.4
-
 Average Nb of Removed Tests:0.6
 
-Running Nopol+UnsatGuided changes the original patch for each of the 10 seeds. The human patch adds an if condition to check whether the owner is not null, the original patch and the newly generated patches by running Nopol+UnsatGuided all make changes to the same conditional statement in a different class, we think they are incorrect.
+Running Nopol+UnsatGuided changes the original patch for each of the 10 seeds. The human patch adds an if condition to check whether the owner is not null, the original patch and the newly generated patches by running Nopol+UnsatGuided all make changes to the same conditional statement in a different class. We observe failing EvoSuite tests for programs patched with the original Nopol patch, which means the original Nopol patch is incorrect. We do not observe any failing EvoSuite tests for programs patched with the new patches genertaed by running Nopol+UnsatGuided, yet we are still not quite sure about the correctness of the newly generated patches.

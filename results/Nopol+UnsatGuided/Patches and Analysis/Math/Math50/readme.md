@@ -50,8 +50,6 @@ Execution Time: 04:49 (hh:mm)
 
 Nb of EvoSuite Tests:35
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:0
 
 
@@ -70,8 +68,6 @@ Seed: 12
 Execution Time: 05:10 (hh:mm)
 
 Nb of EvoSuite Tests:38
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:1
 
@@ -92,8 +88,6 @@ Execution Time: 05:08 (hh:mm)
 
 Nb of EvoSuite Tests:36
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:3
 
 
@@ -112,8 +106,6 @@ Seed: 26
 Execution Time: 04:26 (hh:mm)
 
 Nb of EvoSuite Tests:36
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:0
 
@@ -134,8 +126,6 @@ Execution Time: 04:58 (hh:mm)
 
 Nb of EvoSuite Tests:38
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:0
 
 
@@ -154,8 +144,6 @@ Seed: 35
 Execution Time: 03:36 (hh:mm)
 
 Nb of EvoSuite Tests:36
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:0
 
@@ -176,8 +164,6 @@ Execution Time: 04:03 (hh:mm)
 
 Nb of EvoSuite Tests:36
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:0
 
 
@@ -196,8 +182,6 @@ Seed: 54
 Execution Time: 03:45 (hh:mm)
 
 Nb of EvoSuite Tests:35
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:0
 
@@ -218,8 +202,6 @@ Execution Time: 04:36 (hh:mm)
 
 Nb of EvoSuite Tests:38
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:0
 
 
@@ -238,8 +220,6 @@ Seed: 66
 Execution Time: 04:51 (hh:mm)
 
 Nb of EvoSuite Tests:36
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:0
 
@@ -260,8 +240,6 @@ Execution Time: 04:10 (hh:mm)
 
 Nb of EvoSuite Tests:37
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:0
 
 
@@ -280,8 +258,6 @@ Seed: 83
 Execution Time: 04:53 (hh:mm)
 
 Nb of EvoSuite Tests:38
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:0
 
@@ -302,8 +278,6 @@ Execution Time: 04:25 (hh:mm)
 
 Nb of EvoSuite Tests:37
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:0
 
 
@@ -322,8 +296,6 @@ Seed: 100
 Execution Time: 04:42 (hh:mm)
 
 Nb of EvoSuite Tests:36
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:0
 
@@ -344,8 +316,6 @@ Execution Time: 05:10 (hh:mm)
 
 Nb of EvoSuite Tests:38
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:0
 
 
@@ -364,8 +334,6 @@ Seed: 111
 Execution Time: 04:37 (hh:mm)
 
 Nb of EvoSuite Tests:37
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:0
 
@@ -386,8 +354,6 @@ Execution Time: 05:06 (hh:mm)
 
 Nb of EvoSuite Tests:38
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:0
 
 
@@ -406,8 +372,6 @@ Seed: 120
 Execution Time: 05:02 (hh:mm)
 
 Nb of EvoSuite Tests:38
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:0
 
@@ -428,8 +392,6 @@ Execution Time: 05:46 (hh:mm)
 
 Nb of EvoSuite Tests:37
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:0
 
 
@@ -448,8 +410,6 @@ Seed: 135
 Execution Time: 03:52 (hh:mm)
 
 Nb of EvoSuite Tests:38
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:2
 
@@ -470,8 +430,6 @@ Execution Time: 03:43 (hh:mm)
 
 Nb of EvoSuite Tests:36
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:0
 
 
@@ -490,8 +448,6 @@ Seed: 150
 Execution Time: 04:31 (hh:mm)
 
 Nb of EvoSuite Tests:38
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:3
 
@@ -512,8 +468,6 @@ Execution Time: 03:14 (hh:mm)
 
 Nb of EvoSuite Tests:40
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:0
 
 
@@ -532,8 +486,6 @@ Seed: 161
 Execution Time: 04:55 (hh:mm)
 
 Nb of EvoSuite Tests:39
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:0
 
@@ -554,8 +506,6 @@ Execution Time: 04:59 (hh:mm)
 
 Nb of EvoSuite Tests:38
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:0
 
 
@@ -574,8 +524,6 @@ Seed: 173
 Execution Time: 03:37 (hh:mm)
 
 Nb of EvoSuite Tests:35
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:0
 
@@ -596,8 +544,6 @@ Execution Time: 05:16 (hh:mm)
 
 Nb of EvoSuite Tests:37
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:0
 
 
@@ -616,8 +562,6 @@ Seed: 181
 Execution Time: 04:01 (hh:mm)
 
 Nb of EvoSuite Tests:34
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:3
 
@@ -638,8 +582,6 @@ Execution Time: 04:33 (hh:mm)
 
 Nb of EvoSuite Tests:35
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:5
 
 
@@ -659,8 +601,6 @@ Execution Time: 05:24 (hh:mm)
 
 Nb of EvoSuite Tests:37
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:6
 
 
@@ -670,8 +610,6 @@ Average Execution Time of Running Nopol+UnsatGuided: 04:34 (hh:mm)
 
 Average Nb of EvoSuite Tests:36.9
 
-Average Nb of Contradiction Tests:0
-
 Average Nb of Removed Tests:0.77
 
-Running Nopol+UnsatGuided changes the original patch for 28 of the 30 seeds. The human patch completely removes an if condition which corresponds to the REGULA_FALSI method. The Nopol version used in the EMSE paper (Automatic Repair of Real Bugs in Java: A Large-Scale Experiment on the Defects4J Dataset) generates a patch which adds a precondition if(!((x == 1) || ((1 < x) && (inverted)))) before the removed if condition and the authors claim that the patch is correct as after adding this precondition, the body of the removed if condition will never be executed. We think the patch just overfits the orginal failing test case RegulaFalsiSolverTest and makes it pass now, and thus is not a really correct patch. The patch generated by the Nopol version used in our study and newly patches generated by running Nopol+UnsatGuided also overfit the failing test case RegulaFalsiSolverTest, we think they are also incorrect.
+Running Nopol+UnsatGuided changes the original patch for 28 of the 30 seeds. The human patch completely removes an if condition which corresponds to the REGULA_FALSI method. The Nopol version used in the EMSE paper (Automatic Repair of Real Bugs in Java: A Large-Scale Experiment on the Defects4J Dataset) generates a patch which adds a precondition if(!((x == 1) || ((1 < x) && (inverted)))) before the removed if condition and the authors claim that the patch is correct as after adding this precondition, the body of the removed if condition will never be executed. We think the patch just overfits the orginal failing test case RegulaFalsiSolverTest and makes it pass now, and thus is not a really correct patch. The patch generated by the Nopol version used in our study and newly patches generated by running Nopol+UnsatGuided also overfit the failing test case RegulaFalsiSolverTest, we think they are also incorrect. We observe failing EvoSuite tests for both programs patched with the original Nopol patch and the new patches genertaed by running Nopol+UnsatGuided, which verifies our analysis.

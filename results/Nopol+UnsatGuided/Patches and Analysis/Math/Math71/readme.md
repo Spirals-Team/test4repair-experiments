@@ -64,8 +64,6 @@ Execution Time: 00:23 (hh:mm)
 
 Nb of EvoSuite Tests:32
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:0
 
 
@@ -84,8 +82,6 @@ Seed: 12
 Execution Time: 00:21 (hh:mm)
 
 Nb of EvoSuite Tests:33
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:0
 
@@ -106,8 +102,6 @@ Execution Time: 00:22 (hh:mm)
 
 Nb of EvoSuite Tests:34
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:1
 
 
@@ -126,8 +120,6 @@ Seed: 26
 Execution Time: 00:21 (hh:mm)
 
 Nb of EvoSuite Tests:31
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:0
 
@@ -148,8 +140,6 @@ Execution Time: 00:21 (hh:mm)
 
 Nb of EvoSuite Tests:30
 
-Nb of Contradiction Tests:1
-
 Nb of Removed Tests:1
 
 
@@ -168,8 +158,6 @@ Seed: 35
 Execution Time: 00:20 (hh:mm)
 
 Nb of EvoSuite Tests:31
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:0
 
@@ -190,8 +178,6 @@ Execution Time: 00:19 (hh:mm)
 
 Nb of EvoSuite Tests:29
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:1
 
 
@@ -210,8 +196,6 @@ Seed: 54
 Execution Time: 00:24 (hh:mm)
 
 Nb of EvoSuite Tests:32
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:1
 
@@ -232,8 +216,6 @@ Execution Time: 00:21 (hh:mm)
 
 Nb of EvoSuite Tests:34
 
-Nb of Contradiction Tests:1
-
 Nb of Removed Tests:1
 
 
@@ -252,8 +234,6 @@ Seed: 66
 Execution Time: 00:16 (hh:mm)
 
 Nb of EvoSuite Tests:28
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:0
 
@@ -274,8 +254,6 @@ Execution Time: 00:21 (hh:mm)
 
 Nb of EvoSuite Tests:30
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:0
 
 
@@ -294,8 +272,6 @@ Seed: 83
 Execution Time: 00:22 (hh:mm)
 
 Nb of EvoSuite Tests:32
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:0
 
@@ -316,8 +292,6 @@ Execution Time: 00:24 (hh:mm)
 
 Nb of EvoSuite Tests:31
 
-Nb of Contradiction Tests:1
-
 Nb of Removed Tests:2
 
 
@@ -336,8 +310,6 @@ Seed: 100
 Execution Time: 00:18 (hh:mm)
 
 Nb of EvoSuite Tests:27
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:1
 
@@ -358,8 +330,6 @@ Execution Time: 00:22 (hh:mm)
 
 Nb of EvoSuite Tests:33
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:0
 
 
@@ -378,8 +348,6 @@ Seed: 111
 Execution Time: 00:21 (hh:mm)
 
 Nb of EvoSuite Tests:31
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:0
 
@@ -400,8 +368,6 @@ Execution Time: 00:22 (hh:mm)
 
 Nb of EvoSuite Tests:31
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:2
 
 
@@ -420,8 +386,6 @@ Seed: 120
 Execution Time: 00:24 (hh:mm)
 
 Nb of EvoSuite Tests:37
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:0
 
@@ -442,8 +406,6 @@ Execution Time: 00:22 (hh:mm)
 
 Nb of EvoSuite Tests:33
 
-Nb of Contradiction Tests:1
-
 Nb of Removed Tests:1
 
 
@@ -462,8 +424,6 @@ Seed: 135
 Execution Time: 00:21 (hh:mm)
 
 Nb of EvoSuite Tests:32
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:0
 
@@ -484,8 +444,6 @@ Execution Time: 00:21 (hh:mm)
 
 Nb of EvoSuite Tests:32
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:0
 
 
@@ -504,8 +462,6 @@ Seed: 150
 Execution Time: 00:21 (hh:mm)
 
 Nb of EvoSuite Tests:31
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:0
 
@@ -526,8 +482,6 @@ Execution Time: 00:24 (hh:mm)
 
 Nb of EvoSuite Tests:34
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:1
 
 
@@ -546,8 +500,6 @@ Seed: 161
 Execution Time: 00:21 (hh:mm)
 
 Nb of EvoSuite Tests:30
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:0
 
@@ -568,8 +520,6 @@ Execution Time: 00:22 (hh:mm)
 
 Nb of EvoSuite Tests:29
 
-Nb of Contradiction Tests:1
-
 Nb of Removed Tests:2
 
 
@@ -588,8 +538,6 @@ Seed: 173
 Execution Time: 00:27 (hh:mm)
 
 Nb of EvoSuite Tests:37
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:1
 
@@ -610,8 +558,6 @@ Execution Time: 00:25 (hh:mm)
 
 Nb of EvoSuite Tests:35
 
-Nb of Contradiction Tests:1
-
 Nb of Removed Tests:1
 
 
@@ -630,8 +576,6 @@ Seed: 181
 Execution Time: 00:21 (hh:mm)
 
 Nb of EvoSuite Tests:31
-
-Nb of Contradiction Tests:0
 
 Nb of Removed Tests:0
 
@@ -652,8 +596,6 @@ Execution Time: 00:21 (hh:mm)
 
 Nb of EvoSuite Tests:31
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:0
 
 
@@ -673,8 +615,6 @@ Execution Time: 00:22 (hh:mm)
 
 Nb of EvoSuite Tests:31
 
-Nb of Contradiction Tests:0
-
 Nb of Removed Tests:1
 
 
@@ -684,8 +624,6 @@ Average Execution Time of Running Nopol+UnsatGuided: 00:22 (hh:mm)
 
 Average Nb of EvoSuite Tests:31.73
 
-Average Nb of Contradiction Tests:0.2
-
 Average Nb of Removed Tests:0.57
 
-Runing Nopol+UnsatGuided changes the original patch for 25 of the 30 seeds. The human patch involves changes to multiple files, the original patch and the newly generated patches by running Nopol+UnsatGuided add a precondition to a specific statement, we think they are incorrect.
+Runing Nopol+UnsatGuided changes the original patch for 25 of the 30 seeds. The human patch involves changes to multiple files, the original patch and the newly generated patches by running Nopol+UnsatGuided add a precondition to a specific statement, we think they are incorrect. We observe failing EvoSuite tests for both programs patched with the original Nopol patch and the new patches genertaed by running Nopol+UnsatGuided, which verifies our analysis.
