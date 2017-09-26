@@ -1,10 +1,10 @@
 ## EvoSuite Tests
 
-This directory contains the automatically generated EvoSuite tests of all seeds for each buggy version under study.
+This directory contains the generated EvoSuite tests (corresponding to all seeds) for each buggy version under study.
 
 ## Fixed Bug-expo Tests
 
-This directory contains the repaired bug-exposing tests so that all bug-exposing tests now will have correct oracles.
+This directory contains the repaired bug-exposing tests such that all bug-exposing tests now will have correct oracles.
 
 ## Overfitting Behavior Comparision
 
