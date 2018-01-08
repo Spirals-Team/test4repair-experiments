@@ -317,7 +317,7 @@ Nb of EvoSuite Tests:26
 Nb of Removed Tests:1
 
 
-## Patch 16 # Nopol+UnsatGuided 
+## Patch 16 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils : 198
 

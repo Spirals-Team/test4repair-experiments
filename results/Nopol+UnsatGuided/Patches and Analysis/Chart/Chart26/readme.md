@@ -189,7 +189,7 @@ Nb of EvoSuite Tests:243
 Nb of Removed Tests:0
 
 
-## Patch 9 # Nopol+UnsatGuided 
+## Patch 9 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.jfree.chart.plot.CategoryPlot : 2538
 
@@ -235,4 +235,4 @@ Average Nb of EvoSuite Tests:243.2
 
 Average Nb of Removed Tests:0.6
 
-Running Nopol+UnsatGuided changes the original patch for each of the 10 seeds. The human patch adds an if condition to check whether the owner is not null, the original patch and the newly generated patches by running Nopol+UnsatGuided all make changes to the same conditional statement in a different class. We observe failing EvoSuite tests for programs patched with the original Nopol patch, which means the original Nopol patch is incorrect. We do not observe any failing EvoSuite tests for programs patched with the new patches genertaed by running Nopol+UnsatGuided, yet we are still not quite sure about the correctness of the newly generated patches.
+Running Nopol+UnsatGuided changes the original patch for each of the 10 seeds. The human patch adds an if condition to check whether the owner is not null, the original patch and the selected newly generated patch by running Nopol+UnsatGuided all make changes to the same conditional statement in a different class. We observe failing EvoSuite tests for program patched with the original Nopol patch, which means the original Nopol patch is incorrect. We do not observe any failing EvoSuite tests for program patched with the selected new patch genertaed by running Nopol+UnsatGuided, yet we are still not quite sure about the correctness of the selected newly generated patch.

@@ -184,7 +184,7 @@ Nb of EvoSuite Tests:63
 Nb of Removed Tests:0
 
 
-## Patch 9 # Nopol+UnsatGuided 
+## Patch 9 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.apache.commons.math3.optimization.linear.SimplexTableau : 339
 
@@ -610,4 +610,4 @@ Average Nb of EvoSuite Tests:58.3
 
 Average Nb of Removed Tests:0.63
 
-Running Nopol+UnsatGuided changes the original patch for 28 of the 30 seeds. The human patch changes the incorrect parameter in an if condition, the original patch and the newly generated patches by running Nopol+UnsatGuided add a precondition before the buggy statement, the precondition is true for the usual case but false for the failing assert, we think they are incorrect. We observe failing EvoSuite tests for both programs patched with the original Nopol patch and the new patches genertaed by running Nopol+UnsatGuided, which verifies our analysis.
+Running Nopol+UnsatGuided changes the original patch for 28 of the 30 seeds. The human patch changes the incorrect parameter in an if condition, the original patch and the selected newly generated patch by running Nopol+UnsatGuided add a precondition before the buggy statement, the precondition is true for the usual case but false for the failing assert, we think they are incorrect. We observe failing EvoSuite tests for both programs patched with the original Nopol patch and the selected new patch genertaed by running Nopol+UnsatGuided, which verifies our analysis.

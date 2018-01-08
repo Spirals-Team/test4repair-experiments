@@ -33,7 +33,7 @@ Patch type: CONDITIONAL
 Execution Time: 00:00 (hh:mm)
 
 
-## Patch 1 # Nopol+UnsatGuided 
+## Patch 1 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.apache.commons.lang.math.NumberUtils : 452
 
@@ -611,4 +611,4 @@ Average Nb of EvoSuite Tests:215.7
 
 Average Nb of Removed Tests:0.17
 
-Running Nopol+UnsatGuided does not change the original patch for any of the 30 seeds. The human patch fixes the condition which invalidates the string 1l (long), the generated patch simplifies the condition. We observe failing EvoSuite tests for programs patched with the original Nopol patch, which means the original Nopol patch is incorrect.
+Running Nopol+UnsatGuided does not change the original patch for any of the 30 seeds. The human patch fixes the condition which invalidates the string 1l (long), the generated patch simplifies the condition. We observe failing EvoSuite tests for program patched with the original Nopol patch, which means the original Nopol patch is incorrect.

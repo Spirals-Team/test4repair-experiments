@@ -394,7 +394,7 @@ Nb of EvoSuite Tests:44
 Nb of Removed Tests:0
 
 
-## Patch 18 # Nopol+UnsatGuided 
+## Patch 18 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.apache.commons.lang.time.DurationFormatUtils : 323
 
@@ -649,4 +649,4 @@ Average Nb of EvoSuite Tests:46.1
 
 Average Nb of Removed Tests:1.1
 
-Runnning Nopol+UnsatGuided changes the original patch for 27 of the 30 seeds. The human patch involves multiple changes to a class, the original patch and the newly generated patches by running Nopol+UnsatGuided add a precondition to the same statement, we think they are incorrect.
+Runnning Nopol+UnsatGuided changes the original patch for 27 of the 30 seeds. The human patch involves multiple changes to a class, the original patch and the selected newly generated patch by running Nopol+UnsatGuided add a precondition to the same statement, we think they are incorrect.

@@ -48,7 +48,7 @@ reflected!=null
 Execution Time: 00:00 (hh:mm)
 
 
-## Patch 1 # Nopol+UnsatGuided 
+## Patch 1 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.apache.commons.math.optimization.direct.MultiDirectional : 90
 
@@ -626,4 +626,4 @@ Average Nb of EvoSuite Tests:5.47
 
 Average Nb of Removed Tests:0
 
-Running Nopol+UnsatGuided does not change the original patch for any of the 30 seeds. The human patch involves multiple changes to the code, the generated patch makes a change to a conditional statement, we think it is incorrect.
+Running Nopol+UnsatGuided does not change the original patch for any of the 30 seeds. The human patch involves multiple changes to the code, the generated Nopol patch makes a change to a conditional statement, we think it is incorrect.

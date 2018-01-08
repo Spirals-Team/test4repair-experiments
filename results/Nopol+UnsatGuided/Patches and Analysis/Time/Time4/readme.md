@@ -146,7 +146,7 @@ Nb of EvoSuite Tests:100
 Nb of Removed Tests:0
 
 
-## Patch 7 # Nopol+UnsatGuided 
+## Patch 7 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.joda.time.Partial : 459
 
@@ -610,4 +610,4 @@ Average Nb of EvoSuite Tests:92.57
 
 Average Nb of Removed Tests:0
 
-Running Nopol+UnsatGuided changes the original patch for 23 of the 30 seeds. The human patch uses a different constructor of the class Partial, the original patch and the newly generated patches by running Nopol+UnsatGuided add a precondition to the same statement, we think they are incorrect. We observe failing EvoSuite tests for both the programs patched with the original Nopol patch and the new patches genertaed by running Nopol+UnsatGuided, which verifies our analysis.
+Running Nopol+UnsatGuided changes the original patch for 23 of the 30 seeds. The human patch uses a different constructor of the class Partial, the original patch and the selected newly generated patch by running Nopol+UnsatGuided add a precondition to the same statement, we think they are incorrect. We observe failing EvoSuite tests for both the programs patched with the original Nopol patch and the selected new patch genertaed by running Nopol+UnsatGuided, which verifies our analysis.

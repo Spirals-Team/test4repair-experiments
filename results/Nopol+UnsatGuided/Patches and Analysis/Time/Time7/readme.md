@@ -414,7 +414,7 @@ Nb of EvoSuite Tests:47
 Nb of Removed Tests:2
 
 
-## Patch 21 # Nopol+UnsatGuided 
+## Patch 21 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.joda.time.format.DateTimeParserBucket : 359
 
@@ -612,4 +612,4 @@ Average Nb of EvoSuite Tests:49.67
 
 Average Nb of Removed Tests:0.4
 
-Running Nopol+UnsatGuided changes the original patch for 12 for the 30 seeds. The human patch changes the assignment of a variable named defaultYear, the original patch and the newly generated patches by running Nopol+UnsatGuided add a precondition to the same statement, we think they are incorrect. We observe failing EvoSuite tests for both the programs patched with the original Nopol patch and the new patches genertaed by running Nopol+UnsatGuided, which verifies our analysis.
+Running Nopol+UnsatGuided changes the original patch for 12 for the 30 seeds. The human patch changes the assignment of a variable named defaultYear, the original patch and the selected newly generated patch by running Nopol+UnsatGuided add a precondition to the same statement, we think they are incorrect. We observe failing EvoSuite tests for both the programs patched with the original Nopol patch and selected the new patch genertaed by running Nopol+UnsatGuided, which verifies our analysis.

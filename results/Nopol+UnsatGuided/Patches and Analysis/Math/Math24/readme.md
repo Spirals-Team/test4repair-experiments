@@ -117,7 +117,7 @@ Nb of EvoSuite Tests:132
 Nb of Removed Tests:0
 
 
-## Patch 5 # Nopol+UnsatGuided 
+## Patch 5 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.apache.commons.math3.util.MathArrays : 561
 
@@ -239,4 +239,4 @@ Average Nb of EvoSuite Tests:132.7
 
 Average Nb of Removed Tests:2.5
 
-Running Nopol+UnsatGuided changes the original patch for each of the 10 seeds. The human patch involves changes to two return statements, the original and newly generated patches by running Nopol+UnsatGuided add a precondition to the same statement, we think they are incorrect.
+Running Nopol+UnsatGuided changes the original patch for each of the 10 seeds. The human patch involves changes to two return statements, the original and selected newly generated patch by running Nopol+UnsatGuided add a precondition to the same statement, we think they are incorrect.

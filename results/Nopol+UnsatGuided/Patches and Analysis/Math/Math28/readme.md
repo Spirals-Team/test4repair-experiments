@@ -55,7 +55,7 @@ Patch type: PRECONDITION
 Execution Time: 00:16 (hh:mm)
 
 
-## Patch 1 # Nopol+UnsatGuided 
+## Patch 1 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.apache.commons.math3.optimization.linear.SimplexSolver : 151
 

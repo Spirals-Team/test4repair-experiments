@@ -32,7 +32,7 @@ Patch type: PRECONDITION
 Execution Time: 00:00 (hh:mm)
 
 
-## Patch 1 # Nopol+UnsatGuided 
+## Patch 1 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.apache.commons.math.optimization.linear.SimplexSolver : 63
 
@@ -610,4 +610,4 @@ Average Nb of EvoSuite Tests:17.07
 
 Average Nb of Removed Tests:0
 
-Running Nopol+UnsatGuided does not changes the original patch for any of the 30 seeds. The human patch changes the if condition, the generated patch modifies the value of the column index, we think it is incorrect.
+Running Nopol+UnsatGuided does not changes the original patch for any of the 30 seeds. The human patch changes the if condition, the generated Nopol patch modifies the value of the column index, we think it is incorrect.

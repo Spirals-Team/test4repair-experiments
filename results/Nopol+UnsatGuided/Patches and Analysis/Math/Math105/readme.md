@@ -222,7 +222,7 @@ Nb of EvoSuite Tests:48
 Nb of Removed Tests:0
 
 
-## Patch 11 # Nopol+UnsatGuided 
+## Patch 11 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.apache.commons.math.stat.regression.SimpleRegression : 115
 
@@ -610,4 +610,4 @@ Average Nb of EvoSuite Tests:45.13
 
 Average Nb of Removed Tests:0.2
 
-Running Nopol+UnsatGuided changes the original patch for 29 of the 30 seeds. The human patch adds return 0 if the result of the method getSumSquaredErrors() is lower than 0, the original patch and the newly generated patches by running Nopol+UnsatGuided add a precondition to the statement, we think they are incorrect. We observe failing EvoSuite tests for both the programs patched with the original Nopol patch and the new patches genertaed by running Nopol+UnsatGuided, which verifies our analysis.
+Running Nopol+UnsatGuided changes the original patch for 29 of the 30 seeds. The human patch adds return 0 if the result of the method getSumSquaredErrors() is lower than 0, the original patch and the selected newly generated patch by running Nopol+UnsatGuided add a precondition to the statement, we think they are incorrect. We observe failing EvoSuite tests for both the programs patched with the original Nopol patch and the selected new patch genertaed by running Nopol+UnsatGuided, which verifies our analysis.

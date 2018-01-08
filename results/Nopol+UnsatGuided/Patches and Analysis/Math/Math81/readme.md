@@ -108,7 +108,7 @@ Nb of EvoSuite Tests:44
 Nb of Removed Tests:1
 
 
-## Patch 4 # Nopol+UnsatGuided 
+## Patch 4 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.apache.commons.math.linear.EigenDecompositionImpl : 1586
 
@@ -629,4 +629,4 @@ Average Nb of EvoSuite Tests:44.03
 
 Average Nb of Removed Tests:1
 
-Running Nopol+UnsatGuided changes the original patch for 23 of the 30 seeds. The human patch involves multiple changes to the code, such as changes to if condition and for loop, 2 newly generated patches by running Nopol+UnsatGuided make changes to the same conditional statement, the original patch and other newly generated patches by running Nopol+UnsatGuided add a precondition to the same statement, we think they are incorrect. We observe failing EvoSuite tests for both the programs patched with the original Nopol patch and the new patches genertaed by running Nopol+UnsatGuided, which verifies our analysis.
+Running Nopol+UnsatGuided changes the original patch for 23 of the 30 seeds. The human patch involves multiple changes to the code, such as changes to if condition and for loop, the selected newly generated patch by running Nopol+UnsatGuided make changes to a conditional statement, the original Nopol patch adds a precondition to the same statement, we think they are incorrect. We observe failing EvoSuite tests for both the programs patched with the original Nopol patch and the selected new patch genertaed by running Nopol+UnsatGuided, which verifies our analysis.

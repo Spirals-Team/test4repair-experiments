@@ -188,7 +188,7 @@ Nb of EvoSuite Tests:23
 Nb of Removed Tests:0
 
 
-## Patch 9 # Nopol+UnsatGuided 
+## Patch 9 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.joda.time.chrono.BasicMonthOfYearDateTimeField : 210
 
@@ -614,4 +614,4 @@ Average Nb of EvoSuite Tests:22.9
 
 Average Nb of Removed Tests:0.03
 
-Running Nopol+UnsatGuided changes the original patch for 24 of the 30 seeds. The human patch adds an if condition and the accompanying if body, the original patch and the newly generated patches by running accompanying make changes to the same conditional statement, we think they are incorrect. We observe failing EvoSuite tests for both the programs patched with the original Nopol patch and the new patches genertaed by running Nopol+UnsatGuided, which verifies our analysis.
+Running Nopol+UnsatGuided changes the original patch for 24 of the 30 seeds. The human patch adds an if condition and the accompanying if body, the original patch and the selected newly generated patch by running accompanying make changes to the same conditional statement, we think they are incorrect. We observe failing EvoSuite tests for both the programs patched with the original Nopol patch and the selected new patch genertaed by running Nopol+UnsatGuided, which verifies our analysis.

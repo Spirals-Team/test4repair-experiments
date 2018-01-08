@@ -39,7 +39,7 @@ Patch type: PRECONDITION
 Execution Time: 00:04 (hh:mm)
 
 
-## Patch 1 # Nopol+UnsatGuided 
+## Patch 1 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.joda.time.tz.DateTimeZoneBuilder : 372
 
@@ -617,4 +617,4 @@ Average Nb of EvoSuite Tests:49.9
 
 Average Nb of Removed Tests:0
 
-Running Nopol+UnsatGuided does not changes the original patch for any of the 30 seeds. The human patch forces the initialization of a thread that throws an exception, the generated patch adds a precondition before a statement, we think it is incorrect. We observe failing EvoSuite tests for both the programs patched with the original Nopol patch and the new patches genertaed by running Nopol+UnsatGuided, which verifies our analysis.
+Running Nopol+UnsatGuided does not changes the original patch for any of the 30 seeds. The human patch forces the initialization of a thread that throws an exception, the generated Nopol patch adds a precondition before a statement, we think it is incorrect. We observe failing EvoSuite tests for the program patched with the Nopol patch, which verifies our analysis.

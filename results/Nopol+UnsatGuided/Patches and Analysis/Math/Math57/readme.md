@@ -412,7 +412,7 @@ Nb of EvoSuite Tests:23
 Nb of Removed Tests:0
 
 
-## Patch 21 # Nopol+UnsatGuided 
+## Patch 21 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.apache.commons.math.stat.clustering.EuclideanIntegerPoint : 86
 
@@ -610,4 +610,4 @@ Average Nb of EvoSuite Tests:21.7
 
 Average Nb of Removed Tests:0
 
-Runnin Nopol+UnsatGuided changes the original patch for 15 of the 30 seeds. The human patch changes the type of a parameter from int to double to avoid integer overflow, the original and newly generated patches by running Nopol+UnsatGuided add a precondition before the same statement, we think they are incorrect.
+Runnin Nopol+UnsatGuided changes the original patch for 15 of the 30 seeds. The human patch changes the type of a parameter from int to double to avoid integer overflow, the original and the selected newly generated patch by running Nopol+UnsatGuided add a precondition before the same statement, we think they are incorrect.

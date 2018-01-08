@@ -156,7 +156,7 @@ Nb of EvoSuite Tests:30
 Nb of Removed Tests:15
 
 
-## Patch 7 # Nopol+UnsatGuided 
+## Patch 7 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260
 
@@ -620,4 +620,4 @@ Average Nb of EvoSuite Tests:27.73
 
 Average Nb of Removed Tests:13.07
 
-Runing Nopol+UnsatGuided changes the original patch for 7 of the 30 seeds. The human patch involves multiple changes to the body of an if-else block, the original patch and the newly generated patches by running Nopol+UnsatGuided all make changes to the same conditional statement, we think they are incorrect. We observe failing EvoSuite tests for both programs patched with the original Nopol patch and the new patches genertaed by running Nopol+UnsatGuided, which verifies our analysis.
+Runing Nopol+UnsatGuided changes the original patch for 7 of the 30 seeds. The human patch involves multiple changes to the body of an if-else block, the original patch and the selected newly generated patch by running Nopol+UnsatGuided all make changes to the same conditional statement, we think they are incorrect. We observe failing EvoSuite tests for both programs patched with the original Nopol patch and the selected new patch genertaed by running Nopol+UnsatGuided, which verifies our analysis.
