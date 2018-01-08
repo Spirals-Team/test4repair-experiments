@@ -329,7 +329,7 @@ Nb of EvoSuite Tests:30
 Nb of Removed Tests:0
 
 
-## Patch 15 # Nopol+UnsatGuided 
+## Patch 15 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.apache.commons.math3.ode.AbstractIntegrator : 351
 
@@ -641,4 +641,4 @@ Average Nb of EvoSuite Tests:29.17
 
 Average Nb of Removed Tests:0
 
-Running Nopol+UnsatGuided changes the original patch for 2 of the 30 seeds. The human patch involves multiple changes to a class, the original patch and the newly generated patches by running Nopol+UnsatGuided add a precondition to the same statement, we think they are incorrect. We observe failing EvoSuite tests for both the programs patched with the original Nopol patch and the new patches genertaed by running Nopol+UnsatGuided, which verifies our analysis.
+Running Nopol+UnsatGuided changes the original patch for 2 of the 30 seeds. The human patch involves multiple changes to a class, the original patch and the selected newly generated patch by running Nopol+UnsatGuided add a precondition to the same statement, we think they are incorrect. We observe failing EvoSuite tests for both the programs patched with the original Nopol patch and the selected new patch genertaed by running Nopol+UnsatGuided, which verifies our analysis.

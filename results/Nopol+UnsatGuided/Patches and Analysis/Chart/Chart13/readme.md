@@ -583,7 +583,7 @@ Nb of EvoSuite Tests:31
 Nb of Removed Tests:0
 
 
-## Patch 30 # Nopol+UnsatGuided 
+## Patch 30 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.jfree.chart.block.BorderArrangement : 450
 
@@ -610,4 +610,4 @@ Average Nb of EvoSuite Tests:28.37
 
 Average Nb of Removed Tests:0
 
-Running Nopol+UnsatGuided changes the original patch for each of the 30 seeds. The buggy statement contains an instantiation of a range which may contain a negative value in upper, the human patch compares two values to avoid this situation. The original patch avoids the assignement of w[2] and all the newly generated patches avoid the assignement of w[3], we think they are incorrect. 
+Running Nopol+UnsatGuided changes the original patch for each of the 30 seeds. The buggy statement contains an instantiation of a range which may contain a negative value in upper, the human patch compares two values to avoid this situation. The original patch avoids the assignement of w[2] and the selected newly generated patch avoids the assignement of w[3], we think they are incorrect. 

@@ -222,7 +222,7 @@ Nb of EvoSuite Tests:8
 Nb of Removed Tests:0
 
 
-## Patch 11 # Nopol+UnsatGuided 
+## Patch 11 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 620
 
@@ -610,4 +610,4 @@ Average Nb of EvoSuite Tests:7.63
 
 Average Nb of Removed Tests:0.23
 
-Running Nopol+UnsatGuided changes the original patch for 2 of the 30 seeds. The human patch removes one parameter form a method call, the original patch and newly generated patches by running Nopol+UnsatGuided all add a precondition to the same statement, we think they are incorrect.
+Running Nopol+UnsatGuided changes the original patch for 2 of the 30 seeds. The human patch removes one parameter form a method call, the original patch and the selected newly generated patch by running Nopol+UnsatGuided all add a precondition to the same statement, we think they are incorrect.

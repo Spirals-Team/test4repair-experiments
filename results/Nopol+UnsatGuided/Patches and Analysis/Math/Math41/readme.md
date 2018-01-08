@@ -279,7 +279,7 @@ Nb of EvoSuite Tests:42
 Nb of Removed Tests:0
 
 
-## Patch 14 # Nopol+UnsatGuided 
+## Patch 14 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.apache.commons.math.stat.descriptive.moment.Mean : 217
 
@@ -610,4 +610,4 @@ Average Nb of EvoSuite Tests:40.8
 
 Average Nb of Removed Tests:1.17
 
-Running Nopol+UnsatGuided changes the original patch for 27 of the 30 seeds. The human patch changes the body of a for loop, the original patch and the newly generated patches by running Nopol+UnsatGuided all add a precondition to the same statement, we think they are incorrect. We observe failing EvoSuite tests for both programs patched with the original Nopol patch and the new patches genertaed by running Nopol+UnsatGuided, which verifies our analysis.
+Running Nopol+UnsatGuided changes the original patch for 27 of the 30 seeds. The human patch changes the body of a for loop, the original patch and the selected newly generated patch by running Nopol+UnsatGuided all add a precondition to the same statement, we think they are incorrect. We observe failing EvoSuite tests for both programs patched with the original Nopol patch and the selected new patch genertaed by running Nopol+UnsatGuided, which verifies our analysis.

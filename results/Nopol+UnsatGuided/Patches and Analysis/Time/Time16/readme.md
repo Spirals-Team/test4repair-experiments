@@ -583,7 +583,7 @@ Nb of EvoSuite Tests:49
 Nb of Removed Tests:0
 
 
-## Patch 30 # Nopol+UnsatGuided 
+## Patch 30 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.joda.time.format.DateTimeParserBucket : 358
 
@@ -610,4 +610,4 @@ Average Nb of EvoSuite Tests:49.23
 
 Average Nb of Removed Tests:0.17
 
-Running Nopol+UnsatGuided changes the original patch for 1 of the 30 seeds. The human patch changes the parameters used in the constructor of DateTimeParserBucket, the original patch and the newly generated patches by running accompanying add a precondition to the same statement, we think they are incorrect. We observe failing EvoSuite tests for both the programs patched with the original Nopol patch and the new patches genertaed by running Nopol+UnsatGuided, which verifies our analysis.
+Running Nopol+UnsatGuided changes the original patch for 1 of the 30 seeds. The human patch changes the parameters used in the constructor of DateTimeParserBucket, the original patch and the selected newly generated patches by running accompanying add a precondition to the same statement, we think they are incorrect. We observe failing EvoSuite tests for both the programs patched with the original Nopol patch and the selected new patch genertaed by running Nopol+UnsatGuided, which verifies our analysis.

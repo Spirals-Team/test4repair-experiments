@@ -181,7 +181,7 @@ Nb of EvoSuite Tests:29
 Nb of Removed Tests:1
 
 
-## Patch 8 # Nopol+UnsatGuided 
+## Patch 8 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator : 150
 
@@ -626,4 +626,4 @@ Average Nb of EvoSuite Tests:31.73
 
 Average Nb of Removed Tests:0.57
 
-Runing Nopol+UnsatGuided changes the original patch for 25 of the 30 seeds. The human patch involves changes to multiple files, the original patch and the newly generated patches by running Nopol+UnsatGuided add a precondition to a specific statement, we think they are incorrect. We observe failing EvoSuite tests for both programs patched with the original Nopol patch and the new patches genertaed by running Nopol+UnsatGuided, which verifies our analysis.
+Runing Nopol+UnsatGuided changes the original patch for 25 of the 30 seeds. The human patch involves changes to multiple files, the original patch and the selected newly generated patch by running Nopol+UnsatGuided add a precondition to a specific statement, we think they are incorrect. We observe failing EvoSuite tests for both programs patched with the original Nopol patch and the selected new patch genertaed by running Nopol+UnsatGuided, which verifies our analysis.

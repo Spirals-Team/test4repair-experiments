@@ -32,7 +32,7 @@ org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.this.baseToolTipG
 Execution Time: 00:02 (hh:mm)
 
 
-## Patch 1 # Nopol+UnsatGuided 
+## Patch 1 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer : 1798
 

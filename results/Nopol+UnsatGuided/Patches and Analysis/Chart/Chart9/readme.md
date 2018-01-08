@@ -32,7 +32,7 @@ org.jfree.data.time.TimeSeries.this.data.size() == org.jfree.data.time.TimeSerie
 Execution Time: 00:01 (hh:mm)
 
 
-## Patch 1 # Nopol+UnsatGuided 
+## Patch 1 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.jfree.data.time.TimeSeries : 883
 

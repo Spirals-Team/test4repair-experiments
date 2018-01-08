@@ -221,7 +221,7 @@ Nb of EvoSuite Tests:121
 Nb of Removed Tests:1
 
 
-## Patch 11 # Nopol+UnsatGuided 
+## Patch 11 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.apache.commons.lang.BooleanUtils : 677
 
@@ -609,4 +609,4 @@ Average Nb of EvoSuite Tests:124
 
 Average Nb of Removed Tests:0.5
 
-Running Nopol+UnsatGuided changes the original patch for 29 of the 30 seeds. The human patch add a return false after an if condition, the original patch and the newly generated patch by running Nopol+UnsatGuided both do not fix the problem caused by the wrong switch-case flow, they just overfit the tests.
+Running Nopol+UnsatGuided changes the original patch for 29 of the 30 seeds. The human patch add a return false after an if condition, the original patch and the selected newly generated patch by running Nopol+UnsatGuided both do not fix the problem caused by the wrong switch-case flow, they just overfit the tests.

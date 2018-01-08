@@ -394,7 +394,7 @@ Nb of EvoSuite Tests:21
 Nb of Removed Tests:0
 
 
-## Patch 20 # Nopol+UnsatGuided 
+## Patch 20 # Nopol+UnsatGuided (selected for manual analysis)
 
 org.apache.commons.lang.time.StopWatch : 118
 
@@ -611,4 +611,4 @@ Average Nb of EvoSuite Tests:20.17
 
 Average Nb of Removed Tests:0.03
 
-Running Nopol+UnsatGuided changes the original patch for each of the 30 seeds. The human adds a precondition before the assignment, both the original patch and the newly generated patches also add a precondition to the buggy statement, and the precondition is semantically equivalent to the precondition added by human developer.
+Running Nopol+UnsatGuided changes the original patch for each of the 30 seeds. The human adds a precondition before the assignment, both the original patch and the selected newly generated patch also add a precondition to the buggy statement, and the precondition is semantically equivalent to the precondition added by human developer.
