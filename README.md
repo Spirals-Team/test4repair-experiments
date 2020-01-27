@@ -12,19 +12,21 @@ correctness of the generated patches.
 
 If you use this data, please cite:
 
-Zhongxing Yu, Matias Martinez, Benjamin Danglot, Thomas Durieux and Martin Monperrus, "Test Case Generation for Program Repair: A Study of Feasibility and Effectiveness", 1703.00198, Arxiv, no. 1703.00198, 2017.
+Zhongxing Yu, Matias Martinez, Benjamin Danglot, Thomas Durieux and Martin Monperrus, "[Alleviating Patch Overfitting with Automatic Test Generation: A Study of Feasibility and Effectiveness for the Nopol Repair System](https://hal.inria.fr/hal-01774223/file/alleviating_Overfitting.pdf)", In Empirical Software Engineering, Springer Verlag, 2018. 
 
 Bibtex Entry:
 
-    @techreport{Zu2017Test4Repair,
-        title = {{Test Case Generation for Program Repair: A Study of Feasibility and Effectiveness}},
-        author = {Zhongxing Yu and Matias Martinez and  Benjamin Danglot and Thomas Durieux and 
-                Martin Monperrus},
-        institution = {Arxiv},
-        year = {2017},
-        number = {1703.00198},
-        url = {https://arxiv.org/pdf/1703.00198},
-    }
+```
+@article{yu:hal-01774223,
+ title = {Alleviating Patch Overfitting with Automatic Test Generation: A Study of Feasibility and Effectiveness for the Nopol Repair System},
+ author = {Yu, Zhongxing and Martinez, Matias and Danglot, Benjamin and Durieux, Thomas and Monperrus, Martin},
+ url = {https://hal.inria.fr/hal-01774223/file/alleviating_Overfitting.pdf},
+ journal = {{Empirical Software Engineering}},
+ publisher = {{Springer Verlag}},
+ year = {2018},
+ doi = {10.1007/s10664-018-9619-4},
+}
+```
 
 We recently have made a major revision of the above arxiv preprint and have submitted the new version to the Empirical Software Engineering journal (EMSE). The new version is titled "Alleviating Patch Overfitting with Automatic Test Generation: A Study of Feasibility and Effectiveness for the Nopol Repair System". In this new version, we deeply analyze the overfitting problem in program repair and give a classification of this problem. We also analyze and systematically evaluate the effectiveness of UnsatGuided in alleviating different kinds of overfitting behaviours. Experimetal data related with this new version are also put in this repository. 
 
